@@ -1,0 +1,54 @@
+{
+  "id": "F11",
+  "run_id": "114781a07feb4990af7053159d2c0805",
+  "status": "DONE",
+  "tx_requested": false,
+  "first_tile_s": 0.9457131589952041,
+  "within_target": false,
+  "scan_status": "PASS_SNAPSHOT_SCAN",
+  "scan_file": "scan/result.json",
+  "scan_sha256": "1725202787441a398fb642e218e3a78327b2912385c2d82a83f84188d129c112",
+  "strongest": [
+    {
+      "frequency_hz": 331755000.0,
+      "power_db": -54.803430206210095
+    },
+    {
+      "frequency_hz": 307185000.0,
+      "power_db": -58.07344574284669
+    },
+    {
+      "frequency_hz": 319475000.0,
+      "power_db": -58.53129603503314
+    },
+    {
+      "frequency_hz": 417775000.0,
+      "power_db": -58.92852216756735
+    },
+    {
+      "frequency_hz": 344045000.0,
+      "power_db": -58.97972601181884
+    }
+  ],
+  "elapsed_s": 34.04546688899427,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": true
+}

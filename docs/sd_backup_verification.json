@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T01:24:09.166847+08:00",
+  "image_path": "F:\\.zss\\zss\\build\\sd_boot_backup\\zss_sd_20261103_full.img",
+  "source_record_sha256": "72b15e6f2a761e86164336badf12ba529e80b88c1186348ab5b47bbbebac04b8",
+  "operator_reported_read_complete": true,
+  "source_disk_writes": false,
+  "restore_tested": false,
+  "filesystem_health_verified": false,
+  "scope": "Image size, partition signatures and SHA256; does not prove error-free filesystems or a successful restore.",
+  "partitions": [
+    {
+      "partition_number": 1,
+      "mbr_type": 12,
+      "offset": 4096,
+      "size": 136314880
+    },
+    {
+      "partition_number": 2,
+      "mbr_type": 131,
+      "offset": 137363456,
+      "size": 31129075712
+    }
+  ],
+  "image_size_bytes": 31266439168,
+  "image_sha256": "23d0c3b936df87745aab7b8700c691c020bcd0792b2d0b149c4b0018317b5e80"
+}

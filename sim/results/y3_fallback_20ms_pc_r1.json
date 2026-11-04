@@ -1,0 +1,17 @@
+{
+  "schema": "y3-fallback-20ms-pc-regression-v1",
+  "status": "PASS_PC_ONLY",
+  "recorded_utc": "2026-11-03T09:23:31.834225+00:00",
+  "tests_passed": 435,
+  "scope": "PC software tests and prior board synthetic CPU throughput only; no RF, DMA, I2S or audio acceptance",
+  "board_benchmark": "board/measurements/y3_fallback_cpu_20ms_r1.json",
+  "sha256": {
+    "board/measurements/y3_fallback_cpu_20ms_r1.json": "591c8d8c4c6cb6ee8af7692a52de234ff2b13c4ef82ea0287ee7062a5d6e6d00",
+    "logs/T5_full_pc_nocapture_r2.stdout.log": "f3ff69ca68a81a1680969a2fc8a5f75c78880cead1b17beb80c9cce945bcb495",
+    "tools/bench_y3_fallback.py": "ac4be2731539855daef4e4bc9931bcb4740fc28eaba66f21c861dea8c2880afc",
+    "src/ps/sentinel/fm_stream_y3.py": "32ba69f127c2f92b464d61690027220658b406d6b5ab98335a34a1cd076a65e2",
+    "src/ps/sentinel/v_y3.py": "223064f5d50ada39d93a715d61e106cfb23e662fe1be0ed6784657328c7bbbeb",
+    "src/ps/tests/test_fm_stream_y3.py": "e0cae1ac1ceecb97e5c314332f6be87a6a7157099d4686ead0e3a94896add655",
+    "src/ps/tests/test_v2_clock.py": "f2cb10d6caa02b343a6cd3311d269cfd8ad69f14b23465a82c5606f5f3f642fa"
+  }
+}

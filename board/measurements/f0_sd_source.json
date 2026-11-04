@@ -1,0 +1,33 @@
+{
+  "status": "READY_FOR_HUMAN_READ",
+  "recorded_at_pc": "2026-11-03T21:29:41.7674233+08:00",
+  "source_disk_number": 3,
+  "source_bus": "USB",
+  "source_name": "Mass Storage Device",
+  "source_serial": "121220160204",
+  "source_size_bytes": 31266439168,
+  "source_drive_letter": "H",
+  "source_volume_label": "PYNQ",
+  "source_volume_health": "Warning",
+  "partitions": [
+    {
+      "PartitionNumber": 1,
+      "Offset": 4096,
+      "Size": 136314880,
+      "Type": "FAT32 XINT13"
+    },
+    {
+      "PartitionNumber": 2,
+      "Offset": 137363456,
+      "Size": 31129075712,
+      "Type": "Unknown"
+    }
+  ],
+  "image_path": "E:\\zip\\zss_sd_F0_full.img",
+  "destination_disk_number": 0,
+  "destination_free_bytes": 121298391040,
+  "whole_disk_read_required": true,
+  "image_created": false,
+  "user_confirmed_board_power_off": true,
+  "shutdown_sequence_verified_this_turn": false
+}

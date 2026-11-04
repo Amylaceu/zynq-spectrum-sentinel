@@ -1,0 +1,6 @@
+{
+  "source": "src/hw/fmcomms2_z20_lcd_live/lcd_j22_framebuffer.v",
+  "source_sha256": "1917436578e8fffe4f9bc84ea495a8e011c7f56ce76f363021f7546d12abeca9",
+  "instructions": 72,
+  "bus_words": 68
+}

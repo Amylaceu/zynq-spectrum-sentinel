@@ -1,0 +1,73 @@
+{
+  "status": "PASS_COMPARISON_S2_FM_TARGET_FAILED",
+  "measurements": [
+    {
+      "antenna": "S1",
+      "validation_sha256": "115633c40b47d0a021e7357e998bf6816b5e9514b1c0f0dac925810baf0fe477",
+      "automatic_status": "PASS_AUTOMATED_AWAITING_LISTENING",
+      "pilot_db": {
+        "count": 74,
+        "minimum": 25.152745988165005,
+        "median": 34.75117531942373
+      },
+      "audible_seconds": 28.65711435099729,
+      "duration_s": 30.00089091799964,
+      "checks": {
+        "completed": true,
+        "duration": true,
+        "sample_count": true,
+        "fifo_clean": true,
+        "display": true,
+        "final_interval_clean": true,
+        "temperature": true,
+        "clock_counts": true,
+        "rf_muted": true,
+        "codec_stopped": true,
+        "source_stopped": true,
+        "same_boot": true,
+        "telemetry_coverage": true,
+        "audible_coverage": true,
+        "pilot_min_20db": true
+      },
+      "min_fps": 39.82671046324482,
+      "max_temperature_c": 64.227282714648
+    },
+    {
+      "antenna": "S2",
+      "validation_sha256": "13287361a11ed838a1db4a8318d5f55b894a8933cfc924d8a2dc879baabdbd53",
+      "automatic_status": "FAIL",
+      "pilot_db": {
+        "count": 72,
+        "minimum": 0.04658167245520279,
+        "median": 6.756208152850333
+      },
+      "audible_seconds": 0,
+      "duration_s": 30.10558209199735,
+      "checks": {
+        "completed": true,
+        "duration": true,
+        "sample_count": true,
+        "fifo_clean": true,
+        "display": true,
+        "final_interval_clean": true,
+        "temperature": true,
+        "clock_counts": true,
+        "rf_muted": true,
+        "codec_stopped": true,
+        "source_stopped": true,
+        "same_boot": true,
+        "telemetry_coverage": true,
+        "audible_coverage": false,
+        "pilot_min_20db": false
+      },
+      "min_fps": 40.3395207873622,
+      "max_temperature_c": 63.858160400196
+    }
+  ],
+  "preferred_for_fm": "S1",
+  "selection_final": false,
+  "conclusion": "S2 quality gate held the codec muted throughout; do not confuse clean digital FIFO with audible broadcast reception.",
+  "s2_human_listening": "PENDING",
+  "s2_ota": "NOT_RUN",
+  "s2_hotspot": "NOT_RUN"
+}

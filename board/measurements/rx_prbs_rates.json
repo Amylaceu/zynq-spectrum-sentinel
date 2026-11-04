@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "requested_rate_hz": 30720000,
+      "actual_rate_hz": 30720000,
+      "duration_ms": 500,
+      "channel_sticky_status": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "return_code": 0,
+      "adc_clock_frequency_register": 80542,
+      "adc_clock_ratio_register": 1,
+      "adc_status": 13
+    },
+    {
+      "requested_rate_hz": 3840000,
+      "actual_rate_hz": 3840000,
+      "duration_ms": 500,
+      "channel_sticky_status": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "return_code": 0,
+      "adc_clock_frequency_register": 10068,
+      "adc_clock_ratio_register": 1,
+      "adc_status": 13
+    }
+  ],
+  "rf_transmission_requested": false,
+  "gpio_after_close": 0
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "X1 finite tone/replay verification only; RF metrics and visual acceptance separate",
+  "result_sha256": "1d1ded9c7044628516870f1194499ba0b2e441a70d40a9836cb4d45d714cefe8",
+  "archive_sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+  "bit_sha256": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+  "reference_sha256": {
+    "in_axis32.hex": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+    "exp_power_shifted.hex": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4"
+  },
+  "replay_compared_words": 8192,
+  "mismatches_by_frame": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "single_peak_bin": 1088,
+  "three_peak_bins": [
+    724,
+    1088,
+    1324
+  ],
+  "cfar_target_count": 3,
+  "recorded_at_pc": "2026-11-03T03:07:40.817396+08:00"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS_CAPTURE_ONLY",
+  "started_utc": "2026-11-03T11:54:54.751386+00:00",
+  "configuration": "A",
+  "RF_TX_requested": false,
+  "audio_playback_requested": false,
+  "script_sha256": "839f0ba219fa65bd4b453751bd83d4ec8c57c0348b867a05ff353c9bad81ae39",
+  "preflight": {
+    "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 0,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "runtime": "/home/xilinx/sentinel/setup/y3_v2_audio_r3_runtime",
+  "ssh_exit_code": 0,
+  "result_sha256": "48039ee69c615b8aed11afdc41ad82a88ae0e7e52214fe0b5bb76bf0a6889018",
+  "postflight": {
+    "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "log_sha256": "28222ada96b0b91d93b20b0aac1de92b94e27e6e0ea7791d890ac66dc54953b2"
+}

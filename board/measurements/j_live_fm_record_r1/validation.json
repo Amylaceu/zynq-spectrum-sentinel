@@ -1,0 +1,40 @@
+{
+  "status": "FAIL",
+  "antenna": "RX1A_FM_20_512",
+  "session_id": "0068634f-720c-4e49-8949-6d7879fca223",
+  "host_utc": "2026-11-04T01:57:38.943456+00:00",
+  "rf_tx_requested": false,
+  "pl_rebuilt": false,
+  "bitstream_download": false,
+  "bundle_root": "/home/xilinx/sentinel/release/i2_r2",
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "script_sha256": "5af1f450ac6a9e2515b22eac1f96238c885c777e9c0b6341fcf06431ad052415",
+  "execution_error": "RuntimeError(\"SSH exit 1: /usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_fmc is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_audio is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:681: UserWarning: Interrupt mm2s_introut not created: Could not find UIO device for interrupt pin for IRQ number 85\\n  warnings.warn('Interrupt {} not created: {}'.format(\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:681: UserWarning: Interrupt s2mm_introut not created: Could not find UIO device for interrupt pin for IRQ number 86\\n  warnings.warn('Interrupt {} not created: {}'.format(\\n\")",
+  "error": "RuntimeError('Need current IQ and signed result')",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

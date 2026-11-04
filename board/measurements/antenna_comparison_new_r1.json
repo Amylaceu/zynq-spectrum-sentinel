@@ -1,0 +1,162 @@
+{
+  "status": "COMPLETED_ANTENNA_PAIR_COMPARISON",
+  "recorded_at_pc": "2026-11-03T04:11:57.256854+08:00",
+  "scope": "Two sequential 120s receive-only windows; not full X1 acceptance",
+  "station_hz": 95800000,
+  "tolerance_hz": 25000,
+  "configuration": {
+    "average_shift": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "alpha": 1974,
+    "mask_table": [],
+    "dc_mask": 3
+  },
+  "actual_lo_hz": 96399998,
+  "actual_rate_hz": 3840000,
+  "rf_bandwidth_hz": 1500000,
+  "bus_phase": 3,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "monitor_sha256": "7b483706758cb110fa3a0bb8aadcd19dec0611f87507307255b080af6aa2aea0",
+  "frozen_software": {
+    "path": "docs/x1_software_predeployment_r3.json",
+    "sha256": "19b3955f0488962feda51480667d9912e7d04cb90927a0595bd3437cfbf7265f"
+  },
+  "frozen_software_files_verified": 18,
+  "runs": {
+    "baseline": {
+      "antenna": "short",
+      "description": "ANT-2: thin/short 20-512MHz, long feedline",
+      "metrics": {
+        "telemetry_records": 102,
+        "coherent_snapshots": 102,
+        "snapshot_misses": 0,
+        "capacity_alarm_records": 0,
+        "capacity_alarm_rate_valid": 0.0,
+        "capacity_alarm_rate_upper_bound_all_attempts": 0.0,
+        "station_detected_records": 21,
+        "station_detection_rate_all_attempts": 0.20588235294117646,
+        "target_count_median": 5.0,
+        "display_fps_median": 49.43460777848961,
+        "temperature_range_c": [
+          59.797814941224004,
+          61.274304199032
+        ],
+        "sample_overflow_records": 0,
+        "configuration": {
+          "average_shift": 3,
+          "min_width_bins": 2,
+          "merge_gap_bins": 6,
+          "alpha": 1974,
+          "mask_table": [],
+          "dc_mask": 3
+        },
+        "receiver_rssi_dbm": {
+          "median": -72.0,
+          "minimum": -120.0,
+          "maximum": -71.25
+        }
+      },
+      "elapsed_total_s": 120.01239416400131,
+      "started_at_pc": "2026-11-03T04:06:07.630985+08:00",
+      "ended_at_pc": "2026-11-03T04:08:18.430814+08:00",
+      "evidence": {
+        "measurement": {
+          "path": "board/measurements/antenna_compare_short_r2.json",
+          "sha256": "b584771491be988ec1050137d0564e841656c177c26609df9468666fc3fd6785"
+        },
+        "execution": {
+          "path": "board/measurements/antenna_compare_short_r2_execution.json",
+          "sha256": "79af350d3448de6ece46099cdecb7ff4b2f14f30b5d8b4d03aa751083d7a673f"
+        },
+        "log": {
+          "path": "logs/X1_antenna_compare_short_r2.log",
+          "sha256": "c28a41025e17626318c1f0de0cc105e9abf956a07a6b2f246e6fee37cfae02ec"
+        }
+      },
+      "receiver_stopped": true
+    },
+    "candidate": {
+      "antenna": "new",
+      "description": "New user-found antenna, user-reported same frequency band; model not provided",
+      "metrics": {
+        "telemetry_records": 107,
+        "coherent_snapshots": 107,
+        "snapshot_misses": 0,
+        "capacity_alarm_records": 3,
+        "capacity_alarm_rate_valid": 0.028037383177570093,
+        "capacity_alarm_rate_upper_bound_all_attempts": 0.028037383177570093,
+        "station_detected_records": 26,
+        "station_detection_rate_all_attempts": 0.24299065420560748,
+        "target_count_median": 9,
+        "display_fps_median": 49.38758103095513,
+        "temperature_range_c": [
+          59.797814941224004,
+          61.028222656064
+        ],
+        "sample_overflow_records": 0,
+        "configuration": {
+          "average_shift": 3,
+          "min_width_bins": 2,
+          "merge_gap_bins": 6,
+          "alpha": 1974,
+          "mask_table": [],
+          "dc_mask": 3
+        },
+        "receiver_rssi_dbm": {
+          "median": -76.25,
+          "minimum": -80.75,
+          "maximum": -73.5
+        }
+      },
+      "elapsed_total_s": 120.03485846600051,
+      "started_at_pc": "2026-11-03T04:09:31.024099+08:00",
+      "ended_at_pc": "2026-11-03T04:11:42.197431+08:00",
+      "evidence": {
+        "measurement": {
+          "path": "board/measurements/antenna_compare_new_r1.json",
+          "sha256": "b6ea01f4316741c0feedad38bcefa3254c8ec54c4039a51144ca6fedad31bca7"
+        },
+        "execution": {
+          "path": "board/measurements/antenna_compare_new_r1_execution.json",
+          "sha256": "e7efe562ee8485f2bb6775ddf5b45a6c1f6cfb676f14c98efe91e44234b78917"
+        },
+        "log": {
+          "path": "logs/X1_antenna_compare_new_r1.log",
+          "sha256": "5af805d0adcabdd531461f0be53ef681dd194422be5f3ae08e418490dd0e48c9"
+        }
+      },
+      "receiver_stopped": true
+    }
+  },
+  "human_confirmed_same_placement": true,
+  "candidate_minus_baseline_detection_percentage_points": 3.7108301264431014,
+  "observed_higher_station_detection_role": "candidate",
+  "x1_acceptance_unchanged": "FAIL; no 98MHz capacity window in this comparison",
+  "limitations": [
+    "Preference applies only to this station and placement, not full-band antenna gain.",
+    "Sequential windows can differ with time, multipath, placement and contact quality.",
+    "Receiver-reported RSSI is not calibrated target SNR or antenna gain.",
+    "The denominator counts scheduled telemetry attempts, not all PL frames.",
+    "One window per antenna does not establish repeatability."
+  ],
+  "analysis_sources": [
+    {
+      "path": "tools/analyze_antenna_pair.py",
+      "sha256": "c4f8e608b6ea8afd83d652805ead771446cd7efb4e65d74a24fc5048f55045cc"
+    },
+    {
+      "path": "tools/analyze_antenna_comparison.py",
+      "sha256": "05b73571facf0d6b3300c5845faf6e6be19b5195577784569cfd4a75a6e34e3c"
+    },
+    {
+      "path": "tools/analyze_x1_board.py",
+      "sha256": "8d84ab623d4c13ef4b2b13cbca31cdef730153bba1b1bf8425d4fb83b2b287e7"
+    }
+  ]
+}

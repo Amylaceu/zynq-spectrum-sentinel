@@ -1,0 +1,21 @@
+{
+  "status": "FAIL_CHECKPOINT_LINK",
+  "recorded_at_pc": "2026-11-03T04:04:08.306666+00:00",
+  "process_exit_code": -1073741819,
+  "synthesis_invoked": false,
+  "diagnosis": "Vivado EXCEPTION_ACCESS_VIOLATION while inserting adc_tap OOC checkpoint; cause undetermined",
+  "evidence_marker": "Abnormal program termination (EXCEPTION_ACCESS_VIOLATION)",
+  "board_loaded": false,
+  "archive": "report/results/z2_link_failure_2.zip",
+  "archive_sha256": "bfdae284011c14b5ac6404fc0b2fb896e1eef5709872228fe26e31fe8963e515",
+  "files_sha256": {
+    "build/scripts/link_z2_nonproject.tcl": "503a4e18889a3dda88919d5fd7016f3cdc79623fac038ed792503b626bd4d2c6",
+    "hs_err_pid20032.log": "56867003ffe4329f75e1c0c57c49327bd32d993927d770f6f36aaaa2d7765f73",
+    "hs_err_pid20032.dmp": "959adbd14d6eb74e7e1008ed93622754284940b7b8a809ebd9413d3156ddb14f",
+    "tools/archive_z2_link.py": "d891a7e6e0dffc2ca196bade6c6617f0f7ad1db5953bc27af111c6cbed15e957",
+    "logs/Y2_z2_link_attempt2.jou": "7795fe039d5d571d117d504a91c5bcf7705b466ca64a0b9ceb982cf6fa9d4fa3",
+    "logs/Y2_z2_link_attempt2.log": "011caa34c93bbbd4181cf17cdb8c48615b52fabb64f2ba7cbd8283922c5cce77",
+    "logs/Y2_z2_link_attempt2_controller.log": "0189b834f96797a2a5612de5c0ecd0aaf30730e384fff5121d2d7cf8ebaae071",
+    "logs/Y2_z2_link_attempt2_exit.txt": "0065eb2859d3d8935a9b67baade22b7fec608935486ce046841c2b5ab8133241"
+  }
+}

@@ -1,0 +1,2063 @@
+{
+  "status": "PASS_PAIRING",
+  "recorded_at_pc": "2026-11-03T04:03:27.309945+08:00",
+  "scope": "Finite gated-frame hardware/model equivalence and decision traces only; X1 RF acceptance unchanged",
+  "model_origin": "Threshold/hit/mask reconstructed on PC, not measured hardware outputs",
+  "physical_limits": "No raw IQ or independent truth source; cannot infer actual station presence or RF cause",
+  "source": "rf",
+  "paired_frames": 96,
+  "exact_power_words": 196608,
+  "exact_counter_fields": 576,
+  "target_records_exact": 214,
+  "station_detected_frames": 77,
+  "decision_label_counts": {
+    "published_peak_in_tolerance": 77,
+    "width_filtered_segment_in_tolerance": 13,
+    "no_post_mask_hit_in_tolerance": 6
+  },
+  "labels_may_overlap": true,
+  "frames": [
+    {
+      "index": 0,
+      "cfar_sequence": 65,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "peak_power": 116813,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 1,
+      "cfar_sequence": 66,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 695,
+          "stop": 697,
+          "peak_bin": 696,
+          "peak_power": 455024,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 2,
+      "cfar_sequence": 67,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 695,
+          "stop": 697,
+          "peak_bin": 696,
+          "peak_power": 398303,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 2,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 3,
+      "cfar_sequence": 68,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 557452,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 4,
+      "cfar_sequence": 69,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "peak_power": 803165,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 5,
+      "cfar_sequence": 70,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 701,
+          "peak_bin": 701,
+          "peak_power": 706609,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 6,
+      "cfar_sequence": 71,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1161951,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 7,
+      "cfar_sequence": 72,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1586627,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 8,
+      "cfar_sequence": 73,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 1852737,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 1,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 9,
+      "cfar_sequence": 74,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2158945,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 10,
+      "cfar_sequence": 75,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2404864,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 11,
+      "cfar_sequence": 76,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2106134,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 12,
+      "cfar_sequence": 77,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1851471,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 13,
+      "cfar_sequence": 78,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1622355,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 14,
+      "cfar_sequence": 79,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1433517,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 15,
+      "cfar_sequence": 80,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1254395,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 16,
+      "cfar_sequence": 81,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 17,
+      "cfar_sequence": 82,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 18,
+      "cfar_sequence": 83,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 19,
+      "cfar_sequence": 84,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 20,
+      "cfar_sequence": 85,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 21,
+      "cfar_sequence": 86,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 22,
+      "cfar_sequence": 87,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1217064,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 23,
+      "cfar_sequence": 88,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1572093,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 24,
+      "cfar_sequence": 89,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1807316,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 25,
+      "cfar_sequence": 90,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1640808,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 26,
+      "cfar_sequence": 91,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1552160,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 27,
+      "cfar_sequence": 92,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1814452,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 28,
+      "cfar_sequence": 93,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2110128,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 29,
+      "cfar_sequence": 94,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2369977,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 30,
+      "cfar_sequence": 95,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2262706,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 31,
+      "cfar_sequence": 96,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1986318,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 32,
+      "cfar_sequence": 97,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1847124,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 33,
+      "cfar_sequence": 98,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1668998,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 34,
+      "cfar_sequence": 99,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1475915,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 35,
+      "cfar_sequence": 100,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1754555,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 36,
+      "cfar_sequence": 101,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2022388,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 37,
+      "cfar_sequence": 102,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2251206,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 38,
+      "cfar_sequence": 103,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1974563,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 39,
+      "cfar_sequence": 104,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1990160,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 40,
+      "cfar_sequence": 105,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1779154,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 41,
+      "cfar_sequence": 106,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1585995,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 42,
+      "cfar_sequence": 107,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1388286,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 43,
+      "cfar_sequence": 108,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1636035,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 44,
+      "cfar_sequence": 109,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 1917803,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 45,
+      "cfar_sequence": 110,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1694334,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 46,
+      "cfar_sequence": 111,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1536159,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 47,
+      "cfar_sequence": 112,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1345439,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 48,
+      "cfar_sequence": 113,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1659253,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 49,
+      "cfar_sequence": 114,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1862192,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 50,
+      "cfar_sequence": 115,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2109082,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 51,
+      "cfar_sequence": 116,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1849452,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 52,
+      "cfar_sequence": 117,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1883361,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 53,
+      "cfar_sequence": 118,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1798710,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 54,
+      "cfar_sequence": 119,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1588655,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 55,
+      "cfar_sequence": 120,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1405295,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 56,
+      "cfar_sequence": 121,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1535973,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 57,
+      "cfar_sequence": 122,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1761744,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 58,
+      "cfar_sequence": 123,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1585392,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 59,
+      "cfar_sequence": 124,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1814750,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 60,
+      "cfar_sequence": 125,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2037371,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 61,
+      "cfar_sequence": 126,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2267822,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 62,
+      "cfar_sequence": 127,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2243880,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 63,
+      "cfar_sequence": 128,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2252407,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 64,
+      "cfar_sequence": 129,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 4,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2189664,
+          "width_bins": 4,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 65,
+      "cfar_sequence": 130,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 4,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2367622,
+          "width_bins": 4,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 66,
+      "cfar_sequence": 131,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 4,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2565013,
+          "width_bins": 4,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 67,
+      "cfar_sequence": 132,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 700,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2249476,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 68,
+      "cfar_sequence": 133,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1968632,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 69,
+      "cfar_sequence": 134,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2243063,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 70,
+      "cfar_sequence": 135,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2415245,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 71,
+      "cfar_sequence": 136,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2497220,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 72,
+      "cfar_sequence": 137,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2198383,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 73,
+      "cfar_sequence": 138,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2215703,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 74,
+      "cfar_sequence": 139,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1950732,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 75,
+      "cfar_sequence": 140,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1715187,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 76,
+      "cfar_sequence": 141,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1910941,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 77,
+      "cfar_sequence": 142,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1829518,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 78,
+      "cfar_sequence": 143,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1602283,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 79,
+      "cfar_sequence": 144,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1831086,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 80,
+      "cfar_sequence": 145,
+      "station_peak_detected": false,
+      "labels": [
+        "width_filtered_segment_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 1,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1605787,
+          "width_bins": 1,
+          "passes_min_width": false
+        }
+      ],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 81,
+      "cfar_sequence": 146,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 702,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 1723159,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 82,
+      "cfar_sequence": 147,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 1944734,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 83,
+      "cfar_sequence": 148,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2252603,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 84,
+      "cfar_sequence": 149,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2390026,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 85,
+      "cfar_sequence": 150,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2595321,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 86,
+      "cfar_sequence": 151,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 3,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "peak_power": 2275610,
+          "width_bins": 3,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 87,
+      "cfar_sequence": 152,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2012391,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 88,
+      "cfar_sequence": 153,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1969201,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 89,
+      "cfar_sequence": 154,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1845501,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 90,
+      "cfar_sequence": 155,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1903398,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 91,
+      "cfar_sequence": 156,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1812738,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 92,
+      "cfar_sequence": 157,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "peak_power": 1625435,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 93,
+      "cfar_sequence": 158,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1837200,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 94,
+      "cfar_sequence": 159,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 2023676,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    },
+    {
+      "index": 95,
+      "cfar_sequence": 160,
+      "station_peak_detected": true,
+      "labels": [
+        "published_peak_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 2,
+      "segments_overlapping_tolerance": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "peak_power": 1798041,
+          "width_bins": 2,
+          "passes_min_width": true,
+          "rank": 0,
+          "kept_top32": true
+        }
+      ],
+      "published_interval_overlaps_tolerance": true
+    }
+  ],
+  "configuration": {
+    "average_shift": 3,
+    "mode": "CA",
+    "n": 16,
+    "guard": 2,
+    "alpha": 1974,
+    "dc_mask": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "mask_table": []
+  },
+  "evidence_sha256": {
+    "board/measurements/x1_diagnostic_rf_r2.json": "e40a3edca5f9d658c25c6184472648dc3dc6ee41e34963a0f1febe033a5b9525",
+    "board/measurements/x1_diagnostic_rf_r2.npz": "4a75f8f538b84e06bb0a3427acd42c06366f87057068081e3309e1d6b3f1a313",
+    "board/measurements/x1_diagnostic_rf_r2_execution.json": "d3a6038c989a79ee186f29cb0759467d56ba82d95a2f2bd0aa2e8ee15c09e51d",
+    "board/measurements/x1_diagnostic_rf_r2_model.npz": "84b26c5f407205e4b8179f44e01096a28c67f789b778646c4a6bddf4cf0f4f5d"
+  },
+  "source_sha256": {
+    "tools/analyze_x1_diagnostic.py": "e3c20ff3c152a7b4afd9f680c08bc144a2f3f1a25fe90829ebcbf838aa76ea49",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "scope": "finite internal digital loopback; no RF/BER claim",
+  "attempt": 4,
+  "source_result": "board\\measurements\\tx_loopback.json",
+  "result_sha256": "9ef084fe87395e202d3d4af457931281fdf3c61f2cb8a354fda1ab39e056155b",
+  "sequences": [
+    {
+      "kind": "ramp",
+      "compared_words": 131072,
+      "mismatch_by_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alignment_samples": 3902,
+      "capture_file": "board/measurements/tx_loopback_round4_ramp.npz",
+      "capture_bytes": 281329,
+      "capture_sha256": "d572a63fa690e83db73385f1d8ad76675a8cd5e439507c60bb553d89c728c56f"
+    },
+    {
+      "kind": "pn",
+      "compared_words": 131072,
+      "mismatch_by_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alignment_samples": 3433,
+      "capture_file": "board/measurements/tx_loopback_round4_pn.npz",
+      "capture_bytes": 131836,
+      "capture_sha256": "eb50bdd75dc91ac876b239b4a1f40ead2f47e2978218c9ea57eb96b4111f69bb"
+    }
+  ],
+  "tx_atten_mdb_samples": [
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ]
+  ],
+  "gpio_after_close": 0,
+  "buffers_quarantined": false,
+  "figure": "report/figures/tx_loopback.png"
+}

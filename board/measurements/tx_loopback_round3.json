@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "attempt": 3,
+  "sequences": [
+    {
+      "alignment_samples": 4075,
+      "compared_words": 131072,
+      "mismatch_words": 0,
+      "mismatch_by_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "kind": "ramp",
+      "tx_bytes": 65536,
+      "rx_bytes": 262144,
+      "rx_min": -2048,
+      "rx_max": 2047,
+      "reference_sha256": "a621f1deef1e3b4bf667d406ea81bde2ac4c9ffbfb766fa3544010465440b3ed",
+      "rx_sha256": "e00dd95ffed88cc9bcb44b87f0b2fdc993dc3bdc93ce0477949ae0d3c523a19c",
+      "guards_ok": true
+    },
+    {
+      "alignment_samples": 2362,
+      "compared_words": 131072,
+      "mismatch_words": 0,
+      "mismatch_by_channel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true,
+      "kind": "pn",
+      "tx_bytes": 65536,
+      "rx_bytes": 262144,
+      "rx_min": -2048,
+      "rx_max": 2047,
+      "reference_sha256": "19b21c26c10d740fc2db9c47e52021556665284f42e9044aa71a6e62e723182d",
+      "rx_sha256": "3a8de809f0d1e5373e848caa8d5c29fc15e93746b49bf30ae842cd21095f6e4c",
+      "guards_ok": true
+    }
+  ],
+  "rf_transmission_requested": false,
+  "tx_ports_empty_user_confirmed": true,
+  "format": "TX signed12 left-aligned16 -> RX signed12 sign-extended16; all12 bits compared",
+  "stage": "drain_pn_cyclic_tx",
+  "bit_sha256": "773a378a6ee8f4b6b7e9a824e71a4eaa823087f33faf57c2029348f2a92c8487",
+  "overlay_reloaded": true,
+  "observe_config": 1,
+  "rx_channel_control": [
+    81,
+    81,
+    81,
+    81
+  ],
+  "dac_data_select": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "tx_atten_mdb_samples": [
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ],
+    [
+      89750,
+      89750
+    ]
+  ],
+  "gpio_after_close": 0,
+  "buffers_quarantined": false
+}

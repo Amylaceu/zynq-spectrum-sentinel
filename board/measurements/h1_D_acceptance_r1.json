@@ -1,0 +1,50 @@
+{
+  "status": "FUNCTION_PASS_TIME_TARGET_FAIL",
+  "group": "D",
+  "tiles": 243,
+  "range_hz": [
+    512000000,
+    2700000000
+  ],
+  "elapsed_s": 206.60793947699858,
+  "target_s": 30,
+  "target_changed": false,
+  "covered_bins": 218800,
+  "missing_bins": 0,
+  "stages_total_s": {
+    "combined_rate_lo_bandwidth_configure_s": 9.384174809994875,
+    "agc_wait_s": 36.50008735096708,
+    "initial_state_readback_s": 0.31258188101128326,
+    "discard_dma_s": 21.929579473046033,
+    "retained_dma_s": 22.06152755101357,
+    "final_state_readback_s": 0.31866658896615263,
+    "welch_s": 37.381074966040615,
+    "npz_compression_write_and_hash_s": 3.86837251498946,
+    "unattributed_s": 5.645149961939751,
+    "tile_total_before_progress_write_s": 137.40782779697474
+  },
+  "postflight_status": "PASS",
+  "baseline_restore": {
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "ensm_mode": 1,
+    "rssi_dbm": -76.75,
+    "rx1_gain_db": 73
+  },
+  "stopped": {
+    "gpio": 0,
+    "source": 0,
+    "audio": 0
+  },
+  "gui_live_tiles": 243,
+  "gui_errors": [],
+  "final_sha_verified": true,
+  "human_observation": "\u9010\u6bb5\u589e\u52a0",
+  "raw_iq_saved": false,
+  "continuous_dma_certified": false,
+  "iq_recomputation_available": false
+}

@@ -1,0 +1,8 @@
+{
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "gpio_data": 0,
+  "source_ctrl": 0,
+  "scope": "Read-only X1 stop-state check; no overlay download or RF initialization",
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T03:13:18.192521+08:00"
+}

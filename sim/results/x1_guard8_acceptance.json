@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "guard=8 RTL/model simulation only",
+  "cases": 18,
+  "comparisons": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+      "actual_sha256": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+      "actual_sha256": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+      "actual_sha256": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+      "actual_sha256": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "expected_sha256": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+      "actual_sha256": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "expected_sha256": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+      "actual_sha256": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+    }
+  },
+  "source_sha256": {
+    "src/rtl/cfar_x1/cfar_core_x1.v": "dd27ee31d253514bcca44b5c98e9d348bf02632cd194df63c934227d420ae63f",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "525ee3c90fd489fbfefbf0621e971cbdaed609ac176b41e41713eecfaf0be8d5",
+    "src/rtl/cfar_x1/cfar_detect_x1.v": "d1db9f0762333315c9370ceb25e63c809142d07c7d7f4ec97b67ad90a7334c50",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "sim/tb/tb_cfar_core_x1.sv": "0dd968ad48a11cb1e022dcc6220d3ae8bbe5a6b3acd2277c3924c20c65a84648",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446",
+    "tools/export_cfar_x1_core_vectors.py": "9fd5adc1c73ec1eb692c84984f9d3fa3812f6a5b05557d555ba9fbb9bf7fc705",
+    "tools/verify_x1_guard8_sim.py": "68e7575020ea413e907be08097d5ac08fd43e343924f2a5994bd084b99415cb6"
+  },
+  "manifest_sha256": "0b6b510b4b4eef94c8edf38764b37e376381a3239b574618251a755b5b222758",
+  "log_sha256": "2d28b410e0fc1372dd244eb01231e2aee8f97336eb93f10a60e0377d9e76541e"
+}

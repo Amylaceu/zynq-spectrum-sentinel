@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETED_ANTENNA_COMPARISON",
+  "recorded_at_pc": "2026-11-03T03:37:28.942371+08:00",
+  "scope": "Two user-authorized 120s receive-only station windows; not full X1 acceptance",
+  "station_hz": 95800000,
+  "tolerance_hz": 25000,
+  "configuration": {
+    "average_shift": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "alpha": 1974,
+    "mask_table": [],
+    "dc_mask": 3
+  },
+  "actual_lo_hz": 96399998,
+  "actual_rate_hz": 3840000,
+  "rf_bandwidth_hz": 1500000,
+  "bus_phase": 3,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "monitor_sha256": "7b483706758cb110fa3a0bb8aadcd19dec0611f87507307255b080af6aa2aea0",
+  "frozen_software": {
+    "path": "docs/x1_software_predeployment_r3.json",
+    "sha256": "19b3955f0488962feda51480667d9912e7d04cb90927a0595bd3437cfbf7265f"
+  },
+  "frozen_software_files_verified": 18,
+  "human_confirmed_same_placement": true,
+  "runs": {
+    "long": {
+      "antenna": "long",
+      "description": "ANT-1: thick/long 20-512MHz, short feedline",
+      "metrics": {
+        "telemetry_records": 104,
+        "coherent_snapshots": 104,
+        "snapshot_misses": 0,
+        "capacity_alarm_records": 0,
+        "capacity_alarm_rate_valid": 0.0,
+        "capacity_alarm_rate_upper_bound_all_attempts": 0.0,
+        "station_detected_records": 16,
+        "station_detection_rate_all_attempts": 0.15384615384615385,
+        "target_count_median": 8.0,
+        "display_fps_median": 49.4276139452227,
+        "temperature_range_c": [
+          59.797814941224004,
+          61.151263427548
+        ],
+        "sample_overflow_records": 0,
+        "configuration": {
+          "average_shift": 3,
+          "min_width_bins": 2,
+          "merge_gap_bins": 6,
+          "alpha": 1974,
+          "mask_table": [],
+          "dc_mask": 3
+        },
+        "receiver_rssi_dbm": {
+          "median": -116.5,
+          "minimum": -116.75,
+          "maximum": -110.25
+        }
+      },
+      "elapsed_total_s": 120.02642388899949,
+      "started_at_pc": "2026-11-03T03:29:11.118875+08:00",
+      "ended_at_pc": "2026-11-03T03:31:22.418307+08:00",
+      "evidence": {
+        "measurement": {
+          "path": "board/measurements/antenna_compare_long_r1.json",
+          "sha256": "29b071bf199a0d89a1068d5830aec832023645be9945dbb19ff239ca787bd6d4"
+        },
+        "execution": {
+          "path": "board/measurements/antenna_compare_long_r1_execution.json",
+          "sha256": "26c81560d3199d77beb9cabc5710252a260be9cdd66a6bb861660a73fd798e41"
+        },
+        "log": {
+          "path": "logs/X1_antenna_compare_long_r1.log",
+          "sha256": "204fe042afa4e1bfc47501b55cb75400ff8a872ba0e7d928736dc941b3564edc"
+        }
+      },
+      "receiver_stopped": true
+    },
+    "short": {
+      "antenna": "short",
+      "description": "ANT-2: thin/short 20-512MHz, long feedline",
+      "metrics": {
+        "telemetry_records": 105,
+        "coherent_snapshots": 105,
+        "snapshot_misses": 0,
+        "capacity_alarm_records": 2,
+        "capacity_alarm_rate_valid": 0.01904761904761905,
+        "capacity_alarm_rate_upper_bound_all_attempts": 0.01904761904761905,
+        "station_detected_records": 61,
+        "station_detection_rate_all_attempts": 0.580952380952381,
+        "target_count_median": 12,
+        "display_fps_median": 49.38206977055113,
+        "temperature_range_c": [
+          59.674774169740004,
+          61.028222656064
+        ],
+        "sample_overflow_records": 0,
+        "configuration": {
+          "average_shift": 3,
+          "min_width_bins": 2,
+          "merge_gap_bins": 6,
+          "alpha": 1974,
+          "mask_table": [],
+          "dc_mask": 3
+        },
+        "receiver_rssi_dbm": {
+          "median": -69.75,
+          "minimum": -70.5,
+          "maximum": -68.75
+        }
+      },
+      "elapsed_total_s": 120.15842136500032,
+      "started_at_pc": "2026-11-03T03:34:37.003793+08:00",
+      "ended_at_pc": "2026-11-03T03:36:48.446322+08:00",
+      "evidence": {
+        "measurement": {
+          "path": "board/measurements/antenna_compare_short_r1.json",
+          "sha256": "3bc9362d3d7c429f9a6082a05ee813cc07675fc4513ae4581cb6d3bbfd4e81d9"
+        },
+        "execution": {
+          "path": "board/measurements/antenna_compare_short_r1_execution.json",
+          "sha256": "04c6f8f4fdea8583935ec232e91ff561466ad753aadb96538d32ad422700a148"
+        },
+        "log": {
+          "path": "logs/X1_antenna_compare_short_r1.log",
+          "sha256": "edc2834aa2493721ab300e5e7632a720f9f44d58dc61fe4263a2dbe6b4326b3c"
+        }
+      },
+      "receiver_stopped": true
+    }
+  },
+  "short_minus_long_detection_percentage_points": 42.710622710622715,
+  "observed_higher_station_detection_antenna": "short",
+  "x1_acceptance_unchanged": "FAIL; the 98MHz capacity window is not part of this comparison",
+  "limitations": [
+    "Only the current placement and 95.8MHz station were compared; no full-band gain measurement.",
+    "Sequential over-the-air runs can differ with time, multipath and contact quality.",
+    "Receiver-reported RSSI is not calibrated target SNR or antenna gain; AGC and other signals affect it.",
+    "The denominator includes all scheduled telemetry attempts; snapshots are not independent PL frames.",
+    "Only one run per antenna; the observed preference is provisional, not a repeatability result."
+  ],
+  "analysis_sources": [
+    {
+      "path": "tools/analyze_antenna_comparison.py",
+      "sha256": "05b73571facf0d6b3300c5845faf6e6be19b5195577784569cfd4a75a6e34e3c"
+    },
+    {
+      "path": "tools/analyze_x1_board.py",
+      "sha256": "8d84ab623d4c13ef4b2b13cbca31cdef730153bba1b1bf8425d4fb83b2b287e7"
+    }
+  ]
+}

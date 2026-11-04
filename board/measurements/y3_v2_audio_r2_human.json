@@ -1,0 +1,14 @@
+{
+  "status": "FAIL_SUBJECTIVE_30S",
+  "human_statement": "能听到，但噪声较大或断续",
+  "subjective_gate": "not_met",
+  "digital_status": "PASS_SMOKE_NOT_5MIN",
+  "audio_seconds": 30.132666441,
+  "bus_phase": 2,
+  "station_hz": 95800000,
+  "lo_hz": 96280000,
+  "volume_db": -15,
+  "execution_sha256": "ac9e29e389e7ff80aa3af5b2a8b5770b450ec35df8abe0cdfd43e33e2d959a2d",
+  "conclusion": "No I2S/FIFO fault observed; cause of subjective noise/dropout not yet established",
+  "recorded_at_utc": "2026-11-03T11:36:14.1127672Z"
+}

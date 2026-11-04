@@ -1,0 +1,13 @@
+{
+  "boot_id": "496c33e4-3824-4548-8ef7-82e5b95e6a01",
+  "image": "sentinel_v2_100m",
+  "gpio_data": 0,
+  "source_ctrl": 0,
+  "lcd_version": 1279459333,
+  "scope": "Stopped readback only; no RF initialization or download",
+  "source_enabled": false,
+  "capture_status": 268435458,
+  "audio_control": 0,
+  "audio_status": 0,
+  "status": "PASS"
+}

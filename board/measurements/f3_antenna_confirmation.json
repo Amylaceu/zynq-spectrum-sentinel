@@ -1,0 +1,13 @@
+{
+  "status": "CONFIRMED",
+  "source": "user message",
+  "antenna": "two 2.4GHz folding rubber antennas directly on TX1A/RX1A",
+  "distance_cm": [
+    2,
+    3
+  ],
+  "attenuation_floor_db": 40,
+  "tx2_attenuation_db": 89.75,
+  "pl_rebuild": false,
+  "limits": "Near-field coupling and absolute RF power not calibrated; no 0dB-safety claim."
+}

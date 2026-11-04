@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "host_utc": "2026-11-03T16:51:33.844942+00:00",
+  "preflight": {
+    "supervisor_state_exists": false,
+    "locks_available": true,
+    "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7"
+  },
+  "postflight": {
+    "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 0,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "scope": "Read-only current stop check; no RF initialization, download, or TX"
+}

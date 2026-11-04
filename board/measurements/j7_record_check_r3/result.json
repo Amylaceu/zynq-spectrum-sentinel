@@ -1,0 +1,187 @@
+{
+  "source": "CURRENT_BOARD",
+  "tests": [
+    {
+      "id": "F0",
+      "result": {
+        "id": "F0",
+        "run_id": "11ae6c95948c4a2ab08f83dba2f64f13",
+        "status": "DONE",
+        "tx_requested": false,
+        "bist": {
+          "channel_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "error_channels": 0,
+          "duration_ms": 500,
+          "nominal_samples_per_channel": 1920000,
+          "actual_compared_word_counter_available": false,
+          "scope": "RX-injected PN9 status flags; nominal sample count, not measured bit-error count"
+        },
+        "elapsed_s": 0.6038843429996632,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      },
+      "screenshot": {
+        "file": "F0.png",
+        "sha256": "4caa88fa30ef553af5de9febe70e5ab3a17f889263bb5a16de5514736dec5d4d"
+      },
+      "stop": {
+        "id": "F0",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03289181499712868,
+        "within_target": true,
+        "host_round_trip_s": 0.09299999999348074
+      }
+    }
+  ],
+  "search": null,
+  "recordings": [],
+  "historical_failures_preserved": true,
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "gui_errors": [],
+  "rejected_commands": [
+    {
+      "id": "F8",
+      "action": "start",
+      "result": {
+        "id": "F8",
+        "run_id": "001af48b949b457386c983bb50ffb62c",
+        "status": "FAILED",
+        "tx_requested": false,
+        "error": "RuntimeError('No trusted stereo station passed quality; remain muted')",
+        "elapsed_s": 0.5293643879995216,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      }
+    }
+  ],
+  "status": "FAIL",
+  "error": "RuntimeError('Application rejected: {\\'id\\': \\'F8\\', \\'run_id\\': \\'001af48b949b457386c983bb50ffb62c\\', \\'status\\': \\'FAILED\\', \\'tx_requested\\': False, \\'error\\': \"RuntimeError(\\'No trusted stereo station passed quality; remain muted\\')\", \\'elapsed_s\\': 0.5293643879995216, \\'readback\\': {\\'tx_attenuation_db\\': [89.75, 89.75], \\'source_ctrl\\': 0, \\'spec_ctrl\\': 1, \\'average_shift\\': 3, \\'noise_amplitude\\': 0, \\'cfar_ctrl\\': 1, \\'alpha\\': 1974, \\'audio_control\\': 0, \\'codec_muted\\': True, \\'lo_hz\\': 96049998, \\'rate_hz\\': 3840000, \\'lcd_enabled\\': False, \\'full_cfar_defaults_checked\\': True, \\'source_defaults_checked\\': True}, \\'restored\\': True}')",
+  "final_stop": {
+    "id": "F8",
+    "action": "stop",
+    "status": "STOPPED",
+    "tx_requested": false,
+    "metrics": {},
+    "restored_before": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false,
+      "full_cfar_defaults_checked": true,
+      "source_defaults_checked": true
+    },
+    "restored": true,
+    "readback": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false
+    },
+    "elapsed_s": 0.03296821100229863,
+    "within_target": true,
+    "host_round_trip_s": 0.15599999998812564
+  }
+}

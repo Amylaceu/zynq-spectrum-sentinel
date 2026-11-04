@@ -1,0 +1,68 @@
+{
+  "step": "showcase/G1",
+  "group": "A",
+  "status": "FAIL",
+  "functional_status": "PASS",
+  "metrics": {
+    "cycle_seconds": [
+      116.73067884699981,
+      109.50024992899989,
+      110.21728827299967
+    ],
+    "mean_cycle_seconds": 112.14940568299978,
+    "each_cycle_le_110s": false,
+    "startup_seconds": [
+      10.897815565999963,
+      3.5186411880001742,
+      3.7877044849999493,
+      0.35636473699992166,
+      3.9303583290000006,
+      3.742440608999914,
+      3.788947967999775,
+      0.17754573599995638,
+      4.1219237280001835,
+      3.5230573100002402,
+      3.7931684730001507,
+      0.3559600369999316
+    ],
+    "transition_seconds": [
+      5.000591686000007,
+      4.312402210999835,
+      0.6466532780000307,
+      4.710563629000035,
+      4.929402454999945,
+      4.236694958000044,
+      0.5688663999999335,
+      4.957337449000079,
+      4.778905857000154,
+      4.692752814999949,
+      0.8398966189997736
+    ],
+    "transition_median_seconds": 4.692752814999949,
+    "transition_max_seconds": 5.000591686000007,
+    "transition_target_pass": false,
+    "audio_underflows": [
+      0,
+      0,
+      0
+    ],
+    "audible_seconds": [
+      28.960584528000027,
+      28.95889880699997,
+      29.154478343999926
+    ],
+    "wav_status": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "wav_target_pass": false,
+    "overlay_loads": 1,
+    "model_loads": 1,
+    "model_warmups": 1,
+    "rf_initializations": 9
+  },
+  "all_segment_stop_readbacks_pass": true,
+  "final_stop_readback_pass": true,
+  "receive_tx_attenuation_readbacks_pass": true,
+  "b_group_status": "NOT_TESTED_CONFIGURATION_A",
+  "wav_limitation": "Frozen PL has no actual playback PCM readback; no substitute WAV created",
+  "cold_start_included": true,
+  "historical_failures_preserved": true
+}

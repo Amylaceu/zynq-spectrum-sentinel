@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "checked_at": "2026-11-03T21:25:56.188549+08:00",
+  "destination": "E:\\zip",
+  "archive": "zss_snapshot_20261103.zip",
+  "bytes": 9663493316,
+  "sha256": "058786e1eb619efc1565c9440582e1cc38684f88ffa931a07f45dc2ad639c4c7",
+  "verification": "PowerShell Get-FileHash of copied full ZIP",
+  "source_disk": {
+    "drive": "F:",
+    "disk_number": 1,
+    "model": "KIOXIA-EXCERIA PLUS G3 SSD"
+  },
+  "destination_disk": {
+    "drive": "E:",
+    "disk_number": 0,
+    "model": "UMIS RPJYJ512MLR1QWY"
+  },
+  "different_physical_disks": true,
+  "sidecars": [
+    {
+      "name": "zss_snapshot_20261103.zip.sha256",
+      "sha256": "2f6742368bf0c6a4d27209ecb62cbe1124c18d0c262606eb313c036f4b8cda37",
+      "bytes": 93
+    },
+    {
+      "name": "zss_snapshot_20261103.zip.json",
+      "sha256": "be8efb6aad330909a034935691e36577d989f67e438de9b237d4a37463f6e5ff",
+      "bytes": 290
+    }
+  ],
+  "board_status": "User reports FPGA powered off; no board access attempted",
+  "shutdown_sequence_verified_this_turn": false,
+  "sd_backup": "New F0 SD image not yet created or verified; prior X0 image does not cover all recent board files"
+}

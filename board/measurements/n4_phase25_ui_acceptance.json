@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "bus_phase": 25,
+  "measurement": "board/measurements/n4_bench_phase25_ui_r2.json",
+  "measurement_sha256": "92b27d9336de11adca6a38db8219d24ee39428c5f3d0e4b1995403571506953e",
+  "display_fps": 7.192729877787198,
+  "dynamic_ui_updates": 131,
+  "dynamic_frame_advances": 131,
+  "user_feedback": "25档计数持续增加、画面正常",
+  "scope": "Dynamic visual feedback on the PL three-tone display; RF mode is separately pending"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "bus_phase": 8,
+  "measurement": "board/measurements/n4_bench_phase8_ui_r1.json",
+  "measurement_sha256": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf",
+  "display_fps": 21.391404766712384,
+  "dynamic_ui_updates": 179,
+  "dynamic_frame_advances": 179,
+  "user_feedback": "8档计数增加、画面正常",
+  "scope": "Human visual acceptance of PL three-tone display at phase 8; fps is measured before UI updates; RF remains pending"
+}

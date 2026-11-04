@@ -1,0 +1,11 @@
+{
+  "status": "FAIL_CONSTRAINT_SYNTAX",
+  "implementation_attempt": 1,
+  "recorded_at_pc": "2026-11-03T05:05:01.327758+00:00",
+  "cause": "Vivado Designutils 20-1307: Command 'foreach' is not supported in the xdc constraint file (audio_y3.xdc:2)",
+  "action": "Agent terminated only identified Y3 Vivado process after synthesis; no valid timing/bitstream claim; no board load",
+  "controller_exit": "1",
+  "archive_receipt_sha256": "fe8bfb09b174b952ac1d876bd79f180b1aa5bc37949a36698e2d31b93d390a85",
+  "planned_fix": "Six explicit set_property pin/IOSTANDARD constraints; same pin assignments; freeze as implementation round2",
+  "board_test_started": false
+}

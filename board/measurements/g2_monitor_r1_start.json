@@ -1,0 +1,16 @@
+{
+  "status": "STARTED",
+  "pid": 8715,
+  "host_started_utc": "2026-11-03T19:58:58.255806+00:00",
+  "configuration": "A confirmed; RX1A 20-512MHz, TX1A empty",
+  "command": [
+    "sh",
+    "/home/xilinx/sentinel/release/v2/scripts/sentinel.sh",
+    "monitor",
+    "--ui",
+    "v3",
+    "--seconds",
+    "600"
+  ],
+  "remote_log": "/home/xilinx/sentinel/release/v2/logs/G2_monitor_r1.log"
+}

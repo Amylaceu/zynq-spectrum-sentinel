@@ -1,0 +1,54 @@
+{
+  "status": "FUNCTION_PASS_TIME_TARGET_FAIL",
+  "source": "MEASURED_RX1A_FINITE_SNAPSHOTS",
+  "group": "A",
+  "baseline_s": 78.34977659200013,
+  "fast_s": 43.06305893699755,
+  "speedup": 1.8194196725928835,
+  "time_reduction_pct": 45.037419619911866,
+  "baseline_tiles": 55,
+  "fast_tiles": 49,
+  "missing_bins": 0,
+  "covered_bins": 44200,
+  "fast_stage_total_s": {
+    "combined_rate_lo_bandwidth_configure_s": 1.9528635990063776,
+    "agc_wait_s": 7.3604407670063665,
+    "initial_state_readback_s": 0.06206638700678013,
+    "discard_dma_s": 4.434132955000678,
+    "retained_dma_s": 4.584152427996742,
+    "final_state_readback_s": 0.0608907070090936,
+    "welch_s": 7.5389457090022916,
+    "npz_compression_write_and_hash_s": 0.9768356380081968,
+    "unattributed_s": 1.1336119959742064,
+    "tile_total_before_progress_write_s": 28.105311463008547
+  },
+  "target_s": 10,
+  "target_changed": false,
+  "samples_per_tile": 65536,
+  "raw_iq_saved": false,
+  "baseline_restore": {
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "ensm_mode": 1,
+    "rssi_dbm": -85.0,
+    "rx1_gain_db": 73
+  },
+  "stopped": {
+    "gpio": 0,
+    "source": 0,
+    "audio": 0
+  },
+  "limitations": [
+    "Independent RF bandwidth and AGC mode readback unavailable in frozen native API",
+    "Not continuous DMA or 30.72 MSPS PL processing certification",
+    "D/quick modes and one-hour stability not yet measured"
+  ],
+  "source_sha256": {
+    "board/measurements/f4_a_scan_r1/raw/result.json": "dff2cbac384bcb8fdb138a8fe8e86be43944b691c2c004cb6b23f43fae4601ab",
+    "board/measurements/h1_a_scan_r1/raw/result.json": "174c234ce6a17533f6c25940375f2479b7f09cc22e06fa9a934a3e817f937def"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "host_started_utc": "2026-11-03T21:59:21.183080+00:00",
+  "configuration": "A",
+  "tx_requested": false,
+  "script_sha256": "692d88fff7a03b738c3225ace9fa227443f6c6f5b80602995a3f21a68fd67b3c",
+  "seconds": 10,
+  "execution": {
+    "exit_code": 1,
+    "pid": 19068
+  },
+  "measurement": {
+    "status": "FAIL",
+    "configuration": "A",
+    "tx_requested": false,
+    "seconds_requested": 10,
+    "source": "raw_adi_rx_dma",
+    "audio": "NOT_STARTED",
+    "sample_index_scope": "delivered descriptors; no embedded ADC sequence counter",
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "overflow_observed": 4,
+    "error": "RuntimeError('RX FIFO overflow: exact missing sample count unavailable')"
+  },
+  "files_sha256": {
+    "raw_00.i16.sha256": "d36aac855b3691c545f3ea8db3eb26207ec88e538af74132020e57641eaf3347",
+    "result.json.sha256": "dc17c5ce2c0bf2cfdae589caa2f99470d9ba782a4c1dbb918f58949b5ddd09f3",
+    "raw_00.i16": "d7e8aee26dca59f5c2be3842a00bd6ca20a333ea42ca82ab6c17fe26f0bf5644",
+    "result.json": "62eec1e0f6f92f1a93524fb5a26196d34b1a523ee9cfffd00beb3a78c4bab323"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

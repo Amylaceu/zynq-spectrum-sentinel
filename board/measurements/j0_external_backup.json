@@ -1,0 +1,9 @@
+{
+  "schema": "j0_external_backup/1",
+  "status": "PASS",
+  "source": "F:\\.zss\\zss\\dist\\zss_snapshot_J0_20261104.zip",
+  "destination": "E:\\zip\\zss_snapshot_J0_20261104.zip",
+  "bytes": 1149485552,
+  "sha256": "7150a7e8845bdb36737cfa0b9a6497558fa1c4d0ffacafb85c4262a6f64b9b20",
+  "scope": "Incremental ZIP copy and full SHA256 verification; requires original F0 full snapshot; not an SD backup"
+}

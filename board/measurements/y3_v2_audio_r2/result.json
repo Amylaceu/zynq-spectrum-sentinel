@@ -1,0 +1,821 @@
+{
+  "RF_TX_requested": false,
+  "actual_rate_hz": 3840000,
+  "audio_before_stop": {
+    "enabled": true,
+    "fifo_level": 4169,
+    "frames": 1447700,
+    "iq_overflow": false,
+    "pcm_full": false,
+    "pcm_samples": 1451870,
+    "playing": true,
+    "raw_status": 66713,
+    "underflows": 0
+  },
+  "bandwidth_hz": 1500000,
+  "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+  "bus_phase": 2,
+  "bus_phase_requested": 2,
+  "channel_health_before_stop": 0,
+  "channel_rate_hz": 480000,
+  "codec_address_7bit": 16,
+  "codec_muted_before_play": true,
+  "codec_out1_enabled": true,
+  "codec_out2_enabled": true,
+  "codec_registers_before_unmute": {
+    "0x17": 0,
+    "0x18": 2,
+    "0x19": 38,
+    "0x1a": 0,
+    "0x1b": 0,
+    "0x27": 184,
+    "0x2a": 184,
+    "0x2e": 20,
+    "0x2f": 20,
+    "0x30": 20,
+    "0x31": 20,
+    "0x4": 60,
+    "0x8": 0
+  },
+  "codec_slave": true,
+  "configuration_readback": {
+    "lo_hz": 96279998,
+    "rate_hz": 3840000,
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ]
+  },
+  "configured_rate_hz": 3839999.2500001467,
+  "dsp_clock_hz": 100000000,
+  "dsp_configuration_readback": {
+    "0x0": 1,
+    "0x10": 3,
+    "0x14": 6,
+    "0x38": 2,
+    "0x3c": 0,
+    "0x4": 4,
+    "0x8": 8,
+    "0x80": 0,
+    "0x84": 0,
+    "0x88": 0,
+    "0x8c": 0,
+    "0x90": 0,
+    "0x94": 0,
+    "0x98": 0,
+    "0x9c": 0,
+    "0xa0": 0,
+    "0xa4": 0,
+    "0xa8": 0,
+    "0xac": 0,
+    "0xb0": 0,
+    "0xb4": 0,
+    "0xb8": 0,
+    "0xbc": 0,
+    "0xc": 1974
+  },
+  "duration_requested_s": 30.0,
+  "elapsed_total_s": 30.132666441000765,
+  "fcw": 0,
+  "final_audio": {
+    "enabled": false,
+    "fifo_level": 0,
+    "frames": 1447856,
+    "iq_overflow": false,
+    "pcm_full": false,
+    "pcm_samples": 0,
+    "playing": false,
+    "raw_status": 0,
+    "underflows": 0
+  },
+  "final_codec_muted": true,
+  "final_elapsed_s": 30.139206764997652,
+  "image": "sentinel_v2_100m",
+  "initial_analog_volume_db": -15.0,
+  "initial_audio_output_enabled": true,
+  "initial_digital_volume_db": 0,
+  "last_codec_status": "OUT1/OUT2 unmuted, digital 0dB, analog -15.0dB",
+  "lo_hz": 96280000,
+  "output_route": "ROUT2->MD8002A->J36",
+  "pfb_capture_status_before_stop": 0,
+  "pfb_channel": 14,
+  "residual_hz": 0.0,
+  "rx_port": "RX1A",
+  "safe_stop_errors": [],
+  "sample_rate_hz": 3840000,
+  "samples": [
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4098,
+        "frames": 49340,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 53440,
+        "playing": true,
+        "raw_status": 65577,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48003.439464075265,
+      "channel_health": 0,
+      "display_fps": 69.79852857141931,
+      "display_frames": 77,
+      "elapsed_s": 1.002886471000238,
+      "pcm_sample_rate_hz": 48006.430829585464,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -77.5,
+      "temperature_c": 64.47336425761601,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4100,
+        "frames": 104533,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 108636,
+        "playing": true,
+        "raw_status": 65609,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.03358780821,
+      "channel_health": 0,
+      "display_fps": 43.487429191933956,
+      "display_frames": 127,
+      "elapsed_s": 2.1526440199995704,
+      "pcm_sample_rate_hz": 48006.64283355973,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -73.25,
+      "temperature_c": 64.5964050291,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4104,
+        "frames": 160918,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 165023,
+        "playing": true,
+        "raw_status": 65673,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48005.333646726314,
+      "channel_health": 0,
+      "display_fps": 41.7178566762364,
+      "display_frames": 176,
+      "elapsed_s": 3.327201005999086,
+      "pcm_sample_rate_hz": 48007.03641638657,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.75,
+      "temperature_c": 64.5964050291,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4106,
+        "frames": 209178,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 213286,
+        "playing": true,
+        "raw_status": 65705,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48003.95807257829,
+      "channel_health": 0,
+      "display_fps": 40.78247577653771,
+      "display_frames": 217,
+      "elapsed_s": 4.33253477299877,
+      "pcm_sample_rate_hz": 48006.942156171695,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.5,
+      "temperature_c": 64.47336425761601,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4109,
+        "frames": 262646,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 266756,
+        "playing": true,
+        "raw_status": 65753,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.55459681146,
+      "channel_health": 0,
+      "display_fps": 41.29964673175221,
+      "display_frames": 263,
+      "elapsed_s": 5.44634575300006,
+      "pcm_sample_rate_hz": 48006.35023362589,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.25,
+      "temperature_c": 64.350323486132,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4111,
+        "frames": 316164,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 320277,
+        "playing": true,
+        "raw_status": 65785,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.50033544012,
+      "channel_health": 0,
+      "display_fps": 41.261015273931115,
+      "display_frames": 309,
+      "elapsed_s": 6.56119956099792,
+      "pcm_sample_rate_hz": 48007.19127121886,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.75,
+      "temperature_c": 64.350323486132,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4114,
+        "frames": 369564,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 373680,
+        "playing": true,
+        "raw_status": 65833,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.23218243465,
+      "channel_health": 0,
+      "display_fps": 41.35196030696618,
+      "display_frames": 355,
+      "elapsed_s": 7.673601480000798,
+      "pcm_sample_rate_hz": 48006.92904941119,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.25,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4117,
+        "frames": 423043,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 427162,
+        "playing": true,
+        "raw_status": 65881,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.25020418873,
+      "channel_health": 0,
+      "display_fps": 41.29089005764284,
+      "display_frames": 401,
+      "elapsed_s": 8.787648669000191,
+      "pcm_sample_rate_hz": 48006.94308832292,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.25,
+      "temperature_c": 64.227282714648,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4120,
+        "frames": 476550,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 480671,
+        "playing": true,
+        "raw_status": 65929,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.81795506349,
+      "channel_health": 0,
+      "display_fps": 41.26977079509075,
+      "display_frames": 447,
+      "elapsed_s": 9.902265957000054,
+      "pcm_sample_rate_hz": 48006.61229292415,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -73.5,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4123,
+        "frames": 529969,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 534093,
+        "playing": true,
+        "raw_status": 65977,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.123579380146,
+      "channel_health": 0,
+      "display_fps": 41.337158775931535,
+      "display_frames": 493,
+      "elapsed_s": 11.015066191997903,
+      "pcm_sample_rate_hz": 48006.81948103945,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.5,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4125,
+        "frames": 583471,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 587598,
+        "playing": true,
+        "raw_status": 66009,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.33648683806,
+      "channel_health": 0,
+      "display_fps": 41.27321368162968,
+      "display_frames": 539,
+      "elapsed_s": 12.129590501997882,
+      "pcm_sample_rate_hz": 48007.02821816513,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -76.5,
+      "temperature_c": 63.981201171680006,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4128,
+        "frames": 636960,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 641089,
+        "playing": true,
+        "raw_status": 66057,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.71324805727,
+      "channel_health": 0,
+      "display_fps": 41.28356876013076,
+      "display_frames": 585,
+      "elapsed_s": 13.243835257999308,
+      "pcm_sample_rate_hz": 48006.50818582945,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.75,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4130,
+        "frames": 690396,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 694528,
+        "playing": true,
+        "raw_status": 66089,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.12427978122,
+      "channel_health": 0,
+      "display_fps": 41.32400847499694,
+      "display_frames": 631,
+      "elapsed_s": 14.356989612999314,
+      "pcm_sample_rate_hz": 48006.819323812204,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.75,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4133,
+        "frames": 743869,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 748003,
+        "playing": true,
+        "raw_status": 66137,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48005.09397489359,
+      "channel_health": 0,
+      "display_fps": 41.29624900127364,
+      "display_frames": 677,
+      "elapsed_s": 15.47089223399962,
+      "pcm_sample_rate_hz": 48006.8894639806,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.5,
+      "temperature_c": 64.104241943164,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4136,
+        "frames": 797367,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 801505,
+        "playing": true,
+        "raw_status": 66185,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.19611475841,
+      "channel_health": 0,
+      "display_fps": 41.27617894648186,
+      "display_frames": 723,
+      "elapsed_s": 16.585336477000965,
+      "pcm_sample_rate_hz": 48007.785347710276,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.0,
+      "temperature_c": 64.227282714648,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4139,
+        "frames": 850821,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 854961,
+        "playing": true,
+        "raw_status": 66233,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.591413668815,
+      "channel_health": 0,
+      "display_fps": 41.31049509912758,
+      "display_frames": 769,
+      "elapsed_s": 17.69885496400093,
+      "pcm_sample_rate_hz": 48006.38752215139,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.25,
+      "temperature_c": 63.981201171680006,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4141,
+        "frames": 904310,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 908453,
+        "playing": true,
+        "raw_status": 66265,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.30146695597,
+      "channel_health": 0,
+      "display_fps": 41.28321463254079,
+      "display_frames": 815,
+      "elapsed_s": 18.813109277998592,
+      "pcm_sample_rate_hz": 48006.99385051896,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.5,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4144,
+        "frames": 957739,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 961884,
+        "playing": true,
+        "raw_status": 66313,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.993676549435,
+      "channel_health": 0,
+      "display_fps": 41.3301710516999,
+      "display_frames": 861,
+      "elapsed_s": 19.926097654999467,
+      "pcm_sample_rate_hz": 48006.7906405082,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.5,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4146,
+        "frames": 1011258,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1015406,
+        "playing": true,
+        "raw_status": 66345,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48003.88256062592,
+      "channel_health": 0,
+      "display_fps": 42.15666362131987,
+      "display_frames": 908,
+      "elapsed_s": 21.040986641997733,
+      "pcm_sample_rate_hz": 48006.57341149537,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.0,
+      "temperature_c": 63.981201171680006,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4149,
+        "frames": 1065814,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1069965,
+        "playing": true,
+        "raw_status": 66393,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.293939796735,
+      "channel_health": 0,
+      "display_fps": 41.35570450858653,
+      "display_frames": 955,
+      "elapsed_s": 22.177468309000687,
+      "pcm_sample_rate_hz": 48006.93366561643,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.25,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4152,
+        "frames": 1119316,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1123470,
+        "playing": true,
+        "raw_status": 66441,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.7797838489,
+      "channel_health": 0,
+      "display_fps": 41.273594819951576,
+      "display_frames": 1001,
+      "elapsed_s": 23.29198232699855,
+      "pcm_sample_rate_hz": 48007.471540032806,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.0,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4155,
+        "frames": 1173911,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1178067,
+        "playing": true,
+        "raw_status": 66489,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.54450879934,
+      "channel_health": 0,
+      "display_fps": 41.32637772531494,
+      "display_frames": 1048,
+      "elapsed_s": 24.429270484997687,
+      "pcm_sample_rate_hz": 48006.30307806425,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.25,
+      "temperature_c": 63.735119628712006,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4157,
+        "frames": 1228492,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1232651,
+        "playing": true,
+        "raw_status": 66521,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.62611867239,
+      "channel_health": 0,
+      "display_fps": 41.33704819584842,
+      "display_frames": 1095,
+      "elapsed_s": 25.56626507100009,
+      "pcm_sample_rate_hz": 48007.26465366362,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -78.75,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4160,
+        "frames": 1283079,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1287241,
+        "playing": true,
+        "raw_status": 66569,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.112396037286,
+      "channel_health": 0,
+      "display_fps": 41.332062260497054,
+      "display_frames": 1142,
+      "elapsed_s": 26.703396813998552,
+      "pcm_sample_rate_hz": 48006.75061277732,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -73.75,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4163,
+        "frames": 1337724,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1341889,
+        "playing": true,
+        "raw_status": 66617,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.592754700876,
+      "channel_health": 0,
+      "display_fps": 41.288605718198205,
+      "display_frames": 1189,
+      "elapsed_s": 27.841725395999674,
+      "pcm_sample_rate_hz": 48007.22819761906,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -74.0,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4166,
+        "frames": 1392309,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1396476,
+        "playing": true,
+        "raw_status": 66665,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48005.4781809615,
+      "channel_health": 0,
+      "display_fps": 41.33475267024257,
+      "display_frames": 1236,
+      "elapsed_s": 28.97878312499961,
+      "pcm_sample_rate_hz": 48007.23710660705,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -80.25,
+      "temperature_c": 64.227282714648,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4168,
+        "frames": 1441353,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1445523,
+        "playing": true,
+        "raw_status": 66697,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48003.2543552509,
+      "channel_health": 0,
+      "display_fps": 41.10873262622416,
+      "display_frames": 1278,
+      "elapsed_s": 30.000463855998532,
+      "pcm_sample_rate_hz": 48006.19069329563,
+      "pfb_capture_status": 0,
+      "rx_rssi_dbm": -75.0,
+      "temperature_c": 63.858160400196,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    }
+  ],
+  "source": "rf",
+  "source_rate_divider_readback": 1706667,
+  "started_utc": "2021-11-18T19:44:18.868769+00:00",
+  "station_hz": 95800000,
+  "status": "completed",
+  "stopped_utc": "2021-11-18T19:44:49.002271+00:00",
+  "tx1a": "disconnected",
+  "tx_attenuation_db": [
+    89.75,
+    89.75
+  ]
+}

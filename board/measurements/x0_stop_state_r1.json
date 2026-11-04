@@ -1,0 +1,1 @@
+{"scope": "Read-only MMIO after accepted artifact and loaded-image checks", "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56", "gpio_data": 0, "source_ctrl": 0, "source_version": 1397882881, "overlay_downloaded": false, "register_writes": false, "rf_initialized": false, "status": "PASS"}

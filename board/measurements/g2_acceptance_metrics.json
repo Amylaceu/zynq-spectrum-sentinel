@@ -1,0 +1,24 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "completed": true,
+    "ten_minutes": true,
+    "version": true,
+    "median": false,
+    "p95": false,
+    "frame_rate": true,
+    "zero_errors": true,
+    "stopped": true,
+    "receive_only": true
+  },
+  "median_ms": 36.107930000071065,
+  "p95_ms": 165.0686617998872,
+  "min_fps": 38.964596732341136,
+  "measured_duration_s": 600.9286848619995,
+  "submissions": 785,
+  "submit_errors": 0,
+  "samples": 785,
+  "measurement_scope": "draw + palette pack + MMIO submit; excludes acknowledgement wait",
+  "human_readability": "Requires separate current-run user confirmation",
+  "tx_on_physical_test": "Deferred to G5 configuration B; no transmission in G2"
+}

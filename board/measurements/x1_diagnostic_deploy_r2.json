@@ -1,0 +1,28 @@
+{
+  "started_at_pc": "2026-11-03T04:01:44.764106+08:00",
+  "scope": "Bounded paired-frame diagnosis, not an X1 acceptance/tuning round",
+  "mode": "deploy",
+  "runner_sha256": "ef3fe6ed71666cd985b68fcda839533302024f43bbed7bcd2e12b38be8e1c3fc",
+  "frozen_software_manifest_sha256": "19b3955f0488962feda51480667d9912e7d04cb90927a0595bd3437cfbf7265f",
+  "verified_board_files": 9,
+  "previous_deployment_sha256": "57657159c3b8ba4d8eafcdae665ee267cc812ee1ec077dd72acde5818ac2c385",
+  "status": "PASS_DEPLOYMENT",
+  "files": [
+    {
+      "local": "src/ps/sentinel/app/diagnose_x1.py",
+      "destination": "ps/sentinel/app/diagnose_x1.py",
+      "staged": "00_diagnose_x1.py",
+      "sha256": "de4a1cd666e44f19f1d240ae3d2c1637dc4d4584d2ea932b3d196a68b1b0d603",
+      "expected_previous_sha256": "d91999390e65e4841c3b1b152f9d6766ebb6f8f247b8419a5b5095173c8c42f7",
+      "previous_sha256": "d91999390e65e4841c3b1b152f9d6766ebb6f8f247b8419a5b5095173c8c42f7"
+    },
+    {
+      "local": "board/scripts/run_x1_diagnostic.py",
+      "destination": "scripts/run_x1_diagnostic.py",
+      "staged": "01_run_x1_diagnostic.py",
+      "sha256": "ddaab15a5b568c29546188ee53b769b0796e1729e926223ba28431ad184aa638",
+      "expected_previous_sha256": "ddaab15a5b568c29546188ee53b769b0796e1729e926223ba28431ad184aa638"
+    }
+  ],
+  "hardware_accessed": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS_READ_ONLY_BINDING",
+  "driver": "AxiIIC",
+  "registers": {
+    "0x4": 192,
+    "0x8": 128,
+    "0x19": 34,
+    "0x2e": 0,
+    "0x30": 0,
+    "0x31": 0
+  },
+  "scope": "IIC register reads only; no codec initialization or audio playback"
+}

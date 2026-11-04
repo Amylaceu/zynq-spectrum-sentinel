@@ -1,0 +1,61 @@
+{
+  "schema": "j_v4_candidate_check/1",
+  "created_utc": "2026-11-04T01:23:09.237906+00:00",
+  "result": "OFFLINE_CHECKED_STYLE_REVIEW_PENDING",
+  "hardware_accessed": false,
+  "rf_started": false,
+  "page_count": 10,
+  "independent_entries": 63,
+  "source_file_count": 222,
+  "source_inventory": {
+    "path": "board/measurements/j_v4_sources.json",
+    "sha256": "157061584d8140d2c2bee918bfc86abbe6b55d5e6a627aaefe5dee7aa598cd67"
+  },
+  "preview": {
+    "path": "report/figures/host_j_v4_r3/preview.json",
+    "sha256": "e7f12a26d2572e483adcf6cb869dbad069c4251c941d4de15baceed13c187256",
+    "errors": []
+  },
+  "overview_sha256": "52533ff18f865e6d9f834f48f1fc359eab42688084d33852002905d8d39cc427",
+  "main_twin_width_px": [
+    1160,
+    1160,
+    1160,
+    1160,
+    1160,
+    1160,
+    1160,
+    1160,
+    1160
+  ],
+  "mini_twin_width_px": 320,
+  "regressions": [
+    {
+      "log": "logs/J2_regression_r1.log",
+      "sha256": "9dd46bcb006d18e21d90af5eeba3bb47da4491eccc63fafaf75eef09407122ea",
+      "passed": 842,
+      "skipped": 19
+    },
+    {
+      "log": "logs/J2_regression_r2.log",
+      "sha256": "6a91761f8652dd36d9b9b3e65f82c4f73417d85bacb5bb707b3db8b5cb67a6e5",
+      "passed": 842,
+      "skipped": 19
+    }
+  ],
+  "protected_paths_unchanged": [
+    "src/ps/sentinel/lcd_x5.py",
+    "tools/host/sentinel_host/twin.py",
+    "board/overlay",
+    "third_party",
+    "vendor/atk"
+  ],
+  "frozen_bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "coverage": "report/host_coverage.md",
+  "progress": "docs/j_v4_progress.md",
+  "acceptance": {
+    "new_board_ui": "PENDING",
+    "full_dynamic_feature_set": "PENDING",
+    "release_v3": "PENDING"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "mode": 0,
+      "noise_amp": 0,
+      "seed_i": 305419896,
+      "seed_q": 2271560481,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 1,
+      "noise_amp": 0,
+      "seed_i": 305419897,
+      "seed_q": 2271560482,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 2,
+      "noise_amp": 0,
+      "seed_i": 305419898,
+      "seed_q": 2271560483,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 3,
+      "noise_amp": 0,
+      "seed_i": 305419899,
+      "seed_q": 2271560484,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 3,
+      "noise_amp": 32768,
+      "seed_i": 305419900,
+      "seed_q": 2271560485,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 3,
+      "noise_amp": 65535,
+      "seed_i": 305419901,
+      "seed_q": 2271560486,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    },
+    {
+      "mode": 2,
+      "noise_amp": 0,
+      "seed_i": 305419902,
+      "seed_q": 2271560487,
+      "amplitudes": [
+        65535,
+        65535,
+        65535
+      ]
+    },
+    {
+      "mode": 3,
+      "noise_amp": 12345,
+      "seed_i": 305419903,
+      "seed_q": 2271560488,
+      "amplitudes": [
+        6000,
+        9000,
+        5000
+      ]
+    }
+  ],
+  "sha256": {
+    "n4_src_input.hex": "1e7b589a29b05640e8a8f7121b9562c2117fc2a2942020ff93aff369c268daef",
+    "n4_src_expected.hex": "81695d96a15e1730d4fe05f5ac5900ffccaab57e5ffa2f38e4110dfd53052329",
+    "n4_src_config.hex": "b87baad0b1245ef0e8a726a97be5f9a1e8b8a6a0335407bb881c6e76527ef7fb",
+    "n4_sine.hex": "6f68f32afdf43cb8cbe6ff7bf4db155282d8ebf8783b94ebf690a5cd0d137060"
+  }
+}

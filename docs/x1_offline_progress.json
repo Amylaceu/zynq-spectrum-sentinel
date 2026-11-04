@@ -1,0 +1,77 @@
+{
+  "recorded_at_pc": "2026-11-03T01:14:02.962171+08:00",
+  "status": "PARTIAL",
+  "user_authorization": "可以先推进后面的任务吗; PC-only work while SD backup runs",
+  "phase": "X1",
+  "tests": {
+    "passed": 215,
+    "log": "logs/X1_offline_full_tests_r2.log",
+    "log_sha256": "cce4014a3bd690e60b026a3f5e31070899fb1e4e0df27cc1cba15c6f65e9c107",
+    "prior_broad_run": "r1 had 13 failures caused by absent XILINX_ROOT; sourced tools/env.ps1 and r2 passed"
+  },
+  "rtl_cluster": {
+    "evidence": "sim/results/x1_cluster_r1_acceptance.json",
+    "sha256": "aa6394b9d977d8db6b72a30ac5fcab34dc5d89da4261c33de6d40591fb19705f",
+    "cases": 20,
+    "input_bins": 40960,
+    "compared_records": 323,
+    "mismatches": 0
+  },
+  "standalone_timing": {
+    "evidence": "build/reports/cfar_x1_cluster_r1/acceptance.json",
+    "sha256": "447ffad682dc11576d2bf446f3fa0a6b8871b83e28f47078bfd54a66f1f45338",
+    "status": "FAIL",
+    "wns_ns": 0.067,
+    "overall_whs_ns": -0.419,
+    "internal_hold_ns": 0.147,
+    "hold_failing_endpoints": 269,
+    "resources": {
+      "Slice LUTs": 3846.0,
+      "Slice Registers": 6747.0,
+      "Block RAM Tile": 0.0,
+      "DSPs": 0.0
+    },
+    "note": "Original script PASS was incomplete; full-report FAIL supersedes it. Checker now requires overall hold too. Boundary clock/port constraints not representative of integrated design."
+  },
+  "source_sha256": {
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/tests/test_cfar_x1.py": "6e7a7f6862f6059d3259d506865574c3fa75f750da53410c6182f63e7b8823cb",
+    "src/regs/cfar_x1.yaml": "842eae08ff740daed8207a6e10c9d5f01d5f51601d6e69adff17570d27071d5d",
+    "src/ps/sentinel/drivers/cfar_x1.py": "db2b46c9b2e90db73dd3d23920d337b0d3dffe1d1544bbea761a9019050cbf81",
+    "src/ps/sentinel/drivers/regs/cfar_x1.py": "c0e517fcbee08b93d7e36078559161435dda3e885e8502e03a024d412d61a4cf",
+    "src/ps/include/cfar_x1.h": "68e23cc3fcdbb65b979b25a431520576d0c96f1ed9f04c88b5b50180e99c4cb8",
+    "src/ps/tests/test_cfar_x1_driver.py": "5073fcf0cc5700b84228e63f41d5c6b714015b655e1678a927751f75b8915903",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "efc69b2dd31e3b366e8f5f557e9ba55f84d2fbd64d7bd97a85903e316e90b83c",
+    "sim/tb/tb_cfar_cluster_x1.sv": "5b6da26e4f838776d5f6b46d5f2851b9daf67a29dda2b91122bb26abcf624020",
+    "sim/tb/cfar_x1_defs.vh": "63721db7df5b85f6e269a0e69c7e6adad713916bd88a0393dbf54ce4d23267d8",
+    "tools/export_cfar_x1_constants.py": "52e9d1d0f845d3f715865a9f56aacb4cbdb80608d00e2f889bd80755b454eaf7",
+    "tools/export_cfar_x1_vectors.py": "76fd428ca2c5e0eb298e55320a5a8845c9933af50ddc9a7354e295e393e7a6ec",
+    "tools/test_cfar_cluster_x1.ps1": "12c7c2aba7f39c3b82ef360c2c27413bcd1d65af7e0c81f97cd9179c7caeef85",
+    "tools/synth_cfar_cluster_x1.ps1": "a282c700d0086d0e0ef506161df511ea79c9f444469764e54659905322654b17",
+    "tools/analyze_cfar_x1_cluster.py": "4a52f89d6c823872a4ecd344efb0a91f9b62dc24a5aee4145c49c3d4d057c82b",
+    "tools/analyze_cfar_x1_ooc.py": "c2ef5ad9cc2681e99b616a689eb6e5b0c9a3459633c17e0861c35d3fe1cc4839",
+    "build/scripts/synth_cfar_cluster_x1.tcl": "05b51c725a88a6d13d722f4ccbad3aefcb89bdbaa3621ad8a2d0bd626a707527",
+    "tools/env.ps1": "3c1fb353d4a6d37aa901fa49b9fc1664e4e7577a369171a114e7a78b5c03666a"
+  },
+  "v1_baseline_paths_unchanged": [
+    "sim/golden/cfar.py",
+    "src/rtl/cfar",
+    "src/rtl/regs/cfar_ctrl_regs.v",
+    "src/regs/cfar_ctrl.yaml",
+    "src/ps/sentinel/drivers/cfar.py",
+    "data/reference/cfar/n3",
+    "board/overlay/sentinel_v1"
+  ],
+  "rf_operations": false,
+  "deployed": false,
+  "x0_complete": false,
+  "x1_complete": false,
+  "remaining": [
+    "AXI-Lite X1 register/mask implementation and integrated CFAR core",
+    "Full AXI/occupancy/target snapshot tests",
+    "sentinel_v1b packaging, full-system build and setup/hold/resource verification",
+    "Monitor/admin version integration",
+    "X0 image verification and resumed board acceptance, then X1 antenna confirmation and RF tests"
+  ],
+  "commit_status": "Not committed: phase acceptance incomplete; preserve working tree"
+}

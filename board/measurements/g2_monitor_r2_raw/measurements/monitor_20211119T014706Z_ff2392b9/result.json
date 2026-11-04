@@ -1,0 +1,3910 @@
+{
+  "status": "stopped_early",
+  "source": "rf",
+  "RF_TX_requested": false,
+  "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+  "image": "sentinel_v2_100m",
+  "dsp_clock_hz": 100000000,
+  "artifacts_sha256": {
+    "sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "sentinel_v2_100m.hwh": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+    "sentinel_v2_100m.xsa": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc"
+  },
+  "model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "model_status": "X4 FAIL experimental candidate",
+  "confidence_scope": "Uncalibrated classifier score",
+  "requested_lo_hz": 96050000,
+  "rate_hz": 3840000,
+  "channel_rate_hz": 480000,
+  "bus_phase": 2,
+  "duration_requested_s": 600.0,
+  "fm_truth_hz": [],
+  "truth_tolerance_hz": 25000,
+  "records": [
+    {
+      "index": 0,
+      "track": 0,
+      "frequency_hz": 95796875.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00000.npz",
+      "capture_sha256": "43861fce06015b89ec111cb8082008be5275cca158ce26bebcf4e7c705690905",
+      "pl_timestamp_cycles": 456259219,
+      "channel": 15,
+      "fcw": 4177526784,
+      "residual_hz": -13125.0,
+      "capture_ms": 77.05146800071816,
+      "inference_ms": 50.455267999495845,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 1.0,
+      "voted_label": "FM",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ]
+      ],
+      "first_label_ms": 542.3393569999462,
+      "cfar_sequence": 223,
+      "ui_epoch": 1,
+      "ui_applied_monotonic_s": 6883.513489588,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 1,
+      "track": 1,
+      "frequency_hz": 96999687.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00001.npz",
+      "capture_sha256": "4d29fedeb7826855b4b5a4b8ec9394d441d193144ce3191b78bcd35ad792db73",
+      "pl_timestamp_cycles": 514685455,
+      "channel": 4,
+      "fcw": 4202692608,
+      "residual_hz": -10312.5,
+      "capture_ms": 77.82861499981664,
+      "inference_ms": 49.36770600033924,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999997615814209,
+      "voted_label": "FM",
+      "voted_score": 0.9999997615814209,
+      "votes": [
+        [
+          "FM",
+          0.9999997615814209
+        ]
+      ],
+      "first_label_ms": 1088.0219169994234,
+      "cfar_sequence": 1317,
+      "ui_epoch": 2,
+      "ui_applied_monotonic_s": 6884.059172148,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 2,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00002.npz",
+      "capture_sha256": "e4a60b0623232fd5bc836b789eade37b392a1c217d05516b5039a91cee150ba3",
+      "pl_timestamp_cycles": 570459941,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 75.95018100073503,
+      "inference_ms": 50.00698799995007,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.5985637307167053,
+      "voted_label": "OOK",
+      "voted_score": 0.5985637307167053,
+      "votes": [
+        [
+          "OOK",
+          0.5985637307167053
+        ]
+      ],
+      "first_label_ms": 1657.3731680000492,
+      "cfar_sequence": 2367,
+      "ui_epoch": 3,
+      "ui_applied_monotonic_s": 6884.628523399,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 3,
+      "track": 3,
+      "frequency_hz": 97417812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6883.554653538,
+      "capture_filename": "capture_00003.npz",
+      "capture_sha256": "3f1b82f3347724990d603e509392cf3869b19985d87c001179fa45fd178513de",
+      "pl_timestamp_cycles": 628194972,
+      "channel": 6,
+      "fcw": 3649044480,
+      "residual_hz": -72187.5,
+      "capture_ms": 75.31072300025698,
+      "inference_ms": 50.04317600014474,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9999098777770996,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9999098777770996,
+      "votes": [
+        [
+          "AM-DSB",
+          0.9999098777770996
+        ]
+      ],
+      "first_label_ms": 1667.544463000013,
+      "cfar_sequence": 3450,
+      "ui_epoch": 4,
+      "ui_applied_monotonic_s": 6885.222198001,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 4,
+      "track": 5,
+      "frequency_hz": 95126562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6885.906234755,
+      "capture_filename": "capture_00004.npz",
+      "capture_sha256": "7097390624f034b162e0ab5511dc402eafb336dbd5ab6fd052c5cbe4953f5b90",
+      "pl_timestamp_cycles": 749747066,
+      "channel": 12,
+      "fcw": 327155712,
+      "residual_hz": 36562.5,
+      "capture_ms": 76.56282900006772,
+      "inference_ms": 49.80080099994666,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.8879979252815247,
+      "voted_label": "OOK",
+      "voted_score": 0.8879979252815247,
+      "votes": [
+        [
+          "OOK",
+          0.8879979252815247
+        ]
+      ],
+      "first_label_ms": 500.3601250000429,
+      "cfar_sequence": 5727,
+      "ui_epoch": 5,
+      "ui_applied_monotonic_s": 6886.40659488,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 5,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00005.npz",
+      "capture_sha256": "93feb11cd4674a6ae0b656123a217a2a2885e58fc598d2fa7ddba6fcd728c439",
+      "pl_timestamp_cycles": 804168699,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 75.91662899994844,
+      "inference_ms": 49.68403699967894,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 1.0,
+      "voted_label": "OOK",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "OOK",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 6749,
+      "ui_epoch": 6,
+      "ui_applied_monotonic_s": 6886.951985128,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 6,
+      "track": 6,
+      "frequency_hz": 95255937.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6886.997895441,
+      "capture_filename": "capture_00006.npz",
+      "capture_sha256": "8e19840d76d68723bbc8704bdbbabaa031f60ff7f4ec13e664a7d782eb605c2e",
+      "pl_timestamp_cycles": 858994267,
+      "channel": 13,
+      "fcw": 3632267264,
+      "residual_hz": -74062.5,
+      "capture_ms": 77.23472500038042,
+      "inference_ms": 50.051831000018865,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9751063585281372,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9751063585281372,
+      "votes": [
+        [
+          "AM-DSB",
+          0.9751063585281372
+        ]
+      ],
+      "first_label_ms": 523.4527709999384,
+      "cfar_sequence": 7774,
+      "ui_epoch": 7,
+      "ui_applied_monotonic_s": 6887.521348212,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 7,
+      "track": 7,
+      "frequency_hz": 97730937.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6886.997895441,
+      "capture_filename": "capture_00007.npz",
+      "capture_sha256": "d4ae82e111daa379ee10dbb46b41420d66ea7e849d4cc05ef9b0b4872e53b176",
+      "pl_timestamp_cycles": 916846786,
+      "channel": 7,
+      "fcw": 8388608,
+      "residual_hz": 937.5,
+      "capture_ms": 76.83190799980366,
+      "inference_ms": 121.17123499956506,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.5668135285377502,
+      "voted_label": "64QAM",
+      "voted_score": 0.5668135285377502,
+      "votes": [
+        [
+          "64QAM",
+          0.5668135285377502
+        ]
+      ],
+      "first_label_ms": 1069.5615029999317,
+      "cfar_sequence": 8860,
+      "ui_epoch": 8,
+      "ui_applied_monotonic_s": 6888.067456944,
+      "displayed_label": "64QAM",
+      "displayed_page": 1
+    },
+    {
+      "index": 8,
+      "track": 9,
+      "frequency_hz": 96922812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6888.11611797,
+      "capture_filename": "capture_00008.npz",
+      "capture_sha256": "23a343c82f0d5eb01bf898a0e9c9d44255260507ff12e20de65bf01ef75a8a9d",
+      "pl_timestamp_cycles": 970690522,
+      "channel": 4,
+      "fcw": 3514826752,
+      "residual_hz": -87187.5,
+      "capture_ms": 75.70898900030443,
+      "inference_ms": 49.91576099928352,
+      "prediction": "BPSK",
+      "coarse": "BPSK",
+      "score": 1.0,
+      "voted_label": "BPSK",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "BPSK",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 9871,
+      "ui_epoch": 9,
+      "displayed_label": null
+    },
+    {
+      "index": 9,
+      "track": 10,
+      "frequency_hz": 97678437.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6888.11611797,
+      "capture_filename": "capture_00009.npz",
+      "capture_sha256": "38a821ade0ade5fe184df36ead5c0c040c29be11cba53b2cf152aa3031b5767e",
+      "pl_timestamp_cycles": 1013333701,
+      "channel": 7,
+      "fcw": 3833593856,
+      "residual_hz": -51562.5,
+      "capture_ms": 75.7515039995269,
+      "inference_ms": 49.89853899951413,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 10671,
+      "ui_epoch": 10,
+      "displayed_label": null
+    },
+    {
+      "index": 10,
+      "track": 1,
+      "frequency_hz": 96995937.5,
+      "bandwidth_hz": 15000.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00010.npz",
+      "capture_sha256": "eb6c24a9347d75e300b3214491354a38352544bd7e47bec56e51990b1fbfbff5",
+      "pl_timestamp_cycles": 1058766963,
+      "channel": 4,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 78.41640100014047,
+      "inference_ms": 49.33945099946868,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999057054519653,
+      "voted_label": "FM",
+      "voted_score": 0.9999527335166931,
+      "votes": [
+        [
+          "FM",
+          0.9999997615814209
+        ],
+        [
+          "FM",
+          0.9999057054519653
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 11518,
+      "ui_epoch": 11,
+      "displayed_label": null
+    },
+    {
+      "index": 11,
+      "track": 11,
+      "frequency_hz": 95542812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6889.446403639,
+      "capture_filename": "capture_00011.npz",
+      "capture_sha256": "5efed7397ec13a4958b3531a20c87dbabf8b9e9875f513fe0ad983403fd7913a",
+      "pl_timestamp_cycles": 1103764007,
+      "channel": 14,
+      "fcw": 4051697664,
+      "residual_hz": -27187.5,
+      "capture_ms": 76.00227700004325,
+      "inference_ms": 49.8253180003303,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 12366,
+      "ui_epoch": 12,
+      "displayed_label": null
+    },
+    {
+      "index": 12,
+      "track": 12,
+      "frequency_hz": 97314687.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6889.899785672,
+      "capture_filename": "capture_00012.npz",
+      "capture_sha256": "12a729761ef2f6b223c2b59e5d4d73b1250842d013429a3ca4272dad7dce478e",
+      "pl_timestamp_cycles": 1149099351,
+      "channel": 5,
+      "fcw": 578813952,
+      "residual_hz": 64687.5,
+      "capture_ms": 75.7930599993415,
+      "inference_ms": 120.56447099985235,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9999117851257324,
+      "voted_label": "64QAM",
+      "voted_score": 0.9999117851257324,
+      "votes": [
+        [
+          "64QAM",
+          0.9999117851257324
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 13216,
+      "ui_epoch": 13,
+      "displayed_label": null
+    },
+    {
+      "index": 13,
+      "track": 13,
+      "frequency_hz": 97496562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6890.420674265,
+      "capture_filename": "capture_00013.npz",
+      "capture_sha256": "039801c013785e18543d3ce2ac9529f609130a74f348f4b6d41a92de571c9868",
+      "pl_timestamp_cycles": 1201258372,
+      "channel": 6,
+      "fcw": 58720256,
+      "residual_hz": 6562.5,
+      "capture_ms": 76.60297700022056,
+      "inference_ms": 122.53784800032008,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9237979054450989,
+      "voted_label": "64QAM",
+      "voted_score": 0.9237979054450989,
+      "votes": [
+        [
+          "64QAM",
+          0.9237979054450989
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 14193,
+      "ui_epoch": 14,
+      "displayed_label": null
+    },
+    {
+      "index": 14,
+      "track": 2,
+      "frequency_hz": 96711875.0,
+      "bandwidth_hz": 5625.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00014.npz",
+      "capture_sha256": "d9da62535bc5b9d7822efb5723e4a436e13bf79e3177672a152ce6e866ffb0e8",
+      "pl_timestamp_cycles": 1273690064,
+      "channel": 3,
+      "fcw": 3774873600,
+      "residual_hz": -58125.0,
+      "capture_ms": 277.55505999994057,
+      "inference_ms": 52.32245299976057,
+      "prediction": "BPSK",
+      "coarse": "BPSK",
+      "score": 0.5526525974273682,
+      "voted_label": "BPSK",
+      "voted_score": 0.5526525974273682,
+      "votes": [
+        [
+          "OOK",
+          0.5985637307167053
+        ],
+        [
+          "BPSK",
+          0.5526525974273682
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 15174,
+      "ui_epoch": 15,
+      "displayed_label": null
+    },
+    {
+      "index": 15,
+      "track": 0,
+      "frequency_hz": 95797812.5,
+      "bandwidth_hz": 15000.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00015.npz",
+      "capture_sha256": "47aab1f0417235e71ad3043c1305613a12ee27e184d3d0c5bb5bdcec26f0828e",
+      "pl_timestamp_cycles": 1320152257,
+      "channel": 15,
+      "fcw": 4185915392,
+      "residual_hz": -12187.5,
+      "capture_ms": 75.76840299952892,
+      "inference_ms": 49.3239369998264,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.913581132888794,
+      "voted_label": "FM",
+      "voted_score": 0.956790566444397,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "OOK",
+          1.0
+        ],
+        [
+          "FM",
+          0.913581132888794
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 16424,
+      "ui_epoch": 16,
+      "displayed_label": null
+    },
+    {
+      "index": 16,
+      "track": 1,
+      "frequency_hz": 96999687.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00016.npz",
+      "capture_sha256": "6b4cc88a635c80db00d590cf6fc2fd89ddb130dc8ff3fb35a7aeb11ac6fac1bc",
+      "pl_timestamp_cycles": 1365456143,
+      "channel": 4,
+      "fcw": 4202692608,
+      "residual_hz": -10312.5,
+      "capture_ms": 76.69093999993493,
+      "inference_ms": 49.43071899924689,
+      "prediction": "BPSK",
+      "coarse": "BPSK",
+      "score": 0.9999998807907104,
+      "voted_label": "FM",
+      "voted_score": 0.9999527335166931,
+      "votes": [
+        [
+          "FM",
+          0.9999997615814209
+        ],
+        [
+          "FM",
+          0.9999057054519653
+        ],
+        [
+          "BPSK",
+          0.9999998807907104
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 17272,
+      "ui_epoch": 17,
+      "displayed_label": null
+    },
+    {
+      "index": 17,
+      "track": 14,
+      "frequency_hz": 97850937.5,
+      "bandwidth_hz": 11250.0,
+      "first_seen_monotonic_s": 6892.553786474,
+      "capture_filename": "capture_00017.npz",
+      "capture_sha256": "98c3033330cfa3864e0ca205e9cbd617a61994ce481c7c774023cb80938204fb",
+      "pl_timestamp_cycles": 1414523634,
+      "channel": 8,
+      "fcw": 3229614080,
+      "residual_hz": -119062.5,
+      "capture_ms": 76.07137899958616,
+      "inference_ms": 123.0616969996845,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9908971190452576,
+      "voted_label": "64QAM",
+      "voted_score": 0.9908971190452576,
+      "votes": [
+        [
+          "64QAM",
+          0.9908971190452576
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 18193,
+      "ui_epoch": 18,
+      "displayed_label": null
+    },
+    {
+      "index": 18,
+      "track": 11,
+      "frequency_hz": 95542812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6889.446403639,
+      "capture_filename": "capture_00018.npz",
+      "capture_sha256": "e3ff9f825a53036a3f395b3d440523e679b0b2746e1a1e997048a2e9b127ea5f",
+      "pl_timestamp_cycles": 1472460330,
+      "channel": 14,
+      "fcw": 4051697664,
+      "residual_hz": -27187.5,
+      "capture_ms": 75.81149599991477,
+      "inference_ms": 120.73026400048548,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.957853376865387,
+      "voted_label": "64QAM",
+      "voted_score": 0.957853376865387,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "64QAM",
+          0.957853376865387
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 19280,
+      "ui_epoch": 19,
+      "displayed_label": null
+    },
+    {
+      "index": 19,
+      "track": 2,
+      "frequency_hz": 96711875.0,
+      "bandwidth_hz": 5625.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00019.npz",
+      "capture_sha256": "3b127d9a7c169e3312250c6516970bd1cd40642802c6c102ac06193427965565",
+      "pl_timestamp_cycles": 1529349972,
+      "channel": 3,
+      "fcw": 3774873600,
+      "residual_hz": -58125.0,
+      "capture_ms": 76.18411399926117,
+      "inference_ms": 50.07378099980997,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9808762669563293,
+      "voted_label": "OOK",
+      "voted_score": 0.7897199988365173,
+      "votes": [
+        [
+          "OOK",
+          0.5985637307167053
+        ],
+        [
+          "BPSK",
+          0.5526525974273682
+        ],
+        [
+          "OOK",
+          0.9808762669563293
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 20346,
+      "ui_epoch": 20,
+      "displayed_label": null
+    },
+    {
+      "index": 20,
+      "track": 13,
+      "frequency_hz": 97496562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6890.420674265,
+      "capture_filename": "capture_00020.npz",
+      "capture_sha256": "126a2af594abd211afdff630875cc394c7143ea84300edb25ff15094ea61b5ac",
+      "pl_timestamp_cycles": 1582092722,
+      "channel": 6,
+      "fcw": 58720256,
+      "residual_hz": 6562.5,
+      "capture_ms": 106.94259600040823,
+      "inference_ms": 133.672019000187,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9999996423721313,
+      "voted_label": "64QAM",
+      "voted_score": 0.9618987739086151,
+      "votes": [
+        [
+          "64QAM",
+          0.9237979054450989
+        ],
+        [
+          "64QAM",
+          0.9999996423721313
+        ]
+      ],
+      "first_label_ms": 4411.153133999505,
+      "cfar_sequence": 21278,
+      "ui_epoch": 21,
+      "ui_applied_monotonic_s": 6894.831827399,
+      "displayed_label": "64QAM",
+      "displayed_page": 0
+    },
+    {
+      "index": 21,
+      "track": 15,
+      "frequency_hz": 95516562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6894.921482821,
+      "capture_filename": "capture_00021.npz",
+      "capture_sha256": "383874e593dc1a3949668c690fcc64e2070104c3daa9c90e3f109b27f96df680",
+      "pl_timestamp_cycles": 1653449681,
+      "channel": 14,
+      "fcw": 3816816640,
+      "residual_hz": -53437.5,
+      "capture_ms": 97.2641520002071,
+      "inference_ms": 49.98533799971483,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": 479.9440410006355,
+      "cfar_sequence": 22633,
+      "ui_epoch": 22,
+      "ui_applied_monotonic_s": 6895.401426862,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 22,
+      "track": 16,
+      "frequency_hz": 95334687.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6894.921482821,
+      "capture_filename": "capture_00022.npz",
+      "capture_sha256": "40e97bf56fe39b9751b8316a531d41d8259c5fd6bb76d1cc99fef7355d21cd05",
+      "pl_timestamp_cycles": 1707883396,
+      "channel": 13,
+      "fcw": 41943040,
+      "residual_hz": 4687.5,
+      "capture_ms": 76.88269400023273,
+      "inference_ms": 49.65667600026791,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": 978.3932180007469,
+      "cfar_sequence": 23692,
+      "ui_epoch": 23,
+      "ui_applied_monotonic_s": 6895.899876039,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 1
+    },
+    {
+      "index": 23,
+      "track": 17,
+      "frequency_hz": 97652187.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6895.486138307,
+      "capture_filename": "capture_00023.npz",
+      "capture_sha256": "fdb958fba99a202a020b283875946ba7ab9e84e290bc9b6b2547e9b6237d70a3",
+      "pl_timestamp_cycles": 1757650015,
+      "channel": 7,
+      "fcw": 3598712832,
+      "residual_hz": -77812.5,
+      "capture_ms": 76.20887299981405,
+      "inference_ms": 50.06493200016848,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": 912.5338060002832,
+      "cfar_sequence": 24627,
+      "ui_epoch": 24,
+      "ui_applied_monotonic_s": 6896.398672113,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 1
+    },
+    {
+      "index": 24,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00024.npz",
+      "capture_sha256": "0b82dc229134e5aba549b5d7c8326495c40c8e158e6a16559f5b4ec71060daaf",
+      "pl_timestamp_cycles": 1806644597,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 75.8388999993258,
+      "inference_ms": 49.238588000662276,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999505281448364,
+      "voted_label": "FM",
+      "voted_score": 0.9711772203445435,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "OOK",
+          1.0
+        ],
+        [
+          "FM",
+          0.913581132888794
+        ],
+        [
+          "FM",
+          0.9999505281448364
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 25546,
+      "ui_epoch": 25,
+      "ui_applied_monotonic_s": 6896.921096213,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 25,
+      "track": 1,
+      "frequency_hz": 96999687.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00025.npz",
+      "capture_sha256": "f72362eea23cc88120c3c7ef0a22d2940cd1752abb5f2a14349c890cce6292ff",
+      "pl_timestamp_cycles": 1859059014,
+      "channel": 4,
+      "fcw": 4202692608,
+      "residual_hz": -10312.5,
+      "capture_ms": 77.96266799959994,
+      "inference_ms": 49.28552599994873,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 1.0,
+      "voted_label": "FM",
+      "voted_score": 0.9999684890111288,
+      "votes": [
+        [
+          "FM",
+          0.9999997615814209
+        ],
+        [
+          "FM",
+          0.9999057054519653
+        ],
+        [
+          "BPSK",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 26525,
+      "ui_epoch": 26,
+      "ui_applied_monotonic_s": 6897.418670404,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 26,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00026.npz",
+      "capture_sha256": "17cbd92c5bdb001debb5c45f4fd4b12bcbf5849a4a096924910a560d7a6cb72e",
+      "pl_timestamp_cycles": 1910621811,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 76.52269400023215,
+      "inference_ms": 50.14301100072771,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.983007550239563,
+      "voted_label": "OOK",
+      "voted_score": 0.7897199988365173,
+      "votes": [
+        [
+          "OOK",
+          0.5985637307167053
+        ],
+        [
+          "BPSK",
+          0.5526525974273682
+        ],
+        [
+          "OOK",
+          0.9808762669563293
+        ],
+        [
+          "AM-DSB",
+          0.983007550239563
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 27495,
+      "ui_epoch": 27,
+      "ui_applied_monotonic_s": 6897.94110677,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 27,
+      "track": 15,
+      "frequency_hz": 95516562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6894.921482821,
+      "capture_filename": "capture_00027.npz",
+      "capture_sha256": "241eac385526ac06c9ebd0f4b9820d818064914c90e8d2f98b319f06acb1deb4",
+      "pl_timestamp_cycles": 1962493982,
+      "channel": 14,
+      "fcw": 3816816640,
+      "residual_hz": -53437.5,
+      "capture_ms": 76.57027099958214,
+      "inference_ms": 49.95210300057806,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 28467,
+      "ui_epoch": 28,
+      "ui_applied_monotonic_s": 6898.486758276,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 28,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00028.npz",
+      "capture_sha256": "2d31691b6f2e970e6d2cc554523d872201aae9fbc8e07f7a421b251005497962",
+      "pl_timestamp_cycles": 2017099359,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 76.68791500054795,
+      "inference_ms": 49.415207000492956,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999604225158691,
+      "voted_label": "FM",
+      "voted_score": 0.9783730208873749,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "OOK",
+          1.0
+        ],
+        [
+          "FM",
+          0.913581132888794
+        ],
+        [
+          "FM",
+          0.9999505281448364
+        ],
+        [
+          "FM",
+          0.9999604225158691
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 29491,
+      "ui_epoch": 29,
+      "ui_applied_monotonic_s": 6899.032650902,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 29,
+      "track": 1,
+      "frequency_hz": 96996875.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00029.npz",
+      "capture_sha256": "8fa9a7103d5d39350ca61c758817dfa5dd8c5afd195648a92c5cf6ba17636439",
+      "pl_timestamp_cycles": 2073734222,
+      "channel": 4,
+      "fcw": 4177526784,
+      "residual_hz": -13125.0,
+      "capture_ms": 76.19717599936848,
+      "inference_ms": 49.367899000571924,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999998807907104,
+      "voted_label": "FM",
+      "voted_score": 0.9999763369560242,
+      "votes": [
+        [
+          "FM",
+          0.9999997615814209
+        ],
+        [
+          "FM",
+          0.9999057054519653
+        ],
+        [
+          "BPSK",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 30554,
+      "ui_epoch": 30,
+      "ui_applied_monotonic_s": 6899.579284934,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 30,
+      "track": 2,
+      "frequency_hz": 96703437.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00030.npz",
+      "capture_sha256": "83b91fede65b71583caaf99a2807fccc0ac58d1dbaa8d3217b91092b08450b43",
+      "pl_timestamp_cycles": 2125650755,
+      "channel": 3,
+      "fcw": 3699376128,
+      "residual_hz": -66562.5,
+      "capture_ms": 75.84391699947446,
+      "inference_ms": 50.005480000436364,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9999827146530151,
+      "voted_label": "OOK",
+      "voted_score": 0.85980757077535,
+      "votes": [
+        [
+          "OOK",
+          0.5985637307167053
+        ],
+        [
+          "BPSK",
+          0.5526525974273682
+        ],
+        [
+          "OOK",
+          0.9808762669563293
+        ],
+        [
+          "AM-DSB",
+          0.983007550239563
+        ],
+        [
+          "OOK",
+          0.9999827146530151
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 31528,
+      "ui_epoch": 31,
+      "ui_applied_monotonic_s": 6900.100583718,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 31,
+      "track": 18,
+      "frequency_hz": 95621562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6901.003325427,
+      "capture_filename": "capture_00031.npz",
+      "capture_sha256": "50b97e69ba2e5ae8b32a9f7bf784b64f695e4726132989f556dde4589e419f00",
+      "pl_timestamp_cycles": 2259613173,
+      "channel": 14,
+      "fcw": 461373440,
+      "residual_hz": 51562.5,
+      "capture_ms": 76.64078400011931,
+      "inference_ms": 49.915259999579575,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": 518.132438000066,
+      "cfar_sequence": 34038,
+      "ui_epoch": 32,
+      "ui_applied_monotonic_s": 6901.521457865,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 32,
+      "track": 19,
+      "frequency_hz": 95387187.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6901.600902697,
+      "capture_filename": "capture_00032.npz",
+      "capture_sha256": "7b45e21947b25e420cd9d897e40b1ab8ba19cecfb1bad2b3545bd2128e052418",
+      "pl_timestamp_cycles": 2319384580,
+      "channel": 13,
+      "fcw": 511705088,
+      "residual_hz": 57187.5,
+      "capture_ms": 76.67714500075817,
+      "inference_ms": 49.834776999887254,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9998506307601929,
+      "voted_label": "OOK",
+      "voted_score": 0.9998506307601929,
+      "votes": [
+        [
+          "OOK",
+          0.9998506307601929
+        ]
+      ],
+      "first_label_ms": 514.4905010001821,
+      "cfar_sequence": 35159,
+      "ui_epoch": 33,
+      "ui_applied_monotonic_s": 6902.115393198,
+      "displayed_label": "OOK",
+      "displayed_page": 1
+    },
+    {
+      "index": 33,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00033.npz",
+      "capture_sha256": "5b83e9222df35525a2cbe2f4017217e1bd1648ac8a8442528c5304fed766029d",
+      "pl_timestamp_cycles": 2379006413,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 76.17211199976737,
+      "inference_ms": 49.43337800068548,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9993543028831482,
+      "voted_label": "FM",
+      "voted_score": 0.9782115966081619,
+      "votes": [
+        [
+          "OOK",
+          1.0
+        ],
+        [
+          "FM",
+          0.913581132888794
+        ],
+        [
+          "FM",
+          0.9999505281448364
+        ],
+        [
+          "FM",
+          0.9999604225158691
+        ],
+        [
+          "FM",
+          0.9993543028831482
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 36278,
+      "ui_epoch": 34,
+      "ui_applied_monotonic_s": 6902.7084644,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 34,
+      "track": 20,
+      "frequency_hz": 97417812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6902.775205083,
+      "capture_filename": "capture_00034.npz",
+      "capture_sha256": "e9b5e553e8634413f89f626fa5157442268e5dbda22b619ba0aed0f423c74cd0",
+      "pl_timestamp_cycles": 2436843103,
+      "channel": 6,
+      "fcw": 3649044480,
+      "residual_hz": -72187.5,
+      "capture_ms": 76.84461799999553,
+      "inference_ms": 49.621846999798436,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9962450861930847,
+      "voted_label": "OOK",
+      "voted_score": 0.9962450861930847,
+      "votes": [
+        [
+          "OOK",
+          0.9962450861930847
+        ]
+      ],
+      "first_label_ms": 502.28526599948964,
+      "cfar_sequence": 37361,
+      "ui_epoch": 35,
+      "ui_applied_monotonic_s": 6903.277490349,
+      "displayed_label": "OOK",
+      "displayed_page": 1
+    },
+    {
+      "index": 35,
+      "track": 21,
+      "frequency_hz": 95255937.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6903.36655536,
+      "capture_filename": "capture_00035.npz",
+      "capture_sha256": "b2bb0111a3dae23e5da35fcee47c13638502d70aeb48541cc767b6ff94d228d8",
+      "pl_timestamp_cycles": 2495971005,
+      "channel": 13,
+      "fcw": 3632267264,
+      "residual_hz": -74062.5,
+      "capture_ms": 76.47492100022646,
+      "inference_ms": 49.79950300003111,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9237775802612305,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9237775802612305,
+      "votes": [
+        [
+          "AM-DSB",
+          0.9237775802612305
+        ]
+      ],
+      "first_label_ms": 503.85239899969747,
+      "cfar_sequence": 38470,
+      "ui_epoch": 36,
+      "ui_applied_monotonic_s": 6903.870407759,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 36,
+      "track": 23,
+      "frequency_hz": 95542812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6903.946217397,
+      "capture_filename": "capture_00036.npz",
+      "capture_sha256": "ed50f84e924061201cff85b12c6f5e9e21c15f904586c2767a9a2f2162b97331",
+      "pl_timestamp_cycles": 2553934783,
+      "channel": 14,
+      "fcw": 4051697664,
+      "residual_hz": -27187.5,
+      "capture_ms": 76.42951600064407,
+      "inference_ms": 129.57455099967774,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9003718495368958,
+      "voted_label": "64QAM",
+      "voted_score": 0.9003718495368958,
+      "votes": [
+        [
+          "64QAM",
+          0.9003718495368958
+        ]
+      ],
+      "first_label_ms": 541.7367230002128,
+      "cfar_sequence": 39557,
+      "ui_epoch": 37,
+      "ui_applied_monotonic_s": 6904.48795412,
+      "displayed_label": "64QAM",
+      "displayed_page": 0
+    },
+    {
+      "index": 37,
+      "track": 22,
+      "frequency_hz": 97730937.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6903.36655536,
+      "capture_filename": "capture_00037.npz",
+      "capture_sha256": "1cdb0d1083e0554f3ccb43d75af8aab4424340f8e8f8309d4c12dcf0eebffff7",
+      "pl_timestamp_cycles": 2620725678,
+      "channel": 7,
+      "fcw": 8388608,
+      "residual_hz": 937.5,
+      "capture_ms": 93.15971300020465,
+      "inference_ms": 133.85922199995548,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9996992349624634,
+      "voted_label": "64QAM",
+      "voted_score": 0.9996992349624634,
+      "votes": [
+        [
+          "64QAM",
+          0.9996992349624634
+        ]
+      ],
+      "first_label_ms": 1832.5494679993426,
+      "cfar_sequence": 40776,
+      "ui_epoch": 38,
+      "ui_applied_monotonic_s": 6905.199104828,
+      "displayed_label": "64QAM",
+      "displayed_page": 0
+    },
+    {
+      "index": 38,
+      "track": 1,
+      "frequency_hz": 96997812.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00038.npz",
+      "capture_sha256": "77257dc0ef8ea3b7edf80b3e630dc3404149a39b62165a0db1ddac92a3e9f545",
+      "pl_timestamp_cycles": 2687203465,
+      "channel": 4,
+      "fcw": 4185915392,
+      "residual_hz": -12187.5,
+      "capture_ms": 77.55031699980464,
+      "inference_ms": 49.30478900041635,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9997624754905701,
+      "voted_label": "FM",
+      "voted_score": 0.9999170154333115,
+      "votes": [
+        [
+          "FM",
+          0.9999057054519653
+        ],
+        [
+          "BPSK",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          0.9997624754905701
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 42054,
+      "ui_epoch": 39,
+      "ui_applied_monotonic_s": 6905.792507228,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 39,
+      "track": 2,
+      "frequency_hz": 96703437.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00039.npz",
+      "capture_sha256": "4248aaac2660a50f11edbdfd83c525a65d8316cefd9cfb52c8091ed47b802bb9",
+      "pl_timestamp_cycles": 2786700471,
+      "channel": 3,
+      "fcw": 3699376128,
+      "residual_hz": -66562.5,
+      "capture_ms": 76.27194299948314,
+      "inference_ms": 49.70123299972329,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9999755620956421,
+      "voted_label": "OOK",
+      "voted_score": 0.9936115145683289,
+      "votes": [
+        [
+          "BPSK",
+          0.5526525974273682
+        ],
+        [
+          "OOK",
+          0.9808762669563293
+        ],
+        [
+          "AM-DSB",
+          0.983007550239563
+        ],
+        [
+          "OOK",
+          0.9999827146530151
+        ],
+        [
+          "OOK",
+          0.9999755620956421
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 43922,
+      "ui_epoch": 40,
+      "displayed_label": null
+    },
+    {
+      "index": 40,
+      "track": 24,
+      "frequency_hz": 97314687.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6906.745967551,
+      "capture_filename": "capture_00040.npz",
+      "capture_sha256": "540c221f48db643c75f6caecb863c9e415e0fb455c6a343dca16b12871db9faf",
+      "pl_timestamp_cycles": 2833977624,
+      "channel": 5,
+      "fcw": 578813952,
+      "residual_hz": 64687.5,
+      "capture_ms": 76.8193309995695,
+      "inference_ms": 49.8014749991853,
+      "prediction": "BPSK",
+      "coarse": "BPSK",
+      "score": 0.9857831001281738,
+      "voted_label": "BPSK",
+      "voted_score": 0.9857831001281738,
+      "votes": [
+        [
+          "BPSK",
+          0.9857831001281738
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 44807,
+      "ui_epoch": 41,
+      "displayed_label": null
+    },
+    {
+      "index": 41,
+      "track": 25,
+      "frequency_hz": 97496562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6907.217670042,
+      "capture_filename": "capture_00041.npz",
+      "capture_sha256": "c8401ff0935b8d9074d00fa6a447b58c425416b578a414388a3376951a7b5048",
+      "pl_timestamp_cycles": 2881115824,
+      "channel": 6,
+      "fcw": 58720256,
+      "residual_hz": 6562.5,
+      "capture_ms": 76.44153800083586,
+      "inference_ms": 77.20890599921404,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.999872088432312,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.999872088432312,
+      "votes": [
+        [
+          "AM-DSB",
+          0.999872088432312
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 45692,
+      "ui_epoch": 42,
+      "displayed_label": null
+    },
+    {
+      "index": 42,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00042.npz",
+      "capture_sha256": "e3cfe9cd02435a6737448cf0ee8017742f634e2b5ce1611f04728b34d16cb95d",
+      "pl_timestamp_cycles": 2939925201,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 93.41861099983362,
+      "inference_ms": 60.55756499972631,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9908995628356934,
+      "voted_label": "FM",
+      "voted_score": 0.9807491898536682,
+      "votes": [
+        [
+          "FM",
+          0.913581132888794
+        ],
+        [
+          "FM",
+          0.9999505281448364
+        ],
+        [
+          "FM",
+          0.9999604225158691
+        ],
+        [
+          "FM",
+          0.9993543028831482
+        ],
+        [
+          "FM",
+          0.9908995628356934
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 46763,
+      "ui_epoch": 43,
+      "displayed_label": null
+    },
+    {
+      "index": 43,
+      "track": 1,
+      "frequency_hz": 97002500.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00043.npz",
+      "capture_sha256": "e37ce05c77aeed2f792b786c599d48f883cd59a941d9611f4e71773d144245ab",
+      "pl_timestamp_cycles": 2990920307,
+      "channel": 4,
+      "fcw": 4227858432,
+      "residual_hz": -7500.0,
+      "capture_ms": 76.68939799987129,
+      "inference_ms": 49.40827900009026,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999995231628418,
+      "voted_label": "FM",
+      "voted_score": 0.9999404698610306,
+      "votes": [
+        [
+          "BPSK",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          0.9997624754905701
+        ],
+        [
+          "FM",
+          0.9999995231628418
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 47751,
+      "ui_epoch": 44,
+      "displayed_label": null
+    },
+    {
+      "index": 44,
+      "track": 2,
+      "frequency_hz": 96711875.0,
+      "bandwidth_hz": 5625.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00044.npz",
+      "capture_sha256": "cdbd9922b10b5728f6f1eaa17629eab50bd369a6f87f2db96f4b879aa34d96f1",
+      "pl_timestamp_cycles": 3037903304,
+      "channel": 3,
+      "fcw": 3774873600,
+      "residual_hz": -58125.0,
+      "capture_ms": 77.48389399966982,
+      "inference_ms": 50.27850899932673,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.8151077628135681,
+      "voted_label": "OOK",
+      "voted_score": 0.9489855766296387,
+      "votes": [
+        [
+          "OOK",
+          0.9808762669563293
+        ],
+        [
+          "AM-DSB",
+          0.983007550239563
+        ],
+        [
+          "OOK",
+          0.9999827146530151
+        ],
+        [
+          "OOK",
+          0.9999755620956421
+        ],
+        [
+          "OOK",
+          0.8151077628135681
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 48630,
+      "ui_epoch": 45,
+      "displayed_label": null
+    },
+    {
+      "index": 45,
+      "track": 25,
+      "frequency_hz": 97496562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6907.217670042,
+      "capture_filename": "capture_00045.npz",
+      "capture_sha256": "b06cabc4b001c305b34d5a3c2edd28e23ea406d1a25eda770ce073ddaa34ae1d",
+      "pl_timestamp_cycles": 3089107374,
+      "channel": 6,
+      "fcw": 58720256,
+      "residual_hz": 6562.5,
+      "capture_ms": 75.92016600028728,
+      "inference_ms": 49.70860699995683,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999998807907104,
+      "voted_label": "FM",
+      "voted_score": 0.9999998807907104,
+      "votes": [
+        [
+          "AM-DSB",
+          0.999872088432312
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 49593,
+      "ui_epoch": 46,
+      "displayed_label": null
+    },
+    {
+      "index": 46,
+      "track": 24,
+      "frequency_hz": 97314687.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6906.745967551,
+      "capture_filename": "capture_00046.npz",
+      "capture_sha256": "072926a178751c2e41eefdf823f9afbbbc54dacb56a9c4f382e61a379d3d7a28",
+      "pl_timestamp_cycles": 3137838213,
+      "channel": 5,
+      "fcw": 578813952,
+      "residual_hz": 64687.5,
+      "capture_ms": 77.16006100054074,
+      "inference_ms": 50.05306500061124,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.8469747304916382,
+      "voted_label": "OOK",
+      "voted_score": 0.8469747304916382,
+      "votes": [
+        [
+          "BPSK",
+          0.9857831001281738
+        ],
+        [
+          "OOK",
+          0.8469747304916382
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 50504,
+      "ui_epoch": 47,
+      "displayed_label": null
+    },
+    {
+      "index": 47,
+      "track": 0,
+      "frequency_hz": 95795000.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00047.npz",
+      "capture_sha256": "59848145cca214953ce608c719e59e61c86a113378255006d95af531ee433cb4",
+      "pl_timestamp_cycles": 3185574314,
+      "channel": 15,
+      "fcw": 4160749568,
+      "residual_hz": -15000.0,
+      "capture_ms": 75.99161100006313,
+      "inference_ms": 49.33508100020845,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999754428863525,
+      "voted_label": "FM",
+      "voted_score": 0.9980280518531799,
+      "votes": [
+        [
+          "FM",
+          0.9999505281448364
+        ],
+        [
+          "FM",
+          0.9999604225158691
+        ],
+        [
+          "FM",
+          0.9993543028831482
+        ],
+        [
+          "FM",
+          0.9908995628356934
+        ],
+        [
+          "FM",
+          0.9999754428863525
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 51402,
+      "ui_epoch": 48,
+      "displayed_label": null
+    },
+    {
+      "index": 48,
+      "track": 1,
+      "frequency_hz": 97001562.5,
+      "bandwidth_hz": 18750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00048.npz",
+      "capture_sha256": "0f83291d248ccba295c0eeab25fbe96529b975297beef24ca84c7b2af7740703",
+      "pl_timestamp_cycles": 3237818535,
+      "channel": 4,
+      "fcw": 4219469824,
+      "residual_hz": -8437.5,
+      "capture_ms": 76.50897999974404,
+      "inference_ms": 49.17674599983002,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999692440032959,
+      "voted_label": "FM",
+      "voted_score": 0.9999462246894837,
+      "votes": [
+        [
+          "FM",
+          1.0
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          0.9997624754905701
+        ],
+        [
+          "FM",
+          0.9999995231628418
+        ],
+        [
+          "FM",
+          0.9999692440032959
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 52381,
+      "ui_epoch": 49,
+      "displayed_label": null
+    },
+    {
+      "index": 49,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00049.npz",
+      "capture_sha256": "273f754833b99e82e0636438e4f5cec6a4dfbd4f3e240091d40422a5d1f241b0",
+      "pl_timestamp_cycles": 3285362758,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 76.00086600086797,
+      "inference_ms": 49.69207100020867,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.6234214305877686,
+      "voted_label": "OOK",
+      "voted_score": 0.8596218675374985,
+      "votes": [
+        [
+          "AM-DSB",
+          0.983007550239563
+        ],
+        [
+          "OOK",
+          0.9999827146530151
+        ],
+        [
+          "OOK",
+          0.9999755620956421
+        ],
+        [
+          "OOK",
+          0.8151077628135681
+        ],
+        [
+          "OOK",
+          0.6234214305877686
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 53273,
+      "ui_epoch": 50,
+      "displayed_label": null
+    },
+    {
+      "index": 50,
+      "track": 0,
+      "frequency_hz": 95796875.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00050.npz",
+      "capture_sha256": "5c6e79b2d3d9e6d2f54a8403eb3085d5274454f9c0e0073c4bbd46ce4b5192c1",
+      "pl_timestamp_cycles": 3333021782,
+      "channel": 15,
+      "fcw": 4177526784,
+      "residual_hz": -13125.0,
+      "capture_ms": 77.3956700004419,
+      "inference_ms": 49.28308000035031,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9742514491081238,
+      "voted_label": "FM",
+      "voted_score": 0.9928882360458374,
+      "votes": [
+        [
+          "FM",
+          0.9999604225158691
+        ],
+        [
+          "FM",
+          0.9993543028831482
+        ],
+        [
+          "FM",
+          0.9908995628356934
+        ],
+        [
+          "FM",
+          0.9999754428863525
+        ],
+        [
+          "FM",
+          0.9742514491081238
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 54164,
+      "ui_epoch": 51,
+      "displayed_label": null
+    },
+    {
+      "index": 51,
+      "track": 1,
+      "frequency_hz": 96986562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00051.npz",
+      "capture_sha256": "60b94f2feb175900df36ff74288c156284dd465afd54af3beb7c5b2439593f4c",
+      "pl_timestamp_cycles": 3382775276,
+      "channel": 4,
+      "fcw": 4085252096,
+      "residual_hz": -23437.5,
+      "capture_ms": 76.44273999994766,
+      "inference_ms": 49.044413000046916,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999984502792358,
+      "voted_label": "FM",
+      "voted_score": 0.9999459147453308,
+      "votes": [
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "FM",
+          0.9997624754905701
+        ],
+        [
+          "FM",
+          0.9999995231628418
+        ],
+        [
+          "FM",
+          0.9999692440032959
+        ],
+        [
+          "FM",
+          0.9999984502792358
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 55099,
+      "ui_epoch": 52,
+      "ui_applied_monotonic_s": 6912.651651501,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 52,
+      "track": 2,
+      "frequency_hz": 96703437.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00052.npz",
+      "capture_sha256": "d54f6a86a706f470645fbfdd3d16a5fa0c0d5c4a247fa47a81a723d67e452220",
+      "pl_timestamp_cycles": 3432618360,
+      "channel": 3,
+      "fcw": 3699376128,
+      "residual_hz": -66562.5,
+      "capture_ms": 76.70337200033828,
+      "inference_ms": 49.85993500031327,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.990638017654419,
+      "voted_label": "OOK",
+      "voted_score": 0.8858250975608826,
+      "votes": [
+        [
+          "OOK",
+          0.9999827146530151
+        ],
+        [
+          "OOK",
+          0.9999755620956421
+        ],
+        [
+          "OOK",
+          0.8151077628135681
+        ],
+        [
+          "OOK",
+          0.6234214305877686
+        ],
+        [
+          "OOK",
+          0.990638017654419
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 56033,
+      "ui_epoch": 53,
+      "ui_applied_monotonic_s": 6913.150357616,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 53,
+      "track": 0,
+      "frequency_hz": 95792187.5,
+      "bandwidth_hz": 11250.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00053.npz",
+      "capture_sha256": "641be91f01351b4606bb468d08d37ac6f426fd383377661911c4f12bb329cdf8",
+      "pl_timestamp_cycles": 3482505830,
+      "channel": 15,
+      "fcw": 4135583744,
+      "residual_hz": -17812.5,
+      "capture_ms": 75.9659390005254,
+      "inference_ms": 49.126161000458524,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9898081421852112,
+      "voted_label": "FM",
+      "voted_score": 0.9908577799797058,
+      "votes": [
+        [
+          "FM",
+          0.9993543028831482
+        ],
+        [
+          "FM",
+          0.9908995628356934
+        ],
+        [
+          "FM",
+          0.9999754428863525
+        ],
+        [
+          "FM",
+          0.9742514491081238
+        ],
+        [
+          "FM",
+          0.9898081421852112
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 56970,
+      "ui_epoch": 54,
+      "ui_applied_monotonic_s": 6913.648363575,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 54,
+      "track": 26,
+      "frequency_hz": 95516562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6913.736882422,
+      "capture_filename": "capture_00054.npz",
+      "capture_sha256": "55fecf47469fc67a02be32b4b05af27a4ae5df02b2ef6a7265c8adc15a18e705",
+      "pl_timestamp_cycles": 3533079925,
+      "channel": 14,
+      "fcw": 3816816640,
+      "residual_hz": -53437.5,
+      "capture_ms": 76.28736600054253,
+      "inference_ms": 49.8329920001197,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": 433.61984599960124,
+      "cfar_sequence": 57917,
+      "ui_epoch": 55,
+      "ui_applied_monotonic_s": 6914.170502268,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 55,
+      "track": 1,
+      "frequency_hz": 97000625.0,
+      "bandwidth_hz": 13125.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00055.npz",
+      "capture_sha256": "c66e8bf96164ef7fe40cacd8a77ef63ac629e10c72e68c494c5e63b0e04eed0b",
+      "pl_timestamp_cycles": 3584908957,
+      "channel": 4,
+      "fcw": 4211081216,
+      "residual_hz": -9375.0,
+      "capture_ms": 76.3243359997432,
+      "inference_ms": 49.26480599988281,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9387778639793396,
+      "voted_label": "FM",
+      "voted_score": 0.9877015113830566,
+      "votes": [
+        [
+          "FM",
+          0.9997624754905701
+        ],
+        [
+          "FM",
+          0.9999995231628418
+        ],
+        [
+          "FM",
+          0.9999692440032959
+        ],
+        [
+          "FM",
+          0.9999984502792358
+        ],
+        [
+          "FM",
+          0.9387778639793396
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 58889,
+      "ui_epoch": 56,
+      "ui_applied_monotonic_s": 6914.669538347,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 56,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00056.npz",
+      "capture_sha256": "578c504c8dc0725f0cd812f899c94e9c4e38947850a9fda13b12295136b6ac2e",
+      "pl_timestamp_cycles": 3636323433,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 77.2712230000252,
+      "inference_ms": 49.882323000019824,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "OOK",
+      "voted_score": 0.8572856932878494,
+      "votes": [
+        [
+          "OOK",
+          0.9999755620956421
+        ],
+        [
+          "OOK",
+          0.8151077628135681
+        ],
+        [
+          "OOK",
+          0.6234214305877686
+        ],
+        [
+          "OOK",
+          0.990638017654419
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 59851,
+      "ui_epoch": 57,
+      "ui_applied_monotonic_s": 6915.191132055,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 57,
+      "track": 27,
+      "frequency_hz": 97496562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6915.277293143,
+      "capture_filename": "capture_00057.npz",
+      "capture_sha256": "912c8a43b9e9ca43a9cc2598e6433c7a2f4ac75038a2c8e49c5bfc53597931a4",
+      "pl_timestamp_cycles": 3687123565,
+      "channel": 6,
+      "fcw": 58720256,
+      "residual_hz": 6562.5,
+      "capture_ms": 76.23324100040918,
+      "inference_ms": 49.713737000274705,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9999985694885254,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9999985694885254,
+      "votes": [
+        [
+          "AM-DSB",
+          0.9999985694885254
+        ]
+      ],
+      "first_label_ms": 436.2897270002577,
+      "cfar_sequence": 60806,
+      "ui_epoch": 58,
+      "ui_applied_monotonic_s": 6915.71358287,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 58,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00058.npz",
+      "capture_sha256": "59d28aef00883a41673f77f625417af82f41d83df33ae97fa31d40632ece7fba",
+      "pl_timestamp_cycles": 3739479052,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 76.53793700046663,
+      "inference_ms": 50.126602000091225,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "FM",
+      "voted_score": 0.9887336492538452,
+      "votes": [
+        [
+          "FM",
+          0.9908995628356934
+        ],
+        [
+          "FM",
+          0.9999754428863525
+        ],
+        [
+          "FM",
+          0.9742514491081238
+        ],
+        [
+          "FM",
+          0.9898081421852112
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 61787,
+      "ui_epoch": 59,
+      "ui_applied_monotonic_s": 6916.235630021,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 59,
+      "track": 1,
+      "frequency_hz": 96998750.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00059.npz",
+      "capture_sha256": "30c998b1e46b21ac61a22da0b97524c6893c1f77ba75de0804ccaca08e5873dc",
+      "pl_timestamp_cycles": 3794962928,
+      "channel": 4,
+      "fcw": 4194304000,
+      "residual_hz": -11250.0,
+      "capture_ms": 76.95850500022061,
+      "inference_ms": 49.215367999750015,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9992868304252625,
+      "voted_label": "FM",
+      "voted_score": 0.9876063823699951,
+      "votes": [
+        [
+          "FM",
+          0.9999995231628418
+        ],
+        [
+          "FM",
+          0.9999692440032959
+        ],
+        [
+          "FM",
+          0.9999984502792358
+        ],
+        [
+          "FM",
+          0.9387778639793396
+        ],
+        [
+          "FM",
+          0.9992868304252625
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 62827,
+      "ui_epoch": 60,
+      "ui_applied_monotonic_s": 6916.781810511,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 60,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00060.npz",
+      "capture_sha256": "6af957ff01856655e5cc1068c2259d032347013afb2cdc333e3f3f03452bf24b",
+      "pl_timestamp_cycles": 3846475734,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 76.37929600059579,
+      "inference_ms": 49.68125499999587,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.8231325745582581,
+      "voted_label": "OOK",
+      "voted_score": 0.8097224036852518,
+      "votes": [
+        [
+          "OOK",
+          0.8151077628135681
+        ],
+        [
+          "OOK",
+          0.6234214305877686
+        ],
+        [
+          "OOK",
+          0.990638017654419
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          0.8231325745582581
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 63794,
+      "ui_epoch": 61,
+      "ui_applied_monotonic_s": 6917.280355116,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 61,
+      "track": 26,
+      "frequency_hz": 95516562.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6913.736882422,
+      "capture_filename": "capture_00061.npz",
+      "capture_sha256": "90ae8cd95513ecfc9feb4acbcf455ce3c65b22c4512dab0a4b4487924b9a375d",
+      "pl_timestamp_cycles": 3896419243,
+      "channel": 14,
+      "fcw": 3816816640,
+      "residual_hz": -53437.5,
+      "capture_ms": 76.49761900029262,
+      "inference_ms": 49.90854799962108,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 64730,
+      "ui_epoch": 62,
+      "ui_applied_monotonic_s": 6917.802319773,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 62,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00062.npz",
+      "capture_sha256": "43161b3e07562a6b90ee50d6f98c6c27b3f7293e6680bdd9baca452298ab9573",
+      "pl_timestamp_cycles": 3948760766,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 77.3121659995013,
+      "inference_ms": 50.45329099993978,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9995588660240173,
+      "voted_label": "FM",
+      "voted_score": 0.9908984750509262,
+      "votes": [
+        [
+          "FM",
+          0.9999754428863525
+        ],
+        [
+          "FM",
+          0.9742514491081238
+        ],
+        [
+          "FM",
+          0.9898081421852112
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9995588660240173
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 65710,
+      "ui_epoch": 63,
+      "ui_applied_monotonic_s": 6918.395193043,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 63,
+      "track": 28,
+      "frequency_hz": 97678437.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6918.48972577,
+      "capture_filename": "capture_00063.npz",
+      "capture_sha256": "1623ff6063dd6243c15a3324a62f5b52e60e69c78c02a9736a28eea552d19cdd",
+      "pl_timestamp_cycles": 4008445925,
+      "channel": 7,
+      "fcw": 3833593856,
+      "residual_hz": -51562.5,
+      "capture_ms": 76.60259899967059,
+      "inference_ms": 49.860767000609485,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.8861610889434814,
+      "voted_label": "OOK",
+      "voted_score": 0.8861610889434814,
+      "votes": [
+        [
+          "OOK",
+          0.8861610889434814
+        ]
+      ],
+      "first_label_ms": 498.86500599950523,
+      "cfar_sequence": 66830,
+      "ui_epoch": 64,
+      "ui_applied_monotonic_s": 6918.988590776,
+      "displayed_label": "OOK",
+      "displayed_page": 1
+    },
+    {
+      "index": 64,
+      "track": 1,
+      "frequency_hz": 96999687.5,
+      "bandwidth_hz": 15000.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00064.npz",
+      "capture_sha256": "8a720ebe28dec8812a227fd709239d34f652104df14ac6485f4ae8f75736df4b",
+      "pl_timestamp_cycles": 4067449869,
+      "channel": 4,
+      "fcw": 4202692608,
+      "residual_hz": -10312.5,
+      "capture_ms": 77.06201600012719,
+      "inference_ms": 49.44232700017892,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9844642281532288,
+      "voted_label": "FM",
+      "voted_score": 0.9844993233680726,
+      "votes": [
+        [
+          "FM",
+          0.9999692440032959
+        ],
+        [
+          "FM",
+          0.9999984502792358
+        ],
+        [
+          "FM",
+          0.9387778639793396
+        ],
+        [
+          "FM",
+          0.9992868304252625
+        ],
+        [
+          "FM",
+          0.9844642281532288
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 67936,
+      "ui_epoch": 65,
+      "ui_applied_monotonic_s": 6919.605335732,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 65,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00065.npz",
+      "capture_sha256": "3b9eed0b302f634f23562182e53c123e0d845419dfed01aa9e2aed4da582e8e5",
+      "pl_timestamp_cycles": 4129304330,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 76.35440099966218,
+      "inference_ms": 49.28070000005391,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "FM",
+      "voted_score": 0.9878728191057841,
+      "votes": [
+        [
+          "FM",
+          0.9742514491081238
+        ],
+        [
+          "FM",
+          0.9898081421852112
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9995588660240173
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 69097,
+      "ui_epoch": 66,
+      "ui_applied_monotonic_s": 6920.198945931,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 66,
+      "track": 29,
+      "frequency_hz": 97417812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6920.295324678,
+      "capture_filename": "capture_00066.npz",
+      "capture_sha256": "7cd5c946785a70b7d86e1957226a2c2629da007a380db958eee6117c5febdfe6",
+      "pl_timestamp_cycles": 4192122897,
+      "channel": 6,
+      "fcw": 3649044480,
+      "residual_hz": -72187.5,
+      "capture_ms": 107.71366800054238,
+      "inference_ms": 55.958291000024474,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9843984842300415,
+      "voted_label": "OOK",
+      "voted_score": 0.9843984842300415,
+      "votes": [
+        [
+          "OOK",
+          0.9843984842300415
+        ]
+      ],
+      "first_label_ms": 614.4134710002618,
+      "cfar_sequence": 70216,
+      "ui_epoch": 67,
+      "ui_applied_monotonic_s": 6920.909738149,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 67,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00067.npz",
+      "capture_sha256": "ce97e36e54853a8563b50419d2ab4d605c75e5901eb4c64e1ee68b68266d64d8",
+      "pl_timestamp_cycles": 4263270699,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 94.19588799937628,
+      "inference_ms": 49.9410970005556,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9872478246688843,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9367934664090475,
+      "votes": [
+        [
+          "OOK",
+          0.6234214305877686
+        ],
+        [
+          "OOK",
+          0.990638017654419
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          0.8231325745582581
+        ],
+        [
+          "AM-DSB",
+          0.9872478246688843
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 71576,
+      "ui_epoch": 68,
+      "ui_applied_monotonic_s": 6921.574052197,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 68,
+      "track": 1,
+      "frequency_hz": 96999687.5,
+      "bandwidth_hz": 11250.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00068.npz",
+      "capture_sha256": "5bbd10e1d3c78d58f62e126f7fd465cf9b2d3b4de0439708aa6b498a92844f55",
+      "pl_timestamp_cycles": 4326599879,
+      "channel": 4,
+      "fcw": 4202692608,
+      "residual_hz": -10312.5,
+      "capture_ms": 76.85861300069519,
+      "inference_ms": 49.22298600013164,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9999998807907104,
+      "voted_label": "FM",
+      "voted_score": 0.9845054507255554,
+      "votes": [
+        [
+          "FM",
+          0.9999984502792358
+        ],
+        [
+          "FM",
+          0.9387778639793396
+        ],
+        [
+          "FM",
+          0.9992868304252625
+        ],
+        [
+          "FM",
+          0.9844642281532288
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 72795,
+      "ui_epoch": 69,
+      "ui_applied_monotonic_s": 6922.191000731,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 69,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00069.npz",
+      "capture_sha256": "981cf870cd15d4e07e80593c17ed9d766a7b8fc4487979f78387b9e12e445d85",
+      "pl_timestamp_cycles": 4388229559,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 76.4737569998033,
+      "inference_ms": 49.35387899968191,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9934543371200562,
+      "voted_label": "FM",
+      "voted_score": 0.9942737817764282,
+      "votes": [
+        [
+          "FM",
+          0.9898081421852112
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9995588660240173
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9934543371200562
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 73952,
+      "ui_epoch": 70,
+      "ui_applied_monotonic_s": 6922.807081078,
+      "displayed_label": "FM",
+      "displayed_page": 0
+    },
+    {
+      "index": 70,
+      "track": 29,
+      "frequency_hz": 97417812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6920.295324678,
+      "capture_filename": "capture_00070.npz",
+      "capture_sha256": "1711cc56d170a0b31cd11c67ce946d3d596c3f928c2d414955c4445c94b081b6",
+      "pl_timestamp_cycles": 4451236451,
+      "channel": 6,
+      "fcw": 3649044480,
+      "residual_hz": -72187.5,
+      "capture_ms": 77.21310399938375,
+      "inference_ms": 49.60623200076952,
+      "prediction": "OOK",
+      "coarse": "OOK",
+      "score": 0.9425485134124756,
+      "voted_label": "OOK",
+      "voted_score": 0.9634734988212585,
+      "votes": [
+        [
+          "OOK",
+          0.9843984842300415
+        ],
+        [
+          "OOK",
+          0.9425485134124756
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 75133,
+      "ui_epoch": 71,
+      "ui_applied_monotonic_s": 6923.448192708,
+      "displayed_label": "OOK",
+      "displayed_page": 0
+    },
+    {
+      "index": 71,
+      "track": 2,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00071.npz",
+      "capture_sha256": "746a0814f9dd0a22038bcf8874978310d1a976d0e47630d23d796f62c9e5158a",
+      "pl_timestamp_cycles": 4514115647,
+      "channel": 3,
+      "fcw": 3783262208,
+      "residual_hz": -57187.5,
+      "capture_ms": 76.46131199999218,
+      "inference_ms": 49.790950999522465,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.9999772310256958,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9525894075632095,
+      "votes": [
+        [
+          "OOK",
+          0.990638017654419
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          0.8231325745582581
+        ],
+        [
+          "AM-DSB",
+          0.9872478246688843
+        ],
+        [
+          "AM-DSB",
+          0.9999772310256958
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 76312,
+      "ui_epoch": 72,
+      "ui_applied_monotonic_s": 6924.064780287,
+      "displayed_label": "AM-DSB",
+      "displayed_page": 0
+    },
+    {
+      "index": 72,
+      "track": 1,
+      "frequency_hz": 97000625.0,
+      "bandwidth_hz": 13125.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00072.npz",
+      "capture_sha256": "cdc5bea4930c89395fc1d6092331d556fdf4a21eaab372703a3caa769aa3adbc",
+      "pl_timestamp_cycles": 4575961141,
+      "channel": 4,
+      "fcw": 4211081216,
+      "residual_hz": -9375.0,
+      "capture_ms": 76.11025099959079,
+      "inference_ms": 49.367188999895006,
+      "prediction": "BPSK",
+      "coarse": "BPSK",
+      "score": 0.9262577295303345,
+      "voted_label": "FM",
+      "voted_score": 0.9806322008371353,
+      "votes": [
+        [
+          "FM",
+          0.9387778639793396
+        ],
+        [
+          "FM",
+          0.9992868304252625
+        ],
+        [
+          "FM",
+          0.9844642281532288
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "BPSK",
+          0.9262577295303345
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 77473,
+      "ui_epoch": 73,
+      "displayed_label": null
+    },
+    {
+      "index": 73,
+      "track": 30,
+      "frequency_hz": 95542812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6924.67457858,
+      "capture_filename": "capture_00073.npz",
+      "capture_sha256": "2dfbf80d49cdbc905840885cd3eb5257f78613567f060367e05abc04aee0a2c1",
+      "pl_timestamp_cycles": 4626956481,
+      "channel": 14,
+      "fcw": 4051697664,
+      "residual_hz": -27187.5,
+      "capture_ms": 76.41353300004994,
+      "inference_ms": 49.87980799978686,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 78428,
+      "ui_epoch": 74,
+      "displayed_label": null
+    },
+    {
+      "index": 74,
+      "track": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 7500.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00074.npz",
+      "capture_sha256": "8c7189b6ef9dd30fa1686420ac627ed580c909f70d1c9ecebd3eacdc5ebd4e89",
+      "pl_timestamp_cycles": 4675801071,
+      "channel": 15,
+      "fcw": 4169138176,
+      "residual_hz": -14062.5,
+      "capture_ms": 77.02578899989021,
+      "inference_ms": 49.137998999867705,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9995588660240173
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "FM",
+          0.9934543371200562
+        ],
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 79343,
+      "ui_epoch": 75,
+      "displayed_label": null
+    },
+    {
+      "index": 75,
+      "track": 2,
+      "frequency_hz": 96711875.0,
+      "bandwidth_hz": 5625.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00075.npz",
+      "capture_sha256": "dc45ada0f23c666c6e3886ab2ff16fc446303535f6eea3517c106cadbe3c1410",
+      "pl_timestamp_cycles": 4729809594,
+      "channel": 3,
+      "fcw": 3774873600,
+      "residual_hz": -58125.0,
+      "capture_ms": 76.36315200034005,
+      "inference_ms": 49.767645000429184,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.8624286651611328,
+      "voted_label": "AM-DSB",
+      "voted_score": 0.9345572590827942,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ],
+        [
+          "AM-DSB",
+          0.8231325745582581
+        ],
+        [
+          "AM-DSB",
+          0.9872478246688843
+        ],
+        [
+          "AM-DSB",
+          0.9999772310256958
+        ],
+        [
+          "AM-DSB",
+          0.8624286651611328
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 80357,
+      "ui_epoch": 76,
+      "displayed_label": null
+    },
+    {
+      "index": 76,
+      "track": 1,
+      "frequency_hz": 96998750.0,
+      "bandwidth_hz": 16875.0,
+      "first_seen_monotonic_s": 6882.971150231,
+      "capture_filename": "capture_00076.npz",
+      "capture_sha256": "bd2b7b4f2851f407ba08a7bda42f4f019b54ffb01f2fb7f7b5b16113f5310ceb",
+      "pl_timestamp_cycles": 4785891584,
+      "channel": 4,
+      "fcw": 4194304000,
+      "residual_hz": -11250.0,
+      "capture_ms": 76.14242999989074,
+      "inference_ms": 49.173903000337305,
+      "prediction": "FM",
+      "coarse": "FM",
+      "score": 0.9998072981834412,
+      "voted_label": "FM",
+      "voted_score": 0.9958895593881607,
+      "votes": [
+        [
+          "FM",
+          0.9992868304252625
+        ],
+        [
+          "FM",
+          0.9844642281532288
+        ],
+        [
+          "FM",
+          0.9999998807907104
+        ],
+        [
+          "BPSK",
+          0.9262577295303345
+        ],
+        [
+          "FM",
+          0.9998072981834412
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 81409,
+      "ui_epoch": 77,
+      "displayed_label": null
+    },
+    {
+      "index": 77,
+      "track": 31,
+      "frequency_hz": 97865937.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6926.801203119,
+      "capture_filename": "capture_00077.npz",
+      "capture_sha256": "85601b13d307204bbb23c7939386d79d1421eefb094865b3f42e65dd94ac64f0",
+      "pl_timestamp_cycles": 4839640343,
+      "channel": 8,
+      "fcw": 3363831808,
+      "residual_hz": -104062.5,
+      "capture_ms": 76.33408199944824,
+      "inference_ms": 122.64991700067185,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9999809265136719,
+      "voted_label": "64QAM",
+      "voted_score": 0.9999809265136719,
+      "votes": [
+        [
+          "64QAM",
+          0.9999809265136719
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 82416,
+      "ui_epoch": 78,
+      "displayed_label": null
+    },
+    {
+      "index": 78,
+      "track": 32,
+      "frequency_hz": 97494687.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6927.466306084,
+      "capture_filename": "capture_00078.npz",
+      "capture_sha256": "9b6b0d851136a9e677c35ae5d0e7a72338f76cdf74a443a5e4ac8246cd700031",
+      "pl_timestamp_cycles": 4908962392,
+      "channel": 6,
+      "fcw": 41943040,
+      "residual_hz": 4687.5,
+      "capture_ms": 105.43113299991091,
+      "inference_ms": 136.21154999964347,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.9999995231628418,
+      "voted_label": "64QAM",
+      "voted_score": 0.9999995231628418,
+      "votes": [
+        [
+          "64QAM",
+          0.9999995231628418
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 83663,
+      "ui_epoch": 79,
+      "displayed_label": null
+    },
+    {
+      "index": 79,
+      "track": 33,
+      "frequency_hz": 97652187.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6927.466306084,
+      "capture_filename": "capture_00079.npz",
+      "capture_sha256": "24c2ae8327aa2d96b7331d869ff5b0d7e02236931bcb04871bac841d9a5f4c3b",
+      "pl_timestamp_cycles": 4985575176,
+      "channel": 7,
+      "fcw": 3598712832,
+      "residual_hz": -77812.5,
+      "capture_ms": 99.14441000000807,
+      "inference_ms": 58.018977999381605,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 1.0,
+      "voted_label": "AM-DSB",
+      "voted_score": 1.0,
+      "votes": [
+        [
+          "AM-DSB",
+          1.0
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 85110,
+      "ui_epoch": 80,
+      "displayed_label": null
+    },
+    {
+      "index": 80,
+      "track": 29,
+      "frequency_hz": 97417812.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6920.295324678,
+      "capture_filename": "capture_00080.npz",
+      "capture_sha256": "04fb07ac78d56e370828b80f67f8ad6a026de7494f711fdfd4649b352db5477f",
+      "pl_timestamp_cycles": 5047787529,
+      "channel": 6,
+      "fcw": 3649044480,
+      "residual_hz": -72187.5,
+      "capture_ms": 100.25069300081668,
+      "inference_ms": 58.20987000060995,
+      "prediction": "AM-DSB",
+      "coarse": "AM",
+      "score": 0.873418390750885,
+      "voted_label": "OOK",
+      "voted_score": 0.9634734988212585,
+      "votes": [
+        [
+          "OOK",
+          0.9843984842300415
+        ],
+        [
+          "OOK",
+          0.9425485134124756
+        ],
+        [
+          "AM-DSB",
+          0.873418390750885
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 86274,
+      "ui_epoch": 81,
+      "displayed_label": null
+    },
+    {
+      "index": 81,
+      "track": 34,
+      "frequency_hz": 95100312.5,
+      "bandwidth_hz": 3750.0,
+      "first_seen_monotonic_s": 6929.491509324,
+      "capture_filename": "capture_00081.npz",
+      "capture_sha256": "e6c366d509dd5e2a7c35fc7b969823a96229f48a1ca761ef988b7b7cb63d8154",
+      "pl_timestamp_cycles": 5110197172,
+      "channel": 12,
+      "fcw": 92274688,
+      "residual_hz": 10312.5,
+      "capture_ms": 91.84199099945545,
+      "inference_ms": 128.04537100055313,
+      "prediction": "64QAM",
+      "coarse": "QAM",
+      "score": 0.8363160490989685,
+      "voted_label": "64QAM",
+      "voted_score": 0.8363160490989685,
+      "votes": [
+        [
+          "64QAM",
+          0.8363160490989685
+        ]
+      ],
+      "first_label_ms": null,
+      "cfar_sequence": 87461,
+      "ui_epoch": 82,
+      "displayed_label": null
+    }
+  ],
+  "telemetry": [
+    {
+      "elapsed_s": 1.1447427129996868,
+      "temperature_c": 64.227282714648,
+      "rx_rssi_dbm": -86.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 68,
+      "display_fps": 53.287083033842116,
+      "input_samples": 4850643,
+      "fft_frames": 2366,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 2.9369046880001406,
+      "temperature_c": 63.612078857228,
+      "rx_rssi_dbm": -85.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 141,
+      "display_fps": 40.732925381915614,
+      "input_samples": 11733056,
+      "fft_frames": 5726,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 4.028404978000253,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -85.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 185,
+      "display_fps": 40.31148722827683,
+      "input_samples": 15925396,
+      "fft_frames": 7773,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 5.146680236000066,
+      "temperature_c": 63.981201171680006,
+      "rx_rssi_dbm": -85.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 231,
+      "display_fps": 41.134773993191324,
+      "input_samples": 20220120,
+      "fft_frames": 9870,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 6.476911399000528,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -85.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 284,
+      "display_fps": 39.84269912941558,
+      "input_samples": 25328571,
+      "fft_frames": 12365,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 7.97459641200021,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -87.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 344,
+      "display_fps": 40.061828407982304,
+      "input_samples": 31080974,
+      "fft_frames": 15174,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 9.092857198000274,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 389,
+      "display_fps": 40.24106054989342,
+      "input_samples": 35375710,
+      "fft_frames": 17271,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 10.16373447299975,
+      "temperature_c": 63.981201171680006,
+      "rx_rssi_dbm": -86.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 432,
+      "display_fps": 40.15399430342854,
+      "input_samples": 39488341,
+      "fft_frames": 19279,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 11.229397703000359,
+      "temperature_c": 63.858160400196,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 475,
+      "display_fps": 40.35045855900969,
+      "input_samples": 43580797,
+      "fft_frames": 21277,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 12.516627070999675,
+      "temperature_c": 64.227282714648,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 527,
+      "display_fps": 40.39684091485677,
+      "input_samples": 48524402,
+      "fft_frames": 23691,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 14.027389142000175,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 588,
+      "display_fps": 40.37697343010661,
+      "input_samples": 54326814,
+      "fft_frames": 26524,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 15.062951845000498,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -84.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 629,
+      "display_fps": 39.59200141257617,
+      "input_samples": 58304213,
+      "fft_frames": 28466,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 16.175707438000245,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -86.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 674,
+      "display_fps": 40.440147219291696,
+      "input_samples": 62577270,
+      "fft_frames": 30553,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 18.033779747999688,
+      "temperature_c": 63.858160400196,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 751,
+      "display_fps": 41.44079839391347,
+      "input_samples": 69714057,
+      "fft_frames": 34037,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 19.22813487700023,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 799,
+      "display_fps": 40.189051676922325,
+      "input_samples": 74300632,
+      "fft_frames": 36277,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 20.39688914599992,
+      "temperature_c": 63.981201171680006,
+      "rx_rssi_dbm": -86.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 846,
+      "display_fps": 40.21375685774064,
+      "input_samples": 78789312,
+      "fft_frames": 38469,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 21.624857847000385,
+      "temperature_c": 64.227282714648,
+      "rx_rssi_dbm": -86.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 896,
+      "display_fps": 40.71765018054896,
+      "input_samples": 83510251,
+      "fft_frames": 40774,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 23.30463459800012,
+      "temperature_c": 63.981201171680006,
+      "rx_rssi_dbm": -85.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 965,
+      "display_fps": 41.07688712737212,
+      "input_samples": 89956463,
+      "fft_frames": 43921,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 24.81929128200045,
+      "temperature_c": 64.47336425761601,
+      "rx_rssi_dbm": -87.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1026,
+      "display_fps": 40.27315275095486,
+      "input_samples": 95774381,
+      "fft_frames": 46762,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 26.328755620000265,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -87.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1086,
+      "display_fps": 39.74920009008342,
+      "input_samples": 101570591,
+      "fft_frames": 49592,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 27.814981569999873,
+      "temperature_c": 64.227282714648,
+      "rx_rssi_dbm": -87.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1146,
+      "display_fps": 40.37071213836352,
+      "input_samples": 107278865,
+      "fft_frames": 52380,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 29.264697485000397,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -87.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1204,
+      "display_fps": 40.00783836326927,
+      "input_samples": 112846539,
+      "fft_frames": 55098,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 30.76738632100023,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1264,
+      "display_fps": 39.92842600715684,
+      "input_samples": 118617340,
+      "fft_frames": 57916,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 31.798940566000056,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -86.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1306,
+      "display_fps": 40.71526068898794,
+      "input_samples": 122579482,
+      "fft_frames": 59851,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 32.83092669300004,
+      "temperature_c": 64.104241943164,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1347,
+      "display_fps": 39.72921624362177,
+      "input_samples": 126542828,
+      "fft_frames": 61786,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 33.901234971999656,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -86.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1390,
+      "display_fps": 40.175340921580705,
+      "input_samples": 130653023,
+      "fft_frames": 63793,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 34.92294005799977,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -85.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1431,
+      "display_fps": 40.12899667604821,
+      "input_samples": 134577328,
+      "fft_frames": 65709,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 36.11029418900034,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -85.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1479,
+      "display_fps": 40.42601844451473,
+      "input_samples": 139137020,
+      "fft_frames": 67935,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 37.32511464500021,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -85.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1529,
+      "display_fps": 41.158345460068,
+      "input_samples": 143804634,
+      "fft_frames": 70214,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 38.701257779000116,
+      "temperature_c": 64.5964050291,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1585,
+      "display_fps": 40.69344141348884,
+      "input_samples": 149088105,
+      "fft_frames": 72794,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 39.947849545999816,
+      "temperature_c": 64.47336425761601,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1635,
+      "display_fps": 40.109361639969855,
+      "input_samples": 153875727,
+      "fft_frames": 75132,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 41.195519691999834,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -86.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1686,
+      "display_fps": 40.87618844091445,
+      "input_samples": 158667503,
+      "fft_frames": 77472,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 42.73348355100006,
+      "temperature_c": 64.350323486132,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1748,
+      "display_fps": 40.31304093212166,
+      "input_samples": 164574164,
+      "fft_frames": 80356,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 43.831670180999936,
+      "temperature_c": 64.227282714648,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1792,
+      "display_fps": 40.06604961126243,
+      "input_samples": 168792074,
+      "fft_frames": 82415,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 45.26776645599966,
+      "temperature_c": 64.842486572068,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1850,
+      "display_fps": 40.38726442627325,
+      "input_samples": 174307960,
+      "fft_frames": 85109,
+      "processing_status": 4
+    },
+    {
+      "elapsed_s": 46.52192083400041,
+      "temperature_c": 64.719445800584,
+      "rx_rssi_dbm": -85.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "display_frames": 1901,
+      "display_fps": 40.66485027249935,
+      "input_samples": 179124188,
+      "fft_frames": 87460,
+      "processing_status": 4
+    }
+  ],
+  "snapshot_misses": 0,
+  "snapshot_attempts": 82,
+  "audio": {
+    "status": "disabled"
+  },
+  "receive_startup": {
+    "scope": "Before acquisition only; no in-session fault masking",
+    "reset_register_before": 3,
+    "reset_register_after": 3,
+    "perf_before": {
+      "samples": 0,
+      "cycles": 433841034,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 1,
+      "fifo_level": 0
+    },
+    "perf_after": {
+      "samples": 0,
+      "cycles": 1015471,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    }
+  },
+  "configuration_readback": {
+    "0x0": 1,
+    "0x4": 4,
+    "0x8": 8,
+    "0xc": 1974,
+    "0x10": 3,
+    "0x38": 2,
+    "0x14": 6,
+    "0x3c": 0,
+    "0x80": 0,
+    "0x84": 0,
+    "0x88": 0,
+    "0x8c": 0,
+    "0x90": 0,
+    "0x94": 0,
+    "0x98": 0,
+    "0x9c": 0,
+    "0xa0": 0,
+    "0xa4": 0,
+    "0xa8": 0,
+    "0xac": 0,
+    "0xb0": 0,
+    "0xb4": 0,
+    "0xb8": 0,
+    "0xbc": 0
+  },
+  "before_source_start": {
+    "perf": {
+      "samples": 0,
+      "cycles": 1570716,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    },
+    "pfb_capture_status": 0,
+    "cfar_status": 0,
+    "lcd_status": 1,
+    "source_control": 0
+  },
+  "startup_quality": {
+    "quality": {
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.147549729229674,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.21139367699664396,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+    },
+    "noise_event": null,
+    "pilot_pass": true,
+    "quality_pass": true
+  },
+  "summary": {
+    "first_observed_to_applied_median_ms": 541.7367230002128,
+    "first_label_tracks": 21,
+    "fm_truth_captures": 0,
+    "fm_raw_fraction": null,
+    "fm_voted_fraction": null,
+    "fm_displayed_fraction": null,
+    "fm_status": "NOT_EVALUATED_NO_INDEPENDENT_TRUTH",
+    "latency_scope": "First PS CFAR observation to LCD APPLIED; earlier detection delay unmeasured"
+  },
+  "ui": {
+    "version": "v3",
+    "submissions": 82,
+    "skipped": 0,
+    "errors": 0,
+    "elapsed_s": 47.295270511000126,
+    "timing_scope": "draw + palette pack + MMIO submit; excludes acknowledgement wait",
+    "median_ms": 156.00959550010884,
+    "p95_ms": 255.72371025045868,
+    "acknowledgement_p95_ms": 48.97974550026447,
+    "retained_samples": 82,
+    "timing_samples_ms": [
+      250.92839800072397,
+      246.74980500003585,
+      248.83090700041066,
+      258.6775489999127,
+      247.68977199983055,
+      251.08546299998125,
+      249.61572300071566,
+      156.82360099981452,
+      132.98852800016903,
+      133.63600600041536,
+      134.08552600049006,
+      134.66098099979718,
+      136.45316000020102,
+      134.90817500041885,
+      135.09397999951034,
+      135.74631600022258,
+      136.26810400000977,
+      135.69114999972953,
+      137.87713700003223,
+      138.94786600030784,
+      171.1189279994869,
+      164.8077749996446,
+      135.02558799973485,
+      136.11260299967398,
+      163.4076410000489,
+      148.5515000003943,
+      147.5269920001665,
+      163.88316699976713,
+      164.59109700008412,
+      162.1291060000658,
+      162.47374700014916,
+      252.17531099951884,
+      253.12685500011867,
+      254.43699700008438,
+      250.31791899982636,
+      249.6587220002766,
+      193.57913700059726,
+      206.61871599986625,
+      260.55145700047433,
+      133.97153400001116,
+      134.6479840003667,
+      145.01196399942273,
+      155.19559000040317,
+      135.58027999988553,
+      138.91193400013435,
+      136.34353700035717,
+      138.97487399935926,
+      136.70748900040053,
+      137.44725299966376,
+      135.94537500011938,
+      138.01519499975257,
+      148.9314780001223,
+      151.08948499982944,
+      149.77701299994806,
+      165.7726220000768,
+      165.41237899946282,
+      165.44275199976255,
+      163.90803400008735,
+      164.56966300029308,
+      163.03955399962433,
+      149.07894800035137,
+      161.40612999970472,
+      253.21813600021414,
+      248.63836499935132,
+      251.37611999980436,
+      253.42275200000586,
+      258.1116399996972,
+      256.6332839996903,
+      253.47003399929235,
+      253.89596700006223,
+      252.16381100017315,
+      255.79143200047838,
+      135.30347699997947,
+      137.74220800041803,
+      139.50079700043716,
+      140.6404189992827,
+      138.80837600027007,
+      143.3969760000764,
+      158.24145899932773,
+      150.29547100039053,
+      151.28870799981087,
+      142.89205499972013
+    ],
+    "classification_counts": {
+      "FM": 25,
+      "OOK": 15,
+      "AM-DSB": 26,
+      "64QAM": 11,
+      "BPSK": 5
+    }
+  },
+  "elapsed_total_s": 47.17587988099967,
+  "stopped_by_signal": true
+}

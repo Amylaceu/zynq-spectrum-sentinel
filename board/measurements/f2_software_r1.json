@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SOFTWARE_BOARD_PENDING",
+  "host_utc": "2026-11-03T15:06:09.997800+00:00",
+  "tests": [
+    {
+      "command": "pytest src/ps/tests/test_demo_f2.py src/ps/tests/test_release_f1.py src/ps/tests/test_x5.py tools/tests/test_release_board_f1.py -q -s",
+      "passed": 73,
+      "log": "logs/F2_software_r1.log",
+      "sha256": "40b128aadb54de449d5e90f70411623d164612cc524680ced180740b3258b34b"
+    },
+    {
+      "command": "pytest src/ps/tests tools/tests/test_release_board_f1.py -q -s",
+      "passed": 365,
+      "log": "logs/F2_regression_r1.log",
+      "sha256": "078732a3dc54afca75a6beeba16c42f17ac8602572d3dd4701420d11f4150f32"
+    }
+  ],
+  "files": {
+    "board/scripts/demo_a.py": "bb65997707fc32643bf01d4364c42079493841bbd7eb7a0f10dcbc992af85c05",
+    "board/scripts/run_test_display.py": "b7548ea44b0858bcc1395f013b3c1ee9f8d0fb5a2a9db54c512c3023d7bf84ad",
+    "board/scripts/release_entry.py": "7e797a0249539eb4b21c5868b65c40ca95332d5a4a851836f8f18e7bf7c07237",
+    "board/scripts/release_selftest.py": "ce8be769f42ca8ec100e9a9fdc63f6288f7a7718f9b375fdd985dda7d3d2cd26",
+    "board/scripts/run_y3_audio.py": "721208502e701ac6159e46768cf4b36890942cac58d5f5c61884e791a6f04e6b",
+    "src/ps/sentinel/app/demo.py": "7d62f666c2bd364a8703e5464a8868600d5a110ecafa46abcee835d9c5d15456",
+    "src/ps/sentinel/app/monitor_x5.py": "04a22cc8d5624ac0d1495cb3f7c8bbc791f2ed68385a748a7b7e137858c0fbc0",
+    "src/ps/sentinel/lcd_x5.py": "cc78cb1fc4b2a7a48e26538d7be4a86a8821e3fe19fa8c6052fb887cb5a31fe9",
+    "src/ps/sentinel/release_support.py": "d2915f8a0fa7ed5b259f48ca97cae7c64749d893561e7eb8841e427d2c6392fc",
+    "tools/release_board.py": "3e0430b6286ad9a57f1b56ef7dc1dbb62ed7fa4901259c17725c657abd26e53b",
+    "tools/tests/test_release_board_f1.py": "682c304a2e21e786353f533f43fd7eb4b34ec3f1aa85f9d8bca38cca372e0f41",
+    "src/ps/tests/test_demo_f2.py": "df7c482c248a441bc5f8dec633dc6db1d041d0d9af427496e57fa10f1111fccd"
+  },
+  "limitations": [
+    "No continuous PCM recording path in frozen image; WAV requirement not implemented",
+    "PS palette supports black/white/yellow/cyan only; TX OFF cannot be green without frozen PL changes",
+    "Segment times exclude setup and safe shutdown; measure total wall time",
+    "Only one confirmed stereo station configured; not full-band automatic station search"
+  ]
+}

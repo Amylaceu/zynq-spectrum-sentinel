@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "step": "X1",
+  "recorded_at_pc": "2026-11-03T04:36:30.277645+08:00",
+  "user_authorization": "One additional GUARD=8 paired trial only; if still failing record FAIL and continue X2",
+  "capacity_alarm_rate": 0.02857142857142857,
+  "station_detection_rate": 0.7358490566037735,
+  "supplementary_9545_detection_rate": 1.0,
+  "round_limit_exception": 1,
+  "no_more_x1_tuning": true,
+  "X2_authorized": true,
+  "configuration_a": "New same-band 20-512MHz antenna RX1A; TX empty; user reconfirmed for X2",
+  "evidence": {
+    "board/measurements/x1_acceptance_summary.json": "7d5d8183b51c7ea2450ff85929b432402150626189f9e99f526d20bb9c935660",
+    "board/measurements/x1_guard8_metrics.json": "578893dcb7ffcb4748d9cdf0a04ec14a16c7295e024968c89328fbdbcbcf0f8d",
+    "board/measurements/x1_guard8_visual.json": "6e5a6e0c8e712a60532beaa089cdf5151212367ac4d8891a932e52b598443504",
+    "sim/results/x1_guard8_acceptance.json": "78a2778524c37c4096e66caf5c317383825892ef63bd1d6a8339e51c019f7c3a"
+  },
+  "postflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "scope": "Read-only X1 stop-state check; no overlay download or RF initialization",
+    "status": "PASS"
+  }
+}

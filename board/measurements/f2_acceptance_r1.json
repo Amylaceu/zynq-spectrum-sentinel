@@ -1,0 +1,53 @@
+{
+  "status": "FAIL_SPEC_WITH_FUNCTIONAL_PASS",
+  "host_utc": "2026-11-03T15:14:17.293899+00:00",
+  "functional_status": "PASS_FUNCTIONAL",
+  "full_sequence_runs": 3,
+  "verified_files": 466,
+  "mean_cycle_wall_seconds": 173.82067666666669,
+  "audio": [
+    {
+      "cycle": 1,
+      "audible_seconds": 28.958241501999964,
+      "duration_s": 30.000581193000016,
+      "underflows": 0,
+      "final_codec_muted": true,
+      "safe_stop_errors": []
+    },
+    {
+      "cycle": 2,
+      "audible_seconds": 28.954378659999747,
+      "duration_s": 30.00059684300004,
+      "underflows": 0,
+      "final_codec_muted": true,
+      "safe_stop_errors": []
+    },
+    {
+      "cycle": 3,
+      "audible_seconds": 28.94725632599966,
+      "duration_s": 30.000588520999827,
+      "underflows": 0,
+      "final_codec_muted": true,
+      "safe_stop_errors": []
+    }
+  ],
+  "human_response": "\u5168\u90e8\u6b63\u786e",
+  "evidence": {
+    "verification": "a09775472b618ac4779eb62791e1c8d2a241df5d04373f10fb4979f71db46a77",
+    "human": "0c9678268c90051cff1a20eefb4a4282dcc96a94aaea39afb1a8c35631e69555",
+    "deployment": "8b213ab8048c2be43b3affc72a4d7d0b6ce0123d1f43abadf7f85e12dee4ed25"
+  },
+  "frozen_image_unchanged": true,
+  "unmet": [
+    "Continuous WAV recording",
+    "Original ~1.5 minute wall-clock target",
+    "Green TX OFF and full-width top heading unavailable in frozen LCD palette/layout"
+  ],
+  "next_step": "F3; wait for configuration B confirmation before RF transmit",
+  "extended_scheduler_tests": {
+    "passed": 12,
+    "skipped": 18,
+    "skip_reason": "Duplicate failure combinations covered by full-sequence tests",
+    "log_sha256": "c63c3b27528dd96121f2408482f0f495c0d339af781d8a0733e133e18b182f03"
+  }
+}

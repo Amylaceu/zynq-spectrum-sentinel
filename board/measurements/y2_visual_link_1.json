@@ -1,0 +1,11 @@
+{
+  "status": "PASS_VISUAL",
+  "recorded_at_pc": "2026-11-03T03:38:01.211398+00:00",
+  "scope": "Human visual confirmation of prior v1d only; quantitative Y2 FAIL preserved; Z2/audio not accepted",
+  "evidence_sha256": {
+    "y2_visual_1_start.json": "2dd1c198120714989a2453b63a379865a354a3aa1627807c9885393790220aac",
+    "y2_visual_1_execution.json": "e1ffed7ba99896e596dac3bf830b11a72c318428b28c9e951b3f91a52ee26fd7",
+    "y2_visual_confirmation_1.json": "63a80da9e63b4ad5ac5906a938404467d07c3c73688149cf29fd860cdf9eae03"
+  },
+  "capture_count": 115
+}

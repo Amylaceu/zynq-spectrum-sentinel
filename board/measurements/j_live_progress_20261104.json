@@ -1,0 +1,47 @@
+{
+  "status": "PARTIAL_FUNCTIONAL_VALIDATION",
+  "host_utc": "2026-11-04T02:12:07.376773+00:00",
+  "hotspot_protocol_identification": "UNCONFIRMED",
+  "hotspot_comparison_sha256": "ea1bc150fb86c603e326329d5c5aeb673dc9899b54be7c48a911360617b47abb",
+  "recording": {
+    "hardware_short_test": "PASS",
+    "simultaneous_live_speaker": true,
+    "source": "CURRENT_RF_IQ_SOFTWARE_FM_DEMOD",
+    "duration_s": 5.167270833333333,
+    "waveform_sha256": "93c9816dba95238d09723c3d6d08e3cf450e29ffa98c615ded2f5785a3508e01",
+    "human_listening": "PENDING_RESPONSE_WITHDRAWN",
+    "raw_validation_sha256": "7d7372e487a2e3049e2e895960f09d8d94c5fe4a7af49cc482daf2ab2f361e74",
+    "fifo_overflow_observed": false,
+    "audio_underflows": 0,
+    "main_window_record_buttons_integrated": false
+  },
+  "tests": {
+    "full_regression": {
+      "passed": 859,
+      "skipped": 19,
+      "log": "logs/J_live_final_regression.log",
+      "log_sha256": "19d3cede010a197579bda5ccaaae3ec6414d40bf780160b4dc82be09a2f9b9fe",
+      "scope": "Before final concurrent-recording extension; do not claim whole final tree coverage"
+    },
+    "concurrent_record_preflight": {
+      "passed": 16,
+      "log": "logs/J_live_fm_concurrent_preflight.log",
+      "log_sha256": "7981f5b29c98db5520c60de029caf1d389ec9c348364aed061f0ac48d88a4888"
+    }
+  },
+  "current_board": {
+    "antenna": "RX1A 20-512 MHz; TX1A 2.4GHz antenna retained but no TX",
+    "service": "accepted i2_r2 resident receive service",
+    "service_seconds": 900,
+    "main_window_entry": "tools/host/product.py --connect 192.168.2.99",
+    "main_window_tcp_connected": true,
+    "automatic_audio_started": false
+  },
+  "limitations": [
+    "Hotspot energy changes do not identify a phone or decode SSID",
+    "Five-second recording does not certify arbitrary-duration capture",
+    "Current recording is software-demodulated IQ, not PL playback PCM readback",
+    "Final record/stop/play/resume controls in the main window are pending",
+    "Old executable packages have not been replaced"
+  ]
+}

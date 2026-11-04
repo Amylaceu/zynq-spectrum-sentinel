@@ -1,0 +1,286 @@
+{
+  "status": "PASS_FUNCTIONAL",
+  "host_utc": "2026-11-03T16:48:56.919687+00:00",
+  "board_status": "PASS",
+  "error": null,
+  "cycles_completed": 3,
+  "three_cycles_complete": true,
+  "stops_pass": true,
+  "rf_stops_pass": true,
+  "safety_pass": true,
+  "captures_complete": true,
+  "files_verified": 104,
+  "wall_seconds": 481.5645116810001,
+  "cycle_seconds": [
+    159.8172595340002,
+    156.8265040490005,
+    156.34397697000077
+  ],
+  "min_tx_atten_db": 40.0,
+  "max_rssi_dbm": -58.5,
+  "min_fps": 36.56292588954969,
+  "max_temperature_c": 65.94985351542401,
+  "segments": [
+    {
+      "number": 7,
+      "cycle": 1,
+      "title": "ENVIRONMENT",
+      "status": "PASS",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 29.764977197000007
+    },
+    {
+      "number": 5,
+      "cycle": 1,
+      "title": "TEN MOD OTA",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 72.76475043000028
+    },
+    {
+      "number": 6,
+      "cycle": 1,
+      "title": "QPSK RF+NOISE",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 37.99275416100045
+    },
+    {
+      "number": 8,
+      "cycle": 1,
+      "title": "PERFORMANCE",
+      "status": "PASS",
+      "receive_startup": {
+        "frozen_image_reloaded": true,
+        "initial_status": 0
+      },
+      "resources": {
+        "Slice LUTs": 37982.0,
+        "Slice Registers": 54244.0,
+        "Block RAM Tile": 92.0,
+        "DSPs": 79.0
+      },
+      "latency_scope": "Internal input marker to next list, not RF-to-label latency",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 19.294777745999454
+    },
+    {
+      "number": 7,
+      "cycle": 2,
+      "title": "ENVIRONMENT",
+      "status": "PASS",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 26.833120295999834
+    },
+    {
+      "number": 5,
+      "cycle": 2,
+      "title": "TEN MOD OTA",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 73.10222972800057
+    },
+    {
+      "number": 6,
+      "cycle": 2,
+      "title": "QPSK RF+NOISE",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 37.86351829399973
+    },
+    {
+      "number": 8,
+      "cycle": 2,
+      "title": "PERFORMANCE",
+      "status": "PASS",
+      "receive_startup": {
+        "frozen_image_reloaded": true,
+        "initial_status": 0
+      },
+      "resources": {
+        "Slice LUTs": 37982.0,
+        "Slice Registers": 54244.0,
+        "Block RAM Tile": 92.0,
+        "DSPs": 79.0
+      },
+      "latency_scope": "Internal input marker to next list, not RF-to-label latency",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 19.027635731000373
+    },
+    {
+      "number": 7,
+      "cycle": 3,
+      "title": "ENVIRONMENT",
+      "status": "PASS",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 26.886247789000663
+    },
+    {
+      "number": 5,
+      "cycle": 3,
+      "title": "TEN MOD OTA",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 72.63604519199998
+    },
+    {
+      "number": 6,
+      "cycle": 3,
+      "title": "QPSK RF+NOISE",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 37.92327244399985
+    },
+    {
+      "number": 8,
+      "cycle": 3,
+      "title": "PERFORMANCE",
+      "status": "PASS",
+      "receive_startup": {
+        "frozen_image_reloaded": true,
+        "initial_status": 0
+      },
+      "resources": {
+        "Slice LUTs": 37982.0,
+        "Slice Registers": 54244.0,
+        "Block RAM Tile": 92.0,
+        "DSPs": 79.0
+      },
+      "latency_scope": "Internal input marker to next list, not RF-to-label latency",
+      "source_after_stop": 0,
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 18.898411545000272
+    }
+  ]
+}

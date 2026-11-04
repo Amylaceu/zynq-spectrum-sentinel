@@ -1,0 +1,215 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "runbook_status": "DONE",
+  "stage": "N4",
+  "recorded_at_pc": "2026-11-02T23:33:31.667006+08:00",
+  "scope": "sentinel_v1实现、测试源/回放、逐档LCD目视、3.84MSPS仅接收显示；不包含N5/M-A完成",
+  "implementation_evidence": "build/reports/sentinel_v1/acceptance.json",
+  "implementation_evidence_sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9",
+  "final_timing": {
+    "WNS_ns": 0.086,
+    "TNS_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "WHS_ns": 0.046,
+    "THS_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "WPWS_ns": 0.264,
+    "pulse_failing_endpoints": 0
+  },
+  "resources": {
+    "Slice LUTs": 26625.0,
+    "Slice Registers": 35103.0,
+    "Block RAM Tile": 49.0,
+    "DSPs": 64.0
+  },
+  "selftest_evidence": "board/measurements/n4_selftest_round2_acceptance.json",
+  "selftest_evidence_sha256": "c4e33b266dab88983889e8375f0789525efabf2323e8d6d78d96ac3d7f087db1",
+  "lcd_phases": [
+    {
+      "bus_phase": 25,
+      "benchmark_fps_without_ui": 7.192729877787198,
+      "dynamic_ui_updates": 131,
+      "dynamic_frame_advances": 131,
+      "user_feedback": "25档计数持续增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase25_ui_r2.json",
+      "measurement_sha256": "92b27d9336de11adca6a38db8219d24ee39428c5f3d0e4b1995403571506953e",
+      "visual_acceptance": "board/measurements/n4_phase25_ui_acceptance.json",
+      "visual_acceptance_sha256": "3a3310a933e60b74f6c74fc09462e6e6b79f3c8827f9839d9ef8a5f59253a32f"
+    },
+    {
+      "bus_phase": 12,
+      "benchmark_fps_without_ui": 14.585275132114836,
+      "dynamic_ui_updates": 102,
+      "dynamic_frame_advances": 102,
+      "user_feedback": "12档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase12_ui_r1.json",
+      "measurement_sha256": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339",
+      "visual_acceptance": "board/measurements/n4_phase12_ui_acceptance.json",
+      "visual_acceptance_sha256": "6a156edc3d0af2d8d33148751e244b7b61bbec10555cd3978ebc63ef0c858810"
+    },
+    {
+      "bus_phase": 8,
+      "benchmark_fps_without_ui": 21.391404766712384,
+      "dynamic_ui_updates": 179,
+      "dynamic_frame_advances": 179,
+      "user_feedback": "8档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase8_ui_r1.json",
+      "measurement_sha256": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf",
+      "visual_acceptance": "board/measurements/n4_phase8_ui_acceptance.json",
+      "visual_acceptance_sha256": "808dec29bb00ae012ea0d751c2039f1bd8d91b69844ab886c51d3e3b2e9a1439"
+    },
+    {
+      "bus_phase": 6,
+      "benchmark_fps_without_ui": 27.77198751818042,
+      "dynamic_ui_updates": 117,
+      "dynamic_frame_advances": 117,
+      "user_feedback": "6档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase6_ui_r1.json",
+      "measurement_sha256": "0ecab54be6804589a77f8245841d7d41ce54b4a72f0f55e1fbc1c244aaf73933",
+      "visual_acceptance": "board/measurements/n4_phase6_ui_acceptance.json",
+      "visual_acceptance_sha256": "a760b15ba65fe9ec90c92e4ed81e9622b37492da6577327845da023dca958e9a"
+    },
+    {
+      "bus_phase": 4,
+      "benchmark_fps_without_ui": 39.56000476002194,
+      "dynamic_ui_updates": 118,
+      "dynamic_frame_advances": 118,
+      "user_feedback": "4档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase4_ui_r1.json",
+      "measurement_sha256": "f8564c10a95bb46355c029dbcdb8bf451b8d340a56bb59d85a3cbac1b1056921",
+      "visual_acceptance": "board/measurements/n4_phase4_ui_acceptance.json",
+      "visual_acceptance_sha256": "f9e7e3f05fffa0f8268f7f714f6e6213dd24c2ef31b63f975eaf932aa0a0f030"
+    },
+    {
+      "bus_phase": 3,
+      "benchmark_fps_without_ui": 50.448974015844705,
+      "dynamic_ui_updates": 120,
+      "dynamic_frame_advances": 120,
+      "user_feedback": "3档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase3_ui_r1.json",
+      "measurement_sha256": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7",
+      "visual_acceptance": "board/measurements/n4_phase3_ui_acceptance.json",
+      "visual_acceptance_sha256": "d5c7839d309b55981667b84eb20d2ed4abdb209d686545bc7708674721fa905a"
+    },
+    {
+      "bus_phase": 2,
+      "benchmark_fps_without_ui": 69.33003049703531,
+      "dynamic_ui_updates": 109,
+      "dynamic_frame_advances": 109,
+      "user_feedback": "2档计数增加、画面正常",
+      "measurement": "board/measurements/n4_bench_phase2_ui_r1.json",
+      "measurement_sha256": "ab6628b009071aaebb73ff341365402c9c29570aebf6130e48bf121b6708f4ea",
+      "visual_acceptance": "board/measurements/n4_phase2_ui_acceptance.json",
+      "visual_acceptance_sha256": "d951f7f6b755fd2332180b68ef6d97441f902e1e329e8e39a7b8f993a9a21bfd"
+    }
+  ],
+  "selected_bus_phase": 3,
+  "rf_runs": [
+    {
+      "measurement": "board/measurements/n4_monitor_rf_phase3_r1.json",
+      "measurement_sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01",
+      "status": "completed",
+      "boot_id": "915ba6db-426c-46fc-b7b8-0b38cfc9212f",
+      "requested_duration_s": 120,
+      "last_record_elapsed_s": 119.3601863060012,
+      "record_count": 105,
+      "actual_lo_hz": 97999998,
+      "sample_rate_hz": 3840000,
+      "configured_rx_bandwidth_hz": 1500000,
+      "display_fps": {
+        "minimum": 48.625559076815414,
+        "median": 49.45337222559269,
+        "maximum": 50.18804769219994
+      },
+      "sample_fifo_overflow_records": 0,
+      "list_status_overflow_records": 42,
+      "target_frame_overflow_records": 37,
+      "target_count_min_median_max": [
+        1,
+        29,
+        32
+      ],
+      "tx_atten_mdb_values": [
+        [
+          89750,
+          89750
+        ]
+      ],
+      "rx_rssi_dbm_range": [
+        -84.5,
+        -76.25
+      ],
+      "temperature_c_range": [
+        61.151263427548,
+        62.258630370904
+      ],
+      "near_95_8_mhz_records_within_25_khz": 0
+    },
+    {
+      "measurement": "board/measurements/n4_monitor_rf_958_phase3_r1.json",
+      "measurement_sha256": "05715d6adec5c25b22c9b335899aa2493e145a4ab2ae7de65cc1a2eec75dc002",
+      "status": "completed",
+      "boot_id": "915ba6db-426c-46fc-b7b8-0b38cfc9212f",
+      "requested_duration_s": 120,
+      "last_record_elapsed_s": 119.91108867100047,
+      "record_count": 106,
+      "actual_lo_hz": 96399998,
+      "sample_rate_hz": 3840000,
+      "configured_rx_bandwidth_hz": 1500000,
+      "display_fps": {
+        "minimum": 48.462496049809964,
+        "median": 49.41779497925175,
+        "maximum": 50.19541073404355
+      },
+      "sample_fifo_overflow_records": 0,
+      "list_status_overflow_records": 43,
+      "target_frame_overflow_records": 39,
+      "target_count_min_median_max": [
+        2,
+        22.0,
+        32
+      ],
+      "tx_atten_mdb_values": [
+        [
+          89750,
+          89750
+        ]
+      ],
+      "rx_rssi_dbm_range": [
+        -73.25,
+        -72.25
+      ],
+      "temperature_c_range": [
+        60.90518188458,
+        61.766467284968
+      ],
+      "near_95_8_mhz_records_within_25_khz": 41
+    }
+  ],
+  "rf_visual_acceptance": "board/measurements/n4_rf_phase3_visual_acceptance.json",
+  "rf_visual_acceptance_sha256": "43c61436c764f435117b015a9784dfc7a166d9f743db16f85d9c8639947ecf26",
+  "rf_visual_feedback": "有动态频谱/瀑布，列表有条目，画面正常",
+  "final_gpio_evidence": "board/measurements/n4_final_rf_gpio.json",
+  "final_gpio_evidence_sha256": "8d796ae46167cdbc3630477a2bb6fc93565cd48dab99991156de3d921fe66754",
+  "final_rf_gpio_data": 0,
+  "final_process_log": "logs/N4_final_board_processes.log",
+  "ps_tests": {
+    "passed": 58,
+    "log": "logs/N4_final_ps_tests.log",
+    "log_sha256": "964d4e0748b5c925b0c6f5a515e5ee19021137fbf1f28aef58bd4121704f0c89"
+  },
+  "limitations": [
+    "仅验收3.84MSPS接收，RF滤波带宽配置1.5MHz；未证明30.72MSPS连续无溢出。",
+    "32目标列表容量告警：98MHz测试42/105条、96.4MHz测试43/106条；不等于采样FIFO溢出，也不等于所有谱帧的溢出率。状态寄存器与目标快照可能不同帧。",
+    "95.8MHz对应频点在补测106条记录中检出41次（峰值距中心不超过25kHz），结合此前FM导频/听音证据支持频点对应；不宣称每条目标都是电台、不宣称完整占用带宽或调制自动识别通过。",
+    "LCD 2档69.33fps为无UI基准；运行默认3档，完整RF+UI约49.4fps。逐档目视不等于全温或长期稳定性。",
+    "ADI内部仍有Critical CDC分类及IO约束告警；整机时序PASS不代表所有CDC/IO风险已消除。",
+    "每次RF测试120秒，不替代N8一小时稳定性；本轮未进行空口发射、PFB信道化、AMC或耳机实时监听。",
+    "PL频谱刷新约49.4fps；PS文字和列表约每秒刷新，不能称整套文字UI每秒刷新49次。",
+    "板端墙上时钟不可信；关联依据为PC记录时间、boot_id、单调计时和文件哈希。",
+    "已安装管理员入口默认phase仍25；使用时明确传--phase 3。RTL复位/初始化默认仍25。"
+  ],
+  "paused_by_user": true,
+  "next_step_not_started": "N5",
+  "git_commit_push_performed": false
+}

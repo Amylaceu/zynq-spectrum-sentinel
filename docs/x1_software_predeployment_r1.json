@@ -1,0 +1,26 @@
+{
+  "recorded_at_pc": "2026-11-03T01:54:19.615211+08:00",
+  "status": "PC_TESTED_NOT_DEPLOYED",
+  "pc_tests": 234,
+  "test_log": "logs/X1_offline_release_tests_r1.log",
+  "test_log_sha256": "c0c1768e93188828d661db63a0065564d5f0e5941c3c7a54243cb938c044f7eb",
+  "source_sha256": {
+    "src/ps/sentinel/v1b.py": "5b99f79f9e6bd71a8e6eb847ec41ca6dc513acd50b7d956d90ca844819a24295",
+    "src/ps/sentinel/app/monitor_x1.py": "7b483706758cb110fa3a0bb8aadcd19dec0611f87507307255b080af6aa2aea0",
+    "src/ps/sentinel/app/selftest_x1.py": "ed3ea987ff3bbfe31bbfeeef4d2cc857c3386f2cb7f011844a1647e0adcf8876",
+    "src/ps/sentinel/app/runtime_v1.py": "ba2d73ffeb764780ab8830e35ac984b4c1ec4f1f1b9d695267a492029c731e73",
+    "src/ps/sentinel/drivers/cfar_x1.py": "e462600b4287333c202296dd8a5c5987e2a64c94dad09f80cc87d4f287849351",
+    "board/scripts/run_x1_monitor.py": "5b875ddea7414b6440255c60b3f444246700e275547ea6de1728c3ad0c445d45",
+    "board/scripts/run_x1_selftest.py": "6ce2d29cad0034b53dc15299b1fd036d663e6228091e9b04523539a69506f1ad",
+    "board/scripts/x1_postflight.py": "6a78893532b56ec08931dd4dd8c9afe4f8045cf3136d65d5abb9ba142255c380",
+    "tools/analyze_x1_board.py": "3775583317ae58770a0723cab54e30377adede9250ab76ef517fcef26c63dc16",
+    "tools/deploy_x1.py": "1b54b999476a49837904009cb2d71b7fd7b1153fbe0228d6287ea33a06958add",
+    "tools/accept_sentinel_v1b.py": "a4d8ffff3533255bbcafa5493bb8ae18f6c8ae2d8caafec3e41532e714131eed",
+    "build/scripts/audit_sentinel_v1b.tcl": "953028effb6ca5650d6290c5b20ffa9ec8543c696ba9c7f666be59bece5ce3c3",
+    "tools/audit_sentinel_v1b.ps1": "18f8379b2aaa061067561363d00262b466717c71e78df023e96b13d4e62e8cdd"
+  },
+  "x1_antenna_confirmation": "docs/x1_board_configuration_a.json",
+  "board_x1_loaded": false,
+  "current_build": "logs/X1_v1b_implementation_r1_exit.txt",
+  "x0_commit": "8263e8e"
+}

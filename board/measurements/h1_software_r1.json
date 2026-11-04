@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "tests": 37,
+  "log": "logs/H1_live_tests_r1.log",
+  "log_sha256": "f638053fae25a41ba6c9b77235f03775167766856fbc2e1b2b79ed5ba7fb344e",
+  "board_python38_parse": [
+    "src/ps/sentinel/panorama.py",
+    "src/ps/sentinel/panorama_capture.py",
+    "board/scripts/run_f4_panorama.py"
+  ],
+  "coverage": [
+    "scalar/batched Welch numeric equivalence",
+    "A/D 9MHz DC mask and edge coverage",
+    "bounded fast capture/restore and timeout quarantine",
+    "provisional live validation/order/partial JSON line",
+    "SSH flushed-line progress and failing exit",
+    "verified result loading and GUI page layout"
+  ],
+  "hardware_scope": "software only"
+}

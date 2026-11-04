@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "attempt": 2,
+  "recorded_at_pc": "2026-11-03T03:38:01.223458+00:00",
+  "scope": "I2S component simulation only; not full-system timing, board playback or 5-minute acceptance",
+  "previous_failure": "r1 scoreboard retained previous sample after disable; original evidence retained",
+  "checks": [
+    "24bit signed mono duplicated to stereo",
+    "one-bit I2S delay",
+    "32bit slot zero padding",
+    "3 intentional underruns counted",
+    "disable/reset mute"
+  ],
+  "archive": "report/results/y3_i2s_r2.zip",
+  "archive_sha256": "2002610138e3ec9e460b94b170274fe242defc7193c1debf25dc3233ece77f0e",
+  "source_sha256": {
+    "src/rtl/audio_y3/i2s_tx_y3.v": "cb383b8a0574086b37c36218d2fcbf92ce88c55d586d51d56cafa70698b6a189",
+    "sim/tb/tb_i2s_tx_y3.sv": "7208c6cbf1b122130eb26d79487f3d2ce3420af04221c76e82a288c881c69382",
+    "tools/test_y3_i2s.ps1": "dcb8945611e95b6b830b2bfbd01b28bce4dd103c87b69cf34adf74b2e602ee76",
+    "sim/scripts/run_xsim.ps1": "e71673cf1ba75d19019b8ef68e4856aac0b936fed14cf01fc6c08068bb1a2489",
+    "logs/Y3_i2s_r2_controller.log": "f7c984f72ba945d334b38bc1aed2e0602e1c2366c795bae798d338a798397a08",
+    "logs/Y3_i2s_r2_exit.txt": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "sim/results/tb_i2s_tx_y3.log": "21e8f11cc26cb533aac6da9adddd76de80ad67e3aece704a4618776a23d300a0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS_AUTOMATED_AWAITING_LISTENING",
+  "host_utc": "2026-11-03T23:15:24.551946+00:00",
+  "antenna": "S1",
+  "antenna_confirmed": true,
+  "physical_tx1a": "2.4GHz antenna attached; TX not requested",
+  "pl_rebuilt": false,
+  "bitstream_download": false,
+  "human_listening": "PENDING",
+  "scope": "30 s FM reception only; not full I0 antenna acceptance",
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "installed_files_sha256": {
+    "/home/xilinx/sentinel/release/v2/scripts/run_y3_audio.py": "da65bdec45ba5141428f3bf2d43b34495c281342e7dada32b335b23707cc73b0",
+    "/home/xilinx/sentinel/release/v2/overlay/sentinel_v2_100m/sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c"
+  },
+  "receive_library_sha256": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+  "files_sha256": {
+    "result.json": "071d842a5499f3acc2cf69ffa4030a7216e25519970dfa9e92ade4b76f31160c"
+  },
+  "legacy_metadata_note": "raw tx1a field is historical A wording; actual hardware recorded above",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "checks": {
+    "completed": true,
+    "duration": true,
+    "sample_count": true,
+    "fifo_clean": true,
+    "display": true,
+    "final_interval_clean": true,
+    "temperature": true,
+    "clock_counts": true,
+    "rf_muted": true,
+    "codec_stopped": true,
+    "source_stopped": true,
+    "same_boot": true,
+    "telemetry_coverage": true,
+    "audible_coverage": true,
+    "pilot_min_20db": true
+  },
+  "pilot_db": {
+    "count": 74,
+    "minimum": 25.152745988165005,
+    "median": 34.75117531942373
+  },
+  "audible_seconds": 28.65711435099729
+}

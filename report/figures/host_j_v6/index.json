@@ -1,0 +1,56 @@
+{
+  "source": "CURRENT_BOARD_NOT_SYNTHETIC",
+  "images": [
+    {
+      "id": "F1",
+      "file": "board/measurements/j6_dma_r1/F1_comparison.png",
+      "sha256": "6e49c91e84a2f805e6d0f5657ed0b9c08c7054dd5565e6966bae9f01996908b2"
+    },
+    {
+      "id": "F2",
+      "file": "board/measurements/j6_dma_r1/F2_comparison.png",
+      "sha256": "6b595f0e3719fafb2d810dff4d1f979e528897a0e43ecaf71ab0298482aeda53"
+    },
+    {
+      "id": "F3",
+      "file": "board/measurements/j6_dma_r1/F3_comparison.png",
+      "sha256": "82830ac63bbe1c76f4f147690214fb3eadf298c05929089a5a6226482df7f909"
+    },
+    {
+      "id": "F4",
+      "file": "board/measurements/j6_dma_r1/F4_comparison.png",
+      "sha256": "799ba510ea05118857e37fa7c797e74a1f02329c2ee671e1f4ab2ab341fd2da5"
+    },
+    {
+      "id": "F5",
+      "file": "board/measurements/j6_dma_r1/F5_comparison.png",
+      "sha256": "d7725840248ea8a294a4142a0f41c65d90975ec2f2c807c48e00f09756d5ea88"
+    },
+    {
+      "id": "F6",
+      "file": "board/measurements/j6_dma_r1/F6_comparison.png",
+      "sha256": "1dffbd5d672f6553a88a6d7bc88b7e663d742ccb409ee666fe66806ddf5ed105"
+    },
+    {
+      "id": "F7",
+      "file": "board/measurements/j6_dma_r1/F7_comparison.png",
+      "sha256": "5b84c6a6d3e3138e64479eb9c0b6f533ccbad64be56de338dd9687d970c8a58f"
+    },
+    {
+      "id": "F8",
+      "file": "board/measurements/j6_dma_r1/F8_comparison.png",
+      "sha256": "765deadbd50b1d19e113e24a479f28f52650a841451846bb8c5c047b05edc3ba"
+    },
+    {
+      "id": "F9",
+      "file": "board/measurements/j6_dma_r1/F9_comparison.png",
+      "sha256": "bcaae356f46f4653c0c32aa7211e7359a4f39dfe16a762f81f423ecd1c2f3948"
+    },
+    {
+      "id": "F10",
+      "file": "board/measurements/j6_dma_r1/F10_comparison.png",
+      "sha256": "4e43d15a5ed70566aca6bfdb41e97a7245393b5a93ece36a1bf2ff35fa44f68b"
+    }
+  ],
+  "overview_sha256": "3fc16a36d6f46488efbf31d323cb202024eb4bf6ed4b257c46e2b5a897bced7b"
+}

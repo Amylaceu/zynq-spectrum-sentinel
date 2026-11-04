@@ -1,0 +1,24 @@
+name: cfar_ctrl
+base: 0x43C20000
+width: 32
+address_width: 14
+implementation: src/rtl/regs/cfar_ctrl_regs.v
+regs:
+  - {name: CTRL, off: 0x00, reset: 0, fields: [{name: EN, bits: '0'}, {name: MODE, bits: '2:1'}]}
+  - {name: N_SHIFT, off: 0x04, reset: 4}
+  - {name: GUARD, off: 0x08, reset: 2}
+  - {name: ALPHA, off: 0x0C, reset: 1974}
+  - {name: DC_MASK, off: 0x10, reset: 3}
+  - {name: GAP, off: 0x14, reset: 2}
+  - {name: TARGET_COUNT, off: 0x18, access: ro}
+  - {name: FRAME_COUNT, off: 0x1C, access: ro}
+  - {name: HIT_COUNT, off: 0x20, access: ro}
+  - {name: ALARM_LIMIT, off: 0x24, reset: 1}
+  - {name: ALARM, off: 0x28, access: ro}
+  - {name: OCC_CLEAR_TOKEN, off: 0x2C, reset: 0}
+  - {name: OCC_FRAMES, off: 0x30, access: ro}
+  - {name: STATUS, off: 0x34, access: ro}
+  - {name: VERSION, off: 0xFC, access: ro, reset: 0x43460001}
+windows:
+  - {name: TARGETS, off: 0x200, bytes: 512, access: ro, record_bytes: 16}
+  - {name: OCCUPANCY, off: 0x1000, bytes: 8192, access: ro, record_bytes: 4}

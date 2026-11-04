@@ -1,0 +1,63 @@
+{
+  "status": "FAIL_TIMING_DEFERRED",
+  "recorded_at_pc": "2026-11-02T22:13:12.805299+00:00",
+  "implementation_attempts": 2,
+  "next_implementation_attempt": "DEFERRED",
+  "routed_timing_r2": {
+    "WNS_ns": -0.709,
+    "WHS_ns": -0.058
+  },
+  "timing_report": "build/reports/sentinel_v1c/retry_r2_timing.rpt",
+  "timing_report_sha256": "499aaa9ab36d2fd1a9362d60d8891fe5c0d73b1587faa725eb53b4684f19b2e5",
+  "failure_evidence": {
+    "docs/x2_implementation_r1_failure.json": "64b3768cb922cdf606077005a33fe104477cf51a4791aca30612fab4dc8b0c0a",
+    "docs/x2_implementation_r2_failure.json": "ede3309409e2bcdc6ac4cfcb38a53341be5a4e87d003b86d0fb78d8aeaf5dde5"
+  },
+  "simulation_evidence_sha256": "c977c22bcc4a53770d159c8840882fea5207c0237d777be57f79a6b6d750eabf",
+  "software_freeze_sha256": "35ec4d729bcc7985a9bb72f12c86a60a633918b98ce52e0cd428b0d1b8d7ffe3",
+  "regression": {
+    "passed": 235,
+    "log": "logs/X2_python_tests_fast_r2.log",
+    "log_sha256": "94e0e3331f91b60aef597b4966913cfc05f0aa4be1eb9bf6aa308c4af5a52018"
+  },
+  "x2_deployed": false,
+  "x2_board_loaded": false,
+  "x2_board_measured": false,
+  "rate_results": [
+    {
+      "rate_hz": 7680000,
+      "status": "NOT_TESTED"
+    },
+    {
+      "rate_hz": 15360000,
+      "status": "NOT_TESTED"
+    },
+    {
+      "rate_hz": 24576000,
+      "status": "NOT_TESTED"
+    },
+    {
+      "rate_hz": 30720000,
+      "status": "NOT_TESTED"
+    }
+  ],
+  "prepared_future_fast_path": {
+    "screening_seconds": 60,
+    "sustained_seconds": 600,
+    "executed": false
+  },
+  "continuation": {
+    "step": "X3",
+    "baseline_rate_hz": 3840000,
+    "baseline": "sentinel_v1b",
+    "baseline_implementation_sha256": "965ed3bf8b7256e0bdc7edcdbd1c60389bb0dfea78b0b2d84812dc6183397520",
+    "configuration_a_confirmed": true,
+    "transmit": false
+  },
+  "limitations": [
+    "X1 remains FAIL.",
+    "X2 minimum 24.576 MSPS has not been board-qualified.",
+    "Simulation and software tests do not establish board stability.",
+    "User requested prioritizing functions; timing optimization deferred after attempt 2."
+  ]
+}

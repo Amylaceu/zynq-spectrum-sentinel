@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-02",
+  "source": "user_listening_feedback",
+  "file": "report/results/fm_95800000_round2_demod.wav",
+  "sha256": "d2b7e628f3b8a7f7c672d1e7fd8773d386aac715b6c094e91f3b3a708d343045",
+  "human_voice_audible": true,
+  "noise_description": "electric-like noise particularly loud",
+  "audio_quality_passed": false,
+  "next_preview": "report/results/fm_95800000_round2_voice.wav",
+  "next_preview_quality": "user_reported_improved_but_still_noisy",
+  "antenna_replacement_feedback": {
+    "file": "report/results/fm_95800000_round3_demod.wav",
+    "sha256": "be192ef2c08909192a16961ffa4266153521bd98c2696fc58b31a953fbb5c710",
+    "antenna": "20-512MHz magnetic",
+    "source": "user_listening_feedback",
+    "clearly_improved": true,
+    "residual_noise": "small amount reported by user",
+    "formal_audio_quality_acceptance": "not_declared"
+  },
+  "voice_preview_feedback": {
+    "file": "report/results/fm_95800000_round2_voice.wav",
+    "sha256": "d2c46b6ef64c32ada13d1e4a0dc986a25cb0a6835c80fa4a54bf8054265048b4",
+    "improved": true,
+    "noise_still_loud": true,
+    "audio_quality_passed": false
+  }
+}

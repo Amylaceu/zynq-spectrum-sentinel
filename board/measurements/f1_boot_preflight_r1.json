@@ -1,0 +1,12 @@
+{
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "ssh": true,
+  "config_a_confirmed": true,
+  "source": "user confirmed ready before power-on",
+  "uart_scope": "Only login prompt captured; full boot output unavailable",
+  "warnings": [
+    "[    7.682938] systemd-journald[124]: File /var/log/journal/236dbcc4a6dba1caa1d5d5bc61955d45/system.journal corrupted or uncleanly shut down, renaming and replacing.",
+    "[   44.234382] FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck."
+  ],
+  "deployment": "f1_deployment_r1.json"
+}

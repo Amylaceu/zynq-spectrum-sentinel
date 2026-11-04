@@ -1,0 +1,14 @@
+{
+  "status": "PASS_HUMAN",
+  "host_utc": "2026-11-03T15:07:18.294505+00:00",
+  "user_response": "\u5168\u90e8\u6b63\u786e",
+  "scope": "Current F2 A-group titles/countdown/spectrum/waterfall/recognition list/constellation/three-tone display and speaker clarity",
+  "not_covered": [
+    "Three-cycle automated completion",
+    "WAV recording",
+    "Classifier accuracy",
+    "Runtime target"
+  ],
+  "configuration": "A",
+  "analog_volume_db": -12
+}

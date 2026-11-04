@@ -1,0 +1,256 @@
+{
+  "status": "VERIFIED_RUNTIME_AND_RTL_CANDIDATES",
+  "recorded_at_pc_utc": "2026-11-03T01:39:44.714103+00:00",
+  "formal_status": {
+    "X0": "DONE",
+    "X1": "FAIL",
+    "X2": "FAIL",
+    "X3": "FAIL",
+    "X4": "FAIL"
+  },
+  "x4_timing": {
+    "frozen_reference": {
+      "count": 150,
+      "median_ms": 49.333994000335224,
+      "p95_ms": 126.02857615001994,
+      "max_ms": 140.66914599970914,
+      "over_100ms": 60
+    },
+    "native_gardner": {
+      "count": 150,
+      "median_ms": 49.363954000000376,
+      "p95_ms": 98.45550340123737,
+      "max_ms": 134.45041500017396,
+      "over_100ms": 3
+    }
+  },
+  "x4_equivalence_captures": 260,
+  "x4_kernels": 36,
+  "x4_difference": {
+    "all_exact": true,
+    "max_symbol_error": 0.0,
+    "max_scalar_error": 0.0
+  },
+  "x4_model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "x4_library_sha256": "34dec1765150e7dfd53333aef651d0d1674a52832411708d8721c724828bce90",
+  "board_boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "x2_maskpipe_simulation": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+      "actual_sha256": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+      "actual_sha256": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+      "actual_sha256": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+      "actual_sha256": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "expected_sha256": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+      "actual_sha256": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "expected_sha256": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+      "actual_sha256": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+    }
+  },
+  "x2_cfgpipe_simulation": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+      "actual_sha256": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+      "actual_sha256": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+      "actual_sha256": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+      "actual_sha256": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "expected_sha256": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+      "actual_sha256": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "expected_sha256": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+      "actual_sha256": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+    }
+  },
+  "x2_chain": {
+    "sample_rate": 30720000,
+    "adc_inputs": 131072,
+    "power_words": 131072,
+    "sample_drop": 0,
+    "frames_in": 64,
+    "frames_out": 60,
+    "frame_drop": 4,
+    "threshold_pixels": 33600
+  },
+  "x2_core_timing": {
+    "cfar_reference_regwrap": {
+      "reg_wns_ns": -0.311,
+      "reg_whs_ns": 0.103,
+      "resources": {
+        "Slice LUTs": 6600.0,
+        "Slice Registers": 9239.0,
+        "Block RAM Tile": 12.0,
+        "DSPs": 2.0
+      },
+      "register_timing_met": false,
+      "period_ns": 6.667
+    },
+    "cfar_maskpipe_regwrap": {
+      "reg_wns_ns": -0.291,
+      "reg_whs_ns": 0.092,
+      "resources": {
+        "Slice LUTs": 6587.0,
+        "Slice Registers": 9275.0,
+        "Block RAM Tile": 12.0,
+        "DSPs": 2.0
+      },
+      "register_timing_met": false,
+      "period_ns": 6.667
+    },
+    "cfar_cfgpipe_regwrap": {
+      "reg_wns_ns": -0.147,
+      "reg_whs_ns": 0.089,
+      "resources": {
+        "Slice LUTs": 6591.0,
+        "Slice Registers": 9292.0,
+        "Block RAM Tile": 12.0,
+        "DSPs": 2.0
+      },
+      "register_timing_met": false,
+      "period_ns": 6.667
+    }
+  },
+  "regression": {
+    "scope": "src/ps/tests + tools/tests",
+    "passed": 280
+  },
+  "archive": "report/results/x0_x4_followup_r1.zip",
+  "archive_sha256": "e750d3bed504de1e6d54948f480cc3896ca11ae9b1b58fb9cba793448b9f70d7",
+  "source_and_evidence_sha256": {
+    "board/measurements/x4_native_board_r1.json": "af540fe536019e885e48f826b29bb9c8d40485d3bc2748f8ff345c2350e919ac",
+    "board/measurements/x4_native_buildcheck_r1.json": "8230dd71d9c1b39a2c21808ecefb16bffce966f4765bf1e02d0975255d50638e",
+    "board/scripts/bench_x4_native.py": "8a291b9128db21073f406304e8ed76bdbe40bccb230c229ada686eca7523bacf",
+    "build/reports/x2_maskpipe_r2/cfar_maskpipe_regwrap_reg_hold.rpt": "d465c5eafc5feda0fc49c6e3238ef737242548c401b0c654a4061a7d1ab74fcd",
+    "build/reports/x2_maskpipe_r2/cfar_maskpipe_regwrap_reg_setup.rpt": "170025065f23dffed632413865f881b073cce1aac321ae056a8eb33561047d39",
+    "build/reports/x2_maskpipe_r2/cfar_maskpipe_regwrap_timing.rpt": "7d60059d018fedd18ef532211a858699f5efcaf918c4974b9fbc4b8298f81c6a",
+    "build/reports/x2_maskpipe_r2/cfar_maskpipe_regwrap_utilization.rpt": "ecbf759e981f67e4b8e7910079478eb6fe772814dcc2e62543cd191bceda3118",
+    "build/reports/x2_maskpipe_r2/cfar_reference_regwrap_reg_hold.rpt": "486ca4db6e7f2ae712ad14b9b20827fab725c516c56c3ee60173de790da14638",
+    "build/reports/x2_maskpipe_r2/cfar_reference_regwrap_reg_setup.rpt": "f8c0a7f9a0bbb85552333b122a630a57a3b6e5fb9527c8a92589b4ed13d330c6",
+    "build/reports/x2_maskpipe_r2/cfar_reference_regwrap_timing.rpt": "9f6a7f0a5393f4709c9b18f31d7c20997f07f4421945b9ba63a9ce991f757df5",
+    "build/reports/x2_maskpipe_r2/cfar_reference_regwrap_utilization.rpt": "199d9a8458bdd61e80830961fcda6b95b3f719ce1aa11b92385159e4c8b37aaf",
+    "build/reports/x2_maskpipe_r3/cfar_cfgpipe_regwrap_reg_hold.rpt": "33ae511f44d7634193107065db3cd3b9025a1eefcb7688cafa176f7a8bc00a09",
+    "build/reports/x2_maskpipe_r3/cfar_cfgpipe_regwrap_reg_setup.rpt": "07577213d72b2f902ca8b342e781bc9cb4784185e63ccc44723c24e760b14643",
+    "build/reports/x2_maskpipe_r3/cfar_cfgpipe_regwrap_timing.rpt": "20a8466178967471c4ce4eb108367afa09d889a16a5528bc4ee7ce1a8d7a147c",
+    "build/reports/x2_maskpipe_r3/cfar_cfgpipe_regwrap_utilization.rpt": "490e570dcf4c65d98d1ae6c82105450e2dfdbc9998fc5be14e1f2a59928efa43",
+    "build/scripts/audit_x2_maskpipe.tcl": "d8cfcd05c736d525ec5031940fb9752d9b87f8eb6e3b58b07b61908644a54d69",
+    "build/work/x2_maskpipe_chain_r1/cfar_core_x2.v": "a81f1e5b26c2b1cea88ddbe5653d0d5010a7b99bc8fdfc47c1aabb9a4647c4a0",
+    "build/work/x2_maskpipe_chain_r1/tb_sentinel_maskpipe_x2.sv": "8a3c29aea5aafa0add26932f9c7e83e439a54c918acf4a499c7e30e59f9a4711",
+    "build/work/x4_native_board_r1/bundle.tar.gz": "06b730925ff1b4da7dfa5e8fd53d5ece93b85c496de39b1eb0a8481b3ae36f36",
+    "build/work/x4_native_board_r1/libsentinel_gardner.so": "34dec1765150e7dfd53333aef651d0d1674a52832411708d8721c724828bce90",
+    "logs/X0_X4_native_full_tests_r1.log": "d8e641f2f4e29e0645cfe7ccb25c3295792eff7e2b65f6c3b0a74f95dd06663c",
+    "logs/X2_maskpipe_r1_console.log": "ab694ee88e4eeab97848cb91d9bbee4b2a5e4cc00a596bd6ed9f72fce7d00b03",
+    "logs/X2_maskpipe_timing_r1_console.log": "b400de7e971da5ecab1ee29ab1883a3c2763cdc652c8d46c6cbba633c3e63c14",
+    "logs/X2_maskpipe_timing_r2.log": "7ac9254519401f1e1f86b5460077d67083bb05026d1c7357da9c16f18ae853e5",
+    "logs/X2_maskpipe_timing_r3.log": "b01e21622074ed6c57ebad0561adf98b6f21c0bebaecbe631b29f1f172aca8d5",
+    "logs/X4_native_board_r1.log": "5f99f52a2df28ea2289017a0838dece5a4c06f830119991775751f3aa4384302",
+    "logs/X4_native_profile_r1.log": "7bb47adef5f4a45e0a079a54b881b5da19eb23cadf170a3c4d733586af4fc088",
+    "logs/X4_runtime_profile_r1.log": "b9ea02a209437447d0286cc3cad32b8ba9ce17abaab79386e0d97cf094c557ca",
+    "sim/results/tb_cfar_cfgpipe_x2.log": "84e90db09b1c59aa413f34ab9ab6fa4d35941acc21ad4d14380e29c1d898c08f",
+    "sim/results/tb_cfar_maskpipe_x2.log": "801e1153ab0c44fbbd27a03104712ec72863e7643f115d78d2c0eec46605985d",
+    "sim/results/tb_sentinel_maskpipe_x2.log": "bf71aff25e673a0a485135bd775f4d1eb76b8e4983e51f53d623a1a3e3b3c0a6",
+    "sim/results/x2_cfgpipe_db_out.hex": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0",
+    "sim/results/x2_cfgpipe_hit_out.hex": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db",
+    "sim/results/x2_cfgpipe_occupancy_out.hex": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179",
+    "sim/results/x2_cfgpipe_r3.json": "07f9c0705d3f2841db5e4249ae1de5b3f61bce564abf679886e8dd9f290168b7",
+    "sim/results/x2_cfgpipe_stats_out.hex": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e",
+    "sim/results/x2_cfgpipe_targets_out.hex": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b",
+    "sim/results/x2_cfgpipe_threshold_out.hex": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6",
+    "sim/results/x2_maskpipe_db_out.hex": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0",
+    "sim/results/x2_maskpipe_hit_out.hex": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db",
+    "sim/results/x2_maskpipe_occupancy_out.hex": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179",
+    "sim/results/x2_maskpipe_r2.json": "005d90c1dd323a2e6e8a11187c911aad669466ee478ae1cb876898c969b7d3ee",
+    "sim/results/x2_maskpipe_stats_out.hex": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e",
+    "sim/results/x2_maskpipe_targets_out.hex": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b",
+    "sim/results/x2_maskpipe_threshold_out.hex": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6",
+    "sim/tb/cfar_cfgpipe_regwrap.v": "f124c30c4db427981a4c347ab07f6419b3188d1899f3c46eca80b1374dd66d33",
+    "sim/tb/cfar_maskpipe_regwrap.v": "0691a2ab7a20d93258809c9be48c59cb8ab2ccd86bd6dfca8334f99d4f92ca52",
+    "sim/tb/cfar_reference_regwrap.v": "9a29beeac9029ea9232d22510dd65f86978b61e552c109686cd8316729823999",
+    "sim/tb/tb_cfar_cfgpipe_x2.sv": "bf17d27c463633228ad63b7d91b493065a81fe0719bf3d3ee53843b36c5bc34a",
+    "sim/tb/tb_cfar_maskpipe_x2.sv": "ec50f43f09417e0389e4f64987871271c78e5bee1affb51f5dc1e336a1de2945",
+    "src/ps/sentinel/amc/__init__.py": "06c1ad18d007706f403f51c3d90ba09deb83c3549f92b29258d032530bc547ec",
+    "src/ps/sentinel/amc/contract.py": "f1a186b123603225d3df3d263f90cce25f580ea60abdbe7d8d886fa0fb1b92e1",
+    "src/ps/sentinel/amc/features.py": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+    "src/ps/sentinel/amc/fine.py": "92a29d0d51da77f42b6e8c43f901bdca89e7df3273446b67ac9fe8834d0a09db",
+    "src/ps/sentinel/amc/infer_cached.py": "cf9240fca78a453196cc87cac1643bae3c0cf80a037e154b07e52a0319bae3a4",
+    "src/ps/sentinel/amc/infer_native.py": "187ac7225a4beb530fdd3bfdf4684db37e5d6fed62e479c72b512d833750cb79",
+    "src/ps/sentinel/amc/infer_np.py": "599bc728b80f8e4aea5cd34865f724987c0253902f7a65d50798dc1f2a6c1607",
+    "src/ps/sentinel/amc/native/gardner.c": "62664493afdecbac46515f51fad6c4f1ade787c83ba24dc3db943ced066dc80c",
+    "src/ps/tests/test_amc_native.py": "a0435d0942d0d666f75ceca9ca242db9ca730feebee2bb3244e840eb6b969b49",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "525ee3c90fd489fbfefbf0621e971cbdaed609ac176b41e41713eecfaf0be8d5",
+    "src/rtl/cfar_x1/cfar_core_x1.v": "dd27ee31d253514bcca44b5c98e9d348bf02632cd194df63c934227d420ae63f",
+    "src/rtl/cfar_x1/cfar_detect_x1.v": "d1db9f0762333315c9370ceb25e63c809142d07c7d7f4ec97b67ad90a7334c50",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "src/rtl/x2_opt/cfar_core_cfgpipe_x2.v": "46398c1e58d6fd30ff433e207a9b3943f4ddb2eb64495d1117458e3c7b4a0a0c",
+    "src/rtl/x2_opt/cfar_core_maskpipe_x2.v": "5cc7722770a446cd4b170b419113ec301ccfb930fd7416e8cb8e466a293898ce",
+    "tools/audit_x2_maskpipe.ps1": "8ebfaf9f8a9fbd7e0d8fef369f7ed431291b022d20f3ea2112eeebcd8447b7b4",
+    "tools/bench_x4_native_board.py": "d1d4194a176a84c13ebb6876b553c238b2952f4440e71ac9540b066fdc5b3a51",
+    "tools/build_amc_native.sh": "db2714ced00be09858ccbccb4bb90ff68d68dca0847dbd25278c153e77f75139",
+    "tools/finalize_x0_x4_followup.py": "a0771a0ff1358ca37674c9ab0c928c3436bdc201b71ba78ce8ec1b1468605250",
+    "tools/prepare_x2_cfgpipe.py": "a501657aab00093ead6ea8eb31bbfe7946ede95638f5144d4952027701449faf",
+    "tools/prepare_x2_maskpipe.py": "3e7a9e5dd080d23141be27548fa687a5c603091a3da6e982db442d4b767b2aff",
+    "tools/prepare_x2_maskpipe_timing.py": "6f2599e821410ef82b2dff9cb08164e75ad17d8bb54ef62051bf877d936b8f7b",
+    "tools/test_x2_cfgpipe.ps1": "b46013eed87190617de1827548e7c286518a084e11fbdb92b78a264b5eddef93",
+    "tools/test_x2_maskpipe.ps1": "e140bb265917e1c629eafaaafbf826f86bf0c08f212c48d959c28bec2c22e8a1",
+    "tools/test_x2_maskpipe_chain.ps1": "093730771853b666b286ca026f41fb5b0319dfed045c31355bfdccfb8a7b1237",
+    "tools/verify_x2_cfgpipe.py": "382c52a256ed26ada90d3e203b1c4296a5dda6af84a4626e12d3e096cf5f29f4",
+    "tools/verify_x2_maskpipe.py": "302f3455009f8e60d666958fc6378f6c0e253a22216f115ba85a0bf44cef00a7"
+  },
+  "no_rf_access": true,
+  "bitstream_loaded": false,
+  "limitations": [
+    "Native latency still has >100ms outliers; original accuracy failure retained",
+    "Core-level register timing is not whole-system or IO timing acceptance",
+    "30.72MSPS is simulation only; board qualified rate remains 3.84MSPS",
+    "Default Predictor numerical path unchanged; optional native backend requires explicit selection"
+  ]
+}

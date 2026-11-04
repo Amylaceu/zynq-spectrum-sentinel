@@ -1,0 +1,67 @@
+{
+  "step": "showcase/G0",
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T18:10:15.076978+00:00",
+  "user_confirmed": {
+    "read_complete": true,
+    "sd_returned_to_board": true,
+    "power_on": true,
+    "antenna_configuration": "A"
+  },
+  "backup_record": "board/measurements/g0_sd_retry2_verified.json",
+  "backup_record_sha256": "fa9384003113ebb832cb3ef663cc6d7707f9ebcb60e013d62a9210806a468eab",
+  "board_boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+  "selftest": {
+    "status": "PASS",
+    "RF_TX_requested": false,
+    "audio_playback": false,
+    "product_id": 10,
+    "startup_quality": {
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 35.75420020155295,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.22132371386010455,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "noise_event": null,
+      "pilot_pass": true,
+      "quality_pass": true
+    },
+    "telemetry": {
+      "temperature_c": 43.925555419788004,
+      "rx_rssi_dbm": -89.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ]
+    }
+  },
+  "stop_readback": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "files_sha256": {
+    "board/measurements/g0_selftest_r1/20211118T235435Z_410b9dea_execution.json": "47b21aea8ea8a40e46ecbb22870bbe62b1ef66e3d2019eb2e0efdd33f2c187a3",
+    "board/measurements/g0_selftest_r1/20211118T235435Z_410b9dea_execution.json.sha256": "f8d80ab9dc9354559f339503612590ad626814e6ce9adb5e88a9d52488ed5609",
+    "board/measurements/g0_selftest_r1/selftest.log": "1d1f1d301c5c73d20af1df25499846afe0579075c3e84f42ad4735c33a1bf0ff",
+    "board/measurements/g0_selftest_r1/selftest_20211118T235435Z_410b9dea/result.json": "3cc8c896c07c50116e46a2beacf8698e415fe719624e151cd8e843fbe5e5606d",
+    "board/measurements/g0_selftest_r1/selftest_20211118T235435Z_410b9dea/result.json.sha256": "05836c46bb124674bd9feeba334c6ae3760ae8feb271018ccd6386066a88bd0a"
+  },
+  "limitations": [
+    "Backup validation does not prove filesystem health or restore success",
+    "Board wall clock is historical; correlate by host timestamp and boot_id",
+    "Source capacity and partition identity reuse verified F0 same-card source record"
+  ],
+  "historical_failures_preserved": true
+}

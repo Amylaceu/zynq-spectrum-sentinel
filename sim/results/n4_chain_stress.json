@@ -1,0 +1,17 @@
+{
+  "step": "N4 integrated chain stress",
+  "status": "PASS",
+  "frames": 16,
+  "input_words": 32768,
+  "first_power_words_bit_exact": 8192,
+  "threshold_pixels": 8960,
+  "snapshot_paired_columns": 560,
+  "steady_intervals": 7,
+  "input_cycles": 71946,
+  "output_cycles": 71946,
+  "dsp_hz": 150000000,
+  "saturated_input_samples_per_second": 29889083.479276124,
+  "spectrum_frames_per_second": 14594.279042615295,
+  "scope": "RTL simulation saturated/backpressured input, not board throughput; does not demonstrate unpausable30.72MSPS RF without overflow",
+  "limitation": "Current CFAR frame acquisition/processing serialization limits saturated chain to about29.889MSPS. First RF bringup uses3.84MSPS; higher rates must be checked for overflow and actually measured."
+}

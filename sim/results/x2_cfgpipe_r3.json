@@ -1,0 +1,54 @@
+{
+  "status": "PASS_SIMULATION_ONLY",
+  "comparisons": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+      "actual_sha256": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+      "actual_sha256": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+      "actual_sha256": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+      "actual_sha256": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "expected_sha256": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+      "actual_sha256": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "expected_sha256": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+      "actual_sha256": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+    }
+  },
+  "source_sha256": {
+    "src/rtl/x2_opt/cfar_core_cfgpipe_x2.v": "46398c1e58d6fd30ff433e207a9b3943f4ddb2eb64495d1117458e3c7b4a0a0c",
+    "sim/tb/tb_cfar_cfgpipe_x2.sv": "bf17d27c463633228ad63b7d91b493065a81fe0719bf3d3ee53843b36c5bc34a",
+    "tools/prepare_x2_cfgpipe.py": "a501657aab00093ead6ea8eb31bbfe7946ede95638f5144d4952027701449faf",
+    "tools/test_x2_cfgpipe.ps1": "b46013eed87190617de1827548e7c286518a084e11fbdb92b78a264b5eddef93",
+    "tools/verify_x2_cfgpipe.py": "382c52a256ed26ada90d3e203b1c4296a5dda6af84a4626e12d3e096cf5f29f4"
+  },
+  "log_sha256": "84e90db09b1c59aa413f34ab9ab6fa4d35941acc21ad4d14380e29c1d898c08f",
+  "formal_x2_status": "FAIL",
+  "notes": [
+    "Registered config validity plus split AXI write quiet gate",
+    "Mid-frame config changes, stalled AXI, reset and invalid masks tested"
+  ]
+}

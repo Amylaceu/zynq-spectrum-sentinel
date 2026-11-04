@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "attempt": 2,
+  "sequences": [],
+  "rf_transmission_requested": false,
+  "tx_ports_empty_user_confirmed": true,
+  "format": "TX signed12 left-aligned16 -> RX signed12 sign-extended16; all12 bits compared",
+  "stage": "initialize_rf",
+  "bit_sha256": "773a378a6ee8f4b6b7e9a824e71a4eaa823087f33faf57c2029348f2a92c8487",
+  "overlay_reloaded": true,
+  "error": "init: -11",
+  "tx_atten_mdb_samples": [],
+  "gpio_after_close": 0,
+  "buffers_quarantined": false
+}

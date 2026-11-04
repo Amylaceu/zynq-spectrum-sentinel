@@ -1,0 +1,42 @@
+{
+  "status": "PASS_TARGETED_CHECKS_ONLY",
+  "tests": [
+    {
+      "passed": 83,
+      "log": "logs/G4d_final_regression_r1.log",
+      "log_sha256": "42a2a44615289aab55638d835b5b6225975439104e49a925071413c3ed595bf6"
+    },
+    {
+      "passed": 1,
+      "log": "logs/G4d_package_evidence_test.log",
+      "log_sha256": "76eac050d99ff9e9393aff9a4abfae285b9cd1e9417b2cc35e84dbb22b856173"
+    }
+  ],
+  "python38_syntax_checked": [
+    "src/ps/sentinel/fm_parallel.py",
+    "src/ps/sentinel/rx_queue.py",
+    "board/scripts/g4d_dma_audit.py",
+    "src/ps/sentinel/amc/infer_np.py",
+    "src/ps/sentinel/app/hostlink_runtime.py",
+    "src/ps/sentinel/app/monitor_x5.py",
+    "src/ps/sentinel/app/demo_b.py",
+    "src/ps/sentinel/telemetry.py"
+  ],
+  "source_sha256": {
+    "src/ps/sentinel/fm_parallel.py": "b4ff1fc01da0e048e8e0237a4ce9e0cc6bd6bde3cf6f91bc8d6c6a3ad501a730",
+    "src/ps/sentinel/rx_queue.py": "2633928a478f09df2a2dcfb43d6505c6390c39c6805dd438d81f8f1b3d9c10ab",
+    "board/scripts/g4d_dma_audit.py": "3322f323c84cf395319a38ef94ff3632e2b32f07aeaff2e9fad62913b2ed4034",
+    "src/ps/sentinel/amc/infer_np.py": "8c6c28ac2f912e95a22ef06f33ce11eca9855a446ad29e1d180e2a80ba12ac10",
+    "src/ps/sentinel/app/hostlink_runtime.py": "737fe000e7a836366180cfaebfb6ea2620ea13a1054bbd90be00fc1392916b7a",
+    "src/ps/sentinel/app/monitor_x5.py": "cec1ab42bf6fa9a077919acccff9982811e2571791c9c5b896d4e07550149d37",
+    "src/ps/sentinel/app/demo_b.py": "c1e2d88d5ba7d82540e47510257e84d590b2a3935968e3bd4f8fb5d54b194888",
+    "src/ps/sentinel/telemetry.py": "7a1c254e93bdbdf797e6631fdd452c578bf971973a3200e5843abc60fa10b2ba"
+  },
+  "offline_only": [
+    "fm_parallel.py",
+    "pcm_recording.py",
+    "rx_queue.py allocation cleanup and idempotence updates"
+  ],
+  "bitstream_rebuilt": false,
+  "model_retrained": false
+}

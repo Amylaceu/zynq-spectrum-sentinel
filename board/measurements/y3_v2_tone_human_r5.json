@@ -1,0 +1,36 @@
+{
+  "status": "PASS_TONE_DIGITAL_AND_HUMAN",
+  "scope": "1kHz 3-second onboard tone only; FM not accepted",
+  "human_statement": "\u542c\u5230\u4e86\uff0c\u58f0\u97f3\u6b63\u5e38",
+  "volume_db": -15,
+  "authorization": {
+    "r4": "User: \u7ee7\u7eed\u64ad\u653e\u6d4b\u8bd5",
+    "r5": "User: \u6ca1\u6ce8\u610f\uff0c\u628a\u58f0\u97f3\u653e\u5927"
+  },
+  "evidence": {
+    "board/measurements/y3_v2_tone_r1_execution.json": {
+      "status": "FAIL",
+      "sha256": "af488bcc2776124afa12685fe11fb6982f3774116e54fcf0cd666bed7ca85379"
+    },
+    "board/measurements/y3_v2_tone_r2_execution.json": {
+      "status": "FAIL",
+      "sha256": "507c5dab82f1601dcdd7fc9126728a0321202592b8cad095a4208bc6f37686c5"
+    },
+    "board/measurements/y3_v2_tone_r3_execution.json": {
+      "status": "FAIL",
+      "sha256": "0b6aaeaf13fa72a34ab5ec0f2e3e790856575f9df662dac8957a62b200a90594"
+    },
+    "board/measurements/y3_v2_tone_r4_execution.json": {
+      "status": "PASS_DIGITAL_AWAITING_HUMAN",
+      "sha256": "6d82628d0bdf4f196ec1014d3298aa8203c4afe5a89e65c3ceae51b1fa6620f6"
+    },
+    "board/measurements/y3_v2_tone_r5_execution.json": {
+      "status": "PASS_DIGITAL_AWAITING_HUMAN",
+      "sha256": "8ce02466f5dff58dd30b31ca3f362af29b8d5e8911e15d03860d1c9624fa46d9"
+    }
+  },
+  "tests": {
+    "passed": 508,
+    "log_sha256": "d07b871db21d2b50515b505ad5f187feb826e2b50f6be85b34434e5eb17f7dac"
+  }
+}

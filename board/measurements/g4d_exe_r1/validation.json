@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SHORT_REPLAY_ONLY",
+  "board_requested": false,
+  "source": "real archived A session",
+  "files_sha256": {
+    "gui_metrics.json": "5d65489bef085721899a0f25a9488a9c1b0e53f1f626b36c8ac79cf203ea9099",
+    "gui_metrics.json.sha256": "6b5e8e2e1d3ca5a9aa7e3709a240c30252e93950795a68b3d66d24263a5b616f",
+    "replay.png": "40e4ff2b41f1c368d6cba69f222eff0a22790eb253588eece4f7e046fa30a88d"
+  },
+  "limits": [
+    "20-second smoke test; not 30-minute stability",
+    "PC audio not tested",
+    "Bundled old A session has no new PS metrics"
+  ]
+}

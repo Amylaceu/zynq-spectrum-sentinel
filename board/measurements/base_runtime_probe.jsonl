@@ -1,0 +1,12 @@
+{"stage": "metadata", "ips": ["axi_ad9361", "axi_ad9361_adc_dma", "axi_ad9361_dac_dma", "axi_ad9361_gpio", "axi_ad9361_spi", "axi_iic_fmc", "axi_sysid_0", "sys_ps7"]}
+{"stage": "download_start"}
+{"stage": "download_returned"}
+{"stage": "read_start", "ip": "axi_sysid_0", "address": 1157627904, "offset": 0}
+{"stage": "read_returned", "ip": "axi_sysid_0", "value": 65889, "hex": "0x10161"}
+{"stage": "read_start", "ip": "axi_ad9361", "address": 2030174208, "offset": 0}
+{"stage": "read_returned", "ip": "axi_ad9361", "value": 656128, "hex": "0xa0300"}
+{"stage": "read_start", "ip": "axi_ad9361_gpio", "address": 1092616192, "offset": 0}
+{"stage": "read_returned", "ip": "axi_ad9361_gpio", "value": 0, "hex": "0x0"}
+{"stage": "read_start", "ip": "axi_ad9361_spi", "address": 1105199104, "offset": 100}
+{"stage": "read_returned", "ip": "axi_ad9361_spi", "value": 37, "hex": "0x25"}
+{"stage": "complete", "rf_initialized": false, "tx_enabled": false}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY_BOARD_PENDING",
+  "scope": "SYNTHETIC_SOFTWARE_ONLY",
+  "board_accessed": false,
+  "sd_accessed": false,
+  "hardware_test_pass": false,
+  "notes": [
+    "No measured RF panorama or one-hour stability claim.",
+    "Separate antenna groups; uncalibrated relative ADC full-scale units."
+  ],
+  "groups": {
+    "A": {
+      "bounds_hz": [
+        70000000,
+        512000000
+      ],
+      "tiles": 55,
+      "output_bins": 44200,
+      "max_tone_error_hz": 5000.0,
+      "checks": {
+        "no_coverage_gaps": true,
+        "tones_within_15kHz": true
+      },
+      "file": "panorama_A_synthetic.npz",
+      "sha256": "07be76578af32918ee3b98791053ca5e03341e7072b6d78102f1c8a920d8f34f"
+    },
+    "D": {
+      "bounds_hz": [
+        512000000,
+        2700000000
+      ],
+      "tiles": 274,
+      "output_bins": 218800,
+      "max_tone_error_hz": 5000.0,
+      "checks": {
+        "no_coverage_gaps": true,
+        "tones_within_15kHz": true
+      },
+      "file": "panorama_D_synthetic.npz",
+      "sha256": "6a988035ed4bb18a07587e28b3fbdd282ccc6c19cd7d3040576653ef263eb3ed"
+    }
+  },
+  "synthetic_stream": {
+    "filename": "synthetic_hour.jsonl",
+    "count": 3601,
+    "sha256": "d4caec2ee97716ef541aa004129e7f1f15607186f3c52d8b7606efc91a800291"
+  },
+  "synthetic_stability": {
+    "status": "PASS",
+    "checks": {
+      "full_hour": true,
+      "completed_normally": true,
+      "telemetry_coverage": true,
+      "valid_telemetry": true,
+      "zero_processing_faults": true,
+      "memory_growth_under_10MB": true,
+      "temperature_below_85C": true,
+      "live_inference_present": true
+    },
+    "elapsed_s": 3600,
+    "telemetry_samples": 3601,
+    "peak_minus_baseline_rss_bytes": 360000,
+    "memory_limit_bytes": 10000000,
+    "max_temperature_c": 61.0,
+    "min_display_fps": 40.0,
+    "max_telemetry_gap_s": 1,
+    "fault_samples": 0,
+    "inference_count": 1000,
+    "noise_event_count": 0,
+    "scope": "Timed monitor process; startup quality check precedes baseline; not a PL bandwidth test"
+  },
+  "short_run_rejected": true,
+  "sources_sha256": {
+    "src/ps/sentinel/panorama.py": "a6e59e5e28e3786f894dfdc412c2b3e548382f74cdb736f6493867ead93c9142",
+    "src/ps/sentinel/stability.py": "adfdf77835352795961aeda37790ac44bcc30d697663a08b693746abb9c99087",
+    "src/ps/tests/test_f4_offline.py": "aaad2193ca9d601417abd4416b0461ed8d5e50e3635c8f4e0a6d2f70d4c5bee2",
+    "tools/f4_offline_check.py": "6f72530f273c4a5c8a8d1d164629b11b5a65d2a8de4337fd03807d61e1a888bf"
+  }
+}

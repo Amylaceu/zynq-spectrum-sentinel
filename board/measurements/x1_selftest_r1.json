@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "RF_TX_requested": false,
+  "rf_initialized": false,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "bit_sha256": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+  "tests": [
+    {
+      "name": "single_tone",
+      "peak_bin": 1088,
+      "expected_bin": 1088,
+      "error_bins": 0
+    },
+    {
+      "name": "three_tones",
+      "peaks": [
+        724,
+        1088,
+        1324
+      ],
+      "target_count": 3,
+      "expected_peaks": [
+        724,
+        1088,
+        1324
+      ]
+    },
+    {
+      "name": "golden_replay",
+      "frame": 0,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 1,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 2,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 3,
+      "words": 2048,
+      "mismatches": 0
+    }
+  ],
+  "reference_sha256": {
+    "in_axis32.hex": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+    "exp_power_shifted.hex": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4"
+  },
+  "raw_archive_sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+  "perf": {
+    "samples": 12288,
+    "cycles": 95755962,
+    "fft_frames": 6,
+    "hits": 26,
+    "lists": 6,
+    "latency_cycles": 94483,
+    "markers_done": 1,
+    "status": 4,
+    "fifo_level": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "FAIL",
+  "attempt": 1,
+  "note": "Elaboration failed because XPM CDC library requires glbl; no simulation ran.",
+  "recorded_at_pc": "2026-11-03T04:10:19.487827+00:00",
+  "scope": "Selected-channel FM/FIFO/I2S simulation; not full PFB/route/board/5min acceptance",
+  "sources_sha256": {
+    "build/work/xsim_tb_audio_sink_y3/xelab_console.log": "451107b034fd3b642fda0b20975b3d77c1bc4c4d3b8212ec3213c75365cee51f",
+    "build/work/xsim_tb_audio_sink_y3/xvlog_console.log": "5660f36ce6b1d323919202895187f2dea9825f4148be285f16e5b7d138ec8a87",
+    "build/work/y3_fm_vectors_r3/vectors.json": "4aef66187134e23ef97104c59c3d7d2a6f1cf9773d013afb92948e9efa660ba5",
+    "build/work/y3_fm_vectors_r3/vectors.json.sha256": "a148630e06b25bc16ac3440a0db6aa2ab648919999106ccc975ea8704138f256",
+    "build/work/y3_fm_vectors_r3/y3_atan.hex": "fe0751d249dbcea7ced7104ee09000d32172d0afd85dc7bcde359bd2ac88454f",
+    "build/work/y3_fm_vectors_r3/y3_audio_expected.hex": "1c60e926551651ef771eb6c0b14d7e6b0ff1e377745fab7e27bb432524e849fc",
+    "build/work/y3_fm_vectors_r3/y3_audio_fir.hex": "e511fde02bb2e4ca152e1235ee33f5f7176133ac72bf50d26aa081cb549134c8",
+    "build/work/y3_fm_vectors_r3/y3_fm_input.hex": "699f53eb49c1b8bac18dd9f8800e92cc5c9a6f8f23bfd74852cc50b8757ab2b9",
+    "build/work/y3_fm_vectors_r3/y3_phase_expected.hex": "38928b3309e0da725456ab94dc807367b69ec703674801c19f411e90d9226671",
+    "logs/Y3_sink_r1_controller.log": "37c5ee52fd7e2a91ecb6295cdec03fe93c98c96baaee6b1ac29b0c7a4a0dbcdd",
+    "logs/Y3_sink_r1_exit.txt": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04",
+    "sim/scripts/run_xsim.ps1": "e71673cf1ba75d19019b8ef68e4856aac0b936fed14cf01fc6c08068bb1a2489",
+    "sim/tb/tb_audio_sink_y3.sv": "25c3f60011c8b73419e497671cbbc3cc3f35c42df8b528197889d0e5468b5586",
+    "src/rtl/audio_y3/audio_sink_y3.v": "c55c7cc301b572c347294597026934316df2553e9336c1c0617ae4550b24cb33",
+    "src/rtl/audio_y3/fm_audio_filter_y3.v": "284eac828558f5c28e5979c57402123cd2c76306b693a754c21028c5c97582ff",
+    "src/rtl/audio_y3/fm_phase_y3.v": "c2d50d67d2914af752a545774842ddaafd669c53b32b3e1bd13c6d5bff6ad81b",
+    "src/rtl/audio_y3/i2s_tx_y3.v": "cb383b8a0574086b37c36218d2fcbf92ce88c55d586d51d56cafa70698b6a189",
+    "tools/archive_y3_sink.py": "d40761d3845185d02ca45e0d0f4ec6dbd48ed54173c8e9fd509d10795adae37d",
+    "tools/test_y3_sink.ps1": "ab7f6ce4733faa9a363626614d41c644eaaf1e748e65433864f6f1b7c3b6ae86"
+  },
+  "archive": "report/results/y3_sink_r1.zip",
+  "archive_sha256": "54073bcf3fcb6194c8814e8f1f827d9f8a9f220bfbe2582f01627260d7800371"
+}

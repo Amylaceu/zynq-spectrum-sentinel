@@ -1,0 +1,484 @@
+{
+  "stations": [
+    {
+      "station": {
+        "frequency_hz": 100900000,
+        "lo_hz": 101050000,
+        "confirmed_stereo": true
+      },
+      "trials": [
+        {
+          "label": "FM",
+          "confidence": 0.9999996423721313,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 34.78312183445533,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.19446344900050144,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00000.npz",
+          "capture_sha256": "f93299c86ba5316e1b8d50aad65819dec3b281f3d514e7eeddb537630df4bf40"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 0.9975379705429077,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 32.160312790113515,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.1962381597408289,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00001.npz",
+          "capture_sha256": "eed8d3066d938b48808dc3e5e6782d2765bf88a93370951dac1c46eb5f5d233e"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 32.18348908887624,
+            "large_excursion_fraction": 0.0033491487580240022,
+            "iq_rms": 0.20422705115469228,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00002.npz",
+          "capture_sha256": "ffddf6c152e139e89afcca7e215a0b2b98a8e4f03e0ca752acd1a85c717eae61"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 29.04379689372292,
+            "large_excursion_fraction": 0.0019536701088473346,
+            "iq_rms": 0.20414118696948477,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00003.npz",
+          "capture_sha256": "52456d72fe5b7877cb79bea2d262b5f3707522c044d5d001e91e5eacfb1de988"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.12694775087176,
+            "large_excursion_fraction": 0.0011163829193413341,
+            "iq_rms": 0.20266001719390292,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00004.npz",
+          "capture_sha256": "99abc92e0c0b45c7fa773bc1b7fb02e48e79cf0e28caba60d86ac2c394974a65"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.82880220646246,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.20064928709829313,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00005.npz",
+          "capture_sha256": "eb19b7e9bd6ae181c39ff9d6039e49ab5383f26a8dddea5a1aa9ed72aae92e87"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 32.29797656529896,
+            "large_excursion_fraction": 0.0005581914596706671,
+            "iq_rms": 0.20362286236458157,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00006.npz",
+          "capture_sha256": "e392c4be9cda414c16386624b6f69de173948c6cb30d9e7320ea34ffcd567c6f"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9999998807907104,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.68469874827815,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.19437718452465044,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00007.npz",
+          "capture_sha256": "d9480bdb126e48073aaa40bf45e74b8d7590954bf7a549ba521e07e1f45edb27"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9999076128005981,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 32.320123895876776,
+            "large_excursion_fraction": 0.0011163829193413341,
+            "iq_rms": 0.19919463048323366,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00008.npz",
+          "capture_sha256": "c3224215b3239ecbf2ed9a90525f8525d5e05c3367510459af2f35d7c0d46292"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.06958248954607,
+            "large_excursion_fraction": 0.0013954786491766676,
+            "iq_rms": 0.2020827353297708,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00009.npz",
+          "capture_sha256": "4d210c1b9f4ecb6ecbc384980c26d07655848492a4dc6a396f4360bf51772d13"
+        }
+      ],
+      "qualified": true
+    },
+    {
+      "station": {
+        "frequency_hz": 105800000,
+        "lo_hz": 106050000,
+        "confirmed_stereo": true
+      },
+      "trials": [
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 30.892705617457228,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.21656033677472558,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00010.npz",
+          "capture_sha256": "6eb2df8eb154c589abf3f5a75c4717e6ae432615f801607660ac444c41b9a680"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.44825424848167,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.19466319448075614,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00011.npz",
+          "capture_sha256": "02a8855bbfa90b5f40ace6b636dabdd15f3a315b0df70e4110c156f86ef5488d"
+        },
+        {
+          "label": "BPSK",
+          "confidence": 1.0,
+          "quality_pass": false,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 18.19378065039055,
+            "large_excursion_fraction": 0.0022327658386826683,
+            "iq_rms": 0.21063167658774834,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00012.npz",
+          "capture_sha256": "0075300c4f1a7593d550da19447c406e030766da51b81e00cf962d5112538b02"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.78947460268333,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.19468403210995158,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00013.npz",
+          "capture_sha256": "f69565265c7b8fad826a20d8e41bde283a1e4ba16f8faebb901a61c74a71e97f"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 34.45937087277716,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.2196030561486235,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00014.npz",
+          "capture_sha256": "8c0af0dc044d8dfaa3913f34f8dc91cea63764024ca779f56d43fa474ddb1f29"
+        },
+        {
+          "label": "BPSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.136521105377778,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.22702210039882045,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00015.npz",
+          "capture_sha256": "d03051169a103c97f4505b3685813081e6af0ccd99a5c45030f2995f21675668"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.545332833133777,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.22713098931021278,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00016.npz",
+          "capture_sha256": "7c946bed4c4eff60b0f84e68e92a4046c2166a1a40445fb9e261cf637ffb6f7c"
+        },
+        {
+          "label": "2FSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.08765227247057,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.22789572569658706,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00017.npz",
+          "capture_sha256": "6d96a73372a0a0bd02cdc5d054f698a19423f693574ac83ff2b1ca178cf8874e"
+        },
+        {
+          "label": "BPSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 31.52265553582668,
+            "large_excursion_fraction": 0.0025118615685180016,
+            "iq_rms": 0.20831690536315775,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00018.npz",
+          "capture_sha256": "753398dfd62b191f587360d4ee010dbfa78aab79f35f65daf38128f645ea7e85"
+        },
+        {
+          "label": "BPSK",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.35500464781977,
+            "large_excursion_fraction": 0.0005581914596706671,
+            "iq_rms": 0.21876142338654317,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00019.npz",
+          "capture_sha256": "ce3499f4ef8d86cf2e50871aac685a3a74e1cdde19b21a51f090ed90420eddac"
+        }
+      ],
+      "qualified": false
+    },
+    {
+      "station": {
+        "frequency_hz": 97000000,
+        "lo_hz": 97050000,
+        "confirmed_stereo": true
+      },
+      "trials": [
+        {
+          "label": "GFSK",
+          "confidence": 0.9962355494499207,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 22.5098282734941,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.19707982319406597,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00020.npz",
+          "capture_sha256": "90dbcead676747a41246b943d3f72cb9e97f6a1bd5fe62a9c4134c7276cac266"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 25.737546882663622,
+            "large_excursion_fraction": 0.00027909572983533354,
+            "iq_rms": 0.20630362982613556,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00021.npz",
+          "capture_sha256": "66f859390ad3fa2b6b0d08f9aa88019438e8a23249826b4d2610e09d8c0b3ada"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 23.34613497044868,
+            "large_excursion_fraction": 0.0027909572983533353,
+            "iq_rms": 0.17735201514637192,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00022.npz",
+          "capture_sha256": "ed0b406cbc00c9f915633678729e2284362c11f2e9a0b885a1840d2322af6982"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": false,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 14.360821287131188,
+            "large_excursion_fraction": 0.005302818866871337,
+            "iq_rms": 0.17282471183823794,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00023.npz",
+          "capture_sha256": "c03990908f10081ddccff291d079797614c66c795258ed7e6afd6fbe2b9df60d"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9999995231628418,
+          "quality_pass": false,
+          "quality": {
+            "good": false,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 12.600681622155358,
+            "large_excursion_fraction": 0.003628244487859336,
+            "iq_rms": 0.194171326927997,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00024.npz",
+          "capture_sha256": "75a1eb26270135844a67926dd8fc8e302d247cdd30fe49b9c8135c9dffb0892d"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9999996423721313,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 22.37687205107715,
+            "large_excursion_fraction": 0.0008372871895060006,
+            "iq_rms": 0.16409195425752515,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00025.npz",
+          "capture_sha256": "b064e9089354f9646fdb5387092c9687011eeb77c48a91e6d42ac3bfd13e720f"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9978609681129456,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 20.566467135488487,
+            "large_excursion_fraction": 0.006140106056377337,
+            "iq_rms": 0.17110223135087646,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00026.npz",
+          "capture_sha256": "3d9969b64514c57015454c885400939f5f8857bf353b1e6478bf03a2275d8c96"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.6488653421401978,
+          "quality_pass": false,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 17.493830326123195,
+            "large_excursion_fraction": 0.006977393245883338,
+            "iq_rms": 0.17340970251895754,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00027.npz",
+          "capture_sha256": "f5daf27714ddb1c35fb6a096ed6ca4c69f84e1f5dd993ace6e0a4b0dced8344d"
+        },
+        {
+          "label": "FM",
+          "confidence": 0.9999978542327881,
+          "quality_pass": true,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 22.02024432979468,
+            "large_excursion_fraction": 0.0030700530281886685,
+            "iq_rms": 0.1711566795441198,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00028.npz",
+          "capture_sha256": "985a24587ef5f0aefb8e65191e565a415d213c18707573c35e31f76410be307c"
+        },
+        {
+          "label": "FM",
+          "confidence": 1.0,
+          "quality_pass": false,
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 18.838773795455577,
+            "large_excursion_fraction": 0.004465531677365337,
+            "iq_rms": 0.1719094066585059,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "capture_filename": "capture_00029.npz",
+          "capture_sha256": "f5c87f30a9bffb353190a7253e2f451ad7a385a0f5dc3a0c8bea54632a2ee09f"
+        }
+      ],
+      "qualified": false
+    }
+  ]
+}

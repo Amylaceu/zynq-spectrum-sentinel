@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "attempt": 1,
+  "source": "ad9361_internal_rx_bist_tone",
+  "rf_transmission_requested": false,
+  "captures": [
+    {
+      "expected_abs_tone_hz": 960000.0,
+      "native_order": [
+        "i1",
+        "q1",
+        "i2",
+        "q2"
+      ],
+      "channels": [
+        {
+          "channel": 1,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        },
+        {
+          "channel": 2,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "index": 0,
+      "bytes": 65536,
+      "elapsed_s": 0.03501061900010427,
+      "guards_ok": true,
+      "physical_address": "0x38060040"
+    },
+    {
+      "expected_abs_tone_hz": 960000.0,
+      "native_order": [
+        "i1",
+        "q1",
+        "i2",
+        "q2"
+      ],
+      "channels": [
+        {
+          "channel": 1,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        },
+        {
+          "channel": 2,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "index": 1,
+      "bytes": 65536,
+      "elapsed_s": 0.03694054800007507,
+      "guards_ok": true,
+      "physical_address": "0x38080040"
+    },
+    {
+      "expected_abs_tone_hz": 960000.0,
+      "native_order": [
+        "i1",
+        "q1",
+        "i2",
+        "q2"
+      ],
+      "channels": [
+        {
+          "channel": 1,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        },
+        {
+          "channel": 2,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "index": 2,
+      "bytes": 65536,
+      "elapsed_s": 0.03368755299993609,
+      "guards_ok": true,
+      "physical_address": "0x380a0040"
+    },
+    {
+      "expected_abs_tone_hz": 960000.0,
+      "native_order": [
+        "i1",
+        "q1",
+        "i2",
+        "q2"
+      ],
+      "channels": [
+        {
+          "channel": 1,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        },
+        {
+          "channel": 2,
+          "peak_hz": 960000.0,
+          "peak_power_fraction": 0.9999976514592444,
+          "rms": 511.99859618948176,
+          "minimum": -512,
+          "maximum": 511,
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "index": 3,
+      "bytes": 65536,
+      "elapsed_s": 0.033973300000070594,
+      "guards_ok": true,
+      "physical_address": "0x380c0040"
+    }
+  ],
+  "stage": "closed_rf_and_dma",
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "sample_rate_hz": 30720000,
+  "ensm_mode_during_capture": 1,
+  "adc_channel_controls": [
+    "0x251",
+    "0x251",
+    "0x251",
+    "0x251"
+  ],
+  "first_native_sha256": "7fde875e8b022cb57d664b8cc2903b6d7fe50a3602b50ef5ff978d7b06fd2854",
+  "tx_attenuation_mdb": [
+    89750,
+    89750
+  ],
+  "gpio_after_close": 0,
+  "buffers_quarantined": false
+}

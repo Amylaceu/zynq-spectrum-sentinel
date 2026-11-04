@@ -1,0 +1,30 @@
+{
+  "schema": "y3-integration-regression-v1",
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T06:04:20.726840+00:00",
+  "scope": "FM golden, continuous I2S sink, 1kHz tone at external I2S pins, PS protocol tests; no board claim",
+  "checks": {
+    "fm_golden": "PASS: 8193 IQ / 820 PCM exact",
+    "continuous_sink": "PASS: 800 stereo frames, +80ppm, zero underflows",
+    "tone": "PASS: 1kHz/48kHz, 96 stereo frames, zero underflows",
+    "ps_tests": "PASS: 33 tests"
+  },
+  "sources_sha256": {
+    "src/rtl/audio_y3/audio_sink_y3.v": "346f67eecd684007fefc641f0a4d6a90f25df53c5b6e1dcdd4f6fb67e6e208ea",
+    "src/rtl/audio_y3/fm_audio_filter_y3.v": "50af3974e2e7e060af05bf22d9d3280900978ac2a62af5a986a340d04d6de04d",
+    "src/rtl/audio_y3/y3_frontend.v": "ee5d7a40cd5b4c0b4672b1bf355ec63c3619955922a362b2032051f9726417df",
+    "src/rtl/audio_y3/rom/y3_tone.hex": "28cf2823fb4d77c8b49345d453f7b3c32c542415a9d03d5667b693ee05b09b10",
+    "sim/tb/tb_audio_sink_y3.sv": "e7b2a130198fa0509b6dddccb53b969f4af2a3b7d10ccb100f95ecfa8cc7226e",
+    "sim/tb/tb_audio_tone_y3.sv": "42f1fa374c6b4ad1932316c1556013273200590afe451fff496a93af92ca2a59",
+    "src/ps/sentinel/audio_y3.py": "421ec1db2abb777b8016407b6656e0d1a2120fda9c6615985e6a09b4c79b63d5",
+    "src/ps/tests/test_audio_y3.py": "59ac684fedf67509f65eee65aac9c8e223be2916a5ffc9f3a6f5f3b4eee5c4cd"
+  },
+  "logs_sha256": {
+    "logs/Y3_fm_regression_r3.log": "0885a883df432c1211c74d83ab2088b0e48e4122fd6f5b6131249af1ad777b2c",
+    "logs/Y3_sink_regression_r3d.log": "228540753beb8ac958974612544120d919021daec3864531522db1a6ce48704d",
+    "logs/Y3_tone_sim_r1d.log": "d341fceb7a0fc2c671f9dad1e0a45ad026cc29defebf0dab68441900968e20a4",
+    "logs/Y3_audio_pc_r4.log": "150b17c5a784d524ec287efeff8bd58a22956aa28b2b84bda94d6b302473b142"
+  },
+  "archive": "report/results/y3_integration_regression_r1.zip",
+  "archive_sha256": "4d4103c284ac067e5ff683fc588fad125fb89eb1f68fcc0c1341b4b994436a00"
+}

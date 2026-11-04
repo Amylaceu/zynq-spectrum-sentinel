@@ -1,0 +1,40 @@
+{
+  "id": "F0",
+  "run_id": "ab4274826c944dccbf5f9318f684b390",
+  "status": "DONE",
+  "tx_requested": false,
+  "bist": {
+    "channel_status": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "error_channels": 0,
+    "duration_ms": 500,
+    "nominal_samples_per_channel": 1920000,
+    "actual_compared_word_counter_available": false,
+    "scope": "RX-injected PN9 status flags; nominal sample count, not measured bit-error count"
+  },
+  "elapsed_s": 0.7853711660000045,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": true
+}

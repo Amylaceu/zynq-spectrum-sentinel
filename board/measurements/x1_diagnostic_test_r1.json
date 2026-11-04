@@ -1,0 +1,503 @@
+{
+  "status": "completed",
+  "source": "test",
+  "RF_TX_requested": false,
+  "scope": "Finite gated input; not a continuous RF acceptance run",
+  "antenna": null,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "configuration": {
+    "average_shift": 3,
+    "mode": "CA",
+    "n": 16,
+    "guard": 2,
+    "alpha": 1974,
+    "dc_mask": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "mask_table": []
+  },
+  "lo_hz": 96400000,
+  "rate_hz": 3840000,
+  "rf_bandwidth_hz": 1500000,
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "requested_frames": 8,
+  "warmup_frames": 64,
+  "samples": [
+    {
+      "temperature_c": 61.643426513484,
+      "safety_before": {
+        "temperature_c": 61.643426513484
+      },
+      "test_tone_bin": 64,
+      "index": 0,
+      "elapsed_s": 0.051369772998441476,
+      "association": {
+        "cfar_before": 64,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 65,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 65,
+      "status_latch": 0,
+      "hit_count": 3,
+      "raw_count": 1,
+      "filtered_count": 0,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 8636249,
+          "sum_power": 16634881
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.766467284968,
+      "safety_before": {
+        "temperature_c": 61.766467284968
+      },
+      "test_tone_bin": -300,
+      "index": 1,
+      "elapsed_s": 0.12854638099997828,
+      "association": {
+        "cfar_before": 65,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 66,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 66,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 7556717,
+          "sum_power": 14555519
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 1078980,
+          "sum_power": 2078980
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.643426513484,
+      "safety_before": {
+        "temperature_c": 61.643426513484
+      },
+      "test_tone_bin": 300,
+      "index": 2,
+      "elapsed_s": 0.20738871899993683,
+      "association": {
+        "cfar_before": 66,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 67,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 67,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 6612127,
+          "sum_power": 12736077
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 1078980,
+          "sum_power": 2078980
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 944107,
+          "sum_power": 1819107
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.643426513484,
+      "safety_before": {
+        "temperature_c": 61.766467284968
+      },
+      "test_tone_bin": -128,
+      "index": 3,
+      "elapsed_s": 0.28839218499888375,
+      "association": {
+        "cfar_before": 67,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 68,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 68,
+      "status_latch": 0,
+      "hit_count": 12,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 5785611,
+          "sum_power": 11144067
+        },
+        {
+          "start": 895,
+          "stop": 897,
+          "peak_bin": 896,
+          "flags": 0,
+          "peak_power": 1079715,
+          "sum_power": 2079715
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 944107,
+          "sum_power": 1819107
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 826093,
+          "sum_power": 1591717
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.643426513484,
+      "safety_before": {
+        "temperature_c": 61.520385742
+      },
+      "test_tone_bin": 64,
+      "index": 4,
+      "elapsed_s": 0.3751175809993583,
+      "association": {
+        "cfar_before": 68,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 69,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 69,
+      "status_latch": 0,
+      "hit_count": 12,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 6142124,
+          "sum_power": 11830772
+        },
+        {
+          "start": 895,
+          "stop": 897,
+          "peak_bin": 896,
+          "flags": 0,
+          "peak_power": 944750,
+          "sum_power": 1819750
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 826093,
+          "sum_power": 1591717
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 722831,
+          "sum_power": 1392751
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.520385742,
+      "safety_before": {
+        "temperature_c": 61.520385742
+      },
+      "test_tone_bin": -300,
+      "index": 5,
+      "elapsed_s": 0.4593919699982507,
+      "association": {
+        "cfar_before": 69,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 70,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 70,
+      "status_latch": 0,
+      "hit_count": 12,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 5374358,
+          "sum_power": 10351924
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 1711457,
+          "sum_power": 3297637
+        },
+        {
+          "start": 895,
+          "stop": 897,
+          "peak_bin": 896,
+          "flags": 0,
+          "peak_power": 826656,
+          "sum_power": 1592280
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 722831,
+          "sum_power": 1392751
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.520385742,
+      "safety_before": {
+        "temperature_c": 61.766467284968
+      },
+      "test_tone_bin": 300,
+      "index": 6,
+      "elapsed_s": 0.5380171580000024,
+      "association": {
+        "cfar_before": 70,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 71,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 71,
+      "status_latch": 0,
+      "hit_count": 12,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 4702563,
+          "sum_power": 9057933
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 1711457,
+          "sum_power": 3297637
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 1497524,
+          "sum_power": 2885430
+        },
+        {
+          "start": 895,
+          "stop": 897,
+          "peak_bin": 896,
+          "flags": 0,
+          "peak_power": 723324,
+          "sum_power": 1393244
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.397344970516,
+      "safety_before": {
+        "temperature_c": 61.520385742
+      },
+      "test_tone_bin": -128,
+      "index": 7,
+      "elapsed_s": 0.6186608689986315,
+      "association": {
+        "cfar_before": 71,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 72,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 72,
+      "status_latch": 0,
+      "hit_count": 12,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1087,
+          "stop": 1089,
+          "peak_bin": 1088,
+          "flags": 0,
+          "peak_power": 4114742,
+          "sum_power": 7925690
+        },
+        {
+          "start": 895,
+          "stop": 897,
+          "peak_bin": 896,
+          "flags": 0,
+          "peak_power": 1712623,
+          "sum_power": 3298803
+        },
+        {
+          "start": 1323,
+          "stop": 1325,
+          "peak_bin": 1324,
+          "flags": 0,
+          "peak_power": 1497524,
+          "sum_power": 2885430
+        },
+        {
+          "start": 723,
+          "stop": 725,
+          "peak_bin": 724,
+          "flags": 0,
+          "peak_power": 1310333,
+          "sum_power": 2524749
+        }
+      ]
+    }
+  ],
+  "threshold_hit_origin": "Not captured in hardware; PC golden reconstruction only",
+  "warmup_association": {
+    "cfar_before": 0,
+    "source_frames": 64,
+    "source_samples": 131072,
+    "spec_sequence": 64,
+    "perf_delta": [
+      131072,
+      64,
+      64
+    ],
+    "capture_token": null,
+    "perf_status": 0
+  },
+  "elapsed_s": 0.649020199000006,
+  "raw_archive_sha256": "285c9d1b89cbc978a4876e539f4f0457d60369fd9f8bed3d3a13fe59ceed2057"
+}

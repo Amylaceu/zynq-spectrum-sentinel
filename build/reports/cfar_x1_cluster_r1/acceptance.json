@@ -1,0 +1,35 @@
+{
+  "status": "FAIL",
+  "recorded_at_pc": "2026-11-03T01:13:02.738338+08:00",
+  "scope": "Standalone cluster OOC with zero I/O delays; no board or whole-system timing acceptance",
+  "clock_mhz": 150,
+  "wns_ns": 0.067,
+  "whs_ns": -0.419,
+  "internal_hold_ns": 0.147,
+  "wpws_ns": 2.833,
+  "setup_failing_endpoints": 0,
+  "hold_failing_endpoints": 269,
+  "pulse_failing_endpoints": 0,
+  "resources": {
+    "Slice LUTs": 3846.0,
+    "Slice Registers": 6747.0,
+    "Block RAM Tile": 0.0,
+    "DSPs": 0.0
+  },
+  "limitations": [
+    "OOC reports warn that clock location and boundary port routes are not fully specified.",
+    "Boundary hold violations must not be hidden by passing internal-register hold alone.",
+    "Integrated design must be rebuilt with actual clocks and inter-module paths."
+  ],
+  "report_sha256": {
+    "clock.xdc": "ee6946eae4266d75b60c57a00301e9bb47646b82f08914a0ca3ace3caac8f1f9",
+    "critical_paths.rpt": "7a4c96cc5f1903a9c584d0266b8fe3a12d29757e1575ca1f0cd05a337ba73724",
+    "executed_script.tcl": "27c20c4ad0c2b11511e5dee125757a8e318657dcee16da8c67083e9833ae5a47",
+    "internal_hold.rpt": "7e4ffac5dd25013515e8fc040d3c867385ec65f41f53aefbd93a86db5e46ae1d",
+    "result.json": "049dbeef0135394621e4b449312758395280f9cde3bf8f27b2236dca5542911c",
+    "source.v": "efc69b2dd31e3b366e8f5f557e9ba55f84d2fbd64d7bd97a85903e316e90b83c",
+    "timing.rpt": "d0d08bc4e3e46493c7e36a523934aece2683448f24ced10afe1be27c251159a3",
+    "utilization.rpt": "4a47bee7185545f4069b882b0147bb2293a42c06e0a224e4c971ebea5a28d14f"
+  },
+  "original_script_marker_overridden": "Original PASS only checked setup/internal hold; this full-report verdict supersedes it."
+}

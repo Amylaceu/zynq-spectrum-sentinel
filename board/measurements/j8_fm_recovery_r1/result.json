@@ -1,0 +1,2837 @@
+{
+  "status": "DIGITAL_CHECK_COMPLETED_LISTENING_PENDING",
+  "frequency_hz": 95800000,
+  "recording": false,
+  "listening": "PENDING_USER",
+  "started_mono": 171396.218,
+  "startup": {
+    "id": "F8",
+    "run_id": "edf2a23745e149c98634d6e08194ecc3",
+    "status": "DONE",
+    "tx_requested": false,
+    "feature": {
+      "id": "F8",
+      "action": "start",
+      "status": "READY",
+      "tx_requested": false,
+      "metrics": {
+        "\u64ad\u653e\u6837\u672c": {
+          "before": 0,
+          "after": 61314,
+          "unit": "\u6837\u672c"
+        },
+        "\u4e0b\u6ea2": {
+          "before": 0,
+          "after": 0,
+          "unit": "\u6b21"
+        },
+        "\u8f93\u51fa": {
+          "before": "\u9759\u97f3",
+          "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+          "unit": ""
+        }
+      },
+      "restored_before": {
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "source_ctrl": 0,
+        "spec_ctrl": 1,
+        "average_shift": 3,
+        "noise_amplitude": 0,
+        "cfar_ctrl": 1,
+        "alpha": 1974,
+        "audio_control": 0,
+        "codec_muted": true,
+        "lo_hz": 96049998,
+        "rate_hz": 3840000,
+        "lcd_enabled": false,
+        "full_cfar_defaults_checked": true,
+        "source_defaults_checked": true
+      },
+      "restored": false,
+      "readback": {
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "source_ctrl": 1,
+        "spec_ctrl": 1,
+        "average_shift": 3,
+        "noise_amplitude": 0,
+        "cfar_ctrl": 1,
+        "alpha": 1974,
+        "audio_control": 243,
+        "codec_muted": false,
+        "lo_hz": 96049998,
+        "rate_hz": 3840000,
+        "lcd_enabled": true
+      },
+      "targets": [
+        {
+          "start": 887,
+          "stop": 890,
+          "peak_bin": 888
+        },
+        {
+          "start": 1375,
+          "stop": 1379,
+          "peak_bin": 1377
+        },
+        {
+          "start": 1526,
+          "stop": 1533,
+          "peak_bin": 1528
+        },
+        {
+          "start": 1794,
+          "stop": 1796,
+          "peak_bin": 1795
+        }
+      ],
+      "elapsed_s": 2.4003789359999246,
+      "within_target": true
+    },
+    "selection": {
+      "candidates": [
+        {
+          "station": {
+            "frequency_hz": 95800000,
+            "lo_hz": 96050000,
+            "confirmed_stereo": true
+          },
+          "measurements": [
+            {
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 38.080060868797524,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.24357439286749935,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "noise_event": null,
+              "pilot_pass": true,
+              "quality_pass": true
+            },
+            {
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 36.33329335384252,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.24319988774875065,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "noise_event": null,
+              "pilot_pass": true,
+              "quality_pass": true
+            },
+            {
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 36.14878633147824,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.24680132654655287,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "noise_event": null,
+              "pilot_pass": true,
+              "quality_pass": true
+            }
+          ],
+          "trusted": true,
+          "median_iq_power": 0.05932848486077092
+        }
+      ],
+      "selected": {
+        "frequency_hz": 95800000,
+        "lo_hz": 96050000,
+        "confirmed_stereo": true
+      },
+      "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+      "skipped_other_lo": 0
+    },
+    "elapsed_s": 2.4012648230000195
+  },
+  "gui_errors": [],
+  "telemetry": [
+    {
+      "scene": "F8",
+      "display_fps": 39.602420493595254,
+      "display_frames": 8676,
+      "temperature_c": 66.68809814432801,
+      "rx_rssi_dbm": -88.5,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 61314,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 887,
+            "stop": 890,
+            "peak_bin": 888
+          },
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1526,
+            "stop": 1533,
+            "peak_bin": 1528
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.4003789359999246,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65673,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4104,
+        "frames": 9994534,
+        "underflows": 0,
+        "pcm_samples": 149675,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 33.721929923640886,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.20080272788384798,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.29401475868,
+        "pcm_samples": 48006.934176124916
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 65.99115103539353,
+      "rss_bytes": 63717376,
+      "ps_cpu_pct": 41.5929203539823,
+      "ps_memory_bytes": 212004864,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 19,
+        "cpu_s": 14.611441328,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3472,
+      "t_mono": 3226.167510603,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.47828087932328,
+      "display_frames": 8720,
+      "temperature_c": 66.934179687296,
+      "rx_rssi_dbm": -89.0,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 61314,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 887,
+            "stop": 890,
+            "peak_bin": 888
+          },
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1526,
+            "stop": 1533,
+            "peak_bin": 1528
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.4003789359999246,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65705,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4106,
+        "frames": 10046715,
+        "underflows": 0,
+        "pcm_samples": 201858,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.09973637833999,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.20130920213966474,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.48124009018,
+        "pcm_samples": 48006.32116194833
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 70.8466275688224,
+      "rss_bytes": 63721472,
+      "ps_cpu_pct": 43.80952380952381,
+      "ps_memory_bytes": 212082688,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 19,
+        "cpu_s": 14.658039988,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3489,
+      "t_mono": 3227.261873771,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.47828087932328,
+      "display_frames": 8720,
+      "temperature_c": 66.934179687296,
+      "rx_rssi_dbm": -89.0,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 61314,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 887,
+            "stop": 890,
+            "peak_bin": 888
+          },
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1526,
+            "stop": 1533,
+            "peak_bin": 1528
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.4003789359999246,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65705,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4106,
+        "frames": 10046715,
+        "underflows": 0,
+        "pcm_samples": 201858,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.09973637833999,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.20130920213966474,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.48124009018,
+        "pcm_samples": 48006.32116194833
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 70.89712309888117,
+      "rss_bytes": 63721472,
+      "ps_cpu_pct": 45.27363184079602,
+      "ps_memory_bytes": 211914752,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 19,
+        "cpu_s": 14.696288582,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3503,
+      "t_mono": 3228.253607795,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.516081461497194,
+      "display_frames": 8773,
+      "temperature_c": 66.811138915812,
+      "rx_rssi_dbm": -88.25,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 61314,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 887,
+            "stop": 890,
+            "peak_bin": 888
+          },
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1526,
+            "stop": 1533,
+            "peak_bin": 1528
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.4003789359999246,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65753,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4109,
+        "frames": 10109511,
+        "underflows": 0,
+        "pcm_samples": 264657,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 37.18600772693141,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.20672192454027158,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.67644256939,
+        "pcm_samples": 48006.96980567099
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 62.21315365157908,
+      "rss_bytes": 63995904,
+      "ps_cpu_pct": 44.44444444444444,
+      "ps_memory_bytes": 212176896,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 20,
+        "cpu_s": 14.745375324,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3517,
+      "t_mono": 3229.656270428,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 23.989487625123516,
+      "display_frames": 8982,
+      "temperature_c": 67.303302001748,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65609,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4100,
+        "frames": 10245390,
+        "underflows": 0,
+        "pcm_samples": 86342,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 33.29810801756347,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.21298806221110195,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": null,
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 56.17249232662844,
+      "rss_bytes": 64577536,
+      "ps_cpu_pct": 40.82644628099174,
+      "ps_memory_bytes": 212807680,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.075949045,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3650,
+      "t_mono": 3270.934314714,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 23.989487625123516,
+      "display_frames": 8982,
+      "temperature_c": 67.303302001748,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65609,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4100,
+        "frames": 10245390,
+        "underflows": 0,
+        "pcm_samples": 86342,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 33.29810801756347,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.21298806221110195,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": null,
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 68.87432668285356,
+      "rss_bytes": 64385024,
+      "ps_cpu_pct": 45.19230769230769,
+      "ps_memory_bytes": 212389888,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.116305015,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3665,
+      "t_mono": 3271.946568067,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 39.91477153398239,
+      "display_frames": 9029,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -89.5,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65641,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4102,
+        "frames": 10301916,
+        "underflows": 0,
+        "pcm_samples": 142870,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 32.91070356026629,
+        "large_excursion_fraction": 0.00027909572983533354,
+        "iq_rms": 0.19230902584109094,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.731398508266,
+        "pcm_samples": 48006.429899424606
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 64.48694009893111,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 62.814070351758794,
+      "ps_memory_bytes": 209510400,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.15446452,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3676,
+      "t_mono": 3272.962394057,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.66808911798113,
+      "display_frames": 9086,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65705,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4106,
+        "frames": 10369199,
+        "underflows": 0,
+        "pcm_samples": 210156,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 30.94138086081637,
+        "large_excursion_fraction": 0.0005581914596706671,
+        "iq_rms": 0.20375219419778648,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.75508991447,
+        "pcm_samples": 48006.89551565752
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 65.21712540924916,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 63.95939086294416,
+      "ps_memory_bytes": 212545536,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.192862168,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3688,
+      "t_mono": 3273.975795101,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 39.664282692776105,
+      "display_frames": 9133,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -90.5,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65753,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4109,
+        "frames": 10426082,
+        "underflows": 0,
+        "pcm_samples": 267042,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 28.05608222795476,
+        "large_excursion_fraction": 0.0005581914596706671,
+        "iq_rms": 0.18224652010267198,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.75303006773,
+        "pcm_samples": 48007.2847927928
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 69.43430747018242,
+      "rss_bytes": 64405504,
+      "ps_cpu_pct": 45.19230769230769,
+      "ps_memory_bytes": 212717568,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.234919673,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3703,
+      "t_mono": 3274.997320622,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.12913170602675,
+      "display_frames": 9184,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -88.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65801,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4112,
+        "frames": 10487090,
+        "underflows": 0,
+        "pcm_samples": 328053,
+        "output_unmuted": false,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 18.34488906663847,
+        "large_excursion_fraction": 0.0011163829193413341,
+        "iq_rms": 0.18303849603375127,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48003.8836690447,
+        "pcm_samples": 48006.24420620388
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 68.03040235482466,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 43.29004329004329,
+      "ps_memory_bytes": 212508672,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.278032868,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3720,
+      "t_mono": 3276.169208887,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 39.89587509951113,
+      "display_frames": 9229,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -90.0,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65833,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4114,
+        "frames": 10541236,
+        "underflows": 0,
+        "pcm_samples": 382202,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.90060881633706,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.18661953843430762,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.49006973622,
+        "pcm_samples": 48007.14979474285
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 69.76994580851313,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 43.71859296482412,
+      "ps_memory_bytes": 212623360,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.317190038,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3734,
+      "t_mono": 3277.1821231,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.396088495236,
+      "display_frames": 9284,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -88.25,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65897,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4118,
+        "frames": 10606595,
+        "underflows": 0,
+        "pcm_samples": 447564,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 30.62034029208279,
+        "large_excursion_fraction": 0.0008372871895060006,
+        "iq_rms": 0.1866704195453976,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48004.508144729625,
+        "pcm_samples": 48006.71156773846
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 66.87916958920121,
+      "rss_bytes": 64417792,
+      "ps_cpu_pct": 44.0,
+      "ps_memory_bytes": 212418560,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.366422217,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3749,
+      "t_mono": 3278.461870771,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 39.85139156185402,
+      "display_frames": 9330,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65929,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4120,
+        "frames": 10662007,
+        "underflows": 0,
+        "pcm_samples": 502979,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.800887360426835,
+        "large_excursion_fraction": 0.0005581914596706671,
+        "iq_rms": 0.19038844283824558,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48005.33280924902,
+        "pcm_samples": 48007.93181304653
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 70.10869093170795,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 42.410714285714285,
+      "ps_memory_bytes": 212258816,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.411360266,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3765,
+      "t_mono": 3279.613921507,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 39.85139156185402,
+      "display_frames": 9330,
+      "temperature_c": 67.18026123026401,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65929,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4120,
+        "frames": 10662007,
+        "underflows": 0,
+        "pcm_samples": 502979,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.800887360426835,
+        "large_excursion_fraction": 0.0005581914596706671,
+        "iq_rms": 0.19038844283824558,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48005.33280924902,
+        "pcm_samples": 48007.93181304653
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 68.6542010128821,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 43.21608040201005,
+      "ps_memory_bytes": 212365312,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.44895006,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3780,
+      "t_mono": 3280.627447423,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.18290201627946,
+      "display_frames": 9383,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -88.25,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 65977,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4123,
+        "frames": 10725322,
+        "underflows": 0,
+        "pcm_samples": 566297,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 30.988120897552662,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.19868946402327903,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48003.40455020253,
+        "pcm_samples": 48005.67905409025
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 69.94855094481322,
+      "rss_bytes": 64405504,
+      "ps_cpu_pct": 45.41284403669725,
+      "ps_memory_bytes": 212213760,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.491713932,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3797,
+      "t_mono": 3281.71378171,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.37455323070219,
+      "display_frames": 9439,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -89.75,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 66025,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4126,
+        "frames": 10791906,
+        "underflows": 0,
+        "pcm_samples": 632884,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 29.263109285686642,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.2202836710579614,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48005.3437913049,
+        "pcm_samples": 48007.506713799405
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 60.59118720683339,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 38.679245283018865,
+      "ps_memory_bytes": 212758528,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.530590868,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3809,
+      "t_mono": 3282.78611987,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.1187036293466,
+      "display_frames": 9490,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -88.25,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 66089,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4130,
+        "frames": 10852929,
+        "underflows": 0,
+        "pcm_samples": 693910,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 27.552172448764853,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.19566590451232824,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48003.208854384655,
+        "pcm_samples": 48005.56877812756
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 69.65050109877404,
+      "rss_bytes": 64245760,
+      "ps_cpu_pct": 43.873517786561266,
+      "ps_memory_bytes": 212463616,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.582311823,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3826,
+      "t_mono": 3284.088425,
+      "len": 0
+    },
+    {
+      "scene": "F8",
+      "display_fps": 40.102162900052114,
+      "display_frames": 9538,
+      "temperature_c": 67.05722045878001,
+      "rx_rssi_dbm": -90.25,
+      "tx_on": false,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "feature": {
+        "id": "F8",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u64ad\u653e\u6837\u672c": {
+            "before": 0,
+            "after": 59515,
+            "unit": "\u6837\u672c"
+          },
+          "\u4e0b\u6ea2": {
+            "before": 0,
+            "after": 0,
+            "unit": "\u6b21"
+          },
+          "\u8f93\u51fa": {
+            "before": "\u9759\u97f3",
+            "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 243,
+          "codec_muted": false,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 888,
+            "stop": 894,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1527
+          },
+          {
+            "start": 1794,
+            "stop": 1796,
+            "peak_bin": 1795
+          }
+        ],
+        "elapsed_s": 2.2419875559999127,
+        "within_target": true
+      },
+      "audio": {
+        "raw_status": 66137,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4133,
+        "frames": 10910389,
+        "underflows": 0,
+        "pcm_samples": 751373,
+        "output_unmuted": true,
+        "station_hz": 95800000
+      },
+      "pilot": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 21.353220184102582,
+        "large_excursion_fraction": 0.003907340217694669,
+        "iq_rms": 0.14308036865520793,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      },
+      "audio_rates_hz": {
+        "frames": 48005.630838270714,
+        "pcm_samples": 48008.13722345197
+      },
+      "lo_hz": 96050000,
+      "mode": "resident",
+      "cpu_single_core_pct": 69.3842108184957,
+      "rss_bytes": 64151552,
+      "ps_cpu_pct": 44.0,
+      "ps_memory_bytes": 212574208,
+      "ps_memory_total_bytes": 1050664960,
+      "ps_cpu_scope": "all_cores_busy_percent_proc_stat",
+      "ps_memory_scope": "MemTotal_minus_MemAvailable",
+      "hostlink": {
+        "producer_drops": 0,
+        "client_drops": 0,
+        "connections": 3,
+        "rejected": 0,
+        "accepted_commands": 21,
+        "cpu_s": 16.625826782,
+        "max_queue_bytes": 8286,
+        "connected_clients": 1,
+        "tcp_port": 9000,
+        "http_port": 8080
+      },
+      "type": "telemetry",
+      "seq": 3842,
+      "t_mono": 3285.230979536,
+      "len": 0
+    }
+  ],
+  "screenshot": {
+    "file": "F8.png",
+    "sha256": "d8a5695b14dea03dc3b380a99c3c7da7daed3a65076a67bd94677c437189a6b9"
+  },
+  "observed_muted_samples": 1,
+  "max_underflows": 0,
+  "stop": {
+    "id": "F8",
+    "action": "stop",
+    "status": "STOPPED",
+    "tx_requested": false,
+    "metrics": {},
+    "restored_before": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false,
+      "full_cfar_defaults_checked": true,
+      "source_defaults_checked": true
+    },
+    "restored": true,
+    "readback": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false
+    },
+    "elapsed_s": 0.03352918700011287,
+    "within_target": true,
+    "host_round_trip_s": 0.21799999999348074
+  }
+}

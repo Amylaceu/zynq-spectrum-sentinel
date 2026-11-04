@@ -1,0 +1,9 @@
+{
+  "spec_window_bh4.hex": "15e8459241c6f9eaec04241a0bbeec0ae66c17208051a67e1be2499242c7a7bb",
+  "spec_window_bh4.coe": "ad5f019c2a193f60d1e8e4046658cb4c584f4969252a6f9172bfb87162399148",
+  "spec_window_hann.hex": "e9785eca3512c69d3b0b49369d343073060ace88f77ed0364c5ec53cff4a9f76",
+  "spec_window_hann.coe": "a31156296ab2e1efa0936ba8bb5b90b7e6146b1eaeb72506317c162b6b19e868",
+  "spec_window_rect.hex": "45eb05612a890276a816b9e06f5f726860f76c3191134674ee3a908e932d47e1",
+  "spec_window_rect.coe": "f1e0276c401ed203c92132fc11c92bb608417e62e217bea25ed13b6d5de9b00c",
+  "spec_log_mantissa.hex": "b4afebbfc459b4e052a3fc10e07d88c1cf55f166dd50a3935bdacf18b3b99697"
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-02",
+  "attempt": 4,
+  "user_authorized_extra_attempt": true,
+  "authorization": "允许补做一轮，我会保持上电不复位",
+  "boot_id_before": "2c365a9d-2146-4ae0-a684-3b17d18029e1",
+  "boot_id_after": "2c365a9d-2146-4ae0-a684-3b17d18029e1",
+  "reboot_observed": false,
+  "board_archive_smoke_check": "passed",
+  "pc_tests_passed": 34,
+  "independent_capture_verification": "passed",
+  "n1_status": "DONE",
+  "g2_status": "DONE",
+  "additional_attempt_after_round4": false,
+  "provenance_log": "logs/N1_round4_archive_probe.log",
+  "board_log": "logs/N1_tx_loopback_round4.log"
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "source": "user_visual_confirmation_after_reload",
+  "overlay": "bringup_z20_lcd",
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "software_record": "board/measurements/lcd_restore.json",
+  "complete_colorbars": true,
+  "top_strip_changing": true,
+  "visual_restore_passed": true,
+  "cause_of_blank_screen": "not_established",
+  "live_rf_spectrum_on_lcd": false,
+  "touch_tested": false
+}

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 构建与工具产物
+build/work/
+build/runs/
+build/reports/**/*.rpt
+*.dcp
+*.jou
+*.str
+*.log
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+
+# 本机日志与交付物
+logs/
+dist/
+
+# 版权受限 / 体积过大的本地资料
+vendor/atk/
+data/synthetic/
+data/captured/**/*.sigmf-data
+
+# 新增原始测量数据不提交（仓库内已有的证据文件保持提交）
+board/measurements/*/raw/
+board/measurements/**/*.i16
+
+# 模型权重（如不希望公开可取消注释）
+# src/ps/models/weights/*.pt

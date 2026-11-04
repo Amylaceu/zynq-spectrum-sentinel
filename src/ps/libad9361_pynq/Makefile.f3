@@ -1,0 +1,7 @@
+# Independent F3 library; never overwrites the accepted receive-only library.
+.DEFAULT_GOAL := libad9361_f3.so
+include Makefile
+F3_SRCS := $(filter-out app/ad9361_api_c.c,$(SRCS)) app/f3_api_c.c
+
+libad9361_f3.so: $(F3_SRCS) app/ad9361_api_c.c platform/z20_platform.h app/app_config.h app/f3_exports.map
+	$(CC) $(CFLAGS) -pthread -shared -Wl,-z,defs -Wl,--version-script=app/f3_exports.map -o $@ $(F3_SRCS) -lm

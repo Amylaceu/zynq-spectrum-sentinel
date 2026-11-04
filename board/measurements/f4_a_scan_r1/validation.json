@@ -1,0 +1,2746 @@
+{
+  "status": "PASS_SNAPSHOT_SCAN",
+  "group": "A",
+  "host_utc": "2026-11-03T22:36:44.776391+00:00",
+  "pl_rebuilt": false,
+  "antenna_confirmed": true,
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "files_sha256": {
+    "panorama.npz": "79cc62080fa61a3d2972718333a905fd29510c613fc5a527385577201f49e98c",
+    "result.json": "dff2cbac384bcb8fdb138a8fe8e86be43944b691c2c004cb6b23f43fae4601ab",
+    "tile_000.npz": "b71f84f90e5ee8b039b67f675bd9280155a691c0d1baa82a9886eb501a76be51",
+    "tile_001.npz": "1e84e8631897b9839f57fde9879ebf055bcb7a1fe5ad5c9a3c9bc1cddc72e94f",
+    "tile_002.npz": "ca6cd465b9cb738cdc92cbf7fd48c171a582b59b542a532f47e836ec1ebdb6be",
+    "tile_003.npz": "45e10195d07ddbbb83bf5436ef44e43126365f0271ccb530bafdbce55cdeb66c",
+    "tile_004.npz": "304db5512a347c2cf5ecfb058bc4851aa3652aa171041190820075e92ae26321",
+    "tile_005.npz": "fc57e32f122ea40fe6431b93f7901d169c3e42fc9a8f082d74ae410933548403",
+    "tile_006.npz": "9de7146b750891ef18ada2306edc903473f4e1d3df1ce37e2a8b553373ab830b",
+    "tile_007.npz": "90c6ed06ab5d42089523093e9d140fc5fa4631e4cd9be714a233fda8ab1fd62b",
+    "tile_008.npz": "e0a44dac623fc2b263a71a3d8990a07fe84f8ca1e2bbad4b8bab8e38d33eeae0",
+    "tile_009.npz": "8ee990fe5a12c8bd6b9644e6cf9f3ffb213dad91c10fcdd06c31a4f1d262ddd1",
+    "tile_010.npz": "c34a669a87cf070897ae753be741b36fb5e5e31171a4bfe35eea796e896ab7ff",
+    "tile_011.npz": "1a933029ef83fbe9e5c8f1b80a310c0b82cbcf3fb03278583026dda88b721022",
+    "tile_012.npz": "0f6759bbc56c0a97b36b32049759eeba55b207758b626c57ced58790c1cb885f",
+    "tile_013.npz": "ffd889fdbbd59c851eb7d94c4bee03371f625880c68e33235378cede275a1fa1",
+    "tile_014.npz": "bf03f8e73a565c841d02bfaff51175bab04caf8e24241a515fab1e6b2441167a",
+    "tile_015.npz": "dbaed115b3c5f9d2129c0f02d3980d4237c8e27c1e8b96bb7843944708209197",
+    "tile_016.npz": "2030d53eea43dc20d20e04ef71758f59f2df5a6122e1a3882b2cf5bbf67669ea",
+    "tile_017.npz": "4a74e84183c18de89cda89438793aab0d4f9b2d725b0128cc44e1dcaebe5a9f9",
+    "tile_018.npz": "85b5176d0d0bb0a46a851681f5cd3db45d4c8d53f5f0f3c94ff2ddaba180e5ac",
+    "tile_019.npz": "b45d370d8ecf5cd7be97213804991e1adbecfc00df26a77230ff58cdf6190245",
+    "tile_020.npz": "20b5ea785e88ff01c8b7d63bd859a29d45b80cec1182b138b47f2bccddd2dd44",
+    "tile_021.npz": "54e99b4c4bf21765494a165549e34dbe0d18ec6fa66755d30a2a2c3a9329c7fd",
+    "tile_022.npz": "cfc2e3c9b17cf883db2583af7f5ce9aaa2ce058dc57e97915bc0abf4d50d355b",
+    "tile_023.npz": "12c179f14f3bf8ee0384fa78dcb53cf7207b377edc2929fac0e2c53aad21001f",
+    "tile_024.npz": "ad392982847c34af14588c166627ac8426d769f2252c5c7b85c38e72f2154906",
+    "tile_025.npz": "cae67da0ca45e2923b110e79516512d2632e5b66f85f2f17a22a53ca59db1543",
+    "tile_026.npz": "19de274f29c43c25c4eada29d7652cca152bdc62b3cd120ea90079299f3288a4",
+    "tile_027.npz": "69521401af6c2aa9e41a6327d702a788ce28414d0a6d122869e0a7fffa0d432c",
+    "tile_028.npz": "e032871d534afe78b295b9518ba93d5cd0e69879437c3d5055f540f4c5123e30",
+    "tile_029.npz": "710d9959d56da52d084b8616d55237f597cbaa06dd53f772604b7337d18ac58e",
+    "tile_030.npz": "863c4ff5478ebf2bb6c06a2c5dc4f0f0d2c495a00a1d008c6e465867d67188c3",
+    "tile_031.npz": "66536bc38a3ee1a53af6c54dc41357cb303a8ba75a63221cdaab8fa90cc98d69",
+    "tile_032.npz": "6651bfc4eec841d4c05bbad8fecb8449cc69b190046570fc10555b63bd8e9b36",
+    "tile_033.npz": "ac873761b19d1748b501427c8d8c8954272cc2e5b13b8343d42980f6c7f49a27",
+    "tile_034.npz": "d0888787575d42b86aaf62e98fc5b20e55f36ece9f6689c79f96fde4ca356f42",
+    "tile_035.npz": "29769baed44f11af0d6579c231d81c14b43ef14855b6685b9964ef6ddbdef5bf",
+    "tile_036.npz": "26b828355919ef7f5e02eb48fd8d09ee0780c90bedfb50e1d092cd7fdb945079",
+    "tile_037.npz": "402b1226df0661ddcb6e4bd9398bdd2382405351bbc132d4def7aeb0a7ca079f",
+    "tile_038.npz": "5c2e9a54d282a36c614aa3158742d3b674c20a337cf68bfbd0ee052acddf161b",
+    "tile_039.npz": "c234c6f72234fbbc5e3f50dc6f508af2b3c9558ef663e96d4015e13dbc6a640a",
+    "tile_040.npz": "3da0fee0b5615a4b67094d5da49496e1580e83814fc64386fe43074a1efe0af6",
+    "tile_041.npz": "d78889fe23f094aca1cb6ba6147d172debb9a1af99cbed784e06b235b8f1130b",
+    "tile_042.npz": "13446c195ad765bd3779c6ad632e6c93a707f15ab0f3493e71e20db94b094ab6",
+    "tile_043.npz": "81b35c1115dad257f2804e8f92f1df2557a6648030a7bd7a8b4b5caaaa4edf9c",
+    "tile_044.npz": "f333202d77b747ac77b89131344b8caf50afb48593cfcbdb3852eda23f6ddad8",
+    "tile_045.npz": "81a42cddde07857616568b75a4e5977ca7eb53db6f9d83458f0f74af62b83143",
+    "tile_046.npz": "9307676398dbd678b9e7fc7d9beed90f4ac28e2cb4d04c624361550983405de1",
+    "tile_047.npz": "04783ff8ad66e6ba0b31f072948d97af38a52fd712e960ca45b3af69626fc86d",
+    "tile_048.npz": "cc26e813e5cce2ca7e30ed98081828ffcffa7d5efd48a6b347032c8eb820ada8",
+    "tile_049.npz": "1b4346c5cf548fe7ee58fe4216d8b9a2e7cbbf24f5f32e8ed5fd484fa82ef444",
+    "tile_050.npz": "834d4c9afd58a385d34beb9120832efd7722d946b117dd48f95ba908ab832d53",
+    "tile_051.npz": "fec355e66e9aa87509d28905c97cc3888da0701ecdc655aea505956d8075a052",
+    "tile_052.npz": "7a0d941599e357b611c81c554180042fdcb22c50cc10e8bcf6dba3df69de15af",
+    "tile_053.npz": "8ecb2d5157652c339dc45d9422461065c03f6c349fa3788f76b5657312d8feb3",
+    "tile_054.npz": "02a24ad0c1e176e3dcbf1d5829bc6ab9eb47ced5b86ddaabdf404ba172df000a"
+  },
+  "scan": {
+    "schema": 1,
+    "status": "PASS_SNAPSHOT_SCAN",
+    "group": "A",
+    "source": "RX1A_ANTENNA",
+    "scope": "FINITE_DISCONTINUOUS_RAW_DMA_SNAPSHOTS",
+    "rf_transmission_requested": false,
+    "sample_rate_hz": 30720000,
+    "bandwidth_requested_hz": 24000000,
+    "usable_tile_hz": 20000000,
+    "power_units": "FS^2/Hz",
+    "calibrated_dbm": false,
+    "tiles": [
+      {
+        "index": 0,
+        "requested_lo_hz": 75000000,
+        "before": {
+          "lo_hz": 75000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.25,
+          "rx1_gain_db": 53
+        },
+        "after": {
+          "lo_hz": 75000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -76.25,
+          "rx1_gain_db": 55
+        },
+        "file": "tile_000.npz",
+        "sha256": "b71f84f90e5ee8b039b67f675bd9280155a691c0d1baa82a9886eb501a76be51",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.11094815400065272,
+          "minimum": -2048,
+          "maximum": 1896
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.10431741799948213,
+          "minimum": -1802,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 1,
+        "requested_lo_hz": 83000000,
+        "before": {
+          "lo_hz": 82999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -79.5,
+          "rx1_gain_db": 55
+        },
+        "after": {
+          "lo_hz": 82999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -79.5,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_001.npz",
+        "sha256": "1e84e8631897b9839f57fde9879ebf055bcb7a1fe5ad5c9a3c9bc1cddc72e94f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.2893524770006479,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09550451299946872,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.000865936279296875,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 2,
+        "requested_lo_hz": 91000000,
+        "before": {
+          "lo_hz": 91000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -78.75,
+          "rx1_gain_db": 58
+        },
+        "after": {
+          "lo_hz": 91000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -78.75,
+          "rx1_gain_db": 58
+        },
+        "file": "tile_002.npz",
+        "sha256": "ca6cd465b9cb738cdc92cbf7fd48c171a582b59b542a532f47e836ec1ebdb6be",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09868217100120091,
+          "minimum": -1898,
+          "maximum": 1752
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09930186699966725,
+          "minimum": -1771,
+          "maximum": 1913
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 3,
+        "requested_lo_hz": 99000000,
+        "before": {
+          "lo_hz": 99000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.25,
+          "rx1_gain_db": 52
+        },
+        "after": {
+          "lo_hz": 99000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -75.5,
+          "rx1_gain_db": 54
+        },
+        "file": "tile_003.npz",
+        "sha256": "45e10195d07ddbbb83bf5436ef44e43126365f0271ccb530bafdbce55cdeb66c",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09263028100031079,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09356440299961832,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 4.57763671875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 4,
+        "requested_lo_hz": 107000000,
+        "before": {
+          "lo_hz": 107000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -82.75,
+          "rx1_gain_db": 53
+        },
+        "after": {
+          "lo_hz": 107000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -74.75,
+          "rx1_gain_db": 51
+        },
+        "file": "tile_004.npz",
+        "sha256": "304db5512a347c2cf5ecfb058bc4851aa3652aa171041190820075e92ae26321",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09244528300041566,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09349568200013891,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 6.103515625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 5,
+        "requested_lo_hz": 115000000,
+        "before": {
+          "lo_hz": 115000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -75.25,
+          "rx1_gain_db": 49
+        },
+        "after": {
+          "lo_hz": 115000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -75.5,
+          "rx1_gain_db": 50
+        },
+        "file": "tile_005.npz",
+        "sha256": "fc57e32f122ea40fe6431b93f7901d169c3e42fc9a8f082d74ae410933548403",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09137483299855376,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09316747999946529,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.52587890625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 6,
+        "requested_lo_hz": 123000000,
+        "before": {
+          "lo_hz": 122999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 48
+        },
+        "after": {
+          "lo_hz": 122999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 50
+        },
+        "file": "tile_006.npz",
+        "sha256": "9de7146b750891ef18ada2306edc903473f4e1d3df1ce37e2a8b553373ab830b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.17774185500093154,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09413826300078654,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 4.1961669921875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 7,
+        "requested_lo_hz": 131000000,
+        "before": {
+          "lo_hz": 130999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 49
+        },
+        "after": {
+          "lo_hz": 130999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 51
+        },
+        "file": "tile_007.npz",
+        "sha256": "90c6ed06ab5d42089523093e9d140fc5fa4631e4cd9be714a233fda8ab1fd62b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09239195400004974,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09675916500054882,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0001068115234375,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 8,
+        "requested_lo_hz": 139000000,
+        "before": {
+          "lo_hz": 139000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 56
+        },
+        "after": {
+          "lo_hz": 139000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_008.npz",
+        "sha256": "e0a44dac623fc2b263a71a3d8990a07fe84f8ca1e2bbad4b8bab8e38d33eeae0",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09126341299997875,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09412297400012903,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 9,
+        "requested_lo_hz": 147000000,
+        "before": {
+          "lo_hz": 147000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 58
+        },
+        "after": {
+          "lo_hz": 147000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 57
+        },
+        "file": "tile_009.npz",
+        "sha256": "8ee990fe5a12c8bd6b9644e6cf9f3ffb213dad91c10fcdd06c31a4f1d262ddd1",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0923449130004883,
+          "minimum": -1709,
+          "maximum": 1827
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09424591999959375,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 10,
+        "requested_lo_hz": 155000000,
+        "before": {
+          "lo_hz": 155000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -83.5,
+          "rx1_gain_db": 48
+        },
+        "after": {
+          "lo_hz": 155000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -83.5,
+          "rx1_gain_db": 50
+        },
+        "file": "tile_010.npz",
+        "sha256": "c34a669a87cf070897ae753be741b36fb5e5e31171a4bfe35eea796e896ab7ff",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.11860445399906894,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09362540999973135,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 8.7738037109375e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 11,
+        "requested_lo_hz": 163000000,
+        "before": {
+          "lo_hz": 162999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -75.5,
+          "rx1_gain_db": 55
+        },
+        "after": {
+          "lo_hz": 162999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -76.25,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_011.npz",
+        "sha256": "1a933029ef83fbe9e5c8f1b80a310c0b82cbcf3fb03278583026dda88b721022",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09122425399982603,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0957840489991213,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.000171661376953125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 12,
+        "requested_lo_hz": 171000000,
+        "before": {
+          "lo_hz": 170999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -74.5,
+          "rx1_gain_db": 56
+        },
+        "after": {
+          "lo_hz": 170999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -70.5,
+          "rx1_gain_db": 48
+        },
+        "file": "tile_012.npz",
+        "sha256": "0f6759bbc56c0a97b36b32049759eeba55b207758b626c57ced58790c1cb885f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09199387400076375,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09322636000069906,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.000164031982421875,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 13,
+        "requested_lo_hz": 179000000,
+        "before": {
+          "lo_hz": 179000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 59
+        },
+        "after": {
+          "lo_hz": 179000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 58
+        },
+        "file": "tile_013.npz",
+        "sha256": "ffd889fdbbd59c851eb7d94c4bee03371f625880c68e33235378cede275a1fa1",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09223483400091936,
+          "minimum": -2048,
+          "maximum": 1984
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0957498450006824,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 2.288818359375e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 14,
+        "requested_lo_hz": 187000000,
+        "before": {
+          "lo_hz": 187000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.5,
+          "rx1_gain_db": 56
+        },
+        "after": {
+          "lo_hz": 187000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.5,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_014.npz",
+        "sha256": "bf03f8e73a565c841d02bfaff51175bab04caf8e24241a515fab1e6b2441167a",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09104528699936054,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.093501601000753,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 2.288818359375e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 15,
+        "requested_lo_hz": 195000000,
+        "before": {
+          "lo_hz": 195000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 52
+        },
+        "after": {
+          "lo_hz": 195000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 54
+        },
+        "file": "tile_015.npz",
+        "sha256": "dbaed115b3c5f9d2129c0f02d3980d4237c8e27c1e8b96bb7843944708209197",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09236647400030051,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09377900500112446,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 8.7738037109375e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 16,
+        "requested_lo_hz": 203000000,
+        "before": {
+          "lo_hz": 203000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -83.75,
+          "rx1_gain_db": 56
+        },
+        "after": {
+          "lo_hz": 203000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -83.75,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_016.npz",
+        "sha256": "2030d53eea43dc20d20e04ef71758f59f2df5a6122e1a3882b2cf5bbf67669ea",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09202417899905413,
+          "minimum": -1854,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09337321400016663,
+          "minimum": -2019,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 17,
+        "requested_lo_hz": 211000000,
+        "before": {
+          "lo_hz": 210999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -85.5,
+          "rx1_gain_db": 52
+        },
+        "after": {
+          "lo_hz": 210999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -85.5,
+          "rx1_gain_db": 55
+        },
+        "file": "tile_017.npz",
+        "sha256": "4a74e84183c18de89cda89438793aab0d4f9b2d725b0128cc44e1dcaebe5a9f9",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09146198499911407,
+          "minimum": -1981,
+          "maximum": 1824
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09386763200018322,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 18,
+        "requested_lo_hz": 219000000,
+        "before": {
+          "lo_hz": 219000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -85.0,
+          "rx1_gain_db": 51
+        },
+        "after": {
+          "lo_hz": 219000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -85.0,
+          "rx1_gain_db": 50
+        },
+        "file": "tile_018.npz",
+        "sha256": "85b5176d0d0bb0a46a851681f5cd3db45d4c8d53f5f0f3c94ff2ddaba180e5ac",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.10163293699952192,
+          "minimum": -2048,
+          "maximum": 1849
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.1140460009992239,
+          "minimum": -1714,
+          "maximum": 1739
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 19,
+        "requested_lo_hz": 227000000,
+        "before": {
+          "lo_hz": 226999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 48
+        },
+        "after": {
+          "lo_hz": 226999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 49
+        },
+        "file": "tile_019.npz",
+        "sha256": "b45d370d8ecf5cd7be97213804991e1adbecfc00df26a77230ff58cdf6190245",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09244289900016156,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09816093999870645,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 4.57763671875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 20,
+        "requested_lo_hz": 235000000,
+        "before": {
+          "lo_hz": 235000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 47
+        },
+        "after": {
+          "lo_hz": 235000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 45
+        },
+        "file": "tile_020.npz",
+        "sha256": "20b5ea785e88ff01c8b7d63bd859a29d45b80cec1182b138b47f2bccddd2dd44",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0915655759999936,
+          "minimum": -2048,
+          "maximum": 2041
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09339096399889968,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 21,
+        "requested_lo_hz": 243000000,
+        "before": {
+          "lo_hz": 243000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 47
+        },
+        "after": {
+          "lo_hz": 243000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.25,
+          "rx1_gain_db": 45
+        },
+        "file": "tile_021.npz",
+        "sha256": "54e99b4c4bf21765494a165549e34dbe0d18ec6fa66755d30a2a2c3a9329c7fd",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09209208299944294,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09324277900122979,
+          "minimum": -1859,
+          "maximum": 1870
+        },
+        "clipped_fraction": 0.00078582763671875,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 22,
+        "requested_lo_hz": 251000000,
+        "before": {
+          "lo_hz": 250999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 48
+        },
+        "after": {
+          "lo_hz": 250999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 39
+        },
+        "file": "tile_022.npz",
+        "sha256": "cfc2e3c9b17cf883db2583af7f5ce9aaa2ce058dc57e97915bc0abf4d50d355b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09237103199848207,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09439776900035213,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.01934814453125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 23,
+        "requested_lo_hz": 259000000,
+        "before": {
+          "lo_hz": 259000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.5,
+          "rx1_gain_db": 45
+        },
+        "after": {
+          "lo_hz": 259000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.5,
+          "rx1_gain_db": 52
+        },
+        "file": "tile_023.npz",
+        "sha256": "12c179f14f3bf8ee0384fa78dcb53cf7207b377edc2929fac0e2c53aad21001f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09146197700101766,
+          "minimum": -1805,
+          "maximum": 1674
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09477980500014382,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 24,
+        "requested_lo_hz": 267000000,
+        "before": {
+          "lo_hz": 266999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -67.5,
+          "rx1_gain_db": 45
+        },
+        "after": {
+          "lo_hz": 266999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -66.25,
+          "rx1_gain_db": 43
+        },
+        "file": "tile_024.npz",
+        "sha256": "ad392982847c34af14588c166627ac8426d769f2252c5c7b85c38e72f2154906",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0993898890010314,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09734267400017416,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.52587890625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 25,
+        "requested_lo_hz": 275000000,
+        "before": {
+          "lo_hz": 275000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.25,
+          "rx1_gain_db": 58
+        },
+        "after": {
+          "lo_hz": 275000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.25,
+          "rx1_gain_db": 58
+        },
+        "file": "tile_025.npz",
+        "sha256": "cae67da0ca45e2923b110e79516512d2632e5b66f85f2f17a22a53ca59db1543",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09260760600045614,
+          "minimum": -1848,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09392766900054994,
+          "minimum": -1951,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 26,
+        "requested_lo_hz": 283000000,
+        "before": {
+          "lo_hz": 283000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.0,
+          "rx1_gain_db": 60
+        },
+        "after": {
+          "lo_hz": 283000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.0,
+          "rx1_gain_db": 59
+        },
+        "file": "tile_026.npz",
+        "sha256": "19de274f29c43c25c4eada29d7652cca152bdc62b3cd120ea90079299f3288a4",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09155440500035184,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09309367400055635,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 27,
+        "requested_lo_hz": 291000000,
+        "before": {
+          "lo_hz": 290999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -85.5,
+          "rx1_gain_db": 60
+        },
+        "after": {
+          "lo_hz": 290999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -82.5,
+          "rx1_gain_db": 61
+        },
+        "file": "tile_027.npz",
+        "sha256": "69521401af6c2aa9e41a6327d702a788ce28414d0a6d122869e0a7fffa0d432c",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09232921699913277,
+          "minimum": -1878,
+          "maximum": 2024
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09398248599973158,
+          "minimum": -1848,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 28,
+        "requested_lo_hz": 299000000,
+        "before": {
+          "lo_hz": 299000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.25,
+          "rx1_gain_db": 64
+        },
+        "after": {
+          "lo_hz": 299000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.25,
+          "rx1_gain_db": 64
+        },
+        "file": "tile_028.npz",
+        "sha256": "e032871d534afe78b295b9518ba93d5cd0e69879437c3d5055f540f4c5123e30",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.10540472700085957,
+          "minimum": -1854,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09286283300025389,
+          "minimum": -1951,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 29,
+        "requested_lo_hz": 307000000,
+        "before": {
+          "lo_hz": 306999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.75,
+          "rx1_gain_db": 68
+        },
+        "after": {
+          "lo_hz": 306999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.75,
+          "rx1_gain_db": 67
+        },
+        "file": "tile_029.npz",
+        "sha256": "710d9959d56da52d084b8616d55237f597cbaa06dd53f772604b7337d18ac58e",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09116388400070718,
+          "minimum": -1981,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09687687299992831,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 30,
+        "requested_lo_hz": 315000000,
+        "before": {
+          "lo_hz": 315000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.25,
+          "rx1_gain_db": 68
+        },
+        "after": {
+          "lo_hz": 315000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.5,
+          "rx1_gain_db": 68
+        },
+        "file": "tile_030.npz",
+        "sha256": "863c4ff5478ebf2bb6c06a2c5dc4f0f0d2c495a00a1d008c6e465867d67188c3",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09196218900069653,
+          "minimum": -1788,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09166076699875703,
+          "minimum": -1957,
+          "maximum": 1826
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 31,
+        "requested_lo_hz": 323000000,
+        "before": {
+          "lo_hz": 323000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -89.75,
+          "rx1_gain_db": 69
+        },
+        "after": {
+          "lo_hz": 323000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -90.0,
+          "rx1_gain_db": 69
+        },
+        "file": "tile_031.npz",
+        "sha256": "66536bc38a3ee1a53af6c54dc41357cb303a8ba75a63221cdaab8fa90cc98d69",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09212550899974303,
+          "minimum": -1888,
+          "maximum": 1990
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09190377799859561,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 32,
+        "requested_lo_hz": 331000000,
+        "before": {
+          "lo_hz": 330999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -89.5,
+          "rx1_gain_db": 69
+        },
+        "after": {
+          "lo_hz": 330999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -89.75,
+          "rx1_gain_db": 69
+        },
+        "file": "tile_032.npz",
+        "sha256": "6651bfc4eec841d4c05bbad8fecb8449cc69b190046570fc10555b63bd8e9b36",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09442598999885377,
+          "minimum": -1756,
+          "maximum": 1773
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09936548299992864,
+          "minimum": -1791,
+          "maximum": 1889
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 33,
+        "requested_lo_hz": 339000000,
+        "before": {
+          "lo_hz": 339000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -90.5,
+          "rx1_gain_db": 67
+        },
+        "after": {
+          "lo_hz": 339000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -90.0,
+          "rx1_gain_db": 69
+        },
+        "file": "tile_033.npz",
+        "sha256": "ac873761b19d1748b501427c8d8c8954272cc2e5b13b8343d42980f6c7f49a27",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09228304000134813,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09276753000085591,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.000385284423828125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 34,
+        "requested_lo_hz": 347000000,
+        "before": {
+          "lo_hz": 346999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -91.0,
+          "rx1_gain_db": 68
+        },
+        "after": {
+          "lo_hz": 346999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -91.25,
+          "rx1_gain_db": 68
+        },
+        "file": "tile_034.npz",
+        "sha256": "d0888787575d42b86aaf62e98fc5b20e55f36ece9f6689c79f96fde4ca356f42",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09226817099988693,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09231433700006164,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.1444091796875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 35,
+        "requested_lo_hz": 355000000,
+        "before": {
+          "lo_hz": 355000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -90.25,
+          "rx1_gain_db": 69
+        },
+        "after": {
+          "lo_hz": 355000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -90.0,
+          "rx1_gain_db": 68
+        },
+        "file": "tile_035.npz",
+        "sha256": "29769baed44f11af0d6579c231d81c14b43ef14855b6685b9964ef6ddbdef5bf",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09172888799912471,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09202720100074657,
+          "minimum": -1982,
+          "maximum": 1970
+        },
+        "clipped_fraction": 0.0086212158203125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 36,
+        "requested_lo_hz": 363000000,
+        "before": {
+          "lo_hz": 363000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -88.0,
+          "rx1_gain_db": 68
+        },
+        "after": {
+          "lo_hz": 363000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -86.5,
+          "rx1_gain_db": 65
+        },
+        "file": "tile_036.npz",
+        "sha256": "26b828355919ef7f5e02eb48fd8d09ee0780c90bedfb50e1d092cd7fdb945079",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09259263599960832,
+          "minimum": -2048,
+          "maximum": 1999
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09333647899984499,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 37,
+        "requested_lo_hz": 371000000,
+        "before": {
+          "lo_hz": 370999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -74.0,
+          "rx1_gain_db": 55
+        },
+        "after": {
+          "lo_hz": 370999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -73.75,
+          "rx1_gain_db": 55
+        },
+        "file": "tile_037.npz",
+        "sha256": "402b1226df0661ddcb6e4bd9398bdd2382405351bbc132d4def7aeb0a7ca079f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09280932900037442,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0945924269999523,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 5.340576171875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 38,
+        "requested_lo_hz": 379000000,
+        "before": {
+          "lo_hz": 378999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -93.25,
+          "rx1_gain_db": 66
+        },
+        "after": {
+          "lo_hz": 378999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -93.25,
+          "rx1_gain_db": 67
+        },
+        "file": "tile_038.npz",
+        "sha256": "5c2e9a54d282a36c614aa3158742d3b674c20a337cf68bfbd0ee052acddf161b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09188236499903724,
+          "minimum": -1169,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09259010400091938,
+          "minimum": -1234,
+          "maximum": 1380
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 39,
+        "requested_lo_hz": 387000000,
+        "before": {
+          "lo_hz": 386999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -94.0,
+          "rx1_gain_db": 71
+        },
+        "after": {
+          "lo_hz": 386999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -94.75,
+          "rx1_gain_db": 72
+        },
+        "file": "tile_039.npz",
+        "sha256": "c234c6f72234fbbc5e3f50dc6f508af2b3c9558ef663e96d4015e13dbc6a640a",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09233264700014843,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09258535200024198,
+          "minimum": -2048,
+          "maximum": 1953
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 40,
+        "requested_lo_hz": 395000000,
+        "before": {
+          "lo_hz": 395000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.0,
+          "rx1_gain_db": 72
+        },
+        "after": {
+          "lo_hz": 395000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -94.75,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_040.npz",
+        "sha256": "3da0fee0b5615a4b67094d5da49496e1580e83814fc64386fe43074a1efe0af6",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09251182499974675,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09645588700004737,
+          "minimum": -1807,
+          "maximum": 1994
+        },
+        "clipped_fraction": 1.1444091796875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 41,
+        "requested_lo_hz": 403000000,
+        "before": {
+          "lo_hz": 403000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 403000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_041.npz",
+        "sha256": "d78889fe23f094aca1cb6ba6147d172debb9a1af99cbed784e06b235b8f1130b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09139897400018526,
+          "minimum": -1831,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09314120699855266,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 42,
+        "requested_lo_hz": 411000000,
+        "before": {
+          "lo_hz": 411000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 411000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 72
+        },
+        "file": "tile_042.npz",
+        "sha256": "13446c195ad765bd3779c6ad632e6c93a707f15ab0f3493e71e20db94b094ab6",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09371156700035499,
+          "minimum": -2048,
+          "maximum": 1919
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0924197100011952,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 7.62939453125e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 43,
+        "requested_lo_hz": 419000000,
+        "before": {
+          "lo_hz": 418999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 69
+        },
+        "after": {
+          "lo_hz": 418999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -95.5,
+          "rx1_gain_db": 71
+        },
+        "file": "tile_043.npz",
+        "sha256": "81b35c1115dad257f2804e8f92f1df2557a6648030a7bd7a8b4b5caaaa4edf9c",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09257897799943748,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09564967400001478,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.1444091796875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 44,
+        "requested_lo_hz": 427000000,
+        "before": {
+          "lo_hz": 426999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.0,
+          "rx1_gain_db": 69
+        },
+        "after": {
+          "lo_hz": 426999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.0,
+          "rx1_gain_db": 72
+        },
+        "file": "tile_044.npz",
+        "sha256": "f333202d77b747ac77b89131344b8caf50afb48593cfcbdb3852eda23f6ddad8",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09179603299890005,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09382926599937491,
+          "minimum": -1897,
+          "maximum": 1960
+        },
+        "clipped_fraction": 1.52587890625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 45,
+        "requested_lo_hz": 435000000,
+        "before": {
+          "lo_hz": 435000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.75,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 435000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.5,
+          "rx1_gain_db": 72
+        },
+        "file": "tile_045.npz",
+        "sha256": "81a42cddde07857616568b75a4e5977ca7eb53db6f9d83458f0f74af62b83143",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09589697099909245,
+          "minimum": -2048,
+          "maximum": 1971
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09336951499972201,
+          "minimum": -1920,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 46,
+        "requested_lo_hz": 443000000,
+        "before": {
+          "lo_hz": 443000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.75,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 443000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.5,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_046.npz",
+        "sha256": "9307676398dbd678b9e7fc7d9beed90f4ac28e2cb4d04c624361550983405de1",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09264666299895907,
+          "minimum": -1816,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0933210319999489,
+          "minimum": -2038,
+          "maximum": 2038
+        },
+        "clipped_fraction": 3.814697265625e-06,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 47,
+        "requested_lo_hz": 451000000,
+        "before": {
+          "lo_hz": 451000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -97.75,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 451000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -97.75,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_047.npz",
+        "sha256": "04783ff8ad66e6ba0b31f072948d97af38a52fd712e960ca45b3af69626fc86d",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09208548899914604,
+          "minimum": -1997,
+          "maximum": 1710
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09374581199881504,
+          "minimum": -1895,
+          "maximum": 1716
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 48,
+        "requested_lo_hz": 459000000,
+        "before": {
+          "lo_hz": 458999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -98.75,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 458999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -98.75,
+          "rx1_gain_db": 72
+        },
+        "file": "tile_048.npz",
+        "sha256": "cc26e813e5cce2ca7e30ed98081828ffcffa7d5efd48a6b347032c8eb820ada8",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09191758999986632,
+          "minimum": -1438,
+          "maximum": 1279
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0924685469999531,
+          "minimum": -1407,
+          "maximum": 1646
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 49,
+        "requested_lo_hz": 467000000,
+        "before": {
+          "lo_hz": 466999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -99.0,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 466999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -98.0,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_049.npz",
+        "sha256": "1b4346c5cf548fe7ee58fe4216d8b9a2e7cbbf24f5f32e8ed5fd484fa82ef444",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09248690499953227,
+          "minimum": -1240,
+          "maximum": 1534
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0933554359999107,
+          "minimum": -1458,
+          "maximum": 1370
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 50,
+        "requested_lo_hz": 475000000,
+        "before": {
+          "lo_hz": 475000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -101.5,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 475000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -101.25,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_050.npz",
+        "sha256": "834d4c9afd58a385d34beb9120832efd7722d946b117dd48f95ba908ab832d53",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.11156804200072656,
+          "minimum": -1222,
+          "maximum": 1215
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.1154871179987822,
+          "minimum": -1213,
+          "maximum": 1223
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 51,
+        "requested_lo_hz": 483000000,
+        "before": {
+          "lo_hz": 483000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -89.75,
+          "rx1_gain_db": 70
+        },
+        "after": {
+          "lo_hz": 483000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -92.5,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_051.npz",
+        "sha256": "fec355e66e9aa87509d28905c97cc3888da0701ecdc655aea505956d8075a052",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09238807399924553,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09799024299900339,
+          "minimum": -1470,
+          "maximum": 1615
+        },
+        "clipped_fraction": 0.000209808349609375,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 52,
+        "requested_lo_hz": 491000000,
+        "before": {
+          "lo_hz": 491000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -100.75,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 491000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -96.75,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_052.npz",
+        "sha256": "7a0d941599e357b611c81c554180042fdcb22c50cc10e8bcf6dba3df69de15af",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09207467099986388,
+          "minimum": -1285,
+          "maximum": 1361
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09218979000070249,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 53,
+        "requested_lo_hz": 499000000,
+        "before": {
+          "lo_hz": 498999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -101.0,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 498999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -101.5,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_053.npz",
+        "sha256": "8ecb2d5157652c339dc45d9422461065c03f6c349fa3788f76b5657312d8feb3",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09213000599993393,
+          "minimum": -1399,
+          "maximum": 1483
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09309331199983717,
+          "minimum": -1354,
+          "maximum": 1450
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      },
+      {
+        "index": 54,
+        "requested_lo_hz": 507000000,
+        "before": {
+          "lo_hz": 506999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -101.5,
+          "rx1_gain_db": 73
+        },
+        "after": {
+          "lo_hz": 506999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -100.5,
+          "rx1_gain_db": 73
+        },
+        "file": "tile_054.npz",
+        "sha256": "02a24ad0c1e176e3dcbf1d5829bc6ab9eb47ced5b86ddaabdf404ba172df000a",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09392026000023179,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09574619600061851,
+          "minimum": -1470,
+          "maximum": 1326
+        },
+        "clipped_fraction": 3.0517578125e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1
+      }
+    ],
+    "pl_source_enabled": false,
+    "continuous_integrity_certified": false,
+    "panorama": "panorama.npz",
+    "panorama_sha256": "79cc62080fa61a3d2972718333a905fd29510c613fc5a527385577201f49e98c",
+    "full_group": true,
+    "missing_bins": 0,
+    "covered_bins": 44200,
+    "notes": "Uncalibrated AGC/antenna response. Gaps between finite captures; PL FIFO sticky flags are not a continuous-DMA acceptance metric.",
+    "buffers_quarantined": false,
+    "baseline_restore": {
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "ensm_mode": 1,
+      "rssi_dbm": -85.0,
+      "rx1_gain_db": 73
+    },
+    "receive_startup_restored": {
+      "scope": "Before acquisition only; no in-session fault masking",
+      "reset_register_before": 3,
+      "reset_register_after": 3,
+      "perf_before": {
+        "samples": 0,
+        "cycles": 6821382412,
+        "fft_frames": 0,
+        "hits": 0,
+        "lists": 0,
+        "latency_cycles": 0,
+        "markers_done": 0,
+        "status": 1,
+        "fifo_level": 0
+      },
+      "perf_after": {
+        "samples": 0,
+        "cycles": 1015576,
+        "fft_frames": 0,
+        "hits": 0,
+        "lists": 0,
+        "latency_cycles": 0,
+        "markers_done": 0,
+        "status": 0,
+        "fifo_level": 0
+      }
+    },
+    "stopped": {
+      "gpio": 0,
+      "source": 0,
+      "audio": 0
+    },
+    "elapsed_s": 78.34977659200013,
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

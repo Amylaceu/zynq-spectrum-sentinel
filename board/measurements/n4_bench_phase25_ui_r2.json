@@ -1,0 +1,16 @@
+{
+  "status": "measured_pending_human",
+  "bus_phase": 25,
+  "human_visual_acceptance": "pending",
+  "RF_TX_requested": false,
+  "source": "PL three-tone",
+  "elapsed_s": 10.010107598000104,
+  "display_frames": 72,
+  "display_fps": 7.192729877787198,
+  "fft_frames": 14439883,
+  "perf_status": 4,
+  "dynamic_ui_updates": 131,
+  "dynamic_frame_advances": 131,
+  "dynamic_last_frame": 8003,
+  "visual_mode": "PL frame counter in LCD status bar"
+}

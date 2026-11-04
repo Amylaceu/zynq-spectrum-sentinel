@@ -1,0 +1,1999 @@
+{
+  "status": "PASS",
+  "mode": "pd",
+  "antenna": "B-direct, user confirmed 2-3cm",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Control readback only; RF injection selftest pending",
+  "start_health": {
+    "rssi_dbm": -74.25,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "pd_points": [
+    {
+      "noise_amplitude": 0,
+      "observations": [
+        {
+          "sequence": 130830,
+          "hits": 227,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 130890,
+          "hits": 180,
+          "detected": true,
+          "rssi_dbm": -64.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 130948,
+          "hits": 220,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131007,
+          "hits": 123,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131065,
+          "hits": 155,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131123,
+          "hits": 170,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131181,
+          "hits": 130,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131239,
+          "hits": 214,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131298,
+          "hits": 121,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131356,
+          "hits": 227,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131415,
+          "hits": 198,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131473,
+          "hits": 153,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131531,
+          "hits": 170,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131589,
+          "hits": 155,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131647,
+          "hits": 116,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131705,
+          "hits": 151,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131762,
+          "hits": 159,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131820,
+          "hits": 207,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131880,
+          "hits": 180,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131939,
+          "hits": 91,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 131997,
+          "hits": 202,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132055,
+          "hits": 176,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132113,
+          "hits": 137,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132171,
+          "hits": 221,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132229,
+          "hits": 105,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132287,
+          "hits": 169,
+          "detected": true,
+          "rssi_dbm": -69.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132345,
+          "hits": 208,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132403,
+          "hits": 133,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132461,
+          "hits": 246,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132520,
+          "hits": 122,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 45.30683853629135,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 512,
+      "observations": [
+        {
+          "sequence": 132660,
+          "hits": 322,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132719,
+          "hits": 214,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132777,
+          "hits": 244,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132836,
+          "hits": 174,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132894,
+          "hits": 231,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 132952,
+          "hits": 243,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133011,
+          "hits": 224,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133070,
+          "hits": 204,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133128,
+          "hits": 153,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133186,
+          "hits": 215,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133244,
+          "hits": 267,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133302,
+          "hits": 262,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133362,
+          "hits": 208,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133421,
+          "hits": 164,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133479,
+          "hits": 192,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133537,
+          "hits": 257,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133596,
+          "hits": 143,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133654,
+          "hits": 197,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133712,
+          "hits": 175,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133770,
+          "hits": 190,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133829,
+          "hits": 205,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133887,
+          "hits": 205,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 133946,
+          "hits": 209,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134004,
+          "hits": 199,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134062,
+          "hits": 156,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134120,
+          "hits": 184,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134178,
+          "hits": 227,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134237,
+          "hits": 194,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134295,
+          "hits": 208,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134353,
+          "hits": 198,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 46.17674321176115,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 1024,
+      "observations": [
+        {
+          "sequence": 134494,
+          "hits": 141,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134551,
+          "hits": 22,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134609,
+          "hits": 84,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134667,
+          "hits": 14,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134724,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134781,
+          "hits": 199,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134839,
+          "hits": 9,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134896,
+          "hits": 111,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 134954,
+          "hits": 150,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135012,
+          "hits": 13,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135070,
+          "hits": 168,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135128,
+          "hits": 6,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135186,
+          "hits": 13,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135243,
+          "hits": 97,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135300,
+          "hits": 21,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135358,
+          "hits": 28,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135416,
+          "hits": 24,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135473,
+          "hits": 16,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135530,
+          "hits": 167,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135588,
+          "hits": 8,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135645,
+          "hits": 57,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135702,
+          "hits": 155,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135760,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135817,
+          "hits": 60,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135874,
+          "hits": 24,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135932,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 135989,
+          "hits": 8,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136046,
+          "hits": 18,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136103,
+          "hits": 38,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136160,
+          "hits": 27,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 46.06000155288196,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 2048,
+      "observations": [
+        {
+          "sequence": 136300,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136357,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136414,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136471,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136528,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136586,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136643,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136700,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136757,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136814,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136871,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136928,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 136985,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137042,
+          "hits": 6,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137099,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137159,
+          "hits": 6,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137216,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137273,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137330,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137387,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137444,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137501,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137558,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137615,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137672,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137729,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137786,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137843,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137900,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 137957,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 41.58766213404644,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 4096,
+      "observations": [
+        {
+          "sequence": 138097,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138154,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138211,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138268,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138325,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138382,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138439,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138496,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138553,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138610,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138667,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138724,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138781,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138839,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138896,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 138953,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -66.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139011,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139069,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139127,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139184,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139241,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139298,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139355,
+          "hits": 7,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139413,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139470,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139527,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139585,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139642,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139699,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139756,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 35.542836468922886,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 8192,
+      "observations": [
+        {
+          "sequence": 139898,
+          "hits": 7,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 139957,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140015,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140074,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140133,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140191,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140249,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -66.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140308,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140366,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140425,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140483,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140541,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140600,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -59.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140659,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140717,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140776,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140835,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140895,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 140954,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141013,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141071,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141130,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141188,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141247,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141306,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141365,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141424,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141482,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141541,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141600,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 29.64460843787129,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 16384,
+      "observations": [
+        {
+          "sequence": 141742,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141802,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141861,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141920,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 141980,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142039,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142099,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142158,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142217,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142277,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142337,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142396,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142455,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142515,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142574,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142634,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142693,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142753,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142812,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142871,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142931,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 142990,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143050,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143109,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143169,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143228,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143288,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143347,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143407,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143466,
+          "hits": 5,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 23.818526249273276,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 32768,
+      "observations": [
+        {
+          "sequence": 143609,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143669,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143728,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143788,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143847,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143907,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 143966,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144025,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144085,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144144,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144204,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144263,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144322,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144381,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -68.75,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144441,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144500,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144559,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144622,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144681,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144741,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144800,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144860,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144919,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 144978,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145037,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145096,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145156,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145215,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145274,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145333,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 17.813372255078516,
+      "detection_fraction": 1.0,
+      "unique_snapshot_sequences": 30
+    },
+    {
+      "noise_amplitude": 65535,
+      "observations": [
+        {
+          "sequence": 145475,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145535,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145594,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145653,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145712,
+          "hits": 2,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145771,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145830,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145889,
+          "hits": 2,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 145948,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146007,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146066,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146125,
+          "hits": 2,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146188,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146257,
+          "hits": 2,
+          "detected": true,
+          "rssi_dbm": -61.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146328,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146393,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.5,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146489,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146549,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146610,
+          "hits": 2,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146670,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146730,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146789,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146848,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146907,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 146966,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -68.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 147024,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 147083,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 147142,
+          "hits": 1,
+          "detected": false,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 147200,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.0,
+          "tx_atten_db": 40.0
+        },
+        {
+          "sequence": 147259,
+          "hits": 3,
+          "detected": true,
+          "rssi_dbm": -69.25,
+          "tx_atten_db": 40.0
+        }
+      ],
+      "median_peak_excess_to_local_bin_noise_db": 11.696103044188256,
+      "detection_fraction": 0.5,
+      "unique_snapshot_sequences": 30
+    }
+  ],
+  "pd_scope": "PL target-list CW overlap +/-2 bins, 30 periodic snapshots/noise amplitude; power captures and CFAR snapshots are asynchronous; measured averaged-bin contrast is NOT calibrated input single-bin SNR. Cannot certify Pd@10dB from this grid.",
+  "pd_10db_certified": false,
+  "capture_tx_quarantined": false,
+  "tx_dma_guards_ok": true,
+  "stop_ensm": 2,
+  "stop_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 20.182749474000047,
+  "capture_sha256": "7c3ff75e8209edfe9108e5b5ee54496e35e1dc64a9d88886a6ae6544154b3529"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_WITH_PLATFORM_SKIP",
+  "passed": 137,
+  "skipped": 1,
+  "log": "logs/I1_regression_final.log",
+  "log_sha256": "d21b16ebdc04cbbf5211e086971724e910364bcc86092d35b65bb6d44a7faa7e",
+  "skip_reason": "AF_UNIX socket test on Windows",
+  "source_sha256": {
+    "src/ps/sentinel/app/resident.py": "d4fef8c056d446fd52cf8634fd7f7e494d2b012d5b02ae6109990dfbb66cb9ce",
+    "src/ps/sentinel/app/resident_control.py": "7bf4e8346b3c73233d2ea942fff76e41ec9ac82660811e004b96125ede54ea6f",
+    "board/scripts/serve_resident.py": "4fd9d6f05f67b7c156d4f2f9814424f0d74ba3beb12887190399a46dbd490e17",
+    "board/scripts/release_entry.py": "37a46fc04e490a136422fe1768929f0d102576dfb0ed10554612e2be9036c594",
+    "board/scripts/install_release.py": "335957da6f2f7e7a820211da66dd68b5f8d16d73cb45f6a3b6add3782a5095cc",
+    "src/ps/sentinel/app/hostlink_protocol.py": "6ebbe962a9d6ec5e1198354102ee018746f5d41574169f78146d914936fbef8f",
+    "src/ps/sentinel/app/hostlink_runtime.py": "16ad5a603d7f923956d14e5f45c8f4bb11264c51f2acd4ce42264db7b27d21d3",
+    "tools/release_board.py": "4a575a884b228eb367f23256a5f0c511bbf96b7cd86e2964929bb629919b7690",
+    "tools/i1_board_check.py": "f40b0216ec28fb09d5d764e7b333efb5ed895325ce1864f4d715972991b9d434",
+    "tools/tests/test_i1_resident.py": "53618e348a4f9e109b4581c4449f64b36998428e760cb5328fdb661022b0929e"
+  }
+}

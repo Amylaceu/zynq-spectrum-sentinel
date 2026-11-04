@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "passed": 48,
+  "skipped": 1,
+  "log": "logs/I1_volume_max_regression.log",
+  "log_sha256": "51cf9d856686cf932f6646702d6a7bb5c9ca148f3fc1b87ad09c8300e4e0a580",
+  "source_config_sha256": "ed17fdc1386c874cf83472985ddf2b3a968474e6c43acd95b47907e43b38f650",
+  "default_volume_db": -6,
+  "max_volume_db": -6,
+  "deployed_i1_r3_default_volume_db": -12,
+  "board_volume_override_requested_db": -6,
+  "note": "Source default for future packaging; accepted candidate remains unchanged"
+}

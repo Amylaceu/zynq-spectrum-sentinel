@@ -1,0 +1,1121 @@
+{
+  "fft_backend": {
+    "archive_sha256": "e5825a15c8ce9cfc8337540fea1765bb873df0cd3377b9cb3348f7682216db0c",
+    "name": "AMD XFFT v9.1 Windows model"
+  },
+  "files": {
+    "cfar/exp_hit_ca.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "67b121b194ccbb270e4c5459b1a652eac72230145b35977ef7a67a0443555cb2",
+      "size_bytes": 8192,
+      "word_bits": 8
+    },
+    "cfar/exp_hit_ca.npy": {
+      "dtype": "|u1",
+      "sha256": "96d9384f362b81b0dce84850f85657eddb9422281bc1e5cb65c761ae693c2adc",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 2176
+    },
+    "cfar/exp_hit_go.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "dc999d4a4bb95586ece22fffad075ad98627abea226a97b39d9b60395383b21a",
+      "size_bytes": 8192,
+      "word_bits": 8
+    },
+    "cfar/exp_hit_go.npy": {
+      "dtype": "|u1",
+      "sha256": "907c27842454dbd62d77c64918df2ec24bf720fe34527924400421ceed7a8639",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 2176
+    },
+    "cfar/exp_hit_so.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "67b121b194ccbb270e4c5459b1a652eac72230145b35977ef7a67a0443555cb2",
+      "size_bytes": 8192,
+      "word_bits": 8
+    },
+    "cfar/exp_hit_so.npy": {
+      "dtype": "|u1",
+      "sha256": "96d9384f362b81b0dce84850f85657eddb9422281bc1e5cb65c761ae693c2adc",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 2176
+    },
+    "cfar/exp_tgt_ca.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "7c83b5b6561de5c8304093853e70c3017b1b20f28e4bc3c3243a4a6c1ce68657",
+      "size_bytes": 320,
+      "word_bits": 8
+    },
+    "cfar/exp_tgt_ca.npy": {
+      "dtype": "|u1",
+      "sha256": "1acba503cd8b329db2045a4ac0586faf37df89077631faac572373f690f9c907",
+      "shape": [
+        80
+      ],
+      "size_bytes": 208
+    },
+    "cfar/exp_tgt_go.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "5f8153822c8960dc52cba1e88123909987b5dc71bf793512c5be3da80f22c6f8",
+      "size_bytes": 384,
+      "word_bits": 8
+    },
+    "cfar/exp_tgt_go.npy": {
+      "dtype": "|u1",
+      "sha256": "ba6843b55aaf72851fe384f7f8fa47422698f4b58b24aab9e541010ab037b7dd",
+      "shape": [
+        96
+      ],
+      "size_bytes": 224
+    },
+    "cfar/exp_tgt_so.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "7c83b5b6561de5c8304093853e70c3017b1b20f28e4bc3c3243a4a6c1ce68657",
+      "size_bytes": 320,
+      "word_bits": 8
+    },
+    "cfar/exp_tgt_so.npy": {
+      "dtype": "|u1",
+      "sha256": "1acba503cd8b329db2045a4ac0586faf37df89077631faac572373f690f9c907",
+      "shape": [
+        80
+      ],
+      "size_bytes": 208
+    },
+    "cfar/exp_thr_ca.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "b35d8790ee61887b574d2819864e8f8bbb1a946455b82ecd6a07270fd1d128a7",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "cfar/exp_thr_ca.npy": {
+      "dtype": "<u4",
+      "sha256": "cb76bad10ec2dedecf6bb1eece3baa6ecaa953472367bc0ba5d57a9d36c49573",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "cfar/exp_thr_go.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "97571f21740f7d7e7ea74bd393b2600e1cf3e8991824cef147a08959948d6328",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "cfar/exp_thr_go.npy": {
+      "dtype": "<u4",
+      "sha256": "d0f69e5e0a8d0137e9bf9abfaeb7ce192fa35f2a98bfeceb0acfd0951d1a835c",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "cfar/exp_thr_so.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "60985110c3d038cf61615cdba2fa829a95f717d827e8cf439fcf7b72313b0042",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "cfar/exp_thr_so.npy": {
+      "dtype": "<u4",
+      "sha256": "e3c85a75e8b7c22aaae8a07a179fbe68cb40eb12d81658dc4a17f5b81d4603ed",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "cfar/in_power.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "95d562b4efac31033d64b40a11ca1dfdb1e5d487867573006b140f415a58075c",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "cfar/in_power.npy": {
+      "dtype": "<u4",
+      "sha256": "bf075b2a63f840a76385ae9152bbc26a86217ebb0ae55eabebbe71a878db16c6",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "demod/exp_audio_am_dsb.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "504199799eebee9b64cce440cb43f3f944948cda102a76ae6ad038dd9170d7ee",
+      "size_bytes": 24576,
+      "word_bits": 16
+    },
+    "demod/exp_audio_am_dsb.npy": {
+      "dtype": "<i2",
+      "sha256": "f09f860e0493671fdf277ee3f71d84bd74366653c734a030357df3108df0735d",
+      "shape": [
+        4096
+      ],
+      "size_bytes": 8320
+    },
+    "demod/exp_audio_fm.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "3489300f23098bbbab2ae32ebd55515d4fdce32375c00317705086b5d89a90f3",
+      "size_bytes": 24576,
+      "word_bits": 16
+    },
+    "demod/exp_audio_fm.npy": {
+      "dtype": "<i2",
+      "sha256": "b363bfb6dc6b4b68ddbba0a9da174fe2c0c3bd66056c13802ed6b31a947251b8",
+      "shape": [
+        4096
+      ],
+      "size_bytes": 8320
+    },
+    "demod/in_am_dsb_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "a5d0d9e07eed6bed7b0123c368b5dae22db36f4a37a16c062541fb7f472ead0a",
+      "size_bytes": 163840,
+      "word_bits": 32
+    },
+    "demod/in_am_dsb_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "a803a2043f0e518b91fa25eaea85127b2117fdbb4e045fb90a3125b9a3002c70",
+      "shape": [
+        16384
+      ],
+      "size_bytes": 65664
+    },
+    "demod/in_am_dsb_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "decb7e9da994faa217f82ecd024f262ffb13fc2e83da54f2fccaf80cc8d63e05",
+      "size_bytes": 196608,
+      "word_bits": 16
+    },
+    "demod/in_am_dsb_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "e6dfbaa6572eaca9eb13f56e5617316eaeaf2eae00a978a63dc886a3e45a6798",
+      "shape": [
+        16384,
+        2
+      ],
+      "size_bytes": 65664
+    },
+    "demod/in_fm_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "3b5d7beb2131c1cdf3bf3bd1bca1b1aa1c4f7d8b10393cd6328546d5c90f63d7",
+      "size_bytes": 163840,
+      "word_bits": 32
+    },
+    "demod/in_fm_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "5bf6a743aaa3bfddc1ce2996aa32cdddca35406c512ea5f1aad3fb05d7529cab",
+      "shape": [
+        16384
+      ],
+      "size_bytes": 65664
+    },
+    "demod/in_fm_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "8aebb935359cb62c0216e23fe34920b392514e43a8d583a8644332d8701fddcc",
+      "size_bytes": 196608,
+      "word_bits": 16
+    },
+    "demod/in_fm_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "20fb6a46aef208bb2eec076cbbc8b1bc58aa2d54a0608dec6543faa45054bff7",
+      "shape": [
+        16384,
+        2
+      ],
+      "size_bytes": 65664
+    },
+    "hoc/exp_16qam.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "7c6b8121ce9b6c26ffd7d70a70d70b63fe4df8c453374c34ca9d50b028a3d0e8",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_16qam.npy": {
+      "dtype": "<i8",
+      "sha256": "640ac5f40372928fdc55b4dd8c81ad074b30f00064dfafe3c76a43c38334549b",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_2fsk.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "738134c748bc4d5b92384d5de39761cb41b509f1bdcc3396e66f84fbcaec5aae",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_2fsk.npy": {
+      "dtype": "<i8",
+      "sha256": "6f90addceb1033bfea422e7d2c8ce594889252c2a018957d24ca73df99992db7",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_64qam.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "f4b772be4845ed9a728db5c033766e9ea6b454552e07a148c0870d5d1eb6be8e",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_64qam.npy": {
+      "dtype": "<i8",
+      "sha256": "d20383eff8453f2d9d865da847a874bf672358920ccedc0bc306919be6baa0fe",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_8psk.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "725df163cbf2940849e4ae02b692b33d719212ea61c595c2482af71667e89100",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_8psk.npy": {
+      "dtype": "<i8",
+      "sha256": "510be46c0094963af3f52e1fd15027229805158382dd646c101faa9af6bc1dc4",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_am_dsb.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "09ccbb0edf311ee9b983e0f23cdb4bd4c0f987d36b31fa618d0d8d2bfe8255d4",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_am_dsb.npy": {
+      "dtype": "<i8",
+      "sha256": "1673291e0a766372cd85a0e3a0b07087c12fc4f970641735dc1ce7dfd19bfc0b",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_bpsk.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "bf1c974bf2d55e4aaceae043eb126e4c31e653035d12152a5fb97bb7e5a5db31",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_bpsk.npy": {
+      "dtype": "<i8",
+      "sha256": "573796e201c00ebb59654066c3252912d1521afc4c2e6f456497ef7ddb715f03",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_fm.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "79e659019b90af3c46fe96f49c908080470cfb70ce814cb47efbc4b56e2cd175",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_fm.npy": {
+      "dtype": "<i8",
+      "sha256": "deddbb8a90ac4f76321460ca1040f33e01a2684149a629d169caf4bc5d972ba2",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_gfsk.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "6c898ad708927ac4c3c0bd0b58b573e9376118e743a5b5a4cdbfd5d0a2d56888",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_gfsk.npy": {
+      "dtype": "<i8",
+      "sha256": "9f7aae8ebd7917f72838dcd8ce0ace33b2af5317f06d7f64b2e61b1e890b5b5e",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_ook.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "9769c77450e83d4e042aa9861c820994bad4a7ba752a54be24fe8f8eb7f712e7",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_ook.npy": {
+      "dtype": "<i8",
+      "sha256": "0f5de30e8c114934aaaf1efa4cc60a64bf3b3728691a23f657313cb5eaad43a7",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/exp_qpsk.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e290541da2bb51c9b0a47faaf2bf69e074fd8005f2cfc6ae336891484559c33a",
+      "size_bytes": 252,
+      "word_bits": 48
+    },
+    "hoc/exp_qpsk.npy": {
+      "dtype": "<i8",
+      "sha256": "a159f57e41fc44149bef34e62baecb2a8c46584d27a1e0db8b7f31cebec052d1",
+      "shape": [
+        9,
+        2
+      ],
+      "size_bytes": 272
+    },
+    "hoc/in_16qam_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "dfc4c74a9ff2c43f977a8ed46e2842c5897164474d7b303850440059ffee321c",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_16qam_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "333b8d4f8945e651d7b78709c019b95f159b03e4926b51ead496454a9995f9e7",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_16qam_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "a7f4a3f10e0ae165b85d052f88d0b585c7d20cb37189c0c8361e226b1f318854",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_16qam_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "895e383608f5c2fd1253456778a299fcf75f2fd90b42d8848e9f7dda51a2c3d6",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_2fsk_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "5eab2eb7a0f63ea21320f2bdb6883a061a1bcddb13233784338c4dad6264df47",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_2fsk_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "a19daece525f38fad1c4242a519861e959540b6248094975eb586e176ed04fba",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_2fsk_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "74219795a15fc8ee773ac3fbb353530d3b547969a4c545a0ae5547be89edffe5",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_2fsk_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "a4be1857ad45bd8923af01edd98c30d66ea71c2e94aa76bbbd9da09bb40b165a",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_64qam_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "6cefc4205add11b686b54a1f125b47bbb55c30e76875f98d71047395822dbc60",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_64qam_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "786047387c9096d34edb00755583e362cf25cc65955b38c45b34b513c93b8a8f",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_64qam_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "eb99ba274eed9d709f16cd6fa5b7b8e5446f0c0ffebf6c912a1ca86998997cd0",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_64qam_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "f051b41b11bc3f0f0b21217d34601e4e238dda76f7deddf5003c33a9f6887f64",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_8psk_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "21606871b89a16ba91c77c68e4ccf5d86ba647376a9153c467015244514bab3f",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_8psk_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "39955d4e8537861d918368124af592ed288fb66e7062ae42f16a29141aa7f067",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_8psk_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "be275fb56fc51e3732a298f1bae373b11484f44394bcc85da228cacbd7359c15",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_8psk_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "282fb1e0de6135aede61f8748c601c4c3b4f8c0df33878b96d8f778976b40341",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_am_dsb_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "2b662eb7d377fcf14feb7cb9acbfaef8eb0149a034ee389ea53e164438b41085",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_am_dsb_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "e7122a09f7f64f15b63da05b3dd2d0154cfac2286227a7edb56a22c4663c052d",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_am_dsb_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "121e7a085fb98aa1759fb021df0222659eabf4e72cdc61e8fdf38ecec5a026cc",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_am_dsb_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "496b76e099e52e68353decd7b58cbbdc699708bf6330393b31c8e8ff6bf8d591",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_bpsk_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "0be4dd0bdf7826ab15773110286f733399bb32aa01d31977ba57f71b34998fae",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_bpsk_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "3edc572ffaacd7a9993158315fc816e8276092034a6b7b4aa530cda906a3de1a",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_bpsk_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "0dec72f907f2745021483c310c93c96c5a976603dc4ee0e0f3dbc0f11a7c1b25",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_bpsk_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "876f7a975900f7c04e6e29bdbc2fba2832a9331147c461fac41920acd2ab3782",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_fm_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e2d588be3de05e4a03e849597e07ea1d6be4891f2d0b57ffd78067a17b2212d4",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_fm_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "ed667bc9ae2e56fc58263ab36876f5ae2769f67ac1e4c6ce82d0e7dd799ed69e",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_fm_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "38316cb045ca288887e88c2b239b90059dbcee2a5abd89a19964579f2b8c9825",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_fm_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "d422747a0b4572dfa66cecb3178b7fe004781bcdba258da027b05e575e7d5ec6",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_gfsk_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "60a0483a2ba32e0841eb9933079405806d5eb43f48258ca83556595d4cbb57b4",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_gfsk_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "6e4955f95dbe3d5a536c1557d9a1bcbd788cb894c5bbec09a9b7020f2e27f2ff",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_gfsk_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "0d6dbfb263f3927d712d1af29fff02e33349faed164092da1da94ce4f8b9fee4",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_gfsk_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "fd3a3b2d4fc1ff6db1a56b21449f1ce892cb7f28467433488f0d25ef263c4165",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_ook_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "60a94a32074c5121297b095c1ed98a575a33df6e14100bf97e77620795298781",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_ook_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "04ca5af81fe10954042453885bfa5211257107a2b11a42d18a7a94ba112dda8c",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_ook_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "6a9af63640e4a678c4d8b4971712b7b3e26ee0e945231b9874297bf6bf90d22f",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_ook_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "15fe82313a68609dd121b1bb333445b42d887f7b3ee3ecee5340446465a90bcd",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_qpsk_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "1e3eee9ba4b3cb108718c98db8ecfeec115ea232266f9a09c757713e304da983",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "hoc/in_qpsk_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "71c0fc299a0735d8d52eff6a814972f9acc8dbf9ab4b273e578439fa21a573be",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "hoc/in_qpsk_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e0092d4ab8ef28d549bf44d14505676ea9ac41f3f13af5431205f1fe0d40aa3a",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "hoc/in_qpsk_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "d0912572630a5b58af3318e51ad6e2447d5bb64676cc7ba1f360649e386e28c7",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "nco_capture/exp_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e4ff613a48ac0a3df2423cecf61bc625bd8d4bf2f72bd00c19ea411324979fc3",
+      "size_bytes": 10240,
+      "word_bits": 32
+    },
+    "nco_capture/exp_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "4e436e18ca1bd94a55af244e65cf07cb013474a3cce72d5d044898856e33fd63",
+      "shape": [
+        1024
+      ],
+      "size_bytes": 4224
+    },
+    "nco_capture/exp_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e4169f2e5ad91f5db3d940bbec914e6f03c0faf74b7a293c3fcb80c1036e84cc",
+      "size_bytes": 12288,
+      "word_bits": 16
+    },
+    "nco_capture/exp_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "623687b88cb6e7152945792d4902110b0eb6fed9c09f0a9829c0c38faea8c7bf",
+      "shape": [
+        1024,
+        2
+      ],
+      "size_bytes": 4224
+    },
+    "nco_capture/in_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "420bde0d637966784773e6f3a2b56e34fa9889415633d4ea1bc3b64af8cafd05",
+      "size_bytes": 81920,
+      "word_bits": 32
+    },
+    "nco_capture/in_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "9372f7dd14264f02a619c37f2dd304408bf62731c8f9e0f839e93266bde59193",
+      "shape": [
+        8192
+      ],
+      "size_bytes": 32896
+    },
+    "nco_capture/in_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "ebcf10a220bddc8612735375162bc160dd998f318b1d53485e27308cecca6c3f",
+      "size_bytes": 98304,
+      "word_bits": 16
+    },
+    "nco_capture/in_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "0fd8ad2cf802fff0199ad8b6152f817571c68169ff5e721e7c5cdeb6a6457157",
+      "shape": [
+        8192,
+        2
+      ],
+      "size_bytes": 32896
+    },
+    "pfb/exp_channels.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "20009a70869600343a8a1b4b6f9455b5971f01c6044474d76820bd4fdcb8cc7a",
+      "size_bytes": 393216,
+      "word_bits": 16
+    },
+    "pfb/exp_channels.npy": {
+      "dtype": "<i2",
+      "sha256": "1dd373468c946783c7d65ee8988a11950b85290af701d9c3d4fb9d5218f3f59c",
+      "shape": [
+        2048,
+        16,
+        2
+      ],
+      "size_bytes": 131200
+    },
+    "pfb/in_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "cb39a7eafff77149feb8e7dd650067e3f4478f6bfb5bf48ac7a621d239545185",
+      "size_bytes": 163840,
+      "word_bits": 32
+    },
+    "pfb/in_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "694fdd4f473a270555251a3d5f83101cfb185fc4fa83beedf396c2c067d09883",
+      "shape": [
+        16384
+      ],
+      "size_bytes": 65664
+    },
+    "pfb/in_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "2349dab8774fb5060674ebb61b1f958bb1e6b859bd82a20df41add2f918bd32f",
+      "size_bytes": 196608,
+      "word_bits": 16
+    },
+    "pfb/in_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "aadd39fc90c4bfcbe426fc2b2c9d30f10d06c95ecf944b98ebc33a2f8ce51818",
+      "shape": [
+        16384,
+        2
+      ],
+      "size_bytes": 65664
+    },
+    "pfb/prototype.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d",
+      "size_bytes": 896,
+      "word_bits": 18
+    },
+    "pfb/prototype.npy": {
+      "dtype": "<i4",
+      "sha256": "057c11c3d8c6c8c8db989c7fa869dc5d1e35a02698fdd2d0af55f3b4ee80bb28",
+      "shape": [
+        128
+      ],
+      "size_bytes": 640
+    },
+    "render/exp_frame.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e92424db583f86246c7b6f7324c639bb86654aced2a004e0be1ee589c0fcd5c3",
+      "size_bytes": 2304000,
+      "word_bits": 16
+    },
+    "render/exp_frame.npy": {
+      "dtype": "<u2",
+      "sha256": "f49389383340224a0c9a5446512e2aa277baf6b7ca9582b9ce103b006dfde210",
+      "shape": [
+        480,
+        800
+      ],
+      "size_bytes": 768128
+    },
+    "render/exp_frame.png": {
+      "sha256": "bd2e2092dffb42817704710065ba6b27bf1b101ede42375617ca38e5b259ad86",
+      "size_bytes": 341276
+    },
+    "render/in_dpx.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "9a24fb27cc5d9cdca72dce1dd9269a513116497c3ac8d1200c219d3d5eacc349",
+      "size_bytes": 184320,
+      "word_bits": 8
+    },
+    "render/in_dpx.npy": {
+      "dtype": "|u1",
+      "sha256": "b7891a950746ca8cee397f1121b923a332b5944728537b24164c2312259d3220",
+      "shape": [
+        128,
+        360
+      ],
+      "size_bytes": 46208
+    },
+    "render/in_peak.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e3773984256e741b2557c4fe2ed2c10fe7cd1e6d9bc4c6e4f50926497427785e",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "render/in_peak.npy": {
+      "dtype": "<i4",
+      "sha256": "0e28e5e2fdcdd759eea7109b3bddae9f2f11d61db36aa248f353e786a4d11c88",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "render/in_spec.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e3773984256e741b2557c4fe2ed2c10fe7cd1e6d9bc4c6e4f50926497427785e",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "render/in_spec.npy": {
+      "dtype": "<i4",
+      "sha256": "0e28e5e2fdcdd759eea7109b3bddae9f2f11d61db36aa248f353e786a4d11c88",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "render/in_targets_bytes.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "word_bits": 8
+    },
+    "render/in_targets_bytes.npy": {
+      "dtype": "|u1",
+      "sha256": "4ca930d4c39dd441d095d27d2ac61750ccb0f54238f1eed588061be710bf4bb6",
+      "shape": [
+        0
+      ],
+      "size_bytes": 128
+    },
+    "render/in_threshold.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "4b96b62a9db57ed65c758ee4f2da23a46ca7235d7d1972f23e8e00fa9eac643d",
+      "size_bytes": 20480,
+      "word_bits": 32
+    },
+    "render/in_threshold.npy": {
+      "dtype": "<i4",
+      "sha256": "aa2847f1a7da866acd8d379a47656f4f1ed530c1ccad332277424e0a0044f7e9",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    },
+    "render/in_ui.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "cf06ea347cb4190bd482720be16cc8b020a570191413ed4d79d6af194d9e1755",
+      "size_bytes": 2304000,
+      "word_bits": 16
+    },
+    "render/in_ui.npy": {
+      "dtype": "<u2",
+      "sha256": "074a19218b9a4bd7c729fb74ae7ca15473be4c064d244383a4575591e218f1e4",
+      "shape": [
+        480,
+        800
+      ],
+      "size_bytes": 768128
+    },
+    "render/in_waterfall.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "2988e6a944b92201813de1e2ce834c7b28d27d731fab8e3e7fababca4528f31c",
+      "size_bytes": 576000,
+      "word_bits": 8
+    },
+    "render/in_waterfall.npy": {
+      "dtype": "|u1",
+      "sha256": "e00ac9336712026c458a26e575b7e5fcd6081848c4f7701e077ff44234d30363",
+      "shape": [
+        200,
+        720
+      ],
+      "size_bytes": 144128
+    },
+    "spectrum/exp_db.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "c477175553b54c5e01883d073ecb7ddef79201398f70600fd6bbf41de013ff6c",
+      "size_bytes": 49152,
+      "word_bits": 16
+    },
+    "spectrum/exp_db.npy": {
+      "dtype": "<i2",
+      "sha256": "6ab588eeafb3c7e49dfa3789b6c5fe91cead5c6beb984da3ba9d44ba779c385e",
+      "shape": [
+        4,
+        2048
+      ],
+      "size_bytes": 16512
+    },
+    "spectrum/exp_fft.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "bf63c89c5f3ef8762cd1eff0d9d0ef97dda18fa9d32e8fa0d5c937600c1ad4c2",
+      "size_bytes": 131072,
+      "word_bits": 24
+    },
+    "spectrum/exp_fft.npy": {
+      "dtype": "<i4",
+      "sha256": "bd852fee6fc270416a97c8af3967e12ee183a9297fc5ff348af5197627a63e0f",
+      "shape": [
+        4,
+        2048,
+        2
+      ],
+      "size_bytes": 65664
+    },
+    "spectrum/exp_power_shifted.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4",
+      "size_bytes": 81920,
+      "word_bits": 32
+    },
+    "spectrum/exp_power_shifted.npy": {
+      "dtype": "<u4",
+      "sha256": "39cc6a657bd4ed40628795c2d3d757fc077728262fc42fccece22250d2fd3661",
+      "shape": [
+        4,
+        2048
+      ],
+      "size_bytes": 32896
+    },
+    "spectrum/exp_welch.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "d54799e5965ea14dd3047b13ec46d0b1ede4076e7cc3231c23f8a79714c23412",
+      "size_bytes": 81920,
+      "word_bits": 32
+    },
+    "spectrum/exp_welch.npy": {
+      "dtype": "<u4",
+      "sha256": "0618fcbaf5b53a8b5ba4935f2608b6059fc8858d46369d9c2be2889c138f9536",
+      "shape": [
+        4,
+        2048
+      ],
+      "size_bytes": 32896
+    },
+    "spectrum/in_axis32.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+      "size_bytes": 81920,
+      "word_bits": 32
+    },
+    "spectrum/in_axis32.npy": {
+      "dtype": "<u4",
+      "sha256": "54d246d3440ae89df10f32149ea659110db02ea90b3ec0caf4be605b0340dce1",
+      "shape": [
+        8192
+      ],
+      "size_bytes": 32896
+    },
+    "spectrum/in_iq.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "f3cefe35a298113600dbb47802fc34faa7015f4687c6685b755c4e74595becf1",
+      "size_bytes": 98304,
+      "word_bits": 16
+    },
+    "spectrum/in_iq.npy": {
+      "dtype": "<i2",
+      "sha256": "7731538055f7724fc4bce85c24d67d1e40cc6c0cd390fb0ca6f4f64a7cf3784e",
+      "shape": [
+        8192,
+        2
+      ],
+      "size_bytes": 32896
+    },
+    "spectrum/log_mantissa_q16.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "23d45ec62afc20bf1b3cb032ffeefacd81d004d1fb1273182cfd5764491b29d4",
+      "size_bytes": 2560,
+      "word_bits": 32
+    },
+    "spectrum/log_mantissa_q16.npy": {
+      "dtype": "<u4",
+      "sha256": "c05a7b6c85b65a5af17cb63a1a59eb6bffdb0f167b153741944458d38d591a07",
+      "shape": [
+        256
+      ],
+      "size_bytes": 1152
+    },
+    "spectrum/window.coe": {
+      "sha256": "d336bb3ede738dc93e1d347733c1746cb8928e2b66849d4ba9b3493160c30b92",
+      "size_bytes": 15625
+    },
+    "spectrum/window.hex": {
+      "order": "C scalar order, twos complement",
+      "sha256": "5ed6ca236a1913645035cba7ee76c90cdaea059afdca9ff735e739785bd86c5b",
+      "size_bytes": 14336,
+      "word_bits": 18
+    },
+    "spectrum/window.npy": {
+      "dtype": "<i4",
+      "sha256": "9504aea1c7cd2aef3183534473970ae27c278eb30eea222ea845fa1b9c87df2e",
+      "shape": [
+        2048
+      ],
+      "size_bytes": 8320
+    }
+  },
+  "schema": 1,
+  "seed": 20261102,
+  "settings": {
+    "audio": {
+      "amplitude_scale": 32768,
+      "fs_in": 192000,
+      "fs_out": 48000
+    },
+    "axis_iq": "I bits15:0, Q bits31:16",
+    "capture": {
+      "dec": 4,
+      "discard_output_samples": 128,
+      "fcw": 27962027,
+      "fs": 3840000.0,
+      "length": 1024,
+      "reference": "phase-quantized NCO + floating FIR; P3 SQNR comparison"
+    },
+    "cfar": {
+      "dc_mask": 3,
+      "g": 2,
+      "gap": 2,
+      "n": 16,
+      "pfa": 0.001
+    },
+    "display": {
+      "height": 480,
+      "wf_head": 0,
+      "width": 800
+    },
+    "fft_scale": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "fft_transport_width": 24,
+    "hoc": {
+      "classes": [
+        "BPSK",
+        "QPSK",
+        "8PSK",
+        "16QAM",
+        "64QAM",
+        "2FSK",
+        "GFSK",
+        "OOK",
+        "AM-DSB",
+        "FM"
+      ],
+      "moment_order": [
+        "M20",
+        "M21",
+        "M40",
+        "M41",
+        "M42",
+        "M60",
+        "M61",
+        "M62",
+        "M63"
+      ],
+      "shifts": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "log2_db_q16": 197283,
+    "nfft": 2048,
+    "pfb": {
+      "d": 8,
+      "fft_width": 24,
+      "m": 16,
+      "phase_endpoint": "n*D",
+      "taps": 128
+    },
+    "power_order": "fftshifted",
+    "spectrum_fft_order": "natural",
+    "spectrum_fft_width": 16
+  }
+}

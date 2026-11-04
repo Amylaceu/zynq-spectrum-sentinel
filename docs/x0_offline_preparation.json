@@ -1,0 +1,26 @@
+{
+  "recorded_at_pc": "2026-11-03T00:59:44.208164+08:00",
+  "status": "PASS",
+  "scope": "PC-only synthetic backup verifier tests and existing PS regressions; no real SD verification, SSH, MMIO or RF",
+  "tests": {
+    "passed": 75,
+    "new_sd_verifier_tests": 14,
+    "existing_ps_tests": 61,
+    "log": "logs/X0_offline_backup_tests_r1.log",
+    "log_sha256": "c65eebc8720e41b8190270b2671cb4352d87d5a3049c1ec55640498e2d1f629a"
+  },
+  "files_sha256": {
+    "tools/verify_sd_image.py": "ee722bae9fa858d504a5fead293109300869888a9f8cd4ac8d496b1480d9f9ed",
+    "tools/tests/test_verify_sd_image.py": "880bf8bddb3463f3dbd627b428c64ca3ffdef6c2fe1d26fcbd28ee957b21f331",
+    "docs/x0_resume_after_backup.md": "3aa4e646a43c6a18e1218f97f942599f86fdb520fe74f4eb73577f7bd379a84c",
+    "docs/x1_interface_preparation.md": "25a877b641978c3cdf60e6cca606dc2e2df0df67b18dc0fe372e41d00a56d43b"
+  },
+  "recovery_powershell_blocks": {
+    "count": 5,
+    "parse_errors": 0,
+    "executed": false
+  },
+  "x0_complete": false,
+  "x1_implementation_started": false,
+  "image_verification_performed": false
+}

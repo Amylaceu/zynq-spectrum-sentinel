@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "exit_code": 1,
+  "duration_s": 6.2189999999827705,
+  "verified_files": 347,
+  "all_sha256_match": true,
+  "exe_sha256": "6a6e607de9ec27cff448e585290a8bd88655e716dbc8ed92d0d87c35435611ba",
+  "scope": "Copied to new directory on same Windows PC; PATH only System32, no Python environment; not a separate clean computer",
+  "preview_source": "OFFLINE_SYNTHETIC",
+  "stderr": "Traceback (most recent call last):\r\n  File \"run_host.py\", line 7, in <module>\r\n  File \"pyimod02_importers.py\", line 457, in exec_module\r\n  File \"sentinel_host\\__main__.py\", line 7, in <module>\r\nImportError: DLL load failed while importing QtCore: \ufffd\u04b2\ufffd\ufffd\ufffd\u05b8\ufffd\ufffd\ufffd\u0133\ufffd\ufffd\ufffd\r\n"
+}

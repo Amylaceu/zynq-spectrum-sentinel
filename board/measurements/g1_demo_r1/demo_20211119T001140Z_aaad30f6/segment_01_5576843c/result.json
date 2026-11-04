@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "RF_TX_requested": false,
+  "audio_playback": false,
+  "station_selection": {
+    "candidates": [
+      {
+        "station": {
+          "frequency_hz": 95800000,
+          "lo_hz": 96050000,
+          "confirmed_stereo": true
+        },
+        "measurements": [
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 37.61045595776392,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.21692398394495374,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          },
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 37.93578134298127,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19870880187658543,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          },
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 38.32963803748025,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.21770874231604917,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          }
+        ],
+        "trusted": true,
+        "median_iq_power": 0.04705601481055055
+      }
+    ],
+    "selected": {
+      "frequency_hz": 95800000,
+      "lo_hz": 96050000,
+      "confirmed_stereo": true
+    },
+    "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+    "skipped_other_lo": 0
+  },
+  "product_id": 10,
+  "startup_quality": {
+    "quality": {
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.96847580314789,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.21537655131578412,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+    },
+    "noise_event": null,
+    "pilot_pass": true,
+    "quality_pass": true
+  },
+  "telemetry": {
+    "temperature_c": 60.90518188458,
+    "rx_rssi_dbm": -85.0,
+    "tx_atten_mdb": [
+      89750,
+      89750
+    ]
+  }
+}

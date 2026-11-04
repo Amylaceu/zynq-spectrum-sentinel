@@ -1,0 +1,77 @@
+{
+  "status": "HALTED_CONFIRMED",
+  "recorded_at_pc": "2026-11-03T00:35:07.839321+08:00",
+  "user_repower_report": "我已经给FPGA重新上电，并且重新插拔USB，重新识别",
+  "boot_id_before_shutdown": "c51e0ef5-c5a6-435a-bda8-ddbe3df5f2bc",
+  "serial_port": "COM10",
+  "ssh_recovered": true,
+  "console_prompt_recovered": true,
+  "startup_warning_lines": [
+    "[    3.440609] mmc0: SDHCI controller on e0100000.mmc [e0100000.mmc] using ADMA",
+    "[    3.480211] mmc1: SDHCI controller on e0101000.mmc [e0101000.mmc] using ADMA",
+    "[    3.551507] mmc0: new high speed SDHC card at address 0001",
+    "[    3.566410] mmcblk0: mmc0:0001 SD16G 29.1 GiB ",
+    "[    3.587928]  mmcblk0: p1 p2",
+    "[    3.655640] mmc1: new high speed MMC card at address 0001",
+    "[    3.670688] mmcblk1: mmc1:0001 eMMC   7.29 GiB ",
+    "[    3.674748] mmcblk1boot0: mmc1:0001 eMMC   partition 1 4.00 MiB",
+    "[    3.679701] mmcblk1boot1: mmc1:0001 eMMC   partition 2 4.00 MiB",
+    "[    3.684797] mmcblk1rpmb: mmc1:0001 eMMC   partition 3 4.00 MiB, chardev (244:0)",
+    "[    3.692356]  mmcblk1: p1",
+    "[    4.479657] EXT4-fs (mmcblk0p2): recovery complete",
+    "[    4.489066] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)",
+    "[    4.495950] VFS: Mounted root (ext4 filesystem) on device 179:2.",
+    "[    7.808160] systemd-journald[124]: File /var/log/journal/236dbcc4a6dba1caa1d5d5bc61955d45/system.journal corrupted or uncleanly shut down, renaming and replacing.",
+    "[   30.657406] systemd-journald[124]: File /var/log/journal/236dbcc4a6dba1caa1d5d5bc61955d45/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.",
+    "[   41.009330] FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck."
+  ],
+  "failure_measurement_found": false,
+  "failure_cause": "unconfirmed; unloaded-image MMIO ordering defect was fixed, but previous run logs were unavailable",
+  "deployed_fixes": [
+    {
+      "local": "src/ps/sentinel/overlay.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/overlay.py",
+      "size": 3829,
+      "sha256": "3bf18a2c7f9e48c9613f9882972172280203e7aeac05ee76171c8eac4adfd395",
+      "old_sha256": "5206941bf2880b178faac44666da4c98f4ec8c8591b8f610432c05a966a4b27c"
+    },
+    {
+      "local": "src/ps/sentinel/app/monitor.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/monitor.py",
+      "size": 4952,
+      "sha256": "6c4277ac2f300a321d15d15e34b7d46ca41e6f70bc380a457eae787248286387",
+      "old_sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41"
+    },
+    {
+      "local": "board/scripts/zss_n4_admin.py",
+      "remote": "/home/xilinx/sentinel/setup/zss_n4_admin.py",
+      "size": 4174,
+      "sha256": "1cf491af2f786f84a21715450b4503bbe7bdf912aee98937dbc1a0a030ba3fcb",
+      "old_sha256": null
+    },
+    {
+      "local": "board/scripts/update_x0_admin.sh",
+      "remote": "/home/xilinx/sentinel/setup/update_x0_admin.sh",
+      "size": 1576,
+      "sha256": "385a09e538218fdfd89d365e093e910fe601a82b83234e67ee31262a784b3824",
+      "old_sha256": null
+    }
+  ],
+  "installed_helper_sha256": "1cf491af2f786f84a21715450b4503bbe7bdf912aee98937dbc1a0a030ba3fcb",
+  "final_deployment_verification_log": "logs/X0_recovery_final_verify_r1.log",
+  "final_deployment_verification_sha256": "6ef34dfc3be891ee22efb23b1a621cf082e5235755bea1ded8b9859702d531c2",
+  "shutdown": {
+    "command": "sudo sync && sudo shutdown -h now",
+    "precondition": "No Python monitor, benchmark or selftest process found immediately before shutdown",
+    "uart_log": "logs/X0_safe_shutdown_after_repower_r1.log",
+    "uart_log_sha256": "e28b5605b6e6d3389b809e3a4cb601c89b0e3f48a711b135b55fa7393f579651",
+    "uart_result": "logs/X0_safe_shutdown_after_repower_r1_result.json",
+    "system_halted_observed": true,
+    "note": "SSH closed by remote host during shutdown; serial System halted is the completion evidence"
+  },
+  "rf_or_fpga_operations_this_recovery": false,
+  "sd_capacity_bytes": 31266439168,
+  "sd_backup_status": "PENDING-HUMAN",
+  "x0_state": "BLOCKED-HUMAN",
+  "next_action": "User removes power and connects SD card to reader, or supplies existing whole-card image; verify identity/capacity before imaging. Do not assume healthy filesystems or successful backup."
+}

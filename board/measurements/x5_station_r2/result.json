@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "source": "rf",
+  "RF_TX_requested": false,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "image": "sentinel_v1d",
+  "artifacts_sha256": {
+    "sentinel_v1d.bit": "de0973e68b41773929b12d045a7fbbcd76727c51b10c40e4f4607cdb7424ad75",
+    "sentinel_v1d.hwh": "e4751faf8960693d0d2e954084694bc6a4abf3089769345f78f303476698345b",
+    "sentinel_v1d.xsa": "6ddb3c22c060c421d0e3d8901bee46126c936a55489daac2f37a61a971c8eb1c"
+  },
+  "model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "model_status": "X4 FAIL experimental candidate",
+  "confidence_scope": "Uncalibrated classifier score",
+  "requested_lo_hz": 96400000,
+  "rate_hz": 3840000,
+  "channel_rate_hz": 480000,
+  "bus_phase": 3,
+  "duration_requested_s": 120.0,
+  "fm_truth_hz": [
+    95800000.0
+  ],
+  "truth_tolerance_hz": 25000,
+  "records": [],
+  "telemetry": [],
+  "snapshot_misses": 0,
+  "snapshot_attempts": 0,
+  "error": "Unexpected v1d memory window: axi_lcd_ui",
+  "summary": {
+    "first_observed_to_applied_median_ms": null,
+    "first_label_tracks": 0,
+    "fm_truth_captures": 0,
+    "fm_raw_fraction": null,
+    "fm_voted_fraction": null,
+    "fm_displayed_fraction": null,
+    "fm_status": "NOT_EVALUATED_NO_INDEPENDENT_TRUTH",
+    "latency_scope": "First PS CFAR observation to LCD APPLIED; earlier detection delay unmeasured"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "FAIL_SUBJECTIVE_STOPPED_EARLY",
+  "human_statement": "这个广播和刚才一样，基本上全是噪声，听不到内容",
+  "stop_reason": "Human reports unintelligible audio; sent SIGTERM to exact board Python PID 6728",
+  "elapsed_s": 168.56604013700053,
+  "underflows": 0,
+  "bus_phase": 2,
+  "station_hz": 95800000,
+  "lo_hz": 96050000,
+  "codec_muted": true,
+  "postflight_pass": true,
+  "execution_sha256": "14c88b32fc50b947f9edd7094acf63af6670d2a203202994eb95c81ac95652f4",
+  "recorded_at_utc": "2026-11-03T11:41:19.5390714Z"
+}

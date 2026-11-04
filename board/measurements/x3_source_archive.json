@@ -1,0 +1,7 @@
+{
+  "sources_sha256": {
+    "board/measurements/x3_sources/perf_x3_perf_r2.py": "d349ee0da21b1f28ddd16b6311b33448782d4d7f92c2cbab0887955e5bfe7382",
+    "board/measurements/x3_sources/perf_x3_perf_r3.py": "05e647e81aa524b96b4d61c1af552594d4bd4ffe5f235bc0865105a183616846"
+  },
+  "scope": "Exact board measurement sources from atomic deployment backups; never rerun historical failed trials"
+}

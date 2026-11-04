@@ -1,0 +1,112 @@
+{
+  "status": "PASS_FUNCTIONAL_RX",
+  "scope": "100 MHz migration functional regression; not Y2 accuracy acceptance",
+  "checks": {
+    "execution": true,
+    "completed": true,
+    "duration": true,
+    "raw_packets": true,
+    "startup_clean": true,
+    "sample_fifo_clean": true,
+    "tx_muted": true,
+    "safe_receive": true,
+    "stopped": true
+  },
+  "image": "sentinel_v2_100m",
+  "configuration": "A",
+  "elapsed_s": 120.46714334699936,
+  "captures": 191,
+  "telemetry_count": 94,
+  "display_fps_median": 28.987729401821717,
+  "display_fps_min": 27.710708982537106,
+  "temperature_c_range": [
+    63.981201171680006,
+    64.965527343552
+  ],
+  "classifier_summary": {
+    "first_observed_to_applied_median_ms": 534.9410710005031,
+    "first_label_tracks": 69,
+    "fm_truth_captures": 1,
+    "fm_raw_fraction": 0.0,
+    "fm_voted_fraction": 0.0,
+    "fm_displayed_fraction": 0.0,
+    "fm_status": "MEASURED",
+    "latency_scope": "First PS CFAR observation to LCD APPLIED; earlier detection delay unmeasured"
+  },
+  "receive_startup": {
+    "scope": "Before acquisition only; no in-session fault masking",
+    "reset_register_before": 3,
+    "reset_register_after": 3,
+    "perf_before": {
+      "samples": 0,
+      "cycles": 423755572,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 1,
+      "fifo_level": 0
+    },
+    "perf_after": {
+      "samples": 0,
+      "cycles": 1015500,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 1
+    }
+  },
+  "human_visual": {
+    "status": "PASS",
+    "source": "User reply in this chat",
+    "statement": "\u8ba1\u6570\u589e\u52a0\u3001\u9891\u8c31\u7011\u5e03\u66f4\u65b0\u3001\u5217\u8868\u548c\u70b9\u56fe\u6b63\u5e38"
+  },
+  "retained_failures": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "Y2",
+    "Z10 +1ns",
+    "T5 +1ns"
+  ],
+  "evidence": {
+    "board/measurements/y3_v2_selftest_r1_execution.json": {
+      "status": "PASS",
+      "sha256": "4fcd28ecd11f71a09e4433c30a76c5cf44d452f563ac5a606c9d40095b03c272"
+    },
+    "board/measurements/y3_v2_rx_interface_r1_execution.json": {
+      "status": "PASS",
+      "sha256": "91581aa86f8024346225ee2695f5a4e11b6c82ca3dab956dd252e79157cc24d5"
+    },
+    "board/measurements/v2_x5_station_r1_execution.json": {
+      "status": "FAIL_EXECUTION",
+      "sha256": "86f775b179da8be6a5e7765e4c5659e672a09ab3574421d451ca496a42994ddf"
+    },
+    "board/measurements/v2_x5_station_r2_execution.json": {
+      "status": "FAIL_EXECUTION",
+      "sha256": "bebef479fd6a3f493e5e2cdf270241340b541c4be8e25bc9f41145b35488e43d"
+    },
+    "board/measurements/v2_x5_station_r3_execution.json": {
+      "status": "PASS_EXECUTION",
+      "sha256": "67c82a884c13d69f85d8aa98cded6363318beef51e9346a9353dd842f0d05fa2"
+    }
+  },
+  "result_sha256": "2d7565b55629428ee73e8951564e1a09e2a1d1c645d55de3b306acb63c799f6d",
+  "tests_sha256": "41902e83cac0ec785a322774fac7037ee43acb53a5ab3447b03a71634c21717c",
+  "full_regression": {
+    "passed": 503,
+    "capture": "disabled for Windows Tcl compatibility",
+    "log_sha256": "fa404544610f80c3935b2dc355868fa34c445aa312fe55802311d42ddb2e0a35"
+  },
+  "software_sha256": {
+    "src/ps/sentinel/v2.py": "8b74c83d27b5ec3f13c3c46c531dc6a5273a568e7ce4f747686afae93547c9b2",
+    "src/ps/sentinel/app/runtime_v1.py": "839819414c621838fac078e206b5b2d4c9aca414d0dcdff823f13a3f0a4f78f3",
+    "src/ps/sentinel/app/monitor_x5.py": "2fa4171ff70db570a1bb2080a379aa8f5d0783336afcb120427385cdc0cd109c",
+    "src/ps/tests/test_v2_receive_startup.py": "9499591d7f69331a8c67c637909dc8b555b91bcafd00a07d8bd09e3118ed0a35"
+  }
+}

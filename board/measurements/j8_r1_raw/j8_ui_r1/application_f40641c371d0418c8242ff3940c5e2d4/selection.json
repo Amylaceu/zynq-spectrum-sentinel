@@ -1,0 +1,61 @@
+{
+  "candidates": [
+    {
+      "station": {
+        "frequency_hz": 95800000,
+        "lo_hz": 96050000,
+        "confirmed_stereo": true
+      },
+      "measurements": [
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 30.059539831979116,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.20419010208310256,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": null,
+          "pilot_pass": true,
+          "quality_pass": true
+        },
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 33.82682826700784,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.20019173915829733,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": null,
+          "pilot_pass": true,
+          "quality_pass": true
+        },
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 30.35268382312127,
+            "large_excursion_fraction": 0.0,
+            "iq_rms": 0.20116690745506666,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": null,
+          "pilot_pass": true,
+          "quality_pass": true
+        }
+      ],
+      "trusted": true,
+      "median_iq_power": 0.040468124655035353
+    }
+  ],
+  "selected": {
+    "frequency_hz": 95800000,
+    "lo_hz": 96050000,
+    "confirmed_stereo": true
+  },
+  "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+  "skipped_other_lo": 0
+}

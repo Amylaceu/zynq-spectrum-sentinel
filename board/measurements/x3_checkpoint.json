@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "step": "X3",
+  "status": "FAIL_ORIGINAL_LATENCY",
+  "regression": {
+    "passed": 244,
+    "log": "logs/X3_regression.log"
+  },
+  "sources_and_evidence": {
+    "src/ps/sentinel/app/perf_x3.py": "1107e4af2d3b2530abddc74388cae55f63e42d31d14ad871fab0f7f4d739dfb6",
+    "board/scripts/run_x3_perf.py": "6573f7f4854ebc35b5173269e0dffc5c3bec94518e7693bb2fb7ed1ccf980f2c",
+    "tools/run_x3_board.py": "a350afd699d2a1d382c7da92b845e537ea75892743f8052d74ef15048e1aa3d9",
+    "tools/analyze_x3.py": "d5c97ce6a3247e2c23dfb671b82f0bee5c2ed4d9ac4e314afb61d75d8d051994",
+    "tools/render_x3_report.py": "bd87979a8c386cf78107035cf816f190156c014f31437e5dc653503e5e75d444",
+    "tools/tests/test_analyze_x3.py": "12df2d9cdf4bb2424f33afc9a35187ad8c0957db84790db52e1a2c0f68106c2f",
+    "board/measurements/x3_analysis.json": "9850cb6421c902dfe959b027ab85e8358a77d826ba213a08f40e9a1fe2c8bde0",
+    "board/measurements/x3_g1_acceptance.json": "4db1ed77c37ab70d6d7b0190e167d0a6f3a0594eb5e7f041a4a1372bccbb3f59",
+    "board/measurements/x3_report_manifest.json": "8b84c6bf52c9334f2d5eb3e9c2606a6a8350882a5181d7f7ec1921893dbf7e10",
+    "logs/X3_regression.log": "2011e4f3d6dd5acc20abbd8df47b178975de5acea98b067afebd85ea9ac55507"
+  },
+  "manual_plot_review": "E10 revised footer and labels verified readable; no new RF visual claim",
+  "next": "X4 PC-only; X1/X2/X3 unmet targets retained"
+}

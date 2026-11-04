@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "technical_status": "PASS",
+  "workflow_status": "BLOCKED-HUMAN",
+  "pending": [
+    "Copy full snapshot and sidecars to independent storage",
+    "SD full-card backup reminder; stop software, sync and halt before power removal"
+  ],
+  "archive": {
+    "schema": 1,
+    "archive": "zss_snapshot_20261103.zip",
+    "sha256": "058786e1eb619efc1565c9440582e1cc38684f88ffa931a07f45dc2ad639c4c7",
+    "bytes": 9663493316,
+    "file_count": 14250,
+    "uncompressed_bytes": 10094338433,
+    "git_head": "8b72aeded47e8918c17921396d50854bc54d4f29"
+  },
+  "independent_archive_sha256_match": true,
+  "manifest_verification": {
+    "manifest_members": 14250,
+    "initial_inventory_preserved": 769,
+    "missing": [],
+    "changed": [],
+    "groups": {
+      ".gitattributes": 1,
+      ".gitignore": 1,
+      ".gitmodules": 1,
+      "AGENTS.md": 1,
+      "HANDOFF.md": 1,
+      "LICENSE": 1,
+      "README.md": 1,
+      "UPDATE_README.txt": 1,
+      "requirements-board.txt": 1,
+      "requirements.txt": 1,
+      "board": 1718,
+      "build": 529,
+      "data": 306,
+      "docs": 134,
+      "report": 145,
+      "runbook": 21,
+      "sim": 284,
+      "skill": 1,
+      "src": 357,
+      "third_party": 9253,
+      "tools": 251,
+      "vendor": 1241
+    },
+    "git_head": "8b72aeded47e8918c17921396d50854bc54d4f29"
+  },
+  "restore_test": {
+    "exit_code": 0,
+    "test_scope": [
+      "src/ps/tests",
+      "tools/tests/test_make_handoff_zip.py"
+    ],
+    "log_sha256": "62289c0377eb36e62cc707538778c94531a7316530dbf9d43dc27da96c7e2a62",
+    "log_tail": "......................EXPORT_COMPLETE c9347912b6f238dccadcd4c82654edbdb9c169bfbbaaff5ef93b0732593f429a\n..................................................................................................................................................................................................................................................................................................\n312 passed in 5.66s\n",
+    "restored_directory": "dist/F0_restore_20261103/zss",
+    "python_environment": "existing project Python 3.12.10; no fresh OS installation claimed"
+  },
+  "commit_test_receipts": [
+    {
+      "staged_tree": "22e1d539c18c84e8c3063f4fd624d917e117368f",
+      "exit_code": 0,
+      "log_sha256": "2d8c0e183f5765b8c76b94d1130d13107579a36543a0cad8a276ef6b4dba7954",
+      "label": "F0_commit1_test_receipt"
+    },
+    {
+      "staged_tree": "e5a84b5e0a6cd101191e39f366aa51c292969ddd",
+      "exit_code": 0,
+      "log_sha256": "7c861c1903a5392c293c8dfe68e2f357fbfde2ad27039f4c45bf5aefcf0e25ef",
+      "test_scope": "src/ps/tests",
+      "pytest_flags": "-q -s",
+      "log_tail": "......................EXPORT_COMPLETE c9347912b6f238dccadcd4c82654edbdb9c169bfbbaaff5ef93b0732593f429a\n...............................................................................................................................................................................................................................................................................................\n309 passed in 4.28s\n",
+      "label": "F0_commit2_test_receipt"
+    },
+    {
+      "staged_tree": "3dc73e75ea43b653fb828ef7a38191052d709a6c",
+      "exit_code": 0,
+      "log_sha256": "f22cd10a2eb7150f211e703b6b1fc6798ff9b0e0c550efe9945feebbbc6569fb",
+      "test_scope": "src/ps/tests",
+      "pytest_flags": "-q -s",
+      "log_tail": "......................EXPORT_COMPLETE c9347912b6f238dccadcd4c82654edbdb9c169bfbbaaff5ef93b0732593f429a\n...............................................................................................................................................................................................................................................................................................\n309 passed in 4.35s\n",
+      "label": "F0_commit3_test_receipt"
+    }
+  ],
+  "initial_counts": {
+    "modified": 33,
+    "untracked_collapsed": 213,
+    "untracked_expanded": 643
+  },
+  "snapshot_only_removed_from_index": 93,
+  "all_original_inventory_files_preserved": true,
+  "frozen_source_and_bundle_index_byte_checks": 49,
+  "baseline_files": {
+    "sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "sentinel_v2_100m.hwh": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+    "sentinel_v2_100m.xsa": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc"
+  },
+  "source_newline_note": "One CRLF byte in test_v2_clock.py had been normalized in the first commit; the final receipt commit stages the original working bytes. Archive already contains those original bytes. No functional change.",
+  "submodules": [
+    "b62abeff22d613d08e1aeb7f94850ab6a6576a74 third_party/hdl (2026.1.0)",
+    " b8f9317a7f426046b9a9004b6c05ae95120fa8fe third_party/no-OS (heads/main)"
+  ],
+  "logs": [
+    {
+      "path": "logs/F0_archive_independent_sha.json",
+      "bytes": 157,
+      "sha256": "4ce73a302698366601d83d6278e80c5cdafed163761ca9888b0645b498c08231"
+    },
+    {
+      "path": "logs/F0_commit1_paths.json",
+      "bytes": 4533,
+      "sha256": "dcf97871c458e161ea1634dd9c77132e9e205769100f6b9cd3013c0893644b49"
+    },
+    {
+      "path": "logs/F0_commit1_test_receipt.json",
+      "bytes": 171,
+      "sha256": "69f5666728508ff70ffc079d9a253bfbc5ffa12d61a43311a44056cfd601e07a"
+    },
+    {
+      "path": "logs/F0_commit1_tests.log",
+      "bytes": 414,
+      "sha256": "2d8c0e183f5765b8c76b94d1130d13107579a36543a0cad8a276ef6b4dba7954"
+    },
+    {
+      "path": "logs/F0_commit2.log",
+      "bytes": 48410,
+      "sha256": "9ed14d41d758c177cf231b79e4363d10db8725e5a603b3fe1900ef02f70070fb"
+    },
+    {
+      "path": "logs/F0_commit2_test_receipt.json",
+      "bytes": 665,
+      "sha256": "97415e336126e0d5fce69edc6316fd4f992acb6a2047a4815db474afc2d9288d"
+    },
+    {
+      "path": "logs/F0_commit2_tests.log",
+      "bytes": 414,
+      "sha256": "7c861c1903a5392c293c8dfe68e2f357fbfde2ad27039f4c45bf5aefcf0e25ef"
+    },
+    {
+      "path": "logs/F0_commit3.log",
+      "bytes": 1277,
+      "sha256": "72fce9f35b08931c7f6714f58f0476a96f46d1845449a9b746b06577c71f20a8"
+    },
+    {
+      "path": "logs/F0_commit3_test_receipt.json",
+      "bytes": 665,
+      "sha256": "1bbdfcfe8c1123d7634c8a3d010fc6223b2e6c34b9a68aa447ca2861e5bcfbc5"
+    },
+    {
+      "path": "logs/F0_commit3_tests.log",
+      "bytes": 414,
+      "sha256": "f22cd10a2eb7150f211e703b6b1fc6798ff9b0e0c550efe9945feebbbc6569fb"
+    },
+    {
+      "path": "logs/F0_environment.json",
+      "bytes": 9388,
+      "sha256": "52027d1ccb23c689839d5ca60a61b12e547683e500c4bfdcac6ade810ea4f345"
+    },
+    {
+      "path": "logs/F0_initial_inventory_summary.json",
+      "bytes": 475,
+      "sha256": "6ff40391d33bf983c9231a3d45564a2241eb9eb011a940be6411cb53a27def77"
+    },
+    {
+      "path": "logs/F0_manifest_review.json",
+      "bytes": 666,
+      "sha256": "791a0fed3c8c5047008bcb845bfb1f3908383733b920de58e6dd8b7d4071a90a"
+    },
+    {
+      "path": "logs/F0_restored_test_receipt.json",
+      "bytes": 786,
+      "sha256": "b1d97270207a5771bf52dcbe835a95d2814dce3746f67bdc292d8150c4dafdf8"
+    },
+    {
+      "path": "logs/F0_restored_tests.log",
+      "bytes": 417,
+      "sha256": "62289c0377eb36e62cc707538778c94531a7316530dbf9d43dc27da96c7e2a62"
+    },
+    {
+      "path": "logs/F0_snapshot_build.log",
+      "bytes": 561,
+      "sha256": "1dda2e05fc894a56d365e09857e110ab48150a5295dbfca2e5afc148c387cadf"
+    },
+    {
+      "path": "logs/F0_snapshot_restore.log",
+      "bytes": 612,
+      "sha256": "1a1237ca928c1e18902f191e53a4d5d877b8777ba0b95a3a3f9344be04950d80"
+    },
+    {
+      "path": "logs/F0_snapshot_tool_staged_tests.log",
+      "bytes": 24,
+      "sha256": "6a4a6024477450987ef87cfcf0f6dca66dff5f3dbf3f416a89d08ee368298cd7"
+    },
+    {
+      "path": "logs/F0_snapshot_tool_tests.log",
+      "bytes": 24,
+      "sha256": "9e2a8a9874f30e12c6fefd5e831e777e98f0e0c6416203c125d7f927f0f1955b"
+    },
+    {
+      "path": "logs/F0_tests.log",
+      "bytes": 414,
+      "sha256": "77fcf776aea6d048cc37ce12b152cecc121b97452c29fac3fc5be860300a4f27"
+    }
+  ],
+  "limitations": [
+    "Restore tested in another clean directory with existing Python environment, not a fresh OS install.",
+    "Archive is immutable at the recorded git_head; final acceptance and snapshot index are created afterward.",
+    "No board, RF, audio, training or synthesis/routing executed in F0.",
+    "Historical failures and unidentified intermittent RF noise cause remain unchanged.",
+    "Git history, virtualenv, SD images and incremental build caches excluded."
+  ],
+  "completed_source_commits": [
+    "8b72aeded47e8918c17921396d50854bc54d4f29 [F0] document frozen baseline and add verifiable full snapshot tooling",
+    "1fdfeef0bcccb86f60c6f36ed40a97642e7d966e [F0] preserve measurement evidence and classify snapshot-only artifacts",
+    "742df1485c9009ff5c76ce6ec066c0e1dfd94328 [F0] freeze verified 100MHz hardware, runtime and board tools"
+  ]
+}

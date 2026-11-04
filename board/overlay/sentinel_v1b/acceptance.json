@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T03:04:04.755584+08:00",
+  "scope": "PC implementation acceptance only; no X1 RF metrics or visual acceptance",
+  "cfar_version": 1128660994,
+  "final_timing": {
+    "WNS_ns": 0.0,
+    "TNS_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "WHS_ns": 0.032,
+    "THS_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "WPWS_ns": 0.264,
+    "pulse_failing_endpoints": 0
+  },
+  "resources": {
+    "Slice LUTs": 30626.0,
+    "Slice Registers": 42779.0,
+    "Block RAM Tile": 47.5,
+    "DSPs": 64.0
+  },
+  "bus_skew": {
+    "reported_paths": 31,
+    "minimum_slack_ns": 2.997
+  },
+  "addresses": {
+    "axi_dma_replay": "0x40400000",
+    "axi_ad9361_gpio": "0x41200000",
+    "axi_capture_ctrl": "0x41220000",
+    "axi_iic_fmc": "0x41620000",
+    "axi_sentinel_intc": "0x41800000",
+    "axi_ad9361_spi": "0x41e00000",
+    "axi_lcd_ui": "0x42000000",
+    "axi_power_capture": "0x42010000",
+    "src_mux_0": "0x43c00000",
+    "spec_front_0": "0x43c10000",
+    "cfar_core_0": "0x43c20000",
+    "lcd_engine": "0x43c60000",
+    "perf_mon_0": "0x43c70000",
+    "axi_sysid_0": "0x45000000",
+    "axi_ad9361": "0x79020000",
+    "axi_ad9361_adc_dma": "0x7c400000",
+    "axi_ad9361_dac_dma": "0x7c420000"
+  },
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "prebuild_manifest_sha256": "56f6b3bae6f4e4d81b96716ddc1d68ef23440f839ba4b3b9bf6330ea35b60ec8",
+  "report_sha256": {
+    "final_bus_skew.rpt": "357eb4b1d2bee985fea665655124e453d21d31422c948b4e2828209bd13ba736",
+    "final_cdc.rpt": "bae1f3abbcb53fc565249e3604772cfaed7c113270e1d6ea1be62517330f3b10",
+    "final_clocks.rpt": "a4403bbd7b74feea27324386c9d35b33de5b35a8d9853b27c0c164797b33ded6",
+    "final_io.rpt": "1d19eb8cbe88101c246b6880116fb560d1bd28d1ec4897d8ae36ba234b46811d",
+    "final_timing.rpt": "4b69ba61f25106b8a7c019e254c42a221b01d33395713f3e5a9164935e58fbbc",
+    "final_utilization.rpt": "9520858e8a283553fa881af7ac650b5818cd28df023cf3238cb0200ff7f28485"
+  },
+  "cdc_review": "Inherited ADI warnings retained in final_cdc.rpt; no blanket risk waiver",
+  "timing_source": "Fresh open_run impl_1 after post-route ADI timing fix",
+  "standalone_cluster_r1_hold_result": "FAIL retained; routed full-system report assessed separately"
+}

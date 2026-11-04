@@ -1,0 +1,40 @@
+{
+  "status": "PASS_BOUNDED_DIAGNOSTIC_REVIEW",
+  "scope": "30-second quality-gated stereo FM; not five-minute Y3 acceptance",
+  "original_execution_status": "FAIL_EXECUTION",
+  "original_failed_check": "sample_count: 25 telemetry samples vs old minimum26; old receipt preserved",
+  "review_policy": "Blocking IQ/IIC operations: maximum telemetry gap2s and >=80% audible duration; final sticky faults also checked",
+  "checks": {
+    "completed": true,
+    "duration": true,
+    "sample_count": true,
+    "fifo_clean": true,
+    "display": true,
+    "final_interval_clean": true,
+    "temperature": true,
+    "clock_counts": true,
+    "rf_muted": true,
+    "codec_stopped": true,
+    "source_stopped": true,
+    "same_boot": true,
+    "telemetry_coverage": true,
+    "audible_coverage": true
+  },
+  "result_sha256": "464b3ac0844fa0f02f254d0ce04d86737aaf5245ce173b680ed9c03b241e0d7b",
+  "original_execution_sha256": "62fbd19a925a49c42b8083b29c407be7525ebf0a17a15bd1bff28b9869cafb4f",
+  "evaluator_sha256": "95493a7b4773a97518fee0b5919a08f93a8c6b785c59cc6afd49f48bc94572c3",
+  "duration_s": 30.02259791400138,
+  "audible_seconds": 28.967737240000133,
+  "quality_samples": 75,
+  "good_quality_samples": 75,
+  "minimum_display_fps": 40.7784133902946,
+  "maximum_underflows": 0,
+  "user_report": "\u80fd\u770b\u6e05\u695a\u5c4f\u5e55\u5185\u5bb9\uff0c\u5e76\u4e14\u5e7f\u64ad\u6bd4\u4e4b\u524d\u6e05\u6670",
+  "human_status": "IMPROVED_AS_REPORTED",
+  "not_claimed": [
+    "Interference source identified",
+    "five-minute acceptance",
+    "full Y3 DONE"
+  ],
+  "tests_log_sha256": "6ec1be28550bd83f904669d775a3bc6c2f51880fa720ac64e588691f2c3079db"
+}

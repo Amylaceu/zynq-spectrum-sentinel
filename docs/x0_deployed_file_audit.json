@@ -1,0 +1,291 @@
+{
+  "recorded_at": "2026-11-03T00:14:03.690797+08:00",
+  "scope": "Current file equality only; no RF or FPGA operations. Does not retroactively supply missing N4 PS-source hashes.",
+  "boot_id": "915ba6db-426c-46fc-b7b8-0b38cfc9212f",
+  "n4_boot_matches": true,
+  "comparisons": [
+    {
+      "local": "src/ps/sentinel/__init__.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/__init__.py",
+      "local_sha256": "b126289b7c4470e08582d70f622eceecdd2d6e11b5287d687a153f0c08a947a2",
+      "remote_sha256": "b126289b7c4470e08582d70f622eceecdd2d6e11b5287d687a153f0c08a947a2",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/app/__init__.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/__init__.py",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/app/monitor.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/monitor.py",
+      "local_sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41",
+      "remote_sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/app/runtime_v1.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/runtime_v1.py",
+      "local_sha256": "edcb3dad107f375bc83a164c1538fbf9c1aa1e3e1418ed0b070fb997e178d3a3",
+      "remote_sha256": "edcb3dad107f375bc83a164c1538fbf9c1aa1e3e1418ed0b070fb997e178d3a3",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/app/selftest_v1.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/selftest_v1.py",
+      "local_sha256": "6a95539707efb65cea453f7fe44540331133e47e35251d300fa5c2282721b92c",
+      "remote_sha256": "6a95539707efb65cea453f7fe44540331133e47e35251d300fa5c2282721b92c",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/artifacts.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/artifacts.py",
+      "local_sha256": "dba92f2611bef6b1056db048f6ee6c4e6ada1d4a200444858e743a7d5c202087",
+      "remote_sha256": "dba92f2611bef6b1056db048f6ee6c4e6ada1d4a200444858e743a7d5c202087",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/cma.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/cma.py",
+      "local_sha256": "e21aa8b5998134c3798f71b39b0680629583dce2f4a47ca37db01afcfbb939f5",
+      "remote_sha256": "e21aa8b5998134c3798f71b39b0680629583dce2f4a47ca37db01afcfbb939f5",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/dma.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/dma.py",
+      "local_sha256": "cf3f45ad06bade58df61a8a4457550e6ad5eab20cecca7487a87238f4ab776b9",
+      "remote_sha256": "cf3f45ad06bade58df61a8a4457550e6ad5eab20cecca7487a87238f4ab776b9",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/cfar.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/cfar.py",
+      "local_sha256": "efcb1eea261749f016851d1cd8c1ac8894d15926636ee0d1ce0c3aba3fdd07b2",
+      "remote_sha256": "efcb1eea261749f016851d1cd8c1ac8894d15926636ee0d1ce0c3aba3fdd07b2",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/perf.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/perf.py",
+      "local_sha256": "7b9111e9de182863acbbb3d9359c9fefd5628da078903a5230184a475d51166d",
+      "remote_sha256": "7b9111e9de182863acbbb3d9359c9fefd5628da078903a5230184a475d51166d",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/cfar_ctrl.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/regs/cfar_ctrl.py",
+      "local_sha256": "815fab7a37f38c3a26e5fa28794ffe7fbbef8e88bedb2a48a6f10a188e72a433",
+      "remote_sha256": "815fab7a37f38c3a26e5fa28794ffe7fbbef8e88bedb2a48a6f10a188e72a433",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/lcd_ctrl.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/regs/lcd_ctrl.py",
+      "local_sha256": "d309812aa9354e358987af7a94542f116e92cb171e6b438715acb1273d4c6219",
+      "remote_sha256": "d309812aa9354e358987af7a94542f116e92cb171e6b438715acb1273d4c6219",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/perf_ctrl.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/regs/perf_ctrl.py",
+      "local_sha256": "f703fac3205fcdcdab5642cd18a3c24ba03ebccaeab294394ed7afd40727cfbb",
+      "remote_sha256": "f703fac3205fcdcdab5642cd18a3c24ba03ebccaeab294394ed7afd40727cfbb",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/spec_ctrl.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/regs/spec_ctrl.py",
+      "local_sha256": "a2a8a4587a7e9fdd8e696e63652afdf9b6193b073bba6052167dfab9234e4023",
+      "remote_sha256": "a2a8a4587a7e9fdd8e696e63652afdf9b6193b073bba6052167dfab9234e4023",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/src_ctrl.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/drivers/regs/src_ctrl.py",
+      "local_sha256": "464b23a059e0c4f5ae5d9c68260f5099e407a1c2e97c3672b0e0a36c0034fa49",
+      "remote_sha256": "464b23a059e0c4f5ae5d9c68260f5099e407a1c2e97c3672b0e0a36c0034fa49",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/fm_receive.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/fm_receive.py",
+      "local_sha256": "605fa6cc03345e47e038ad4d3c3818a87cdb05ec0d2a6173854d3332fb9d7b73",
+      "remote_sha256": "605fa6cc03345e47e038ad4d3c3818a87cdb05ec0d2a6173854d3332fb9d7b73",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/lcd_direct.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/lcd_direct.py",
+      "local_sha256": "67e3a4fa5b8f8bac9419526626e70bb02ecd7fcf3174c3ad156abd441ec7ae38",
+      "remote_sha256": "67e3a4fa5b8f8bac9419526626e70bb02ecd7fcf3174c3ad156abd441ec7ae38",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/lcd_framebuffer.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/lcd_framebuffer.py",
+      "local_sha256": "30cc3190a1d682621c971329b4b884e73bf030cc8c41396782f8876b5aea151c",
+      "remote_sha256": "30cc3190a1d682621c971329b4b884e73bf030cc8c41396782f8876b5aea151c",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/lcd_spectrum.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/lcd_spectrum.py",
+      "local_sha256": "519e9520136246c2a85f46c442e33d995939ffb47980d28ada2bb270f63ed4c1",
+      "remote_sha256": "519e9520136246c2a85f46c442e33d995939ffb47980d28ada2bb270f63ed4c1",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/loopback.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/loopback.py",
+      "local_sha256": "391f9ef60aad6c330ba3d9e2a9102d666b4e8b8b6b826e8ebce07709273c48c5",
+      "remote_sha256": "391f9ef60aad6c330ba3d9e2a9102d666b4e8b8b6b826e8ebce07709273c48c5",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/mmio.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/mmio.py",
+      "local_sha256": "b94b6024d8efdce5d3e6ab542c0e212665d53977f716fd4e0ed34f238b8169cf",
+      "remote_sha256": "b94b6024d8efdce5d3e6ab542c0e212665d53977f716fd4e0ed34f238b8169cf",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/overlay.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/overlay.py",
+      "local_sha256": "5206941bf2880b178faac44666da4c98f4ec8c8591b8f610432c05a966a4b27c",
+      "remote_sha256": "5206941bf2880b178faac44666da4c98f4ec8c8591b8f610432c05a966a4b27c",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/quad_spi.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/quad_spi.py",
+      "local_sha256": "b58b03dad46ee465bc81861881be4fa05dcd80d15ab2e8b59b17156e3846b7c3",
+      "remote_sha256": "b58b03dad46ee465bc81861881be4fa05dcd80d15ab2e8b59b17156e3846b7c3",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/rf/__init__.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/rf/__init__.py",
+      "local_sha256": "3e8b9f449fd1f1f5e7813038365e89e2f04d848de6b3563c81e19af4fde8c603",
+      "remote_sha256": "3e8b9f449fd1f1f5e7813038365e89e2f04d848de6b3563c81e19af4fde8c603",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/rf/ad9361.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/rf/ad9361.py",
+      "local_sha256": "ecd60f47d20f1fb21115a51e3b625e3fb08722d847b43acbddec90a98e90a385",
+      "remote_sha256": "ecd60f47d20f1fb21115a51e3b625e3fb08722d847b43acbddec90a98e90a385",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/rf/safety.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/rf/safety.py",
+      "local_sha256": "ca03aedcc381fd6b321b4b860c6b8676aaa2b1b3be69ef8973f8324562817f1f",
+      "remote_sha256": "ca03aedcc381fd6b321b4b860c6b8676aaa2b1b3be69ef8973f8324562817f1f",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/rx_acceptance.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/rx_acceptance.py",
+      "local_sha256": "be2e4aeca5250845151bf881724e23e30b3afac79e4dea38dde5793f19b807fe",
+      "remote_sha256": "be2e4aeca5250845151bf881724e23e30b3afac79e4dea38dde5793f19b807fe",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/selftest.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/selftest.py",
+      "local_sha256": "0b1da7a37af309970ceb6fc3cb78d51fd5055bbf4b4ae455997e4ec93b0b6a87",
+      "remote_sha256": "0b1da7a37af309970ceb6fc3cb78d51fd5055bbf4b4ae455997e4ec93b0b6a87",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/telemetry.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/telemetry.py",
+      "local_sha256": "e2f46d9d50608437cac50723eb56ad6b8c8abb81f9d2a2f2e6b1dce6bb227a2a",
+      "remote_sha256": "e2f46d9d50608437cac50723eb56ad6b8c8abb81f9d2a2f2e6b1dce6bb227a2a",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/v1.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/v1.py",
+      "local_sha256": "b2d9fea64aa705dd757621b2e40dd5ffde4137dfbb081a6fbccbb0eaa7b55af5",
+      "remote_sha256": "b2d9fea64aa705dd757621b2e40dd5ffde4137dfbb081a6fbccbb0eaa7b55af5",
+      "match": true
+    },
+    {
+      "local": "board/scripts/bench_lcd.py",
+      "remote": "/home/xilinx/sentinel/scripts/bench_lcd.py",
+      "local_sha256": "29c71dcd5bbcd94f286c3740104b38f93f336f0989e1587c57bd2f740bccb796",
+      "remote_sha256": "29c71dcd5bbcd94f286c3740104b38f93f336f0989e1587c57bd2f740bccb796",
+      "match": true
+    },
+    {
+      "local": "board/scripts/zss_n4_admin.py",
+      "remote": "/home/xilinx/sentinel/setup/zss_n4_admin.py",
+      "local_sha256": "cb666eab0b83204f42dc786d4ce9192bc7a7b62e9ac3919571dc3f2ecc6429c4",
+      "remote_sha256": "cb666eab0b83204f42dc786d4ce9192bc7a7b62e9ac3919571dc3f2ecc6429c4",
+      "match": true
+    },
+    {
+      "local": "board/scripts/zss_n4_admin.py",
+      "remote": "/usr/local/sbin/zss-n4-admin",
+      "local_sha256": "cb666eab0b83204f42dc786d4ce9192bc7a7b62e9ac3919571dc3f2ecc6429c4",
+      "remote_sha256": "cb666eab0b83204f42dc786d4ce9192bc7a7b62e9ac3919571dc3f2ecc6429c4",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/acceptance.json",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/acceptance.json",
+      "local_sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9",
+      "remote_sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/provenance.json",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/provenance.json",
+      "local_sha256": "021dee556eae0d6d68f7e917823f240f4c9326a16aff24b695006acbc92f61e6",
+      "remote_sha256": "021dee556eae0d6d68f7e917823f240f4c9326a16aff24b695006acbc92f61e6",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/sentinel_v1.bit",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/sentinel_v1.bit",
+      "local_sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+      "remote_sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/sentinel_v1.hwh",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/sentinel_v1.hwh",
+      "local_sha256": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f",
+      "remote_sha256": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/sentinel_v1.xsa",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/sentinel_v1.xsa",
+      "local_sha256": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3",
+      "remote_sha256": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3",
+      "match": true
+    },
+    {
+      "local": "board/overlay/sentinel_v1/sha256.txt",
+      "remote": "/home/xilinx/sentinel/overlay/sentinel_v1/sha256.txt",
+      "local_sha256": "cc32552319912be4141422ebbb4c7ffdc4b829fe7621164603cf15ea5a731d06",
+      "remote_sha256": "cc32552319912be4141422ebbb4c7ffdc4b829fe7621164603cf15ea5a731d06",
+      "match": true
+    }
+  ],
+  "temperature_devices": [
+    {
+      "raw": 2718.0,
+      "offset": -2219.0,
+      "scale": 123.040771484,
+      "device": "/sys/bus/iio/devices/iio:device0",
+      "temperature_c": 61.397344970516
+    }
+  ],
+  "status": "PASS"
+}

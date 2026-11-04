@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "local": "src/ps/sentinel/v1b.py",
+      "destination": "ps/sentinel/v1b.py",
+      "staged": "000_v1b.py",
+      "sha256": "5b99f79f9e6bd71a8e6eb847ec41ca6dc513acd50b7d956d90ca844819a24295"
+    },
+    {
+      "local": "src/ps/sentinel/app/monitor_x1.py",
+      "destination": "ps/sentinel/app/monitor_x1.py",
+      "staged": "001_monitor_x1.py",
+      "sha256": "7b483706758cb110fa3a0bb8aadcd19dec0611f87507307255b080af6aa2aea0"
+    },
+    {
+      "local": "src/ps/sentinel/app/selftest_x1.py",
+      "destination": "ps/sentinel/app/selftest_x1.py",
+      "staged": "002_selftest_x1.py",
+      "sha256": "cd1d3382c3704fdf04a0ba28dac20d162471771d72630b27ee1ab9237cd611c7"
+    },
+    {
+      "local": "src/ps/sentinel/app/runtime_v1.py",
+      "destination": "ps/sentinel/app/runtime_v1.py",
+      "staged": "003_runtime_v1.py",
+      "sha256": "ba2d73ffeb764780ab8830e35ac984b4c1ec4f1f1b9d695267a492029c731e73",
+      "expected_previous_sha256": "edcb3dad107f375bc83a164c1538fbf9c1aa1e3e1418ed0b070fb997e178d3a3",
+      "previous_sha256": "edcb3dad107f375bc83a164c1538fbf9c1aa1e3e1418ed0b070fb997e178d3a3"
+    },
+    {
+      "local": "src/ps/sentinel/drivers/cfar_x1.py",
+      "destination": "ps/sentinel/drivers/cfar_x1.py",
+      "staged": "004_cfar_x1.py",
+      "sha256": "e462600b4287333c202296dd8a5c5987e2a64c94dad09f80cc87d4f287849351"
+    },
+    {
+      "local": "src/ps/sentinel/drivers/regs/cfar_x1.py",
+      "destination": "ps/sentinel/drivers/regs/cfar_x1.py",
+      "staged": "005_cfar_x1.py",
+      "sha256": "c0e517fcbee08b93d7e36078559161435dda3e885e8502e03a024d412d61a4cf"
+    },
+    {
+      "local": "board/scripts/run_x1_monitor.py",
+      "destination": "scripts/run_x1_monitor.py",
+      "staged": "006_run_x1_monitor.py",
+      "sha256": "5b875ddea7414b6440255c60b3f444246700e275547ea6de1728c3ad0c445d45"
+    },
+    {
+      "local": "board/scripts/run_x1_selftest.py",
+      "destination": "scripts/run_x1_selftest.py",
+      "staged": "007_run_x1_selftest.py",
+      "sha256": "6ce2d29cad0034b53dc15299b1fd036d663e6228091e9b04523539a69506f1ad"
+    },
+    {
+      "local": "board/scripts/x1_postflight.py",
+      "destination": "scripts/x1_postflight.py",
+      "staged": "008_x1_postflight.py",
+      "sha256": "6a78893532b56ec08931dd4dd8c9afe4f8045cf3136d65d5abb9ba142255c380"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/acceptance.json",
+      "destination": "overlay/sentinel_v1b/acceptance.json",
+      "staged": "009_acceptance.json",
+      "sha256": "965ed3bf8b7256e0bdc7edcdbd1c60389bb0dfea78b0b2d84812dc6183397520"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/acceptance.json.sha256",
+      "destination": "overlay/sentinel_v1b/acceptance.json.sha256",
+      "staged": "010_acceptance.json.sha256",
+      "sha256": "5ae3de2d4732883adfb8a7f9dfd8ceb448a6f791f743ed9b766e4765a2f9524c"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/provenance.json",
+      "destination": "overlay/sentinel_v1b/provenance.json",
+      "staged": "011_provenance.json",
+      "sha256": "742681f9c92589eaa14a48fa5c965c3bc4ef2d9ca6f115d10c0c8cf112164142"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/sentinel_v1b.bit",
+      "destination": "overlay/sentinel_v1b/sentinel_v1b.bit",
+      "staged": "012_sentinel_v1b.bit",
+      "sha256": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/sentinel_v1b.hwh",
+      "destination": "overlay/sentinel_v1b/sentinel_v1b.hwh",
+      "staged": "013_sentinel_v1b.hwh",
+      "sha256": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/sentinel_v1b.xsa",
+      "destination": "overlay/sentinel_v1b/sentinel_v1b.xsa",
+      "staged": "014_sentinel_v1b.xsa",
+      "sha256": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+    },
+    {
+      "local": "board/overlay/sentinel_v1b/sha256.txt",
+      "destination": "overlay/sentinel_v1b/sha256.txt",
+      "staged": "015_sha256.txt",
+      "sha256": "2428d039fa2b6f034fe6b818c513eaa320800955e6ef9b1cc871942ea429faa7"
+    }
+  ],
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "hardware_accessed": false,
+  "recorded_at_pc": "2026-11-03T03:05:10.511593+08:00",
+  "scope": "File-only X1 deployment with SHA256 and RF ownership lock; no overlay loading or RF",
+  "staging_directory": "/home/xilinx/sentinel/setup/x1_deployment_r1"
+}

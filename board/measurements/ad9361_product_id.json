@@ -1,0 +1,22 @@
+{
+  "address": "0x037",
+  "command": "00 37 00",
+  "mode": 1,
+  "product_ids": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "gpio": 1,
+  "stable": true,
+  "valid": false,
+  "rf_initialized": false,
+  "tx_enabled": false
+}

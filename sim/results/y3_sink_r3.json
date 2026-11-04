@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "attempt": 3,
+  "note": "Production FIFO8192/prefill4096 verified: 800 stereo PCM frames bit-exact at +80ppm audio clock, unrelated-channel rejection, no underrun and reset mute. Preserved FM-r3 golden prefix; no full PFB/board/5min claim.",
+  "recorded_at_pc": "2026-11-03T04:20:27.198835+00:00",
+  "scope": "Selected-channel FM/FIFO/I2S simulation; not full PFB/route/board/5min acceptance",
+  "sources_sha256": {
+    "build/work/xsim_tb_audio_sink_y3/xelab_console.log": "6f5770f2a76b2240bab7103087b55cecf89e5aa8721bc6410b3eec0c7ffeda94",
+    "build/work/xsim_tb_audio_sink_y3/xsim_console.log": "e337793831de94e8e5aadd847c04eb0fd15ddedd1cdbfab616394bf69328c87e",
+    "build/work/xsim_tb_audio_sink_y3/xvlog_console.log": "24133d2467b92d4ade91b69f9de83a13f506a860bc1308349941efc6392ec733",
+    "build/work/y3_sink_vectors_r3/vectors.json": "14bc1ec54c557f3eb64c2393f7a7fd44abc598f965a52c957f12d003d22f7971",
+    "build/work/y3_sink_vectors_r3/vectors.json.sha256": "7d704283aa1544142ed48f880720afc2f43f2f26e0c2e59a9cfebe75d727f384",
+    "build/work/y3_sink_vectors_r3/y3_atan.hex": "fe0751d249dbcea7ced7104ee09000d32172d0afd85dc7bcde359bd2ac88454f",
+    "build/work/y3_sink_vectors_r3/y3_audio_expected.hex": "28b299ed461ef7a6f0a6319a61b4f2f84da0bf7482cd191e69ff02dc08ac6f98",
+    "build/work/y3_sink_vectors_r3/y3_audio_fir.hex": "e511fde02bb2e4ca152e1235ee33f5f7176133ac72bf50d26aa081cb549134c8",
+    "build/work/y3_sink_vectors_r3/y3_fm_input.hex": "5cd62761d82eb4fb2eed29765ecc4708e74d1defe4ee688afba89333455805ed",
+    "logs/Y3_sink_r3_controller.log": "cbcf6869e9f84d385ed865840d422e13ba336548ac8380a7b287ede951ca5e86",
+    "logs/Y3_sink_r3_exit.txt": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "sim/scripts/run_xsim.ps1": "e71673cf1ba75d19019b8ef68e4856aac0b936fed14cf01fc6c08068bb1a2489",
+    "sim/tb/tb_audio_sink_y3.sv": "13a22c6e548a43b3c65fa41b608af0ad3699a943a62758cc949de451d9c19a18",
+    "src/rtl/audio_y3/audio_sink_y3.v": "e532ee15977dc66dbb069d9db33019e8b9fad60f38b7a40412bae02cd5e4036a",
+    "src/rtl/audio_y3/fm_audio_filter_y3.v": "284eac828558f5c28e5979c57402123cd2c76306b693a754c21028c5c97582ff",
+    "src/rtl/audio_y3/fm_phase_y3.v": "c2d50d67d2914af752a545774842ddaafd669c53b32b3e1bd13c6d5bff6ad81b",
+    "src/rtl/audio_y3/i2s_tx_y3.v": "cb383b8a0574086b37c36218d2fcbf92ce88c55d586d51d56cafa70698b6a189",
+    "src/rtl/audio_y3/y3_frontend.v": "30fc54accdcc737e2fdd84bd77d4696ef1a509725fd6880bd91457400ce61b72",
+    "tools/archive_y3_sink.py": "40bd7d097437dc49ca0e55856cf35d41a6981b8eac9ea9fd4e2f2e8c36dc8c4d",
+    "tools/gen_y3_sink_vectors.py": "bca2beece84ab32d8fa0e452cf919be203ee6887f8ed2ba0a91c607d0fde7d19",
+    "tools/test_y3_sink.ps1": "d9fb446aeb95069eccce632f470d028357ac48b29fb5523128d00c2c1d3422c7"
+  },
+  "archive": "report/results/y3_sink_r3.zip",
+  "archive_sha256": "f5231468b4ba4413eece0b1f2a4a3232f8a160969b5b0c855a57275a2644af62"
+}

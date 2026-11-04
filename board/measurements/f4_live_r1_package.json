@@ -1,0 +1,8 @@
+{
+  "status": "LOCAL_PACKAGE_PASS_BOARD_PENDING",
+  "created_utc": "2026-11-03T22:54:07.836150+00:00",
+  "archive": "release_v2.tar.gz",
+  "archive_sha256": "2821de980d605768ea0e04cb7fccd1d80fde63c45639e4d8067df8175db53745",
+  "files": 127,
+  "manifest_sha256": "2816980a2128327d0282dd04cac9918d927c567a2854c2fe3ca048fea3bfed01"
+}

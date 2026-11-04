@@ -1,0 +1,52 @@
+{
+  "antenna": "short",
+  "description": "ANT-2: thin/short 20-512MHz, long feedline",
+  "metrics": {
+    "telemetry_records": 102,
+    "coherent_snapshots": 102,
+    "snapshot_misses": 0,
+    "capacity_alarm_records": 0,
+    "capacity_alarm_rate_valid": 0.0,
+    "capacity_alarm_rate_upper_bound_all_attempts": 0.0,
+    "station_detected_records": 21,
+    "station_detection_rate_all_attempts": 0.20588235294117646,
+    "target_count_median": 5.0,
+    "display_fps_median": 49.43460777848961,
+    "temperature_range_c": [
+      59.797814941224004,
+      61.274304199032
+    ],
+    "sample_overflow_records": 0,
+    "configuration": {
+      "average_shift": 3,
+      "min_width_bins": 2,
+      "merge_gap_bins": 6,
+      "alpha": 1974,
+      "mask_table": [],
+      "dc_mask": 3
+    },
+    "receiver_rssi_dbm": {
+      "median": -72.0,
+      "minimum": -120.0,
+      "maximum": -71.25
+    }
+  },
+  "elapsed_total_s": 120.01239416400131,
+  "started_at_pc": "2026-11-03T04:06:07.630985+08:00",
+  "ended_at_pc": "2026-11-03T04:08:18.430814+08:00",
+  "evidence": {
+    "measurement": {
+      "path": "board/measurements/antenna_compare_short_r2.json",
+      "sha256": "b584771491be988ec1050137d0564e841656c177c26609df9468666fc3fd6785"
+    },
+    "execution": {
+      "path": "board/measurements/antenna_compare_short_r2_execution.json",
+      "sha256": "79af350d3448de6ece46099cdecb7ff4b2f14f30b5d8b4d03aa751083d7a673f"
+    },
+    "log": {
+      "path": "logs/X1_antenna_compare_short_r2.log",
+      "sha256": "c28a41025e17626318c1f0de0cc105e9abf956a07a6b2f246e6fee37cfae02ec"
+    }
+  },
+  "receiver_stopped": true
+}

@@ -1,0 +1,85 @@
+{
+  "source": "antenna_spectrum_candidates_only",
+  "candidates": [
+    {
+      "frequency_hz": 89989998.0,
+      "smooth_power_dbfs_bin": -41.33356126326258,
+      "prominence_db": 23.12309279818909
+    },
+    {
+      "frequency_hz": 95802498.0,
+      "smooth_power_dbfs_bin": -42.74885506480175,
+      "prominence_db": 11.936237850582678
+    },
+    {
+      "frequency_hz": 92033748.0,
+      "smooth_power_dbfs_bin": -44.12774566383787,
+      "prominence_db": 9.62317298127028
+    },
+    {
+      "frequency_hz": 100906248.0,
+      "smooth_power_dbfs_bin": -45.944284739589506,
+      "prominence_db": 15.785293568006026
+    },
+    {
+      "frequency_hz": 105893748.0,
+      "smooth_power_dbfs_bin": -46.693781723271286,
+      "prominence_db": 14.015627237096297
+    },
+    {
+      "frequency_hz": 98997498.0,
+      "smooth_power_dbfs_bin": -46.964322444572424,
+      "prominence_db": 7.836394206596005
+    },
+    {
+      "frequency_hz": 107573748.0,
+      "smooth_power_dbfs_bin": -47.0913757359019,
+      "prominence_db": 11.524828502164688
+    },
+    {
+      "frequency_hz": 88602498.0,
+      "smooth_power_dbfs_bin": -47.66523538017274,
+      "prominence_db": 6.581781014479375
+    },
+    {
+      "frequency_hz": 104374998.0,
+      "smooth_power_dbfs_bin": -49.38670128654893,
+      "prominence_db": 9.778288768882248
+    },
+    {
+      "frequency_hz": 106632498.0,
+      "smooth_power_dbfs_bin": -51.19797941295273,
+      "prominence_db": 6.895261094476737
+    },
+    {
+      "frequency_hz": 103264998.0,
+      "smooth_power_dbfs_bin": -51.20483887837506,
+      "prominence_db": 8.123719251431666
+    },
+    {
+      "frequency_hz": 102589998.0,
+      "smooth_power_dbfs_bin": -51.24229342153923,
+      "prominence_db": 8.69643363443896
+    },
+    {
+      "frequency_hz": 105166248.0,
+      "smooth_power_dbfs_bin": -51.340444109852456,
+      "prominence_db": 6.512220614269147
+    },
+    {
+      "frequency_hz": 101498748.0,
+      "smooth_power_dbfs_bin": -51.712761672603264,
+      "prominence_db": 8.454540160508685
+    },
+    {
+      "frequency_hz": 100474998.0,
+      "smooth_power_dbfs_bin": -53.20942080704746,
+      "prominence_db": 6.226198492891534
+    },
+    {
+      "frequency_hz": 102379998.0,
+      "smooth_power_dbfs_bin": -53.377834857939376,
+      "prominence_db": 6.551464694715207
+    }
+  ]
+}

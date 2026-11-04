@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "configuration": "A",
+  "RF_TX_requested": false,
+  "host_started_utc": "2026-11-03T20:47:55.307193+00:00",
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "stop": "{\"boot_id\": \"cf69eed5-2394-48e0-bd7c-ee1d41ec26e6\", \"image\": \"sentinel_v2_100m\", \"gpio_data\": 0, \"source_ctrl\": 0, \"lcd_version\": 1279459333, \"scope\": \"Stopped readback only; no RF initialization or download\", \"source_enabled\": false, \"capture_status\": 268435458, \"audio_control\": 0, \"audio_status\": 0, \"status\": \"PASS\"}\n"
+}

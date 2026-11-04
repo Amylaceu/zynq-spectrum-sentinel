@@ -1,0 +1,27 @@
+{
+  "status": "FAIL",
+  "attempt": 1,
+  "recorded_at_pc": "2026-11-03T02:19:08.106382+08:00",
+  "reason": "Final Physopt postRoute setup timing fails, 75 endpoints",
+  "wns_ns": -0.155,
+  "whs_ns": 0.034,
+  "wpws_ns": 0.264,
+  "deployed": false,
+  "reports_sha256": {
+    "timing_impl.log": "473540e6c8c6402cc7a0fd5d105612b64e43790db028ea85ac46db246c3b4e6b",
+    "timing_synth.log": "c472c17b44ca4b3e1982eaba0a8e60f27cfe551a802e93e512b553eab8b53413",
+    "ATF_1_before_timing_summary.txt": "e1711ff9c8f9c7505bbcfd09127e78e3e4a1e2a70f49c8e64891d8e3b7d24265",
+    "ATF_2_before_timing_summary.txt": "e242ed5fdf01d190ed765577258b42b4769f6ef3fb8518a3fd7eb037642abec5",
+    "ATF_3_before_timing_summary.txt": "865f76738a93acf6e5cf305b6828253749ff3ad3ede55e922e52e17cbbcdcdad",
+    "ATF_4_before_timing_summary.txt": "4cdcc8403664ab877b6f5fd2035dbf5a7dc4d45c14ca63a30a519f0ad6947322",
+    "ATF_5_before_timing_summary.txt": "09844f3be63d8aae9a5e437f26f4d626f564cbd1f7cd7b4878d08c5d6e43f3f5",
+    "ATF_5_final_timing_summary.txt": "18df096bd23193399bd3827ce7eac4ed15358b7fabd860780fa7391322d46dfc",
+    "system_top_timing_summary_postroute_physopted.rpt": "341c911b67edd2af2673d25885165af89b33498cfc910c9b8ffbb607a5927d0c",
+    "system_top_timing_summary_routed.rpt": "84515c81ea13a531bcd3b296ae1ee1685c105f6ee006181a20800ab2c851f323",
+    "system_top_clock_utilization_routed.rpt": "c5cf2cb139800dc0183db3d6aff35ffbf4386daa14e05910a1b4e653982bd792",
+    "system_top_utilization_placed.rpt": "0592a020ad592f0f40440249c4bf35ef16e2e5f0614c2726fc331b2c45e5abc0"
+  },
+  "project_archive": "build/work/x1_failed_r1/sentinel_v1b",
+  "packaged_ip_archive": "build/work/x1_failed_r1/x1_packaged_ip",
+  "source_manifest": "docs/x1_v1b_prebuild_r1.json"
+}

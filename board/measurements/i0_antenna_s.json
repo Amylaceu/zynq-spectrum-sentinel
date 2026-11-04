@@ -1,0 +1,87 @@
+{
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "selected": "S1",
+  "tx1a": "2.4GHz folding antenna; muted unless separately armed and authorized",
+  "rx1a": "20-512MHz magnetic antenna, base 20-30cm from board",
+  "currently_connected": "S2; restore S1 only after user confirmation",
+  "reason": "Neither candidate passes all items; choose the FM-qualified candidate under I0 fallback rule.",
+  "fm_live": true,
+  "ota_presentation": "REPLAY_REQUIRED",
+  "replay_integration_status": "PENDING_I1_I2_I6",
+  "hotspot_identity_verified": false,
+  "wifi_presentation": "Relative environmental energy only until separate verified protocol test",
+  "candidates": {
+    "S1": {
+      "fm_automatic_status": "PASS_AUTOMATED_AWAITING_LISTENING",
+      "fm_pilot_db": {
+        "count": 74,
+        "minimum": 25.152745988165005,
+        "median": 34.75117531942373
+      },
+      "fm_audible_seconds": 28.65711435099729,
+      "human_observation": "\u5e7f\u64ad\u6e05\u695a\uff0c\u65e0\u660e\u663e\u65ad\u97f3",
+      "ota_status": "FAIL_CW_25DB_TARGET",
+      "cw_ratio_db": 17.7209862058996,
+      "tx_attenuation_db": 40.0,
+      "hotspot_status": "INCONCLUSIVE_HOTSPOT_ATTRIBUTION",
+      "source_files": {
+        "fm": {
+          "path": "i0_s1_fm_r1/validation.json",
+          "sha256": "115633c40b47d0a021e7357e998bf6816b5e9514b1c0f0dac925810baf0fe477"
+        },
+        "listening": {
+          "path": "i0_s1_fm_r1/listening.json",
+          "sha256": "0a2c9578295c5c6fe862a0ded2c746f30c635ad866c66dd505635d7983d2935e"
+        },
+        "ota": {
+          "path": "i0_s1_ota_r1/acceptance.json",
+          "sha256": "7eb95321c0dea1a074735d2568d9e9a4f864f8747edd37eeaccf8af0665d9cbb"
+        },
+        "hotspot": {
+          "path": "i0_s1_hotspot_comparison_r1/result.json",
+          "sha256": "d7756d05a70884b69dab90ccc06709a2028d7caaa002743bfa1d3bf1be356797"
+        }
+      }
+    },
+    "S2": {
+      "fm_automatic_status": "FAIL",
+      "fm_pilot_db": {
+        "count": 72,
+        "minimum": 0.04658167245520279,
+        "median": 6.756208152850333
+      },
+      "fm_audible_seconds": 0,
+      "human_observation": "\u6ca1\u6709\u5e7f\u64ad\u58f0\u97f3",
+      "ota_status": "PASS",
+      "cw_ratio_db": 29.471870673612933,
+      "tx_attenuation_db": 50.0,
+      "hotspot_status": "INCONCLUSIVE_HOTSPOT_ATTRIBUTION",
+      "source_files": {
+        "fm": {
+          "path": "i0_s2_fm_r1/validation.json",
+          "sha256": "13287361a11ed838a1db4a8318d5f55b894a8933cfc924d8a2dc879baabdbd53"
+        },
+        "listening": {
+          "path": "i0_s2_fm_r1/listening.json",
+          "sha256": "f24c0be3e793c207f92addab09de1d454785b4b3bab1c4c1f60940aa6331dff8"
+        },
+        "ota": {
+          "path": "i0_s2_ota_r1/acceptance.json",
+          "sha256": "be1d0e64d93a5153ca18dd2dcce776afd10bbc26f6cd471d62585dc6d71d53e5"
+        },
+        "hotspot": {
+          "path": "i0_s2_hotspot_comparison_r1/result.json",
+          "sha256": "dd02b5845e9342a453e6573ce15d97d08c9f1c2d4f45a1e239d7b5af2a481200"
+        }
+      }
+    }
+  },
+  "limitations": [
+    "S1 CW target failed: 17.721dB at 40dB attenuation",
+    "S2 FM gate muted throughout and user reported no broadcast",
+    "Both hotspot attributions inconclusive; no SSID or protocol decoded",
+    "Finite snapshots are discontinuous; not continuous 30.72MSPS PL processing"
+  ],
+  "baseline": "sentinel_v2_100m / 100MHz / 3.84MSPS",
+  "rf_stopped": true
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "zsr/1",
+  "source": "live",
+  "binary_bytes": 7192779,
+  "blobs": 3638,
+  "files_sha256": {
+    "session.jsonl": "9c0220649c968fd3826b25b703cbc4d342306d1203fd5aa2e8fdea99635077ac",
+    "blobs.npz": "a18129b1a0d2bba3c686cfd8a9c0773f46bb60babfcf1225559be6617eb32fe4"
+  }
+}

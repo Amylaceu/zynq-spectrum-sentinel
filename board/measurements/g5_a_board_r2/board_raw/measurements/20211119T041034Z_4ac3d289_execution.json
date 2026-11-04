@@ -1,0 +1,43 @@
+{
+  "status": "FAIL_WORKER",
+  "command": "show",
+  "worker_args": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/release/v2/scripts/demo_a.py",
+    "--root",
+    "/home/xilinx/sentinel/release/v2",
+    "--output",
+    "/home/xilinx/sentinel/release/v2/measurements/show_20211119T041034Z_4ac3d289",
+    "--station-hz",
+    "95800000",
+    "--lo-hz",
+    "96050000",
+    "--volume",
+    "-12",
+    "--record-audio",
+    "/home/xilinx/sentinel/release/v2/measurements/show_20211119T041034Z_4ac3d289/playback.wav",
+    "--cycles",
+    "3",
+    "--ui",
+    "v3",
+    "--hostlink",
+    "--hostlink-bind",
+    "192.168.2.99"
+  ],
+  "output": "/home/xilinx/sentinel/release/v2/measurements/show_20211119T041034Z_4ac3d289",
+  "worker_exit_code": 1,
+  "stop_readback": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

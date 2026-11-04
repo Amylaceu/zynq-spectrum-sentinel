@@ -1,0 +1,94 @@
+{
+  "status": "CHARACTERIZED",
+  "recorded_at_pc": "2026-11-03T02:18:28.877853+00:00",
+  "scope": "Ideal floating FIR response only; not an RF/AMC acceptance or a new core simulation round",
+  "input_rate_hz": 3840000,
+  "output_rate_hz": 480000,
+  "channel_spacing_hz": 240000,
+  "maximum_grid_offset_above_minus3db_hz": 106000,
+  "sinusoidal_cross_checks": [
+    {
+      "offset_hz": 0,
+      "gain_db": 0.0,
+      "absolute_gain_error": 0.0
+    },
+    {
+      "offset_hz": 40000,
+      "gain_db": -0.001236075218121095,
+      "absolute_gain_error": 1.7763568394002505e-15
+    },
+    {
+      "offset_hz": 80000,
+      "gain_db": -0.4386475871526085,
+      "absolute_gain_error": 2.6645352591003757e-15
+    },
+    {
+      "offset_hz": 120000,
+      "gain_db": -6.023150704992811,
+      "absolute_gain_error": 5.551115123125783e-16
+    },
+    {
+      "offset_hz": 160000,
+      "gain_db": -26.18526738385809,
+      "absolute_gain_error": 1.8735013540549517e-16
+    },
+    {
+      "offset_hz": 200000,
+      "gain_db": -90.86442981158633,
+      "absolute_gain_error": 3.054061994620105e-17
+    },
+    {
+      "offset_hz": 240000,
+      "gain_db": -76.97213606181292,
+      "absolute_gain_error": 2.1060627200530924e-17
+    }
+  ],
+  "illustrative_station_placement": [
+    {
+      "frequency_hz": 95800000,
+      "truth": "USER_CONFIRMED_FM",
+      "channel": 14,
+      "residual_hz": -120000.0,
+      "illustrative_offsets_from_channel_center_hz": [
+        -195000.0,
+        -120000.0,
+        -45000.0
+      ],
+      "illustrative_gain_db": [
+        -70.25289017242916,
+        -6.023150704992811,
+        0.0011455239399369287
+      ],
+      "bandwidth_assumption": "Illustrative +/-75kHz, not measured station bandwidth"
+    },
+    {
+      "frequency_hz": 95451250,
+      "truth": "HIGH_DETECTION_ONLY_IDENTITY_UNCONFIRMED",
+      "channel": 12,
+      "residual_hz": 11250.0,
+      "illustrative_offsets_from_channel_center_hz": [
+        -63750.0,
+        11250.0,
+        86250.0
+      ],
+      "illustrative_gain_db": [
+        -0.051646394596583795,
+        -0.0012939284368647095,
+        -0.7741376288430573
+      ],
+      "bandwidth_assumption": "Illustrative +/-75kHz, not measured station bandwidth"
+    }
+  ],
+  "limitations": [
+    "No ADC/RF analog response, fixed-point FFT or noise model included",
+    "Post-PFB NCO cannot recover a sideband already suppressed by the prototype",
+    "This does not prove the cause of X1 detection failures"
+  ],
+  "source_sha256": {
+    "tools/analyze_x5_passband.py": "259afbdac5dbe2b33cf42c0335f34b80c779a1c02cbf7e553d7c9ee1d0870e88",
+    "src/rtl/pfb/x5_pfb_coeff.hex": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d",
+    "src/ps/sentinel/capture_x5.py": "0ba74bd08921a42ff68cb782d47af6574fff040c9a3d3c1b62896115e820ce11"
+  },
+  "figure": "report/figures/x5_prototype_response.png",
+  "figure_sha256": "0482298c95ee256276fb6b9ca47f6fa8eb5e00278954757bff8d5b948ea971a5"
+}

@@ -1,0 +1,2476 @@
+{
+  "trials": [
+    {
+      "frequency_hz": 87500000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 3.2490288670361576,
+        "large_excursion_fraction": 0.09796260117220207,
+        "iq_rms": 0.07510930099334522,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 87600000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.818911439591936,
+        "large_excursion_fraction": 0.09991627128104939,
+        "iq_rms": 0.07905601350677607,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 87700000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 1.8987053582599687,
+        "large_excursion_fraction": 0.10773095171643873,
+        "iq_rms": 0.08386070381954223,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 87800000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 8.766111549545887,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.08432069968383255,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 87900000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 3.0305501121969947,
+        "large_excursion_fraction": 0.09768350544236673,
+        "iq_rms": 0.0838865387475418,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88000000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 12.286374305784662,
+        "large_excursion_fraction": 0.016466648060284677,
+        "iq_rms": 0.16357225635816192,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88100000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.430616727692392,
+        "large_excursion_fraction": 0.017024839519955346,
+        "iq_rms": 0.16323772331464026,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88200000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 4.4181592582741,
+        "large_excursion_fraction": 0.10521909014792073,
+        "iq_rms": 0.08603162607858753,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88300000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 1.186249615940071,
+        "large_excursion_fraction": 0.10131174993022607,
+        "iq_rms": 0.08296757202412128,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88400000,
+      "lo_hz": 88050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 4.9330886179414115,
+        "large_excursion_fraction": 0.11638291934133407,
+        "iq_rms": 0.08580304108491055,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88500000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.0786416355029935,
+        "large_excursion_fraction": 0.09210159084566007,
+        "iq_rms": 0.09255689961997636,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88600000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.11881747553956,
+        "large_excursion_fraction": 0.08651967624895339,
+        "iq_rms": 0.09391049381877707,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88700000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 2.923515432817631,
+        "large_excursion_fraction": 0.11247557912363941,
+        "iq_rms": 0.08389750959875437,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88800000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.654418458840398,
+        "large_excursion_fraction": 0.09712531398269607,
+        "iq_rms": 0.08478755661069572,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 88900000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 6.31145261573338,
+        "large_excursion_fraction": 0.10159084566006141,
+        "iq_rms": 0.08507946701741827,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89000000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 4.70713658357847,
+        "large_excursion_fraction": 0.10242813284956741,
+        "iq_rms": 0.08467231937613491,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89100000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 0.5210655657832337,
+        "large_excursion_fraction": 0.10019536701088473,
+        "iq_rms": 0.08317005862164928,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89200000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 0.7828898045916176,
+        "large_excursion_fraction": 0.06949483672899805,
+        "iq_rms": 0.10206231444128949,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89300000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 4.20051442013596,
+        "large_excursion_fraction": 0.06977393245883338,
+        "iq_rms": 0.10183876293658536,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89400000,
+      "lo_hz": 89050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 5.290576920962505,
+        "large_excursion_fraction": 0.06893664526932738,
+        "iq_rms": 0.10343189842850016,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89500000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 9.862686557826597,
+        "large_excursion_fraction": 0.10075355847055541,
+        "iq_rms": 0.07918908924598499,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89600000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 5.37297243941858,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.08033019292756752,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89700000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.429402358191105,
+        "large_excursion_fraction": 0.13480323751046608,
+        "iq_rms": 0.0967625361491597,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89800000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.942967104299868,
+        "large_excursion_fraction": 0.10270722857940273,
+        "iq_rms": 0.097816356462574,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 89900000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 1.182709515771477,
+        "large_excursion_fraction": 0.09907898409154339,
+        "iq_rms": 0.0920564153896096,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90000000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 8.402872024346312,
+        "large_excursion_fraction": 0.10186994138989673,
+        "iq_rms": 0.08668074215130571,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90100000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 3.9209903429568396,
+        "large_excursion_fraction": 0.09991627128104939,
+        "iq_rms": 0.08773907713688303,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90200000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 2.3957409913149865,
+        "large_excursion_fraction": 0.13340775886128942,
+        "iq_rms": 0.08772807882642897,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90300000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 5.904242461400414,
+        "large_excursion_fraction": 0.11973206809935807,
+        "iq_rms": 0.08905488647918826,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90400000,
+      "lo_hz": 90050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.998264665504777,
+        "large_excursion_fraction": 0.1272676528049121,
+        "iq_rms": 0.09337836254228636,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90500000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 3.7963880479773344,
+        "large_excursion_fraction": 0.10242813284956741,
+        "iq_rms": 0.08412975622882625,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90600000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 4.852264717382278,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.08924352237665018,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90700000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.5150300231174607,
+        "large_excursion_fraction": 0.10298632430923807,
+        "iq_rms": 0.09615821173038457,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90800000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 8.565068445217403,
+        "large_excursion_fraction": 0.09461345241417807,
+        "iq_rms": 0.10773363420437129,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 90900000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.113579164679298,
+        "large_excursion_fraction": 0.09572983533351939,
+        "iq_rms": 0.09725099485858159,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91000000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.292573412473259,
+        "large_excursion_fraction": 0.10354451576890873,
+        "iq_rms": 0.08458866079161863,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91100000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 5.589688266071835,
+        "large_excursion_fraction": 0.10326542003907341,
+        "iq_rms": 0.08629272857955175,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91200000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.100841416599529,
+        "large_excursion_fraction": 0.10438180295841473,
+        "iq_rms": 0.08476098320631267,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91300000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 5.095476204118632,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.0900098307004649,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91400000,
+      "lo_hz": 91050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 2.6388516170602823,
+        "large_excursion_fraction": 0.11442924923248675,
+        "iq_rms": 0.08454273756646534,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91500000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 5.331361002714525,
+        "large_excursion_fraction": 0.09600893106335473,
+        "iq_rms": 0.09178213661176919,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91600000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": -1.9564121088396513,
+        "large_excursion_fraction": 0.10270722857940273,
+        "iq_rms": 0.09219554827545319,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91700000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 4.245562473134546,
+        "large_excursion_fraction": 0.11554563215182807,
+        "iq_rms": 0.0852894415284958,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91800000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.2088732397986885,
+        "large_excursion_fraction": 0.09963717555121407,
+        "iq_rms": 0.09204204236906195,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 91900000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": -1.0623501295974314,
+        "large_excursion_fraction": 0.09879988836170807,
+        "iq_rms": 0.0927590275719604,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92000000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 3.8056254393146864,
+        "large_excursion_fraction": 0.05861010326542004,
+        "iq_rms": 0.11892527904502467,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92100000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 10.21030594268436,
+        "large_excursion_fraction": 0.06558749651130338,
+        "iq_rms": 0.11631450964611581,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92200000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 1.259044586894535,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.08836783306350487,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92300000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 8.9013407283566,
+        "large_excursion_fraction": 0.09907898409154339,
+        "iq_rms": 0.08088072193202676,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92400000,
+      "lo_hz": 92050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 0.4896312291290311,
+        "large_excursion_fraction": 0.10745185598660341,
+        "iq_rms": 0.0808660194403071,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92500000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 6.276599914477914,
+        "large_excursion_fraction": 0.11024281328495673,
+        "iq_rms": 0.08702497328780398,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92600000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 5.1971559688061575,
+        "large_excursion_fraction": 0.09935807982137873,
+        "iq_rms": 0.08465064881828399,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92700000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 3.9567344016434323,
+        "large_excursion_fraction": 0.10075355847055541,
+        "iq_rms": 0.08841056852256796,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92800000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 3.311943159489614,
+        "large_excursion_fraction": 0.10159084566006141,
+        "iq_rms": 0.0873087222622828,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 92900000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 11.398395363428818,
+        "large_excursion_fraction": 0.09963717555121407,
+        "iq_rms": 0.09023397080101522,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93000000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 9.406806707900165,
+        "large_excursion_fraction": 0.10298632430923807,
+        "iq_rms": 0.09259643462305407,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93100000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.149023576291626,
+        "large_excursion_fraction": 0.09740440971253139,
+        "iq_rms": 0.09080696847493919,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93200000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 3.027698963132433,
+        "large_excursion_fraction": 0.11275467485347475,
+        "iq_rms": 0.08914809529173655,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93300000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 4.775597362279303,
+        "large_excursion_fraction": 0.10633547306726207,
+        "iq_rms": 0.09092778614871054,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93400000,
+      "lo_hz": 93050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 2.83320880635375,
+        "large_excursion_fraction": 0.11833658945018141,
+        "iq_rms": 0.08986840265528732,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93500000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 4.660646924538608,
+        "large_excursion_fraction": 0.0025118615685180016,
+        "iq_rms": 0.16757312543602013,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93600000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 4.632396974852898,
+        "large_excursion_fraction": 0.0016745743790120011,
+        "iq_rms": 0.16980467157628892,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93700000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 4.15967685049629,
+        "large_excursion_fraction": 0.12084845101869941,
+        "iq_rms": 0.08724714653660376,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93800000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 6.507091330556628,
+        "large_excursion_fraction": 0.10466089868825007,
+        "iq_rms": 0.08463999911071389,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 93900000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.684575567116175,
+        "large_excursion_fraction": 0.09628802679319007,
+        "iq_rms": 0.08529213842482863,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94000000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 7.199124619216604,
+        "large_excursion_fraction": 0.08344962322076473,
+        "iq_rms": 0.09642380481257516,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94100000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 2.642093419790079,
+        "large_excursion_fraction": 0.07284398548702205,
+        "iq_rms": 0.09587138936546459,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94200000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 5.56128678653621,
+        "large_excursion_fraction": 0.10884733463578007,
+        "iq_rms": 0.0727258655631769,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94300000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 7.81163687498708,
+        "large_excursion_fraction": 0.11024281328495673,
+        "iq_rms": 0.07303334394380825,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94400000,
+      "lo_hz": 94050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 7.238211962565813,
+        "large_excursion_fraction": 0.11052190901479207,
+        "iq_rms": 0.07295041827868931,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94500000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 0.09233299895390742,
+        "large_excursion_fraction": 0.10131174993022607,
+        "iq_rms": 0.08332702689339692,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94600000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 7.640688216914951,
+        "large_excursion_fraction": 0.10689366452693273,
+        "iq_rms": 0.08418084750483787,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94700000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 7.348017378894582,
+        "large_excursion_fraction": 0.11470834496232207,
+        "iq_rms": 0.08650717995409396,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94800000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 2.530624717895878,
+        "large_excursion_fraction": 0.09461345241417807,
+        "iq_rms": 0.08413230820689231,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 94900000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 2.6564709163434435,
+        "large_excursion_fraction": 0.09907898409154339,
+        "iq_rms": 0.08538954348430086,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95000000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 1.8150344015410655,
+        "large_excursion_fraction": 0.10493999441808541,
+        "iq_rms": 0.08364784210466418,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95100000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": -0.22343864310789233,
+        "large_excursion_fraction": 0.09935807982137873,
+        "iq_rms": 0.09220504644225722,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95200000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 1.5793091071918504,
+        "large_excursion_fraction": 0.10298632430923807,
+        "iq_rms": 0.08270990760356889,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95300000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 8.491192679173086,
+        "large_excursion_fraction": 0.11219648339380407,
+        "iq_rms": 0.08144729331996667,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95400000,
+      "lo_hz": 95050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 2.3559937432407976,
+        "large_excursion_fraction": 0.11387105777281607,
+        "iq_rms": 0.08337466731980683,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95500000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.138736427635877,
+        "large_excursion_fraction": 0.10298632430923807,
+        "iq_rms": 0.06545600524736575,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95600000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 4.421136696958512,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.06713776397666942,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95700000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 12.795743138654235,
+        "large_excursion_fraction": 0.045492603963159364,
+        "iq_rms": 0.11664193505962638,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95800000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 6.135563563509605,
+        "large_excursion_fraction": 0.034607870499581354,
+        "iq_rms": 0.10846798481704925,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 95900000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 15.420911469700815,
+        "large_excursion_fraction": 0.047446274072006696,
+        "iq_rms": 0.10379124642772256,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96000000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 5.986519581367623,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.07258320213261676,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96100000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.1856158375915875,
+        "large_excursion_fraction": 0.09991627128104939,
+        "iq_rms": 0.07362639054137522,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96200000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.763615281843935,
+        "large_excursion_fraction": 0.10438180295841473,
+        "iq_rms": 0.072615009633629,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96300000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 4.570844861020322,
+        "large_excursion_fraction": 0.11191738766396875,
+        "iq_rms": 0.07155069666246007,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96400000,
+      "lo_hz": 96050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 2.740725355577335,
+        "large_excursion_fraction": 0.11415015350265141,
+        "iq_rms": 0.07245227183397021,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96500000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 4.6041873396300845,
+        "large_excursion_fraction": 0.10689366452693273,
+        "iq_rms": 0.06807375646794991,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96600000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 5.771934731533415,
+        "large_excursion_fraction": 0.10270722857940273,
+        "iq_rms": 0.07355810064211113,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96700000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 5.007394757576372,
+        "large_excursion_fraction": 0.10717276025676807,
+        "iq_rms": 0.07715156069040141,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96800000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 8.0375099077946,
+        "large_excursion_fraction": 0.08651967624895339,
+        "iq_rms": 0.07616118519057459,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 96900000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 3.7646974246322884,
+        "large_excursion_fraction": 0.07479765559586939,
+        "iq_rms": 0.07635678786679137,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97000000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 25.074799780942886,
+        "large_excursion_fraction": 0.00027909572983533354,
+        "iq_rms": 0.19629761295486797,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97100000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 24.271173385168375,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.1937833035171699,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97200000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.102651626888958,
+        "large_excursion_fraction": 0.11163829193413341,
+        "iq_rms": 0.06265879104473157,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97300000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 6.666838062080877,
+        "large_excursion_fraction": 0.10186994138989673,
+        "iq_rms": 0.07404960214550355,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97400000,
+      "lo_hz": 97050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 4.637754210676774,
+        "large_excursion_fraction": 0.12280212112754675,
+        "iq_rms": 0.06627638571100855,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97500000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.6141007376463286,
+        "large_excursion_fraction": 0.08651967624895339,
+        "iq_rms": 0.07970807984503174,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97600000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 0.3373552774717598,
+        "large_excursion_fraction": 0.09768350544236673,
+        "iq_rms": 0.07771508280856064,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97700000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 0.4742878963885399,
+        "large_excursion_fraction": 0.11582472788166341,
+        "iq_rms": 0.06200013476334389,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97800000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 2.1876378492060846,
+        "large_excursion_fraction": 0.10047446274072007,
+        "iq_rms": 0.06378967092732472,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 97900000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": -0.05324680558951492,
+        "large_excursion_fraction": 0.10075355847055541,
+        "iq_rms": 0.06399302917396149,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98000000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.197140078016879,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.05684652339562606,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98100000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": -0.07451576675155298,
+        "large_excursion_fraction": 0.10214903711973207,
+        "iq_rms": 0.05713821604858052,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98200000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 6.528795393148458,
+        "large_excursion_fraction": 0.11275467485347475,
+        "iq_rms": 0.06270971214961861,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98300000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 5.87683058234127,
+        "large_excursion_fraction": 0.09768350544236673,
+        "iq_rms": 0.05753201055988413,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98400000,
+      "lo_hz": 98050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 5.736480367819309,
+        "large_excursion_fraction": 0.11861568518001675,
+        "iq_rms": 0.06182901147231287,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98500000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 2.391356677935,
+        "large_excursion_fraction": 0.10717276025676807,
+        "iq_rms": 0.055905385516495,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98600000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.603214635379596,
+        "large_excursion_fraction": 0.09572983533351939,
+        "iq_rms": 0.06244537654393221,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98700000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.141138567730438,
+        "large_excursion_fraction": 0.12754674853474743,
+        "iq_rms": 0.06652820680554193,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98800000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 10.405034029480781,
+        "large_excursion_fraction": 0.10298632430923807,
+        "iq_rms": 0.06539082993229055,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 98900000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 1.9641980969710486,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.06360772523865232,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99000000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 16.723887162185935,
+        "large_excursion_fraction": 0.009768350544236673,
+        "iq_rms": 0.18202365891955283,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99100000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 8.392908945643326,
+        "large_excursion_fraction": 0.01032654200390734,
+        "iq_rms": 0.19625709678653736,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99200000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 6.539891043164237,
+        "large_excursion_fraction": 0.09545073960368407,
+        "iq_rms": 0.06871528946129649,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99300000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 3.835556591406297,
+        "large_excursion_fraction": 0.09600893106335473,
+        "iq_rms": 0.07349522203607275,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99400000,
+      "lo_hz": 99050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 1.8908290512599457,
+        "large_excursion_fraction": 0.10466089868825007,
+        "iq_rms": 0.0706899673569195,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99500000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 3.539518959284572,
+        "large_excursion_fraction": 0.09935807982137873,
+        "iq_rms": 0.04790677984224833,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99600000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 7.698967390273472,
+        "large_excursion_fraction": 0.10354451576890873,
+        "iq_rms": 0.0474908501963832,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99700000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 2.4855940862112793,
+        "large_excursion_fraction": 0.10717276025676807,
+        "iq_rms": 0.07619079664846973,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99800000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 2.3607265390857175,
+        "large_excursion_fraction": 0.06865754953949205,
+        "iq_rms": 0.08314449150338983,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 99900000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.485029436014711,
+        "large_excursion_fraction": 0.07089031537817471,
+        "iq_rms": 0.0824935197263754,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100000000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 0.17437198615181643,
+        "large_excursion_fraction": 0.09265978230533073,
+        "iq_rms": 0.06081374653954235,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100100000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 6.087358610868332,
+        "large_excursion_fraction": 0.08400781468043539,
+        "iq_rms": 0.06097780741996366,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100200000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 10.932775712510846,
+        "large_excursion_fraction": 0.09824169690203739,
+        "iq_rms": 0.057579948126679714,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100300000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.226283801856181,
+        "large_excursion_fraction": 0.10633547306726207,
+        "iq_rms": 0.04967349996606767,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100400000,
+      "lo_hz": 100050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 8.564465770102096,
+        "large_excursion_fraction": 0.11331286631314541,
+        "iq_rms": 0.05619645609853304,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100500000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": -1.5722112879618786,
+        "large_excursion_fraction": 0.10661456879709741,
+        "iq_rms": 0.04830832204862217,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100600000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.438105430566303,
+        "large_excursion_fraction": 0.10633547306726207,
+        "iq_rms": 0.043761740460832345,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100700000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 6.332947986988189,
+        "large_excursion_fraction": 0.044655316773653364,
+        "iq_rms": 0.20581440756139835,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100800000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 19.908489051344368,
+        "large_excursion_fraction": 0.0019536701088473346,
+        "iq_rms": 0.19778415322161103,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 100900000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 35.4172677021222,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.21082647505267418,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101000000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.878668818192743,
+        "large_excursion_fraction": 0.12587217415573543,
+        "iq_rms": 0.07855688066537025,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101100000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 13.530389520660437,
+        "large_excursion_fraction": 0.16215461903432876,
+        "iq_rms": 0.055670538503709295,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101200000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 1.2743697425383869,
+        "large_excursion_fraction": 0.11052190901479207,
+        "iq_rms": 0.04038360189160141,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101300000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.446067657660767,
+        "large_excursion_fraction": 0.10521909014792073,
+        "iq_rms": 0.04606680004868176,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101400000,
+      "lo_hz": 101050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 2.83987462844498,
+        "large_excursion_fraction": 0.11135919620429807,
+        "iq_rms": 0.04107373676489286,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101500000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 11.224943971815843,
+        "large_excursion_fraction": 0.045771699692994695,
+        "iq_rms": 0.1026615257434974,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101600000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 6.694130525919604,
+        "large_excursion_fraction": 0.046608986882500696,
+        "iq_rms": 0.09573699715692191,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101700000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.594969725027397,
+        "large_excursion_fraction": 0.11359196204298075,
+        "iq_rms": 0.057435695461111734,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101800000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.6126293291760305,
+        "large_excursion_fraction": 0.10103265420039073,
+        "iq_rms": 0.05803863204359644,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 101900000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 7.374247366612056,
+        "large_excursion_fraction": 0.10521909014792073,
+        "iq_rms": 0.05793839489267184,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102000000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 3.5417689487906996,
+        "large_excursion_fraction": 0.10047446274072007,
+        "iq_rms": 0.05758196001472084,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102100000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 4.748313261540283,
+        "large_excursion_fraction": 0.09907898409154339,
+        "iq_rms": 0.057209853645836535,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102200000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.931386467537928,
+        "large_excursion_fraction": 0.09489254814401339,
+        "iq_rms": 0.05700198103136809,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102300000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": -2.2118097565075074,
+        "large_excursion_fraction": 0.09321797376500139,
+        "iq_rms": 0.0639221660253408,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102400000,
+      "lo_hz": 102050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 2.5355056250641117,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.06410312116636438,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102500000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 8.270502354578332,
+        "large_excursion_fraction": 0.029025955902874687,
+        "iq_rms": 0.09327198198174445,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102600000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 6.770103114415229,
+        "large_excursion_fraction": 0.04214345520513536,
+        "iq_rms": 0.09161292477620879,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102700000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.3307041889155595,
+        "large_excursion_fraction": 0.13005861010326542,
+        "iq_rms": 0.09995680487586737,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102800000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 6.849945206966012,
+        "large_excursion_fraction": 0.08261233603125873,
+        "iq_rms": 0.09418907062516566,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 102900000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 4.463355646585351,
+        "large_excursion_fraction": 0.09461345241417807,
+        "iq_rms": 0.09134857322476023,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103000000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.231099118610075,
+        "large_excursion_fraction": 0.10354451576890873,
+        "iq_rms": 0.07179987444892247,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103100000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 2.671987196109818,
+        "large_excursion_fraction": 0.10605637733742673,
+        "iq_rms": 0.0816747158342136,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103200000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.14406865525855,
+        "large_excursion_fraction": 0.1705274909293888,
+        "iq_rms": 0.11114467559600165,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103300000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 9.76080754508472,
+        "large_excursion_fraction": 0.058051911805749375,
+        "iq_rms": 0.11759803624126874,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103400000,
+      "lo_hz": 103050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 4.966834074844911,
+        "large_excursion_fraction": 0.056098241696902036,
+        "iq_rms": 0.1198386263575708,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103500000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 7.106896555065471,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.04452306113599524,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103600000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 9.84631302836119,
+        "large_excursion_fraction": 0.10131174993022607,
+        "iq_rms": 0.04425554178316842,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103700000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 7.626949041270682,
+        "large_excursion_fraction": 0.11303377058331007,
+        "iq_rms": 0.04009691895608473,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103800000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 1.2458123504734917,
+        "large_excursion_fraction": 0.09628802679319007,
+        "iq_rms": 0.041253636783455956,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 103900000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": -1.3641189705176968,
+        "large_excursion_fraction": 0.09517164387384873,
+        "iq_rms": 0.03936513024274487,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104000000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 5.5399017935112465,
+        "large_excursion_fraction": 0.10577728160759141,
+        "iq_rms": 0.041295210454965564,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104100000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 5.508496721067829,
+        "large_excursion_fraction": 0.09963717555121407,
+        "iq_rms": 0.04103842235261886,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104200000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.713324335801466,
+        "large_excursion_fraction": 0.0066982975160480044,
+        "iq_rms": 0.1851375024001709,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104300000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 33.45047505538667,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.1878743093249959,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104400000,
+      "lo_hz": 104050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 33.1674001259747,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.1854904921630442,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104500000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": -2.79484688577368,
+        "large_excursion_fraction": 0.11191738766396875,
+        "iq_rms": 0.03264700598902827,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104600000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 4.625862192478543,
+        "large_excursion_fraction": 0.12280212112754675,
+        "iq_rms": 0.03346548305389181,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104700000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.421807912461288,
+        "large_excursion_fraction": 0.10884733463578007,
+        "iq_rms": 0.0329840817204944,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104800000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.975077163419507,
+        "large_excursion_fraction": 0.10270722857940273,
+        "iq_rms": 0.033409593978649864,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 104900000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 8.811364777471022,
+        "large_excursion_fraction": 0.10410270722857941,
+        "iq_rms": 0.03302735198550661,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105000000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": -1.9200612527103735,
+        "large_excursion_fraction": 0.10605637733742673,
+        "iq_rms": 0.033386887029385866,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105100000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 10.56060112446157,
+        "large_excursion_fraction": 0.10493999441808541,
+        "iq_rms": 0.03225654484779941,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105200000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 2.668349201389723,
+        "large_excursion_fraction": 0.09879988836170807,
+        "iq_rms": 0.036243037979039265,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105300000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 3.3380676680726227,
+        "large_excursion_fraction": 0.10047446274072007,
+        "iq_rms": 0.035538021609753966,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105400000,
+      "lo_hz": 105050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.583275736971316,
+        "large_excursion_fraction": 0.12224392966787608,
+        "iq_rms": 0.03497966151447306,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105500000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 7.424470429209908,
+        "large_excursion_fraction": 0.10466089868825007,
+        "iq_rms": 0.03854090631529004,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105600000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 6.010962781150779,
+        "large_excursion_fraction": 0.09684621825286073,
+        "iq_rms": 0.037617624662737596,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105700000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 9.87419608324489,
+        "large_excursion_fraction": 0.03739882779793469,
+        "iq_rms": 0.22130645859351,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105800000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 30.986651859196442,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.2147630889748824,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 105900000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 30.660985478593553,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.1965722634693378,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106000000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 11.727766168127749,
+        "large_excursion_fraction": 0.15517722578844545,
+        "iq_rms": 0.05173863660942451,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106100000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 9.493078360073152,
+        "large_excursion_fraction": 0.15433993859893944,
+        "iq_rms": 0.048291363002927516,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106200000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 3.439501834274693,
+        "large_excursion_fraction": 0.09879988836170807,
+        "iq_rms": 0.041438676092085146,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106300000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 0.9370853465726942,
+        "large_excursion_fraction": 0.10354451576890873,
+        "iq_rms": 0.04096167503282474,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106400000,
+      "lo_hz": 106050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18755.23304493441,
+        "pilot_prominence_db": 5.23659626220031,
+        "large_excursion_fraction": 0.11498744069215741,
+        "iq_rms": 0.043215267137010474,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106500000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 7.364798171933847,
+        "large_excursion_fraction": 0.10466089868825007,
+        "iq_rms": 0.056015444722469075,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106600000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 3.4459217854409645,
+        "large_excursion_fraction": 0.10382361149874407,
+        "iq_rms": 0.0555486462504115,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106700000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 0.6204375862576004,
+        "large_excursion_fraction": 0.11973206809935807,
+        "iq_rms": 0.054850513908313935,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106800000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 4.078750329597095,
+        "large_excursion_fraction": 0.11554563215182807,
+        "iq_rms": 0.05701238235571203,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 106900000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.708153499326869,
+        "large_excursion_fraction": 0.10577728160759141,
+        "iq_rms": 0.055362263423023896,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107000000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 26.12511043941245,
+        "large_excursion_fraction": 0.0025118615685180016,
+        "iq_rms": 0.15184292506120614,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107100000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": true,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 27.11432972830349,
+        "large_excursion_fraction": 0.0,
+        "iq_rms": 0.16215725136707124,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107200000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 2.743944253006096,
+        "large_excursion_fraction": 0.10019536701088473,
+        "iq_rms": 0.055672302185324964,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107300000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 3.2938777060783138,
+        "large_excursion_fraction": 0.09852079263187273,
+        "iq_rms": 0.059029520444814444,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107400000,
+      "lo_hz": 107050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.566133343202387,
+        "large_excursion_fraction": 0.11024281328495673,
+        "iq_rms": 0.058307057173505344,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107500000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 1.7330176796454717,
+        "large_excursion_fraction": 0.10019536701088473,
+        "iq_rms": 0.07670734348362197,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107600000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 2.455346639703055,
+        "large_excursion_fraction": 0.09600893106335473,
+        "iq_rms": 0.07607408850574153,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107700000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 2.6328665155242903,
+        "large_excursion_fraction": 0.12196483393804075,
+        "iq_rms": 0.0794755032435076,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107800000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19291.09684621825,
+        "pilot_prominence_db": 6.477851354091158,
+        "large_excursion_fraction": 0.10689366452693273,
+        "iq_rms": 0.08111261313832276,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 107900000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 2.1477235696366983,
+        "large_excursion_fraction": 0.10466089868825007,
+        "iq_rms": 0.0796404186433224,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    },
+    {
+      "frequency_hz": 108000000,
+      "lo_hz": 108050000,
+      "quality": {
+        "good": false,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 7.815398595187441,
+        "large_excursion_fraction": 0.10493999441808541,
+        "iq_rms": 0.08822496251724678,
+        "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+      }
+    }
+  ]
+}

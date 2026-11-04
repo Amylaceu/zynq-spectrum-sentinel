@@ -1,0 +1,61 @@
+{
+  "schema": "z10-final-development-review-v1",
+  "status": "FAIL",
+  "recorded_utc": "2026-11-03T08:47:10.391469+00:00",
+  "image": "sentinel_v2_100m",
+  "complete_implementation_rounds": 3,
+  "requirements": {
+    "wns_ns_min": 1.0,
+    "whs_ns_min": 0.0
+  },
+  "timing": {
+    "wns_ns": 0.026,
+    "tns_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "whs_ns": 0.042,
+    "ths_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "wpws_ns": 0.264
+  },
+  "setup_margin_shortfall_ns": 0.974,
+  "resources": {
+    "Slice LUTs": 39262.0,
+    "Slice Registers": 54278.0,
+    "Block RAM Tile": 92.0,
+    "DSPs": 79.0
+  },
+  "implementation_session_seconds": 1230,
+  "implementation_session_local": "2026-11-03 16:18:29 to 16:38:59 +08:00",
+  "audit": "board/measurements/z10_v2_audit_gates_clock_root_review_r1.json",
+  "audit_sha256": "9828cd022ede8f3812adf441a7b49c934e13182f8ad35e3cf2bcdf4a900278c4",
+  "frozen_inputs_sha256": "8aa7f200528aff775f98e9ee689c1f12de295c975cdc48bccc655ef5f3dde85f",
+  "frozen_inputs_unchanged": true,
+  "frozen_input_count": 1062,
+  "runtime_regression": "board/measurements/z10_runtime_full_r3.json",
+  "runtime_regression_sha256": "5d2eaa846644034b2b457b0df7c5176c62771fbb67f9c9e61345578c1c2ae05c",
+  "baseline_verification": {
+    "sentinel_v1b": {
+      "acceptance_sha256": "965ed3bf8b7256e0bdc7edcdbd1c60389bb0dfea78b0b2d84812dc6183397520",
+      "artifacts_sha256": {
+        "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+        "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+        "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+      },
+      "all_artifact_hashes_match": true
+    },
+    "sentinel_v1d": {
+      "acceptance_sha256": "f779dfa06e48f27d128879559eecb9b17a7d838aa6532cebdf7cfc7bf1b0180a",
+      "artifacts_sha256": {
+        "sentinel_v1d.bit": "de0973e68b41773929b12d045a7fbbcd76727c51b10c40e4f4607cdb7424ad75",
+        "sentinel_v1d.hwh": "e4751faf8960693d0d2e954084694bc6a4abf3089769345f78f303476698345b",
+        "sentinel_v1d.xsa": "6ddb3c22c060c421d0e3d8901bee46126c936a55489daac2f37a61a971c8eb1c"
+      },
+      "all_artifact_hashes_match": true
+    }
+  },
+  "deployment_authorized": false,
+  "hardware_tested": false,
+  "speaker_played": false,
+  "next_plan": "docs/z10_t5_next.md",
+  "note": "Basic timing passes, Z10 +1ns target fails. CDC and external IO review remains open. No fourth implementation started."
+}

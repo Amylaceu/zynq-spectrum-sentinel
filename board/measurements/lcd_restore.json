@@ -1,0 +1,12 @@
+{
+  "expected_image": "/home/xilinx/sentinel/overlay/bringup_z20_lcd/bringup_z20_lcd.bit",
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "loaded_image_before": "/home/xilinx/sentinel/overlay/bringup_z20_lcd/bringup_z20_lcd.bit",
+  "timestamp_before": "2021/11/17 21:21:3 +28988",
+  "rf_transmission_requested": false,
+  "visual_confirmation": "pending_user",
+  "image_loaded_after": true,
+  "gpio_after_restore": 0,
+  "loaded_image_after": "/home/xilinx/sentinel/overlay/bringup_z20_lcd/bringup_z20_lcd.bit",
+  "status": "program_loaded_visual_check_pending"
+}

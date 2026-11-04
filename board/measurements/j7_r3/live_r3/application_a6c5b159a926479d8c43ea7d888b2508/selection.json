@@ -1,0 +1,79 @@
+{
+  "candidates": [
+    {
+      "station": {
+        "frequency_hz": 95800000,
+        "lo_hz": 96050000,
+        "confirmed_stereo": true
+      },
+      "measurements": [
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 26.50011135890333,
+            "large_excursion_fraction": 0.0019536701088473346,
+            "iq_rms": 0.15416339114136599,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": null,
+          "pilot_pass": true,
+          "quality_pass": true
+        },
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 23.492949081675242,
+            "large_excursion_fraction": 0.0016745743790120011,
+            "iq_rms": 0.17680114725513582,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": null,
+          "pilot_pass": true,
+          "quality_pass": true
+        },
+        {
+          "quality": {
+            "good": true,
+            "pilot_frequency_hz": 19023.16494557633,
+            "pilot_prominence_db": 18.96114164860519,
+            "large_excursion_fraction": 0.0027909572983533353,
+            "iq_rms": 0.1572078140684398,
+            "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+          },
+          "noise_event": {
+            "status": "RF_NOISY",
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 18.96114164860519,
+              "large_excursion_fraction": 0.0027909572983533353,
+              "iq_rms": 0.1572078140684398,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "rx_gain_db": 70,
+            "rssi_dbm": -88.5,
+            "station_hz": 95800000,
+            "lo_hz": 96050000,
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "iq_file": "noise_b9a072a725c74a3a96a908a13c34a2eb.npz",
+            "iq_sha256": "1146209ec098ee4d62e3a903bbc063cf8a308f29a1bfd858c3bd729a36ec51ed",
+            "sample_rate_hz": 480000,
+            "scope": "Known stereo station pilot warning; not physical interference diagnosis"
+          },
+          "pilot_pass": false,
+          "quality_pass": false
+        }
+      ],
+      "trusted": false,
+      "median_iq_power": 0.02471429680417714
+    }
+  ],
+  "selected": null,
+  "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+  "skipped_other_lo": 0
+}

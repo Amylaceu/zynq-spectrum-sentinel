@@ -1,0 +1,21 @@
+{
+  "tag": "base_z20",
+  "bundled_utc": "2026-11-01T19:19:59.6944889Z",
+  "sources": [
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/z20/fmcomms2_z20.runs/impl_1/system_top.bit",
+      "source_modified_utc": "2026-11-01T16:36:31.1570405Z",
+      "sha256": "CEF1A07B0FD5A10AE07034D14EDC04133ED5682C08FE2D210149B1F4D2C1A917"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/z20/fmcomms2_z20.gen/sources_1/bd/system/hw_handoff/system.hwh",
+      "source_modified_utc": "2026-11-01T16:19:52.0351261Z",
+      "sha256": "3373E3B9BA4764341FA380BB6248805A2E41C44272A8D5EEF7ABD5268B3ED54F"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/z20/fmcomms2_z20.sdk/system_top.xsa",
+      "source_modified_utc": "2026-11-01T16:36:52.1622396Z",
+      "sha256": "2E0E50EA4C6055EEFF5335B00A538A75B8A06D7E47262DC4103647EAFBBD47B3"
+    }
+  ]
+}

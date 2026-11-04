@@ -1,0 +1,42 @@
+{
+  "step": "N4 performance and observation substeps",
+  "date": "2026-11-02",
+  "status": "PASS",
+  "scope": "Standalone modules only, not full N4; no new board download",
+  "performance": {
+    "clock_MHz": 150,
+    "WNS_ns": 1.828,
+    "internal_hold_ns": 0.142,
+    "LUT": 265,
+    "FF": 903,
+    "BRAM": 0,
+    "DSP": 0,
+    "checks": [
+      "sample/FFT/hit handshake counts",
+      "atomic 64-bit counter snapshot",
+      "first accepted sample marker to next list IRQ latency",
+      "sticky overflow/error and token clear"
+    ]
+  },
+  "observers": {
+    "captured_words": 4096,
+    "frames": 2,
+    "checks": [
+      "wait for bin zero",
+      "stalled input",
+      "no unarmed overwrite",
+      "20 asynchronous interrupts without loss"
+    ]
+  },
+  "python_tests": 9,
+  "package_repositories": [
+    "build/work/n4_packaged_ip_round2/src_mux",
+    "build/work/n4_packaged_ip_round2/lcd8080_engine",
+    "build/work/n4_packaged_ip_round2/perf_mon"
+  ],
+  "report_sha256": {
+    "build/reports/modules/perf_mon_internal_hold.rpt": "fa42e58dafd74477152063a3a525e695b7c88f855af8db18346ed4524e159109",
+    "build/reports/modules/perf_mon_timing.rpt": "8e915348d877723de7908ce9f8cd49ba4b5ec77c952545b70065d4243a20ec03",
+    "build/reports/modules/perf_mon_util.rpt": "132382dbcd4286d52adbd705533d9380bcd8727f0308de887d31b7b0b6b57cf3"
+  }
+}

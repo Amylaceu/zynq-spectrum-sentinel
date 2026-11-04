@@ -1,0 +1,13 @@
+{
+  "pid": 11669,
+  "supervisor_log": "/home/xilinx/sentinel/release/v2/logs/F3_demo_r2_supervisor.log",
+  "manifest_files": 110,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "status": "STARTED",
+  "group": "B",
+  "cycles": 3,
+  "host_utc": "2026-11-03T16:35:29.406774+00:00",
+  "antenna": "B-direct confirmed TX1A/RX1A",
+  "frequency_hz": 2450000000,
+  "attenuation_floor_db": 40
+}

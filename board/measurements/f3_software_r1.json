@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SOFTWARE_BOARD_DEMO_PENDING",
+  "host_utc": "2026-11-03T16:22:17.049407+00:00",
+  "pytest_passed": 393,
+  "pytest_skipped": 18,
+  "pytest_log": "logs/F3_ps_regression_r3.log",
+  "pytest_log_sha256": "619930d10ec4338dcf6119cab9203fb3aeea08905c98ce670f297c075eb7ff4e",
+  "python38_files": 122,
+  "package_sha256": "548e54db77af6884e55fa0831f62b71fd8c5c8d9a476c2fe6afa9976e9074172",
+  "f3_evidence_audit": "board/measurements/f3_evidence_audit_r1.json",
+  "limitations": [
+    "Board demo and human visual acceptance pending",
+    "Full historical sidecar scan found missing F1 raw NPZ files; not a PASS for all historical evidence"
+  ]
+}

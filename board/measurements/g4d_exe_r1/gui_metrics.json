@@ -1,0 +1,304 @@
+{
+  "schema": "g4_gui_metrics/1",
+  "source": "replay",
+  "duration_s": 20.0,
+  "samples": [
+    {
+      "elapsed_s": 1.0,
+      "rss_bytes": 213237760,
+      "cpu_single_core_pct": 42.2,
+      "spectra": 7,
+      "painted": 8,
+      "errors": []
+    },
+    {
+      "elapsed_s": 2.0,
+      "rss_bytes": 214056960,
+      "cpu_single_core_pct": 28.1,
+      "spectra": 14,
+      "painted": 16,
+      "errors": []
+    },
+    {
+      "elapsed_s": 3.0,
+      "rss_bytes": 213385216,
+      "cpu_single_core_pct": 20.3,
+      "spectra": 24,
+      "painted": 26,
+      "errors": []
+    },
+    {
+      "elapsed_s": 4.0,
+      "rss_bytes": 214188032,
+      "cpu_single_core_pct": 29.7,
+      "spectra": 34,
+      "painted": 37,
+      "errors": []
+    },
+    {
+      "elapsed_s": 5.0,
+      "rss_bytes": 214220800,
+      "cpu_single_core_pct": 35.9,
+      "spectra": 42,
+      "painted": 48,
+      "errors": []
+    },
+    {
+      "elapsed_s": 6.0,
+      "rss_bytes": 213499904,
+      "cpu_single_core_pct": 28.1,
+      "spectra": 52,
+      "painted": 58,
+      "errors": []
+    },
+    {
+      "elapsed_s": 7.0,
+      "rss_bytes": 213123072,
+      "cpu_single_core_pct": 15.6,
+      "spectra": 62,
+      "painted": 69,
+      "errors": []
+    },
+    {
+      "elapsed_s": 8.0,
+      "rss_bytes": 212529152,
+      "cpu_single_core_pct": 35.9,
+      "spectra": 72,
+      "painted": 82,
+      "errors": []
+    },
+    {
+      "elapsed_s": 9.0,
+      "rss_bytes": 212549632,
+      "cpu_single_core_pct": 31.2,
+      "spectra": 81,
+      "painted": 92,
+      "errors": []
+    },
+    {
+      "elapsed_s": 10.0,
+      "rss_bytes": 214487040,
+      "cpu_single_core_pct": 31.2,
+      "spectra": 91,
+      "painted": 103,
+      "errors": []
+    },
+    {
+      "elapsed_s": 11.0,
+      "rss_bytes": 214142976,
+      "cpu_single_core_pct": 17.2,
+      "spectra": 101,
+      "painted": 114,
+      "errors": []
+    },
+    {
+      "elapsed_s": 12.0,
+      "rss_bytes": 214167552,
+      "cpu_single_core_pct": 25.0,
+      "spectra": 111,
+      "painted": 125,
+      "errors": []
+    },
+    {
+      "elapsed_s": 13.0,
+      "rss_bytes": 214179840,
+      "cpu_single_core_pct": 15.6,
+      "spectra": 121,
+      "painted": 136,
+      "errors": []
+    },
+    {
+      "elapsed_s": 14.0,
+      "rss_bytes": 214192128,
+      "cpu_single_core_pct": 20.3,
+      "spectra": 131,
+      "painted": 147,
+      "errors": []
+    },
+    {
+      "elapsed_s": 15.0,
+      "rss_bytes": 214196224,
+      "cpu_single_core_pct": 20.3,
+      "spectra": 138,
+      "painted": 155,
+      "errors": []
+    },
+    {
+      "elapsed_s": 16.0,
+      "rss_bytes": 214208512,
+      "cpu_single_core_pct": 12.5,
+      "spectra": 147,
+      "painted": 164,
+      "errors": []
+    },
+    {
+      "elapsed_s": 17.0,
+      "rss_bytes": 214990848,
+      "cpu_single_core_pct": 39.1,
+      "spectra": 154,
+      "painted": 174,
+      "errors": []
+    },
+    {
+      "elapsed_s": 18.0,
+      "rss_bytes": 215007232,
+      "cpu_single_core_pct": 25.0,
+      "spectra": 164,
+      "painted": 184,
+      "errors": []
+    },
+    {
+      "elapsed_s": 19.0,
+      "rss_bytes": 215031808,
+      "cpu_single_core_pct": 29.7,
+      "spectra": 174,
+      "painted": 196,
+      "errors": []
+    },
+    {
+      "elapsed_s": 20.0,
+      "rss_bytes": 215035904,
+      "cpu_single_core_pct": 29.7,
+      "spectra": 184,
+      "painted": 207,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "received_spectra": 184,
+  "painted_frames": 207,
+  "received_hz": 9.3,
+  "paint_hz": 10.4,
+  "memory_growth_bytes": 548864,
+  "cpu_single_core_median_pct": 25.0,
+  "cpu_machine_median_pct": 1.25,
+  "receive_to_update_median_ms": null,
+  "latency_scope": "PC socket receive to Qt setData; not PL-to-screen or optical scanout",
+  "pl_to_screen_latency": "NOT_CERTIFIED",
+  "recording": null,
+  "final_targets": [
+    {
+      "key": 0,
+      "frequency_hz": 95795937.5,
+      "bandwidth_hz": 18750.0,
+      "power": 2177446,
+      "first_seen_mono": 13291.715531605,
+      "label": "FM",
+      "confidence": 0.999299168586731
+    },
+    {
+      "key": 8,
+      "frequency_hz": 97002500.0,
+      "bandwidth_hz": 13125.0,
+      "power": 579462,
+      "first_seen_mono": 13310.652881205,
+      "label": "FM",
+      "confidence": 1.0
+    },
+    {
+      "key": 1,
+      "frequency_hz": 96712812.5,
+      "bandwidth_hz": 7500.0,
+      "power": 193839,
+      "first_seen_mono": 13291.715531605,
+      "label": "AM-DSB",
+      "confidence": 0.8734211176633835
+    }
+  ],
+  "final_events": [
+    {
+      "timestamp_utc": "03:34:12Z",
+      "event_kind": "NEW",
+      "text": "97.418M OOK",
+      "type": "event",
+      "seq": 133,
+      "t_mono": 13296.353786146,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:13Z",
+      "event_kind": "NEW",
+      "text": "97.014M FM",
+      "type": "event",
+      "seq": 174,
+      "t_mono": 13297.604911079,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:15Z",
+      "event_kind": "AMC",
+      "text": "97.008M FM>BPSK",
+      "type": "event",
+      "seq": 229,
+      "t_mono": 13299.476165609,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:16Z",
+      "event_kind": "NEW",
+      "text": "97.315M BPSK",
+      "type": "event",
+      "seq": 263,
+      "t_mono": 13300.59613252,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:18Z",
+      "event_kind": "NEW",
+      "text": "97.418M AM-DSB",
+      "type": "event",
+      "seq": 303,
+      "t_mono": 13301.835694916,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:18Z",
+      "event_kind": "AMC",
+      "text": "97.007M BPSK>FM",
+      "type": "event",
+      "seq": 331,
+      "t_mono": 13302.736581379,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:19Z",
+      "event_kind": "AMC",
+      "text": "96.713M OOK>AM-DSB",
+      "type": "event",
+      "seq": 345,
+      "t_mono": 13303.16635372,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:24Z",
+      "event_kind": "NEW",
+      "text": "97.418M OOK",
+      "type": "event",
+      "seq": 496,
+      "t_mono": 13308.092442469,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:27Z",
+      "event_kind": "NEW",
+      "text": "97.002M BPSK",
+      "type": "event",
+      "seq": 577,
+      "t_mono": 13311.128862362,
+      "len": 0
+    },
+    {
+      "timestamp_utc": "03:34:29Z",
+      "event_kind": "AMC",
+      "text": "97.002M BPSK>FM",
+      "type": "event",
+      "seq": 643,
+      "t_mono": 13313.180997422,
+      "len": 0
+    }
+  ],
+  "twin_pl_frames": 184,
+  "twin_ui_frames": 43,
+  "twin_painted_frames": 207,
+  "twin_epoch": 46
+}

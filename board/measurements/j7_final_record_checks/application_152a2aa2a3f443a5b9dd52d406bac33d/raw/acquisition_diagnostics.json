@@ -1,0 +1,56 @@
+{
+  "blocks": [
+    {
+      "index": 0,
+      "descriptor_id": 0,
+      "copy_s": 0.03355655500001831,
+      "fifo_status": 0,
+      "audio": {
+        "raw_status": 65785,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4111,
+        "frames": 300842,
+        "underflows": 0,
+        "pcm_samples": 304954
+      }
+    },
+    {
+      "index": 1,
+      "descriptor_id": 1,
+      "copy_s": 0.03723254400006226,
+      "fifo_status": 4,
+      "audio": {
+        "raw_status": 65785,
+        "enabled": true,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "playing": true,
+        "fifo_level": 4111,
+        "frames": 319995,
+        "underflows": 0,
+        "pcm_samples": 324108
+      }
+    }
+  ],
+  "error": "RuntimeError('ADC overflow; recording rejected')",
+  "buffers_quarantined": false,
+  "quality": [
+    {
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 30.320510235220116,
+      "large_excursion_fraction": 0.00027909572983533354,
+      "iq_rms": 0.20208260073123777,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "scene": "listen",
+      "observed_mono": 536.960799903,
+      "timestamp_cycles": 2999463261,
+      "capture_filename": "capture_00007.npz",
+      "capture_sha256": "57a379e5d35dfd3d75587b4857acbba4bcb01c200ffa710bbff69009c5215446"
+    }
+  ],
+  "sd_evidence_deferred_until_dma_drained": true
+}

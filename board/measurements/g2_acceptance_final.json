@@ -1,0 +1,49 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "completed": true,
+    "ten_minutes": true,
+    "version": true,
+    "median": false,
+    "p95": false,
+    "frame_rate": true,
+    "zero_errors": true,
+    "stopped": true,
+    "receive_only": true
+  },
+  "median_ms": 36.107930000071065,
+  "p95_ms": 165.0686617998872,
+  "min_fps": 38.964596732341136,
+  "measured_duration_s": 600.9286848619995,
+  "submissions": 785,
+  "submit_errors": 0,
+  "samples": 785,
+  "measurement_scope": "draw + palette pack + MMIO submit; excludes acknowledgement wait",
+  "human_readability": "Requires separate current-run user confirmation",
+  "tx_on_physical_test": "Deferred to G5; receive only",
+  "function_status": "PASS",
+  "human_confirmation": "User: \u753b\u9762\u6ca1\u95ee\u9898; \u753b\u9762\u6ca1\u6709\u95ee\u9898\uff0c\u4e0d\u7528\u7b49\u4e86",
+  "software_tests": {
+    "passed": 664,
+    "skipped": 18,
+    "log": "logs/G2_compat_final.log"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "frozen_files_unchanged": {
+    "src/ps/sentinel/lcd_x5.py": true,
+    "board/overlay/sentinel_v2_100m/sentinel_v2_100m.bit": true,
+    "board/overlay/sentinel_v2_100m/sentinel_v2_100m.hwh": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "attempt": 3,
+  "status": "FAIL",
+  "manifest": "src/ps/models/weights/amc_v2/round_3/manifest.json",
+  "manifest_sha256": "d0925a824f365f1adad40331db595f49d87601b9b5bdad2ba5eee094caf6b5c5",
+  "model": "src/ps/models/weights/amc_v2/round_3/model.npz",
+  "model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "limitation": "Synthetic data only; confidence is uncalibrated; no OTA acceptance"
+}

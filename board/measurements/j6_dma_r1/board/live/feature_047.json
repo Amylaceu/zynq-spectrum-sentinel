@@ -1,0 +1,83 @@
+{
+  "id": "F10",
+  "action": "start",
+  "status": "READY",
+  "tx_requested": false,
+  "metrics": {
+    "\u5904\u7406\u65f6\u95f4": {
+      "before": 14.9882,
+      "after": 0.6783,
+      "unit": "ms (CPU\u2192PL)"
+    },
+    "CPU/PL\u6bd4\u503c": {
+      "before": "\u2014",
+      "after": 22.097,
+      "unit": "\u500d"
+    }
+  },
+  "restored_before": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "scope": "Same replay IQ; CPU floating window/FFT+integer thresholds (no clustering); PL first-IQ to list includes serial input, fixed FFT and clustering. Not equivalent arithmetic or pure compute speedup.",
+  "input_sha256": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+  "timings_cpu_s": [
+    0.014988184993853793,
+    0.01519619500322733,
+    0.01497650899545988,
+    0.015022936000605114,
+    0.01493683599983342
+  ],
+  "restored": false,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 5,
+    "spec_ctrl": 1,
+    "average_shift": 0,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": true
+  },
+  "targets": [
+    {
+      "start": 721,
+      "stop": 727,
+      "peak_bin": 724
+    },
+    {
+      "start": 1085,
+      "stop": 1091,
+      "peak_bin": 1088
+    },
+    {
+      "start": 1321,
+      "stop": 1327,
+      "peak_bin": 1324
+    }
+  ],
+  "elapsed_s": 0.5985592430006363,
+  "within_target": true
+}

@@ -1,0 +1,14 @@
+{
+  "error": null,
+  "transmitted_bytes": 0,
+  "text_sha256": "235ffc5cc60e2ac2f4dae61d111a948f47c951590a05aeea0bec31767f461dbb",
+  "started_utc": "2026-11-02T17:28:19.7449875+00:00",
+  "port": "COM10",
+  "bytes": 28101,
+  "raw_sha256": "235ffc5cc60e2ac2f4dae61d111a948f47c951590a05aeea0bec31767f461dbb",
+  "ended_utc": "2026-11-02T17:38:19.8866273+00:00",
+  "baud": 115200,
+  "scope": "Passive boot capture; no transmitted UART bytes",
+  "raw_path": "logs/X0_backup_return_boot_r1.bin",
+  "text_path": "logs/X0_backup_return_boot_r1.log"
+}

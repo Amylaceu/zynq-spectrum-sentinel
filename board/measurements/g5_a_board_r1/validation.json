@@ -1,0 +1,48 @@
+{
+  "status": "FAIL",
+  "group": "A",
+  "cycles": 3,
+  "configuration": "A",
+  "host_started_utc": "2026-11-03T22:22:24.879033+00:00",
+  "pl_rebuilt": false,
+  "launch": {
+    "pid": 21206,
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "preflight": {
+      "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+      "image": "sentinel_v2_100m",
+      "gpio_data": 0,
+      "source_ctrl": 0,
+      "lcd_version": 1279459333,
+      "scope": "Stopped readback only; no RF initialization or download",
+      "source_enabled": false,
+      "capture_status": 268435456,
+      "audio_control": 0,
+      "audio_status": 0,
+      "status": "PASS"
+    }
+  },
+  "tag": "20211119T040807Z_14b0909e",
+  "error": "RuntimeError('GUI failed; see gui.log')",
+  "stop": "{\"boot_id\": \"cf69eed5-2394-48e0-bd7c-ee1d41ec26e6\", \"image\": \"sentinel_v2_100m\", \"gpio_data\": 0, \"source_ctrl\": 0, \"lcd_version\": 1279459333, \"scope\": \"Stopped readback only; no RF initialization or download\", \"source_enabled\": false, \"capture_status\": 268435456, \"audio_control\": 0, \"audio_status\": 0, \"status\": \"PASS\"}\n",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "files_sha256": {
+    "board_finished.json": "14d9cc73412e487c29206dbbf876d8d0d16ca65e89ec88520c3fbf87dcde8de9",
+    "board_finished.json.sha256": "c80fb4bba0a5fa396a4ce4f218101963c470f5bd4a2eb1ca7f527ed20509fa92",
+    "gui.log": "ad281dba8eab1c24d615fa53c82f4e09926dd5d889f198846377c9b9a56a71f7",
+    "launch.json": "097dba255dad97572f7af1a667fd804dbaee1f2cafe6da8e36445b9db82746ab",
+    "launch.json.sha256": "ce7549efea6fcc56e1f9d2bfc0820737ff3c1f1e453a80958ef3e866c13e0eef"
+  }
+}

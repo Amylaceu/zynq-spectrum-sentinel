@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "attempt": 3,
+  "recorded_at_pc": "2026-11-03T03:50:09.705755+00:00",
+  "note": "8193 phase samples and820 PCM words exactly match; independent atan2 and1kHz/75us amplitude checks pass; AXIS long/random stalls and reset pass. Isolated component only.",
+  "scope": "Isolated fixed-point FM component, not PFB integration/routed timing/audio playback",
+  "archive": "report/results/y3_fm_r3.zip",
+  "archive_sha256": "0a8c335a86ea0ae08ac6c1ab7d0955577295a76affcb7b28b71cebab2efba336",
+  "sources_sha256": {
+    "src/rtl/audio_y3/fm_phase_y3.v": "c2d50d67d2914af752a545774842ddaafd669c53b32b3e1bd13c6d5bff6ad81b",
+    "src/rtl/audio_y3/fm_audio_filter_y3.v": "284eac828558f5c28e5979c57402123cd2c76306b693a754c21028c5c97582ff",
+    "sim/tb/tb_fm_y3.sv": "7f73fc202988c3fbeb9db8e2a91169df7bedf7ca5218cf6f5c543d391984ce25",
+    "tools/gen_y3_fm_vectors.py": "5acf226c8ab9f7389f9028d525db08618b914085f7f04aff1e9c287b34e3050d",
+    "tools/test_y3_fm.ps1": "33134918f9f0817b3d41fe281709765998377a8e2fe0168deb0fa925ed7869a0",
+    "tools/archive_y3_fm.py": "2b6e556ef1807b2594f02feed1029defe9b3e17a105335f314677b96b300ada5",
+    "sim/scripts/run_xsim.ps1": "e71673cf1ba75d19019b8ef68e4856aac0b936fed14cf01fc6c08068bb1a2489",
+    "logs/Y3_fm_r3_controller.log": "ff54a6a899b4a6afd0f26c7c0159d4d70482eefe4a46484283596d4a22e67cd4",
+    "logs/Y3_fm_r3_exit.txt": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "sim/results/tb_fm_y3.log": "e7628f12eeb080d223c2271462522cbc37f1c3d9d5459a3db821ae4c39d93dfa",
+    "build/work/y3_fm_vectors_r3/vectors.json": "4aef66187134e23ef97104c59c3d7d2a6f1cf9773d013afb92948e9efa660ba5",
+    "build/work/y3_fm_vectors_r3/vectors.json.sha256": "a148630e06b25bc16ac3440a0db6aa2ab648919999106ccc975ea8704138f256",
+    "build/work/y3_fm_vectors_r3/y3_atan.hex": "fe0751d249dbcea7ced7104ee09000d32172d0afd85dc7bcde359bd2ac88454f",
+    "build/work/y3_fm_vectors_r3/y3_audio_expected.hex": "1c60e926551651ef771eb6c0b14d7e6b0ff1e377745fab7e27bb432524e849fc",
+    "build/work/y3_fm_vectors_r3/y3_audio_fir.hex": "e511fde02bb2e4ca152e1235ee33f5f7176133ac72bf50d26aa081cb549134c8",
+    "build/work/y3_fm_vectors_r3/y3_fm_input.hex": "699f53eb49c1b8bac18dd9f8800e92cc5c9a6f8f23bfd74852cc50b8757ab2b9",
+    "build/work/y3_fm_vectors_r3/y3_phase_expected.hex": "38928b3309e0da725456ab94dc807367b69ec703674801c19f411e90d9226671"
+  }
+}

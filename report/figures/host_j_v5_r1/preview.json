@@ -1,0 +1,63 @@
+{
+  "schema": "j_v5_offline_preview/1",
+  "source": "OFFLINE_SYNTHETIC_NOT_BOARD_MEASUREMENT",
+  "hardware_connected": false,
+  "button_count": 4,
+  "feature_entry_count": 63,
+  "screenshots": [
+    {
+      "button": 1,
+      "page": 1,
+      "title": "系统自检",
+      "scene": "check",
+      "file": "01.png",
+      "sha256": "bd3eef15e5f7d95a48dc3850a300078983d8f6645c44302b9645933aae6a6a45",
+      "feature_keys": [
+        "1"
+      ],
+      "twin_viewport_width_px": 913,
+      "twin_mode": "main"
+    },
+    {
+      "button": 2,
+      "page": 3,
+      "title": "监测识别",
+      "scene": "fm",
+      "file": "02.png",
+      "sha256": "41dababa8f0d72c863c2841ea3c51acf24f84e2ba8556715e5c3e60fa5caa690",
+      "feature_keys": [
+        "14"
+      ],
+      "twin_viewport_width_px": 913,
+      "twin_mode": "main"
+    },
+    {
+      "button": 3,
+      "page": 4,
+      "title": "广播收听",
+      "scene": "listen",
+      "file": "03.png",
+      "sha256": "d0058b1e6befc3b6c930bdb33c7f00d987dca9a7fb83051d465eb89aa8ce56ef",
+      "feature_keys": [
+        "24"
+      ],
+      "twin_viewport_width_px": 913,
+      "twin_mode": "main"
+    },
+    {
+      "button": 4,
+      "page": 7,
+      "title": "性能监测",
+      "scene": "perf",
+      "file": "04.png",
+      "sha256": "1ef056b036c6e057d5149fd2c993ccc33abe4bf9338c7f87e78adb0d667f196b",
+      "feature_keys": [
+        "43"
+      ],
+      "twin_viewport_width_px": 913,
+      "twin_mode": "main"
+    }
+  ],
+  "errors": [],
+  "readiness": "LIVE_ONLY_UI_CHECK; not a board acceptance or full feature completion"
+}

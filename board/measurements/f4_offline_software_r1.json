@@ -1,0 +1,34 @@
+{
+  "status": "PASS_OFFLINE_ONLY_BOARD_PENDING",
+  "scope": "F4 foundations; not deployed or integrated",
+  "targeted_tests": 17,
+  "regression_passed": 622,
+  "regression_skipped": 18,
+  "regression_log": "logs/F4_regression_r1.log",
+  "regression_log_sha256": "9563c2d9ab3d50400b29067be2f0b7a2e2dd3aadb55f4afefd3d674e52ce7e1c",
+  "checked_sidecars": [
+    "board/measurements/f4_offline_r1/panorama_A_synthetic.npz",
+    "board/measurements/f4_offline_r1/panorama_D_synthetic.npz",
+    "board/measurements/f4_offline_r1/result.json",
+    "board/measurements/f4_offline_r1/synthetic_hour.jsonl",
+    "board/measurements/f4_offline_r1/synthetic_panorama.png"
+  ],
+  "python38_syntax_files": [
+    "src/ps/sentinel/panorama.py",
+    "src/ps/sentinel/stability.py",
+    "src/ps/tests/test_f4_offline.py",
+    "tools/f4_offline_check.py"
+  ],
+  "release_payload_validation_files": 112,
+  "release_built": false,
+  "release_deployed": false,
+  "board_accessed": false,
+  "sd_accessed": false,
+  "f4_hardware_acceptance": "NOT_STARTED",
+  "sources_sha256": {
+    "src/ps/sentinel/panorama.py": "a6e59e5e28e3786f894dfdc412c2b3e548382f74cdb736f6493867ead93c9142",
+    "src/ps/sentinel/stability.py": "adfdf77835352795961aeda37790ac44bcc30d697663a08b693746abb9c99087",
+    "src/ps/tests/test_f4_offline.py": "aaad2193ca9d601417abd4416b0461ed8d5e50e3635c8f4e0a6d2f70d4c5bee2",
+    "tools/f4_offline_check.py": "6f72530f273c4a5c8a8d1d164629b11b5a65d2a8de4337fd03807d61e1a888bf"
+  }
+}

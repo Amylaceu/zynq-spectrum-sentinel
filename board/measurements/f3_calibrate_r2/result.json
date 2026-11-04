@@ -1,0 +1,72 @@
+{
+  "status": "FAIL",
+  "mode": "calibrate",
+  "antenna": "B-direct, user confirmed 2-3cm",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [
+    {
+      "rssi_dbm": -74.75,
+      "tx_atten_db": 89.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -33.12485268116681,
+      "peak_hz": 238593.75,
+      "residual_band_hz": 1500000,
+      "rms_native": 407.59970206117833,
+      "max_component": 1570.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -75.5,
+      "tx_atten_db": 86.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -32.33400395019487,
+      "peak_hz": 241523.4375,
+      "residual_band_hz": 1500000,
+      "rms_native": 362.13028029258356,
+      "max_component": 1520.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -75.0,
+      "tx_atten_db": 83.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -33.99278526973034,
+      "peak_hz": 241171.875,
+      "residual_band_hz": 1500000,
+      "rms_native": 375.5234278292538,
+      "max_component": 1547.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -74.75,
+      "tx_atten_db": 80.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -36.2256760224397,
+      "peak_hz": 241757.8125,
+      "residual_band_hz": 1500000,
+      "rms_native": 553.687731105413,
+      "max_component": 2048.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    }
+  ],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Control readback only; RF injection selftest pending",
+  "start_health": {
+    "rssi_dbm": -74.0,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "error": "RuntimeError('ADC near clipping; stop instead of increasing power')",
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 11.31372120800006,
+  "capture_sha256": "51aa3431522f395e7f6f75a4816a6abb363ad5a66f32678cd5f0b8349b754747"
+}

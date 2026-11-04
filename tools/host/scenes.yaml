@@ -1,0 +1,58 @@
+# Editable presenter notes. Only verified receive scenes are enabled.
+schema: 1
+target_seconds: 240
+scenes:
+  - id: check
+    title: ① 一键预检
+    page: 5
+    seconds: 15
+    target_s: 5
+    available: true
+    notes: 检查冻结位流、射频芯片、安全衰减、温度和广播导频。显示的往返时间包含处理时间，不等同网络 RTT。空口未授权，仅接收。
+  - id: pano
+    title: ② 快速全景
+    page: 4
+    seconds: 25
+    target_s: 5
+    available: false
+    reason: 讲解快扫尚待 I5；已有完整全景为存档测量，不能冒充当前扫描。
+    notes: 完整扫频已有记录；≤5秒讲解快扫尚未验收，不演示为实时功能。
+  - id: fm
+    title: ③ 监测与识别
+    page: 1
+    seconds: 45
+    target_s: 2
+    available: true
+    notes: FPGA 实时频谱和 CFAR，处理器执行实验模型推理。模型未达原准确率目标，分数未经概率校准；点图和目标表来自真实接收。
+  - id: listen
+    title: ④ 收听广播
+    page: 2
+    seconds: 30
+    target_s: 3
+    available: true
+    station_mhz: 95.8
+    notes: 收听已确认的95.8MHz广播。FPGA解调后直接送板载喇叭，导频门控抑制弱信号噪声。喇叭0dB已试听；电脑不进行同步播放。
+  - id: wifi
+    title: ⑤ WiFi 观察
+    page: 0
+    seconds: 30
+    target_s: 4
+    available: false
+    reason: 尚未通过 CRC 正确信标门槛；环境能量不能宣称为热点或 SSID 检出。
+    notes: 信标解码尚未验收，不显示推测的SSID；I4先验证门槛，不通过则只展示环境能量。
+  - id: ota
+    title: ⑥ 空口记录
+    page: 3
+    seconds: 40
+    target_s: 8
+    available: false
+    reason: 当前天线采用广播优先配置；仅可使用已核验的 REPLAY 素材，I6尚未注册素材。
+    fallback: null
+    notes: 当前配置不进行实时发射。历史空口记录必须醒目标注REPLAY；数字参考SNR不等同校准射频SNR。
+  - id: perf
+    title: ⑦ 性能与限制
+    page: 5
+    seconds: 20
+    target_s: 1
+    available: true
+    notes: 固定100MHz和3.84MSPS。展示真实帧率、温度及已核验的资源时序记录。原未达标项保持公开，性能汇总尚不完整。

@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "command": "serve",
+  "worker_args": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/release/i2_r1/scripts/serve_resident.py",
+    "--out",
+    "/home/xilinx/sentinel/release/i2_r1/measurements/serve_20211119T061656Z_3dca95b5",
+    "--seconds",
+    "300.0",
+    "--hostlink-bind",
+    "192.168.2.99"
+  ],
+  "output": "/home/xilinx/sentinel/release/i2_r1/measurements/serve_20211119T061656Z_3dca95b5",
+  "worker_exit_code": -15,
+  "error": "RuntimeError('Stop readback failed: /usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_fmc is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_audio is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\nTraceback (most recent call last):\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 82, in <module>\\n    main()\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 45, in main\\n    raise RuntimeError(\\'Matching image not loaded; no MMIO attempted\\')\\nRuntimeError: Matching image not loaded; no MMIO attempted\\n')"
+}

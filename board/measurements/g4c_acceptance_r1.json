@@ -1,0 +1,44 @@
+{
+  "status": "FAIL",
+  "functional_status": "PASS",
+  "user_visual": "\u663e\u793a\u6e05\u695a\u3001\u653e\u5927\u6b63\u5e38\u3001\u70b9\u51fb\u4e0eLCD\u540c\u6b65",
+  "source": "g4c_board_r1/validation.json",
+  "source_sha256": "6e37c86e4dd87484032270413db0304335eddcd5d0effa70adf81d30ee1509cb",
+  "configuration": "A",
+  "tx_requested": false,
+  "duration_s": 180.1720000000205,
+  "click_correct": 6,
+  "click_total": 6,
+  "click_median_ms": 328.9999999979045,
+  "click_p95_ms": 632.9999999943539,
+  "fresh_twin_updates_hz": 9.435714285714285,
+  "cpu_single_core_median_pct": 29.7,
+  "cpu_machine_median_pct": 1.4849999999999999,
+  "refresh_callback_p95_ms": 7.606129997293463,
+  "page_switch_max_ms": 37.11120001389645,
+  "errors": [],
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "not_passed": [
+    "Fresh twin updates below 15 fps; deployed PL source is capped at 10 Hz",
+    "Click latency exceeds median 200 ms and p95 400 ms"
+  ],
+  "limits": [
+    "180 s short test, not 30 minutes",
+    "Qt refresh callback is not compositor/optical timing",
+    "Actual desktop window 1539x895; 1920x1080 geometry tested offline",
+    "PC audio and A/B demo following not covered"
+  ],
+  "frozen_bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c"
+}

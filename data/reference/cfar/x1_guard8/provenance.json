@@ -1,0 +1,17 @@
+{
+  "scope": "18 synthetic cases with guard=8; no RF acceptance",
+  "source_sha256": {
+    "src/rtl/cfar_x1/cfar_core_x1.v": "dd27ee31d253514bcca44b5c98e9d348bf02632cd194df63c934227d420ae63f",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "525ee3c90fd489fbfefbf0621e971cbdaed609ac176b41e41713eecfaf0be8d5",
+    "src/rtl/cfar_x1/cfar_detect_x1.v": "d1db9f0762333315c9370ceb25e63c809142d07c7d7f4ec97b67ad90a7334c50",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "sim/tb/tb_cfar_core_x1.sv": "0dd968ad48a11cb1e022dcc6220d3ae8bbe5a6b3acd2277c3924c20c65a84648",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446",
+    "tools/export_cfar_x1_core_vectors.py": "9fd5adc1c73ec1eb692c84984f9d3fa3812f6a5b05557d555ba9fbb9bf7fc705",
+    "tools/verify_x1_guard8_sim.py": "68e7575020ea413e907be08097d5ac08fd43e343924f2a5994bd084b99415cb6"
+  },
+  "generated_testbench_sha256": "e10993c2bdc22536168f3c370ba83300545a901f5e7ef35af56464804f2ae90d"
+}

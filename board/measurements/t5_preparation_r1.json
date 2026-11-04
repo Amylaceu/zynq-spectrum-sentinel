@@ -1,0 +1,86 @@
+{
+  "schema": "t5-implementation-preflight-v1",
+  "status": "PASS_PREPARATION_ONLY",
+  "recorded_utc": "2026-11-03T08:58:46.178640+00:00",
+  "scope": "Read-only third-round checkpoint inspection and PC validation; not an implementation result or deployment acceptance",
+  "observed_gate_counts": {
+    "opt": {
+      "clock_monitor_cells": 157,
+      "clock_monitor_cooolgate_cells": 0,
+      "counter_register_count": 33
+    },
+    "power": {
+      "clock_monitor_cells": 164,
+      "clock_monitor_cooolgate_cells": 7,
+      "counter_register_count": 33
+    },
+    "final": {
+      "clock_monitor_cells": 165,
+      "clock_monitor_cooolgate_cells": 8,
+      "counter_register_count": 33
+    }
+  },
+  "report_sha256": {
+    "build/reports/sentinel_v2_100m/power_inspection_r1/final_cells.txt": "30e1943b6cf79524202bf6a4303373360de0721c5b6ced7c7edfe11861e06211",
+    "build/reports/sentinel_v2_100m/power_inspection_r1/final_counter_setup.rpt": "8db548642052d297302c636abdcfce4abd3b697a30d89422e8f984c3659d4f56",
+    "build/reports/sentinel_v2_100m/power_inspection_r1/opt_cells.txt": "1463a9454792be6d707d1bf6bdfdf4ddd0edef2a6649884150f2ef6a62cd9f46",
+    "build/reports/sentinel_v2_100m/power_inspection_r1/opt_counter_setup.rpt": "00515c8313382bdc51bc0393ed3b80fce2be6e8804e8313ea3dae300fd3b2003",
+    "build/reports/sentinel_v2_100m/power_inspection_r1/power_cells.txt": "80951229f0ad2e8785fbe978bf1c7b36fb56500d14b77ef0f45797645f56cb63",
+    "build/reports/sentinel_v2_100m/power_inspection_r1/power_counter_setup.rpt": "7052750d7a0f5cacfb1dcb408962400f88f24815318987bfc887416cf320434c"
+  },
+  "checkpoint_sha256": {
+    "build/work/adi_hdl/projects/fmcomms2/sentinel_v2_100m/sentinel_v2_100m.runs/impl_1/system_top_opt.dcp": "285556e68ac69cf3f4aa31c4cca8a3402909af5d4f6a4bf4a92b7c858a36a7a2",
+    "build/work/adi_hdl/projects/fmcomms2/sentinel_v2_100m/sentinel_v2_100m.runs/impl_1/system_top_pwropt.dcp": "6db46d82b87ce7ce6e98e152602e1b377a36e5e14a8c88a274b0680fe52e32ff",
+    "build/work/adi_hdl/projects/fmcomms2/sentinel_v2_100m/sentinel_v2_100m.runs/impl_1/system_top_postroute_physopt.dcp": "3fcc97c8682f2e00be53e9ca0ec0dabee440d920827d51346200304d795bf495",
+    "build/work/adi_hdl/projects/fmcomms2/sentinel_v2_100m/sentinel_v2_100m.runs/synth_1/system_top.dcp": "34ce38d0065170892b098df9550234dbb6648b4022984785f728ec484c46994e"
+  },
+  "source_sha256": {
+    "build/scripts/z10_impl_policy.tcl": "12e159187d70161e54110e00c5dc1712adccfacf22ab703fc550beec52eb179f",
+    "build/scripts/inspect_z10_power.tcl": "034f979f156623e80a2b7545c59228f180e6fb5b9ac444c6ada2629b8a68c6f9",
+    "tools/inspect_z10_power.ps1": "e97fb6ccd0a33f1329b9ed63abdb7c54e2374fab478508646fa1298524e0df4d",
+    "tools/tests/test_z10_impl_policy.py": "b0168e16531f5606cb9f8afac1882008c711e00458ab4a054cf05bdca3d4f193",
+    "tools/tests/test_freeze_v2_options.py": "7fb0d40d5753aa077a570261bbf906362e68b4069c16aab27defe3769ea8406a",
+    "tools/summarize_z10_audit.py": "5729d9077c950188752840567466cee6f73ad9a80b20370fc58c8192a3f31afb",
+    "tools/tests/test_z10_audit.py": "a76a9fd86ea832844068476180df7ca94ed269f04b2cd680b275336b055c5641",
+    "build/scripts/resume_sentinel_v2.tcl": "f2644111d0ad1e3a2f5ea12a56770a848937634898493a3e9e563ef2e87b3308",
+    "build/scripts/run_sentinel_v2.tcl": "681f10ecfd1d89b73b0c3ae53691f5ccd408406acb91db397f437e866ac76a1a",
+    "tools/build_sentinel_v2.ps1": "6fb334420aa60d40b3b552f3844ba23666984c724672ce23300eb4b20d9693a5",
+    "tools/freeze_v2_inputs.py": "44cbe3626fbb19d3392ef0b151b8f1c94fe32c69911427798c4c7483e5de73c5"
+  },
+  "previous_frozen_manifest_sha256": "8aa7f200528aff775f98e9ee689c1f12de295c975cdc48bccc655ef5f3dde85f",
+  "expected_build_control_changes": {
+    "build/scripts/resume_sentinel_v2.tcl": {
+      "original": "b44e14b58a9263911d17bb62716339df9ef45ca1363f45c81c1bce0a3b14684d",
+      "current": "f2644111d0ad1e3a2f5ea12a56770a848937634898493a3e9e563ef2e87b3308"
+    },
+    "build/scripts/run_sentinel_v2.tcl": {
+      "original": "2054f71547acc143191216f4beefa832011a9da238f37cd63ec38c25b59e9d46",
+      "current": "681f10ecfd1d89b73b0c3ae53691f5ccd408406acb91db397f437e866ac76a1a"
+    },
+    "tools/build_sentinel_v2.ps1": {
+      "original": "8f99cd901cfe9e9e49502b0f054d74a6a2b13c995d1764b38503fcd98be01c17",
+      "current": "6fb334420aa60d40b3b552f3844ba23666984c724672ce23300eb4b20d9693a5"
+    },
+    "tools/freeze_v2_inputs.py": {
+      "original": "b5b78f1a0cd50ad30af1e5f37fc5f24ecc199859d266aa1acef3d4bf199adfcd",
+      "current": "44cbe3626fbb19d3392ef0b151b8f1c94fe32c69911427798c4c7483e5de73c5"
+    }
+  },
+  "other_frozen_inputs_unchanged": true,
+  "pc_tests_passed": 272,
+  "pc_test_duration_s": 4.34,
+  "powershell_ast_ok": true,
+  "tcl_complete_ok": true,
+  "log_sha256": {
+    "logs/Z10_power_inspection_r1.log": "b7df158b279ba889a3af7f7ffcf77731482b1360fef8fe52c56ba5ff3fc9ba09",
+    "logs/T5_preparation_tests_r1.log": "51330e215be0d8e18883a6d4a7a94410e72b536a7d14b0fd033b2155ad209cc6"
+  },
+  "next_operation": {
+    "stage": "T5",
+    "attempt": 1,
+    "overall_full_implementation_number": 4,
+    "power_optimization": "Off",
+    "reuse_synthesis": true
+  },
+  "authorization": "After third-round failure was reported, user requested detailed inspection followed by modification and continued project progress. Original three-round Z10 FAIL remains unchanged."
+}

@@ -1,0 +1,266 @@
+{
+  "status": "MEASURED_REQUIRES_EVALUATION",
+  "configuration": "A unchanged",
+  "RF_TX_requested": false,
+  "reconfiguration_requested": false,
+  "historical_failures_preserved": true,
+  "web_page_ok": true,
+  "sse_first_line": ": ready",
+  "sse_message": "data: {\"lo_hz\":96050000,\"sample_rate_hz\":3840000,\"frequency_start_hz\":94130000,\"bin_spacing_hz\":3750,\"capture_started_mono\":8832.340191385,\"capture_completed_mono\":8832.342224232,\"frame_range\":[904,905],\"frame_mapping\":\"LCD bracket; FFT frame unverified\",\"power_reference\":\"raw_integer_power\",\"power_unit\":\"0.01dB re integer 1\",\"type\":\"spectrum\",\"values\":[1301,1322,1322,1301,1380,2253,2068,1362,1431,1342,1176,1301,2057,1732,1362,1477,1342,1431,1431,1806,1447,1255,1322,1279,1279,1431,1447,1230,1279",
+  "reconnects": [
+    {
+      "index": 1,
+      "disconnected_s": 30.046999999991385
+    },
+    {
+      "index": 2,
+      "disconnected_s": 30.046999999991385
+    },
+    {
+      "index": 3,
+      "disconnected_s": 30.062000000005355
+    },
+    {
+      "index": 4,
+      "disconnected_s": 30.03200000000652
+    },
+    {
+      "index": 5,
+      "disconnected_s": 30.09299999999348
+    },
+    {
+      "index": 6,
+      "disconnected_s": 30.110000000015134
+    },
+    {
+      "index": 7,
+      "disconnected_s": 30.030999999988126
+    },
+    {
+      "index": 8,
+      "disconnected_s": 30.01600000000326
+    },
+    {
+      "index": 9,
+      "disconnected_s": 30.078000000008615
+    },
+    {
+      "index": 10,
+      "disconnected_s": 30.014999999984866
+    }
+  ],
+  "sent": [
+    {
+      "seq": 1,
+      "command": "ping",
+      "args": {},
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 2,
+      "command": "get_status",
+      "args": {},
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 3,
+      "command": "set_page",
+      "args": {
+        "page": "TGT"
+      },
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 4,
+      "command": "snapshot",
+      "args": {},
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 5,
+      "command": "tx",
+      "args": {},
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 6,
+      "command": "set_attenuation",
+      "args": {
+        "db": 0
+      },
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 7,
+      "command": "shell",
+      "args": {
+        "cmd": "true"
+      },
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 8,
+      "command": "set_lo",
+      "args": {
+        "hz": 1
+      },
+      "host_mono": 135974.328
+    },
+    {
+      "seq": 1,
+      "command": "set_page",
+      "args": {
+        "page": "SIG"
+      },
+      "host_mono": 136310.968
+    }
+  ],
+  "received_messages": 709,
+  "received_spectra": 437,
+  "responses": [
+    {
+      "header": {
+        "request_seq": 5,
+        "error": "Command/arguments not in whitelist",
+        "type": "error",
+        "seq": 85,
+        "t_mono": 8816.251911558,
+        "len": 0
+      },
+      "host_received_mono": 135974.328,
+      "host_received_utc": "2026-11-03T20:34:00.108295+00:00"
+    },
+    {
+      "header": {
+        "request_seq": 6,
+        "error": "Command/arguments not in whitelist",
+        "type": "error",
+        "seq": 86,
+        "t_mono": 8816.252328985,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "request_seq": 7,
+        "error": "Command/arguments not in whitelist",
+        "type": "error",
+        "seq": 87,
+        "t_mono": 8816.252637717,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "request_seq": 8,
+        "error": "LO is only adjustable in receive monitor mode",
+        "type": "error",
+        "seq": 88,
+        "t_mono": 8816.252964443,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "board_mono": 8816.262834083,
+        "request_seq": 1,
+        "ok": true,
+        "type": "reply",
+        "seq": 89,
+        "t_mono": 8816.264580459,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "status": {
+          "elapsed_s": 5.072383446000458,
+          "temperature_c": 64.104241943164,
+          "rx_rssi_dbm": -86.25,
+          "tx_atten_mdb": [
+            89750,
+            89750
+          ],
+          "display_frames": 239,
+          "display_fps": 39.92520988823676,
+          "input_samples": 20184183,
+          "fft_frames": 9853,
+          "processing_status": 0,
+          "audio": "disabled",
+          "lo_hz": 96050000,
+          "mode": "monitor",
+          "tx_on": false,
+          "cpu_single_core_pct": 74.76716411199624,
+          "rss_bytes": 51023872,
+          "hostlink": {
+            "producer_drops": 0,
+            "client_drops": 0,
+            "connections": 1,
+            "rejected": 0,
+            "accepted_commands": 0,
+            "cpu_s": 0.173166015,
+            "max_queue_bytes": 4538,
+            "connected_clients": 1,
+            "tcp_port": 9000,
+            "http_port": 8080
+          }
+        },
+        "request_seq": 2,
+        "ok": true,
+        "type": "reply",
+        "seq": 90,
+        "t_mono": 8816.265088236,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "request_seq": 3,
+        "ok": true,
+        "type": "reply",
+        "seq": 91,
+        "t_mono": 8816.265573996,
+        "len": 0
+      },
+      "host_received_mono": 135974.375,
+      "host_received_utc": "2026-11-03T20:34:00.160491+00:00"
+    },
+    {
+      "header": {
+        "snapshot": "host_snapshots/4c8c9fb0e90148188c6170609eca38e3",
+        "request_seq": 4,
+        "ok": true,
+        "type": "reply",
+        "seq": 93,
+        "t_mono": 8816.376229219,
+        "len": 0
+      },
+      "host_received_mono": 135974.468,
+      "host_received_utc": "2026-11-03T20:34:00.250858+00:00"
+    },
+    {
+      "header": {
+        "request_seq": 1,
+        "ok": true,
+        "type": "reply",
+        "seq": 5302,
+        "t_mono": 9153.756000654,
+        "len": 0
+      },
+      "host_received_mono": 136311.859,
+      "host_received_utc": "2026-11-03T20:39:37.644761+00:00"
+    }
+  ],
+  "enabled_tag": "20211119T021914Z_c9023983",
+  "calibrated_pl_to_pc_latency": "NOT_CERTIFIED_NO_EXACT_FRAME_MAPPING"
+}

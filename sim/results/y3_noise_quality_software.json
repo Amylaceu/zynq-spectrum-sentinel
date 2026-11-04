@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tests": 85,
+  "log_sha256": "f14d3f8b63c7b147a3a1f7e97fdb33977bef85969c9f5a8dd99903c60d700ec7",
+  "scope": "PC logic and acceptance regressions, no acoustic quality claim",
+  "source_sha256": {
+    "src/ps/sentinel/fm_quality.py": "1389eff0475d15480a9c387d83a59f4cf6f59cf6411d826f8335f22379548183",
+    "src/ps/tests/test_fm_quality.py": "9f17fc936efd515666a7da0dbffed3190a4d1bd480dd2a6e5a716ea0a4302c02",
+    "board/scripts/run_y3_audio.py": "3444045f135433bb8930ba7ac607848879ca300887b6d837caceadd023cfb9d0",
+    "board/scripts/diagnose_y3_iq.py": "a74ce469ab977e748857bc45ec397b6e7000a4af2876099f59db01696498d34f",
+    "tools/run_y3_board.py": "95493a7b4773a97518fee0b5919a08f93a8c6b785c59cc6afd49f48bc94572c3",
+    "tools/run_y3_iq_diagnostic.py": "12f8d8b9422f1f446aa06a1091a862264ac1f12f46ae1a644113c9eacb61e06a",
+    "tools/analyze_y3_iq_diagnostic.py": "e073ba7ebd93efbe0233579a379da436b20b0e75725dd353fb02c5aad2158be0",
+    "tools/tests/test_y3_iq_diagnostic.py": "106449f335dd4ddc33182eda148ae76c354dadde81c742094005709756d29d54",
+    "tools/tests/test_run_y3_board.py": "d0eb4fc7840e0c59561d6effd05c321ba6a99c01da4846a5bc55567b5b839ecb"
+  }
+}

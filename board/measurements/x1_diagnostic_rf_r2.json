@@ -1,0 +1,6079 @@
+{
+  "status": "completed",
+  "source": "rf",
+  "RF_TX_requested": false,
+  "scope": "Finite gated input; not a continuous RF acceptance run",
+  "antenna": "thin/short 20-512MHz, long feedline; user-confirmed optimal antenna",
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "configuration": {
+    "average_shift": 3,
+    "mode": "CA",
+    "n": 16,
+    "guard": 2,
+    "alpha": 1974,
+    "dc_mask": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "mask_table": []
+  },
+  "lo_hz": 96400000,
+  "rate_hz": 3840000,
+  "rf_bandwidth_hz": 1500000,
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "requested_frames": 96,
+  "warmup_frames": 64,
+  "samples": [
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -71.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 0,
+      "elapsed_s": 0.0533526429990161,
+      "association": {
+        "cfar_before": 64,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 65,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 65,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 7104916,
+          "sum_power": 16101217
+        },
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "flags": 0,
+          "peak_power": 116813,
+          "sum_power": 229740
+        },
+        {
+          "start": 1341,
+          "stop": 1342,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 61568,
+          "sum_power": 104228
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.397344970516,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 1,
+      "elapsed_s": 0.33916377400055353,
+      "association": {
+        "cfar_before": 65,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 66,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 66,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 6216899,
+          "sum_power": 14089297
+        },
+        {
+          "start": 695,
+          "stop": 697,
+          "peak_bin": 696,
+          "flags": 0,
+          "peak_power": 455024,
+          "sum_power": 968950
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 135704,
+          "sum_power": 272492
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 2,
+      "elapsed_s": 0.6179135929996846,
+      "association": {
+        "cfar_before": 66,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 67,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 67,
+      "status_latch": 0,
+      "hit_count": 13,
+      "raw_count": 4,
+      "filtered_count": 0,
+      "candidate_count": 4,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 5440046,
+          "sum_power": 12330877
+        },
+        {
+          "start": 718,
+          "stop": 720,
+          "peak_bin": 719,
+          "flags": 0,
+          "peak_power": 502085,
+          "sum_power": 1120290
+        },
+        {
+          "start": 695,
+          "stop": 697,
+          "peak_bin": 696,
+          "flags": 0,
+          "peak_power": 398303,
+          "sum_power": 848903
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 217653,
+          "sum_power": 424077
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 3,
+      "elapsed_s": 0.8997217969990743,
+      "association": {
+        "cfar_before": 67,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 68,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 68,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 4,
+      "filtered_count": 1,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 4760053,
+          "sum_power": 10790207
+        },
+        {
+          "start": 719,
+          "stop": 720,
+          "peak_bin": 719,
+          "flags": 0,
+          "peak_power": 440341,
+          "sum_power": 780028
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 271556,
+          "sum_power": 521983
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.520385742,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 4,
+      "elapsed_s": 1.1846325780006737,
+      "association": {
+        "cfar_before": 68,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 69,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 69,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 4165512,
+          "sum_power": 9443929
+        },
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "flags": 0,
+          "peak_power": 803165,
+          "sum_power": 1590214
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 348380,
+          "sum_power": 677412
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 5,
+      "elapsed_s": 1.4757802660005837,
+      "association": {
+        "cfar_before": 69,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 70,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 70,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 1,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 3645195,
+          "sum_power": 8265286
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 401670,
+          "sum_power": 782122
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 6,
+      "elapsed_s": 1.764419593000639,
+      "association": {
+        "cfar_before": 70,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 71,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 71,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 3189707,
+          "sum_power": 7232806
+        },
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1161951,
+          "sum_power": 2118552
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 443978,
+          "sum_power": 866658
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 7,
+      "elapsed_s": 2.0706546119999985,
+      "association": {
+        "cfar_before": 71,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 72,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 72,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 2791686,
+          "sum_power": 6331866
+        },
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1586627,
+          "sum_power": 2746757
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 503257,
+          "sum_power": 988125
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 8,
+      "elapsed_s": 2.360569538999698,
+      "association": {
+        "cfar_before": 72,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 73,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 73,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 2443207,
+          "sum_power": 5545439
+        },
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1852737,
+          "sum_power": 3789503
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 559282,
+          "sum_power": 1092630
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 9,
+      "elapsed_s": 2.6447318899990933,
+      "association": {
+        "cfar_before": 73,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 74,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 74,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2158945,
+          "sum_power": 4364784
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 2138035,
+          "sum_power": 4853301
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 567654,
+          "sum_power": 1111756
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 10,
+      "elapsed_s": 2.9380994370003464,
+      "association": {
+        "cfar_before": 74,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 75,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 75,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2404864,
+          "sum_power": 4856429
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 1870893,
+          "sum_power": 4248139
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 608486,
+          "sum_power": 1200331
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 11,
+      "elapsed_s": 3.234157578999657,
+      "association": {
+        "cfar_before": 75,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 76,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 76,
+      "status_latch": 0,
+      "hit_count": 10,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2106134,
+          "sum_power": 4313696
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 1640675,
+          "sum_power": 3729535
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 619113,
+          "sum_power": 1223331
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 12,
+      "elapsed_s": 3.5276930809995974,
+      "association": {
+        "cfar_before": 76,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 77,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 77,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1851471,
+          "sum_power": 3071792
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 1436073,
+          "sum_power": 3266934
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 641516,
+          "sum_power": 1265939
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 13,
+      "elapsed_s": 3.827834685000198,
+      "association": {
+        "cfar_before": 77,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 78,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 78,
+      "status_latch": 0,
+      "hit_count": 9,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1622355,
+          "sum_power": 2698832
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 1256785,
+          "sum_power": 2860185
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 666669,
+          "sum_power": 1319792
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 14,
+      "elapsed_s": 4.121314044999963,
+      "association": {
+        "cfar_before": 78,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 79,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 79,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 1,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 1100222,
+          "sum_power": 2504035
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 692216,
+          "sum_power": 1371950
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 15,
+      "elapsed_s": 4.414129202999902,
+      "association": {
+        "cfar_before": 79,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 80,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 80,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 1,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 964054,
+          "sum_power": 2195429
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 700026,
+          "sum_power": 1379057
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 16,
+      "elapsed_s": 4.710156827999526,
+      "association": {
+        "cfar_before": 80,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 81,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 81,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 843780,
+          "sum_power": 1922865
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 692269,
+          "sum_power": 1362100
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 17,
+      "elapsed_s": 5.008244532999015,
+      "association": {
+        "cfar_before": 81,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 82,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 82,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 738574,
+          "sum_power": 1683184
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 712795,
+          "sum_power": 1402125
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 18,
+      "elapsed_s": 5.3068444580003415,
+      "association": {
+        "cfar_before": 82,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 83,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 83,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 747926,
+          "sum_power": 1476987
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 646444,
+          "sum_power": 1473511
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 19,
+      "elapsed_s": 5.667287350999686,
+      "association": {
+        "cfar_before": 83,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 84,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 84,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 758373,
+          "sum_power": 1502501
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 566930,
+          "sum_power": 1295471
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 20,
+      "elapsed_s": 5.967852859999766,
+      "association": {
+        "cfar_before": 84,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 85,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 85,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 763426,
+          "sum_power": 1505987
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 497287,
+          "sum_power": 1142841
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 21,
+      "elapsed_s": 6.263942699999461,
+      "association": {
+        "cfar_before": 85,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 86,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 86,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 768081,
+          "sum_power": 1511372
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 435342,
+          "sum_power": 1000817
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 22,
+      "elapsed_s": 6.562072493999949,
+      "association": {
+        "cfar_before": 86,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 87,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 87,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 1,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 766103,
+          "sum_power": 1501130
+        },
+        {
+          "start": 516,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 380955,
+          "sum_power": 876900
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 23,
+      "elapsed_s": 6.891715043999284,
+      "association": {
+        "cfar_before": 87,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 88,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 88,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1572093,
+          "sum_power": 2755816
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 796093,
+          "sum_power": 1567523
+        },
+        {
+          "start": 517,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 334302,
+          "sum_power": 710826
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 24,
+      "elapsed_s": 7.233879064999201,
+      "association": {
+        "cfar_before": 88,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 89,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 89,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1807316,
+          "sum_power": 3104018
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 781705,
+          "sum_power": 1533744
+        },
+        {
+          "start": 517,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 293752,
+          "sum_power": 625378
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.520385742,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 25,
+      "elapsed_s": 7.565856552000696,
+      "association": {
+        "cfar_before": 89,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 90,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 90,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1640808,
+          "sum_power": 2922432
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 765154,
+          "sum_power": 1491976
+        },
+        {
+          "start": 517,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 257645,
+          "sum_power": 549119
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.397344970516,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 26,
+      "elapsed_s": 7.8864954370001215,
+      "association": {
+        "cfar_before": 90,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 91,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 91,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1552160,
+          "sum_power": 2734205
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 801195,
+          "sum_power": 1566002
+        },
+        {
+          "start": 517,
+          "stop": 519,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 225579,
+          "sum_power": 480827
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.397344970516,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.397344970516,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 27,
+      "elapsed_s": 8.19627653399948,
+      "association": {
+        "cfar_before": 91,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 92,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 92,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1814452,
+          "sum_power": 3118921
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 807526,
+          "sum_power": 1579194
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 197471,
+          "sum_power": 371303
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 28,
+      "elapsed_s": 8.504455771999346,
+      "association": {
+        "cfar_before": 92,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 93,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 93,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2110128,
+          "sum_power": 4516564
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 817063,
+          "sum_power": 1604663
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 175572,
+          "sum_power": 329856
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.274304199032,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 29,
+      "elapsed_s": 8.816832365000664,
+      "association": {
+        "cfar_before": 93,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 94,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 94,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2369977,
+          "sum_power": 4967934
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 831887,
+          "sum_power": 1637114
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 154558,
+          "sum_power": 291010
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 30,
+      "elapsed_s": 9.135029643999587,
+      "association": {
+        "cfar_before": 94,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 95,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 95,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2262706,
+          "sum_power": 4996535
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 811797,
+          "sum_power": 1597966
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 135600,
+          "sum_power": 255626
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 31,
+      "elapsed_s": 9.494399668999904,
+      "association": {
+        "cfar_before": 95,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 96,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 96,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1986318,
+          "sum_power": 3605645
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 837636,
+          "sum_power": 1657780
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 119103,
+          "sum_power": 224408
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 32,
+      "elapsed_s": 9.809186832000705,
+      "association": {
+        "cfar_before": 96,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 97,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 97,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1847124,
+          "sum_power": 3359317
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 840428,
+          "sum_power": 1661666
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 104625,
+          "sum_power": 197225
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 33,
+      "elapsed_s": 10.12441527699957,
+      "association": {
+        "cfar_before": 97,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 98,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 98,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1668998,
+          "sum_power": 3017424
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 836373,
+          "sum_power": 1656532
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 91803,
+          "sum_power": 173069
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 34,
+      "elapsed_s": 10.450052592999782,
+      "association": {
+        "cfar_before": 98,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 99,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 99,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 3,
+      "filtered_count": 1,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 832234,
+          "sum_power": 1651497
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 80958,
+          "sum_power": 152665
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 35,
+      "elapsed_s": 10.771003799000027,
+      "association": {
+        "cfar_before": 99,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 100,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 100,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1754555,
+          "sum_power": 2995012
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 811744,
+          "sum_power": 1607607
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 71358,
+          "sum_power": 134680
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 36,
+      "elapsed_s": 11.090959656999985,
+      "association": {
+        "cfar_before": 100,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 101,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 101,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2022388,
+          "sum_power": 3377212
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 812097,
+          "sum_power": 1611201
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 63783,
+          "sum_power": 120767
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 37,
+      "elapsed_s": 11.412345523000113,
+      "association": {
+        "cfar_before": 101,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 102,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 102,
+      "status_latch": 0,
+      "hit_count": 8,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2251206,
+          "sum_power": 4728890
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 825077,
+          "sum_power": 1635721
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 56274,
+          "sum_power": 106713
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 38,
+      "elapsed_s": 11.734636428000158,
+      "association": {
+        "cfar_before": 102,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 103,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 103,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 3,
+      "filtered_count": 0,
+      "candidate_count": 3,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1974563,
+          "sum_power": 3273391
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 790964,
+          "sum_power": 1565223
+        },
+        {
+          "start": 517,
+          "stop": 518,
+          "peak_bin": 518,
+          "flags": 0,
+          "peak_power": 49780,
+          "sum_power": 94230
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 39,
+      "elapsed_s": 12.055208530000527,
+      "association": {
+        "cfar_before": 103,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 104,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 104,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1990160,
+          "sum_power": 3371420
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 783332,
+          "sum_power": 1538182
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 40,
+      "elapsed_s": 12.381184775000293,
+      "association": {
+        "cfar_before": 104,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 105,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 105,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1779154,
+          "sum_power": 3000421
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 759105,
+          "sum_power": 1495022
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 41,
+      "elapsed_s": 12.7080789369993,
+      "association": {
+        "cfar_before": 105,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 106,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 106,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 761106,
+          "sum_power": 1493795
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 42,
+      "elapsed_s": 13.030060425999181,
+      "association": {
+        "cfar_before": 106,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 107,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 107,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 782723,
+          "sum_power": 1545015
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 43,
+      "elapsed_s": 13.353482372000144,
+      "association": {
+        "cfar_before": 107,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 108,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 108,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 769055,
+          "sum_power": 1516430
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 44,
+      "elapsed_s": 13.678051460999995,
+      "association": {
+        "cfar_before": 108,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 109,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 109,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 702,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1917803,
+          "sum_power": 3005801
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 765931,
+          "sum_power": 1509951
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 45,
+      "elapsed_s": 14.003682574999402,
+      "association": {
+        "cfar_before": 109,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 110,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 110,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 765255,
+          "sum_power": 1506046
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.782141113096,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 46,
+      "elapsed_s": 14.331893710999793,
+      "association": {
+        "cfar_before": 110,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 111,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 111,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1536159,
+          "sum_power": 2766345
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 767338,
+          "sum_power": 1512628
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 47,
+      "elapsed_s": 14.661091852000027,
+      "association": {
+        "cfar_before": 111,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 112,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 112,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 747411,
+          "sum_power": 1473679
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 48,
+      "elapsed_s": 14.992110690000118,
+      "association": {
+        "cfar_before": 112,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 113,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 113,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1659253,
+          "sum_power": 2904500
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 734881,
+          "sum_power": 1451050
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 49,
+      "elapsed_s": 15.324859910000669,
+      "association": {
+        "cfar_before": 113,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 114,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 114,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1862192,
+          "sum_power": 3195559
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 746141,
+          "sum_power": 1470766
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 50,
+      "elapsed_s": 15.657321833999958,
+      "association": {
+        "cfar_before": 114,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 115,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 115,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2109082,
+          "sum_power": 3559028
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 727901,
+          "sum_power": 1427646
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 51,
+      "elapsed_s": 15.98810955999943,
+      "association": {
+        "cfar_before": 115,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 116,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 116,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1849452,
+          "sum_power": 3139559
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 726396,
+          "sum_power": 1416650
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 52,
+      "elapsed_s": 16.32070276900049,
+      "association": {
+        "cfar_before": 116,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 117,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 117,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1883361,
+          "sum_power": 3431070
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 717697,
+          "sum_power": 1402221
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.5,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 53,
+      "elapsed_s": 16.656687938000687,
+      "association": {
+        "cfar_before": 117,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 118,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 118,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1798710,
+          "sum_power": 3455076
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 741579,
+          "sum_power": 1448638
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 54,
+      "elapsed_s": 16.995953776000533,
+      "association": {
+        "cfar_before": 118,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 119,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 119,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1588655,
+          "sum_power": 3038313
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 744281,
+          "sum_power": 1462260
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 55,
+      "elapsed_s": 17.334716977000426,
+      "association": {
+        "cfar_before": 119,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 120,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 120,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1405295,
+          "sum_power": 2681927
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 722997,
+          "sum_power": 1421794
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 56,
+      "elapsed_s": 17.672990310000387,
+      "association": {
+        "cfar_before": 120,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 121,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 121,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1535973,
+          "sum_power": 3045334
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 717929,
+          "sum_power": 1404393
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 57,
+      "elapsed_s": 18.014956323999286,
+      "association": {
+        "cfar_before": 121,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 122,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 122,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1761744,
+          "sum_power": 3177933
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 732030,
+          "sum_power": 1431313
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 58,
+      "elapsed_s": 18.35074658099984,
+      "association": {
+        "cfar_before": 122,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 123,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 123,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1585392,
+          "sum_power": 2905605
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 720361,
+          "sum_power": 1413378
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -81.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 59,
+      "elapsed_s": 18.68780976999915,
+      "association": {
+        "cfar_before": 123,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 124,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 124,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1814750,
+          "sum_power": 3226096
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 723818,
+          "sum_power": 1419165
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 60,
+      "elapsed_s": 19.02654486100073,
+      "association": {
+        "cfar_before": 124,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 125,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 125,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2037371,
+          "sum_power": 4506852
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 738283,
+          "sum_power": 1446174
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 61,
+      "elapsed_s": 19.36916729999939,
+      "association": {
+        "cfar_before": 125,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 126,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 126,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2267822,
+          "sum_power": 4889522
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 726398,
+          "sum_power": 1429126
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 62,
+      "elapsed_s": 20.46821886900034,
+      "association": {
+        "cfar_before": 126,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 127,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 127,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2243880,
+          "sum_power": 5044395
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 702381,
+          "sum_power": 1379068
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.397344970516,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 63,
+      "elapsed_s": 21.12172423499942,
+      "association": {
+        "cfar_before": 127,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 128,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 128,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2252407,
+          "sum_power": 5078383
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 721393,
+          "sum_power": 1414395
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 64,
+      "elapsed_s": 21.471015875000376,
+      "association": {
+        "cfar_before": 128,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 129,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 129,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2189664,
+          "sum_power": 6048869
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 720683,
+          "sum_power": 1410299
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 65,
+      "elapsed_s": 21.804952062000666,
+      "association": {
+        "cfar_before": 129,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 130,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 130,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2367622,
+          "sum_power": 6195012
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 723580,
+          "sum_power": 1410762
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -81.75,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 66,
+      "elapsed_s": 22.140677600000345,
+      "association": {
+        "cfar_before": 130,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 131,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 131,
+      "status_latch": 0,
+      "hit_count": 7,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 700,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2565013,
+          "sum_power": 6544880
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 723230,
+          "sum_power": 1418192
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 67,
+      "elapsed_s": 22.4977935120005,
+      "association": {
+        "cfar_before": 131,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 132,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 132,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 700,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2249476,
+          "sum_power": 5116981
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 727438,
+          "sum_power": 1421839
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 68,
+      "elapsed_s": 22.84328642699984,
+      "association": {
+        "cfar_before": 132,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 133,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 133,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1968632,
+          "sum_power": 3687887
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 730968,
+          "sum_power": 1433614
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 69,
+      "elapsed_s": 23.181711643999733,
+      "association": {
+        "cfar_before": 133,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 134,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 134,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2243063,
+          "sum_power": 4006467
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 726919,
+          "sum_power": 1426208
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 70,
+      "elapsed_s": 23.521138554000572,
+      "association": {
+        "cfar_before": 134,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 135,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 135,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2415245,
+          "sum_power": 5172327
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 717158,
+          "sum_power": 1409431
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 71,
+      "elapsed_s": 23.861914843000704,
+      "association": {
+        "cfar_before": 135,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 136,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 136,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2497220,
+          "sum_power": 5257960
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 727395,
+          "sum_power": 1437648
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 72,
+      "elapsed_s": 24.21035342899995,
+      "association": {
+        "cfar_before": 136,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 137,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 137,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2198383,
+          "sum_power": 3807153
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 756169,
+          "sum_power": 1491784
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 73,
+      "elapsed_s": 24.55418454699975,
+      "association": {
+        "cfar_before": 137,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 138,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 138,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2215703,
+          "sum_power": 4815363
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 734152,
+          "sum_power": 1444973
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 74,
+      "elapsed_s": 24.897315796999465,
+      "association": {
+        "cfar_before": 138,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 139,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 139,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1950732,
+          "sum_power": 3253745
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 733753,
+          "sum_power": 1445320
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 75,
+      "elapsed_s": 25.2428465590001,
+      "association": {
+        "cfar_before": 139,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 140,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 140,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1715187,
+          "sum_power": 2868809
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 730890,
+          "sum_power": 1441367
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 76,
+      "elapsed_s": 25.589719248999245,
+      "association": {
+        "cfar_before": 140,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 141,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 141,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1910941,
+          "sum_power": 3238048
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 748005,
+          "sum_power": 1474264
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 77,
+      "elapsed_s": 25.935644672999842,
+      "association": {
+        "cfar_before": 141,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 142,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 142,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1829518,
+          "sum_power": 3105241
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 738086,
+          "sum_power": 1447282
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 78,
+      "elapsed_s": 26.282667986999513,
+      "association": {
+        "cfar_before": 142,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 143,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 143,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 724514,
+          "sum_power": 1416930
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 79,
+      "elapsed_s": 26.631071036999856,
+      "association": {
+        "cfar_before": 143,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 144,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 144,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1831086,
+          "sum_power": 3028956
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 712842,
+          "sum_power": 1386608
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 80,
+      "elapsed_s": 26.982032877000165,
+      "association": {
+        "cfar_before": 144,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 145,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 145,
+      "status_latch": 0,
+      "hit_count": 4,
+      "raw_count": 2,
+      "filtered_count": 1,
+      "candidate_count": 1,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 702581,
+          "sum_power": 1367359
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.782141113096,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 81,
+      "elapsed_s": 27.332417092999094,
+      "association": {
+        "cfar_before": 145,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 146,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 146,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 702,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1723159,
+          "sum_power": 2795449
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 692297,
+          "sum_power": 1348054
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.782141113096,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 82,
+      "elapsed_s": 27.68358344400076,
+      "association": {
+        "cfar_before": 146,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 147,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 147,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1944734,
+          "sum_power": 4181257
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 701760,
+          "sum_power": 1365198
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 83,
+      "elapsed_s": 28.035362953000003,
+      "association": {
+        "cfar_before": 147,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 148,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 148,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2252603,
+          "sum_power": 4752103
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 706507,
+          "sum_power": 1369131
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 84,
+      "elapsed_s": 28.390991844999007,
+      "association": {
+        "cfar_before": 148,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 149,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 149,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2390026,
+          "sum_power": 4972766
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 697163,
+          "sum_power": 1347515
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 85,
+      "elapsed_s": 28.743764225999257,
+      "association": {
+        "cfar_before": 149,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 150,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 150,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2595321,
+          "sum_power": 5331003
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 692507,
+          "sum_power": 1343216
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 86,
+      "elapsed_s": 29.09906883700023,
+      "association": {
+        "cfar_before": 150,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 151,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 151,
+      "status_latch": 0,
+      "hit_count": 6,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 703,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2275610,
+          "sum_power": 4676509
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 697583,
+          "sum_power": 1357521
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 87,
+      "elapsed_s": 29.454734371000086,
+      "association": {
+        "cfar_before": 151,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 152,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 152,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2012391,
+          "sum_power": 3174661
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 701313,
+          "sum_power": 1367177
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 88,
+      "elapsed_s": 29.810520294000526,
+      "association": {
+        "cfar_before": 152,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 153,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 153,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1969201,
+          "sum_power": 3429890
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 688014,
+          "sum_power": 1340244
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.90518188458,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 89,
+      "elapsed_s": 30.16746423299992,
+      "association": {
+        "cfar_before": 153,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 154,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 154,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1845501,
+          "sum_power": 3231505
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 676032,
+          "sum_power": 1308606
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 60.782141113096,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 90,
+      "elapsed_s": 30.528415930999472,
+      "association": {
+        "cfar_before": 154,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 155,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 155,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1903398,
+          "sum_power": 3396119
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 670220,
+          "sum_power": 1299215
+        }
+      ]
+    },
+    {
+      "temperature_c": 60.90518188458,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 91,
+      "elapsed_s": 30.89707669100062,
+      "association": {
+        "cfar_before": 155,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 156,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 156,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1812738,
+          "sum_power": 3613527
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 677914,
+          "sum_power": 1318668
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 92,
+      "elapsed_s": 31.265429070999744,
+      "association": {
+        "cfar_before": 156,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 157,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 157,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 701,
+          "flags": 0,
+          "peak_power": 1625435,
+          "sum_power": 3235585
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 708633,
+          "sum_power": 1384747
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.25,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.151263427548,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 93,
+      "elapsed_s": 31.626260724999156,
+      "association": {
+        "cfar_before": 157,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 158,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 158,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1837200,
+          "sum_power": 3656657
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 723940,
+          "sum_power": 1418358
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.151263427548,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.028222656064,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 94,
+      "elapsed_s": 31.988790306999363,
+      "association": {
+        "cfar_before": 158,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 159,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 1,
+        "perf_status": 0
+      },
+      "cfar_sequence": 159,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 2023676,
+          "sum_power": 3881429
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 719264,
+          "sum_power": 1401123
+        }
+      ]
+    },
+    {
+      "temperature_c": 61.028222656064,
+      "actual_lo_hz": 96399998,
+      "actual_rate_hz": 3840000,
+      "rx_rssi_dbm": -82.0,
+      "tx_atten_mdb": [
+        89750,
+        89750
+      ],
+      "safety_before": {
+        "temperature_c": 61.274304199032,
+        "actual_lo_hz": 96399998,
+        "actual_rate_hz": 3840000,
+        "rx_rssi_dbm": -82.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ]
+      },
+      "test_tone_bin": null,
+      "index": 95,
+      "elapsed_s": 32.353425695000624,
+      "association": {
+        "cfar_before": 159,
+        "source_frames": 1,
+        "source_samples": 2048,
+        "spec_sequence": 160,
+        "perf_delta": [
+          2048,
+          1,
+          1
+        ],
+        "capture_token": 0,
+        "perf_status": 0
+      },
+      "cfar_sequence": 160,
+      "status_latch": 0,
+      "hit_count": 5,
+      "raw_count": 2,
+      "filtered_count": 0,
+      "candidate_count": 2,
+      "list_overflow": false,
+      "targets": [
+        {
+          "start": 701,
+          "stop": 702,
+          "peak_bin": 702,
+          "flags": 0,
+          "peak_power": 1798041,
+          "sum_power": 3426729
+        },
+        {
+          "start": 1341,
+          "stop": 1343,
+          "peak_bin": 1342,
+          "flags": 0,
+          "peak_power": 738628,
+          "sum_power": 1440024
+        }
+      ]
+    }
+  ],
+  "threshold_hit_origin": "Not captured in hardware; PC golden reconstruction only",
+  "warmup_association": {
+    "cfar_before": 0,
+    "source_frames": 64,
+    "source_samples": 131072,
+    "spec_sequence": 64,
+    "perf_delta": [
+      131072,
+      64,
+      64
+    ],
+    "capture_token": null,
+    "perf_status": 0
+  },
+  "elapsed_s": 32.66550595499939,
+  "raw_archive_sha256": "4a75f8f538b84e06bb0a3427acd42c06366f87057068081e3309e1d6b3f1a313"
+}

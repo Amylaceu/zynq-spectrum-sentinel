@@ -1,0 +1,21 @@
+"""Generated from src/regs/cfar_ctrl.yaml; synchronous memory windows."""
+BASE = 0x43c20000
+CTRL = 0x0
+N_SHIFT = 0x4
+GUARD = 0x8
+ALPHA = 0xc
+DC_MASK = 0x10
+GAP = 0x14
+TARGET_COUNT = 0x18
+FRAME_COUNT = 0x1c
+HIT_COUNT = 0x20
+ALARM_LIMIT = 0x24
+ALARM = 0x28
+OCC_CLEAR_TOKEN = 0x2c
+OCC_FRAMES = 0x30
+STATUS = 0x34
+VERSION = 0xfc
+TARGETS = 0x200
+TARGETS_BYTES = 0x200
+OCCUPANCY = 0x1000
+OCCUPANCY_BYTES = 0x2000

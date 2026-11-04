@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "source": "rf",
+  "RF_TX_requested": false,
+  "scope": "Finite gated input; not a continuous RF acceptance run",
+  "antenna": "thin/short 20-512MHz, long feedline; user-confirmed optimal antenna",
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "configuration": {
+    "average_shift": 3,
+    "mode": "CA",
+    "n": 16,
+    "guard": 2,
+    "alpha": 1974,
+    "dc_mask": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "mask_table": []
+  },
+  "lo_hz": 96400000,
+  "rate_hz": 3840000,
+  "rf_bandwidth_hz": 1500000,
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "requested_frames": 96,
+  "warmup_frames": 64,
+  "samples": [],
+  "threshold_hit_origin": "Not captured in hardware; PC golden reconstruction only",
+  "error": "RF configuration readback mismatch"
+}

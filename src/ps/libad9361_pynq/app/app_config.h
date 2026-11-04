@@ -1,0 +1,6 @@
+#pragma once
+#define HAVE_SPLIT_GAIN_TABLE 0
+#define AD9361_DEVICE 1
+#define AD9364_DEVICE 0
+#define AD9363A_DEVICE 0
+#define HAVE_VERBOSE_MESSAGES

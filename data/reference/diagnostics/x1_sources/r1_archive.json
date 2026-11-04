@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SOURCE_ARCHIVE",
+  "sources": [
+    {
+      "source": "src/ps/sentinel/app/diagnose_x1.py",
+      "sha256": "d91999390e65e4841c3b1b152f9d6766ebb6f8f247b8419a5b5095173c8c42f7",
+      "archive": "data/reference/diagnostics/x1_sources/d91999390e65e4841c3b1b152f9d6766ebb6f8f247b8419a5b5095173c8c42f7/diagnose_x1.py"
+    },
+    {
+      "source": "board/scripts/run_x1_diagnostic.py",
+      "sha256": "ddaab15a5b568c29546188ee53b769b0796e1729e926223ba28431ad184aa638",
+      "archive": "data/reference/diagnostics/x1_sources/ddaab15a5b568c29546188ee53b769b0796e1729e926223ba28431ad184aa638/run_x1_diagnostic.py"
+    }
+  ]
+}

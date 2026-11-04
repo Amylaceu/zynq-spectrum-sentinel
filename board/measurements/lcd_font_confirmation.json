@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "source": "user_visual_confirmation",
+  "initial_report": "LCD text appeared ghosted",
+  "change": "10px bold monochrome body,14px title,larger row spacing; nearest-neighbor preview",
+  "text_clear": true,
+  "ghosting_disappeared": true,
+  "hardware_bitstream_changed": false,
+  "font_revision_visual_acceptance_passed": true,
+  "original_cause_proven": false
+}

@@ -1,0 +1,333 @@
+{
+  "status": "FAIL_AUTOMATED_GATES",
+  "scope": "Report triage only; cannot authorize loading bitstream",
+  "recorded_utc": "2026-11-03T09:15:29.456991+00:00",
+  "checks": {
+    "basic_timing_and_internal_coverage": true,
+    "bus_skew": true,
+    "audio_pin_map": true,
+    "z10_setup_margin": false,
+    "z10_hold_margin": true,
+    "routed_report": true,
+    "adc_status_first_stage_count": true,
+    "audio_first_stage_count": true,
+    "unsafe_fifo_reset_d_count": true,
+    "blackbox_count": true,
+    "no_redefined_primary_clocks": true,
+    "drc_summary_present": true,
+    "drc_no_errors_or_critical": true,
+    "no_routing_errors": true
+  },
+  "errors": {},
+  "timing": {
+    "wns_ns": 0.21,
+    "tns_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "whs_ns": 0.03,
+    "ths_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "wpws_ns": 0.264
+  },
+  "resources": {
+    "Slice LUTs": 37982.0,
+    "Slice Registers": 54244.0,
+    "Block RAM Tile": 92.0,
+    "DSPs": 79.0
+  },
+  "critical_setup_paths": [
+    {
+      "section": "max",
+      "from_clock": "clk_fpga_0",
+      "to_clock": "clk_fpga_0",
+      "status": "MET",
+      "slack_ns": 0.21,
+      "source": "i_system/sys_rstgen/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C",
+      "destination": "i_system/axi_ad9361_adc_dma/inst/i_regmap/i_up_axi/up_rdata_d_reg[21]/D",
+      "path_group": "clk_fpga_0",
+      "path_type": "Setup",
+      "data_delay_ns": 9.297,
+      "logic_delay_ns": 0.484,
+      "route_delay_ns": 8.813,
+      "route_fraction": 0.9479,
+      "logic_levels": 1
+    },
+    {
+      "section": "max",
+      "from_clock": "rx_clk",
+      "to_clock": "rx_clk",
+      "status": "MET",
+      "slack_ns": 0.418,
+      "source": "i_system/axi_ad9361/inst/i_tx/i_tx_channel_2/i_dds/dds_phase[1].i_dds_2/i_dds_1_0/i_dds_sine/rotation[1].pipe/result_z_reg[12]/C",
+      "destination": "i_system/axi_ad9361/inst/i_tx/i_tx_channel_2/i_dds/dds_phase[1].i_dds_2/i_dds_1_0/i_dds_sine/rotation[2].pipe/result_y_reg[13]/D",
+      "path_group": "rx_clk",
+      "path_type": "Setup",
+      "data_delay_ns": 3.558,
+      "logic_delay_ns": 1.385,
+      "route_delay_ns": 2.173,
+      "route_fraction": 0.6107,
+      "logic_levels": 5
+    },
+    {
+      "section": "max",
+      "from_clock": "rx_clk",
+      "to_clock": "rx_clk",
+      "status": "MET",
+      "slack_ns": 0.425,
+      "source": "i_system/axi_ad9361/inst/i_tx/i_up_dac_common/i_xfer_cntrl/d_data_cntrl_int_reg[0]/C",
+      "destination": "i_system/axi_ad9361/inst/i_tx/i_tx_channel_3/i_up_dac_channel/i_xfer_cntrl/d_data_cntrl_int_reg[203]/CLR",
+      "path_group": "**async_default**",
+      "path_type": "Recovery",
+      "data_delay_ns": 2.927,
+      "logic_delay_ns": 0.486,
+      "route_delay_ns": 2.441,
+      "route_fraction": 0.834,
+      "logic_levels": 1
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_out1_system_dsp_clock_0",
+      "to_clock": "clk_out1_system_dsp_clock_0",
+      "status": "MET",
+      "slack_ns": 0.717,
+      "source": "i_system/src_mux_0/inst/pacer_reg[16]/C",
+      "destination": "i_system/adc_tap_0/inst/fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1/REGCEB",
+      "path_group": "clk_out1_system_dsp_clock_0",
+      "path_type": "Setup",
+      "data_delay_ns": 8.807,
+      "logic_delay_ns": 3.103,
+      "route_delay_ns": 5.704,
+      "route_fraction": 0.6477,
+      "logic_levels": 12
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_fpga_0",
+      "to_clock": "clk_fpga_0",
+      "status": "MET",
+      "slack_ns": 1.607,
+      "source": "i_system/sys_rstgen/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C",
+      "destination": "i_system/axi_ad9361/inst/i_tx/i_tx_channel_1/i_up_dac_channel/up_dac_iqcor_coeff_1_reg[8]/CLR",
+      "path_group": "**async_default**",
+      "path_type": "Recovery",
+      "data_delay_ns": 7.644,
+      "logic_delay_ns": 0.484,
+      "route_delay_ns": 7.16,
+      "route_fraction": 0.9367,
+      "logic_levels": 1
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_div_sel_1_s",
+      "to_clock": "clk_div_sel_1_s",
+      "status": "MET",
+      "slack_ns": 1.91,
+      "source": "i_system/axi_ad9361_dac_dma/inst/i_transfer/i_request_arb/i_store_and_forward/i_mem/m_ram_reg/CLKARDCLK",
+      "destination": "i_system/util_ad9361_dac_upack/inst/i_upack/fifo_rd_data_reg[34]/D",
+      "path_group": "clk_div_sel_1_s",
+      "path_type": "Setup",
+      "data_delay_ns": 6.076,
+      "logic_delay_ns": 2.335,
+      "route_delay_ns": 3.741,
+      "route_fraction": 0.6157,
+      "logic_levels": 2
+    },
+    {
+      "section": "max",
+      "from_clock": "rx_clk",
+      "to_clock": "clk_out1_system_dsp_clock_0",
+      "status": "MET",
+      "slack_ns": 2.864,
+      "source": "i_system/adc_tap_0/inst/fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/src_gray_ff_reg[5]/C",
+      "destination": "i_system/adc_tap_0/inst/fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst/dest_graysync_ff_reg[0][5]/D",
+      "path_group": "clk_out1_system_dsp_clock_0",
+      "path_type": "Setup",
+      "data_delay_ns": 0.924,
+      "logic_delay_ns": 0.348,
+      "route_delay_ns": 0.576,
+      "route_fraction": 0.6234,
+      "logic_levels": 0
+    },
+    {
+      "section": "max",
+      "from_clock": "sys_clk",
+      "to_clock": "sys_clk",
+      "status": "MET",
+      "slack_ns": 3.0,
+      "source": "i_system/lcd_engine/inst/scheduler/x_reg[1]/C",
+      "destination": "i_system/lcd_engine/inst/scheduler/trace_buffer_reg[10]/D",
+      "path_group": "sys_clk",
+      "path_type": "Setup",
+      "data_delay_ns": 16.932,
+      "logic_delay_ns": 6.76,
+      "route_delay_ns": 10.172,
+      "route_fraction": 0.6008,
+      "logic_levels": 25
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_fpga_1",
+      "to_clock": "clk_fpga_1",
+      "status": "MET",
+      "slack_ns": 3.765,
+      "source": "i_system/axi_ad9361/inst/i_rx/i_delay_cntrl/i_delay_rst_reg/rst_sync_reg/C",
+      "destination": "i_system/axi_ad9361/inst/i_rx/i_delay_cntrl/i_delay_rst_reg/rst_sync_d_reg/D",
+      "path_group": "clk_fpga_1",
+      "path_type": "Setup",
+      "data_delay_ns": 0.901,
+      "logic_delay_ns": 0.348,
+      "route_delay_ns": 0.553,
+      "route_fraction": 0.6138,
+      "logic_levels": 0
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_fpga_0",
+      "to_clock": "clk_div_sel_0_s",
+      "status": "MET",
+      "slack_ns": 3.769,
+      "source": "i_system/axi_ad9361_adc_dma/inst/i_transfer/i_request_arb/eot_mem_src_reg_0_15_0_0/DP/CLK",
+      "destination": "i_system/axi_ad9361_adc_dma/inst/i_transfer/i_request_arb/src_req_dest_address_cur_reg[24]/CE",
+      "path_group": "clk_div_sel_0_s",
+      "path_type": "Setup",
+      "data_delay_ns": 3.882,
+      "logic_delay_ns": 1.316,
+      "route_delay_ns": 2.566,
+      "route_fraction": 0.661,
+      "logic_levels": 2
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_fpga_0",
+      "to_clock": "clk_div_sel_1_s",
+      "status": "MET",
+      "slack_ns": 3.769,
+      "source": "i_system/axi_ad9361_adc_dma/inst/i_transfer/i_request_arb/eot_mem_src_reg_0_15_0_0/DP/CLK",
+      "destination": "i_system/axi_ad9361_adc_dma/inst/i_transfer/i_request_arb/src_req_dest_address_cur_reg[24]/CE",
+      "path_group": "clk_div_sel_1_s",
+      "path_type": "Setup",
+      "data_delay_ns": 3.882,
+      "logic_delay_ns": 1.316,
+      "route_delay_ns": 2.566,
+      "route_fraction": 0.661,
+      "logic_levels": 2
+    },
+    {
+      "section": "max",
+      "from_clock": "clk_div_sel_1_s",
+      "to_clock": "clk_div_sel_1_s",
+      "status": "MET",
+      "slack_ns": 4.421,
+      "source": "i_system/util_ad9361_divclk_reset/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C",
+      "destination": "i_system/axi_ad9361_dac_fifo/inst/din_valid_reg/CLR",
+      "path_group": "**async_default**",
+      "path_type": "Recovery",
+      "data_delay_ns": 3.091,
+      "logic_delay_ns": 0.538,
+      "route_delay_ns": 2.553,
+      "route_fraction": 0.8259,
+      "logic_levels": 1
+    }
+  ],
+  "endpoint_counts": {
+    "adc_status_first_stage_count": 2,
+    "audio_first_stage_count": 1,
+    "unsafe_fifo_reset_d_count": 0,
+    "blackbox_count": 0
+  },
+  "clock_root_issues": {
+    "TIMING-4": 0,
+    "TIMING-27": 0
+  },
+  "cdc_critical_counts": {
+    "CDC-1": 110,
+    "CDC-10": 4,
+    "CDC-13": 26
+  },
+  "drc_rule_counts": {
+    "CHECK-3": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "DPIP-1": {
+      "severity": "Warning",
+      "count": 13
+    },
+    "DPOP-1": {
+      "severity": "Warning",
+      "count": 3
+    },
+    "DPOP-2": {
+      "severity": "Warning",
+      "count": 14
+    },
+    "PDCN-1569": {
+      "severity": "Warning",
+      "count": 6
+    },
+    "PLIO-6": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "REQP-1617": {
+      "severity": "Warning",
+      "count": 1
+    },
+    "REQP-1839": {
+      "severity": "Warning",
+      "count": 20
+    },
+    "REQP-1840": {
+      "severity": "Warning",
+      "count": 2
+    },
+    "RTSTAT-10": {
+      "severity": "Warning",
+      "count": 1
+    }
+  },
+  "methodology_critical_counts": {
+    "TIMING-6": 3,
+    "TIMING-7": 3,
+    "TIMING-54": 7
+  },
+  "timing_coverage": {
+    "no_clock": 0,
+    "constant_clock": 0,
+    "pulse_width_clock": 0,
+    "unconstrained_internal_endpoints": 0,
+    "no_input_delay": 20,
+    "no_output_delay": 44,
+    "multiple_clock": 0,
+    "generated_clocks": 0,
+    "loops": 0,
+    "partial_input_delay": 0,
+    "partial_output_delay": 0,
+    "latch_loops": 0
+  },
+  "routing_errors": 0,
+  "pending": [
+    "Review every CDC critical group and timing exception against RTL",
+    "Review unconstrained external ports and actual IO clock assumptions",
+    "Board single/three-tone/replay comparison, SAMPLE_DROP=0, LCD>=30fps",
+    "Separate speaker tone and continuous-listening human acceptance"
+  ],
+  "audit_dir": "build/reports/sentinel_v2_100m/audit_t5_r1",
+  "report_sha256": {
+    "timing.rpt": "a5aa2250642310ea7ec7c532b681b26efd59598df15a5b08b1b7a80363b09918",
+    "clocks.rpt": "4eb9db2c9689a27ac02aebc1b32535d5bb558d7729a245e2c47dc89bed2944ab",
+    "cdc.rpt": "967f1d075e60a9fd800380309ca5333d2c646a4fbe1080a999e0b871d27c4c44",
+    "drc.rpt": "0dd25b9bb82eeb0443cbd8613971748fc8850fb0aed73e40cc59db4e3f8c4c98",
+    "methodology.rpt": "db1f8977bf21f6a4b20e73bb9a2779d50646d2ccdd4ab3ced6ec53c4f848dc15",
+    "io.rpt": "c664826df979452c3f89c4e0fc8273f8d66b463d6d0ed3da9469a04e2cd376b2",
+    "utilization.rpt": "11d90cc4af29fdf82ded27e5311b4a84226f172dbbf864600241b453194b8629",
+    "bus_skew.rpt": "26ffd6b103d390dd5720f8194b575bc3953888950726e2f4a90f059dd2ef4f4d",
+    "endpoint_audit.txt": "3611e72ca84cb7ed0aa52a1eb4c90fd82dd2358091a2918d4a20ecae86d4a5c6",
+    "exceptions_summary.rpt": "a9d44c446ebafd8b43744b3dc9fea192ff0fe560a6c5eb500f8018d4561e7981",
+    "exceptions_ignored.rpt": "d77c05f2195499f1a29d600c235f0a3b56570d14f1b587bcb44bede03a2b509c",
+    "exceptions_coverage.rpt": "b2b15aabde1d5bd46014725fb62bef889c169de5671a3a0cf5864649d736cf7a",
+    "critical_setup.rpt": "435bbd31868b465119daedd63242c9000901f288d8c72b28f0e40a870cc402e3",
+    "critical_hold.rpt": "8389d4938c3f6255eb34d1506f7695e7336afc802b61dd704a96bdfc069ef73e",
+    "clock_interaction.rpt": "8a87bb2476545f42bb3f20ac1d215f632715a2297651dfd221dc6f8df13ffa76",
+    "route_status.rpt": "10ff106e2ce1f2c569b9f97dc2bb52fa9aeb57de906a5c6fda2915cf6f503cec"
+  }
+}

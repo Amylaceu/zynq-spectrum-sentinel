@@ -1,0 +1,2069 @@
+{
+  "status": "STARTED",
+  "host_utc": "2026-11-04T00:01:16.545307+00:00",
+  "configuration": "S1",
+  "antenna_confirmed": true,
+  "transmit_requested": false,
+  "candidate": "/home/xilinx/sentinel/release/i1_r3",
+  "installed_v2_preserved": true,
+  "human_listening": "PENDING",
+  "transitions": [
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21295.273199249,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 0,
+            "codec_muted": true
+          },
+          "ready_mono": 21295.473131492,
+          "ready_s": 0.19993224299832946,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.296999999991385,
+      "index": 0,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21299.087205436,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65609,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4100,
+              "frames": 97764,
+              "underflows": 0,
+              "pcm_samples": 101866
+            },
+            "sample_delta": 101862,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 32.515903369951815,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19481124816336923,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21301.287005601,
+          "ready_s": 2.199800164999033,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.76600000000326,
+      "index": 1,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "listen",
+          "started_mono": 21304.930996268,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21305.182205207,
+          "ready_s": 0.2512089389965695,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.047000000020489,
+      "index": 2,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21308.764865982,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21308.969926414,
+          "ready_s": 0.2050604319992999,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.625,
+      "index": 3,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21312.208583243,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21312.419821758,
+          "ready_s": 0.21123851500306046,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.4530000000086147,
+      "index": 4,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21315.783508575,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 1
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21316.002786774,
+          "ready_s": 0.21927819899792667,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5940000000118744,
+      "index": 5,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "fm",
+          "started_mono": 21320.174343296,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21320.386730365,
+          "ready_s": 0.21238706900112447,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.375,
+      "index": 6,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21323.651794768,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 66.44201660136,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 38.70955368011174,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.20300231617068656,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21324.162125648,
+          "ready_s": 0.5103308799989463,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.7660000000032596,
+      "index": 7,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "check",
+          "started_mono": 21327.491361578,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21327.723344444,
+          "ready_s": 0.23198286600018037,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5309999999881256,
+      "index": 8,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21331.297599244,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 7,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21331.57675034,
+          "ready_s": 0.2791510959978041,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.032000000006519,
+      "index": 9,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21335.430270096,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21335.643112797,
+          "ready_s": 0.21284270099931746,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9070000000065193,
+      "index": 10,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21339.746724084,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 1
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21339.965889348,
+          "ready_s": 0.21916526399945724,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.234000000025844,
+      "index": 11,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21343.225804079,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 339429,
+              "underflows": 0,
+              "pcm_samples": 68905
+            },
+            "sample_delta": 68901,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.492522231370017,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.17938010270943716,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21344.762294205,
+          "ready_s": 1.5364901259999897,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.859000000025844,
+      "index": 12,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "listen",
+          "started_mono": 21348.531648075,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21348.751672521,
+          "ready_s": 0.2200244460000249,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9060000000172295,
+      "index": 13,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21352.033555323,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21352.262993098,
+          "ready_s": 0.22943777500040596,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5,
+      "index": 14,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "idle",
+          "started_mono": 21355.597484102,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65625,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4101,
+              "frames": 613934,
+              "underflows": 0,
+              "pcm_samples": 94685
+            },
+            "sample_delta": 94681,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 34.330630926105215,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19842853189373078,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21357.63916405,
+          "ready_s": 2.0416799480008194,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.375,
+      "index": 15,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "listen",
+          "started_mono": 21361.164489152,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 5,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21361.3827409,
+          "ready_s": 0.21825174799960223,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.7030000000086147,
+      "index": 16,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "fm",
+          "started_mono": 21364.946559898,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 66.68809814432801,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 32.85882682546431,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.17340991514524376,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21365.497403718,
+          "ready_s": 0.5508438200013188,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.078000000008615,
+      "index": 17,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21369.109439386,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21369.37743301,
+          "ready_s": 0.26799362399833626,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.0,
+      "index": 18,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "idle",
+          "started_mono": 21373.119757387,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.18026123026401,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 30.24805642481841,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.17323982900596535,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21373.649058992,
+          "ready_s": 0.5293016049981816,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.110000000015134,
+      "index": 19,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "check",
+          "started_mono": 21377.051937193,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21377.256058333,
+          "ready_s": 0.204121140002826,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5940000000118744,
+      "index": 20,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "fm",
+          "started_mono": 21380.767517059,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.05722045878001,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 26.658175812058893,
+                "large_excursion_fraction": 0.00027909572983533354,
+                "iq_rms": 0.15599851553563326,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21381.264926577,
+          "ready_s": 0.49740951800049515,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9690000000118744,
+      "index": 21,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "check",
+          "started_mono": 21384.981296896,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.05722045878001,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 34.3195856729087,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.18446645321761143,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21385.4892845,
+          "ready_s": 0.5079876039999363,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.203000000008615,
+      "index": 22,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21388.908519818,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21389.120495676,
+          "ready_s": 0.21197585800109664,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6089999999967404,
+      "index": 23,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21392.504748546,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21392.724812086,
+          "ready_s": 0.2200635399967723,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5469999999913853,
+      "index": 24,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "perf",
+          "started_mono": 21396.363767824,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21396.627526484,
+          "ready_s": 0.26375865999943926,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9539999999979045,
+      "index": 25,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "perf",
+          "started_mono": 21399.896245821,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 843384,
+              "underflows": 0,
+              "pcm_samples": 62823
+            },
+            "sample_delta": 62819,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 35.01376738978578,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19897501094946168,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21401.281196311,
+          "ready_s": 1.384950489999028,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.5939999999827705,
+      "index": 26,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "listen",
+          "started_mono": 21404.708325581,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65577,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4098,
+              "frames": 1073601,
+              "underflows": 0,
+              "pcm_samples": 67946
+            },
+            "sample_delta": 67942,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 34.63468769311334,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.18915513093422012,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21406.20316222,
+          "ready_s": 1.4948366390017327,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.875,
+      "index": 27,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "listen",
+          "started_mono": 21409.706320705,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.426342773232,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 32.11177561055542,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.1748547424142913,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21410.304255187,
+          "ready_s": 0.597934481997072,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.078000000008615,
+      "index": 28,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "check",
+          "started_mono": 21413.648638143,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 1305766,
+              "underflows": 0,
+              "pcm_samples": 66128
+            },
+            "sample_delta": 66124,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 32.9870674346285,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.1787287826014029,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21415.095066442,
+          "ready_s": 1.446428299001127,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.73499999998603,
+      "index": 29,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "listen",
+          "started_mono": 21418.854506689,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65609,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4100,
+              "frames": 1566050,
+              "underflows": 0,
+              "pcm_samples": 82463
+            },
+            "sample_delta": 82459,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 33.60019341933124,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.1589346467720725,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21420.652634506,
+          "ready_s": 1.7981278170009318,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.532000000006519,
+      "index": 30,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "listen",
+          "started_mono": 21424.96562358,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.303302001748,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 36.26470146003356,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.16500247927370992,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21425.482481326,
+          "ready_s": 0.5168577459990047,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.828000000008615,
+      "index": 31,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "check",
+          "started_mono": 21428.854858793,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21429.0721048,
+          "ready_s": 0.21724600699963048,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.562999999994645,
+      "index": 32,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "perf",
+          "started_mono": 21432.7029469,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 1833466,
+              "underflows": 0,
+              "pcm_samples": 62458
+            },
+            "sample_delta": 62454,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 30.415262471206255,
+              "large_excursion_fraction": 0.0013954786491766676,
+              "iq_rms": 0.1532376757107004,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21434.086355051,
+          "ready_s": 1.3834081509994576,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.0,
+      "index": 33,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "listen",
+          "started_mono": 21437.869275999,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21438.078864963,
+          "ready_s": 0.2095889640004316,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9070000000065193,
+      "index": 34,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21441.38714866,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21441.589327238,
+          "ready_s": 0.20217857800162164,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.515999999974156,
+      "index": 35,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "idle",
+          "started_mono": 21444.982910041,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21445.196106157,
+          "ready_s": 0.2131961160011997,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5780000000086147,
+      "index": 36,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21448.786070893,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21449.061763705,
+          "ready_s": 0.275692812003399,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9539999999979045,
+      "index": 37,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21452.598051983,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21452.820478824,
+          "ready_s": 0.22242684099910548,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.625,
+      "index": 38,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "idle",
+          "started_mono": 21456.38368898,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.918505859168,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 35.69860127979619,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.16127090561312155,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21456.877271262,
+          "ready_s": 0.4935822820007161,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.047000000020489,
+      "index": 39,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21460.316182774,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21460.550527201,
+          "ready_s": 0.23434442700090585,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6410000000032596,
+      "index": 40,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "idle",
+          "started_mono": 21464.516270901,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21464.724195415,
+          "ready_s": 0.20792451400120626,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.125,
+      "index": 41,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21468.187832069,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21468.421543968,
+          "ready_s": 0.23371189899989986,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6719999999913853,
+      "index": 42,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21471.821449393,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65577,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4098,
+              "frames": 2080479,
+              "underflows": 0,
+              "pcm_samples": 67397
+            },
+            "sample_delta": 67393,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.597913910144246,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.20512921599206996,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21473.294771915,
+          "ready_s": 1.4733225220006716,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.875,
+      "index": 43,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "listen",
+          "started_mono": 21477.101740715,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 2
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21477.31802117,
+          "ready_s": 0.21628045499892323,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.0,
+      "index": 44,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "fm",
+          "started_mono": 21480.66261972,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21480.871483641,
+          "ready_s": 0.20886392100146622,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5,
+      "index": 45,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21484.186207287,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 68.16458740213601,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 29.24792173403544,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.192335262619285,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21484.694280662,
+          "ready_s": 0.5080733750000945,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.812999999994645,
+      "index": 46,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "check",
+          "started_mono": 21488.067079721,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21488.281746153,
+          "ready_s": 0.21466643199892133,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.859000000025844,
+      "index": 47,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21492.197160686,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 68.410668945104,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 33.87444681293348,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.18005536286002397,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21492.703809946,
+          "ready_s": 0.5066492600017227,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.109000000025844,
+      "index": 48,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "check",
+          "started_mono": 21496.019536714,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65641,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4102,
+              "frames": 2396629,
+              "underflows": 0,
+              "pcm_samples": 135886
+            },
+            "sample_delta": 135882,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.279755055566277,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.18624902781501848,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21498.921672556,
+          "ready_s": 2.902135841999552,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 6.219000000011874,
+      "index": 49,
+      "scene": "listen"
+    }
+  ],
+  "limitations": [
+    "pano/wifi pending I4/I5",
+    "ota/noise require labelled PC replay",
+    "no transmission or disconnect watchdog test"
+  ],
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "initial_status": {
+    "response": {
+      "ok": true,
+      "result": {
+        "status": "RUNNING",
+        "scene": "idle",
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "gpio_data": 1,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "audio_control": 0,
+          "codec_muted": true
+        },
+        "unavailable": {
+          "pano": "I5 quick scan not installed",
+          "wifi": "I4 reception not installed",
+          "ota": "REPLAY_REQUIRED: S1 selection; live transmission disabled",
+          "noise": "REPLAY_REQUIRED: S1 selection; live transmission disabled"
+        },
+        "arm_ota": false
+      }
+    },
+    "ssh_roundtrip_s": 3.625
+  }
+}

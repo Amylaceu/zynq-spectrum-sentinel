@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "bus_phase": 12,
+  "measurement": "board/measurements/n4_bench_phase12_ui_r1.json",
+  "measurement_sha256": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339",
+  "display_fps": 14.585275132114836,
+  "dynamic_ui_updates": 102,
+  "dynamic_frame_advances": 102,
+  "user_feedback": "12档计数增加、画面正常",
+  "scope": "Human visual acceptance of PL three-tone display at phase 12; RF remains pending"
+}

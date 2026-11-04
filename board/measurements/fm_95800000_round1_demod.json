@@ -1,0 +1,44 @@
+{
+  "candidate_hz": 95800000,
+  "source": "antenna_rx1",
+  "segmented_recording": true,
+  "playback_duration_s": 1.0083333333333333,
+  "wav": "report\\results\\fm_95800000_round1_demod.wav",
+  "stereo_pilot_in_all_chunks": true,
+  "chunks": [
+    {
+      "pilot_frequency_hz": 18984.375,
+      "pilot_prominence_db": 18.68232283723061,
+      "stereo_pilot_evidence": true,
+      "discriminator_mean_offset_hz": -3145.704582287323,
+      "demod_frequency_rms_hz": 42727.54333417167,
+      "audio_sample_rate_hz": 48000
+    },
+    {
+      "pilot_frequency_hz": 19013.671875,
+      "pilot_prominence_db": 18.58036873436998,
+      "stereo_pilot_evidence": true,
+      "discriminator_mean_offset_hz": -3035.8662386229657,
+      "demod_frequency_rms_hz": 41808.57407618814,
+      "audio_sample_rate_hz": 48000
+    },
+    {
+      "pilot_frequency_hz": 19013.671875,
+      "pilot_prominence_db": 19.694659214686766,
+      "stereo_pilot_evidence": true,
+      "discriminator_mean_offset_hz": -3185.258891201903,
+      "demod_frequency_rms_hz": 41694.89990652323,
+      "audio_sample_rate_hz": 48000
+    },
+    {
+      "pilot_frequency_hz": 18984.375,
+      "pilot_prominence_db": 19.339084197083647,
+      "stereo_pilot_evidence": true,
+      "discriminator_mean_offset_hz": -2922.4897655200916,
+      "demod_frequency_rms_hz": 41442.49645045681,
+      "audio_sample_rate_hz": 48000
+    }
+  ],
+  "station_identity_verified": false,
+  "intelligible_audio_verified": false
+}

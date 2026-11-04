@@ -1,0 +1,174 @@
+{
+  "schema": "j_v4_offline_preview/1",
+  "source": "OFFLINE_SYNTHETIC_NOT_BOARD_MEASUREMENT",
+  "hardware_connected": false,
+  "page_count": 10,
+  "feature_entry_count": 63,
+  "screenshots": [
+    {
+      "page": 1,
+      "title": "系统与硬件",
+      "file": "01.png",
+      "sha256": "41b3a4ef64bcc937ee4607ffb7c72920ed11d02bbbf1cfe349ead5afd03b5c60",
+      "feature_keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 2,
+      "title": "频谱全景",
+      "file": "02.png",
+      "sha256": "06b860feb89390a9a20d6afd415e10b4b6a44d01e710592eecf840823efda363",
+      "feature_keys": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 3,
+      "title": "监测识别",
+      "file": "03.png",
+      "sha256": "18cd16d9ac3b5b39a9cc85152e08faff853f6cf454511a4d4f4b632aacd42e37",
+      "feature_keys": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 4,
+      "title": "广播收听",
+      "file": "04.png",
+      "sha256": "c7fa5f4eb7e50a758aea73c0581dc4f93671eb05cc16e603962693b80c88a3fd",
+      "feature_keys": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 5,
+      "title": "精度与验证",
+      "file": "05.png",
+      "sha256": "a174e6c5fc4f118fa12f2cc1499b6b19ec1bf6fffe296c435870a8e33144848c",
+      "feature_keys": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 6,
+      "title": "空口与鲁棒性",
+      "file": "06.png",
+      "sha256": "d889cf583a49da331de075858e8830282a66841bf6f84f7077dd30934ff2f2e9",
+      "feature_keys": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 7,
+      "title": "性能与优化",
+      "file": "07.png",
+      "sha256": "6a18ffe935dd4ae41a95ab807241a20e86a7d99088ab908803d3d6aa58ccd592",
+      "feature_keys": [
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 8,
+      "title": "现场采集",
+      "file": "08.png",
+      "sha256": "9634dd09e7281f7df095835d1194fc7331c2f358bc5763993d8aa20dd79c475d",
+      "feature_keys": [
+        "49a",
+        "49b",
+        "49c",
+        "49d",
+        "49e",
+        "49f",
+        "49g"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 9,
+      "title": "自动演示",
+      "file": "09.png",
+      "sha256": "7c7402c2a6dcb45f9e9b64c7a2fafa7def3c37c03125416f8a23514c2f6de42f",
+      "feature_keys": [
+        "50",
+        "51"
+      ],
+      "twin_viewport_width_px": 1160,
+      "twin_mode": "main"
+    },
+    {
+      "page": 10,
+      "title": "功能总目录",
+      "file": "10.png",
+      "sha256": "8f3a94ebdb102b933235d4377be37fb90560dc7abf3958692296679614695740",
+      "feature_keys": [
+        "52a",
+        "52b",
+        "52c",
+        "52d",
+        "52e",
+        "52f"
+      ],
+      "twin_viewport_width_px": 320,
+      "twin_mode": "mini"
+    }
+  ],
+  "errors": [],
+  "readiness": "LIVE_ONLY_UI_CHECK; not a board acceptance or full feature completion"
+}

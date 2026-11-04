@@ -1,0 +1,151 @@
+{
+  "status": "FAIL_ORIGINAL_X3_TARGETS",
+  "digital": {
+    "count": 1000,
+    "latency_median_us": 629.9000000000001,
+    "latency_max_us": 629.9133333333333,
+    "latency_min_us": 629.8866666666668,
+    "latency_under_200us": "FAIL",
+    "definition": "First accepted IQ sample after arm to next list-ready pulse; includes frame acquisition",
+    "acquisition_first_to_last_us": 533.0729166666666,
+    "derived_median_remainder_us": 96.82708333333346,
+    "remainder_scope": "Derived subtraction; NOT an independently measured CFAR latency",
+    "throughput_window_s": 3.0055454866666667,
+    "actual_iq_samples_per_s": 3839999.777477998,
+    "post_welch_frames_per_s_avg0": 1875.200367122265,
+    "cpu_kernel_median_s": {
+      "fft2048": 0.00065814049958135,
+      "cfar2048": 0.011473630498585408,
+      "pillow800x480_render_only": 0.006775375999495736
+    },
+    "cpu_ca_golden": "PASS",
+    "fft_only_speedup_current": 1.2341453064329786,
+    "fft_ca_kernel_throughput_ratio_current": 22.74950142960555,
+    "comparison_scope": "CPU FFT+integer CA excludes X1 clustering/top32; PL includes them. Throughput ratio is not per-frame latency speedup.",
+    "fft_only_speedup_historical": 1.264466359542473,
+    "fft_ca_kernel_throughput_ratio_historical": 23.676242331270327
+  },
+  "receive": {
+    "status": "PASS_30S_WINDOW",
+    "display_median_fps": 49.45204617972168,
+    "display_min_fps": 48.62927491270139,
+    "telemetry_samples": 26,
+    "max_temperature_c": 61.028222656064,
+    "cpu_window": {
+      "wall_s": 30.14483373799885,
+      "process_cpu_s": 2.178884287999999,
+      "system_busy_all_cores_percent": 6.652217405801934,
+      "process_one_core_percent": 7.228105034307761,
+      "cpu_ticks_before": {
+        "total": 3615404,
+        "idle": 3396931
+      },
+      "cpu_ticks_after": {
+        "total": 3621402,
+        "idle": 3402530
+      }
+    },
+    "scope": "PL spectrum/waterfall; PS updates text/list once per second",
+    "before_clear_status": 1,
+    "after_clear_status": 0,
+    "scope_limit": "Short observation, not long-term/full-bandwidth acceptance; no new human visual check"
+  },
+  "historical_cpu": {
+    "fft2048_median_s": 0.0006743099999937385,
+    "fft_max_frames_per_s": 1482.997434428209,
+    "cfar2048_median_s": 0.011951670000001968,
+    "pillow800x480_median_s": 0.006794262500022796
+  },
+  "display": {
+    "cpu_fullchain_fps": 1.6680367698289074,
+    "cpu_fullchain_cpu_percent": "NOT_MEASURED",
+    "cpu_bram": 68,
+    "n4_v1_bram": 49,
+    "current_v1b_bram": 47.5,
+    "pl_to_cpu_display_ratio": 29.646856157010276,
+    "phases": [
+      {
+        "bus_phase": 25,
+        "fps": 7.1927239699007455,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 12,
+        "fps": 14.585275132114836,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 8,
+        "fps": 21.391404766712384,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 6,
+        "fps": 27.77198751818042,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 4,
+        "fps": 39.56000476002194,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 3,
+        "fps": 50.448974015844705,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      },
+      {
+        "bus_phase": 2,
+        "fps": 69.33003049703531,
+        "scope": "10s pure spectrum/waterfall; no PS text updates"
+      }
+    ]
+  },
+  "bandwidth": [
+    {
+      "rate_hz": 7680000,
+      "status": "NOT_TESTED",
+      "reason": "X2 routed timing failed; bitstream never loaded"
+    },
+    {
+      "rate_hz": 15360000,
+      "status": "NOT_TESTED",
+      "reason": "X2 routed timing failed; bitstream never loaded"
+    },
+    {
+      "rate_hz": 24576000,
+      "status": "NOT_TESTED",
+      "reason": "X2 routed timing failed; bitstream never loaded"
+    },
+    {
+      "rate_hz": 30720000,
+      "status": "NOT_TESTED",
+      "reason": "X2 routed timing failed; bitstream never loaded"
+    }
+  ],
+  "g1": "DONE",
+  "milestone_a": "CHECKPOINT_WITH_UNMET_X1_X2_X3_TARGETS",
+  "inputs_sha256": {
+    "board/measurements/x3_perf_r3.json": "5887d371bb62d3720901cfd6586e17b49d31ccbf98ebb7103067694dceccdff4",
+    "board/measurements/x3_perf_r3_execution.json": "384fb7b37863bdefdb43d6d13030b2c6a96143e1ee4b61fcf88bb87ca7c1a9aa",
+    "board/measurements/x3_receive_r2.json": "ed523f314c8e2f93e5865478b217292b740c3e5ecfc09ea0288a6da2cb750e78",
+    "board/measurements/x3_receive_r2_execution.json": "b97a137733e0e6c66d090dd98f7aac1d6c4702ac0d58cbbe5e7381affa30e63b",
+    "board/measurements/p5_cpu_baseline.json": "4ac47fd6940fb38280e61e63556045e3bc865687be8ea0e4376e8c0d52235c97",
+    "board/measurements/lcd_font_runtime.json": "21f300949e9c098f1fe6dd56d70b90527cca8f814d5dadc9791b37388d3d4042",
+    "board/measurements/n4_selftest_round2.json": "3ae1b7bc1ad369a5a666e7a18a9ed4c994257962c2ba98858a3c637b5120715c",
+    "board/measurements/n4_selftest_round2.npz": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+    "board/overlay/sentinel_v1/sentinel_v1.bit": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+    "data/reference/spectrum/in_axis32.hex": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+    "data/reference/spectrum/exp_power_shifted.hex": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4",
+    "board/measurements/n4_bench_phase25_round1.json": "fdd302b2522015cdda2475999f4890a728ef7cfdc4adc968a0aa6ebd4de8da8e",
+    "board/measurements/n4_bench_phase12_ui_r1.json": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339",
+    "board/measurements/n4_bench_phase8_ui_r1.json": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf",
+    "board/measurements/n4_bench_phase6_ui_r1.json": "0ecab54be6804589a77f8245841d7d41ce54b4a72f0f55e1fbc1c244aaf73933",
+    "board/measurements/n4_bench_phase4_ui_r1.json": "f8564c10a95bb46355c029dbcdb8bf451b8d340a56bb59d85a3cbac1b1056921",
+    "board/measurements/n4_bench_phase3_ui_r1.json": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7",
+    "board/measurements/n4_bench_phase2_ui_r1.json": "ab6628b009071aaebb73ff341365402c9c29570aebf6130e48bf121b6708f4ea",
+    "build/reports/live_z20_lcd/system_top_utilization_placed.rpt": "d9703a03a2d51aadb95ba2b669af5169c404b5d3ee9f402896b89863554702f1",
+    "board/overlay/sentinel_v1b/acceptance.json": "965ed3bf8b7256e0bdc7edcdbd1c60389bb0dfea78b0b2d84812dc6183397520"
+  },
+  "analysis_source_sha256": "d5c97ce6a3247e2c23dfb671b82f0bee5c2ed4d9ac4e314afb61d75d8d051994"
+}

@@ -1,0 +1,133 @@
+{
+  "step": "X4",
+  "mode": "independent_generated_sync_arithmetic",
+  "status": "PASS",
+  "rows": [
+    {
+      "sps": 4,
+      "label": "QPSK",
+      "count": 1008,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 4,
+      "label": "8PSK",
+      "count": 1008,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 4,
+      "label": "16QAM",
+      "count": 1008,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 4,
+      "label": "64QAM",
+      "count": 1008,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 7,
+      "label": "QPSK",
+      "count": 569,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 7,
+      "label": "8PSK",
+      "count": 569,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 7,
+      "label": "16QAM",
+      "count": 569,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 7,
+      "label": "64QAM",
+      "count": 569,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 8,
+      "label": "QPSK",
+      "count": 496,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 8,
+      "label": "8PSK",
+      "count": 496,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 8,
+      "label": "16QAM",
+      "count": 496,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 8,
+      "label": "64QAM",
+      "count": 496,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 13,
+      "label": "QPSK",
+      "count": 298,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 13,
+      "label": "8PSK",
+      "count": 298,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 13,
+      "label": "16QAM",
+      "count": 298,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 13,
+      "label": "64QAM",
+      "count": 298,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 16,
+      "label": "QPSK",
+      "count": 240,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 16,
+      "label": "8PSK",
+      "count": 240,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 16,
+      "label": "16QAM",
+      "count": 240,
+      "max_absolute_error": 0.0
+    },
+    {
+      "sps": 16,
+      "label": "64QAM",
+      "count": 240,
+      "max_absolute_error": 0.0
+    }
+  ],
+  "source_sha256": {
+    "tools/compare_x4_sync.py": "0abe55fa6eb1cab250012f5539d21ed0188f4e37d5d960cfa97f70835445a3ba",
+    "build/work/x4_pc_r2/source/src/ps/sentinel/amc/fine.py": "9a3c4f5221d10644a311f942a75977124d08b2519286cfa091ba2d9fea9e4823",
+    "src/ps/sentinel/amc/fine.py": "d5f7b1eec3e7748b6ec0053c9ca31f05edada5d5a2dcba3b28a39d4e8ffaa78d",
+    "sim/golden/siggen.py": "560aa7106332e20882a82c93759df41a7132650c6c23105fd119b843d95f6e90"
+  }
+}

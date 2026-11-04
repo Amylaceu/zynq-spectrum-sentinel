@@ -1,0 +1,237 @@
+{
+  "status": "passed",
+  "attempt": 1,
+  "source": "rx1a_antenna_fm_band",
+  "rf_transmission_requested": false,
+  "captures": [
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        272.32479160104504,
+        273.1642140107817,
+        58.64268071025843,
+        58.600759900583554
+      ],
+      "clipped_fraction": 1.1444091796875e-05,
+      "rx_gain_db": [
+        60,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -77500,
+        -109000
+      ],
+      "passed": true,
+      "index": 0,
+      "bytes": 1048576,
+      "elapsed_s": 0.04990377499962051,
+      "guards_ok": true,
+      "physical_address": "0x38100040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        309.3529310101514,
+        310.3676627785926,
+        60.79530800923211,
+        60.99568423197034
+      ],
+      "clipped_fraction": 5.340576171875e-05,
+      "rx_gain_db": [
+        63,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -78750,
+        -109750
+      ],
+      "passed": true,
+      "index": 1,
+      "bytes": 1048576,
+      "elapsed_s": 0.04705746299987368,
+      "guards_ok": true,
+      "physical_address": "0x38300040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        178.97694812089844,
+        180.09125439148698,
+        58.588698182484485,
+        58.77338092774847
+      ],
+      "clipped_fraction": 3.24249267578125e-05,
+      "rx_gain_db": [
+        58,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -78000,
+        -109750
+      ],
+      "passed": true,
+      "index": 2,
+      "bytes": 1048576,
+      "elapsed_s": 0.04902321400004439,
+      "guards_ok": true,
+      "physical_address": "0x38500040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        278.1817527274301,
+        279.6946162643415,
+        59.29472881293387,
+        59.40848810801854
+      ],
+      "clipped_fraction": 0.0005702972412109375,
+      "rx_gain_db": [
+        63,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -77750,
+        -109500
+      ],
+      "passed": true,
+      "index": 3,
+      "bytes": 1048576,
+      "elapsed_s": 0.05324973200004024,
+      "guards_ok": true,
+      "physical_address": "0x38700040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        285.50684106984505,
+        287.62512497509823,
+        58.908277813135676,
+        59.2715658181708
+      ],
+      "clipped_fraction": 2.86102294921875e-05,
+      "rx_gain_db": [
+        63,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -84250,
+        -109750
+      ],
+      "passed": true,
+      "index": 4,
+      "bytes": 1048576,
+      "elapsed_s": 0.04900714199993672,
+      "guards_ok": true,
+      "physical_address": "0x38900040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        275.82701861509815,
+        275.89588463189637,
+        58.52289565678374,
+        58.66631152027428
+      ],
+      "clipped_fraction": 3.0517578125e-05,
+      "rx_gain_db": [
+        64,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -84750,
+        -109750
+      ],
+      "passed": true,
+      "index": 5,
+      "bytes": 1048576,
+      "elapsed_s": 0.04696881200015923,
+      "guards_ok": true,
+      "physical_address": "0x38b00040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        205.1700001416627,
+        206.37752227069106,
+        59.02822376078725,
+        59.40353912926941
+      ],
+      "clipped_fraction": 6.103515625e-05,
+      "rx_gain_db": [
+        62,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -77500,
+        -109750
+      ],
+      "passed": true,
+      "index": 6,
+      "bytes": 1048576,
+      "elapsed_s": 0.04781004599954031,
+      "guards_ok": true,
+      "physical_address": "0x38d00040"
+    },
+    {
+      "minimum": -2048,
+      "maximum": 2047,
+      "std_counts": [
+        267.869394020415,
+        267.19398396226904,
+        58.50901995414457,
+        58.66930326616613
+      ],
+      "clipped_fraction": 2.47955322265625e-05,
+      "rx_gain_db": [
+        63,
+        73
+      ],
+      "chip_rssi_mdb": [
+        -77500,
+        -109750
+      ],
+      "passed": true,
+      "index": 7,
+      "bytes": 1048576,
+      "elapsed_s": 0.04737982499955251,
+      "guards_ok": true,
+      "physical_address": "0x38f00040"
+    }
+  ],
+  "stage": "closed_rf_and_dma",
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "sample_rate_hz": 30720000,
+  "rx_lo_hz": 97999998,
+  "chip_registers": {
+    "0x37": 10,
+    "0x5e": 129,
+    "0x247": 2,
+    "0x3f4": 2,
+    "0x6": 2,
+    "0x7": 64
+  },
+  "ensm_mode_during_capture": 1,
+  "adc_channel_controls": [
+    "0x251",
+    "0x251",
+    "0x251",
+    "0x251"
+  ],
+  "first_native_sha256": "2272aaec48cc8f62814ee3e77e57ef72838c903f1f29425c89bfd9edc575e38c",
+  "tx_attenuation_mdb": [
+    89750,
+    89750
+  ],
+  "fft_size": 8192,
+  "psd_normalization": "mean(abs(FFT(x*hann))**2)/(N*sum(hann**2)*2048**2)",
+  "signal_identification": "pending_host_analysis",
+  "gpio_after_close": 0,
+  "buffers_quarantined": false
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "y3-ps-synthetic-throughput-v1",
+  "status": "PASS",
+  "scope": "Synthetic480k contiguous IQ CPU+PCM benchmark only; no RF/DMA/I2S/playback guarantee",
+  "numpy": "1.20.3",
+  "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+  "processed_input_seconds": 10,
+  "elapsed_s": 5.889537211995048,
+  "realtime_factor": 1.6979262784235905,
+  "max_block_seconds": 0.06417819399939617,
+  "median_block_seconds": 0.05838534850045107,
+  "input_samples": 4800000,
+  "output_samples": 480000,
+  "expected_output_samples": 480000,
+  "clipped_samples": 0,
+  "source_sha256": "32ba69f127c2f92b464d61690027220658b406d6b5ab98335a34a1cd076a65e2",
+  "RF_TX_requested": false,
+  "recorded_at_pc": "2026-11-03T03:29:41.820735+00:00",
+  "runner_sha256": "f1bd83e1cbeb2a298bef0fb1a0294f7a08f1ce3bc1f9e240d8469ee1332e99dc",
+  "log_sha256": "ee4aaf186b4d8159800017f5e7c09f44773aed62cf138af538018b9a5f877451"
+}

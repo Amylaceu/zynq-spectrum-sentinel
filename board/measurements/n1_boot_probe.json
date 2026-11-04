@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "source": "XSCT JTAG debug register and memory inspection",
+  "boot_mode_register": "0x00000005",
+  "boot_mode_definition_source": "installed AMD zynq_fsbl/src/fsbl.h SD_MODE",
+  "boot_mode": "SD",
+  "core0_pc": "0xffffff28",
+  "core1_pc": "0xffffff34",
+  "core0_cpsr": "0x200001df",
+  "reboot_status_raw": "0x0040200a",
+  "core0_observed_instructions": ["0xf57ff04f", "0xe320f002", "0xeafffffc"],
+  "debug_access": "Cores briefly stopped for PC/register reads, then continued; no firmware download or memory writes",
+  "uart": "CH340 COM14; capture exited on port-closed exception; no boot text captured",
+  "network": "Host Ethernet link1Gbps; board192.168.2.99 not responding",
+  "linux_boot_verified": false,
+  "root_cause": "not established",
+  "next_action": "user powers off board and connects boot SD card to PC for read-only inspection"
+}

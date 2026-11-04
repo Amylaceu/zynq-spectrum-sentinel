@@ -1,0 +1,480 @@
+{
+  "scope": "Offline numeric models and historical evidence only; no RF, SD, RTL build or board acceptance",
+  "recorded_utc": "2026-11-03T14:25:17.699852+00:00",
+  "git_head": "aedeb08bf2f881ab409abfe608250464924e3aaf",
+  "source_sha256": {
+    "tools/verify_f1_offline_evidence.py": "bc498cdfd780b7ff3cd3dd30c569bf67db3b27bbf9dd4792b4b3539aa64e01c6",
+    "src/ps/sentinel/fm_quality.py": "1389eff0475d15480a9c387d83a59f4cf6f59cf6411d826f8335f22379548183",
+    "data/reference/manifest.json": "569eaf92458de9e682ae8e2f76cd3bee73a2381509a123da9e61bc2eab23e640",
+    "sim/results/v2_cfar_r1.json": "a30f3e6119656b64660f47ab9b3ee48f34c5b8796872b7ea1d7d34bb0bff69a4",
+    "src/rtl/cfar_v2/cfar_core_v2.v": "f1833f018dcec3b8130817e86be19e2399e4963ad82f16911bec15c1a83d03fe",
+    "src/rtl/cfar_v2/cfar_cluster_v2.v": "52c4f05064e6af1f6482bdc9986e10a0d3fb9297b02d4296c5dbe5e951393506",
+    "src/rtl/cfar_x1/cfar_detect_x1.v": "d1db9f0762333315c9370ceb25e63c809142d07c7d7f4ec97b67ad90a7334c50",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "sim/tb/tb_cfar_v2.sv": "6b8664da473d85e495bbc8aa281d6ffe37a1e157f89bc48d46c7f78f20268085",
+    "tools/verify_cfar_v2.py": "12751cf5ba7c93869866c5e7c89ac3801704f25f947411e54006eacd6841959e",
+    "tools/test_cfar_v2.ps1": "fd68c84b03a1a77f9cc759b51ace11f0752cb248b4c0c8b9757c15537ebc8a46",
+    "sim/results/tb_cfar_v2.log": "d7dc670a4a0b84214ad5d25e2595706bb19345c13f253781dcf3fdbe8b02a854",
+    "data/reference/cfar/x1_guard8/manifest.json": "0b6b510b4b4eef94c8edf38764b37e376381a3239b574618251a755b5b222758",
+    "data/reference/cfar/x1_guard8/threshold.hex": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+    "sim/results/v2_cfar_threshold_out.hex": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6",
+    "data/reference/cfar/x1_guard8/hit.hex": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+    "sim/results/v2_cfar_hit_out.hex": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db",
+    "data/reference/cfar/x1_guard8/db.hex": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+    "sim/results/v2_cfar_db_out.hex": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0",
+    "data/reference/cfar/x1_guard8/occupancy.hex": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+    "sim/results/v2_cfar_occupancy_out.hex": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179",
+    "data/reference/cfar/x1_guard8/targets_words.hex": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+    "sim/results/v2_cfar_targets_out.hex": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b",
+    "data/reference/cfar/x1_guard8/stats.hex": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+    "sim/results/v2_cfar_stats_out.hex": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e",
+    "board/measurements/y3_quality_frozen_snapshot_validation.json": "59cf1efd257a5544e2cd0280b6aee6d5f1b593a6b13d7a3d5e731e1ea283d896",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_00.npz": "e29b983482a1a3e1fb5e70a820c90003611516a14ba4f9b62573278fd3883b07",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_01.npz": "fdf3e4f9c32263e9209b89c264d1fe9470622f78568583f0840fd913ec96a2e0",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_02.npz": "c97fcdaad3347382404978724c6125a8bfda3e9d1917991e02933b3f89be897d",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_03.npz": "0b8766186b54e2aa4ea2b34a317f759da9169f6fcb99596d6f2a4da7f00d175f",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_04.npz": "8675649afb029a11d32cced72802d8206cfa385f7161fc0ec787ee17040a9f46",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_05.npz": "2651bb7915d2c20033606398ed9390add91c93917e211987ff4c62ec20f51654",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_06.npz": "754ab9df2792468fe8e8b1ccb47a47e729b09167b523134e89264ae8740e698f",
+    "board/measurements/y3_iq_diagnostic_r1/pfb_15_07.npz": "29c2fc95d931ca337e73bb72ff5633ac9b172792b0fc5854c45b1c49e7e13c93",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_00.npz": "06f19009b8a26d1b9d028e8f78576daea783adc8201674721ffb35913e3cc457",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_01.npz": "fd870a328a87db05a42e5b1e71704a19687e5e9c2ff11b6ad04cf3b497ef1c9e",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_02.npz": "da5028fb62064159cd48a5e426f7197a4dd98706e088b6a5a96b0c75f5a51cdc",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_03.npz": "5856f5e2f88d4557f46c159da9f324da74c670bb82c29d51c4f1ad8f3d18d9c3",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_04.npz": "8c1aa2a4abcec5ee03a48c64a4a081cff795616fd73607702f5e9b38586b88bb",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_05.npz": "6bbd0148314c89e428960c52528ad769d5b682d10964016cea5fafb42d8716a0",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_06.npz": "bb1ff594cd22c2d998a73a39c9d1581bdaa6c8ea4b651329ca1bd7804bcc67d5",
+    "board/measurements/y3_iq_diagnostic_r2/pfb_15_07.npz": "ca50a55e64cf879289267adeea313c732ed891fe6a9a5b0aff99d76f59f239ee",
+    "sim/results/f1_frozen_iq_20261103/analysis.json": "18fd21f9dc844e8f41d6b0e070350f3804cdff1611435e28fbeb8cebb1ed78b7",
+    "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-data": "6e05b161ff89bff0468a9547c0feb5da5e0abc60d440efc608e7c931e7106c22",
+    "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-meta": "64a8066750f36f04d5edd857871c05856cdf18f15f7fb44091366199c98cf694",
+    "sim/results/f1_frozen_iq_20261103/historical_00_rtl_math.wav": "7df9ee3c966e9b1d2f43c3ae53d859f401aaf7c88876254d719804df7f47ca54",
+    "sim/results/f1_frozen_iq_20261103/historical_00_software.wav": "04b7ea351916b92b556821ee800a416b09847d59afb697cc6969be4dfeecc2b1",
+    "sim/results/f1_frozen_iq_20261103/historical_08_rtl_math.wav": "ec3a81e0899119d99b5c511e3573331ab15423ff9cdf1a018b8a469f5b62d17f",
+    "sim/results/f1_frozen_iq_20261103/historical_08_software.wav": "d28ee5262adfbfe97d618183fdfe9222ffa83487d75e5fcb0370d5b7da8d45fc",
+    "sim/results/frozen_offline_regression_20261103.xml": "a30534244bedf8ab1a01a3f0e2c5e1fd13260f34fa8fc7948c10470b0f6c33ff",
+    "sim/results/frozen_offline_regression_20261103_r2.xml": "b82588c9c2dc88cf0b0a7c9fa69e500c322c6247cb70432a4a58e7d05525f12a",
+    "sim/results/frozen_offline_regression_20261103_r3.xml": "f3a4f8019d710c7fc7f9cc67109758cd2692fc372123f80b97f699bea922008e",
+    "logs/F1_frozen_offline_regression_20261103.log": "2f81664e2260d44c0933d5432c5426cd1c4223d7858c2f13239f64830f96732e",
+    "logs/F1_frozen_offline_regression_20261103_r2.log": "ae283c59224c9c8ae650f139be920a008d98d4c3ce598b121fa54bb685490717",
+    "logs/F1_frozen_offline_regression_20261103_r3.log": "84cb0ea40f98f3bf4d11849b279661a836d3fc5f799c81b610859fd4393b9465",
+    "logs/F1_frozen_iq_20261103.log": "18fd21f9dc844e8f41d6b0e070350f3804cdff1611435e28fbeb8cebb1ed78b7"
+  },
+  "pytest_attempts": [
+    {
+      "file": "frozen_offline_regression_20261103.xml",
+      "groups": {
+        "golden": {
+          "tests": 112,
+          "failures": 13,
+          "errors": 0,
+          "skipped": 0
+        },
+        "ps": {
+          "tests": 339,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "tools": {
+          "tests": 224,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      },
+      "failures": [
+        {
+          "test": "sim.golden.tests.test_pfb::test_fixed_channel_accuracy_and_determinism[0]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_pfb::test_fixed_channel_accuracy_and_determinism[3]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_pfb::test_fixed_channel_accuracy_and_determinism[8]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_pfb::test_fixed_channel_accuracy_and_determinism[13]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_pfb::test_fixed_random_data_agrees_with_float_filter_bank",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_pipeline::test_pipeline_tone_spectrum_and_no_fabricated_label",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_amd_fft_dc_scale_and_zero_bins",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_tone_natural_order_and_fixed_output[0]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_tone_natural_order_and_fixed_output[137]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_tone_natural_order_and_fixed_output[1023]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_tone_natural_order_and_fixed_output[-327]",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_random_fft_against_independent_float_transform",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        },
+        {
+          "test": "sim.golden.tests.test_spectrum::test_rectangular_window_shift_is_arithmetic",
+          "kind": "failure",
+          "message": "RuntimeError: Initialize tools/env.ps1 or set XILINX_ROOT to the AMD version directory"
+        }
+      ]
+    },
+    {
+      "file": "frozen_offline_regression_20261103_r2.xml",
+      "groups": {
+        "golden": {
+          "tests": 112,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "ps": {
+          "tests": 339,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "tools": {
+          "tests": 224,
+          "failures": 0,
+          "errors": 1,
+          "skipped": 0
+        }
+      },
+      "failures": [
+        {
+          "test": "tools.tests.test_z10_impl_policy::test_both_power_steps_use_requested_mode[Off-0]",
+          "kind": "error",
+          "message": "failed on setup with \"_tkinter.TclError: Can't find a usable init.tcl in the following directories: \n    {C:\\Users\\PC\\AppData\\Local\\Programs\\Python\\Python312\\tcl\\tcl8.6}\n\nC:/Users/PC/AppData/Local/Programs/Python/Python312/tcl/tcl8.6/init.tcl: couldn't read file \"C:/Users/PC/AppData/Local/Programs/Python/Python312/tcl/tcl8.6/init.tcl\": No error\ncouldn't read file \"C:/Users/PC/AppData/Local/Programs/Python/Python312/tcl/tcl8.6/init.tcl\": No error\n    while executing\n[+7 more lines; full report in element text]"
+        }
+      ]
+    },
+    {
+      "file": "frozen_offline_regression_20261103_r3.xml",
+      "groups": {
+        "golden": {
+          "tests": 112,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "ps": {
+          "tests": 339,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "tools": {
+          "tests": 224,
+          "failures": 0,
+          "errors": 4,
+          "skipped": 0
+        }
+      },
+      "failures": [
+        {
+          "test": "tools.tests.test_z10_impl_policy::test_both_power_steps_use_requested_mode[On-1]",
+          "kind": "error",
+          "message": "failed on setup with \"_tkinter.TclError: Can't find a usable init.tcl in the following directories: \n    {F:\\.zss\\zss\\.venv\\tcl\\tcl8.6} C:/Users/PC/AppData/Local/Programs/Python/Python312/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/library C:/Users/PC/AppData/Local/Programs/library C:/Users/PC/AppData/Local/Programs/tcl8.6.15/library C:/Users/PC/AppData/Local/tcl8.6.15/library\n\n\n\n[+1 more line; full report in element text]"
+        },
+        {
+          "test": "tools.tests.test_z10_impl_policy::test_both_power_steps_use_requested_mode[Off-0]",
+          "kind": "error",
+          "message": "failed on setup with \"_tkinter.TclError: Can't find a usable init.tcl in the following directories: \n    {F:\\.zss\\zss\\.venv\\tcl\\tcl8.6} C:/Users/PC/AppData/Local/Programs/Python/Python312/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/library C:/Users/PC/AppData/Local/Programs/library C:/Users/PC/AppData/Local/Programs/tcl8.6.15/library C:/Users/PC/AppData/Local/tcl8.6.15/library\n\n\n\n[+1 more line; full report in element text]"
+        },
+        {
+          "test": "tools.tests.test_z10_impl_policy::test_invalid_mode_rejected_before_any_project_mutation",
+          "kind": "error",
+          "message": "failed on setup with \"_tkinter.TclError: Can't find a usable init.tcl in the following directories: \n    {F:\\.zss\\zss\\.venv\\tcl\\tcl8.6} C:/Users/PC/AppData/Local/Programs/Python/Python312/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/library C:/Users/PC/AppData/Local/Programs/library C:/Users/PC/AppData/Local/Programs/tcl8.6.15/library C:/Users/PC/AppData/Local/tcl8.6.15/library\n\n\n\n[+1 more line; full report in element text]"
+        },
+        {
+          "test": "tools.tests.test_z10_impl_policy::test_explicit_on_restores_both_steps_after_off",
+          "kind": "error",
+          "message": "failed on setup with \"_tkinter.TclError: Can't find a usable init.tcl in the following directories: \n    {F:\\.zss\\zss\\.venv\\tcl\\tcl8.6} C:/Users/PC/AppData/Local/Programs/Python/Python312/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/lib/tcl8.6 C:/Users/PC/AppData/Local/Programs/Python/library C:/Users/PC/AppData/Local/Programs/library C:/Users/PC/AppData/Local/Programs/tcl8.6.15/library C:/Users/PC/AppData/Local/tcl8.6.15/library\n\n\n\n[+1 more line; full report in element text]"
+        }
+      ]
+    }
+  ],
+  "fm_snapshots": [
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_00.npz",
+      "good": false,
+      "pilot_frequency_hz": 18621.26709461345,
+      "pilot_prominence_db": 6.205839266645783,
+      "large_excursion_fraction": 0.09405526095450739,
+      "iq_rms": 0.04921799435334015,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_01.npz",
+      "good": false,
+      "pilot_frequency_hz": 18889.19899525537,
+      "pilot_prominence_db": 6.785118115711208,
+      "large_excursion_fraction": 0.13284956740161877,
+      "iq_rms": 0.08432470739388162,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_02.npz",
+      "good": false,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 0.9398632734370225,
+      "large_excursion_fraction": 0.09238068657549539,
+      "iq_rms": 0.0549141029812757,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_03.npz",
+      "good": false,
+      "pilot_frequency_hz": 19291.09684621825,
+      "pilot_prominence_db": 8.400754600615448,
+      "large_excursion_fraction": 0.1724811610382361,
+      "iq_rms": 0.08889416276801591,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_04.npz",
+      "good": false,
+      "pilot_frequency_hz": 18889.19899525537,
+      "pilot_prominence_db": 10.148037734149082,
+      "large_excursion_fraction": 0.09796260117220207,
+      "iq_rms": 0.0845159296625604,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_05.npz",
+      "good": false,
+      "pilot_frequency_hz": 18889.19899525537,
+      "pilot_prominence_db": 8.100526478503008,
+      "large_excursion_fraction": 0.09489254814401339,
+      "iq_rms": 0.067107607444393,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_06.npz",
+      "good": false,
+      "pilot_frequency_hz": 19157.13089589729,
+      "pilot_prominence_db": 4.9661933915819585,
+      "large_excursion_fraction": 0.13843148199832542,
+      "iq_rms": 0.09139021176318517,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r1/pfb_15_07.npz",
+      "good": false,
+      "pilot_frequency_hz": 18621.26709461345,
+      "pilot_prominence_db": 9.583876810368997,
+      "large_excursion_fraction": 0.09238068657549539,
+      "iq_rms": 0.05134261352486922,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": false
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_00.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 32.93160015073103,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.18832831616090762,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_01.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 31.11152044195077,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.2077866063279662,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_02.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.17640155207968,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.2023760109017853,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_03.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 29.641681644768777,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.2134850248118695,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_04.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 31.914256959756674,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.20397286372494747,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_05.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.53636440290525,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.19359019672672928,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_06.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 27.332376611945286,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.20923275197887078,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    },
+    {
+      "file": "board/measurements/y3_iq_diagnostic_r2/pfb_15_07.npz",
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 32.637710983580114,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.20235962451145922,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "f1_quality_pass": true
+    }
+  ],
+  "golden_files_verified": 142,
+  "historical_cfar": {
+    "cases": 18,
+    "comparisons": {
+      "threshold": {
+        "words": 36864,
+        "mismatches": 0
+      },
+      "hit": {
+        "words": 36864,
+        "mismatches": 0
+      },
+      "db": {
+        "words": 36864,
+        "mismatches": 0
+      },
+      "occupancy": {
+        "words": 36864,
+        "mismatches": 0
+      },
+      "targets": {
+        "words": 2304,
+        "mismatches": 0
+      },
+      "stats": {
+        "words": 126,
+        "mismatches": 0
+      }
+    },
+    "new_rtl_simulation": false
+  },
+  "historical_iq_sigmf_sha512_verified": true,
+  "historical_iq_replay": [
+    {
+      "label": "historical_00",
+      "float_pfb_shortcut_max_error": 3.914458286299219e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 29.305853207100732,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4187.4751015936445,
+        "demod_frequency_rms_hz": 26400.64330134798,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.19070097218514492,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -4053.0503149729357,
+        "discriminator_std_hz": 25573.755909705502,
+        "large_excursion_fraction": 0.0010110371556154689,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.154907586760235
+      },
+      "rtl_math_pcm_dc": -0.011085870111932562,
+      "rtl_math_pcm_ac_rms": 0.04753043969114172
+    },
+    {
+      "label": "historical_08",
+      "float_pfb_shortcut_max_error": 4.241215432710863e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 32.481434844630634,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4227.912602359459,
+        "demod_frequency_rms_hz": 23168.061989712554,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.1915978217562443,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -3954.4863236361116,
+        "discriminator_std_hz": 22850.129081561678,
+        "large_excursion_fraction": 0.000765937239102628,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.70658219515703
+      },
+      "rtl_math_pcm_dc": -0.011263569258757936,
+      "rtl_math_pcm_ac_rms": 0.03730212564676918
+    }
+  ],
+  "status": "OFFLINE_CHECKS_PASS_WITH_REGRESSION_ENV_ERRORS",
+  "f1_board_acceptance": "NOT_RUN"
+}

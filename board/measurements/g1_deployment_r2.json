@@ -1,0 +1,25 @@
+{
+  "deployment": {
+    "status": "INSTALLED_HASH_VERIFIED",
+    "root": "/home/xilinx/sentinel/release/v2",
+    "archive_sha256": "1e07e9927139de881876798a1d4fb5095ff9b413ddc018b38236f79d47703074",
+    "files": 113,
+    "library_sha256": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+    "previous": "/home/xilinx/sentinel/release/v2_previous_efe6269ccc6b426db194d1a25cb633d5",
+    "hardware_started": false
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 0,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "recorded_utc": "2026-11-03T18:38:40.343520+00:00"
+}

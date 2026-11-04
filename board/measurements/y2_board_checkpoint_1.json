@@ -1,0 +1,96 @@
+{
+  "schema": "y2-board-checkpoint-v1",
+  "recorded_at_pc": "2026-11-03T03:14:38.249865+00:00",
+  "status": "FAIL",
+  "human_visual": "PENDING",
+  "z2_ui": "INCOMPLETE",
+  "hardware_implementation_attempt": 2,
+  "station_deployment_attempts_used": 3,
+  "configuration": "A",
+  "splitter_required": false,
+  "RF_TX_requested": false,
+  "original_r3_prebuild": "Historical software label only; not hardware/simulation evidence",
+  "results": {
+    "tracks": 78,
+    "captures": 194,
+    "telemetry_points": 97,
+    "observed_to_applied_median_ms": 481.1813574960979,
+    "observed_to_applied_max_ms": 3124.7519309981726,
+    "latency_scope": "First PS CFAR observation to LCD APPLIED; earlier RF detection unmeasured",
+    "display_fps_median": 28.992242474437415,
+    "processing_status_counts": {
+      "4": 97
+    },
+    "processing_fault_mask": 3,
+    "fm_truth_hz": [
+      95800000.0
+    ],
+    "fm_truth_captures": 21,
+    "fm_displayed_fraction": 0.19047619047619047,
+    "fm_full_five_vote_captures": 9,
+    "fm_full_five_vote_displayed_fraction": 0.3333333333333333,
+    "vote_scope": "All rolling votes and full-five-vote results reported separately",
+    "elapsed_s": 120.2212742010015,
+    "original_x5_checks": {
+      "complete_120s": true,
+      "observed_latency_under_500ms": true,
+      "formal_98mhz_truth_fm_80pct": null
+    },
+    "final_y2_checks": {
+      "complete_120s": true,
+      "observed_latency_at_most_1s": true,
+      "known_fm_displayed_80pct": false,
+      "median_display_fps_at_least_30": false
+    },
+    "automated_y2_status": "FAIL"
+  },
+  "pc_tests": {
+    "passed": 229,
+    "log": "logs/Y2_pc_regression.log"
+  },
+  "archive": "report/results/y2_board_checkpoint_1.zip",
+  "archive_sha256": "16c893c754554e805bde7e6d0e4cdaa6031226f602c1564001c2703d071b122f",
+  "source_sha256": {
+    "board/measurements/x5_station_r2_execution.json": "02d834c55f86d9d5f5a2d7a10a1aaffc574b5a32b66d2ab68fe538f411ab4342",
+    "board/measurements/x5_station_r3_execution.json": "cd4fea115beef5d56352ceff5baa438d0f318db9abfc50254db2d58fbcd91e4d",
+    "board/measurements/x5_station_r3_analysis.json": "d26b2bcb3be9736851a371a6d7e597757ff7987c1edfeab25a40e286b2261391",
+    "board/measurements/x5_implementation_r2.json": "6c12c3e657a80cffe2dbc606c15e9d244c27b42f436761cfe430790b091d97aa",
+    "docs/x5_runtime_patch_2.json": "801581d970694df7bdca2d0f9ccb22ffc66064d90a65c0bc59a3798467184231",
+    "docs/x5_v1d_prebuild_r2.json": "d2a66b99b1c35c2a2c03c4949144318a5eca3c699a6b915721ea5255ed6441fc",
+    "src/rtl/perf/perf_mon.v": "2c9ca6e739f62a0a4e33a33e5ba0524a56099f69f820adbb40f511f491869187",
+    "tools/analyze_x5_board.py": "4077d998e3395f0c14037528ff729ea1fb0f22e8ca307721ba8f30c248762114",
+    "tools/tests/test_x5_board_analysis.py": "91d0b0c677723bd44d266d2e83e34ffc48808532c20a8efaa951c05e077c2727",
+    "tools/tests/test_x5_runtime_patch.py": "7f53d7ae9e01587ed52115fcbbdbd42c943fe72f6a96e401286084ef6bc257f1",
+    "src/ps/tests/test_v1d_memory.py": "ab67bbb5121f2187c0da61060c9569de19c041ab1a524f503f13ba9f80dfedef",
+    "src/ps/sentinel/v1d.py": "9b3e56067f507332b454c87f767f2dbe7f039d7469d4dfa16a5b5293ee8f346c",
+    "tools/archive_y2_board_checkpoint.py": "c7b6fd2b31adcacb5dcd3f52110cdb2d78b56a14ff5877e3c9ca6ee42879d0db",
+    "docs/y2_board_checkpoint.md": "e0cb55f618c8ec5527f31b2b2c75e938435b317277a6e288950710829c2cba89"
+  },
+  "archived_files_sha256": {
+    "build/x5_station_r1_runtime.tar.gz": "1a2c517577ce267ff3a3302ddd69e0aa84ecaa1b703961f921769aa5fe160597",
+    "build/x5_station_r2_runtime.tar.gz": "b931d7f10aeb2185cb419c30f8333dd19ea718f7eb6da2d7924c8b11981ebf4a",
+    "build/x5_station_r3_runtime.tar.gz": "9039607d5753ba295f339d8121fb8c54169b1bba96abda36934f5aad45606f2c",
+    "docs/x5_v1d_prebuild_r3.json": "af0235252f17b024af5521945b7c7cf9c7122bedacd548b6f534588f06ffe657",
+    "docs/x5_v1d_prebuild_r3.json.sha256": "555f41eeb35f7e14b7a2f9f7f8985ec37459371e516ba1196dff743bbef396cd",
+    "logs/X5_station_r1_console.log": "6d92d80b69669b2696b56529abf3f687efbf00a3c8d6ef70362f41be996baec2",
+    "logs/X5_station_r1_retry_console.log": "b02d5616f2246f73f1d042c64a23f0357fa2248f254656ad0e156369a6269da4",
+    "logs/X5_station_r2.log": "794fcd354db06e2801702d51348e649117a7bb9b86f782f55d265be1960c6238",
+    "logs/X5_station_r2_console.log": "6640f297c9135d33c1b65002f889e74906205c361be4c29cb8f074f6962a1266",
+    "logs/X5_station_r3.log": "bbc56b9653c55621196edbdefaf45e8d452a63d4eb12f38f5e73157d1c146ec5",
+    "logs/X5_station_r3_console.log": "307d4e0a932b38f192acdb54f967ece96f017ed79f61ce52444a4f3707d25162",
+    "logs/X5_station_r3_final_console.log": "89672dfad020fd43a9cf791a47e52ae82af4e3311dcb3804b41cff38ed8bca48",
+    "logs/X5_station_r3_retry_console.log": "7512be75c50c5ff3f95becd9b0aca8635d6b5a2c38c35cb700a80897a27b3708",
+    "logs/Y2_archive_r2.log": "315ddd53b4cc842f7b6b1118b9f8cbbc102ed4396191c5683b5e278e10238d3d",
+    "logs/Y2_pc_regression.log": "1586431961e9c57224b14a14f77cb1ba955743e9928eb61952a80e25e839c108"
+  },
+  "postflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "image": "sentinel_v1d",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 268435456,
+    "status": "PASS"
+  }
+}

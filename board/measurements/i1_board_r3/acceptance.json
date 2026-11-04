@@ -1,0 +1,2345 @@
+{
+  "status": "PARTIAL_RECEIVE_SCENES_PASS",
+  "host_utc": "2026-11-04T00:01:16.545307+00:00",
+  "configuration": "S1",
+  "antenna_confirmed": true,
+  "transmit_requested": false,
+  "candidate": "/home/xilinx/sentinel/release/i1_r3",
+  "installed_v2_preserved": true,
+  "human_listening": "PENDING",
+  "transitions": [
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21295.273199249,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 0,
+            "codec_muted": true
+          },
+          "ready_mono": 21295.473131492,
+          "ready_s": 0.19993224299832946,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.296999999991385,
+      "index": 0,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21299.087205436,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65609,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4100,
+              "frames": 97764,
+              "underflows": 0,
+              "pcm_samples": 101866
+            },
+            "sample_delta": 101862,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 32.515903369951815,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19481124816336923,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21301.287005601,
+          "ready_s": 2.199800164999033,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.76600000000326,
+      "index": 1,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "listen",
+          "started_mono": 21304.930996268,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21305.182205207,
+          "ready_s": 0.2512089389965695,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.047000000020489,
+      "index": 2,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21308.764865982,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21308.969926414,
+          "ready_s": 0.2050604319992999,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.625,
+      "index": 3,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21312.208583243,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21312.419821758,
+          "ready_s": 0.21123851500306046,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.4530000000086147,
+      "index": 4,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21315.783508575,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 1
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21316.002786774,
+          "ready_s": 0.21927819899792667,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5940000000118744,
+      "index": 5,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "fm",
+          "started_mono": 21320.174343296,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21320.386730365,
+          "ready_s": 0.21238706900112447,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.375,
+      "index": 6,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21323.651794768,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 66.44201660136,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 38.70955368011174,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.20300231617068656,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21324.162125648,
+          "ready_s": 0.5103308799989463,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.7660000000032596,
+      "index": 7,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "check",
+          "started_mono": 21327.491361578,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21327.723344444,
+          "ready_s": 0.23198286600018037,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5309999999881256,
+      "index": 8,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21331.297599244,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 7,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21331.57675034,
+          "ready_s": 0.2791510959978041,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.032000000006519,
+      "index": 9,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21335.430270096,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21335.643112797,
+          "ready_s": 0.21284270099931746,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9070000000065193,
+      "index": 10,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "fm",
+          "started_mono": 21339.746724084,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 1
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21339.965889348,
+          "ready_s": 0.21916526399945724,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.234000000025844,
+      "index": 11,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21343.225804079,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 339429,
+              "underflows": 0,
+              "pcm_samples": 68905
+            },
+            "sample_delta": 68901,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.492522231370017,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.17938010270943716,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21344.762294205,
+          "ready_s": 1.5364901259999897,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.859000000025844,
+      "index": 12,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "listen",
+          "started_mono": 21348.531648075,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21348.751672521,
+          "ready_s": 0.2200244460000249,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9060000000172295,
+      "index": 13,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21352.033555323,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21352.262993098,
+          "ready_s": 0.22943777500040596,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5,
+      "index": 14,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "idle",
+          "started_mono": 21355.597484102,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65625,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4101,
+              "frames": 613934,
+              "underflows": 0,
+              "pcm_samples": 94685
+            },
+            "sample_delta": 94681,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 34.330630926105215,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19842853189373078,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21357.63916405,
+          "ready_s": 2.0416799480008194,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.375,
+      "index": 15,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "listen",
+          "started_mono": 21361.164489152,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 5,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21361.3827409,
+          "ready_s": 0.21825174799960223,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.7030000000086147,
+      "index": 16,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "fm",
+          "started_mono": 21364.946559898,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 66.68809814432801,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 32.85882682546431,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.17340991514524376,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21365.497403718,
+          "ready_s": 0.5508438200013188,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.078000000008615,
+      "index": 17,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21369.109439386,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21369.37743301,
+          "ready_s": 0.26799362399833626,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.0,
+      "index": 18,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "idle",
+          "started_mono": 21373.119757387,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.18026123026401,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 30.24805642481841,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.17323982900596535,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21373.649058992,
+          "ready_s": 0.5293016049981816,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.110000000015134,
+      "index": 19,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "check",
+          "started_mono": 21377.051937193,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21377.256058333,
+          "ready_s": 0.204121140002826,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5940000000118744,
+      "index": 20,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "fm",
+          "started_mono": 21380.767517059,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.05722045878001,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 26.658175812058893,
+                "large_excursion_fraction": 0.00027909572983533354,
+                "iq_rms": 0.15599851553563326,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21381.264926577,
+          "ready_s": 0.49740951800049515,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9690000000118744,
+      "index": 21,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "check",
+          "started_mono": 21384.981296896,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.05722045878001,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 34.3195856729087,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.18446645321761143,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21385.4892845,
+          "ready_s": 0.5079876039999363,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.203000000008615,
+      "index": 22,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21388.908519818,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21389.120495676,
+          "ready_s": 0.21197585800109664,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6089999999967404,
+      "index": 23,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21392.504748546,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21392.724812086,
+          "ready_s": 0.2200635399967723,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5469999999913853,
+      "index": 24,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "perf",
+          "started_mono": 21396.363767824,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21396.627526484,
+          "ready_s": 0.26375865999943926,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9539999999979045,
+      "index": 25,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "perf",
+          "started_mono": 21399.896245821,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 843384,
+              "underflows": 0,
+              "pcm_samples": 62823
+            },
+            "sample_delta": 62819,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 35.01376738978578,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.19897501094946168,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21401.281196311,
+          "ready_s": 1.384950489999028,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.5939999999827705,
+      "index": 26,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "listen",
+          "started_mono": 21404.708325581,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65577,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4098,
+              "frames": 1073601,
+              "underflows": 0,
+              "pcm_samples": 67946
+            },
+            "sample_delta": 67942,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 34.63468769311334,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.18915513093422012,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21406.20316222,
+          "ready_s": 1.4948366390017327,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.875,
+      "index": 27,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "listen",
+          "started_mono": 21409.706320705,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.426342773232,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 32.11177561055542,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.1748547424142913,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21410.304255187,
+          "ready_s": 0.597934481997072,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.078000000008615,
+      "index": 28,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "check",
+          "started_mono": 21413.648638143,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 1305766,
+              "underflows": 0,
+              "pcm_samples": 66128
+            },
+            "sample_delta": 66124,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 32.9870674346285,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.1787287826014029,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21415.095066442,
+          "ready_s": 1.446428299001127,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.73499999998603,
+      "index": 29,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "listen",
+          "started_mono": 21418.854506689,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65609,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4100,
+              "frames": 1566050,
+              "underflows": 0,
+              "pcm_samples": 82463
+            },
+            "sample_delta": 82459,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 33.60019341933124,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.1589346467720725,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21420.652634506,
+          "ready_s": 1.7981278170009318,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.532000000006519,
+      "index": 30,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "listen",
+          "started_mono": 21424.96562358,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.303302001748,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 36.26470146003356,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.16500247927370992,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21425.482481326,
+          "ready_s": 0.5168577459990047,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.828000000008615,
+      "index": 31,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "check",
+          "started_mono": 21428.854858793,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21429.0721048,
+          "ready_s": 0.21724600699963048,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.562999999994645,
+      "index": 32,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "perf",
+          "started_mono": 21432.7029469,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65593,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4099,
+              "frames": 1833466,
+              "underflows": 0,
+              "pcm_samples": 62458
+            },
+            "sample_delta": 62454,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 30.415262471206255,
+              "large_excursion_fraction": 0.0013954786491766676,
+              "iq_rms": 0.1532376757107004,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21434.086355051,
+          "ready_s": 1.3834081509994576,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 5.0,
+      "index": 33,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "listen",
+          "started_mono": 21437.869275999,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21438.078864963,
+          "ready_s": 0.2095889640004316,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9070000000065193,
+      "index": 34,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21441.38714866,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21441.589327238,
+          "ready_s": 0.20217857800162164,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.515999999974156,
+      "index": 35,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "idle",
+          "started_mono": 21444.982910041,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21445.196106157,
+          "ready_s": 0.2131961160011997,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5780000000086147,
+      "index": 36,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "idle",
+          "started_mono": 21448.786070893,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21449.061763705,
+          "ready_s": 0.275692812003399,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.9539999999979045,
+      "index": 37,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "perf",
+          "started_mono": 21452.598051983,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21452.820478824,
+          "ready_s": 0.22242684099910548,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.625,
+      "index": 38,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "idle",
+          "started_mono": 21456.38368898,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 67.918505859168,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 35.69860127979619,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.16127090561312155,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21456.877271262,
+          "ready_s": 0.4935822820007161,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.047000000020489,
+      "index": 39,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "check",
+          "started_mono": 21460.316182774,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21460.550527201,
+          "ready_s": 0.23434442700090585,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6410000000032596,
+      "index": 40,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "idle",
+          "previous": "idle",
+          "started_mono": 21464.516270901,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21464.724195415,
+          "ready_s": 0.20792451400120626,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.125,
+      "index": 41,
+      "scene": "idle"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "idle",
+          "started_mono": 21468.187832069,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 6,
+            "targets": 3
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21468.421543968,
+          "ready_s": 0.23371189899989986,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.6719999999913853,
+      "index": 42,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "fm",
+          "started_mono": 21471.821449393,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65577,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4098,
+              "frames": 2080479,
+              "underflows": 0,
+              "pcm_samples": 67397
+            },
+            "sample_delta": 67393,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.597913910144246,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.20512921599206996,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21473.294771915,
+          "ready_s": 1.4733225220006716,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.875,
+      "index": 43,
+      "scene": "listen"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "fm",
+          "previous": "listen",
+          "started_mono": 21477.101740715,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "frame_delta": 4,
+            "targets": 2
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21477.31802117,
+          "ready_s": 0.21628045499892323,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.0,
+      "index": 44,
+      "scene": "fm"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "fm",
+          "started_mono": 21480.66261972,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21480.871483641,
+          "ready_s": 0.20886392100146622,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.5,
+      "index": 45,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21484.186207287,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 68.16458740213601,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 29.24792173403544,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.192335262619285,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21484.694280662,
+          "ready_s": 0.5080733750000945,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.812999999994645,
+      "index": 46,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "perf",
+          "previous": "check",
+          "started_mono": 21488.067079721,
+          "status": "READY",
+          "readiness": {
+            "ready": true
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21488.281746153,
+          "ready_s": 0.21466643199892133,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 3.859000000025844,
+      "index": 47,
+      "scene": "perf"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "check",
+          "previous": "perf",
+          "started_mono": 21492.197160686,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "checks": {
+              "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+              "product_id": 10,
+              "temperature_c": 68.410668945104,
+              "quality": {
+                "good": true,
+                "pilot_frequency_hz": 19023.16494557633,
+                "pilot_prominence_db": 33.87444681293348,
+                "large_excursion_fraction": 0.0,
+                "iq_rms": 0.18005536286002397,
+                "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+              },
+              "arm_ota": false,
+              "ota": "REPLAY_REQUIRED",
+              "network_rtt": "CLIENT_MEASUREMENT_REQUIRED",
+              "passed": true
+            }
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 242,
+            "codec_muted": true
+          },
+          "ready_mono": 21492.703809946,
+          "ready_s": 0.5066492600017227,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 4.109000000025844,
+      "index": 48,
+      "scene": "check"
+    },
+    {
+      "response": {
+        "ok": true,
+        "result": {
+          "scene": "listen",
+          "previous": "check",
+          "started_mono": 21496.019536714,
+          "status": "READY",
+          "readiness": {
+            "ready": true,
+            "audio": {
+              "raw_status": 65641,
+              "enabled": true,
+              "iq_overflow": false,
+              "pcm_full": false,
+              "playing": true,
+              "fifo_level": 4102,
+              "frames": 2396629,
+              "underflows": 0,
+              "pcm_samples": 135886
+            },
+            "sample_delta": 135882,
+            "pilot": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 31.279755055566277,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.18624902781501848,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "codec_unmuted": true,
+            "scope": "Digital playback readiness; human listening separately required"
+          },
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "gpio_data": 1,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "audio_control": 243,
+            "codec_muted": false
+          },
+          "ready_mono": 21498.921672556,
+          "ready_s": 2.902135841999552,
+          "within_target": true
+        }
+      },
+      "ssh_roundtrip_s": 6.219000000011874,
+      "index": 49,
+      "scene": "listen"
+    }
+  ],
+  "limitations": [
+    "pano/wifi pending I4/I5",
+    "ota/noise require labelled PC replay",
+    "no transmission or disconnect watchdog test"
+  ],
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "initial_status": {
+    "response": {
+      "ok": true,
+      "result": {
+        "status": "RUNNING",
+        "scene": "idle",
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "gpio_data": 1,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "audio_control": 0,
+          "codec_muted": true
+        },
+        "unavailable": {
+          "pano": "I5 quick scan not installed",
+          "wifi": "I4 reception not installed",
+          "ota": "REPLAY_REQUIRED: S1 selection; live transmission disabled",
+          "noise": "REPLAY_REQUIRED: S1 selection; live transmission disabled"
+        },
+        "arm_ota": false
+      }
+    },
+    "ssh_roundtrip_s": 3.625
+  },
+  "metrics": {
+    "check": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.5508438200013188,
+      "median_s": 0.5092021274995204,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "fm": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.23371189899989986,
+      "median_s": 0.21870850599952973,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "listen": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 2.199800164999033,
+      "median_s": 1.5156633825008612,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "perf": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.26375865999943926,
+      "median_s": 0.2159562194992759,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "idle": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.2512089389965695,
+      "median_s": 0.2178114785001526,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    }
+  },
+  "final_status": {
+    "response": {
+      "ok": true,
+      "result": {
+        "status": "RUNNING",
+        "scene": "listen",
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "gpio_data": 1,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "audio_control": 243,
+          "codec_muted": false
+        },
+        "unavailable": {
+          "pano": "I5 quick scan not installed",
+          "wifi": "I4 reception not installed",
+          "ota": "REPLAY_REQUIRED: S1 selection; live transmission disabled",
+          "noise": "REPLAY_REQUIRED: S1 selection; live transmission disabled"
+        },
+        "arm_ota": false
+      }
+    },
+    "ssh_roundtrip_s": 4.094000000011874
+  },
+  "stop": {
+    "response": {
+      "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+      "image": "sentinel_v2_100m",
+      "gpio_data": 0,
+      "source_ctrl": 0,
+      "lcd_version": 1279459333,
+      "scope": "Stopped readback only; no RF initialization or download",
+      "source_enabled": false,
+      "capture_status": 268435456,
+      "audio_control": 0,
+      "audio_status": 0,
+      "status": "PASS"
+    },
+    "ssh_roundtrip_s": 20.155999999988126
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "verified_evidence": {
+    "measurements/20211119T054707Z_fd895700_execution.json": "b4f022a52bb3afba7363fcf27924bb5006a95cd46a64b86390358925f0e4ac3d",
+    "measurements/stop_346763abe97e44b1b86a4fc2a0749171.json": "e3fcbf0e39643006c7783101badd9d5423f7f07a3d5f45fac8e012dfeec282f4",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00000.npz": "d421f2fc8f4c3e927dbd27946a678eb2aa558ffa2fc7f82527e391150b8dacf3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00001.npz": "eaf707defdfe614b2ce67ae43444a1dbe43f0ab642d929562894b8c3f45b8ac3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00002.npz": "144d069af8d0ec51113bdbd8cb307f3e42e3f15936f56f922782c4b9ddb8c0d0",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00003.npz": "27c38a6c19dc88cfdbea82a93493cfaa1995b430a89217555d43d0978cfd29db",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00004.npz": "f8691eb89951f24b37b8104661b7065fcf9afc83acf02bd9b063ebb96fc2b586",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00005.npz": "ce12cdb5027dda711dea90d85b1cf2e7de491584a74eab95d8680996522cceb5",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00006.npz": "0eb51e167b32bdae4dac62bb415a6bf07330a76666548b2612ec8c4d30b1306c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00007.npz": "e112ad97f28acc9b68aa62cdb213a38d1cf186fbb1e5bfeb3e5065b33c0a42d0",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00008.npz": "2545c259754a1866da0dfbdadb06b76da42cba0bfd60e17c311d6ddc9963ae1c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00009.npz": "62fad319855d9fb69fa942556a6a258a5b6688c7dbdcfaee777402287fa069c9",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00010.npz": "6a55e9f9da14b33fbb4709a6d03528e54ef8d6e5b23aa77e34b79e71d2d7d8fc",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00011.npz": "d7b2342f3cc6188e11f0aa0b77763270e605b57cb857f05e6e054311722a4f3f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00012.npz": "33f69c9767d67549ce491a1f14300e4cc99a1b8c7b1477c9630a4d71503e825a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00013.npz": "18b25328e8ed42937b84e1ced9d225f6f793a3f4572e10d44c33e5e5397e395c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00014.npz": "10078ee6093af28d3e5407a7e7303101b2508effa905e83f19f59bb1544ac49d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00015.npz": "0a24820632ae682adc5ee7849df71b8841a7a9e499d265790a7ce25a0f310d6f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00016.npz": "16ec26ba1d1df18d4d57aa0f33e544a0d6bd85ce4951f5f5d643b434ac9d562f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00017.npz": "45b58138f6084a2afcb9bf9e9ed46ec4b07f77b7284084a8642ae32ce503065b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00018.npz": "eacf0089a8e58b148a16d7b9c0b1eba48a5321f4b89b2ea7a89eabff0244c966",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00019.npz": "b8243167c084dbb7d5935c2560b715313367a3240d7e177013281f63dc16b197",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00020.npz": "f4a7d85b32cdcd0f3b2bb6382c254ef1f0165b609e6ed3ad20470754e97b6df5",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00021.npz": "e187f45c390657129686ad0719a402c8dd7bc97d7e32b135b1363f9d53817d61",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00022.npz": "9621e5c9f0de5700e8050511a08357e56dfbf83ad060c6b7baeb338dd25b3daa",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00023.npz": "01983ebfd12be84382e9751004ab175aa60e887d7c008bda61b40d3b4dd96a0e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00024.npz": "f1de4812fbb5b0151055f03fc59d22451c8239d25499125c7c2085c2f8412825",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00025.npz": "7369c94bf1b6db54c93ffa20c2a76faef46268c5fa8c781f3a11659ea8316f00",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00026.npz": "84f5ac6990953eee197b31acf9503ba7587e44685f82cfd128cfe44f5b65562a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00027.npz": "ee5beb59e17008c22e90d6ba506ac3e269cbaecad8c8248fad9743a2f2994a11",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00028.npz": "eca37d7e420d84c949866af468c40215428c4c5d3291c16e23e80f5a90d8f068",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00029.npz": "2598a698e55b6735da2ca52aded50e17f089c36f353409eb516d05e5d3341f09",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00030.npz": "ce229d8d1986440dc43a6e936de08c217597547df4feff48e7d48fd04b0d3f3d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00031.npz": "79e8d49498997f0141529adeba5b03ed67e80e25ab883f7f08e73a28844e6515",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00032.npz": "8d6903a3217de70ad4d29fbcf3aa8966d8aa1cdda79943bb31b8d3ea3098d9f9",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00033.npz": "dccbd6b66e5b388f0144a96e48f5385169858b5e54aeb15e3796eccc5df35a9f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00034.npz": "3705b8bf1406dd2e9af94665ab332c1d0ae420134911f82ec13a4bc59bb36b58",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00035.npz": "5cbbbbcc5fc39cc432bba38578517da060e3c6d318c2ede3cfb912483d3bc3d0",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00036.npz": "67861dd01f61f62bf3d6c616bbc550591e1712568df81348d33f247fbe47dcf7",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00037.npz": "afd8cc3c85ff476f21daf2154e7bd0bc56ad81bc23824b3041a2bada93cb5270",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00038.npz": "9117f516a3c855c239ba433fc6541ee0b499b0b16274e7e9614a61c18241d3a5",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00039.npz": "654ad421dcfca0d294a7857b65a4ba22c218ea20100ca7220af70e3e5a053708",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00040.npz": "2f9bc802b493618568cedb9ea75e789e769c0565f01b1e791540c205932c6b64",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00041.npz": "6f01a31080ec46bfb6a43fef2d777c31ec7d0ebd1be15ae6b0e8123e473b8e55",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00042.npz": "2bbd26a766c74ea8e5e2ee2261929ad06d4678daf631b570c350d66d87079744",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00043.npz": "ecbcb1061cb0c25fee5ff85d12872c442f60389a42ea57322ad5bdf7a2c4097f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00044.npz": "07c66569df2906a387669f7373d438ee00b04b4adbe688caad85658d722ac275",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00045.npz": "8b656a30fa5ba3082016fe5df7ae117634d9fc6d2d4a5d80e4b8ec1ec1c93e10",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00046.npz": "e494d909e2a806bd9e215f6ad33376b831491d09f76c848f895feafc27a8621f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00047.npz": "cf3d9e3cde9e457125a339fe419c4bcf627e8e9b6d7d1f0386bfda3a4566b26a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00048.npz": "d575d9484cf26925575721c49320ca1d567e605b2b5a3bc9d74c3772d7c62214",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00049.npz": "b4b938b93a39ea505835db99748bdc49f776b8e8bd83ab36fcee1dd451c63a63",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00050.npz": "571963cebd4337fb22d916d5057d45e383c4438c64c20c1fcd1d80482e27835b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00051.npz": "2841fb8234ac9e3ae026cbd94164ab05c6473662f5a7d73bd755b796141344aa",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00052.npz": "5030bf04335c6b41a60d00114e0cf08bb7786efc733c0554a62f819c778f6a4b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00053.npz": "004750c8e94153438e3b32e6ab086633f07f1e20c0178d5428fff17411648a4f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00054.npz": "4546b9850c10a0463b640d7a2a88abbd4c63c4c6885810ea9f6fcc12199ac4b3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00055.npz": "3c69b3d9156b1ec65d91885b9ee62ab78b65ab2ac27e943c6a560e93ac953151",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00056.npz": "d1f54d172b0f40259cf1ec86e9222c3069bc1c5a93cf48d265af9e0ae1c2fcfd",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00057.npz": "9b78594a983a4ad77c0e95660977f03de50dac68c5ae101922240bcab30536da",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00058.npz": "ba2146ea55ca2b791a4d7b5e387099af37c81b111ad73e14355bcea855f8cf8e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00059.npz": "2055cafb71b0eda735f7569c8fafc9298221b476c4ba0ea2ece5cca9572eecb5",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00060.npz": "90340f23fa788c3d6fd47540501c265e6d2296ee493f0337b939f2d62f8ef82e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00061.npz": "a07efb414553983d82e45b2a8c47dec722eba413b1cb4bae3be9550878d203a9",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00062.npz": "0c1ce68307b2ddeaf2e36716224d28841ef7f4ca3f335fc6b4f2fee9e299251a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00063.npz": "1b67c949fab9de02131956590541659df6beca6c12af5aa8eb9586a0691c8393",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00064.npz": "13c48b381ae5ce8a44d96185637c199fc6cee2db3caa8926d91b9c5bebecbc11",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00065.npz": "2b55170f399a23f15492a30f71e645d0d5c6fc29866549c7b323a0abd71b0b29",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00066.npz": "e37651b1049c5118802458d0b25949f7c9dfbf0f00b8fbaaed91a763453ccf10",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00067.npz": "adbb1fc115aedf7262178ff65d09326cbb73a66b962eccd2f7ede1b5f4d02568",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00068.npz": "91c17340cf1afe26db7a0d9defded5e7d969caced876d416164652827c373bad",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00069.npz": "b8fa5e3ef20b484014d9f8cc73f3cac6ca856651fac18b5f58bcee940c027130",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00070.npz": "38476a02262d8520261e43e1c72c3e6188d700b8089c75bcd53c9adf11f1f969",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00071.npz": "c989bce558d357ff9125adf67af547b36c3566cd728429d77dbc4baf63a3b57d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00072.npz": "808b89d585eeb56521a52a01f7659c53d7f6be177c29bc60b16d5e3c82f4570c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00073.npz": "06d7958b2a942e526ed179aef23ac56ef81b2fd7cd7eb2afbf9eeda9a2eae54a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00074.npz": "0ab919fb2e3e7e4b73b45f941b8085b2eed2d14017a9cb7d17f23820b9108594",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00075.npz": "c8b2632290c9d2c7f05a3c602f5d68bb4ffaf12ab808fc6204e77265c5e9b4c0",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00076.npz": "e5383fd478a24519658849362abb4f9bc562ba612e305cb9d949b071432cfe57",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00077.npz": "499e2efcb0489b391da3a8c710e56651edfb51291eb7737d427aa2cd0af51f39",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00078.npz": "b05c24591c12f66a4a89a13ae3d952625bfedf36788766a51017d61dda79f08a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00079.npz": "02a1f3d72cb1aa2f38e8531e4769c7fabe88eeda69c72128aae174d48f7841da",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00080.npz": "bbfe151b999b0f24e0a0acccb09ade6d9338d223f4c581bab7ee4ff64008c7eb",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00081.npz": "acc556a848990006739b55a528dfa73975cb0aad099da9f63866a9bbc91bf542",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00082.npz": "1b3bf352eb130a2182c15985581103cf75e30bbb88bc2a715849ab0fcae8d083",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00083.npz": "0eaecf5047c03b65a1a8d4b58f28c0b25dc5d19d9c574036d3baab9dbf6cda2a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00084.npz": "88fb7f53a73be9da39c08a745384939f1c8691de1d55584565978d80be76f187",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00085.npz": "f2de327ed3b5b30e94d68a6ae72a283efaaabcb942191f0a0c16dee2eaa4398b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00086.npz": "7902318051114b5acb47a3256bb595f87ab0a6b81dd37337a4fa8f7df42f78f9",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00087.npz": "c88304dc57a8518d7d1ad274771fd333bb2223a98cea5794b5294963da82c64b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00088.npz": "7fd9b05a80cde4c9a60ea9841c0a262339d7f7b3fa43631413aa6933be72d3be",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00089.npz": "c601e7f5bb5afda1207f112628f07e2fa99e1b8354e7b0da4a447c502ea0af9f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00090.npz": "54e3ea814e4383c049b8afeaf22847c9062a4e625541a7bd551d9a5a70612862",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00091.npz": "716d548e1fd7a2d8637729b81588e854c3f2d4741be1ce31bc4df787678f29d4",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00092.npz": "9ac13dd52b73e417e132ad46eee4f395b16c54c3eef870c26a083abcc315b7e5",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00093.npz": "ea6f3e6fdae43df2d3f6822d50bfad47e6fc9d679382b15312d733d3521fa427",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00094.npz": "c2a519c3899c349f1599f773302f17d6ada77c5c2cf6c616a43dff5a9c5cd3f4",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00095.npz": "09052267a5c2d690e1bcad7a1cecdcf9acabfb4661c8d92a6ec9892f5ad310a7",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00096.npz": "6ff82f2fad084144f7d20bd1a879f0a02f29276c5fc23ccea8ea3e07fd833271",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00097.npz": "c94d842d0e044ed57b08dcddc24f9363434a9d5b76741b3ff7b193d5cdeecd0f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00098.npz": "288a8e2250e6b7bc441044866cc1339717288102967fe6fbeeed3d2ab4c992d3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00099.npz": "505264f4146c85e319455ff29561040bb4d2658d0403dcd87c22c60463a62653",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00100.npz": "3debcb43d728b8b5d93e86b7db19a924a2291d46805d5c5648d0fd81acd95883",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00101.npz": "ba33d99e1f7cb1680b4f33b8772f0a59314d9b6bb6dc5779be5494fefd58f09e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00102.npz": "4828fdc58afd642639df50a68c4f0ed276f436ee557db5323a2b07c8b3514043",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00103.npz": "d3a5138f0c7a489cd9b94756c186e20cf611afe20c2458de278a2d126ac96191",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00104.npz": "1ed049c1140dd0987785ab23604f51f39987c1f0638c66c6284eae1e592584a9",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00105.npz": "61cdb88c214069d458430336ed70d65f8f011d047e5d173d1afe409d0f9b4e34",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00106.npz": "adb707a9af28b8b9a2b8a7923bcf16c5e528b6dc3032a56318fa103c3b0d98c6",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00107.npz": "aefd7368b8c903130afc5063ee2720a6bb3cb0230f07676545566bb160d3c29d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00108.npz": "182a0ad835488de0adef6fd06402c41dded1aab6889f6d2a5d33f53c58d47619",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00109.npz": "2411800e973a53fc2022ae97646b1c8318da896108772a41bce19878767e9c6d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00110.npz": "c38be739eed253257696bab527692be31cee31803cade8dd3b816ff288006cd4",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00111.npz": "9c15e2446a1dc1248cdad97f4aae9ef085dc222ad348153feb8bc9a6ebb03ef6",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00112.npz": "4c14d392bff8144c23a099d6dff8bb9cdfc7f1398553200adbd519f03d85fc34",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00113.npz": "f033d5ad0e16bc6e991f4f9d5aa208de6cbaddd904a221622d18d65c9b32b929",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00114.npz": "c5d5cd8d7bbc45857f003eef82d469686eb0c11bed366128c9890dc8413ded1b",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00115.npz": "9f11eb680adcb110031d00346ff4534623dd35ae42e4c1e6737a90a1de589750",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00116.npz": "95772d7913c1dbe17e22694486abeef623fae2a2b22a06e6e4eb38c01163b626",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00117.npz": "361fc83034326029f62e2b6e8beb5cc270c899b5f1712dfa7bfe7cae81dd4b26",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00118.npz": "13c3ca201c01b1c23f8bfa77f4bc57a4ed16507fb2712f1f12a376e69e2fb74d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00119.npz": "351b1e6a1996fe64f997edbb4e83098476c806a6be189120bca3a44154676d90",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00120.npz": "6edb0271f586b2df98d8a6d6c4b808d1a672615b787c2f1910f9b29bc5cef9fb",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00121.npz": "8009b3d0b8c157aded5353838af4a88106bba8e59598c117cc7cab62afa0d0d3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00122.npz": "7e22ba4b0b5b0abea089596b946254d28f06dc2406631964413f63e2e3df8ae6",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00123.npz": "d9f835bccba2165d32c8b8445505705e02eb3603a87855ab9dde4bf3609dc42f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00124.npz": "7a1d846df9755315ac824c32ea25ed185986ae8476f8bb31a92abcf941af453d",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00125.npz": "080f8995030289a6a4b9f6677126396545305f7a011dba09481b936812bd09d3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00126.npz": "5f12d9e80435c2900bbf30e1206e38734ab097c92b7abdc84a508f1f9a18946e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00127.npz": "c17704ec9259a3c4a1ca7017f7694ed86f3db058537d6e36cf18272ea139beef",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00128.npz": "32a7938aa7a782714e522a26925ebc5815bb9852f23eca485194c47ddc25a5ec",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00129.npz": "3ff03d7642430e254392992644ff1fbfeaa789e1be08ee4e298c20f652650b4e",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00130.npz": "6665e4fd598c3f7cbd3607447df5564c8d2f15bf300667d03a45557eb8b59839",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00131.npz": "5c2d24605e3ccd0c0efc6ff6dd82fc17448d86270f7d815e786da85ee1b77dae",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00132.npz": "92836c3398b6c02b512c12ca2df5515e648b9198531e7a80b0261732022c1fac",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00133.npz": "27db071f877f9ebb0db5fbc59eb83378268cb45e77eeb330353a862b8be97c6f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00134.npz": "081cffc8781b0792437fbce052df3b38bdfa35c98dae362bd3383c09afdcaf09",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00135.npz": "0204762f1e703b30a52798a8c09ab0d0b179261da7288dd8ce74d2959165b438",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00136.npz": "5355e04a7e64c5a64ebf3992ce448916410405772a3325990b9959ecf5c4d473",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00137.npz": "6e4d83cf1acae3e9cb88fff8fc26d330e00e6386ec0dd1da2849b9159cf47432",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00138.npz": "e2f50c9b687a5b6ff8893cb7981cda9009f9820b9d5077353d45541b2dfd1f22",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00139.npz": "6acb509b6107a8ecf786db7ad9967586f30ef5f745585b893b4464d9f52868d7",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00140.npz": "0a469f518ab7e720b030f5228fe51a71bd0cc63013f3fc75ddf1c8020e593ab4",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00141.npz": "227cb670125ed56bd9fbe1f0de77cb7a1af12ec8a28461741b2c28d5df7ebe6a",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00142.npz": "b35c2ab98a6af6b48a5b258876c6420da81ca07ef6b023570afe1013534855fa",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00143.npz": "8ec4e3f2fcab90c5bf743f2bfadcad058cd770a20dd9c469ca1de44520f71dbe",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00144.npz": "80a5e9891e947fbfa0fbad7a4e0ba6b988289e7bf98d3558229ad7a994ca102c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00145.npz": "03aa74e7f25aa524e705c38c5938bdcf67c00400d38f0149963130349d77a87c",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00146.npz": "75fbb580f30928569fcafd390cb4082683c4b83461f3e910a6fad7bc8adc74e3",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00147.npz": "7e230879b73620222bbf4c991bea980af509260565957592b65f6fd03a238a6f",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00148.npz": "95f6ec02c74c9e06e41484f3448aa8552edf9f463b99a08ee427d42cdcbe8095",
+    "measurements/serve_20211119T054707Z_fd895700/capture_00149.npz": "932b99c9c4ea7159328db17922bc77d3b93a79245504c6fc62e5d9d16de8b1ac",
+    "measurements/serve_20211119T054707Z_fd895700/hostlink.json": "ffb357acc6adb87600b586eae6754ed3e9711045fee47d2067ca0f80f9ec2579",
+    "measurements/serve_20211119T054707Z_fd895700/result.json": "7365a12a064e2f4370122842241ec0333188d62b4222fd8c3fa507b54146e606",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000001.u32": "8e2ff2fb541b09c8459c34b1cdae9141111f9836db2f0ebaf96a920e0ce83ec8",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000004.u32": "7b5fe06200ca2b80beb5eb9868d46776b0c3fbb8d2b5ac7f943fc53a49a319f5",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000005.u32": "e1eb6d2aae5f346534d86929d386e3285b4b9b5deadb7f2ef5bb81b8ff99ab8a",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000006.u32": "ff58ad3eef679a964ae0ee6b15bc525b5233211cca5953c6d1e1e67b16507e62",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000007.u32": "90f4052bec03b9e6bf57dffec7c90f798f5554c1bda288c5173373ef8df2edb1",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000009.u32": "63eed343cae89d88638975de73a82de8374e8f7931fae81a47756e32dd65c0ea",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000012.u32": "8e167dc3fb30e8f92401d7d1c07319b421d49d8053cb920b38b54b9904b52f84",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000014.u32": "82680c12a931336a293fb4b75dda8d876bfd9f93dc5ee18db60e59105ded0c0d",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000018.u32": "ef68be06fec3340cb565e6072ee967e93ca1025b7a5934cc75ace5e8df56c643",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000021.u32": "fc4b9f4fb12c7a5d54385c9896f8591c1236ad7b37406445ab9b935737c87377",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000024.u32": "21357aa7996a9d63cbf89b93e25f22881133059a71c665ef7dff523b87ebcb52",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000029.u32": "80ac9a48def761a9a960797b1ea8ceb021d28e2cf04397510c408c3468a88557",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000032.u32": "834b17a639fc241a9a3c38213f7dc8d239366cb7c4a268f166a5d10183fe4ff7",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000034.u32": "fcf297d4ffeac04c1bb8834891f57567b7ba0b6d010ee933b44d6cf711f92dac",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000038.u32": "22241ca40d924ef6b434afa17ab51cb06d61b59e6b0d8e4375e89b599d235ff6",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000042.u32": "bdddc4f8e3e9039384f54d7c60d9b25ad008bf5d2c0ac1196877aea0a868c54a",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000045.u32": "7e7cafdde99c7eb478f687829a709612454538ab643c68ca5a195b49f34a60f3",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000047.u32": "8991754656caba1e3aa9398ea3eec5584cf6b8ca12055a8c796fde0e3d36281e",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000049.u32": "90a80f110cb7fc073179219a257ca4922698e63171f8d4077797255aa389dd6b",
+    "measurements/serve_20211119T054707Z_fd895700/host_twin/epoch_0000000054.u32": "d9a3aa53a4ed4ef4986ff999dc7ae643de4bcfeb5cb9d447c9f7d9cefeaf0e8e"
+  }
+}

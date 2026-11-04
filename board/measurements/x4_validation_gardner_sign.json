@@ -1,0 +1,42 @@
+{
+  "split": "val_only",
+  "methods": {
+    "original": {
+      "QPSK": {
+        "recall": 0.835,
+        "c42_median": -0.8043780073738653
+      },
+      "8PSK": {
+        "recall": 0.995,
+        "c42_median": -0.798372455490273
+      },
+      "16QAM": {
+        "recall": 0.185,
+        "c42_median": -0.5487397977633085
+      },
+      "64QAM": {
+        "recall": 0.955,
+        "c42_median": -0.47761863430342055
+      }
+    },
+    "opposite_error_sign": {
+      "QPSK": {
+        "recall": 0.54,
+        "c42_median": -0.5445344253017916
+      },
+      "8PSK": {
+        "recall": 0.995,
+        "c42_median": -0.5596685003744053
+      },
+      "16QAM": {
+        "recall": 0.045,
+        "c42_median": -0.3913247596698731
+      },
+      "64QAM": {
+        "recall": 0.985,
+        "c42_median": -0.361186030645574
+      }
+    }
+  },
+  "probe_sha256": "6240a3f2bff86bf39a6a2259c557099fa5542857dc271cbc522f5cff49e90750"
+}

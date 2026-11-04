@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "bus_phase": 3,
+  "measurement": "board/measurements/n4_bench_phase3_ui_r1.json",
+  "measurement_sha256": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7",
+  "display_fps": 50.448974015844705,
+  "dynamic_ui_updates": 120,
+  "dynamic_frame_advances": 120,
+  "user_feedback": "3档计数增加、画面正常",
+  "scope": "PL three-tone visual acceptance; fps measured before UI; RF pending"
+}

@@ -1,0 +1,184 @@
+{
+  "status": "FAIL_CW_25DB_TARGET",
+  "scope": "S1 fixed 2.45GHz CW diagnostic, not AMC accuracy or calibrated RF SNR",
+  "checks": {
+    "probe_completed": true,
+    "safe_stop": true,
+    "ensm_alert": true,
+    "tx_max_at_exit": true,
+    "no_quarantine": true,
+    "guards": true,
+    "tx_floor": true,
+    "rssi": true,
+    "same_boot": true
+  },
+  "broadband_25db_pass": false,
+  "best_cw_ratio_db": 17.7209862058996,
+  "selected_tx_attenuation_db": 40.0,
+  "rssi_max_dbm": -86.0,
+  "elapsed_s": 14.644231258000218,
+  "raw_sha256": {
+    "result.json": "2dcf89f0f4f14cd58018ebac5bf1d3608af71fb0fd79c32974f502d8145eaabe",
+    "result.npz": "6150c6a064036565657a37ef7532cf3aff2db669a3a96d5c9abb5e16beefab2c"
+  },
+  "independent_iq_metrics": {
+    "att_89_native": {
+      "cw_ratio_db": -30.948188944437206,
+      "peak_hz": 241406.25,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.112032231427757,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_86_native": {
+      "cw_ratio_db": -26.581267785711894,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.186411548083487,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_83_native": {
+      "cw_ratio_db": -23.14989145439188,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.081831579955327,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_80_native": {
+      "cw_ratio_db": -21.827422213433273,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.0936811009527405,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_77_native": {
+      "cw_ratio_db": -18.504938484141846,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.190396522853829,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_74_native": {
+      "cw_ratio_db": -16.578045909653937,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.06197853699365,
+      "max_component": 20.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_71_native": {
+      "cw_ratio_db": -12.87838144891335,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.1068329159705845,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_68_native": {
+      "cw_ratio_db": -10.22517871844639,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.162629221483528,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_65_native": {
+      "cw_ratio_db": -7.0341661870439145,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.1075021653583885,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_62_native": {
+      "cw_ratio_db": -4.058360090089986,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.123195423527806,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_59_native": {
+      "cw_ratio_db": -1.3048637246255244,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.09793910853169,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_56_native": {
+      "cw_ratio_db": 1.7260161725022987,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.167205454308087,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_53_native": {
+      "cw_ratio_db": 4.952604486823363,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.261270686657478,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_50_native": {
+      "cw_ratio_db": 7.86543118354052,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.517154643593754,
+      "max_component": 21.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_47_native": {
+      "cw_ratio_db": 10.861665170364232,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.953783694693915,
+      "max_component": 20.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_44_native": {
+      "cw_ratio_db": 13.81382916759991,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 6.486179624636283,
+      "max_component": 22.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_41_native": {
+      "cw_ratio_db": 16.821753679978265,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 7.655297294041313,
+      "max_component": 23.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    "att_40_native": {
+      "cw_ratio_db": 17.720986205899596,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 8.214164818294638,
+      "max_component": 25.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    }
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "source_library_unchanged": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "FAIL",
+  "attempt": 1,
+  "scope": "I2S component simulation, not hardware playback",
+  "error": "scoreboard retained previous expected sample after disabled mute; receiver saw zero as intended",
+  "archive": "report\\results\\y3_i2s_r1.zip",
+  "archive_sha256": "66a50d90d596c7656fffcb8d038dcbfd172a163dc5541cd5aff4edcfa3bbbb5c",
+  "source_sha256": {
+    "src\\rtl\\audio_y3\\i2s_tx_y3.v": "cb383b8a0574086b37c36218d2fcbf92ce88c55d586d51d56cafa70698b6a189",
+    "sim\\tb\\tb_i2s_tx_y3.sv": "6af27df07485d54d1bdbd9db6ff76033549a414af5ec84e25c9c0e08029bde20",
+    "logs\\Y3_i2s_r1_controller.log": "970ccd1db588e020ae0c3eb1f922d59d97242be7ce465c17d7d650b9a107bbb8",
+    "sim\\results\\tb_i2s_tx_y3.log": "78c5184f213d532e0327ee12006b7b2edac714d1a40ade843f9ff1eca05839ea"
+  }
+}

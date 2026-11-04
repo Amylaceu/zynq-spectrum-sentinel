@@ -1,0 +1,32 @@
+{
+  "status": "READY_FOR_LISTENING",
+  "session_id": "20675e6c-b29a-46a5-8c35-bd8d9829e858",
+  "source": "CURRENT_RF_IQ_SOFTWARE_FM_DEMOD",
+  "synthetic": false,
+  "wav": "current_recording.wav",
+  "wav_sha256": "93c9816dba95238d09723c3d6d08e3cf450e29ffa98c615ded2f5785a3508e01",
+  "sample_rate_hz": 48000,
+  "samples": 248029,
+  "duration_s": 5.167270833333333,
+  "scale_hz_per_full_scale": 75000,
+  "output_clipped_fraction": 0.0,
+  "pcm_rms": 0.13565677440758966,
+  "metrics": {
+    "pilot_frequency_hz": 19013.671875,
+    "pilot_prominence_db": 31.481420499212206,
+    "stereo_pilot_evidence": true,
+    "discriminator_mean_offset_hz": -3997.5222433658732,
+    "demod_frequency_rms_hz": 18373.96662634007,
+    "audio_sample_rate_hz": 48000,
+    "audio_profile": "wide",
+    "short_phase_slip_corrected_fraction": 0.0
+  },
+  "source_validation_sha256": "7d7372e487a2e3049e2e895960f09d8d94c5fe4a7af49cc482daf2ab2f361e74",
+  "source_iq_sha256": "6f737e5424070971d9e980fb443578a105ccef0b157cea06403b5c68202ea907",
+  "speaker_pcm_readback": false,
+  "simultaneous_live_speaker": true,
+  "inserted_silence_samples": 0,
+  "stitched_snapshot_gaps": false,
+  "adc_continuity_note": "No FIFO overflow observed; no embedded ADC sequence counter",
+  "human_listening": "PENDING"
+}

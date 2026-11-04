@@ -1,0 +1,33 @@
+{
+  "scope": "PC-only derived project; no build/board acceptance yet",
+  "parent": "src/hw/sentinel_v1",
+  "output": "src/hw/sentinel_v1b",
+  "source_sha256": {
+    "adc_tap_cdc.xdc": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565",
+    "fmcomms2_z20_bd.tcl": "65af344c8d91ee64c7ce91ceba8e1549fbfa89950d601cf6ad96dab81097f129",
+    "lcd_j22.xdc": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6",
+    "Makefile": "9ebc5ecb49a015ed5211cfa6bf617cba636270949438ff1dfb3163f6afe9606f",
+    "sentinel_bd.tcl": "fe7a4f51206ded0ebdc9b8c5bd54efaa6672e261108fbe902fe07c39f5c2159a",
+    "system_bd.tcl": "689cccd58064210d531ea1930869ee6aa2e7e6d35958721341f7585561e732b5",
+    "system_constr.xdc": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+    "system_project.tcl": "1d0837e22e5ae03ec10e6b45eb56434646183db9eb10dfa5599948de62318a56",
+    "system_top.v": "8ec1378a5f4c04fe8cc23be4a3d7ed28db50c3132cf3c65e9b0f1d62853a563f",
+    "z20_ps7_preset.tcl": "925e761dd2284d0adcd379492538d908b4497883d1d42ff955c85495b1f5866b",
+    "z20_system_bd.tcl": "e4c9a380597a850c7414d45063d66f078b70943233538cbe6af4683ff153b3d2",
+    "z20_system_constr.xdc": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513"
+  },
+  "output_sha256": {
+    "adc_tap_cdc.xdc": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565",
+    "fmcomms2_z20_bd.tcl": "65af344c8d91ee64c7ce91ceba8e1549fbfa89950d601cf6ad96dab81097f129",
+    "lcd_j22.xdc": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6",
+    "Makefile": "3ae332f1c35355c355e5f8e34e5327ea5e3f231a0cda192182c08860963173b6",
+    "sentinel_bd.tcl": "956fb8d1d86dac1b0666cf6b559320359c90c38141ef940e6c048c62f86d647b",
+    "system_bd.tcl": "a2cdf5fad53bc25151082347a5766c74922f260ad4b6b669c69d45b1f1aa8712",
+    "system_constr.xdc": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+    "system_project.tcl": "1b62bafb634d5b48176b4ab2fe55ed3b41ed619b5ec823744c68b1c515a1332b",
+    "system_top.v": "8ec1378a5f4c04fe8cc23be4a3d7ed28db50c3132cf3c65e9b0f1d62853a563f",
+    "z20_ps7_preset.tcl": "925e761dd2284d0adcd379492538d908b4497883d1d42ff955c85495b1f5866b",
+    "z20_system_bd.tcl": "e4c9a380597a850c7414d45063d66f078b70943233538cbe6af4683ff153b3d2",
+    "z20_system_constr.xdc": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513"
+  }
+}

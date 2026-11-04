@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T01:10:29.998029+08:00",
+  "scope": "Standalone X1 cluster simulation, not integrated CFAR/bitstream/board acceptance",
+  "cases": 20,
+  "input_bins": 40960,
+  "compared_target_records": 323,
+  "record_bits": 128,
+  "mismatches": 0,
+  "simulation_cycles_including_testbench": 115854,
+  "manifest_sha256": "1f6ae25afc077ab8c8035d7faf0d80d75b02989e27cd2c29fc226f1ef377de5a",
+  "output_sha256": "1c263fd6331aff587a5e88533aec7dc46afab7f4d303f145b65e779580829037",
+  "log_sha256": "4ae91b87998949f140b279008eb3a82173bfa23573776121682fa9b168a44f0f",
+  "source_sha256": {
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "efc69b2dd31e3b366e8f5f557e9ba55f84d2fbd64d7bd97a85903e316e90b83c",
+    "sim/tb/tb_cfar_cluster_x1.sv": "5b6da26e4f838776d5f6b46d5f2851b9daf67a29dda2b91122bb26abcf624020",
+    "tools/export_cfar_x1_vectors.py": "76fd428ca2c5e0eb298e55320a5a8845c9933af50ddc9a7354e295e393e7a6ec"
+  },
+  "hardware_accessed": false,
+  "whole_system_timing_verified": false
+}

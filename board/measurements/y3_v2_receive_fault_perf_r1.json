@@ -1,0 +1,15 @@
+{
+  "perf": {
+    "samples": 26624,
+    "cycles": 13635741808,
+    "fft_frames": 13,
+    "hits": 399,
+    "lists": 13,
+    "latency_cycles": 171775,
+    "markers_done": 1,
+    "status": 5,
+    "fifo_level": 0
+  },
+  "cfar_status": 52,
+  "lcd_status": 1
+}

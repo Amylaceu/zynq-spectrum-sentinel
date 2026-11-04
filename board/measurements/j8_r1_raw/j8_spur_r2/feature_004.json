@@ -1,0 +1,89 @@
+{
+  "id": "F1",
+  "action": "start",
+  "status": "READY",
+  "tx_requested": false,
+  "metrics": {
+    "\u5c4f\u5e55\u5e27\u7387": {
+      "before": 0,
+      "after": 40.31,
+      "unit": "fps"
+    },
+    "\u76ee\u6807\u6570": {
+      "before": 0,
+      "after": 4,
+      "unit": ""
+    }
+  },
+  "restored_before": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 350555000,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": false,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 1,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 350555000,
+    "rate_hz": 3840000,
+    "lcd_enabled": true
+  },
+  "targets": [
+    {
+      "start": 700,
+      "stop": 702,
+      "peak_bin": 701
+    },
+    {
+      "start": 767,
+      "stop": 773,
+      "peak_bin": 768
+    },
+    {
+      "start": 833,
+      "stop": 834,
+      "peak_bin": 833
+    },
+    {
+      "start": 607,
+      "stop": 608,
+      "peak_bin": 607
+    },
+    {
+      "start": 546,
+      "stop": 547,
+      "peak_bin": 547
+    },
+    {
+      "start": 1992,
+      "stop": 1993,
+      "peak_bin": 1992
+    }
+  ],
+  "elapsed_s": 0.3619703549998121,
+  "within_target": true
+}

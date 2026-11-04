@@ -1,0 +1,90 @@
+module cfar_core_x2 (
+    input wire aclk,input wire aresetn,
+    input wire [31:0] s_axis_pwr_tdata,input wire s_axis_pwr_tvalid,
+    output wire s_axis_pwr_tready,input wire s_axis_pwr_tlast,
+    output wire [15:0] m_axis_thr_tdata,output wire [10:0] m_axis_thr_tuser,
+    output wire m_axis_thr_tlast,output wire m_axis_thr_tvalid,input wire m_axis_thr_tready,
+    output wire [7:0] m_axis_hit_tdata,output wire [10:0] m_axis_hit_tuser,
+    output wire m_axis_hit_tlast,output wire m_axis_hit_tvalid,input wire m_axis_hit_tready,
+    output wire [127:0] m_axis_tgt_tdata,output wire m_axis_tgt_tlast,
+    output wire m_axis_tgt_tvalid,input wire m_axis_tgt_tready,
+    output wire irq_list_ready,
+    output wire [31:0] dbg_threshold,output wire [31:0] dbg_power,
+    output wire [13:0] unused_debug,
+    input wire [13:0] s_axi_awaddr,input wire s_axi_awvalid,output wire s_axi_awready,
+    input wire [31:0] s_axi_wdata,input wire [3:0] s_axi_wstrb,
+    input wire s_axi_wvalid,output wire s_axi_wready,
+    output wire s_axi_bvalid,input wire s_axi_bready,output wire [1:0] s_axi_bresp,
+    input wire [13:0] s_axi_araddr,input wire s_axi_arvalid,output wire s_axi_arready,
+    output wire [31:0] s_axi_rdata,output wire s_axi_rvalid,
+    input wire s_axi_rready,output wire [1:0] s_axi_rresp
+,
+    output wire [15:0] m_axis_db_tdata,output wire [9:0] m_axis_db_tuser,
+    output wire m_axis_db_tvalid,input wire m_axis_db_tready,output wire m_axis_db_tlast,
+    output wire [31:0] frames_in,output wire [31:0] frames_out,output wire [31:0] frame_drop,
+    output wire queue_error
+);
+    wire [31:0] queued;wire qvalid,qready,qlast,queue_framing,display_error;
+    wire [32:0] detect_payload,display_payload;
+    wire detect_valid,detect_ready,display_valid,display_ready;
+    wire [15:0] db;wire db_valid,db_ready,db_last;
+    assign queue_error=queue_framing || display_error;
+    frame_queue_x2 queue(.aclk(aclk),.aresetn(aresetn),
+        .s_axis_tdata(s_axis_pwr_tdata),.s_axis_tvalid(s_axis_pwr_tvalid),.s_axis_tready(s_axis_pwr_tready),.s_axis_tlast(s_axis_pwr_tlast),
+        .m_axis_tdata(queued),.m_axis_tvalid(qvalid),.m_axis_tready(qready),.m_axis_tlast(qlast),
+        .frames_in(frames_in),.frames_out(frames_out),.frame_drop(frame_drop),.framing_error(queue_framing));
+    // Both detector and displayed spectrum see exactly the same retained frames.
+    axis_broadcast2 #(.WIDTH(33)) paired(.aclk(aclk),.aresetn(aresetn),
+        .s_axis_tdata({qlast,queued}),.s_axis_tvalid(qvalid),.s_axis_tready(qready),
+        .m0_axis_tdata(detect_payload),.m0_axis_tvalid(detect_valid),.m0_axis_tready(detect_ready),
+        .m1_axis_tdata(display_payload),.m1_axis_tvalid(display_valid),.m1_axis_tready(display_ready));
+    spec_db logarithm(.aclk(aclk),.aresetn(aresetn),
+        .s_axis_tdata(display_payload[31:0]),.s_axis_tvalid(display_valid),.s_axis_tready(display_ready),.s_axis_tlast(display_payload[32]),
+        .m_axis_tdata(db),.m_axis_tvalid(db_valid),.m_axis_tready(db_ready),.m_axis_tlast(db_last));
+    spec_display_reduce reduction(.aclk(aclk),.aresetn(aresetn),.frame_decim(16'd1),
+        .s_axis_tdata(db),.s_axis_tvalid(db_valid),.s_axis_tready(db_ready),.s_axis_tlast(db_last),
+        .m_axis_tdata(m_axis_db_tdata),.m_axis_tuser(m_axis_db_tuser),.m_axis_tvalid(m_axis_db_tvalid),
+        .m_axis_tready(m_axis_db_tready),.m_axis_tlast(m_axis_db_tlast),.framing_error(display_error));
+    cfar_core_x1 core(
+        .aclk(aclk),
+        .aresetn(aresetn),
+        .s_axis_pwr_tdata(detect_payload[31:0]),
+        .s_axis_pwr_tvalid(detect_valid),
+        .s_axis_pwr_tready(detect_ready),
+        .s_axis_pwr_tlast(detect_payload[32]),
+        .m_axis_thr_tdata(m_axis_thr_tdata),
+        .m_axis_thr_tuser(m_axis_thr_tuser),
+        .m_axis_thr_tlast(m_axis_thr_tlast),
+        .m_axis_thr_tvalid(m_axis_thr_tvalid),
+        .m_axis_thr_tready(m_axis_thr_tready),
+        .m_axis_hit_tdata(m_axis_hit_tdata),
+        .m_axis_hit_tuser(m_axis_hit_tuser),
+        .m_axis_hit_tlast(m_axis_hit_tlast),
+        .m_axis_hit_tvalid(m_axis_hit_tvalid),
+        .m_axis_hit_tready(m_axis_hit_tready),
+        .m_axis_tgt_tdata(m_axis_tgt_tdata),
+        .m_axis_tgt_tlast(m_axis_tgt_tlast),
+        .m_axis_tgt_tvalid(m_axis_tgt_tvalid),
+        .m_axis_tgt_tready(m_axis_tgt_tready),
+        .irq_list_ready(irq_list_ready),
+        .dbg_threshold(dbg_threshold),
+        .dbg_power(dbg_power),
+        .unused_debug(unused_debug),
+        .s_axi_awaddr(s_axi_awaddr),
+        .s_axi_awvalid(s_axi_awvalid),
+        .s_axi_awready(s_axi_awready),
+        .s_axi_wdata(s_axi_wdata),
+        .s_axi_wstrb(s_axi_wstrb),
+        .s_axi_wvalid(s_axi_wvalid),
+        .s_axi_wready(s_axi_wready),
+        .s_axi_bvalid(s_axi_bvalid),
+        .s_axi_bready(s_axi_bready),
+        .s_axi_bresp(s_axi_bresp),
+        .s_axi_araddr(s_axi_araddr),
+        .s_axi_arvalid(s_axi_arvalid),
+        .s_axi_arready(s_axi_arready),
+        .s_axi_rdata(s_axi_rdata),
+        .s_axi_rvalid(s_axi_rvalid),
+        .s_axi_rready(s_axi_rready),
+        .s_axi_rresp(s_axi_rresp));
+endmodule

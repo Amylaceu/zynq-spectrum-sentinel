@@ -1,0 +1,9 @@
+{
+  "status": "INSTALLED_HASH_VERIFIED",
+  "root": "/home/xilinx/sentinel/release/v2",
+  "archive_sha256": "f31be4ded8b2adf21894b276094180db3d6df9ecdbe57ff5c5053b15a4d474c5",
+  "files": 121,
+  "library_sha256": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+  "previous": "/home/xilinx/sentinel/release/v2_previous_4e635c55886b44649a13978deafa77fa",
+  "hardware_started": false
+}

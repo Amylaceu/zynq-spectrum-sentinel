@@ -1,0 +1,236 @@
+{
+  "status": "PASS_CAPTURE_ONLY",
+  "configuration": "A",
+  "RF_TX_requested": false,
+  "audio_playback_requested": false,
+  "sample_rate_hz": 3840000,
+  "station_hz": 95800000,
+  "captures": [
+    {
+      "kind": "raw_adc",
+      "lcd_enabled": true,
+      "rssi_dbm": -87.5,
+      "file": "raw_00.npz",
+      "sha256": "333b4f380c2cb430c6f43e63c3dc57b7d6c8e193b05aa4a91c3e2e64784cc79f"
+    },
+    {
+      "kind": "raw_adc",
+      "lcd_enabled": false,
+      "rssi_dbm": -88.0,
+      "file": "raw_01.npz",
+      "sha256": "fbae9d4e11bd99e49a418944043eaa9d692c7a0d4713feb17ffc0e44eea407b5"
+    },
+    {
+      "kind": "raw_adc",
+      "lcd_enabled": true,
+      "rssi_dbm": -91.5,
+      "file": "raw_02.npz",
+      "sha256": "d5a593e17e99134556f4caf3b3fe90a984e6d4bcb44b2599a357e37d6dd2af94"
+    },
+    {
+      "kind": "raw_adc",
+      "lcd_enabled": false,
+      "rssi_dbm": -87.5,
+      "file": "raw_03.npz",
+      "sha256": "7bfb10a329e20cec904fcfef12ffe3634a9efa4f6fd720032ff09591d0a62089"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134213524721,
+      "file": "pfb_15_00.npz",
+      "sha256": "06f19009b8a26d1b9d028e8f78576daea783adc8201674721ffb35913e3cc457"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134227006028,
+      "file": "pfb_15_01.npz",
+      "sha256": "fd870a328a87db05a42e5b1e71704a19687e5e9c2ff11b6ad04cf3b497ef1c9e"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134240459628,
+      "file": "pfb_15_02.npz",
+      "sha256": "da5028fb62064159cd48a5e426f7197a4dd98706e088b6a5a96b0c75f5a51cdc"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134254108637,
+      "file": "pfb_15_03.npz",
+      "sha256": "5856f5e2f88d4557f46c159da9f324da74c670bb82c29d51c4f1ad8f3d18d9c3"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134267722021,
+      "file": "pfb_15_04.npz",
+      "sha256": "8c1aa2a4abcec5ee03a48c64a4a081cff795616fd73607702f5e9b38586b88bb"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134281246451,
+      "file": "pfb_15_05.npz",
+      "sha256": "6bbd0148314c89e428960c52528ad769d5b682d10964016cea5fafb42d8716a0"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134294697551,
+      "file": "pfb_15_06.npz",
+      "sha256": "bb1ff594cd22c2d998a73a39c9d1581bdaa6c8ea4b651329ca1bd7804bcc67d5"
+    },
+    {
+      "kind": "pfb",
+      "channel": 15,
+      "timestamp_cycles": 134308295937,
+      "file": "pfb_15_07.npz",
+      "sha256": "ca50a55e64cf879289267adeea313c732ed891fe6a9a5b0aff99d76f59f239ee"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134321908891,
+      "file": "pfb_01_00.npz",
+      "sha256": "efd42ea4ba9cdf94bfaab272a839b16bd9bc846000faed5189370fa520c005e2"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134335281869,
+      "file": "pfb_01_01.npz",
+      "sha256": "489f21af3ecafa1174095c28f7a6c25b5aa9cd12ede7cc4f160e429d0c937446"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134348633390,
+      "file": "pfb_01_02.npz",
+      "sha256": "e8fc57d7c15401395935ec321673f4c6963bb94cd8094d6b4b31add6d8c57878"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134362086990,
+      "file": "pfb_01_03.npz",
+      "sha256": "1e27b2ce8d57c5d160a728e456039c709f0b362be1dfffb736c4ee2c07a07efa"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134375375597,
+      "file": "pfb_01_04.npz",
+      "sha256": "534d39c26ffb3287a42be48ab335329f3a4462b09e45b19d60c7afa1a8fb75ba"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134389091060,
+      "file": "pfb_01_05.npz",
+      "sha256": "29662ff712a437391e57ee4c05642dba0992a7979a593e2fed2178a4f2c4cc6a"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134402644448,
+      "file": "pfb_01_06.npz",
+      "sha256": "4d487d820f26e8cef1da6afd72046288191162388dde4272f2eea03dfb29ed7f"
+    },
+    {
+      "kind": "pfb",
+      "channel": 1,
+      "timestamp_cycles": 134416163462,
+      "file": "pfb_01_07.npz",
+      "sha256": "474209dd5ebb2bdb0c3e5f8579e02c098399990fde48add89b7e4efc0ea1ecb3"
+    }
+  ],
+  "script_sha256": "a74ce469ab977e748857bc45ec397b6e7000a4af2876099f59db01696498d34f",
+  "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+  "actual_lo_hz": 96049998,
+  "rate_hz": 3840000,
+  "tx_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rssi_dbm": -86.75,
+  "adc_control": [
+    81,
+    81,
+    81,
+    81
+  ],
+  "pn9": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "startup_after_pn9": {
+    "scope": "Before acquisition only; no in-session fault masking",
+    "reset_register_before": 3,
+    "reset_register_after": 3,
+    "perf_before": {
+      "samples": 0,
+      "cycles": 70277866,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 1
+    },
+    "perf_after": {
+      "samples": 0,
+      "cycles": 1015630,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    }
+  },
+  "receive_startup_after_raw": {
+    "scope": "Before acquisition only; no in-session fault masking",
+    "reset_register_before": 3,
+    "reset_register_after": 3,
+    "perf_before": {
+      "samples": 0,
+      "cycles": 3683552202,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    },
+    "perf_after": {
+      "samples": 0,
+      "cycles": 1016190,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    }
+  },
+  "health": 0,
+  "pfb_status": 268435456,
+  "final_rssi_dbm": -88.5,
+  "final_tx_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "source_ctrl_after": 0,
+  "audio_control_after": 0,
+  "gpio_after": 0,
+  "buffers_quarantined": false
+}

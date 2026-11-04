@@ -1,0 +1,7 @@
+{
+  "status": "PASS_HUMAN_LISTENING",
+  "antenna": "S1",
+  "user_observation": "\u5e7f\u64ad\u6e05\u695a\uff0c\u65e0\u660e\u663e\u65ad\u97f3",
+  "automatic_evidence": "validation.json",
+  "scope": "Only the completed 30 second FM check; S1 OTA/hotspot and S2 remain pending"
+}

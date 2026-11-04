@@ -1,0 +1,6 @@
+{
+  "user_feedback": "\u4ecd\u65ad\u7eed\u6216\u566a\u58f0\u5927",
+  "status": "FAIL_HUMAN_LISTENING",
+  "original_result_sha256": "6d943a4bcd5fd61976772bc6ea533fa00b35adff336a4df696a2a5ed80c730a6",
+  "note": "No audio underflows observed; telemetry includes stop/restart and a muted sample. Not accepted."
+}

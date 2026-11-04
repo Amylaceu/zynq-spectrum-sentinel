@@ -1,0 +1,81 @@
+{
+  "id": "F11",
+  "run_id": "66794f56b5d8412086ae2b32c3d55d22",
+  "status": "DONE",
+  "tx_requested": false,
+  "first_tile_s": 1.0488707320000685,
+  "within_target": false,
+  "scan_status": "PASS_SNAPSHOT_SCAN",
+  "scan_file": "scan/result.json",
+  "scan_sha256": "9f4725ee56da6093dd2f36bd0236b78bf41c1663d953c8023a9a8bf4f459a34f",
+  "strongest": [
+    {
+      "frequency_hz": 307185000.0,
+      "power_db": -54.05236338685172
+    },
+    {
+      "frequency_hz": 331755000.0,
+      "power_db": -58.4908165071925
+    },
+    {
+      "frequency_hz": 319475000.0,
+      "power_db": -59.58837432074566
+    },
+    {
+      "frequency_hz": 363415000.0,
+      "power_db": -60.0671883773894
+    },
+    {
+      "frequency_hz": 282605000.0,
+      "power_db": -60.26075554576654
+    }
+  ],
+  "fm_strongest": [
+    {
+      "frequency_hz": 100895000.0,
+      "power_db": -63.52386807409606
+    },
+    {
+      "frequency_hz": 105895000.0,
+      "power_db": -67.35822649835505
+    },
+    {
+      "frequency_hz": 95795000.0,
+      "power_db": -68.15704760652574
+    },
+    {
+      "frequency_hz": 97015000.0,
+      "power_db": -68.70880672358166
+    },
+    {
+      "frequency_hz": 104415000.0,
+      "power_db": -70.60384747450016
+    }
+  ],
+  "tiles": 49,
+  "missing_bins": 0,
+  "covered_bins": 44200,
+  "settle_s": 0.05,
+  "spur_assessment": "UNDETERMINED: no same-frequency F1 corroboration",
+  "elapsed_s": 31.958254132000093,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": true
+}

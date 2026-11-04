@@ -1,0 +1,48 @@
+{
+  "started_at_pc": "2026-11-03T03:56:24.016030+08:00",
+  "scope": "Bounded paired-frame diagnosis, not an X1 acceptance/tuning round",
+  "mode": "test",
+  "runner_sha256": "fe739a233c6fcf9a0a3148997daead67a57373abecd1471594b8c9d6f2546563",
+  "frozen_software_manifest_sha256": "19b3955f0488962feda51480667d9912e7d04cb90927a0595bd3437cfbf7265f",
+  "verified_board_files": 9,
+  "diagnostic_sources_sha256": {
+    "src/ps/sentinel/app/diagnose_x1.py": "d91999390e65e4841c3b1b152f9d6766ebb6f8f247b8419a5b5095173c8c42f7",
+    "board/scripts/run_x1_diagnostic.py": "ddaab15a5b568c29546188ee53b769b0796e1729e926223ba28431ad184aa638"
+  },
+  "preflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "scope": "Read-only X1 stop-state check; no overlay download or RF initialization",
+    "status": "PASS"
+  },
+  "boot_id_before": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "user_confirmed_rx1a_tx_empty": false,
+  "command": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/scripts/run_x1_diagnostic.py",
+    "--bit",
+    "/home/xilinx/sentinel/overlay/sentinel_v1b/sentinel_v1b.bit",
+    "--out",
+    "/home/xilinx/sentinel/measurements/x1_diagnostic_test_r1.json",
+    "--source",
+    "test",
+    "--frames",
+    "8"
+  ],
+  "ssh_exit_code": 0,
+  "ended_at_pc": "2026-11-03T03:56:41.154777+08:00",
+  "log": "logs/X1_diagnostic_test_r1.log",
+  "log_sha256": "fed526d2fe86590a8103c1d1d347b66a97309f1e7b355ad254ba3af543d6079c",
+  "postflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "gpio_data": 0,
+    "source_ctrl": 4,
+    "scope": "Read-only X1 stop-state check; no overlay download or RF initialization",
+    "status": "PASS"
+  },
+  "result_sha256": "68ca33eb9a195a223cc3e3641922a0f6a8b206cdc608cd4e29a72a063dac636b",
+  "archive_sha256": "285c9d1b89cbc978a4876e539f4f0457d60369fd9f8bed3d3a13fe59ceed2057",
+  "status": "PASS_EXECUTION"
+}

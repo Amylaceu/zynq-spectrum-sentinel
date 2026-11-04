@@ -1,0 +1,48 @@
+{
+  "id": "F8",
+  "run_id": "c8af58554a0e49f8b554601f09cf1918",
+  "status": "DONE",
+  "tx_requested": false,
+  "stations": [
+    {
+      "frequency_hz": 100900000,
+      "lo_hz": 101050000,
+      "confirmed_stereo": true
+    },
+    {
+      "frequency_hz": 105800000,
+      "lo_hz": 106050000,
+      "confirmed_stereo": true
+    },
+    {
+      "frequency_hz": 97000000,
+      "lo_hz": 97050000,
+      "confirmed_stereo": true
+    }
+  ],
+  "trial_count": 206,
+  "trials_file": "search_trials.json",
+  "trials_sha256": "7e35ba4297803ea92c4f578572564bcc8ddf31021fad2cef7bb3b60cb92cde8b",
+  "scope": "100 kHz receive grid; stereo pilot quality, not broadcaster identity",
+  "elapsed_s": 30.417923537000206,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": true
+}

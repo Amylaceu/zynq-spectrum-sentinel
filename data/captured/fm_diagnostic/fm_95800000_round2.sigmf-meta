@@ -1,0 +1,190 @@
+{
+  "global": {
+    "core:datatype": "ci16_le",
+    "core:num_channels": 1,
+    "core:version": "1.0.0",
+    "core:description": "Antenna RX1 candidate, native12-bit samples left-aligned to16 bits. Gapped multishot diagnostic; no station identity verified.",
+    "core:sample_rate": 3840000,
+    "core:sha512": "64e035a94c7330fd494ab5ff8d03ed87e300bdfa668d6e29544c398b2677b8c32a0b9bd01ee26813c6a03b5a50216d1c76ab555bbb8e45ac23611b2bc4dde637"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5917.386956181,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 1048576,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5919.455067241,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 2097152,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5921.417155357,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 3145728,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5923.306302213,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 4194304,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5925.269878029,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 5242880,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5927.236045523,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 6291456,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5929.204084298,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 7340032,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5931.168077448,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 8388608,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5933.217622541,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 9437184,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5935.112174823,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 10485760,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5937.005126847,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 11534336,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5938.899130802,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 12582912,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5940.795076847,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 13631488,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5942.69462871,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 14680064,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5944.628907003,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 15728640,
+      "core:frequency": 96049998,
+      "zss:monotonic_start_s": 5946.553295302,
+      "zss:sample_count": 1048576
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 1048576,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 2097152,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 3145728,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 4194304,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 5242880,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 6291456,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 7340032,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 8388608,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 9437184,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 10485760,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 11534336,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 12582912,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 13631488,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 14680064,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    },
+    {
+      "core:sample_start": 15728640,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_95800000Hz_antenna"
+    }
+  ]
+}

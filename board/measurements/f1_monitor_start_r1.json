@@ -1,0 +1,8 @@
+{
+  "status": "STARTED",
+  "remote_pid": 1349,
+  "command": "sentinel.sh monitor",
+  "antenna": "A",
+  "tx": "open/off",
+  "duration_limit_s": 300
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "g4c_offline_preview/1",
+  "timestamp_utc": "2026-11-03T21:38:54.879290+00:00",
+  "status": "OFFLINE_PASS_AWAITING_STYLE_APPROVAL",
+  "hardware_access": false,
+  "tests": {
+    "passed": 68,
+    "log": "logs/G4c_targeted_final.log",
+    "log_sha256": "d71fda636f5fbe0c7d5fc92142961fd5e1bee40ac05b7d11a4f5fe101220cbb9"
+  },
+  "scaled_clicks": {
+    "scales": [
+      1,
+      1.25,
+      2
+    ],
+    "controls_per_scale": 20,
+    "scope": "Qt physical hit routing to board hit map, offline only"
+  },
+  "preview": {
+    "schema": "g4plus_preview/1",
+    "source": "OFFLINE_SYNTHETIC_NOT_BOARD_MEASUREMENT",
+    "viewport": [
+      1920,
+      1080
+    ],
+    "screenshots": [
+      {
+        "page": "monitor",
+        "path": "monitor.png",
+        "sha256": "cbb7be52052b981b4cd6011dfdeff8014d77b3637cfa480ca25da7c65dce24fa",
+        "lcd_width_px": 1143,
+        "lcd_height_px": 686
+      },
+      {
+        "page": "recognition",
+        "path": "recognition.png",
+        "sha256": "89429e039f7939cf5fa3cee010d48c9625cc6bfebb3482e958971f1e0e112905",
+        "lcd_width_px": 1143,
+        "lcd_height_px": 686
+      },
+      {
+        "page": "audio",
+        "path": "audio.png",
+        "sha256": "25270f07b721c10512cff4adcf633efbdd33e91b2993879f1a7fc97828f037d4",
+        "lcd_width_px": 1143,
+        "lcd_height_px": 686
+      },
+      {
+        "page": "loopback",
+        "path": "loopback.png",
+        "sha256": "2c9b7a8780ffb4bf94741b004a13bccac84ac2ff3f23a4fec5e00b9ee79744c2",
+        "lcd_width_px": 1143,
+        "lcd_height_px": 686
+      }
+    ],
+    "focused_lcd_width_px": 1600,
+    "data_errors": [],
+    "hardware_connected": false
+  },
+  "screenshot_repeat_identical": true,
+  "frozen_artifacts_sha256": {
+    "sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "sentinel_v2_100m.hwh": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+    "sentinel_v2_100m.xsa": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc"
+  },
+  "source_sha256": {
+    "tools/host/build_host.py": "3159916d330f6cfcedf794fb39a075202ed7e716dc7c4854c1dde18ddee71096",
+    "tools/host/fake_board.py": "70f2679c78d40fbfa2d42807885cfcebe6981c2c5fe5e1ec540a8c1c2b138353",
+    "tools/host/preview_fake.py": "4da8daa3bc5c75c9f69f0d97cab258c28de71d08ee38f9645bd75ab0d995e2fb",
+    "tools/host/preview_v2.py": "7a0993b5474215179afde3b90d950b10100626e504bd7ffb9d39a67318af56ee",
+    "tools/host/run_host.py": "6283ed741b26f4ae9c7d5dd2f6fdee8bd2c81139a2fbc4fa8c7246fc35833adb",
+    "tools/host/sentinel_host/__init__.py": "9330af5e9488cb6cd17cd4a966402d9bafb4915fd4d7f3184bcee840170c9ca0",
+    "tools/host/sentinel_host/__main__.py": "d6f0c2bb4fc25d775c96457841cdd02f7540fa13d124f314f4ab2598ad98056c",
+    "tools/host/sentinel_host/alarms.py": "938c382e3eb234168b65cdbcf64210298d5730852bd2ed321c623cc489d7f995",
+    "tools/host/sentinel_host/gui.py": "85aa27620d0da56318565ced5444c726ff6d7a540e4d23a1d755d5b826c70370",
+    "tools/host/sentinel_host/model.py": "d5e0ef046e70a5c495754d968ca52149bfb0fc0fbe8d9888fd617bd17ea70d5a",
+    "tools/host/sentinel_host/panels/__init__.py": "2309b76bac9be02c61a3cdba68803f3dffdfaa26ba5a088513d4f1841646db8c",
+    "tools/host/sentinel_host/panels/audio.py": "d7fe3b05a549ae645e6c5a17e179249060f88bebd7257ff5d8acbe7b47324f58",
+    "tools/host/sentinel_host/panels/base.py": "f40147dd5b8b0710d42a8ccceb7ea17a5bc366197998c97ee48155019c9e3090",
+    "tools/host/sentinel_host/panels/confusion.py": "3a82bd5032f7cf36faac8a361f45d207fd40da9da99d7b62c50d7f5eacba1237",
+    "tools/host/sentinel_host/panels/constellation.py": "7daa728f4f9032ebcc44e61bfe52266a5abc6b2483cee96f9bc6bbe526d1c443",
+    "tools/host/sentinel_host/panels/health.py": "05ef7d6ab5f9cdd5c4ccac4d5fc0522575e69a15b478e4d89a626f104fdebd21",
+    "tools/host/sentinel_host/panels/occupancy.py": "ac4c3b581e6b1dd843a712b0c2badc6d1041d5570824100622ec6914d0ee34a7",
+    "tools/host/sentinel_host/panels/panorama.py": "ec4550e8cc2d6bad18a884b5b88210c693edbb4058ae7373c1a18ce3cd2b531e",
+    "tools/host/sentinel_host/panels/sessions.py": "de3264ce97192d9d81f6bd1676b2d260d95b81b03a91b99610a01d3af9f93a2d",
+    "tools/host/sentinel_host/panels/signals.py": "037ea2ceda0dfe1ecf0b521e065c2fd635069486ade0df4c194ac75290741394",
+    "tools/host/sentinel_host/panels/system.py": "12b97a73ce2f8f4cb1c16a55b04958409a86d0a7c4a0d9dea8ce0bdcd0008c68",
+    "tools/host/sentinel_host/panels/target_card.py": "597b584dd09d0c531ac06706622354f113ae9ebab7a15f5000276f3152b3c073",
+    "tools/host/sentinel_host/panels/telemetry.py": "50b105f2efb6473e795970bd2ce9aa9c00b21ca54349170b05f58378cebf9472",
+    "tools/host/sentinel_host/panels/timeline.py": "611b70af7c58722aeb20f498c7600244909a9c553b99b8d8b8a537c32bd6b8f3",
+    "tools/host/sentinel_host/session.py": "a5ecc574d6ce896b62e0e458341c56abe87c3d97f3942259d3314ab05a423091",
+    "tools/host/sentinel_host/shell.py": "cac250bb32f305b68fc0d8aedacfad0a535c210ab4588585a03666258a0c1a06",
+    "tools/host/sentinel_host/theme.py": "9f0c28dce81e13c0b85471828ad9c852b780545f51b66991de0bb13b90a9528f",
+    "tools/host/sentinel_host/twin.py": "d6dba62de209123850dc368a0dfac84821f81e959a9230cd2c43a34244dcbf99",
+    "tools/host/tests/test_alarms.py": "4fe082e840254ef67f0432c4c2305657f0428284a63c9e3914cbea98a2369b2b",
+    "tools/host/tests/test_exports.py": "c23a81dc4383526c0e5473af3fef09f31f8e640e18e17791c20ed4caf1f11057",
+    "tools/host/tests/test_gui.py": "b1d06d3200ef8b6db10cf053e72bd5ac46f335cb18ecd75a3645044e49ef4cbd",
+    "tools/host/tests/test_model.py": "9144262d24e815e03e3b3714874cac13075f3a76f925d2413e7089b45245b98c",
+    "tools/host/tests/test_replay_consistency.py": "cc444550d1896889538b61514790bea9a060600930fe6b6035c9ccf54026fe42",
+    "tools/host/tests/test_session.py": "73681a9e00c0dbbb3c039f473b49e7d29203cf07aee7c12f365458600c700cbf",
+    "tools/host/tests/test_shell.py": "f22c64c4125b72eaff5b45c982266de0b00c013ab9775d848751439f74b66010",
+    "tools/host/tests/test_twin.py": "d81792bc30d6100170342c92669c8e0b524ae06e9c707a5949517e2ed81ca005"
+  },
+  "not_verified": [
+    "Live new shell acceptance",
+    "15fps/CPU/paint-time targets",
+    "Live page-following",
+    "Continuous RX DMA for 10 minutes",
+    "PC FM sound/recording",
+    "30-minute stability",
+    "Final exe"
+  ],
+  "previous_g4a": {
+    "readback_epochs": 20,
+    "click_median_ms": 531,
+    "click_p95_ms": 736.4,
+    "matched": 19,
+    "requests": 20,
+    "formal_click_result": "FAIL",
+    "source": "g4a_board_r1/validation.json"
+  },
+  "post_test_normalization": "Trailing blank lines removed; parsed Python AST unchanged."
+}

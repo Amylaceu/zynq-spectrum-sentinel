@@ -1,0 +1,37 @@
+{
+  "status": "EXECUTION_COMPLETED_LISTENING_PENDING",
+  "frequency_hz": 95800000,
+  "human_listening": "PENDING",
+  "recording": false,
+  "tx_requested": false,
+  "pl_rebuilt": false,
+  "bitstream_download": false,
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "preflight": {
+    "boot_id": "f7607d50-d2e6-4b08-8fc8-89cd329a76d9",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "result_sha256": "dd9f0b669cbf0f571bdeb715d4bc544eb06901118cb04585ba5011e52e0be2b9",
+  "postflight": {
+    "boot_id": "f7607d50-d2e6-4b08-8fc8-89cd329a76d9",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

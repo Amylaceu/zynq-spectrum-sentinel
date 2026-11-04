@@ -1,0 +1,42 @@
+{
+  "step": "N4 LCD engine substep",
+  "date": "2026-11-02",
+  "status": "PASS",
+  "scope": "Simulation and standalone routed implementation only; full N4 remains DOING; no sentinel_v1 board download.",
+  "tests": {
+    "trace_pixels_exact": 89600,
+    "waterfall_pixels_exact": 560,
+    "paired_snapshot_produced": 12,
+    "paired_snapshot_rendered": 2,
+    "whole_frames_dropped": 10,
+    "scheduler": "Full clear, packed UI, two spectrum/waterfall updates, scroll start 162, synchronous memories and random stalls",
+    "engine": "AXI control/version, one 560-point spectrum and 2048-point threshold input, init bus, no error",
+    "python_driver_tests": 3
+  },
+  "implementation": {
+    "lcd_MHz": 50,
+    "dsp_MHz": 150,
+    "setup_WNS_ns": 1.9,
+    "internal_hold_ns": 0.089,
+    "LUT": 1493,
+    "FF": 948,
+    "BRAM36_equivalent": 2,
+    "DSP": 1,
+    "cdc_safe": 68,
+    "cdc_unsafe": 0,
+    "cdc_unknown": 0,
+    "limitations": "Standalone virtual I/O hold is not board-level timing acceptance; asynchronous-clock grouping is intentional."
+  },
+  "logs": [
+    "logs/N4_render_round3_exit.txt",
+    "logs/N4_scheduler_round2_exit.txt",
+    "logs/N4_engine_round2_exit.txt",
+    "logs/N4_lcd_synth_round2_exit.txt"
+  ],
+  "reports": {
+    "build/reports/modules/lcd8080_engine_cdc.rpt": "7392ecadceff9123d1de58690cc1eba9b2d00465600a424cfa71853d518680b0",
+    "build/reports/modules/lcd8080_engine_internal_hold.rpt": "4cc60b88732cf621162460a7fde65e97ef02a87e851ed9602d51d4c4e0160ca0",
+    "build/reports/modules/lcd8080_engine_timing.rpt": "a133b239b02c758a9ccd739d49e67d4c4b33f52d8d78f4ff3456a404bfb0e719",
+    "build/reports/modules/lcd8080_engine_util.rpt": "5bf729c214f06a2b059bf1c7a64cf14b7c86c4fb1c7c84599c323cb81f2cc0ea"
+  }
+}

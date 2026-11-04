@@ -1,0 +1,86 @@
+{
+  "status": "FAIL_METRICS",
+  "recorded_at_pc": "2026-11-03T03:23:27.320369+08:00",
+  "scope": "Periodic RF metrics only; hardware audit, human visual acceptance and step commit are separate",
+  "x1": {
+    "capacity": {
+      "telemetry_records": 105,
+      "coherent_snapshots": 105,
+      "snapshot_misses": 0,
+      "capacity_alarm_records": 37,
+      "capacity_alarm_rate_valid": 0.3523809523809524,
+      "capacity_alarm_rate_upper_bound_all_attempts": 0.3523809523809524,
+      "station_detected_records": 0,
+      "station_detection_rate_all_attempts": 0.0,
+      "target_count_median": 25,
+      "display_fps_median": 49.44736954161643,
+      "temperature_range_c": [
+        60.166937255676,
+        61.151263427548
+      ],
+      "sample_overflow_records": 0,
+      "configuration": {
+        "average_shift": 4,
+        "min_width_bins": 2,
+        "merge_gap_bins": 6,
+        "alpha": 1536,
+        "mask_table": [],
+        "dc_mask": 3
+      }
+    },
+    "station": {
+      "telemetry_records": 106,
+      "coherent_snapshots": 106,
+      "snapshot_misses": 0,
+      "capacity_alarm_records": 0,
+      "capacity_alarm_rate_valid": 0.0,
+      "capacity_alarm_rate_upper_bound_all_attempts": 0.0,
+      "station_detected_records": 58,
+      "station_detection_rate_all_attempts": 0.5471698113207547,
+      "target_count_median": 21.0,
+      "display_fps_median": 49.4145913849178,
+      "temperature_range_c": [
+        60.166937255676,
+        61.151263427548
+      ],
+      "sample_overflow_records": 0,
+      "configuration": {
+        "average_shift": 4,
+        "min_width_bins": 2,
+        "merge_gap_bins": 6,
+        "alpha": 1536,
+        "mask_table": [],
+        "dc_mask": 3
+      }
+    }
+  },
+  "n4": {
+    "98000000.0": {
+      "path": "board/measurements/n4_monitor_rf_phase3_r1.json",
+      "sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01",
+      "records": 105,
+      "capacity_alarm_rate": 0.4,
+      "station_detection_rate": 0.0,
+      "status_snapshot_caveat": "v1 live status and target list may come from different frames"
+    },
+    "96400000.0": {
+      "path": "board/measurements/n4_monitor_rf_958_phase3_r1.json",
+      "sha256": "05715d6adec5c25b22c9b335899aa2493e145a4ab2ae7de65cc1a2eec75dc002",
+      "records": 106,
+      "capacity_alarm_rate": 0.4056603773584906,
+      "station_detection_rate": 0.3867924528301887,
+      "status_snapshot_caveat": "v1 live status and target list may come from different frames"
+    }
+  },
+  "denominator": "Scheduled telemetry snapshots; missing snapshots counted conservatively, never silently discarded",
+  "evidence": {
+    "capacity": {
+      "path": "board/measurements/x1_capacity_r3.json",
+      "sha256": "ce257cee2f3896c05a724b607fddf05092a125f930537dba8d07d06d43f63f7f"
+    },
+    "station": {
+      "path": "board/measurements/x1_station_r3.json",
+      "sha256": "f1e2500beecc94e7bc19862f9155aec39342cc3f1302e70c26bad314d958a2a2"
+    }
+  }
+}

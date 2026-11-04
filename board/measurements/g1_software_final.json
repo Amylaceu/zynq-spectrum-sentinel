@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "G1 software and immutable payload checks; not RF acceptance",
+  "regression": {
+    "passed": 635,
+    "skipped": 18,
+    "log": "logs/G1_final_regression.log",
+    "sha256": "ee23ecd9f03ae97fd3ddbd3ef541ecb77b39289a44438e3b5bd5b50db11cd8d4"
+  },
+  "stop_propagation": {
+    "passed": 14,
+    "skipped": 18,
+    "log": "logs/G1_stop_propagation.log",
+    "sha256": "f0b61f56cfc5da23b0a5bf05f08e2340746af95853500ea6cab783ab3e23d509"
+  },
+  "evidence_audit": {
+    "passed": 11,
+    "log": "logs/G1_evidence_tests.log",
+    "sha256": "0f50d075f03f703e39f960bb06e0b41fda59201576e4a480bfd751eb20797a9a"
+  },
+  "python38_payload_files": 113,
+  "frozen_artifacts": {
+    "ps/models/weights/amc_v2/round_3/model.npz": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+    "ps/libad9361_pynq/libad9361_f3.so": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+    "overlay/sentinel_v2_100m/sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "overlay/sentinel_v2_100m/sentinel_v2_100m.hwh": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+    "overlay/sentinel_v2_100m/sentinel_v2_100m.xsa": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc"
+  },
+  "rf_hardware_started_by_this_check": false
+}

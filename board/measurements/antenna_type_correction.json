@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "source": "user_confirmation",
+  "port": "RX1A",
+  "previous_antenna": "2.4GHz panel",
+  "current_antenna": "20-512MHz magnetic antenna",
+  "test_band_hz": [
+    88000000,
+    108000000
+  ],
+  "next_action": "repeat 95.8MHz capture with unchanged receive settings",
+  "replacement_completed": true,
+  "replacement_confirmation": "User explicitly confirmed replacement; LCD wiring and J7/J8=2.5V retained"
+}

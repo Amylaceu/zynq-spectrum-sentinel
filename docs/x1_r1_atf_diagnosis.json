@@ -1,0 +1,27 @@
+{
+  "recorded_at_pc": "2026-11-03T02:12:57.731219+08:00",
+  "scope": "Intermediate post-route optimization diagnosis; later strategy phys_opt and final independent audit remain pending",
+  "wns_ns": -0.155,
+  "whs_ns": 0.034,
+  "setup_failing_endpoints": 75,
+  "critical_path": [
+    "Slack (VIOLATED) :        -0.155ns  (required time - arrival time)",
+    "  Source:                 i_system/cfar_core_0/inst/detector/ram_rn_reg_0/CLKBWRCLK",
+    "                            (rising edge-triggered cell RAMB36E1 clocked by clk_out1_system_dsp_clock_0  {rise@0.000ns fall@3.333ns period=6.667ns})",
+    "  Destination:            i_system/cfar_core_0/inst/detector/right_sum_reg[37]/D",
+    "                            (rising edge-triggered cell FDRE clocked by clk_out1_system_dsp_clock_0  {rise@0.000ns fall@3.333ns period=6.667ns})",
+    "  Path Group:             clk_out1_system_dsp_clock_0",
+    "  Path Type:              Setup (Max at Slow Process Corner)",
+    "  Requirement:            6.667ns  (clk_out1_system_dsp_clock_0 rise@6.667ns - clk_out1_system_dsp_clock_0 rise@0.000ns)",
+    "  Data Path Delay:        6.671ns  (logic 4.743ns (71.096%)  route 1.928ns (28.904%))",
+    "  Logic Levels:           14  (CARRY4=11 LUT2=2 LUT6=1)",
+    "  Clock Path Skew:        -0.101ns (DCD - SCD + CPR)",
+    "    Destination Clock Delay (DCD):    1.503ns = ( 8.170 - 6.667 ) ",
+    "    Source Clock Delay      (SCD):    1.715ns"
+  ],
+  "report": "build/work/adi_hdl/projects/fmcomms2/sentinel_v1b/sentinel_v1b.runs/impl_1/ATF_5_final_timing_summary.txt",
+  "report_sha256": "18df096bd23193399bd3827ce7eac4ed15358b7fabd860780fa7391322d46dfc",
+  "diagnosis": "BRAM read to sliding-window 40-bit sum update contains cascaded addition and subtraction; routed delay exceeds 6.667ns",
+  "proposed_if_final_fails": "X1-specific detector with equivalent modulo-40 carry-save add-sub expression; preserve N4 detector, 150MHz clock and all timing constraints; rerun bit-exact core and chain tests before implementation round2",
+  "deployed": false
+}

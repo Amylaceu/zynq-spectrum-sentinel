@@ -1,0 +1,162 @@
+{
+  "schema": "j7_acceptance/1",
+  "status": "PARTIAL_WITH_RECORDED_FAILURES",
+  "source": "CURRENT_BOARD_CHECKS",
+  "cards": [
+    {
+      "id": "F0",
+      "status": "DONE",
+      "elapsed_s": 0.6040095309945173,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F0.png",
+      "sha256": "ab254e28aab732a3ee978a5faace2ffdcb503e4744b954c714f0a468e76361f6",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F1",
+      "status": "READY",
+      "elapsed_s": 0.3423902989961789,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F1.png",
+      "sha256": "b3d4f2f19e1877a597e8f24548da3a3c9c76cf41535f3a83d8cb95be6431d62f",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F2",
+      "status": "READY",
+      "elapsed_s": 1.0663871569995536,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F2.png",
+      "sha256": "a2014b3ab0131d7ddf79b173d4463998edd0c216e4c213fb9d3f7e1c380d73ab",
+      "fps_samples": [
+        41.17816053225551,
+        40.86275081976023
+      ],
+      "fps_pass": true
+    },
+    {
+      "id": "F4",
+      "status": "READY",
+      "elapsed_s": 0.49065676300233463,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F4.png",
+      "sha256": "290ae5bf48bbb763ee943aeb8ce15fadabb8fb9c226dae8279d1be33bea53739",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F5",
+      "status": "READY",
+      "elapsed_s": 0.2773252759943716,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F5.png",
+      "sha256": "25ec420820a11e0415b456dccac73779ac778ce29153a6a88746b44683239d57",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F6",
+      "status": "READY",
+      "elapsed_s": 0.2806024809979135,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F6.png",
+      "sha256": "d61dbd5ea4815da8ac83e36e29f4466568e7f2f95ff52d70bb40b350291b796d",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F7",
+      "status": "READY",
+      "elapsed_s": 0.2575820249985554,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F7.png",
+      "sha256": "3ee4ed93766c12c9f13d0e8b759e033d734c1830ac0c670bfaff438522c60fca",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F10",
+      "status": "READY",
+      "elapsed_s": 0.609733403995051,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F10.png",
+      "sha256": "1b90e2db1d77c4a0433259bed3073c7a41b8eb8c5ce42baf3bc5a6ac65c6e875",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F8",
+      "status": "DONE",
+      "elapsed_s": 3.1307956660020864,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F8.png",
+      "sha256": "a49d4a60edaec389156db9bb055aaccba5f8ba8048d32b1b9ccfd2e27de51a1a",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F11",
+      "status": "DONE",
+      "elapsed_s": 34.04546688899427,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F11.png",
+      "sha256": "b457399d2ef17acb2648cc16e17b5fdea3f0519b9a319548b23195237fe7a29c",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F12",
+      "status": "NOT_QUALIFIED",
+      "elapsed_s": 3.5237155240029097,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F12.png",
+      "sha256": "5833e467c6c8ed69e315bb2aa78e79415eb2efa0fd925b59870416960195a169",
+      "fps_samples": null,
+      "fps_pass": null
+    },
+    {
+      "id": "F13",
+      "status": "DONE",
+      "elapsed_s": 44.547838017002505,
+      "restored": true,
+      "screenshot": "board/measurements/j7_checks_r3_retry/F13.png",
+      "sha256": "7d6c7b2cead3921f2c0809e39ec680fedf186a2f283b21d0715da6ceefc52507",
+      "fps_samples": null,
+      "fps_pass": null
+    }
+  ],
+  "inputs": [
+    {
+      "file": "board/measurements/j7_checks_r3_retry/result.json",
+      "sha256": "a25118beb299cfc60776f7c2ccb244c50b0b281418bda220fff6439d83cb53ae"
+    },
+    {
+      "file": "board/measurements/j7_final_record_checks/result.json",
+      "sha256": "52a031e9a18ac336892a8d9100e1760eea9a4ec031a8cff23ca5b1365e733dd3"
+    }
+  ],
+  "recording": {
+    "status": "FAIL",
+    "controls_visible": false,
+    "error": "RuntimeError('ADC overflow; recording rejected')",
+    "final_stop_restored": true,
+    "explanation": "Three integrated trials overflowed; no completed current recording or listening acceptance."
+  },
+  "wifi": {
+    "status": "PASS",
+    "historical_standalone_result_is_not_this_acceptance": true,
+    "result_file": "board/measurements/j7_wifi_main_r1/result.json",
+    "result_sha256": "5c4566608dec9d1c9263520ea8b8dfdc5c5e1036542a5258f7614f879c45a48a",
+    "network_records": 9
+  },
+  "limitations": [
+    "F8 single start 3.13 s exceeds 3 s; P90 not established.",
+    "F11 full scan about 34 s exceeds 15 s; first tile about 1 s.",
+    "F12 FM 4/10 fails 9/10; no reliable live label displayed.",
+    "F13 measured recording input, new on-board inference; not new live RF reception.",
+    "F0 reports PN status bits and nominal samples, not an actual bit-error counter."
+  ],
+  "frozen_bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c"
+}

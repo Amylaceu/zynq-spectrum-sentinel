@@ -1,0 +1,39 @@
+{
+  "status": "PASS_SYNTHESIS_ONLY",
+  "recorded_at_pc": "2026-11-03T03:57:44.128293+00:00",
+  "actual_synthesis_sequence": [
+    {
+      "attempt": 1,
+      "result": "FAIL launcher run; no top DCP"
+    },
+    {
+      "attempt": 2,
+      "result": "PASS standalone diagnostic unexpectedly executed synthesis due to malformed Tcl glob stop condition"
+    },
+    {
+      "attempt": 3,
+      "result": "INTERRUPTED duplicate diagnostic before checkpoint write; exact PID46228 stopped; no fourth synthesis authorized"
+    }
+  ],
+  "note": "The diagnostic log PASS no synthesis marker is incorrect and superseded by this receipt. Original logs retained. Root cause of first launch failure remains undetermined.",
+  "checkpoint": "build/work/z2_diagnostic_1/system_top.dcp",
+  "checkpoint_sha256": "842619ef86d745cb06763cd724f2dbffd274b34bf322cb7a06febd8dd84b9229",
+  "checkpoint_last_write": "2026-11-03T11:55:27.9021665+08:00",
+  "first_archive_sha256": "fe49a560d4d9ee2d412762668e03546f241efabe5bf6660667045a5775c64528",
+  "archive": "report/results/z2_synthesis_recovery_r2.zip",
+  "archive_sha256": "dfee5bbf4c7645aea49db1dbd6c7ca6e25ab92179d890b9d3af92462fe01a44e",
+  "source_sha256": {
+    "build/work/z2_diagnostic_1/diagnose.tcl": "51e3b71536e2b781f0ea7a07de41d8a588b0f39997ba9fa8ff0af6690ec2f3f3",
+    "build/work/z2_diagnostic_1/diagnose_full.tcl": "4fdb133ccb1fa87654e49ac8c93d39ab82c0a7a74f2f9785023d60bdf2eba71a",
+    "build/work/z2_diagnostic_1/system_top.dcp": "842619ef86d745cb06763cd724f2dbffd274b34bf322cb7a06febd8dd84b9229",
+    "build/work/z2_diagnostic_1/system_top_utilization_synth.rpt": "677b2c844a6b9853ae060b12cf274949196862f7277778faa66ec97e8064032a",
+    "logs/Y2_z2_diagnostic_1.jou": "546c5f8d48ac85badf4be90222e0ac95ed0f278eba352352d8921a9a57837a91",
+    "logs/Y2_z2_diagnostic_1.log": "eefd4416f6cfe88abc7ffc477b29e0cee387ff9b93f1711066c33aaa1d624ed2",
+    "logs/Y2_z2_diagnostic_1_controller.log": "e834b293f6172ccbcbcf4282fb676dade8936e5bde128f302e793475a5e0907e",
+    "logs/Y2_z2_diagnostic_1_exit.txt": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354",
+    "logs/Y2_z2_diagnostic_full_1.jou": "ea4e254cdbc8689cccf8e4b3255b530c167654107ebb686a0e3f1da3c666fdcf",
+    "logs/Y2_z2_diagnostic_full_1.log": "e6cff2320d2ba5ec738e0b83eeb9507bcce5573dea12839d8886faa59560281f",
+    "logs/Y2_z2_diagnostic_full_1_controller.log": "d9c5442ddebe41b00ade9e45357a5cc754597be075e96fd0494795cd2e54d676",
+    "logs/Y2_z2_diagnostic_full_1_exit.txt": "186a919b8c7cb84aebf4e53c70cd1cc028a93a1d183ee29dd6e10cd18a714577"
+  }
+}

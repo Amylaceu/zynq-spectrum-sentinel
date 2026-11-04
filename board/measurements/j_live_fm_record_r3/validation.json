@@ -1,0 +1,42 @@
+{
+  "status": "PASS_FINITE_RECORDING",
+  "antenna": "RX1A_FM_20_512",
+  "session_id": "20675e6c-b29a-46a5-8c35-bd8d9829e858",
+  "host_utc": "2026-11-04T02:05:44.644551+00:00",
+  "rf_tx_requested": false,
+  "pl_rebuilt": false,
+  "bitstream_download": false,
+  "bundle_root": "/home/xilinx/sentinel/release/i2_r2",
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "script_sha256": "b223f2617b2b8fce90115495474cbab4d0b48c454ddc5ebd9df750054e5e316d",
+  "files_sha256": {
+    "current_adc_iq.i16": "6f737e5424070971d9e980fb443578a105ccef0b157cea06403b5c68202ea907",
+    "result.json": "fc009818e4005b960c8cded92b38d436e559bfbff2cdfb835dd04311023faba6"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

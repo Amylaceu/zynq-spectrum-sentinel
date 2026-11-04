@@ -1,0 +1,368 @@
+{
+  "scope": "Synthetic integrated X1 CFAR vectors; no board/RF claims",
+  "cases": [
+    {
+      "name": "guard8_CA_interior",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "guard8_CA_wrap",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "guard8_GO_interior",
+      "mode": "GO",
+      "n": 16,
+      "g": 8,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "guard8_GO_wrap",
+      "mode": "GO",
+      "n": 16,
+      "g": 8,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "guard8_SO_interior",
+      "mode": "SO",
+      "n": 16,
+      "g": 8,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "guard8_SO_wrap",
+      "mode": "SO",
+      "n": 16,
+      "g": 8,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "guard8_zero_empty",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "guard8_strict_equal",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "guard8_threshold_saturation",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 65535,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "guard8_strongest_on_right",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 0,
+      "width": 1,
+      "masks": [],
+      "targets": 32,
+      "hits": 256
+    },
+    {
+      "name": "guard8_narrow_filter_before_capacity",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 0,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 256
+    },
+    {
+      "name": "guard8_sixteen_hard_boundaries",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [
+        [
+          31,
+          31
+        ],
+        [
+          159,
+          159
+        ],
+        [
+          287,
+          287
+        ],
+        [
+          415,
+          415
+        ],
+        [
+          543,
+          543
+        ],
+        [
+          671,
+          671
+        ],
+        [
+          799,
+          799
+        ],
+        [
+          927,
+          927
+        ],
+        [
+          1055,
+          1055
+        ],
+        [
+          1183,
+          1183
+        ],
+        [
+          1311,
+          1311
+        ],
+        [
+          1439,
+          1439
+        ],
+        [
+          1567,
+          1567
+        ],
+        [
+          1695,
+          1695
+        ],
+        [
+          1823,
+          1823
+        ],
+        [
+          1951,
+          1951
+        ]
+      ],
+      "targets": 17,
+      "hits": 2032
+    },
+    {
+      "name": "guard8_overlapping_masks",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          2040,
+          2047
+        ]
+      ],
+      "targets": 1,
+      "hits": 2029
+    },
+    {
+      "name": "guard8_dc_hard_boundary",
+      "mode": "CA",
+      "n": 16,
+      "g": 8,
+      "alpha": 0,
+      "dc": 0,
+      "gap": 255,
+      "width": 2,
+      "masks": [],
+      "targets": 2,
+      "hits": 2047
+    },
+    {
+      "name": "guard8_gap_nonhit_peak",
+      "mode": "SO",
+      "n": 2,
+      "g": 8,
+      "alpha": 512,
+      "dc": -1,
+      "gap": 3,
+      "width": 1,
+      "masks": [],
+      "targets": 1,
+      "hits": 10
+    },
+    {
+      "name": "guard8_random_CA",
+      "mode": "CA",
+      "n": 1,
+      "g": 8,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 0,
+      "width": 0,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 1020
+    },
+    {
+      "name": "guard8_random_GO",
+      "mode": "GO",
+      "n": 16,
+      "g": 8,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 1,
+      "width": 1,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 928
+    },
+    {
+      "name": "guard8_random_SO",
+      "mode": "SO",
+      "n": 64,
+      "g": 8,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 2,
+      "width": 2,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 1061
+    }
+  ],
+  "sha256": {
+    "input.hex": "8ea9d29962fe5081a194c1c8beeb89616540a36d4e7c1a3abec3d06b7005bd45",
+    "threshold.hex": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+    "db.hex": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+    "hit.hex": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+    "targets.hex": "1a43d4f81ffd0a099d0946d15fbd3257adaf8f26262edca030880f2e53443b61",
+    "targets_words.hex": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+    "count.hex": "cf92b46c9e7e21b79921f58cc7c0aa7522d9b46d1168764945fbaa98e3b7c3c9",
+    "config.hex": "c7a3fcd5f85cedc7bc39efb4ee084380ebd23b06a57c99af45656624f1b0c15d",
+    "occupancy.hex": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+    "stats.hex": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d"
+  }
+}

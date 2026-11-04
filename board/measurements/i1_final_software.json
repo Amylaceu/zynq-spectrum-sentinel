@@ -1,0 +1,24 @@
+{
+  "status": "PASS_WITH_PLATFORM_SKIP",
+  "passed": 146,
+  "skipped": 1,
+  "log": "logs/I1_final_regression_r3.log",
+  "log_sha256": "273290920cf110f35337c6dc41ee904ba246463ebffb869b961d3c2417f5b579",
+  "source_sha256": {
+    "src/ps/sentinel/audio_y3.py": "9b8a00ce14fa3730ef73c36aacf76ad3ab0c462cd98b9d9500a087831971ff86",
+    "src/ps/sentinel/release_support.py": "a0e95c0b4234623525e7dcbd011c6eda6e952d73d7c3f41054e7ea12928d27e4",
+    "src/ps/sentinel/app/resident.py": "910b183d56b888568fb286330a1a4ceaa02b30e8d3feabb86f5ffa14a6e5f9b3",
+    "src/ps/sentinel/app/resident_control.py": "7bf4e8346b3c73233d2ea942fff76e41ec9ac82660811e004b96125ede54ea6f",
+    "src/ps/sentinel/app/demo.py": "2938e172dc1bd5cf098ee4bb7234932417d0381eb6805f5c3cd7f14a13273ab5",
+    "board/release/config.yaml": "83fa1dddf69930e36c32af8e7edbfe5c9e52011852461468b78cf89eca1b2620",
+    "board/scripts/run_y3_audio.py": "07ee5c366e9564d9dd3b9c47c3eabadf59c1c34efa090a33437eda47a5883a02",
+    "board/scripts/release_entry.py": "eeea46f1c88f836a33f824bb8d1e895c99be1aeff2eaa7a5be380a6c6e3e3cd4",
+    "board/scripts/serve_resident.py": "4fd9d6f05f67b7c156d4f2f9814424f0d74ba3beb12887190399a46dbd490e17",
+    "tools/i1_board_check.py": "f40b0216ec28fb09d5d764e7b333efb5ed895325ce1864f4d715972991b9d434",
+    "tools/i1_audio_volume_check.py": "eb21073ea3ba3aeab3468a7fc01f966f257be3866aff8d8ffe075855cbd1e23d"
+  },
+  "speaker_default_db": 0,
+  "out1_default_and_ceiling_db": -6,
+  "deployed_candidate_note": "i1_r3 has original -12 default; audio_volume_r1 board check explicitly used ROUT2=0, OUT1=-6; next package required for new resident config",
+  "previous_regression_failure": "logs/I1_final_regression.log: two stale -12 expected command arguments; corrected to current user-requested -6 OUT1 default"
+}

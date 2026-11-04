@@ -1,0 +1,17 @@
+{
+  "status": "PROGRESS_AND_STOP_PASS_TIME_TARGET_FAIL",
+  "group": "A",
+  "tiles": 49,
+  "elapsed_s": 42.224739045002934,
+  "missing_bins": 0,
+  "postflight_status": "PASS",
+  "live_gui_tiles": 49,
+  "gui_final_sha_verified": true,
+  "gui_errors": [],
+  "target_s": 10,
+  "target_pass": false,
+  "timing_scope": "board initialize + scan + restore + close; host transfer excluded",
+  "human_visual_observation": "NOT_REQUESTED_FOR_A",
+  "raw_iq_saved": false,
+  "continuous_dma_certified": false
+}

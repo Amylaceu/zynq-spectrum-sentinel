@@ -1,0 +1,754 @@
+{
+  "step": "X4",
+  "attempt": 1,
+  "status": "FAIL",
+  "metrics": {
+    "fp32": {
+      "accuracy_vs_snr": {
+        "-4": 0.502,
+        "-2": 0.5825,
+        "0": 0.651,
+        "2": 0.686,
+        "4": 0.735,
+        "6": 0.7655,
+        "8": 0.7835,
+        "10": 0.786,
+        "12": 0.796,
+        "14": 0.807,
+        "16": 0.832,
+        "18": 0.869,
+        "20": 0.886
+      },
+      "coarse_accuracy_vs_snr": {
+        "-4": 0.5975,
+        "-2": 0.6825,
+        "0": 0.76,
+        "2": 0.8125,
+        "4": 0.8885,
+        "6": 0.9395,
+        "8": 0.9725,
+        "10": 0.977,
+        "12": 0.988,
+        "14": 0.9905,
+        "16": 0.993,
+        "18": 0.994,
+        "20": 0.995
+      },
+      "overall": 0.7447307692307692,
+      "confusion_snr10": [
+        [
+          198,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          185,
+          0,
+          13,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          189,
+          0,
+          9,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          197,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          198,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          4,
+          0,
+          191,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          198,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          199,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          199
+        ]
+      ],
+      "recall_snr10": {
+        "BPSK": 0.99,
+        "QPSK": 0.0,
+        "8PSK": 0.945,
+        "16QAM": 0.0,
+        "64QAM": 0.99,
+        "2FSK": 1.0,
+        "GFSK": 0.955,
+        "OOK": 0.99,
+        "AM-DSB": 0.995,
+        "FM": 0.995
+      }
+    },
+    "int8": {
+      "accuracy_vs_snr": {
+        "-4": 0.5055,
+        "-2": 0.5865,
+        "0": 0.652,
+        "2": 0.6925,
+        "4": 0.7385,
+        "6": 0.7675,
+        "8": 0.7835,
+        "10": 0.786,
+        "12": 0.796,
+        "14": 0.8075,
+        "16": 0.8315,
+        "18": 0.8695,
+        "20": 0.886
+      },
+      "coarse_accuracy_vs_snr": {
+        "-4": 0.592,
+        "-2": 0.6775,
+        "0": 0.755,
+        "2": 0.8155,
+        "4": 0.8875,
+        "6": 0.9395,
+        "8": 0.971,
+        "10": 0.9765,
+        "12": 0.988,
+        "14": 0.991,
+        "16": 0.993,
+        "18": 0.9945,
+        "20": 0.9945
+      },
+      "overall": 0.7463461538461539,
+      "confusion_snr10": [
+        [
+          198,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          184,
+          0,
+          13,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          188,
+          0,
+          9,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          197,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          196,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          3,
+          0,
+          193,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          198,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          199
+        ]
+      ],
+      "recall_snr10": {
+        "BPSK": 0.99,
+        "QPSK": 0.0,
+        "8PSK": 0.94,
+        "16QAM": 0.0,
+        "64QAM": 0.98,
+        "2FSK": 1.0,
+        "GFSK": 0.965,
+        "OOK": 0.99,
+        "AM-DSB": 1.0,
+        "FM": 0.995
+      }
+    }
+  },
+  "quantization_drop_pp": {
+    "-4": -0.34999999999999476,
+    "-2": -0.40000000000000036,
+    "0": -0.10000000000000009,
+    "2": -0.649999999999995,
+    "4": -0.35000000000000586,
+    "6": -0.20000000000000018,
+    "8": 0.0,
+    "10": 0.0,
+    "12": 0.0,
+    "14": -0.04999999999999449,
+    "16": 0.04999999999999449,
+    "18": -0.050000000000005596,
+    "20": 0.0
+  },
+  "gates": {
+    "accuracy10": false,
+    "coarse10": true,
+    "qpsk_recall": false,
+    "psk8_recall": true,
+    "quantization_drop_all_snrs": true,
+    "quantization_drop_overall": true,
+    "board_latency": false
+  },
+  "board": {
+    "step": "X4",
+    "mode": "offline_synthetic_on_board_no_rf",
+    "system": "Linux-5.4.0-xilinx-v2020.2-armv7l-with-glibc2.29",
+    "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+    "numpy": "1.20.3",
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "capture_len": 4096,
+    "fs": 480000,
+    "precision": "mixed INT8 MAC/FP32 scale",
+    "smoke_only": false,
+    "bundle_sha256": "b2433feaf75f3965fb252d7d9e8052c45c5214ff98eb985957736b101d47e14a",
+    "rows": [
+      {
+        "sample_id": 20961274,
+        "label": 0,
+        "predicted": "BPSK",
+        "coarse": "BPSK",
+        "elapsed_ms": 49.55466799947317
+      },
+      {
+        "sample_id": 20962919,
+        "label": 0,
+        "predicted": "BPSK",
+        "coarse": "BPSK",
+        "elapsed_ms": 49.22919999808073
+      },
+      {
+        "sample_id": 20961122,
+        "label": 0,
+        "predicted": "BPSK",
+        "coarse": "BPSK",
+        "elapsed_ms": 49.443921001511626
+      },
+      {
+        "sample_id": 20962092,
+        "label": 0,
+        "predicted": "BPSK",
+        "coarse": "BPSK",
+        "elapsed_ms": 49.22056699797395
+      },
+      {
+        "sample_id": 20962864,
+        "label": 0,
+        "predicted": "BPSK",
+        "coarse": "BPSK",
+        "elapsed_ms": 49.34911099917372
+      },
+      {
+        "sample_id": 120961925,
+        "label": 1,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 491.93063599886955
+      },
+      {
+        "sample_id": 120962874,
+        "label": 1,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 647.5135440014128
+      },
+      {
+        "sample_id": 120962493,
+        "label": 1,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 271.0345569976198
+      },
+      {
+        "sample_id": 120961857,
+        "label": 1,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 403.1188849985483
+      },
+      {
+        "sample_id": 120962857,
+        "label": 1,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 403.28867199787055
+      },
+      {
+        "sample_id": 220962975,
+        "label": 2,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 324.88381000075606
+      },
+      {
+        "sample_id": 220962527,
+        "label": 2,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 645.2635150017159
+      },
+      {
+        "sample_id": 220962351,
+        "label": 2,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 409.267594000994
+      },
+      {
+        "sample_id": 220961770,
+        "label": 2,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 360.25870100274915
+      },
+      {
+        "sample_id": 220961765,
+        "label": 2,
+        "predicted": "8PSK",
+        "coarse": "PSK-high",
+        "elapsed_ms": 315.6675169993832
+      },
+      {
+        "sample_id": 320962995,
+        "label": 3,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 645.9583179967012
+      },
+      {
+        "sample_id": 320962289,
+        "label": 3,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 790.9968710009707
+      },
+      {
+        "sample_id": 320961996,
+        "label": 3,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 271.2092180008767
+      },
+      {
+        "sample_id": 320963094,
+        "label": 3,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 307.4267960000725
+      },
+      {
+        "sample_id": 320961341,
+        "label": 3,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 344.98372099915287
+      },
+      {
+        "sample_id": 420963002,
+        "label": 4,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 344.9279160013248
+      },
+      {
+        "sample_id": 420961687,
+        "label": 4,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 435.29258700073115
+      },
+      {
+        "sample_id": 420961278,
+        "label": 4,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 328.34068900046987
+      },
+      {
+        "sample_id": 420962955,
+        "label": 4,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 326.9247409989475
+      },
+      {
+        "sample_id": 420961300,
+        "label": 4,
+        "predicted": "64QAM",
+        "coarse": "QAM",
+        "elapsed_ms": 570.8632450005098
+      },
+      {
+        "sample_id": 520963037,
+        "label": 5,
+        "predicted": "2FSK",
+        "coarse": "2FSK",
+        "elapsed_ms": 50.13156600034563
+      },
+      {
+        "sample_id": 520961991,
+        "label": 5,
+        "predicted": "2FSK",
+        "coarse": "2FSK",
+        "elapsed_ms": 54.0668959984032
+      },
+      {
+        "sample_id": 520962377,
+        "label": 5,
+        "predicted": "2FSK",
+        "coarse": "2FSK",
+        "elapsed_ms": 54.26883000109228
+      },
+      {
+        "sample_id": 520961706,
+        "label": 5,
+        "predicted": "2FSK",
+        "coarse": "2FSK",
+        "elapsed_ms": 54.155980000359705
+      },
+      {
+        "sample_id": 520962682,
+        "label": 5,
+        "predicted": "2FSK",
+        "coarse": "2FSK",
+        "elapsed_ms": 53.86267100038822
+      },
+      {
+        "sample_id": 620962326,
+        "label": 6,
+        "predicted": "GFSK",
+        "coarse": "GFSK",
+        "elapsed_ms": 53.103767000720836
+      },
+      {
+        "sample_id": 620961744,
+        "label": 6,
+        "predicted": "GFSK",
+        "coarse": "GFSK",
+        "elapsed_ms": 53.019849001429975
+      },
+      {
+        "sample_id": 620962075,
+        "label": 6,
+        "predicted": "GFSK",
+        "coarse": "GFSK",
+        "elapsed_ms": 53.41523799870629
+      },
+      {
+        "sample_id": 620961593,
+        "label": 6,
+        "predicted": "GFSK",
+        "coarse": "GFSK",
+        "elapsed_ms": 51.724375000048894
+      },
+      {
+        "sample_id": 620962796,
+        "label": 6,
+        "predicted": "GFSK",
+        "coarse": "GFSK",
+        "elapsed_ms": 49.1089600000123
+      },
+      {
+        "sample_id": 720962815,
+        "label": 7,
+        "predicted": "OOK",
+        "coarse": "OOK",
+        "elapsed_ms": 50.562060001539066
+      },
+      {
+        "sample_id": 720961789,
+        "label": 7,
+        "predicted": "OOK",
+        "coarse": "OOK",
+        "elapsed_ms": 53.512104001129046
+      },
+      {
+        "sample_id": 720962817,
+        "label": 7,
+        "predicted": "OOK",
+        "coarse": "OOK",
+        "elapsed_ms": 53.81065899928217
+      },
+      {
+        "sample_id": 720962871,
+        "label": 7,
+        "predicted": "OOK",
+        "coarse": "OOK",
+        "elapsed_ms": 50.32251499869744
+      },
+      {
+        "sample_id": 720961654,
+        "label": 7,
+        "predicted": "OOK",
+        "coarse": "OOK",
+        "elapsed_ms": 49.367741998139536
+      },
+      {
+        "sample_id": 820961316,
+        "label": 8,
+        "predicted": "AM-DSB",
+        "coarse": "AM",
+        "elapsed_ms": 49.30495399821666
+      },
+      {
+        "sample_id": 820961724,
+        "label": 8,
+        "predicted": "AM-DSB",
+        "coarse": "AM",
+        "elapsed_ms": 49.32485499739414
+      },
+      {
+        "sample_id": 820962225,
+        "label": 8,
+        "predicted": "AM-DSB",
+        "coarse": "AM",
+        "elapsed_ms": 49.274624998361105
+      },
+      {
+        "sample_id": 820961838,
+        "label": 8,
+        "predicted": "AM-DSB",
+        "coarse": "AM",
+        "elapsed_ms": 49.29316500056302
+      },
+      {
+        "sample_id": 820962842,
+        "label": 8,
+        "predicted": "AM-DSB",
+        "coarse": "AM",
+        "elapsed_ms": 52.40122499890276
+      },
+      {
+        "sample_id": 920963076,
+        "label": 9,
+        "predicted": "FM",
+        "coarse": "FM",
+        "elapsed_ms": 49.32235600062995
+      },
+      {
+        "sample_id": 920963066,
+        "label": 9,
+        "predicted": "FM",
+        "coarse": "FM",
+        "elapsed_ms": 49.209153999981936
+      },
+      {
+        "sample_id": 920961604,
+        "label": 9,
+        "predicted": "FM",
+        "coarse": "FM",
+        "elapsed_ms": 49.246106998907635
+      },
+      {
+        "sample_id": 920962738,
+        "label": 9,
+        "predicted": "FM",
+        "coarse": "FM",
+        "elapsed_ms": 49.13287800081889
+      },
+      {
+        "sample_id": 920962411,
+        "label": 9,
+        "predicted": "FM",
+        "coarse": "FM",
+        "elapsed_ms": 49.26097600036883
+      }
+    ],
+    "median_ms": 53.66138150020561,
+    "p95_ms": 645.6456566489578,
+    "max_ms": 790.9968710009707,
+    "all_under_100ms": false,
+    "standalone_refine_ms": {
+      "PSK-high": 438.1241590017453,
+      "QAM": 597.5082830009342
+    },
+    "pc_bundle_archive_sha256": "fb4471490f26834666e5914f90143402cf2372083029266e7e86f49feb8e3890",
+    "benchmark_script_sha256": "3fa9e5a5fb1d846dfd857420187d981c2f4c3fabc053a447a251391816b8913c",
+    "round_evidence_sha256": "d1cac2d18bec55f11057f0748261d069cea4fcdaf7d204b8cfeb54f88d415f2d",
+    "log_sha256": "4f4d29c9915f86c345e638c6df9cb3cfa3d622cc32511dd3389b21b84e67939e"
+  },
+  "split_counts": {
+    "train": 208000,
+    "val": 26000,
+    "test": 26000
+  },
+  "limitation": "Synthetic occupied-bandwidth SNR; not OTA accuracy or calibrated confidence",
+  "evidence_sha256": {
+    "board/measurements/x4_pc_r1_evaluation.json": "bef5ff5dcf5b166331b605541590beb7f52574e43d597974fce356ba70ba1dca",
+    "board/measurements/x4_pc_r1_evaluation.npz": "ec37086ef83274db9fcfaadca6154ccbe46c967f6686fb86dfb30eeb16028edb",
+    "board/measurements/x4_pc_r1.json": "d1cac2d18bec55f11057f0748261d069cea4fcdaf7d204b8cfeb54f88d415f2d",
+    "board/measurements/x4_board_r1.json": "c5cee651b5ffd4d7446030cdedd306475b87972e2c1887e10d164e0bd4afe249"
+  }
+}

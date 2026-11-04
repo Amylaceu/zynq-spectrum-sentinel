@@ -1,0 +1,10 @@
+{
+  "analysis_sha256": "9850cb6421c902dfe959b027ab85e8358a77d826ba213a08f40e9a1fe2c8bde0",
+  "generator_sha256": "bd87979a8c386cf78107035cf816f190156c014f31437e5dc653503e5e75d444",
+  "outputs_sha256": {
+    "report/figures/e1_x3_throughput.png": "2f9f63de805bbc4831e830ebdef21f37807df98b7ab3c82662f1c18b33cae93c",
+    "report/figures/e1_x3_latency.png": "dadd17d0c36bba89453a77a57260b89f931791da7389176fdbebc8f2df8dc433",
+    "report/figures/e10_x3_display.png": "3c05feb6c81eec7d448be8af74359ae6b6c32ef7bf1176a8b1be07730666b47f",
+    "report/opt_tables.md": "13686ec579b60c3597504b006949101781fac653d1130e8752450474d5a45a01"
+  }
+}

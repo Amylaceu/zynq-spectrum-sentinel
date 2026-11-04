@@ -1,0 +1,2426 @@
+{
+  "schema": "j_v4_source_inventory/1",
+  "created_utc": "2026-11-04T01:21:11.964980+00:00",
+  "page_count": 10,
+  "main_feature_count": 52,
+  "independent_entries": 63,
+  "entries": [
+    {
+      "key": "1",
+      "page": 1,
+      "title": "一键自检",
+      "sources": [
+        "docs/i1_resident_service.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "2",
+      "page": 1,
+      "title": "RX BIST 数字回环",
+      "sources": [
+        "docs/rx_bist_dma_acceptance.md",
+        "report/figures/rx_bist_capture.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "3",
+      "page": 1,
+      "title": "TX → RX 数字回环",
+      "sources": [
+        "board/measurements/tx_loopback_acceptance.json",
+        "report/figures/tx_loopback.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "4",
+      "page": 1,
+      "title": "LVDS 接口时序窗口",
+      "sources": [
+        "docs/rx_timing_margin.md",
+        "report/figures/rx_timing_margin.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "5",
+      "page": 1,
+      "title": "温度与接收功率",
+      "sources": [
+        "docs/i1_resident_service.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "6",
+      "page": 1,
+      "title": "硬件连接与引脚",
+      "sources": [
+        "docs/board_info.md",
+        "docs/hw_base_summary.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "7",
+      "page": 1,
+      "title": "发射安全与历次检查",
+      "sources": [
+        "board/measurements/i0_s1_ota_r1_postflight.json",
+        "board/measurements/i0_s1_ota_r1_preflight.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "8",
+      "page": 1,
+      "title": "SD 镜像与工程快照",
+      "sources": [
+        "docs/sd_backup.md",
+        "docs/snapshots.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "9",
+      "page": 2,
+      "title": "70 MHz–2.7 GHz 参考全景",
+      "sources": [
+        "board/measurements/h1_a_scan_r2/raw/result.json",
+        "board/measurements/h1_d_scan_r1/raw/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "10",
+      "page": 2,
+      "title": "全景扫描逐段回放",
+      "sources": [
+        "board/measurements/h1_a_scan_r2/raw/result.json",
+        "board/measurements/h1_d_scan_r1/raw/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "11",
+      "page": 2,
+      "title": "扫描提速与耗时分解",
+      "sources": [
+        "board/measurements/h1_fast_comparison_r1.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "12",
+      "page": 2,
+      "title": "FM 搜台候选",
+      "sources": [
+        "board/measurements/fm_scan_candidates.json",
+        "board/measurements/fm_scan_round1.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "13",
+      "page": 2,
+      "title": "全景定点分析",
+      "sources": [
+        "docs/f4_panorama_progress.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "14",
+      "page": 3,
+      "title": "实时频谱 / 瀑布 / 峰值",
+      "sources": [
+        "docs/g4plus_host_v2.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "15",
+      "page": 3,
+      "title": "CFAR / Top-32 / 目标事件",
+      "sources": [
+        "docs/x3_acceptance_summary.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "16",
+      "page": 3,
+      "title": "窗函数 / 平均 / CFAR 参数演示",
+      "sources": [
+        "src/ps/sentinel/drivers/regs/cfar_ctrl.py",
+        "src/ps/sentinel/drivers/regs/spec_ctrl.py",
+        "src/regs/cfar_ctrl.yaml",
+        "src/regs/cfar_x1.yaml",
+        "src/regs/lcd_ctrl.yaml",
+        "src/regs/perf_ctrl.yaml",
+        "src/regs/spec_ctrl.yaml",
+        "src/regs/src_ctrl.yaml",
+        "src/regs/stream_x2.yaml"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "17",
+      "page": 3,
+      "title": "PFB 16 通道与 NCO 提取",
+      "sources": [
+        "docs/x5_integration_progress.md",
+        "docs/x5_pl_interface.md",
+        "src/ps/sentinel/capture_x5.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "18",
+      "page": 3,
+      "title": "十类识别 / Top-5 / 五票",
+      "sources": [
+        "docs/amc_attempts.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "19",
+      "page": 3,
+      "title": "星座 / 瞬频 / 瞬幅 / HOC",
+      "sources": [
+        "src/ps/sentinel/amc/features.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "20",
+      "page": 3,
+      "title": "识别时延与统计口径",
+      "sources": [
+        "docs/x3_acceptance_summary.md",
+        "docs/y2_board_checkpoint.md",
+        "docs/y2_visual_z2_progress.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "21",
+      "page": 3,
+      "title": "占用度与告警",
+      "sources": [
+        "tools/host/alarms.yaml",
+        "tools/host/sentinel_host/alarms.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "22",
+      "page": 3,
+      "title": "IQ / CSV / PNG 导出",
+      "sources": [
+        "docs/g4plus_host_v2.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "23",
+      "page": 3,
+      "title": "LCD 孪生与点击同步",
+      "sources": [
+        "docs/g4plus_host_v2.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "24",
+      "page": 4,
+      "title": "指定电台收听",
+      "sources": [
+        "docs/y3_noise_diagnosis.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "25",
+      "page": 4,
+      "title": "质量门控与自动选台",
+      "sources": [
+        "board/release/config.yaml",
+        "src/ps/sentinel/release_support.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "26",
+      "page": 4,
+      "title": "弱信号自动静音 / 恢复",
+      "sources": [
+        "docs/y3_noise_diagnosis.md",
+        "src/ps/sentinel/fm_quality.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "27",
+      "page": 4,
+      "title": "喇叭计数 / 下溢 / 音量保护",
+      "sources": [
+        "board/release/config.yaml",
+        "docs/i1_resident_service.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "28",
+      "page": 4,
+      "title": "六段历史 FM 录音",
+      "sources": [
+        "report/results/fm_90000000_round1_demod.wav",
+        "report/results/fm_95800000_round1_demod.wav",
+        "report/results/fm_95800000_round2_demod.wav",
+        "report/results/fm_95800000_round2_voice.wav",
+        "report/results/fm_95800000_round3_demod.wav",
+        "report/results/fm_95800000_round3_voice.wav"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "29",
+      "page": 4,
+      "title": "FM 噪声诊断",
+      "sources": [
+        "docs/y3_noise_diagnosis.md",
+        "report/figures/fm_90000000_round1_demod.png",
+        "report/figures/fm_95800000_round1_demod.png",
+        "report/figures/fm_95800000_round2_demod.png",
+        "report/figures/fm_95800000_round3_demod.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "30",
+      "page": 4,
+      "title": "天线对比与选型",
+      "sources": [
+        "board/measurements/i0_fm_comparison_r1.json",
+        "docs/antenna_comparison.md",
+        "report/figures/fm_band_antenna.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "31",
+      "page": 5,
+      "title": "测试源三音精度",
+      "sources": [
+        "docs/n4_acceptance_summary.md",
+        "report/figures/n4_trace_simulation.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "32",
+      "page": 5,
+      "title": "8192 字回放源比对",
+      "sources": [
+        "docs/n4_acceptance_summary.md",
+        "sim/results/z10_clock_r2/source_compare.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "33",
+      "page": 5,
+      "title": "真实录波送入 FPGA",
+      "sources": [
+        "data/captured/fm_diagnostic/fm_90000000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round2.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-meta",
+        "src/ps/sentinel/drivers/regs/src_ctrl.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "34",
+      "page": 5,
+      "title": "PC 黄金模型逐位比对",
+      "sources": [
+        "sim/results/z10_clock_r2/source_compare.json",
+        "tools/golden_compare.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "35",
+      "page": 5,
+      "title": "自动测试与仿真波形",
+      "sources": [
+        "board/measurements/j0_regression.json",
+        "report/figures/n4_trace_simulation.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "36",
+      "page": 6,
+      "title": "十类真实空口采集与混淆矩阵",
+      "sources": [
+        "board/measurements/f3_evaluation_r1/confusion_10db.png",
+        "board/measurements/f3_evaluation_r1/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "37",
+      "page": 6,
+      "title": "SNR 与注噪鲁棒性",
+      "sources": [
+        "board/measurements/f3_evaluation_r1/accuracy.png",
+        "board/measurements/f3_evaluation_r1/ota_curve.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "38",
+      "page": 6,
+      "title": "PL MODE3 数字注噪",
+      "sources": [
+        "docs/f3_ota_demo.md",
+        "src/ps/sentinel/drivers/regs/src_ctrl.py"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "39",
+      "page": 6,
+      "title": "仿真 / 空口 / 八大类对比",
+      "sources": [
+        "board/measurements/f3_evaluation_r1/accuracy.png",
+        "board/measurements/f3_evaluation_r1/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "40",
+      "page": 6,
+      "title": "模型迭代与失败尝试",
+      "sources": [
+        "docs/amc_attempts.md",
+        "report/figures/amc_attempts_failed.png",
+        "report/figures/e7_x4_r1_confusion.png",
+        "report/figures/e7_x4_r1_snr.png",
+        "report/figures/e7_x4_r2_confusion.png",
+        "report/figures/e7_x4_r2_snr.png",
+        "report/figures/e7_x4_r3_confusion.png",
+        "report/figures/e7_x4_r3_snr.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "41",
+      "page": 6,
+      "title": "Pd / Pfa 观测",
+      "sources": [
+        "board/measurements/f3_pd_r1/result.json",
+        "board/measurements/f3_pfa_r1/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "42",
+      "page": 6,
+      "title": "2.4 GHz 环境能量观测",
+      "sources": [
+        "board/measurements/i0_antenna_s.json",
+        "board/measurements/i0_s1_hotspot_comparison_r1/result.json",
+        "board/measurements/i0_s2_hotspot_comparison_r1/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "43",
+      "page": 7,
+      "title": "帧率 / 吞吐 / 温度 / PS 负载",
+      "sources": [
+        "docs/i1_resident_service.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "44",
+      "page": 7,
+      "title": "同帧 FPGA 与 CPU 对比",
+      "sources": [
+        "board/measurements/x3_perf_r3.json",
+        "docs/x3_acceptance_summary.md",
+        "report/figures/e1_x3_throughput.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "45",
+      "page": 7,
+      "title": "NumPy / 缓存 / C 推理对比",
+      "sources": [
+        "board/measurements/x4_board_r1.json",
+        "board/measurements/x4_board_r2.json",
+        "board/measurements/x4_board_r3.json",
+        "board/measurements/x4_cached_board_r3.json",
+        "board/measurements/x4_native_board_r1.json",
+        "report/opt_tables.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "46",
+      "page": 7,
+      "title": "显示提速与字体演进",
+      "sources": [
+        "report/figures/e10_x3_display.png",
+        "report/figures/ui_v3/OTA_TX_DIM.png",
+        "report/figures/ui_v3/OTA_TX_ON.png",
+        "report/figures/ui_v3/overview.png",
+        "report/figures/ui_v3/SELFTEST.png",
+        "report/figures/ui_v3/SIG.png",
+        "report/figures/ui_v3/STAT.png",
+        "report/figures/ui_v3/TGT.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "47",
+      "page": 7,
+      "title": "资源时序与 150 → 100 MHz",
+      "sources": [
+        "board/overlay/sentinel_v2_100m/acceptance.json",
+        "docs/timing_closure_strategy.md",
+        "docs/timing_closure_workflow.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "48",
+      "page": 7,
+      "title": "各阶段对比实验表",
+      "sources": [
+        "report/opt_tables.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49a",
+      "page": 8,
+      "title": "会话回放 / 暂停 / 倍速 / 定位",
+      "sources": [
+        "board/measurements/g4_board_r1/live_A.zsr/manifest.json",
+        "board/measurements/g4a_board_r1/live_A_twin.zsr/manifest.json",
+        "board/measurements/g4c_board_r1/live_A.zsr/manifest.json",
+        "board/measurements/g5_a_board_r2/live_A.zsr/manifest.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49b",
+      "page": 8,
+      "title": "IQ 录波与离线 FM 解调",
+      "sources": [
+        "data/captured/fm_diagnostic/fm_90000000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round2.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-meta",
+        "data/captured/samples/rx_bist_verified.sigmf-meta"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49c",
+      "page": 8,
+      "title": "历史音频 / 波形 / 语谱",
+      "sources": [
+        "report/results/fm_90000000_round1_demod.wav",
+        "report/results/fm_95800000_round1_demod.wav",
+        "report/results/fm_95800000_round2_demod.wav",
+        "report/results/fm_95800000_round2_voice.wav",
+        "report/results/fm_95800000_round3_demod.wav",
+        "report/results/fm_95800000_round3_voice.wav"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49d",
+      "page": 8,
+      "title": "A / D 全景扫描回放",
+      "sources": [
+        "board/measurements/h1_a_scan_r2/raw/result.json",
+        "board/measurements/h1_d_scan_r1/raw/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49e",
+      "page": 8,
+      "title": "F3 空口逐类回放",
+      "sources": [
+        "board/measurements/f3_evaluation_r1/result.json"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49f",
+      "page": 8,
+      "title": "录波送入板端回放源",
+      "sources": [
+        "data/captured/fm_diagnostic/fm_90000000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round1.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round2.sigmf-meta",
+        "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-meta",
+        "docs/n4_acceptance_summary.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "49g",
+      "page": 8,
+      "title": "新会话 / PNG / CSV / IQ / HTML",
+      "sources": [
+        "docs/g4plus_host_v2.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "50",
+      "page": 9,
+      "title": "A 组：自检 → 监测 → 广播 → 三音",
+      "sources": [
+        "docs/g5_progress.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "51",
+      "page": 9,
+      "title": "B 组：环境 → 空口回放 → 注噪 → 性能",
+      "sources": [
+        "board/measurements/f3_evaluation_r1/result.json",
+        "docs/f3_ota_demo.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52a",
+      "page": 10,
+      "title": "全部成果按键索引",
+      "sources": [
+        "report/host_coverage.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52b",
+      "page": 10,
+      "title": "全部阶段时间线",
+      "sources": [
+        "runbook/STATUS.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52c",
+      "page": 10,
+      "title": "未达标项与原因",
+      "sources": [
+        "docs/g4d_progress.md",
+        "docs/x3_acceptance_summary.md",
+        "report/feature_list.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52d",
+      "page": 10,
+      "title": "大模型协作记录",
+      "sources": [
+        "report/llm_logs/F0_freeze_snapshot.md",
+        "report/llm_logs/F3_ota_demo.md",
+        "report/llm_logs/F4_offline_preparation.md",
+        "report/llm_logs/G1_persistent_runtime.md",
+        "report/llm_logs/G2_ui_v3.md",
+        "report/llm_logs/G3_hostlink.md",
+        "report/llm_logs/G4c_host_shell.md",
+        "report/llm_logs/G4d_fields_dma.md",
+        "report/llm_logs/H1_panorama.md",
+        "report/llm_logs/I0_antenna_selection.md",
+        "report/llm_logs/I1_resident_receive.md",
+        "report/llm_logs/I2_presenter_mode.md",
+        "report/llm_logs/J0_preserve_checkpoint.md",
+        "report/llm_logs/J2_v4_product.md",
+        "report/llm_logs/M-A_X0-X3_checkpoint.md",
+        "report/llm_logs/N1_recovery_checkpoint.md",
+        "report/llm_logs/N2_spectrum_rtl.md",
+        "report/llm_logs/N3_cfar_rtl.md",
+        "report/llm_logs/N4_display_checkpoint.md",
+        "report/llm_logs/N4_integration_checkpoint.md",
+        "report/llm_logs/N4_local_resume_checkpoint.md",
+        "report/llm_logs/p0_environment.md",
+        "report/llm_logs/p1_hdl_port.md",
+        "report/llm_logs/p2_golden.md",
+        "report/llm_logs/p5_runtime.md",
+        "report/llm_logs/X0_X4_followup_20261103.md",
+        "report/llm_logs/X0_X4_optimization_20261103.md",
+        "report/llm_logs/X1_cfar_quality.md",
+        "report/llm_logs/x4_amc_checkpoint.md",
+        "report/llm_logs/Y0_X5_checkpoint.md",
+        "report/llm_logs/Y2_board_integration.md",
+        "report/llm_logs/Y2_visual_and_recovery.md",
+        "report/llm_logs/Y3_noise_diagnosis.md",
+        "report/llm_logs/Z10_clock_hold_review.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52e",
+      "page": 10,
+      "title": "关键图库（可放大）",
+      "sources": [
+        "report/figures/amc_attempts_failed.png",
+        "report/figures/e10_x3_display.png",
+        "report/figures/e1_x3_latency.png",
+        "report/figures/e1_x3_throughput.png",
+        "report/figures/e7_x4_r1_confusion.png",
+        "report/figures/e7_x4_r1_snr.png",
+        "report/figures/e7_x4_r2_confusion.png",
+        "report/figures/e7_x4_r2_snr.png",
+        "report/figures/e7_x4_r3_confusion.png",
+        "report/figures/e7_x4_r3_snr.png",
+        "report/figures/fm_90000000_round1_demod.png",
+        "report/figures/fm_95800000_round1_demod.png",
+        "report/figures/fm_95800000_round2_demod.png",
+        "report/figures/fm_95800000_round2_voice.png",
+        "report/figures/fm_95800000_round3_demod.png",
+        "report/figures/fm_95800000_round3_voice.png",
+        "report/figures/fm_band_antenna.png",
+        "report/figures/host_fake_preview.png",
+        "report/figures/host_j_v4_r1/01.png",
+        "report/figures/host_j_v4_r1/02.png",
+        "report/figures/host_j_v4_r1/03.png",
+        "report/figures/host_j_v4_r1/04.png",
+        "report/figures/host_j_v4_r1/05.png",
+        "report/figures/host_j_v4_r1/06.png",
+        "report/figures/host_j_v4_r1/07.png",
+        "report/figures/host_j_v4_r1/08.png",
+        "report/figures/host_j_v4_r1/09.png",
+        "report/figures/host_j_v4_r1/10.png",
+        "report/figures/host_j_v4_r1/overview.png",
+        "report/figures/host_j_v4_r2/01.png",
+        "report/figures/host_j_v4_r2/02.png",
+        "report/figures/host_j_v4_r2/03.png",
+        "report/figures/host_j_v4_r2/04.png",
+        "report/figures/host_j_v4_r2/05.png",
+        "report/figures/host_j_v4_r2/06.png",
+        "report/figures/host_j_v4_r2/07.png",
+        "report/figures/host_j_v4_r2/08.png",
+        "report/figures/host_j_v4_r2/09.png",
+        "report/figures/host_j_v4_r2/10.png",
+        "report/figures/host_j_v4_r2/overview.png",
+        "report/figures/host_j_v4_r3/01.png",
+        "report/figures/host_j_v4_r3/02.png",
+        "report/figures/host_j_v4_r3/03.png",
+        "report/figures/host_j_v4_r3/04.png",
+        "report/figures/host_j_v4_r3/05.png",
+        "report/figures/host_j_v4_r3/06.png",
+        "report/figures/host_j_v4_r3/07.png",
+        "report/figures/host_j_v4_r3/08.png",
+        "report/figures/host_j_v4_r3/09.png",
+        "report/figures/host_j_v4_r3/10.png",
+        "report/figures/host_j_v4_r3/overview.png",
+        "report/figures/host_layout_v2_mockup.png",
+        "report/figures/host_preview.png",
+        "report/figures/host_preview_v1.png",
+        "report/figures/host_v2/audio.png",
+        "report/figures/host_v2/loopback.png",
+        "report/figures/host_v2/monitor.png",
+        "report/figures/host_v2/recognition.png",
+        "report/figures/n4_trace_simulation.png",
+        "report/figures/rx_bist_capture.png",
+        "report/figures/rx_timing_margin.png",
+        "report/figures/tx_loopback.png",
+        "report/figures/ui_v3/OTA_TX_DIM.png",
+        "report/figures/ui_v3/OTA_TX_ON.png",
+        "report/figures/ui_v3/overview.png",
+        "report/figures/ui_v3/SELFTEST.png",
+        "report/figures/ui_v3/SIG.png",
+        "report/figures/ui_v3/STAT.png",
+        "report/figures/ui_v3/TGT.png",
+        "report/figures/x5_prototype_response.png",
+        "report/figures/z2_ui_preview.png"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    },
+    {
+      "key": "52f",
+      "page": 10,
+      "title": "方案 / 执行手册 / 技能包",
+      "sources": [
+        "report/design_plan.md",
+        "runbook/00_env.md",
+        "runbook/10_hw_base.md",
+        "runbook/20_golden.md",
+        "runbook/30_rtl_ip.md",
+        "runbook/40_integration.md",
+        "runbook/50_ps_sw.md",
+        "runbook/60_board.md",
+        "runbook/70_deliver.md",
+        "runbook/80_next.md",
+        "runbook/90_plan.md",
+        "runbook/95_final.md",
+        "runbook/99_finish.md",
+        "runbook/CONTEXT.md",
+        "runbook/G_showcase.md",
+        "runbook/H_interactive.md",
+        "runbook/I_presentation.md",
+        "runbook/J_polish.md",
+        "runbook/KICKOFF_F.md",
+        "runbook/KICKOFF_G.md",
+        "runbook/KICKOFF_G4plus.md",
+        "runbook/KICKOFF_H.md",
+        "runbook/KICKOFF_I.md",
+        "runbook/KICKOFF_J.md",
+        "runbook/KICKOFF_N.md",
+        "runbook/KICKOFF_X.md",
+        "runbook/KICKOFF_Y.md",
+        "runbook/README.md",
+        "runbook/review_20261102.md",
+        "runbook/review_20261103.md",
+        "runbook/STATUS.md"
+      ],
+      "has_source": true,
+      "hardware_acceptance": "PENDING"
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/i1_resident_service.md",
+      "sha256": "4f9d40855ce16728bf69e4c03a4f0f0b1738f82378419bf13950167d27357b5e",
+      "bytes": 7064,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/rx_bist_dma_acceptance.md",
+      "sha256": "0034cff4814aaae2f101dc95fc753ed1ccfe659c64e93b877552c5ceb1acaa66",
+      "bytes": 3771,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/rx_bist_capture.png",
+      "sha256": "93bd612b1089fbcfe996c9d06366e115b14879f7428da8a9d438bbbefcdea375",
+      "bytes": 120844,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/tx_loopback_acceptance.json",
+      "sha256": "a4845acc8ba9ba8293e562598938aa3e7455228febaa11a609ae5242dd8ddbee",
+      "bytes": 1538,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/tx_loopback.png",
+      "sha256": "d2d303ca02ae63c6de2a97301eda046b87e795c2c2a366988d8baaf8462a7131",
+      "bytes": 177826,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/rx_timing_margin.md",
+      "sha256": "3d60171d059a7c830be0bc2299dd340f7d90f0d02ee746f8af1170f00a30dc63",
+      "bytes": 2572,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/rx_timing_margin.png",
+      "sha256": "447a8912ef005635359b929edca1c91bee242343cc786dd60122c350e590a3aa",
+      "bytes": 59054,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/board_info.md",
+      "sha256": "62877ed93faf4b9fad7d7a188609199561d6981262e970f61b7e8ba83af7ca8a",
+      "bytes": 338,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/hw_base_summary.md",
+      "sha256": "d9722d2e91fe9cb3e30833ad2c7d7b0d9429b336c0b10d7611afc483a95f1da5",
+      "bytes": 3140,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/i0_s1_ota_r1_postflight.json",
+      "sha256": "a4caf9fa4bac0e527c627d552941388bc2890c8ef3e2860259038593f424f4f8",
+      "bytes": 358,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/i0_s1_ota_r1_preflight.json",
+      "sha256": "d97608b101c469db085fdd3faa3224f3c989a634674fd3d5b220b574d51023a8",
+      "bytes": 358,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "docs/sd_backup.md",
+      "sha256": "63a685f6c127ec6d549b062d6240db0ecedd3be9ad60edae12278895d3996c0a",
+      "bytes": 8228,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/snapshots.md",
+      "sha256": "4ec24235896680deb3c06c3cbca4dc5e6aac2092272e0c72371374e26728e046",
+      "bytes": 4801,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/h1_a_scan_r2/raw/result.json",
+      "sha256": "454f31df9d4bc6d667cea409e94cdef81d47347ca430e1022e193321ae34bbba",
+      "bytes": 86158,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/h1_d_scan_r1/raw/result.json",
+      "sha256": "b8a4f0babc8b80995467c57c5d651bae02a3c78ac26434f7190a9bb7bbd0610f",
+      "bytes": 419594,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/h1_fast_comparison_r1.json",
+      "sha256": "739f83761d254b13cb11bae038c59c1252e803bd5651c18df7292cd79eebdc77",
+      "bytes": 1788,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/fm_scan_candidates.json",
+      "sha256": "0469f73e90cb3b05b48e3b88448f7af4d24732057a53c3b8c60bba863a923c1b",
+      "bytes": 2315,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/fm_scan_round1.json",
+      "sha256": "6700ff83843bbc29c875058b3895b20f6b42ddaf45f85d5cd208613f93e3bd6b",
+      "bytes": 5163,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/f4_panorama_progress.md",
+      "sha256": "4e4b1ec529f07964e344ebfd82a9b478b978dcc0dfcf3aef70b0a7dc8257fb6c",
+      "bytes": 6143,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/g4plus_host_v2.md",
+      "sha256": "bcfa498431226be5167feac5fa69a31d81b097c22f8b45e7a19d3918a77fa482",
+      "bytes": 5626,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/x3_acceptance_summary.md",
+      "sha256": "2d3a5a4a46f118166df99c84e64dc3a70ac43662cf04cc37fc8f36dd3095b8df",
+      "bytes": 1701,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/drivers/regs/cfar_ctrl.py",
+      "sha256": "815fab7a37f38c3a26e5fa28794ffe7fbbef8e88bedb2a48a6f10a188e72a433",
+      "bytes": 407,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/drivers/regs/spec_ctrl.py",
+      "sha256": "a2a8a4587a7e9fdd8e696e63652afdf9b6193b073bba6052167dfab9234e4023",
+      "bytes": 343,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/cfar_ctrl.yaml",
+      "sha256": "1cac9300f2db5f028654eb7f54c27876eb4eab21925b1d525baad025a7589f97",
+      "bytes": 996,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/cfar_x1.yaml",
+      "sha256": "842eae08ff740daed8207a6e10c9d5f01d5f51601d6e69adff17570d27071d5d",
+      "bytes": 1317,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/lcd_ctrl.yaml",
+      "sha256": "53682c03cf7dbc169e14c703306e95d1089b7bf9c01e4e9232185eca14ebad14",
+      "bytes": 489,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/perf_ctrl.yaml",
+      "sha256": "a43fdf2467324bce061130c5daae13ced8e827eeb018fdbfedaa687ad8f15c05",
+      "bytes": 845,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/spec_ctrl.yaml",
+      "sha256": "077ae29705bb5ac09535cdf462097c30009c8d997caf15ae895cbd3157498a6f",
+      "bytes": 422,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/src_ctrl.yaml",
+      "sha256": "02a7300d2f3011729215b04aefeebd347facf49d2df71a6bf6e918499692d117",
+      "bytes": 813,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/regs/stream_x2.yaml",
+      "sha256": "6091d6ec7958e02117bf9a4e6748aeb138b4459978869944dc9fda8d82f79851",
+      "bytes": 483,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/x5_integration_progress.md",
+      "sha256": "ffb41dcc944703155134fa379860b6cce8ba2370bca5f5705da06ca1862691e5",
+      "bytes": 6323,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/x5_pl_interface.md",
+      "sha256": "660218bff2825bc9621f23d690faae0b5dc1ae54a3612bde12cc6d44a7cb7511",
+      "bytes": 9916,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/capture_x5.py",
+      "sha256": "0ba74bd08921a42ff68cb782d47af6574fff040c9a3d3c1b62896115e820ce11",
+      "bytes": 5801,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/amc_attempts.md",
+      "sha256": "a1872c9c8f38116e6aa74a3274a2227b7af3e7d256977980dc413d2b269d3679",
+      "bytes": 1144,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/amc/features.py",
+      "sha256": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+      "bytes": 3246,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/y2_board_checkpoint.md",
+      "sha256": "3fc7cb5f56ca6b7996487ab4213f998e24371c8e0b012b78633c228a66ef7d9b",
+      "bytes": 5837,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/y2_visual_z2_progress.md",
+      "sha256": "4bd0e7dcbb42f0d79e021e64b44e04caf5ce39a00aed38256b2f835ce605559c",
+      "bytes": 2979,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "tools/host/alarms.yaml",
+      "sha256": "d1f04ab600f6654c12118ae72a8ccef80a1a360d4cb355eaccc53828905fa971",
+      "bytes": 192,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "tools/host/sentinel_host/alarms.py",
+      "sha256": "938c382e3eb234168b65cdbcf64210298d5730852bd2ed321c623cc489d7f995",
+      "bytes": 1986,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/y3_noise_diagnosis.md",
+      "sha256": "fc8819420f8bf88eb6bb94b7b69edb045489d4c9275acf125b389bca30a1ac29",
+      "bytes": 6597,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/release/config.yaml",
+      "sha256": "83fa1dddf69930e36c32af8e7edbfe5c9e52011852461468b78cf89eca1b2620",
+      "bytes": 520,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/release_support.py",
+      "sha256": "a0e95c0b4234623525e7dcbd011c6eda6e952d73d7c3f41054e7ea12928d27e4",
+      "bytes": 7367,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/fm_quality.py",
+      "sha256": "1389eff0475d15480a9c387d83a59f4cf6f59cf6411d826f8335f22379548183",
+      "bytes": 2241,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_90000000_round1_demod.wav",
+      "sha256": "a648294f66976bb6084e83b538c0a113fdaf5d6d4a7f03b72dd14691042eee48",
+      "bytes": 96844,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_95800000_round1_demod.wav",
+      "sha256": "9e4b26dc538f3e97183eca33c41c2a125b7cc0ed791d63bdacc885e1f581b8dd",
+      "bytes": 96844,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_95800000_round2_demod.wav",
+      "sha256": "d2b7e628f3b8a7f7c672d1e7fd8773d386aac715b6c094e91f3b3a708d343045",
+      "bytes": 387244,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_95800000_round2_voice.wav",
+      "sha256": "d2c46b6ef64c32ada13d1e4a0dc986a25cb0a6835c80fa4a54bf8054265048b4",
+      "bytes": 380044,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_95800000_round3_demod.wav",
+      "sha256": "be192ef2c08909192a16961ffa4266153521bd98c2696fc58b31a953fbb5c710",
+      "bytes": 387244,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/results/fm_95800000_round3_voice.wav",
+      "sha256": "dd893b892573bd44e9023910eacc20ff0b41a340b8a9f690bc4c4d9ad2121b2b",
+      "bytes": 380044,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_90000000_round1_demod.png",
+      "sha256": "d39a11930975a7ffed7d6aa4d98fc0b8e042ea07ea9152698e743c948dfe6719",
+      "bytes": 151565,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_95800000_round1_demod.png",
+      "sha256": "bcafa3b990e8704b8722a8790554c3603a7c67ea1179824ec2a44da01876bb72",
+      "bytes": 143358,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_95800000_round2_demod.png",
+      "sha256": "ba035c872c083abe6b47d958797c45e082d3041c23e6cb80229138b629d60020",
+      "bytes": 131515,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_95800000_round3_demod.png",
+      "sha256": "cd1de52c301f3cb015ecea3161c92317c796f6c47ddeaae79d5ea2dc4f8592c8",
+      "bytes": 135892,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/i0_fm_comparison_r1.json",
+      "sha256": "37d077c521a80408351ae53486e9d7c2c81a99e9025955d1b796ee263aa7b805",
+      "bytes": 2301,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "docs/antenna_comparison.md",
+      "sha256": "ce20e9798a04255a2966aad1663877b6f7b6adbecdd73e10ce428abacafeace7",
+      "bytes": 6494,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_band_antenna.png",
+      "sha256": "040917305dbee20aae5de85baecbb6eadb1b84ca7c3957ec3f7b503de6fc8ad8",
+      "bytes": 188682,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/n4_acceptance_summary.md",
+      "sha256": "34196111f1510c71d925f4617b266be881d46f384e8104741e2778413100bace",
+      "bytes": 5287,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/n4_trace_simulation.png",
+      "sha256": "98fba23ba9863379d19de0b364dfd688f3cfe303c2c1c436867df37a9f478b28",
+      "bytes": 2942,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "sim/results/z10_clock_r2/source_compare.json",
+      "sha256": "c7c90a5f0c5642353dd62ca8d7aff7a7913b38a3b338a0e736ad791686e3f703",
+      "bytes": 228,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "data/captured/fm_diagnostic/fm_90000000_round1.sigmf-meta",
+      "sha256": "c5b01a556ebb7d7d412b86954174596699a2a37e645b3f84c638e235f7484c8f",
+      "bytes": 1678,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "data/captured/fm_diagnostic/fm_95800000_round1.sigmf-meta",
+      "sha256": "09db39314d92381d5ddae04a06feedd028fd45ba3184927b209751648203ec1f",
+      "bytes": 1677,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "data/captured/fm_diagnostic/fm_95800000_round2.sigmf-meta",
+      "sha256": "b86c7f24821633fcb2094860deb07fbacb6fa612c3d1f0c8e23a059ab07e00ba",
+      "bytes": 5289,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "data/captured/fm_diagnostic/fm_95800000_round3.sigmf-meta",
+      "sha256": "64a8066750f36f04d5edd857871c05856cdf18f15f7fb44091366199c98cf694",
+      "bytes": 5273,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "src/ps/sentinel/drivers/regs/src_ctrl.py",
+      "sha256": "464b23a059e0c4f5ae5d9c68260f5099e407a1c2e97c3672b0e0a36c0034fa49",
+      "bytes": 371,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "tools/golden_compare.py",
+      "sha256": "4a217bcdbb013b1cc370feb9a199751eda7ff41b58ea0d0cc528957bddb1053a",
+      "bytes": 2701,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/j0_regression.json",
+      "sha256": "8827748850a29a5eee145f9bc311dcbe748ff6c4a11c02165dc7140891e577a3",
+      "bytes": 1468,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/f3_evaluation_r1/confusion_10db.png",
+      "sha256": "365caf1a61809d6557d0eb7f7568879860e096464141c550f7125f0deff4ac69",
+      "bytes": 91353,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/f3_evaluation_r1/result.json",
+      "sha256": "d9be8eca1b0421e100566119c702151617ede810d96ca6d37be12e9860669a7e",
+      "bytes": 96946,
+      "original_date": "2026-11-03T15:54:25.695183+00:00",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/f3_evaluation_r1/accuracy.png",
+      "sha256": "ff4c8ac63c47e336b321c51e729d068d0b03a5cfd419e5e6e1d002c475ddff1e",
+      "bytes": 76291,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/f3_evaluation_r1/ota_curve.json",
+      "sha256": "5660cbe16421f3b35b69bf8a9c8aa5ad710119a454309993e47e001d64e7925e",
+      "bytes": 40603,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "docs/f3_ota_demo.md",
+      "sha256": "9072f2b04be347952333e6d72b5371379ef40a87694dc0e0e4a8deb071310270",
+      "bytes": 8248,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/amc_attempts_failed.png",
+      "sha256": "387adb73f180051d025f828640c101800969129a97e6cd6a4f11601bbdab33ff",
+      "bytes": 66258,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r1_confusion.png",
+      "sha256": "d8e8348f203d22cd924ba16ef42d0beff130af3c951b7719d772b2a71ba6e813",
+      "bytes": 82536,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r1_snr.png",
+      "sha256": "3b5b033f6f3f49f6634276931ca1f54bfbb1e58d4d67ebfe07aa964b83aec9a5",
+      "bytes": 100111,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r2_confusion.png",
+      "sha256": "e12ba3ee70ccc5ef4cbd809f80434dbb2cec1bbd4b471585938a3ef77dfda7a5",
+      "bytes": 82897,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r2_snr.png",
+      "sha256": "7bd4a19c769d5f5d170e1153a251d1585f7a78d11d95a1a1e657afdacb43e6f4",
+      "bytes": 102422,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r3_confusion.png",
+      "sha256": "b325c782594538fb1dc2235382297b15ff85a25ade2aa821f03ec767b3079eb4",
+      "bytes": 82822,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e7_x4_r3_snr.png",
+      "sha256": "27cd95580685904cf58b9a9a06406aa9f1915f9d7403e3390f0de555b747cd7d",
+      "bytes": 99952,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/f3_pd_r1/result.json",
+      "sha256": "db81aa0637457c65747e04a378d6ff7cb2033cf1465f5fe2bf2e2d1e57173421",
+      "bytes": 46419,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/f3_pfa_r1/result.json",
+      "sha256": "15dfdabc9fa3aa031a53c74676db22a6d6e84622c09e70c48aec4ddb221b3f3e",
+      "bytes": 41623,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/i0_antenna_s.json",
+      "sha256": "b49447df64a13a13f126d41872529bb7257b96af1a11da01fa6eaf1a61d06782",
+      "bytes": 3515,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/i0_s1_hotspot_comparison_r1/result.json",
+      "sha256": "d7756d05a70884b69dab90ccc06709a2028d7caaa002743bfa1d3bf1be356797",
+      "bytes": 3376,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/i0_s2_hotspot_comparison_r1/result.json",
+      "sha256": "dd02b5845e9342a453e6573ce15d97d08c9f1c2d4f45a1e239d7b5af2a481200",
+      "bytes": 3378,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/x3_perf_r3.json",
+      "sha256": "5887d371bb62d3720901cfd6586e17b49d31ccbf98ebb7103067694dceccdff4",
+      "bytes": 869331,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "report/figures/e1_x3_throughput.png",
+      "sha256": "2f9f63de805bbc4831e830ebdef21f37807df98b7ab3c82662f1c18b33cae93c",
+      "bytes": 49464,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/x4_board_r1.json",
+      "sha256": "c5cee651b5ffd4d7446030cdedd306475b87972e2c1887e10d164e0bd4afe249",
+      "bytes": 8964,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/x4_board_r2.json",
+      "sha256": "ea26fee829a33a85692d76c99d5b483204e21a0956af7f9eaa0cbfc224972f17",
+      "bytes": 8977,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/x4_board_r3.json",
+      "sha256": "f1e928402d6d9a9da1bdcef48833633a3b4eb75a21c362999485bed9a1c7f501",
+      "bytes": 8970,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/x4_cached_board_r3.json",
+      "sha256": "4938d9b461b84d87d1c371ec5996854bea6212dee7de155f501e1afbd8ccbcc7",
+      "bytes": 105421,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/x4_native_board_r1.json",
+      "sha256": "af540fe536019e885e48f826b29bb9c8d40485d3bc2748f8ff345c2350e919ac",
+      "bytes": 95847,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "report/opt_tables.md",
+      "sha256": "13686ec579b60c3597504b006949101781fac653d1130e8752450474d5a45a01",
+      "bytes": 3478,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e10_x3_display.png",
+      "sha256": "3c05feb6c81eec7d448be8af74359ae6b6c32ef7bf1176a8b1be07730666b47f",
+      "bytes": 63550,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/OTA_TX_DIM.png",
+      "sha256": "84f402eab602f03e92551f96b35511630ada381422fdfc68f3af4717137b7865",
+      "bytes": 10069,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/OTA_TX_ON.png",
+      "sha256": "fac79b396263e105de834cdf979c8b0891d1d15c9d2420d3d30f15cda506a93a",
+      "bytes": 9286,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/overview.png",
+      "sha256": "714e2e6cc31946ccf93b16e0e41e04ab5b7b7cd4fcd9e200c0e381fc96ed9db1",
+      "bytes": 53593,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/SELFTEST.png",
+      "sha256": "c952205f0ba8d238006df5dd1765f5f7b35db493f78c57544e3d8977a4fae521",
+      "bytes": 8960,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/SIG.png",
+      "sha256": "81b3690999627e043156625c9b55d7c6c30ffed0b123d752ff6d2fdbdaa204ea",
+      "bytes": 10877,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/STAT.png",
+      "sha256": "c56f64d1846f91a29c9e6a931e177699bc5f6591f1acb4824fb3e54790e4fb33",
+      "bytes": 8667,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/ui_v3/TGT.png",
+      "sha256": "d8c805665347d45adf0c6df9d5024e9f95460fadca5dcaeae1499ee087412cb6",
+      "bytes": 9912,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/overlay/sentinel_v2_100m/acceptance.json",
+      "sha256": "a1818fbf103b9539766d4ac30eee3acd63e15dc5798e506a4a5157bffafa31f1",
+      "bytes": 149718,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "docs/timing_closure_strategy.md",
+      "sha256": "39f71495a9821c0f60645f97b13e1e9955979233e0fdfaff7e72d3d23b262beb",
+      "bytes": 6561,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/timing_closure_workflow.md",
+      "sha256": "b76c26812fb2ea97cd649b6202aec24f2b56961d7d09712576b42c9aacb34e84",
+      "bytes": 7495,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "board/measurements/g4_board_r1/live_A.zsr/manifest.json",
+      "sha256": "998a9ecbac94d2da2e60b733dc3a5dbb669ed5267898f527ab9986a7b0414643",
+      "bytes": 296,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/g4a_board_r1/live_A_twin.zsr/manifest.json",
+      "sha256": "6512d119bc818b2f7fea81ff23177a66e8cf4376fc0a5e9a5a9198b0cee78f2a",
+      "bytes": 296,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/g4c_board_r1/live_A.zsr/manifest.json",
+      "sha256": "c97bab869d40137922044eab773c81f4a9220e0384093391d8725993b5b9fe99",
+      "bytes": 296,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "board/measurements/g5_a_board_r2/live_A.zsr/manifest.json",
+      "sha256": "958561a569fa438b2decb319b413ba3c4670e818f853f2e5686a1864b03fa190",
+      "bytes": 287,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "data/captured/samples/rx_bist_verified.sigmf-meta",
+      "sha256": "ed802ebfebe06dbf7f29a23f2f7d4f7bbdc4cfcf6ed65a852ce94b0e3a7dc0f4",
+      "bytes": 775,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/g5_progress.md",
+      "sha256": "9b868fc1a4a43b5bc0d09077987eddd9fffe9f90b1412fd10b47ca32173352ef",
+      "bytes": 1207,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/host_coverage.md",
+      "sha256": "88e692bd2c91c2f9f11165d5898b4114dcaa15207f5af3d4ea1e645df1b91305",
+      "bytes": 16969,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/STATUS.md",
+      "sha256": "b7593e0036a132d85c302673098ad71b04116ce9643548dba92d73a0a17126b3",
+      "bytes": 75082,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "docs/g4d_progress.md",
+      "sha256": "53f258b27ef0c7c687e6919932b304a66400a06420645688b01d65018b0f1b21",
+      "bytes": 5807,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/feature_list.md",
+      "sha256": "cb61e424fe9f9cb0003845de21bdd21fc36e76d16e9e51167f085d38536ab50f",
+      "bytes": 4332,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/F0_freeze_snapshot.md",
+      "sha256": "beca55f28d72cedc483c7c7bf14fc15b06dcc08ed98c40c94b4e478f693b5f45",
+      "bytes": 2668,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/F3_ota_demo.md",
+      "sha256": "b491e4b5516bd2ff4b66d0bb6a1d16559332196153e51164e0bf3955bfa7ed51",
+      "bytes": 2537,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/F4_offline_preparation.md",
+      "sha256": "3397b8b2cb5be8bf1eb4817fe171df7be359c2beaeee69bc4cb5414108be8d4a",
+      "bytes": 1904,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/G1_persistent_runtime.md",
+      "sha256": "e8d99a8895507ff843ffae542b2a8175cd36f47e2ea04d0e3fa34bb5d87702a4",
+      "bytes": 2086,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/G2_ui_v3.md",
+      "sha256": "d1a68535679b74ae66d7af62ed20f0c176b570259ba46eefb25d946c7181e077",
+      "bytes": 883,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/G3_hostlink.md",
+      "sha256": "fe809765e6118c64778f63e9f1ec8547c752f900a228d3ce6c4f732e52c05372",
+      "bytes": 995,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/G4c_host_shell.md",
+      "sha256": "8b0fdab4debfb21b2c1d6db10a50d71db3c08da7088fea3db2212b8e50b92bf7",
+      "bytes": 2496,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/G4d_fields_dma.md",
+      "sha256": "2b847c2d2723679e644f14925015647fa6bfef3237b9a3cdb6fea19e7a32a88e",
+      "bytes": 1646,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/H1_panorama.md",
+      "sha256": "9ca4c082213ec49f67a8185f04a02adc7668b8769c24fa370c7369b57a3f3826",
+      "bytes": 1846,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/I0_antenna_selection.md",
+      "sha256": "b7fac5057ac71b9184ea17b846a091d3408392d1eb389b2a5334fe0e0642ab8d",
+      "bytes": 1664,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/I1_resident_receive.md",
+      "sha256": "52790996d60662f7eac4b08f5a96840beda21912f2e7c0c762bc02767e27217e",
+      "bytes": 3375,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/I2_presenter_mode.md",
+      "sha256": "de749aaeea45350e4c53b943b46721fd238aab9b19eb6d19bddece5ab7c6e9c9",
+      "bytes": 2209,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/J0_preserve_checkpoint.md",
+      "sha256": "32142d17a71a894ccb9bb368c851723414c42e00d52ddfdad369d497b1725cb6",
+      "bytes": 1442,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/J2_v4_product.md",
+      "sha256": "dce06aef1d571f54f8d3baccdccb22a08b8e53032d70013bcfff43bbc55cfb4d",
+      "bytes": 2103,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/M-A_X0-X3_checkpoint.md",
+      "sha256": "9ded6bf08166bc5377f0f50ea7ecf60f3f059354fe3334dffff37d10c80b0874",
+      "bytes": 2010,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N1_recovery_checkpoint.md",
+      "sha256": "d4264ba57aa4d8817ace21c2cace7994dc55956ad8ab6adfb5c768283da58b4c",
+      "bytes": 2140,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N2_spectrum_rtl.md",
+      "sha256": "2fffc5c17c0fee684adda24cc514e5da9e2cb010bbaf75c3220bd2d54e0198dc",
+      "bytes": 2374,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N3_cfar_rtl.md",
+      "sha256": "c2af61d4455f4d94cb25b00e57fac799d51c7a9294db9054d940d36edddf59e5",
+      "bytes": 2122,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N4_display_checkpoint.md",
+      "sha256": "c3e9c3797687686e6e722b845c80cfac00fc0bd1312b12c783d90b033f000a71",
+      "bytes": 890,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N4_integration_checkpoint.md",
+      "sha256": "f79b9065f44971b1471123706dd6434ca0ebdcbc6cf3edda39c54735feefec1e",
+      "bytes": 2374,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/N4_local_resume_checkpoint.md",
+      "sha256": "05c23a8df1c1e468ef25f4dde8312d74223e5cd2bf6f41aa35ae291e59526dff",
+      "bytes": 4763,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/p0_environment.md",
+      "sha256": "5c55157f62f9380ebccafa34f5b5f07b49ce0b57735db5c043e6d4774b6beef3",
+      "bytes": 2216,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/p1_hdl_port.md",
+      "sha256": "5fc0147c988a8e3f253acd2d2d016f6c4a65131d9fb7a0ef500043b30001c7ba",
+      "bytes": 4167,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/p2_golden.md",
+      "sha256": "fdcd17ae1ec350d8b9643d043b3958ef05841ed2cc90f91160b1fc8dc0bae754",
+      "bytes": 4999,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/p5_runtime.md",
+      "sha256": "e199a6c33ff6879f0574f94aa420588c22953df22e87c63288d837148d1f7970",
+      "bytes": 12169,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/X0_X4_followup_20261103.md",
+      "sha256": "b87ffedfac7c2de9c2494fdb45c4765f505f089d20f9db0f0c0b3c2cc0c7bc02",
+      "bytes": 1719,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/X0_X4_optimization_20261103.md",
+      "sha256": "9f13f6212c557cc9e67c373fc3f1b1d406276b71b19052b4759947f61f9a537b",
+      "bytes": 1822,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/X1_cfar_quality.md",
+      "sha256": "6845eb047a766d8fbe550056ef6b3ac3595fe79c15278aa5bbfa17939a958e30",
+      "bytes": 7636,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/x4_amc_checkpoint.md",
+      "sha256": "69b0c9456389dfe59c119b7f8de0cc5e8fb66d62e058ca9edd0cddc4b12a82df",
+      "bytes": 1227,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/Y0_X5_checkpoint.md",
+      "sha256": "c7609e72be6b74f1fbb52195fc9e85f34c608a599de557747a937040e85f7a7e",
+      "bytes": 1768,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/Y2_board_integration.md",
+      "sha256": "d715339d0449a653267abeb82d8957a99c8ddf5bf875882871be628bdbc67043",
+      "bytes": 1727,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/Y2_visual_and_recovery.md",
+      "sha256": "f7c9e0443746b76a420b80de24b5266cf2eb56cee74a7ca6c72374bed828248a",
+      "bytes": 1591,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/Y3_noise_diagnosis.md",
+      "sha256": "f10ed6208477f647250371949e712bf0a9f17a5992523c807cb8f366c9f392b4",
+      "bytes": 1577,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/llm_logs/Z10_clock_hold_review.md",
+      "sha256": "4db784574e0cabd0c44cd355216696b14fcd97a886002f5f256077a979026651",
+      "bytes": 4010,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/e1_x3_latency.png",
+      "sha256": "dadd17d0c36bba89453a77a57260b89f931791da7389176fdbebc8f2df8dc433",
+      "bytes": 37354,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_95800000_round2_voice.png",
+      "sha256": "1564126256916d1d4998e7f7c4d543ce1de6cd25c490b8fbbfab7a6a3f47c3cf",
+      "bytes": 127472,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/fm_95800000_round3_voice.png",
+      "sha256": "cee2d20fdba8eb19f6d7292b7a53e0c4d2e34a109262145da3bee35de7f32ebc",
+      "bytes": 131246,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_fake_preview.png",
+      "sha256": "641bccb71fe3bc76d65331b655ff505d45a53d8330b43e1bd78f3f9d99e87046",
+      "bytes": 26648,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/01.png",
+      "sha256": "a6e9b3047541e41cfb63e4cd960ee29b9f540f9b27a1d460620873b160710ac3",
+      "bytes": 260326,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/02.png",
+      "sha256": "248ac807ddaadf8194a2f80e0e185c5d748906361d8398f5c8abfeee1875b09e",
+      "bytes": 281562,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/03.png",
+      "sha256": "843aed28728a1dfab6428b6735d2e553bae40aad5f8664b88de51c4084a5e9fb",
+      "bytes": 281849,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/04.png",
+      "sha256": "0be226e58965d764f6016d6612e425f2094acbf7e3dcc3ecd46b075e46eb5c53",
+      "bytes": 260844,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/05.png",
+      "sha256": "0ccd6474de02628df4824fdfbd5493bf1d59a817239cb85a4caa12d02ddd3e61",
+      "bytes": 273171,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/06.png",
+      "sha256": "8ad76b976338caac38fdf5feda0a8fcc7947ee1286dd4c106afc265bd5e2ae69",
+      "bytes": 290846,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/07.png",
+      "sha256": "4c2b861817e2d96b765c7e8c3ec1a50359e4ba9381f54111d152fbeb317017d7",
+      "bytes": 265533,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/08.png",
+      "sha256": "2b7aac2aa9864f0bdfcfef36a3c11231b67acefc7a112019720d45b0a77dcf5f",
+      "bytes": 299402,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/09.png",
+      "sha256": "cee33f760d278cb8c3ee909a9063ba59a2f608292c691171705f79adb2987b60",
+      "bytes": 258323,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/10.png",
+      "sha256": "c55d85c1f8bf4859bc92ab8e80771e6051c82c9c13d416dc26eebed57194e4c4",
+      "bytes": 307129,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r1/overview.png",
+      "sha256": "a7ca9d5478f0db1f7abacdbe5aebbab5fa7eb18cb816f943eddfeb1a29c132d8",
+      "bytes": 724136,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/01.png",
+      "sha256": "d8daf038ee52c28a6542c6a807f45c0517bf806723ff60f78475147c08cab016",
+      "bytes": 272281,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/02.png",
+      "sha256": "18b3c600aee3270011fd21b41b09bbe880724e9804da5d00259426f1a4dc9003",
+      "bytes": 279957,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/03.png",
+      "sha256": "3f0c3f758c374432e20fb575d0b97338eff3f2ce9d6972e87350d6d6f43d8925",
+      "bytes": 282856,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/04.png",
+      "sha256": "1b08f17a96313c1f34db488e6c2fb48c7e40c13eb75d96b01bd9b8505c8f1829",
+      "bytes": 266015,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/05.png",
+      "sha256": "4b094fcedf0d178ea5c4f8cda1b5397e83322a1e0469949a8bbd9864e79082c0",
+      "bytes": 258425,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/06.png",
+      "sha256": "7bd41212507c0053476c3257187d1e42c42a52400e515ae1d92077ffc16da534",
+      "bytes": 281199,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/07.png",
+      "sha256": "0b4860a615802314f866c210a413579029c16617cf843798c99dc2bfff829926",
+      "bytes": 268995,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/08.png",
+      "sha256": "043eb024a77057ac1dabb188051694751c16a573805df382afbeac129d3c05e6",
+      "bytes": 316273,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/09.png",
+      "sha256": "a877d6d0d733fb834a630d39e68c9d08eeb8122abbb3d05d585440dc0a87b05b",
+      "bytes": 265491,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/10.png",
+      "sha256": "97415ec251d80ccbb0589e60555187b1fe3253b1061a8635eb681bc248f52592",
+      "bytes": 312413,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r2/overview.png",
+      "sha256": "52533ff18f865e6d9f834f48f1fc359eab42688084d33852002905d8d39cc427",
+      "bytes": 753566,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/01.png",
+      "sha256": "d8daf038ee52c28a6542c6a807f45c0517bf806723ff60f78475147c08cab016",
+      "bytes": 272281,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/02.png",
+      "sha256": "18b3c600aee3270011fd21b41b09bbe880724e9804da5d00259426f1a4dc9003",
+      "bytes": 279957,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/03.png",
+      "sha256": "3f0c3f758c374432e20fb575d0b97338eff3f2ce9d6972e87350d6d6f43d8925",
+      "bytes": 282856,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/04.png",
+      "sha256": "1b08f17a96313c1f34db488e6c2fb48c7e40c13eb75d96b01bd9b8505c8f1829",
+      "bytes": 266015,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/05.png",
+      "sha256": "4b094fcedf0d178ea5c4f8cda1b5397e83322a1e0469949a8bbd9864e79082c0",
+      "bytes": 258425,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/06.png",
+      "sha256": "7bd41212507c0053476c3257187d1e42c42a52400e515ae1d92077ffc16da534",
+      "bytes": 281199,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/07.png",
+      "sha256": "0b4860a615802314f866c210a413579029c16617cf843798c99dc2bfff829926",
+      "bytes": 268995,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/08.png",
+      "sha256": "043eb024a77057ac1dabb188051694751c16a573805df382afbeac129d3c05e6",
+      "bytes": 316273,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/09.png",
+      "sha256": "dff6b9eb21753222c615c2e052b5ae65d8c4c89c7c99bec82fa1c977b11664b8",
+      "bytes": 265521,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/10.png",
+      "sha256": "97415ec251d80ccbb0589e60555187b1fe3253b1061a8635eb681bc248f52592",
+      "bytes": 312413,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_j_v4_r3/overview.png",
+      "sha256": "52533ff18f865e6d9f834f48f1fc359eab42688084d33852002905d8d39cc427",
+      "bytes": 753566,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_layout_v2_mockup.png",
+      "sha256": "abe1b7163632efb25e0289446b7af7cce950f9bc8bd731c7c4d76345d0ad9ec8",
+      "bytes": 165486,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_preview.png",
+      "sha256": "201d803e54cdb7326580784e60d5f52b3ec56d6eb89b7b489ded54237221a33a",
+      "bytes": 68654,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_preview_v1.png",
+      "sha256": "c3e83bb9c08943d7c91fccf782a94c631dc61672a8d4b9e6f31c7481691385c2",
+      "bytes": 75715,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_v2/audio.png",
+      "sha256": "25270f07b721c10512cff4adcf633efbdd33e91b2993879f1a7fc97828f037d4",
+      "bytes": 199988,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_v2/loopback.png",
+      "sha256": "2c9b7a8780ffb4bf94741b004a13bccac84ac2ff3f23a4fec5e00b9ee79744c2",
+      "bytes": 173640,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_v2/monitor.png",
+      "sha256": "cbb7be52052b981b4cd6011dfdeff8014d77b3637cfa480ca25da7c65dce24fa",
+      "bytes": 255126,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/host_v2/recognition.png",
+      "sha256": "89429e039f7939cf5fa3cee010d48c9625cc6bfebb3482e958971f1e0e112905",
+      "bytes": 262724,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/figures/x5_prototype_response.png",
+      "sha256": "0482298c95ee256276fb6b9ca47f6fa8eb5e00278954757bff8d5b948ea971a5",
+      "bytes": 71087,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "ORIGINAL_SIDECAR_MATCH"
+    },
+    {
+      "path": "report/figures/z2_ui_preview.png",
+      "sha256": "0733e8a7adf9b20663fdb37a451803abc5802e8aeec474e4edfaf2940ceea19b",
+      "bytes": 7962,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "report/design_plan.md",
+      "sha256": "f3da82b1defb3de8f87e581ce791cf431f07cf3e0085aea8f612596095080a4d",
+      "bytes": 52784,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/00_env.md",
+      "sha256": "f193e868b8cd356b4455055b149d74a645a78ece656cfd4392a85d3f079691dd",
+      "bytes": 12318,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/10_hw_base.md",
+      "sha256": "e9160500cd9e79f0ac179e7ac1d689fdd1b58555920338995424dad91da3b83e",
+      "bytes": 27896,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/20_golden.md",
+      "sha256": "3bdb5cfa6e60260cce4f47cab5376200c851e7eca4df32a9eb66958a0188ea3c",
+      "bytes": 14307,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/30_rtl_ip.md",
+      "sha256": "4a29811010fb263281239b148ac7cf6bc5236daa96752ddd8d11ce4dd8bba9ea",
+      "bytes": 16180,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/40_integration.md",
+      "sha256": "2563b4e858b7af1f9c21706f15d06f39ea240c9bfd149812d145b3dbc6975bc4",
+      "bytes": 16297,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/50_ps_sw.md",
+      "sha256": "c56da1c8d8e78389d8b9cf843462e5611cc30427860d504ebc3ef49ff8cae956",
+      "bytes": 15914,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/60_board.md",
+      "sha256": "b7df84fe507da151af97348dad66eb395bf37b0d929911744647794ec5e20996",
+      "bytes": 20578,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/70_deliver.md",
+      "sha256": "bcfc165d499fb0b411c0693658ef427398bbeed881e90bf1d8c9b566e167eb6c",
+      "bytes": 9844,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/80_next.md",
+      "sha256": "e02794b93f459ecfb6d85ac84cbe39a20c5a13f83dda50039ef00bf16cc89be7",
+      "bytes": 26140,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/90_plan.md",
+      "sha256": "893895f9c88b91b4fb2adb59dcad48b1260b18929e4131477c31326f9710f9a0",
+      "bytes": 15088,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/95_final.md",
+      "sha256": "14a46da9a68bd5352bec96248fa5f241b9931f092de1372a2fe424794d69899a",
+      "bytes": 26222,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/99_finish.md",
+      "sha256": "3e5bc40cbebef690b469fc60af74a33f19309ee12bf0308f4ad6ccd22bcf28b5",
+      "bytes": 12656,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/CONTEXT.md",
+      "sha256": "e6db59ad0cf88fbeb0165b9cddfd7ae9bf5a5a4a47454c94248020bc75b46aa2",
+      "bytes": 41078,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/G_showcase.md",
+      "sha256": "bb96d99d5598b5d9f0f2171d0dc87de53be97c8b8fc49963e2d304156942a528",
+      "bytes": 44498,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/H_interactive.md",
+      "sha256": "8a94159c705f4d166825af0a4294266bbf0db2e38fbfc801d18b188e9cc4aed2",
+      "bytes": 18271,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/I_presentation.md",
+      "sha256": "72c42b191466e0dee2faeef7cdb4604438997428ee132d06dc95337decce1d65",
+      "bytes": 18294,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/J_polish.md",
+      "sha256": "6e78efbe2625b9c3648d36df03310ab79967f3e94fa3174036477ac9ff9c7062",
+      "bytes": 47853,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_F.md",
+      "sha256": "d3b5406ab292316b0654d500bce009fad38f51aa3ead734a5b2d067157eec0d4",
+      "bytes": 3367,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_G.md",
+      "sha256": "b0094d19a1b3f34e95ae78b9722345927bea80ee18cf3709371563cfbfb4d126",
+      "bytes": 6372,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_G4plus.md",
+      "sha256": "cac21381df9af91792f62010c9951c48398c6af1815044f20f9628b754476de7",
+      "bytes": 2027,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_H.md",
+      "sha256": "201d6595e0b34ec3f8472d4e75bdc5157985d7dd02b99c6a3bfe9f3e6bd9d615",
+      "bytes": 4459,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_I.md",
+      "sha256": "f9a7c18f2e6a078467d439c4fb066204053256127fa124c700d3f868194f5277",
+      "bytes": 4281,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_J.md",
+      "sha256": "611e323b3a67e32eb69dec5ea7029e6a12fbfb6e6eef46751f69648212dbee06",
+      "bytes": 6503,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_N.md",
+      "sha256": "2c8728c65b8074079798d95eb7cedc156416451cbce3eb9d090f5e0ef9c06539",
+      "bytes": 2390,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_X.md",
+      "sha256": "6e8b8363932bd246eda099872ab11566bed0375735f70609e91e77067e2ed22c",
+      "bytes": 3517,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/KICKOFF_Y.md",
+      "sha256": "94595ef42302acab860b76e79559dcd8e1cbb91da17df70511bf576f98928415",
+      "bytes": 4138,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/README.md",
+      "sha256": "d915eb5326c60f4f76a0b83cdfce6521ee8743d5ab89f45fc986fabf7ca2b07b",
+      "bytes": 9905,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/review_20261102.md",
+      "sha256": "360e05a4775b185dfa8eb2385a78e50bd94a0f76781d14c998bb1424047c5b00",
+      "bytes": 8003,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    },
+    {
+      "path": "runbook/review_20261103.md",
+      "sha256": "df2f60f75b316db7ead357f651c6739e967fda45cc714a42b96b5cc778b140f3",
+      "bytes": 5434,
+      "original_date": "原日期未记录；请查看关联测量",
+      "integrity": "CURRENT_SNAPSHOT_HASH_ONLY"
+    }
+  ],
+  "missing": [],
+  "mismatches": [],
+  "hardware_started": false,
+  "full_feature_acceptance": "PENDING"
+}

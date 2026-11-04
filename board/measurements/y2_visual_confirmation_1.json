@@ -1,0 +1,10 @@
+{
+  "schema": "y2-human-visual-v1",
+  "recorded_at_pc": "2026-11-03T03:23:51.969086+00:00",
+  "status": "PASS_VISUAL",
+  "user_response": "\u8ba1\u6570\u589e\u52a0\uff0c\u5217\u8868\u548c\u70b9\u56fe\u53ef\u89c1\uff0c\u753b\u9762\u6b63\u5e38",
+  "scope": "Frame updates, list/constellation visibility and display integrity only; not FM classification accuracy, FPS gate, Z2 colors or audio acceptance",
+  "start_sha256": "2dd1c198120714989a2453b63a379865a354a3aa1627807c9885393790220aac",
+  "configuration": "A",
+  "RF_TX_requested": false
+}

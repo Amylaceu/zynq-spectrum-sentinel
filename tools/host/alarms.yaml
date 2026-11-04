@@ -1,0 +1,7 @@
+# Detection duty fraction, not a calibrated RF channel-utilization measurement.
+occupancy:
+  - name: FM observation
+    min_hz: 95000000
+    max_hz: 96000000
+    ratio: 0.9
+    cooldown_s: 30

@@ -1,0 +1,51 @@
+{
+  "schema": "j_v4_update/1",
+  "archive_sha256": "b7b604001e60b990d0c3a4d88d2b9a15a4524ccb51e1204c27a367aa72973f97",
+  "members": [
+    {
+      "path": "runbook/J_polish.md",
+      "bytes": 47853,
+      "matches_current": true,
+      "sha256": "6e78efbe2625b9c3648d36df03310ab79967f3e94fa3174036477ac9ff9c7062"
+    },
+    {
+      "path": "runbook/KICKOFF_J.md",
+      "bytes": 6503,
+      "matches_current": true,
+      "sha256": "611e323b3a67e32eb69dec5ea7029e6a12fbfb6e6eef46751f69648212dbee06"
+    },
+    {
+      "path": "runbook/CONTEXT.md",
+      "bytes": 39198,
+      "matches_current": true,
+      "sha256": "1c3a3bf08c82114ea8fabc36d9b1ec1321fee870a944695e3b8276e08f8100ff"
+    },
+    {
+      "path": "runbook/README.md",
+      "bytes": 9905,
+      "matches_current": true,
+      "sha256": "d915eb5326c60f4f76a0b83cdfce6521ee8743d5ab89f45fc986fabf7ca2b07b"
+    },
+    {
+      "path": "report/presentation_script.md",
+      "bytes": 9130,
+      "matches_current": true,
+      "sha256": "f28f5d6ceee86c8ab48f5a854082430d3885f49115b4ec2df7372e63ac70723e"
+    },
+    {
+      "path": "report/presentation_guide.md",
+      "bytes": 4750,
+      "matches_current": true,
+      "sha256": "d89ff4ac75d54fcba17961e5b48cf322391f111895de7fd771fac6df06e9327b"
+    },
+    {
+      "path": "report/feature_list.md",
+      "bytes": 4332,
+      "matches_current": true,
+      "sha256": "cb61e424fe9f9cb0003845de21bdd21fc36e76d16e9e51167f085d38536ab50f"
+    }
+  ],
+  "all_identical": true,
+  "action": "NO_OVERWRITE_REQUIRED",
+  "hardware_started": false
+}

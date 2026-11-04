@@ -1,0 +1,13 @@
+name: lcd_ctrl
+base: 0x43C60000
+width: 32
+regs:
+  - {name: CTRL, off: 0x00, reset: 0, fields: [{name: EN, bits: '0'}]}
+  - {name: BUS_PHASE, off: 0x04, reset: 25}
+  - {name: UI_EPOCH, off: 0x08, reset: 0}
+  - {name: FRAME_COUNT, off: 0x0C, access: ro}
+  - {name: UI_APPLIED, off: 0x10, access: ro}
+  - {name: STATUS, off: 0x14, access: ro}
+  - {name: DROPPED, off: 0x18, access: ro}
+  - {name: FRAME_ID, off: 0x1C, access: ro}
+  - {name: VERSION, off: 0xFC, access: ro, reset: 0x4C430001}

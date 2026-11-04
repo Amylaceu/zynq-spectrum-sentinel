@@ -1,0 +1,23 @@
+{
+  "status": "RF_NOISY",
+  "quality": {
+    "good": false,
+    "pilot_frequency_hz": 19023.16494557633,
+    "pilot_prominence_db": 14.530780624384947,
+    "large_excursion_fraction": 0.011163829193413341,
+    "iq_rms": 0.16021534587120706,
+    "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+  },
+  "rx_gain_db": 69,
+  "rssi_dbm": -89.25,
+  "station_hz": 107100000,
+  "lo_hz": 107050000,
+  "tx_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "iq_file": "noise_e44523aab13c440f9fedad40730c6503.npz",
+  "iq_sha256": "b748412396b0da05020fef0c9dd144cbb85896d2c933cc1a900e6de1e7f538a9",
+  "sample_rate_hz": 480000,
+  "scope": "Known stereo station pilot warning; not physical interference diagnosis"
+}

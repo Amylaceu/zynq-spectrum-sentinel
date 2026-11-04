@@ -1,0 +1,12 @@
+{
+  "mode": "offline_board_cprofile_no_rf",
+  "attempt": 2,
+  "limitation": "Profile overhead; not the official latency benchmark",
+  "source_archive_sha256": "f48b34e6934c5ade9f924092ebca71230d27f817eb3d5fe653260365e4aa2806",
+  "sources": {
+    "tools/_x4_profile_temp.py": "501a0b546fe3c874125c74426246859460b66f3abcd7a746f8c285ef11b3190d",
+    "build/work/x4_fine_validation_probe.py": "6240a3f2bff86bf39a6a2259c557099fa5542857dc271cbc522f5cff49e90750"
+  },
+  "log": "logs/X4_board_profile_r2.log",
+  "log_sha256": "82139c033d4f35f2e2dbc10e5a4dcdbacb6e92a59d8c109b8115ef4ace9bf826"
+}

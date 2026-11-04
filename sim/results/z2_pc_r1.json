@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T03:33:29.729088+00:00",
+  "scope": "PC tests,8-color scroll simulation,IP packaging only; no routed timing/board acceptance",
+  "pytest_exit_code": 0,
+  "ui_version": "0x4c430006",
+  "bank_used_bytes": 64000,
+  "bank_capacity_bytes": 65536,
+  "banks": 2,
+  "source_sha256": {
+    "board/scripts/run_z2_monitor.py": "8172a991b5b5f1ac3f66fbbc87f2ff2a42dc6b4510d2ed66ec4c3b12aecfe8c1",
+    "build/scripts/package_z2_lcd.tcl": "e2d3ae85acfc4822ac3cdccccb0eb1846a56bbe585f71a0541e2361aff92142a",
+    "report/figures/z2_ui_preview.png": "0733e8a7adf9b20663fdb37a451803abc5802e8aeec474e4edfaf2940ceea19b",
+    "sim/tb/tb_lcd_render_scheduler_z2.sv": "9214f3d840179288b80d61e69df1074fdd1073ae4f1f21e037e2a3bbb2e6bce2",
+    "src/ps/sentinel/app/monitor_z2.py": "b2c1c27f6f84438fa18e96009335fa00cada598706fd59a408a2e9c0e4202c6c",
+    "src/ps/sentinel/lcd_x5.py": "617d0a61def62072e7aa6fb589129a665837d9213d16d8fea3288ee8f22d1ea4",
+    "src/ps/sentinel/lcd_z2.py": "b7c603f57973d77eb859f5d4ed446813b683504b689864099b1bf7711b5cdb5f",
+    "src/ps/sentinel/ui_events.py": "63d0e9c718b1cb96194d67141135b82eaf56bf78e8d104446ceb5bb79109c178",
+    "src/ps/sentinel/v_z2.py": "0aea48d69b756856376f928ee4b829613f4fa183cfe4502f3ae0dadeaa340511",
+    "src/ps/tests/test_lcd_z2.py": "5d8f61c195c993dbdf0847e5ea737f9a2ca391710d86d07af49d40bdb37b68a4",
+    "src/rtl/common/lcd_init_rom.vh": "cf0559a787335dc5d4f1d41a0e412b64e8fb50b6d52a44559fa7c6f124b62e5d",
+    "src/rtl/lcd/lcd8080_bus.v": "6a6d1b3a5cc469de993c67367f1022ba0ae23c46eb199e9cf4ff19cf936e9ab9",
+    "src/rtl/lcd/lcd8080_region.v": "e5115e6be4272435fe0eb0fbcae0934e64596f50c1ce162b62bfeea2affab49d",
+    "src/rtl/lcd/lcd_snapshot.v": "64c8cecca72bd66ebd31db57e2061da42fff921da10454f09d4ab3f1160a966e",
+    "src/rtl/lcd/lcd_trace_pixel.v": "4c4a9eccce3fc68cd5d7d75f2434ab82374d001796a1434ee1702004fce3b651",
+    "src/rtl/lcd_z2/lcd8080_engine_z2.v": "835f3a64df70176ff513a8c7db38d65ed4f3e003d02aa956cc8b8244ab20a322",
+    "src/rtl/lcd_z2/lcd_ctrl_regs_z2.v": "5c6704405c2d7b907ee69e434a7880182f48e11d8f89700a1308c74e258b91ee",
+    "src/rtl/lcd_z2/lcd_render_scheduler_z2.v": "7166936332f319aab1867fc927901c0e7744c181883f89c601b2aa7457769aaf",
+    "src/rtl/spectrum/spec_display_reduce.v": "8349b1b202e32089b4525b3a9d30632dc4e364cf5957aa2e1a42d332afdef963",
+    "tools/package_z2_lcd.ps1": "66e62bd8f6d616d274a5a5a673fa3b6831c44d256c77de6ba5e264ccad89ee03",
+    "tools/test_z2_lcd.ps1": "04e11f6674f6369824be570f37cfb742932466481ad982c09e856760c6347ed0",
+    "tools/verify_z2_pc.py": "89a9bee2ce2fcc19241f1af2684448371456c1f1af0ba794d6864c1944e5e6b5"
+  },
+  "log_sha256": {
+    "logs/Y2_z2_pc_regression_r1.log": "cc0990eb979d2f89016228103813e975ce5fed4e64c5fa56b5f866e2d53600b2",
+    "sim/results/tb_lcd_render_scheduler_z2.log": "ba71ec985eeb41c2bd062a7a4ed0b6037609bd137c8ae9c416ddf4a09db295a4",
+    "logs/Y2_z2_package_r1_controller.log": "e575c97aae557e0b8d9c3f25d8d6efad6c2488ba0fdee54770f3dc9c85fd7deb"
+  },
+  "archive": "report/results/z2_pc_r1.zip",
+  "archive_sha256": "9b400b70909ac89f38347b83fe26e54fb193b9cd0d9c3ba1a3c5736edd5e6cd5"
+}

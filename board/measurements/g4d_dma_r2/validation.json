@@ -1,0 +1,134 @@
+{
+  "host_started_utc": "2026-11-03T22:00:23.960637+00:00",
+  "configuration": "A",
+  "tx_requested": false,
+  "script_sha256": "3322f323c84cf395319a38ef94ff3632e2b32f07aeaff2e9fad62913b2ed4034",
+  "seconds": 10,
+  "execution": {
+    "exit_code": 0,
+    "pid": 19293
+  },
+  "measurement": {
+    "status": "MEASURED",
+    "configuration": "A",
+    "tx_requested": false,
+    "seconds_requested": 10,
+    "source": "raw_adi_rx_dma",
+    "audio": "NOT_STARTED",
+    "sample_index_scope": "delivered descriptors; no embedded ADC sequence counter",
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "elapsed_s": 10.101931220999177,
+    "blocks": 74,
+    "delivered_rx1_samples": 38797312,
+    "delivered_rate_hz": 3840583.6618003203,
+    "observed_overflow_epochs": 0,
+    "exact_lost_samples": null,
+    "nonzero_probe_values": 299580,
+    "probe_sha256": "5d3dda6004b6a241a16527a04a150a101a0a1df9e99242127b0d41ab06aa0cb4",
+    "telemetry": [
+      {
+        "elapsed_s": 1.0917606329985574,
+        "blocks": 8,
+        "delivered_rx1_samples": 4194304,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.612078857228,
+        "rssi_dbm": -89.25
+      },
+      {
+        "elapsed_s": 2.184032285000285,
+        "blocks": 16,
+        "delivered_rx1_samples": 8388608,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.0
+      },
+      {
+        "elapsed_s": 3.276245087999996,
+        "blocks": 24,
+        "delivered_rx1_samples": 12582912,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.75
+      },
+      {
+        "elapsed_s": 4.368265891000192,
+        "blocks": 32,
+        "delivered_rx1_samples": 16777216,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.489038085744006,
+        "rssi_dbm": -89.0
+      },
+      {
+        "elapsed_s": 5.460401454998646,
+        "blocks": 40,
+        "delivered_rx1_samples": 20971520,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.489038085744006,
+        "rssi_dbm": -89.5
+      },
+      {
+        "elapsed_s": 6.552564640000128,
+        "blocks": 48,
+        "delivered_rx1_samples": 25165824,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.25
+      },
+      {
+        "elapsed_s": 7.644655463000163,
+        "blocks": 56,
+        "delivered_rx1_samples": 29360128,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.25
+      },
+      {
+        "elapsed_s": 8.736535268999432,
+        "blocks": 64,
+        "delivered_rx1_samples": 33554432,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.612078857228,
+        "rssi_dbm": -89.5
+      },
+      {
+        "elapsed_s": 9.828829057998519,
+        "blocks": 72,
+        "delivered_rx1_samples": 37748736,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.75
+      }
+    ],
+    "continuity": "NO_FIFO_OVERFLOW_OBSERVED; absolute ADC sample sequence unavailable"
+  },
+  "files_sha256": {
+    "raw_01.i16.sha256": "48902d5f26d5d0d81e595701c0a18de38940426b2b33b4f05a2e004b36c26bdd",
+    "raw_00.i16.sha256": "e57386e0a272b45e4996d9494be3670446812f3c39aab0e9b89429a99cca0a08",
+    "result.json.sha256": "cdb025e8d25d53526456b4acb5a97712234fdb1a3daa2640256d67a05c4552e0",
+    "raw_00.i16": "796e047d9cd7979f5e67d5c90e6ccb1f2f3ebf105ec1f0aa4cd1efbee8b2da8d",
+    "raw_01.i16": "ec92846a101e9ea04f96c1f75d9dc0dc1a9db6cf48ba002ee6767a0ae8288c60",
+    "result.json": "f75cc78b82885268d510e26b2d21d738dbdc0be783e53b891a0bc3f472784011"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-03T00:18:49.028061+08:00",
+  "default_bus_phase": {
+    "src/ps/sentinel/app/monitor.py": 3,
+    "board/scripts/bench_lcd.py": 3,
+    "board/scripts/zss_n4_admin.py": 3
+  },
+  "file_checks": [
+    {
+      "local": "board/scripts/zss_n4_admin.py",
+      "remote": "/usr/local/sbin/zss-n4-admin",
+      "sha256": "c75a40c0e399bb0ab54870f462446ed09c96c8f9a99649d82713d3bf6b5a4783",
+      "match": true
+    },
+    {
+      "local": "board/scripts/bench_lcd.py",
+      "remote": "/home/xilinx/sentinel/scripts/bench_lcd.py",
+      "sha256": "22a769f119d0d4ec79689a6a411a08cfa9b377686a7ab2e09e78feef9b7f465f",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/telemetry.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/telemetry.py",
+      "sha256": "e2f46d9d50608437cac50723eb56ad6b8c8abb81f9d2a2f2e6b1dce6bb227a2a",
+      "match": true
+    },
+    {
+      "local": "src/ps/sentinel/app/monitor.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/monitor.py",
+      "sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41",
+      "match": true
+    }
+  ],
+  "boot_id": "a6d94c64-2304-44f6-8788-df062bbe48de",
+  "temperature_devices": [
+    {
+      "raw": 2619.0,
+      "offset": -2219.0,
+      "scale": 123.040771484,
+      "device": "/sys/bus/iio/devices/iio:device0",
+      "temperature_c": 49.2163085936
+    }
+  ],
+  "antenna_confirmation": {
+    "configuration": "A",
+    "confirmed_by": "user",
+    "date": "2026-11-03",
+    "rx1a": "20-512MHz coarse long antenna",
+    "tx1a": "empty"
+  },
+  "n4_commit": "9c931d9c72d0131f511c209710eb89ffe10f0c1e",
+  "scope": "Defaults and current deployment verified; screen confirmation and full SD backup pending"
+}

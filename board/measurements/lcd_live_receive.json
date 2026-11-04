@@ -1,0 +1,38 @@
+{
+  "status": "running",
+  "rf_transmission_requested": false,
+  "frames": 110,
+  "display": "400x240 RGB332 doubled to800x480",
+  "processing": "board CPU FFT; gapped RX snapshots",
+  "bit_sha256": "773a378a6ee8f4b6b7e9a824e71a4eaa823087f33faf57c2029348f2a92c8487",
+  "product_ids": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10
+  ],
+  "sample_rate_hz": 30720000,
+  "rx_lo_hz": 97999998,
+  "tx_attenuation_mdb": [
+    89750,
+    89750
+  ],
+  "lcd_status": {
+    "active_page": 1,
+    "ready": true,
+    "frame_gray": 67
+  },
+  "update_fps": 1.6657000803431705,
+  "rx_gain_db": 42,
+  "guards_ok": true,
+  "latest_spectrum_range_db": [
+    -60.383415017907154,
+    -32.361311119871914
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "j_v4_neutral_title/1",
+  "created_utc": "2026-11-04T01:29:28.626514+00:00",
+  "result": "SOURCE_AND_PREVIEW_PASS",
+  "files": [
+    {
+      "path": "tools/host/build_host.py",
+      "sha256": "45e578e9e20c6459f46cf9bf25857fba376074d58e92ea4ca056c0a17194f7b3"
+    },
+    {
+      "path": "tools/host/sentinel_host/gui.py",
+      "sha256": "ca05de19fc382c45a7890ed20945213dfef79007b305b7c9ea1373093a45e168"
+    },
+    {
+      "path": "tools/host/sentinel_host/product.py",
+      "sha256": "0ef7e9f3e88d1f602554b64181614a131483dc43e7da94b39f154e6f2ebb8bf7"
+    },
+    {
+      "path": "tools/host/sentinel_host/shell.py",
+      "sha256": "51a1488af306baa3bb2e33ebce0a87235f8eb88e3d71394b6fca42bfdf466122"
+    }
+  ],
+  "regression": {
+    "passed": 842,
+    "skipped": 19,
+    "log": "logs/J2_neutral_title_regression.log",
+    "sha256": "885b40473e4ba35d606caf33c49e75ebd765cade1d6f985f0b5d10c76b172f50"
+  },
+  "preview": "report/figures/host_j_v4_r4/preview.json",
+  "style_approved_by_user": true,
+  "hardware_started": false,
+  "legacy_executable": "HISTORICAL_NOT_UPDATED"
+}

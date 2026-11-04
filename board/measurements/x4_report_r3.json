@@ -1,0 +1,9 @@
+{
+  "analysis_sha256": "57ec8909c0873f4e2cfe0bd6b84e0895535a1ab93eb261c98d8824b25f15c418",
+  "historical_sha256": "62637e7f138e14324a0fdcf7f8efb418096a6b465035ee4fa1394c201dd29460",
+  "generator_sha256": "5e3f8a2c4cf913e0f6f55da2cf1fd9e6e014a4f79f067a8687ac30237c50d02d",
+  "outputs_sha256": {
+    "report/figures/e7_x4_r3_snr.png": "27cd95580685904cf58b9a9a06406aa9f1915f9d7403e3390f0de555b747cd7d",
+    "report/figures/e7_x4_r3_confusion.png": "b325c782594538fb1dc2235382297b15ff85a25ade2aa821f03ec767b3079eb4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "passed": 83,
+  "skipped": 1,
+  "log": "logs/I1_speaker_gain_regression.log",
+  "log_sha256": "1d5dc4762fb53e7bccd9d8bd8e5284ce4a2014e768d1a642eb675fef6fc87dde",
+  "speaker_ceiling_db": 0,
+  "line_out_ceiling_db": -6,
+  "reference": "build/work/y3_audio/ES8388_v5.pdf pages 27-28",
+  "reference_sha256": "db9300f79df430d022b754b29eb1b6b17ca08e3b91d3ba833606dadc65898258",
+  "source_sha256": {
+    "src/ps/sentinel/audio_y3.py": "9b8a00ce14fa3730ef73c36aacf76ad3ab0c462cd98b9d9500a087831971ff86",
+    "board/scripts/run_y3_audio.py": "07ee5c366e9564d9dd3b9c47c3eabadf59c1c34efa090a33437eda47a5883a02",
+    "src/ps/tests/test_release_f1.py": "7d3ecb4308f681e9bc2c105d381fbc5b692989d4623bae9c1d64713d46123e5c"
+  }
+}

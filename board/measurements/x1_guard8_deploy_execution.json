@@ -1,0 +1,39 @@
+{
+  "started_at_pc": "2026-11-03T04:29:12.332386+08:00",
+  "user_authorized_one_additional_trial": true,
+  "configuration_a_confirmed": true,
+  "antenna": "New same-band antenna; RX1A connected, TX empty",
+  "preflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "scope": "Read-only X1 stop-state check; no overlay download or RF initialization",
+    "status": "PASS"
+  },
+  "boot_id_before": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "source_sha256": {
+    "src/ps/sentinel/app/monitor_x1_guard8.py": "083026270d27faf182b4775fead416937ac705bebcaaa11b05796cb5866a9b83",
+    "board/scripts/run_x1_guard8.py": "80c7af71eae33f70c32e1bdc5c3896c4d9427b37b16150567efffe9dbfd0d6b4",
+    "tools/run_x1_guard8.py": "09820fbf110ad2203ac7a919a3117fec909fc5d40d90e83f0c48fe64e094a53f"
+  },
+  "frozen_manifest_sha256": "19b3955f0488962feda51480667d9912e7d04cb90927a0595bd3437cfbf7265f",
+  "frozen_board_sources_checked": 9,
+  "simulation_sha256": "78a2778524c37c4096e66caf5c317383825892ef63bd1d6a8339e51c019f7c3a",
+  "status": "PASS_DEPLOYMENT",
+  "deployment": {
+    "status": "PASS",
+    "files": [
+      {
+        "staged": "monitor_x1_guard8.py",
+        "destination": "ps/sentinel/app/monitor_x1_guard8.py",
+        "sha256": "083026270d27faf182b4775fead416937ac705bebcaaa11b05796cb5866a9b83"
+      },
+      {
+        "staged": "run_x1_guard8.py",
+        "destination": "scripts/run_x1_guard8.py",
+        "sha256": "80c7af71eae33f70c32e1bdc5c3896c4d9427b37b16150567efffe9dbfd0d6b4"
+      }
+    ],
+    "hardware_accessed": false
+  }
+}

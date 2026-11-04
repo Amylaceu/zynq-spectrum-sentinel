@@ -1,0 +1,72 @@
+{
+  "status": "OFFLINE_DIAGNOSTIC",
+  "audio_acceptance": "NOT_TESTED",
+  "limitation": "Pilot prominence is not SNR; snapshots are gapped, not concurrent pairs.",
+  "sources_sha256": {
+    "tools/analyze_y3_iq_diagnostic.py": "e073ba7ebd93efbe0233579a379da436b20b0e75725dd353fb02c5aad2158be0",
+    "src/rtl/pfb/x5_pfb_coeff.hex": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d",
+    "src/rtl/audio_y3/rom/y3_audio_fir.hex": "e511fde02bb2e4ca152e1235ee33f5f7176133ac72bf50d26aa081cb549134c8",
+    "src/ps/sentinel/fm_receive.py": "605fa6cc03345e47e038ad4d3c3818a87cdb05ec0d2a6173854d3332fb9d7b73"
+  },
+  "historical": [
+    {
+      "label": "historical_00",
+      "float_pfb_shortcut_max_error": 3.914458286299219e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 29.305853207100732,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4187.4751015936445,
+        "demod_frequency_rms_hz": 26400.64330134798,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.19070097218514492,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -4053.0503149729357,
+        "discriminator_std_hz": 25573.755909705502,
+        "large_excursion_fraction": 0.0010110371556154689,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.154907586760235
+      },
+      "rtl_math_pcm_dc": -0.011085870111932562,
+      "rtl_math_pcm_ac_rms": 0.04753043969114172
+    },
+    {
+      "label": "historical_08",
+      "float_pfb_shortcut_max_error": 4.241215432710863e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 32.481434844630634,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4227.912602359459,
+        "demod_frequency_rms_hz": 23168.061989712554,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.1915978217562443,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -3954.4863236361116,
+        "discriminator_std_hz": 22850.129081561678,
+        "large_excursion_fraction": 0.000765937239102628,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.70658219515703
+      },
+      "rtl_math_pcm_dc": -0.011263569258757936,
+      "rtl_math_pcm_ac_rms": 0.03730212564676918
+    }
+  ],
+  "current": [],
+  "historical_source_sha256": "6e05b161ff89bff0468a9547c0feb5da5e0abc60d440efc608e7c931e7106c22",
+  "historical_meta_sha256": "64a8066750f36f04d5edd857871c05856cdf18f15f7fb44091366199c98cf694",
+  "wav_sha256": {
+    "historical_00_rtl_math.wav": "7df9ee3c966e9b1d2f43c3ae53d859f401aaf7c88876254d719804df7f47ca54",
+    "historical_00_software.wav": "04b7ea351916b92b556821ee800a416b09847d59afb697cc6969be4dfeecc2b1",
+    "historical_08_rtl_math.wav": "ec3a81e0899119d99b5c511e3573331ab15423ff9cdf1a018b8a469f5b62d17f",
+    "historical_08_software.wav": "d28ee5262adfbfe97d618183fdfe9222ffa83487d75e5fcb0370d5b7da8d45fc"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "OBSERVATION_ONLY",
+  "user_observation": "切段切页正常，LCD和广播正常",
+  "scope": "G5 A组现场观察；不覆盖自动检查FAIL，不证明三遍完成",
+  "automated_evidence": "g5_a_board_r2/validation.json",
+  "rehearsal": "DEFERRED_BY_USER",
+  "next": "F4 low-band panorama; long stability deferred"
+}

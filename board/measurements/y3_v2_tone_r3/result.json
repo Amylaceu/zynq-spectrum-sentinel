@@ -1,0 +1,26 @@
+{
+  "analog_volume_db": -21,
+  "audio_control_after": 0,
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+  "dma_allocated": false,
+  "duration_requested_s": 3,
+  "error": "OSError('Codec readback reg19 got22 expected26')",
+  "human_hearing": "PENDING",
+  "hwh_sha256": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+  "image": "sentinel_v2_100m",
+  "output": "ES8388 ROUT2 -> MD8002A -> J36",
+  "rf_gpio_after": 0,
+  "rf_initialized": false,
+  "safe_stop_errors": [
+    "Codec readback reg19 got22 expected26"
+  ],
+  "samples": [],
+  "source": "pl_1khz_tone",
+  "source_control_after": 0,
+  "started_utc": "2021-11-18T19:30:43.767044+00:00",
+  "status": "failed_safe_stop",
+  "stopped_utc": "2021-11-18T19:30:45.649509+00:00",
+  "tone_hz": 1000,
+  "tx_requested": false
+}

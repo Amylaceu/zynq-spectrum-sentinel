@@ -1,0 +1,272 @@
+{
+  "status": "MEASURED",
+  "source": "F1_LIVE_RF_PATH",
+  "tx_requested": false,
+  "inference_scope": "LO translation alone cannot identify a physical emitter",
+  "candidates": [
+    {
+      "frequency_hz": 307185000,
+      "trials": [
+        {
+          "lo_hz": 306585000,
+          "peak_hz": 307185000.0,
+          "prominence_db": 40.38714003343563,
+          "dominant_bin": 1344,
+          "dominant_hz": 307185000.0,
+          "dominant_prominence_db": 40.38714003343563,
+          "file": "candidate_0_lo_0.npz",
+          "sha256": "9818d2fcd8b0741f9839c726cb021a99b45be42548b33abf3dd2f33393d69121",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 306585000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        },
+        {
+          "lo_hz": 307785000,
+          "peak_hz": 307185000.0,
+          "prominence_db": 40.16661316079606,
+          "dominant_bin": 704,
+          "dominant_hz": 307185000.0,
+          "dominant_prominence_db": 40.16661316079606,
+          "file": "candidate_0_lo_1.npz",
+          "sha256": "0e339967fdabfb03945908c7e276c66b2d47cf51c6876935d9ad35b5c14fb806",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 307785000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        }
+      ],
+      "assessment": "FIXED_RF_SOURCE_UNDETERMINED",
+      "suspect_internal_spur": false
+    },
+    {
+      "frequency_hz": 349955000,
+      "trials": [
+        {
+          "lo_hz": 349354998,
+          "peak_hz": 349949373.0,
+          "prominence_db": 47.16284930873594,
+          "dominant_bin": 1341,
+          "dominant_hz": 349949373.0,
+          "dominant_prominence_db": 47.16284930873594,
+          "file": "candidate_1_lo_0.npz",
+          "sha256": "b4e281306d120cbb1e4e67afac5fac1e6b8ac268768ad91d430ac9d1291130e2",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 349354998,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        },
+        {
+          "lo_hz": 350555000,
+          "peak_hz": 349949375.0,
+          "prominence_db": 48.038244539011515,
+          "dominant_bin": 701,
+          "dominant_hz": 349949375.0,
+          "dominant_prominence_db": 48.038244539011515,
+          "file": "candidate_1_lo_1.npz",
+          "sha256": "8d828e1e5c71eefaf06dffb98c894f2dd81d7ae750fcc3b8483d44cc4bd98d0f",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 350555000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        }
+      ],
+      "assessment": "FIXED_RF_SOURCE_UNDETERMINED",
+      "suspect_internal_spur": false
+    },
+    {
+      "frequency_hz": 331755000,
+      "trials": [
+        {
+          "lo_hz": 331155000,
+          "peak_hz": 331758750.0,
+          "prominence_db": 44.76094399748857,
+          "dominant_bin": 1346,
+          "dominant_hz": 331758750.0,
+          "dominant_prominence_db": 44.76094399748857,
+          "file": "candidate_2_lo_0.npz",
+          "sha256": "6ac52145338ae76570a08a7c02eaccee23b3ae5706041c6dd4291a9391135734",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 331155000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        },
+        {
+          "lo_hz": 332355000,
+          "peak_hz": 331758750.0,
+          "prominence_db": 42.70476238684627,
+          "dominant_bin": 706,
+          "dominant_hz": 331758750.0,
+          "dominant_prominence_db": 42.70476238684627,
+          "file": "candidate_2_lo_1.npz",
+          "sha256": "4f2c453e5d5676c545a69570addfe7e44983e348f00bffb19dc82be18a25cfa9",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 332355000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        }
+      ],
+      "assessment": "FIXED_RF_SOURCE_UNDETERMINED",
+      "suspect_internal_spur": false
+    },
+    {
+      "frequency_hz": 319475000,
+      "trials": [
+        {
+          "lo_hz": 318874998,
+          "peak_hz": 319471248.0,
+          "prominence_db": 42.60312828659332,
+          "dominant_bin": 950,
+          "dominant_hz": 318736248.0,
+          "dominant_prominence_db": 50.57442258492287,
+          "file": "candidate_3_lo_0.npz",
+          "sha256": "4fcd859e0dc8ce05f0bb9895065cd85f98753892c6d28c5794e0340f6b4f535c",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 318874998,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        },
+        {
+          "lo_hz": 320075000,
+          "peak_hz": 319471250.0,
+          "prominence_db": 44.05911068677244,
+          "dominant_bin": 702,
+          "dominant_hz": 319471250.0,
+          "dominant_prominence_db": 44.05911068677244,
+          "file": "candidate_3_lo_1.npz",
+          "sha256": "ce6264d2bd92c7f0c339f369fc1bdce27bf51351d452b6e557b9ad642c10e0e9",
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 320075000,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          }
+        }
+      ],
+      "assessment": "FIXED_RF_SOURCE_UNDETERMINED",
+      "suspect_internal_spur": false
+    }
+  ],
+  "restored": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "closed": true
+}

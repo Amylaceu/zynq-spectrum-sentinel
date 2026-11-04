@@ -1,0 +1,16 @@
+{
+  "kernel": "Linux-5.4.0-xilinx-v2020.2-armv7l-with-glibc2.29",
+  "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+  "pynq": "2.7.0",
+  "lcd_resolution": [
+    800,
+    480
+  ],
+  "lcd_interface": "SSD1963 J22 8080",
+  "cpu_baseline": {
+    "fft2048_median_s": 0.0006743099999937385,
+    "fft_max_frames_per_s": 1482.997434428209,
+    "cfar2048_median_s": 0.011951670000001968,
+    "pillow800x480_median_s": 0.006794262500022796
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_VISUAL_QUANTITATIVE_FAIL",
+  "recorded_at_pc": "2026-11-03T04:06:53.730430+00:00",
+  "scope": "Old v1d visual only; Z2 unavailable, no new RF operation",
+  "user_feedback": "\u8ba1\u6570\u589e\u52a0\uff0c\u5217\u8868\u548c\u70b9\u56fe\u53ef\u89c1\uff0c\u753b\u9762\u6b63\u5e38",
+  "old_quantitative_result": "FAIL; unchanged",
+  "new_ui_status": "FAIL_BUILD_NOT_DEPLOYED",
+  "source_evidence_sha256": {
+    "board/measurements/z2_link_failure_1.json": "88d0665f95fb1eab2218a2c1ba0a04da403521f0f2e985a48bad6c65e39e2a9a",
+    "board/measurements/z2_link_failure_2.json": "47452d98f2876d93b3d7c14cbd9fe04f1a9ee808a3effa23a0bda379ca203255",
+    "board/measurements/z2_synthesis_recovery_r2.json": "2b4e560a35305ee2ec30c2af642bb5afbddfe2d86461e675ed9547b52416f998",
+    "board/measurements/y2_visual_confirmation_1.json": "63a80da9e63b4ad5ac5906a938404467d07c3c73688149cf29fd860cdf9eae03",
+    "board/measurements/y2_visual_link_1.json": "bbd0c9e2cee56a4e63096b4ecc1fb23fc457c8a4932bb402b5d600318f1bf4f1"
+  },
+  "archive_sha256": {
+    "report/results/z2_link_failure_1.zip": "a3a899776c940aad23e19dee8d35ab5b281c4cdfeaf54207924ddf9c7aa2d307",
+    "report/results/z2_link_failure_2.zip": "bfdae284011c14b5ac6404fc0b2fb896e1eef5709872228fe26e31fe8963e515",
+    "report/results/z2_synthesis_recovery_r2.zip": "dfee5bbf4c7645aea49db1dbd6c7ca6e25ab92179d890b9d3af92462fe01a44e"
+  },
+  "transport_tests": 16,
+  "transport_log_sha256": "bcb7788a38b96246cb3092c1fc1492a7c44009bca8956bec9a3c2129be218aec"
+}

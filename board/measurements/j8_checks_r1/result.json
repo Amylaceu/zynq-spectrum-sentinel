@@ -1,0 +1,48 @@
+{
+  "source": "CURRENT_BOARD",
+  "tests": [],
+  "search": null,
+  "recordings": [],
+  "historical_failures_preserved": true,
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "rejected_commands": [
+    {
+      "id": "F0",
+      "action": "start",
+      "result": {
+        "id": "F0",
+        "status": "FAILED",
+        "error": "Application busy; stop first",
+        "host_round_trip_s": 0.26600000000325963
+      }
+    }
+  ],
+  "gui_errors": [],
+  "status": "FAIL",
+  "error": "RuntimeError(\"Application rejected: {'id': 'F0', 'status': 'FAILED', 'error': 'Application busy; stop first', 'host_round_trip_s': 0.26600000000325963}\")",
+  "final_stop": {
+    "id": "F12",
+    "status": "STOPPED",
+    "restored": true,
+    "readback": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false,
+      "full_cfar_defaults_checked": true,
+      "source_defaults_checked": true
+    },
+    "host_round_trip_s": 0.40599999998812564
+  }
+}

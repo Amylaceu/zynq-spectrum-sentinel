@@ -1,0 +1,29 @@
+{
+  "recorded_at_pc": "2026-11-03T01:30:32.362817+08:00",
+  "status": "PASS_PRECONDITIONS_WITH_EXISTING_FS_WARNINGS",
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "antenna_configuration": "A",
+  "user_confirmations": [
+    "已就绪、暂未上电",
+    "已上电"
+  ],
+  "active_project_test_processes": [],
+  "deployment_sha256": {
+    "src/ps/sentinel/overlay.py": "3bf18a2c7f9e48c9613f9882972172280203e7aeac05ee76171c8eac4adfd395",
+    "src/ps/sentinel/app/monitor.py": "6c4277ac2f300a321d15d15e34b7d46ca41e6f70bc380a457eae787248286387",
+    "board/scripts/zss_n4_admin.py": "1cf491af2f786f84a21715450b4503bbe7bdf912aee98937dbc1a0a030ba3fcb"
+  },
+  "sd_backup_record": "docs/sd_backup_verification.json",
+  "sd_backup_sha256": "3eda01cc7cba0b11a57660e154cda978d583a7188a48387dd76efa01694dfbb7",
+  "preflight_log": "logs/X0_backup_return_preflight_r1.log",
+  "preflight_log_sha256": "efc18cd8e7c5dbe7ab277b4c456f6c638dba3b5d10e3588d2f34762901a50f55",
+  "boot_log_in_progress": "logs/X0_backup_return_boot_r1.bin",
+  "filesystem_warnings": [
+    "FAT volume was not properly unmounted",
+    "systemd journal corrupted or uncleanly shut down; renamed by systemd"
+  ],
+  "filesystem_health_verified": false,
+  "remote_time_is_authoritative": false,
+  "hardware_accessed_in_preflight": false,
+  "next": "Explicitly load accepted sentinel_v1 and run 180-second RF receive-only default-phase r2"
+}

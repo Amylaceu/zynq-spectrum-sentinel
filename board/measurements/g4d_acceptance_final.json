@@ -1,0 +1,116 @@
+{
+  "schema": "g4d_acceptance/1",
+  "host_created_utc": "2026-11-03T22:11:48.425424+00:00",
+  "status": "FAIL",
+  "fields_status": "PASS",
+  "fields_counts": {
+    "hello": 1,
+    "spectrum": 415,
+    "pl_frame": 415,
+    "amc": 82,
+    "iq": 65,
+    "ui_frame": 81,
+    "ui_state": 81,
+    "detections": 81,
+    "event": 37,
+    "telemetry": 36
+  },
+  "fields_evidence": "board/measurements/g4d_fields_board_r1/validation.json",
+  "dma_attempts": [
+    {
+      "attempt": 1,
+      "seconds_requested": 10,
+      "measurement_status": "FAIL",
+      "error": "RuntimeError('RX FIFO overflow: exact missing sample count unavailable')",
+      "elapsed_s": null,
+      "delivered_samples": null,
+      "last_pre_fault_telemetry": null,
+      "postflight": "PASS",
+      "evidence": "board/measurements/g4d_dma_r1/validation.json",
+      "sha256": "f16fbda404eb29922e621505aadda1265a2493595aa77c8a1a0f427257e7e710"
+    },
+    {
+      "attempt": 2,
+      "seconds_requested": 10,
+      "measurement_status": "MEASURED",
+      "error": null,
+      "elapsed_s": 10.101931220999177,
+      "delivered_samples": 38797312,
+      "last_pre_fault_telemetry": {
+        "elapsed_s": 9.828829057998519,
+        "blocks": 72,
+        "delivered_rx1_samples": 37748736,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.36599731426,
+        "rssi_dbm": -89.75
+      },
+      "postflight": "PASS",
+      "evidence": "board/measurements/g4d_dma_r2/validation.json",
+      "sha256": "9fa37ded8798a7e6515a2c0b46d1bef7c9e8e4a5cfe343a3660653f60880c7d1"
+    },
+    {
+      "attempt": 3,
+      "seconds_requested": 600,
+      "measurement_status": "FAIL",
+      "error": "RuntimeError('RX FIFO overflow: exact missing sample count unavailable')",
+      "elapsed_s": null,
+      "delivered_samples": null,
+      "last_pre_fault_telemetry": {
+        "elapsed_s": 53.513494971999535,
+        "blocks": 392,
+        "delivered_rx1_samples": 205520896,
+        "descriptor_id": 3,
+        "fifo_overflow_status": 0,
+        "temperature_c": 63.119915771292,
+        "rssi_dbm": -86.25
+      },
+      "postflight": "PASS",
+      "evidence": "board/measurements/g4d_dma_r3/validation.json",
+      "sha256": "4c925df717bfe72986bd6bdb319e7fa0801f0ef36cefb966c44c624a3ff49de9"
+    }
+  ],
+  "continuous_dma_600s": "FAIL_FIFO_OVERFLOW",
+  "exact_adc_lost_samples": null,
+  "pc_audio": "DISABLED_NOT_ACCEPTED",
+  "ps_parallel_dsp": "OFFLINE_TESTED_NOT_DEPLOYED",
+  "wav_writer": "OFFLINE_TESTED_NOT_ENABLED",
+  "deployed_file_count": 124,
+  "bitstream_unchanged": true,
+  "configuration": "A",
+  "tx_requested": false,
+  "package": {
+    "path": "dist/SentinelHost_G4plus_20261104.zip",
+    "bytes": 83238624,
+    "sha256": "a85317299bd5af4f60f0aeba399973f2e34901b1498b013299e56d15c1e355d3",
+    "manifest_files": 352,
+    "executable_sha256": "c8499be0891cf7043582946b41fbee4d6dc887970acf2040b30c6ae9532c3ef2",
+    "replay_duration_s": 20.0,
+    "replay_errors": [],
+    "replay_pl_frames": 184,
+    "replay_ui_frames": 43
+  },
+  "software_checks": {
+    "targeted_regression": "83 passed; logs/G4d_final_regression_r1.log",
+    "bundled_acceptance": "1 passed; logs/G4d_package_evidence_test.log"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "pending": [
+    "PC listening and WAV integration",
+    "A/B demo automatic page following on board",
+    "30-minute host stability",
+    "G5/F4/F5/F6"
+  ]
+}

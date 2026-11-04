@@ -1,0 +1,8 @@
+# Run: make -f Makefile.x2 NOOS=<existing read-only no-OS root>
+# This target deliberately cannot replace libad9361_pynq.so.
+.DEFAULT_GOAL := libad9361_x2.so
+include Makefile
+X2_SRCS := $(filter-out app/ad9361_api_c.c,$(SRCS)) app/x2_api_c.c
+
+libad9361_x2.so: $(X2_SRCS) app/ad9361_api_c.c platform/z20_platform.h app/app_config.h
+	$(CC) $(CFLAGS) -shared -Wl,-z,defs -o $@ $(X2_SRCS) -lm

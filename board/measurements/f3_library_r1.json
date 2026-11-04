@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "remote_root": "/home/xilinx/sentinel/setup/f3_library_r1",
+  "source_sha256": {
+    "Makefile": "e01d32a2bb88881125d6be95bfb9dc54474843337664488de2a9317932e1c556",
+    "Makefile.f3": "4d50b0efbbee8931b57e12de5c6de75859ceace3cf228755273da37f9a390750",
+    "platform/z20_platform.c": "9e3a799fb1bddf5f687587297936d1eb5c67586fbd3375de9c6a5f190c65fa17",
+    "platform/z20_platform.h": "93d60e32406388eb7bd8454e58efcb03ae98c0d6a251613489937fd20bb33f56",
+    "app/ad9361_api_c.c": "759cca22c0593a8cb6e2977dc7665d247dbabf71ceb6d396b8923e242c6ceb69",
+    "app/f3_api_c.c": "1cd0ae5fe2bc730c09625ad078f75dedb1a89c5f67d146dd2edca5d2ade60595",
+    "app/x2_api_c.c": "42dd8c79926524959aee4005400f0ea4c128350c45d2c9cb444b55447da77c96",
+    "app/z20_init_param.c": "633c39653ae32816d67d4c2851796eeb31289e4f6775218ea2a1bf68042cb5d2",
+    "app/app_config.h": "591b307d7cc156de26d02ea170c2e67128cc1cd6a83d904169c1cdb438c59a7f",
+    "app/f3_exports.map": "1d17982256dfde2433146fdc6403f64ca9cddda63412b11bf32ab8e2699311d8"
+  },
+  "archive_sha256": "15630787b263a5a245df110a2af8bc1bfc9f95b6d9da50136754037c203eee20",
+  "rf_access": false,
+  "baseline_before": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "baseline_after": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+  "symbols": "0000f3dc T z20_ad9361_close\n0000e7ec T z20_ad9361_open\n0000e958 T z20_bist_loopback\n0000ed2c T z20_check_rx_prbs\n0000eacc T z20_configure_receive\n0000f738 T z20_f3_get_tx_lo\n0000f124 T z20_f3_heartbeat\n0000f408 T z20_f3_prepare\n0000f704 T z20_f3_set_gain\n0000f5e8 T z20_f3_start\n0000f364 T z20_f3_stop\n0000f100 T z20_f3_watchdog_status\n0000ea1c T z20_get_ensm_mode\n0000ec3c T z20_get_rx_gain\n0000ec24 T z20_get_rx_lo\n0000ec74 T z20_get_rx_rssi\n0000ea04 T z20_get_sample_rate\n0000ea34 T z20_get_tx_attenuation\n00023ed4 D z20_gpio_ops\n0000e698 T z20_init_parameters\n0000e3e8 T z20_platform_close\n0000e1a0 T z20_platform_hold_reset\n0000e4a0 T z20_platform_open\n0000e9e0 T z20_read_register\n0000ea64 T z20_rx_test_tone\n0000eea4 T z20_scan_rx_delays\n0000e914 T z20_set_rx_gain_mode\n0000f1ec T z20_set_tx_attenuation\n00023ef4 D z20_spi_ops\n0000ec10 T z20_start_receive\n",
+  "log_sha256": "09774a2f99a9a1a0718b68e20feac5b2e157d1a1468ed2cab4c1659d154a8991"
+}

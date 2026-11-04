@@ -1,0 +1,14 @@
+numpy>=1.26,<2.2
+scipy>=1.11
+matplotlib>=3.8
+torch>=2.2
+tqdm
+pyyaml
+jinja2
+sigmf>=1.2
+pillow
+pandas
+jupyter
+pytest
+pymupdf
+openpyxl

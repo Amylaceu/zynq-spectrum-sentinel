@@ -1,0 +1,13 @@
+{
+  "host_utc": "2026-11-03T20:48:53.659116+00:00",
+  "files_sha256": {
+    "tools/host/sentinel_host/alarms.py": "938c382e3eb234168b65cdbcf64210298d5730852bd2ed321c623cc489d7f995",
+    "tools/host/sentinel_host/gui.py": "134386c9e06fcf794d80fe7acf1e42559947f8ce532f427529c003239ee94a32",
+    "tools/host/sentinel_host/model.py": "f330f9284e7cdfe35a5896f8793bd524a9dc3d0a0dc6d946d213f5a1b3375b6b",
+    "tools/host/sentinel_host/session.py": "a5ecc574d6ce896b62e0e458341c56abe87c3d97f3942259d3314ab05a423091",
+    "tools/host/sentinel_host/__init__.py": "9330af5e9488cb6cd17cd4a966402d9bafb4915fd4d7f3184bcee840170c9ca0",
+    "tools/host/sentinel_host/__main__.py": "2658f65e8967ee27c2087a052a3e0a9dcc454063044812868d5d908163944620",
+    "tools/host/run_host.py": "9c433d3e616960fbe260fcfa44f39b4841d29d9b83c72caafb4c9110e20d1b51",
+    "tools/host/requirements.txt": "29e85cbe812b7bb9464c6a036926c3a0a71c47c87e6dfd2008784c2f86bd6099"
+  }
+}

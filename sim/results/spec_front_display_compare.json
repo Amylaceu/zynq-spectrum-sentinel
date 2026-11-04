@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "mode": "exact",
+  "compared_words": 2240,
+  "mismatch_words": 0,
+  "max_abs_error": 0.0,
+  "first_mismatch": null,
+  "sqnr_db": "inf",
+  "discarded_expected_words": 0,
+  "discarded_actual_words": 0
+}

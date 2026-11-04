@@ -1,0 +1,158 @@
+{
+  "status": "MEASURED_PARTIAL_DECOMPOSITION",
+  "group": "A",
+  "tiles": 10,
+  "source_sha256": "e1a6a817748189ea6812b73d8a7751664f0014c0306bfb9608525c78b49f8d3c",
+  "source": "board\\measurements\\f4_a_scan_r2\\raw\\result.json",
+  "elapsed_including_init_restore_s": 23.614171011999133,
+  "tile_body_s": 11.888545666002756,
+  "measured_stage_totals_s": {
+    "combined_rate_lo_bandwidth_configure_s": 0.6021122420024767,
+    "agc_wait_s": 1.502101762998791,
+    "initial_state_readback_s": 0.012964018002094235,
+    "discard_dma_s": 1.0585757350054337,
+    "retained_dma_s": 1.2657619919955323,
+    "final_state_readback_s": 0.012566410998260835,
+    "welch_s": 2.756793780998123,
+    "npz_compression_write_and_hash_s": 4.153403560005245,
+    "unattributed_s": 0.5239939339953708
+  },
+  "init_restore_progress_and_outer_overhead_s": 11.725625345996377,
+  "per_tile": [
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.298946472001262,
+      "agc_wait_s": 0.15023709099841653,
+      "initial_state_readback_s": 0.001244405000761617,
+      "discard_dma_s": 0.11580168200089247,
+      "retained_dma_s": 0.10170654199828277,
+      "final_state_readback_s": 0.001187631998618599,
+      "welch_s": 0.27577263199782465,
+      "npz_compression_write_and_hash_s": 0.4007079050024913,
+      "unattributed_s": 0.0537177310034167,
+      "tile_total_before_progress_write_s": 1.3993513980021817
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03421622899986687,
+      "agc_wait_s": 0.15020346200253698,
+      "initial_state_readback_s": 0.0013535139987652656,
+      "discard_dma_s": 0.10285841099903337,
+      "retained_dma_s": 0.30154797499926644,
+      "final_state_readback_s": 0.0012523639998107683,
+      "welch_s": 0.27154612699814606,
+      "npz_compression_write_and_hash_s": 0.44596278500102926,
+      "unattributed_s": 0.05322365699976217,
+      "tile_total_before_progress_write_s": 1.3621932200003357
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.034330899001361104,
+      "agc_wait_s": 0.15022573199894396,
+      "initial_state_readback_s": 0.0012935659979120828,
+      "discard_dma_s": 0.12296844900265569,
+      "retained_dma_s": 0.1326123379985802,
+      "final_state_readback_s": 0.001216919998114463,
+      "welch_s": 0.2917106460008654,
+      "npz_compression_write_and_hash_s": 0.35853543000121135,
+      "unattributed_s": 0.05274391700004344,
+      "tile_total_before_progress_write_s": 1.1456641770018905
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03464555999744334,
+      "agc_wait_s": 0.15020278900192352,
+      "initial_state_readback_s": 0.0013837440019415226,
+      "discard_dma_s": 0.10247559800336603,
+      "retained_dma_s": 0.11381428100139601,
+      "final_state_readback_s": 0.0012573520034493413,
+      "welch_s": 0.2742776830018556,
+      "npz_compression_write_and_hash_s": 0.3770395870014909,
+      "unattributed_s": 0.05304068898840342,
+      "tile_total_before_progress_write_s": 1.108164263998333
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.034326314002100844,
+      "agc_wait_s": 0.15020314800131018,
+      "initial_state_readback_s": 0.0012225259997649118,
+      "discard_dma_s": 0.10253532299975632,
+      "retained_dma_s": 0.10288186899924767,
+      "final_state_readback_s": 0.0012469280009099748,
+      "welch_s": 0.2736380390015256,
+      "npz_compression_write_and_hash_s": 0.372397679999267,
+      "unattributed_s": 0.05219343699354795,
+      "tile_total_before_progress_write_s": 1.0906728329973703
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03425494200200774,
+      "agc_wait_s": 0.1502042399988568,
+      "initial_state_readback_s": 0.0011834609977086075,
+      "discard_dma_s": 0.10382722800204647,
+      "retained_dma_s": 0.10268254499897012,
+      "final_state_readback_s": 0.0013330430010682903,
+      "welch_s": 0.2730495450014132,
+      "npz_compression_write_and_hash_s": 0.39845299499938847,
+      "unattributed_s": 0.05243752900059917,
+      "tile_total_before_progress_write_s": 1.1174519080013852
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03419916100028786,
+      "agc_wait_s": 0.15021939099824522,
+      "initial_state_readback_s": 0.0013982919990667142,
+      "discard_dma_s": 0.10191992199906963,
+      "retained_dma_s": 0.10277182799836737,
+      "final_state_readback_s": 0.0013092159970256034,
+      "welch_s": 0.27479976899849134,
+      "npz_compression_write_and_hash_s": 0.5222138190001715,
+      "unattributed_s": 0.05179773300915258,
+      "tile_total_before_progress_write_s": 1.2406559410010232
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03483435599991935,
+      "agc_wait_s": 0.15020095199724892,
+      "initial_state_readback_s": 0.001353564002783969,
+      "discard_dma_s": 0.10230344500087085,
+      "retained_dma_s": 0.10282392700173659,
+      "final_state_readback_s": 0.0012522709985205438,
+      "welch_s": 0.2729534850004711,
+      "npz_compression_write_and_hash_s": 0.4907557549995545,
+      "unattributed_s": 0.05147261499951128,
+      "tile_total_before_progress_write_s": 1.207977120000578
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.03410910299862735,
+      "agc_wait_s": 0.15020218399877194,
+      "initial_state_readback_s": 0.0012631800018425565,
+      "discard_dma_s": 0.10216921199753415,
+      "retained_dma_s": 0.1029362699991907,
+      "final_state_readback_s": 0.0012540210009319708,
+      "welch_s": 0.27626646899807383,
+      "npz_compression_write_and_hash_s": 0.40098758100066334,
+      "unattributed_s": 0.05200812800467247,
+      "tile_total_before_progress_write_s": 1.1212233879996347
+    },
+    {
+      "combined_rate_lo_bandwidth_configure_s": 0.028249205999600235,
+      "agc_wait_s": 0.1502027740025369,
+      "initial_state_readback_s": 0.0012677660015469883,
+      "discard_dma_s": 0.1017164650002087,
+      "retained_dma_s": 0.10198441700049443,
+      "final_state_readback_s": 0.0012566639998112805,
+      "welch_s": 0.2727793859994563,
+      "npz_compression_write_and_hash_s": 0.3863500229999772,
+      "unattributed_s": 0.051358497996261576,
+      "tile_total_before_progress_write_s": 1.0951914170000236
+    }
+  ],
+  "unavailable_separate_timings": [
+    "LO lock only",
+    "sample-rate change only",
+    "RF bandwidth only"
+  ],
+  "limitation": "Accepted native configure API couples rate/LO/bandwidth on every call. No fabricated independent tuning breakdown. Init/restore outer time not isolated.",
+  "s1_18mhz_planning": {
+    "scope": "NUMERIC_COVERAGE_PLANNING_NOT_BOARD_MEASUREMENT",
+    "tiles": 25,
+    "missing_bins": 750,
+    "compatible_with_current_dc_mask": false
+  },
+  "historical_55_tile_s": 78.34977659200013,
+  "optimized_scan_accepted": false,
+  "one_hour_test": "DEFERRED_BY_USER"
+}

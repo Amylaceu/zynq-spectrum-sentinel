@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "User visual acceptance only, not detection-rate acceptance",
+  "recorded_at_pc": "2026-11-03T03:13:18.193662+08:00",
+  "user_reply": "画面动态正常，看到约95.8 MHz条目且与当地电台一致",
+  "station_measurement": "board/measurements/x1_station_r1.json",
+  "measurement_sha256": "c40600df2c6a838485cab23afcdd64b6512951b86992669a809532f2b269b92a"
+}

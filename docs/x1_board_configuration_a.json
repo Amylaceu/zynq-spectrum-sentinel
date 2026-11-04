@@ -1,0 +1,11 @@
+{
+  "recorded_at_pc": "2026-11-03T01:53:41.778513+08:00",
+  "step": "X1",
+  "configuration": "A",
+  "user_reply": "配置A未变，可以继续",
+  "rx": "RX1A coarse long 20-512MHz",
+  "tx": "TX1A empty",
+  "lcd": "J22 SSD1963",
+  "banks": "J7/J8 2.5V unchanged",
+  "scope": "X1 receive-only board tests authorized after implementation audit passes"
+}

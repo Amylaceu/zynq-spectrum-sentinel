@@ -1,0 +1,478 @@
+{
+  "status": "PASS",
+  "group": "A",
+  "image": "sentinel_v2_100m",
+  "runtime_mode": "persistent",
+  "wav_recording": {
+    "status": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "requested_path": null,
+    "file_created": false
+  },
+  "cycles_timing": [
+    {
+      "cycle": 1,
+      "wall_seconds": 117.14420806599992
+    },
+    {
+      "cycle": 2,
+      "wall_seconds": 108.58302718599998
+    },
+    {
+      "cycle": 3,
+      "wall_seconds": 109.68641699999989
+    }
+  ],
+  "RF_TX_requested": false,
+  "tx1a": "disconnected",
+  "rx_port": "RX1A",
+  "station_hz": 95800000,
+  "lo_hz": 96050000,
+  "volume_db": -12.0,
+  "loop": false,
+  "segment_filter": null,
+  "segments": [
+    {
+      "number": 1,
+      "cycle": 1,
+      "title": "SELFTEST",
+      "duration_requested_s": 10,
+      "duration_wall_s": 21.895909643999858,
+      "exit_code": 0,
+      "evidence_dir": "segment_01_1e202567",
+      "log": "logs/segment_01_1e202567.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "4c224085a274bc15b661dfc153d2dda625764bc3de0ecce3236f277b40caf295"
+    },
+    {
+      "number": 2,
+      "cycle": 1,
+      "title": "FM MONITOR / AMC",
+      "duration_requested_s": 40,
+      "duration_wall_s": 45.00393610600008,
+      "exit_code": 0,
+      "evidence_dir": "segment_02_35579b13",
+      "log": "logs/segment_02_35579b13.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "b67903ea323e88c46d5b4ff45b635872e1ad5493e90259ff94e038d7c08e17ca"
+    },
+    {
+      "number": 3,
+      "cycle": 1,
+      "title": "FM SPEAKER",
+      "duration_requested_s": 30,
+      "duration_wall_s": 33.99642122199998,
+      "exit_code": 0,
+      "evidence_dir": "segment_03_08cc9bde",
+      "log": "logs/segment_03_08cc9bde.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "e8f16287e5a904aed38b9a3020b74d2ea06c23ca9398fe730187c81c3d79218a",
+      "audible_seconds": 29.015353212000036
+    },
+    {
+      "number": 4,
+      "cycle": 1,
+      "title": "THREE-TONE TEST",
+      "duration_requested_s": 15,
+      "duration_wall_s": 15.276891742999851,
+      "exit_code": 0,
+      "evidence_dir": "segment_04_e36f99bb",
+      "log": "logs/segment_04_e36f99bb.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "35402a6da0d8a21ebc615ea6085f31050b0dae9ade1ca058df28a32c7f1341e2"
+    },
+    {
+      "number": 1,
+      "cycle": 2,
+      "title": "SELFTEST",
+      "duration_requested_s": 10,
+      "duration_wall_s": 13.796353569000075,
+      "exit_code": 0,
+      "evidence_dir": "segment_01_5576843c",
+      "log": "logs/segment_01_5576843c.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "74313c726b850c7806943d69231a7069923a7ef56fa3c8ab17909981bd926035"
+    },
+    {
+      "number": 2,
+      "cycle": 2,
+      "title": "FM MONITOR / AMC",
+      "duration_requested_s": 40,
+      "duration_wall_s": 44.77880667299996,
+      "exit_code": 0,
+      "evidence_dir": "segment_02_0897d638",
+      "log": "logs/segment_02_0897d638.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "68d9ebee76c550555238b19a3839a5b0ac34008222afc17d91de02468289d7c8"
+    },
+    {
+      "number": 3,
+      "cycle": 2,
+      "title": "FM SPEAKER",
+      "duration_requested_s": 30,
+      "duration_wall_s": 33.911069905999966,
+      "exit_code": 0,
+      "evidence_dir": "segment_03_f3b159a7",
+      "log": "logs/segment_03_f3b159a7.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "300055e6d472790fbb77802bb0f5c3bca9e4aadf0d0770c99c0de5691a211f66",
+      "audible_seconds": 28.951163382999994
+    },
+    {
+      "number": 4,
+      "cycle": 2,
+      "title": "THREE-TONE TEST",
+      "duration_requested_s": 15,
+      "duration_wall_s": 15.435659364999992,
+      "exit_code": 0,
+      "evidence_dir": "segment_04_0721ddd5",
+      "log": "logs/segment_04_0721ddd5.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "7f06b38390ed1225f8196ac6ce7394c08ac0eac6c7d21f1efaafe99f43546e5a"
+    },
+    {
+      "number": 1,
+      "cycle": 3,
+      "title": "SELFTEST",
+      "duration_requested_s": 10,
+      "duration_wall_s": 14.620690675999867,
+      "exit_code": 0,
+      "evidence_dir": "segment_01_f7bcb8ef",
+      "log": "logs/segment_01_f7bcb8ef.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "3d392adba65cabc4c25b398e498a7d9eb7eb8aa3f04e425eb9a101fc0b814194"
+    },
+    {
+      "number": 2,
+      "cycle": 3,
+      "title": "FM MONITOR / AMC",
+      "duration_requested_s": 40,
+      "duration_wall_s": 45.008236016999945,
+      "exit_code": 0,
+      "evidence_dir": "segment_02_c561a196",
+      "log": "logs/segment_02_c561a196.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "76b54407bd4e05f104f91e5a030d71f324aa74b4d2946cb6c82f1fe0c35741a7"
+    },
+    {
+      "number": 3,
+      "cycle": 3,
+      "title": "FM SPEAKER",
+      "duration_requested_s": 30,
+      "duration_wall_s": 33.97729171600008,
+      "exit_code": 0,
+      "evidence_dir": "segment_03_0dc9d25d",
+      "log": "logs/segment_03_0dc9d25d.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "bb1d05b26a63b4ca88c162cbf4ace5c318108ce3dda3fd4ccea4cbc96c5f5871",
+      "audible_seconds": 28.9923425410002
+    },
+    {
+      "number": 4,
+      "cycle": 3,
+      "title": "THREE-TONE TEST",
+      "duration_requested_s": 15,
+      "duration_wall_s": 15.23686333899991,
+      "exit_code": 0,
+      "evidence_dir": "segment_04_acd0da9e",
+      "log": "logs/segment_04_acd0da9e.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "5b3bf17a33a88714ca0414ec673359865efcbadf0ee84ec175ef9ddd5ec221fa"
+    }
+  ],
+  "started_utc": "2021-11-19T00:11:42.438443+00:00",
+  "runtime": {
+    "overlay_loads": 1,
+    "rf_initializations": 9,
+    "model_loads": 1,
+    "model_warmups": 1,
+    "segments": [
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1146.784477719,
+        "ready_monotonic_s": 1157.141053668,
+        "ready_frame": 2,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1167.956019691,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1169.469327828,
+        "ready_monotonic_s": 1172.8929949,
+        "ready_frame": 467,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1213.126776633,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1213.417640348,
+        "ready_monotonic_s": 1217.108328379,
+        "ready_frame": 2095,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1247.337024879,
+        "cleanup_errors": []
+      },
+      {
+        "source": "test",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1247.577460297,
+        "ready_monotonic_s": 1247.733540015,
+        "ready_frame": 3347,
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1262.820982454,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1263.88420178,
+        "ready_monotonic_s": 1266.480184823,
+        "ready_frame": 3967,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1277.045306849,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1278.13537624,
+        "ready_monotonic_s": 1281.570218281,
+        "ready_frame": 4402,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1321.897449981,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1322.181560344,
+        "ready_monotonic_s": 1325.866789778,
+        "ready_frame": 6035,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1356.03967146,
+        "cleanup_errors": []
+      },
+      {
+        "source": "test",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1356.268269754,
+        "ready_monotonic_s": 1356.424538011,
+        "ready_frame": 7285,
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1371.688705731,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1372.426041021,
+        "ready_monotonic_s": 1375.865294914,
+        "ready_frame": 7905,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1386.429477526,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1387.604525364,
+        "ready_monotonic_s": 1391.025273181,
+        "ready_frame": 8340,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1431.543336941,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1431.893680614,
+        "ready_monotonic_s": 1435.576076444,
+        "ready_frame": 9977,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1465.81850481,
+        "cleanup_errors": []
+      },
+      {
+        "source": "test",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 1466.104261411,
+        "ready_monotonic_s": 1466.261395497,
+        "ready_frame": 11229,
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 1481.325800286,
+        "cleanup_errors": []
+      }
+    ],
+    "rf_reinitialization_reason": "GPIO=0 asserts AD9361 reset at every stop",
+    "pcm_recording": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "warmup_source": "synthetic complex tone; excluded from measured results"
+  },
+  "completed_cycles": 3,
+  "final_stop_readback": {
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "audio_control": 0,
+    "status": "PASS"
+  },
+  "finished_utc": "2021-11-19T00:17:18.193075+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Independent re-verification of N4 finite test/replay; not X2 width or RF quality",
+  "result_sha256": "3ae1b7bc1ad369a5a666e7a18a9ed4c994257962c2ba98858a3c637b5120715c",
+  "archive_sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+  "bit_sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+  "reference_sha256": {
+    "in_axis32.hex": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+    "exp_power_shifted.hex": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4"
+  },
+  "replay_compared_words": 8192,
+  "mismatches_by_frame": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "single_peak_bin": 1088,
+  "three_peak_bins": [
+    724,
+    1088,
+    1324
+  ],
+  "cfar_target_count": 3,
+  "gate": "G1"
+}

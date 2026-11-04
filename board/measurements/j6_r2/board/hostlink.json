@@ -1,0 +1,38 @@
+{
+  "producer_drops": 0,
+  "client_drops": 0,
+  "connections": 2,
+  "rejected": 0,
+  "accepted_commands": 2,
+  "cpu_s": 0.13992338399999998,
+  "max_queue_bytes": 4561,
+  "connected_clients": 2,
+  "thread_error": null,
+  "rejections": [],
+  "tcp_port": 9000,
+  "http_port": 8080,
+  "spectrum_samples": 0,
+  "spectrum_hz": 0.0,
+  "elapsed_s": 3.8221599079988664,
+  "capture_total_s": 0,
+  "capture_ms": [],
+  "capture_error": null,
+  "network_cpu_single_core_pct": 3.6608458925848133,
+  "ui_frames": 3,
+  "ui_readback_records": [
+    {
+      "epoch": 2,
+      "words": 10000,
+      "codec": "zlib-u32le-2bpp",
+      "sha256": "bd35bcf9172e1725d79f62b1df7417c91f68e26d1e6d678f9a1db1c8c85071f7",
+      "readback_verified": true,
+      "readback_sha256": "bd35bcf9172e1725d79f62b1df7417c91f68e26d1e6d678f9a1db1c8c85071f7",
+      "ui_revision": 1,
+      "request": null,
+      "applied_mono": 33185.243441192,
+      "view": "SIG",
+      "file": "host_twin/epoch_0000000002.u32"
+    }
+  ],
+  "end_to_end_latency": "NOT_CERTIFIED_NO_EXACT_PL_FRAME_MAPPING"
+}

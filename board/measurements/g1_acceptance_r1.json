@@ -1,0 +1,42 @@
+{
+  "step": "showcase/G1",
+  "group": "A",
+  "status": "FAIL",
+  "functional_status": "PASS",
+  "metrics": {
+    "cycle_seconds": [
+      117.14420806599992,
+      108.58302718599998,
+      109.68641699999989
+    ],
+    "mean_cycle_seconds": 111.80455075066659,
+    "each_cycle_le_110s": false,
+    "startup_seconds": [],
+    "transition_seconds": [],
+    "transition_median_seconds": null,
+    "transition_max_seconds": null,
+    "transition_target_pass": false,
+    "audio_underflows": [
+      0,
+      0,
+      0
+    ],
+    "audible_seconds": [
+      29.015353212000036,
+      28.951163382999994,
+      28.9923425410002
+    ],
+    "wav_status": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "wav_target_pass": false,
+    "overlay_loads": 1,
+    "model_loads": 1,
+    "model_warmups": 1,
+    "rf_initializations": 9
+  },
+  "all_segment_stop_readbacks_pass": true,
+  "receive_tx_attenuation_readbacks_pass": true,
+  "b_group_status": "NOT_TESTED_CONFIGURATION_A",
+  "wav_limitation": "Frozen PL has no actual playback PCM readback; no substitute WAV created",
+  "cold_start_included": true,
+  "historical_failures_preserved": true
+}

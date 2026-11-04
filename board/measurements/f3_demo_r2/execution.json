@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "command": "demo",
+  "worker_args": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/release/v2/scripts/demo_b.py",
+    "--root",
+    "/home/xilinx/sentinel/release/v2",
+    "--output",
+    "/home/xilinx/sentinel/release/v2/measurements/demo_20211118T232114Z_1344697d",
+    "--antenna-confirmed",
+    "yes",
+    "--cycles",
+    "3"
+  ],
+  "output": "/home/xilinx/sentinel/release/v2/measurements/demo_20211118T232114Z_1344697d",
+  "worker_exit_code": 0,
+  "stop_readback": {
+    "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 0,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

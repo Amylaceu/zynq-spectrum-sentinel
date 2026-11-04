@@ -1,0 +1,43 @@
+{
+  "schema": "y3-v2-integrated-software-v1",
+  "status": "PASS_SOFTWARE_ONLY",
+  "recorded_utc": "2026-11-03T09:51:12.302120+00:00",
+  "tests_passed": 462,
+  "pytest_elapsed_s": 6.25,
+  "command": "./.venv/Scripts/python.exe -m pytest -s -q src/ps/tests tools/tests",
+  "board_python_check": "PASS_BOARD_PYTHON_FAKE_IO",
+  "board_python": "3.8.2",
+  "hardware_tested": false,
+  "rf_initialized": false,
+  "speaker_played": false,
+  "rtl_changed_this_turn": false,
+  "legacy_artifact_matches": {
+    "sentinel_v1b": {
+      "sentinel_v1b.bit": true,
+      "sentinel_v1b.hwh": true,
+      "sentinel_v1b.xsa": true
+    },
+    "sentinel_v1d": {
+      "sentinel_v1d.bit": true,
+      "sentinel_v1d.hwh": true,
+      "sentinel_v1d.xsa": true
+    }
+  },
+  "source_and_log_sha256": {
+    "src/ps/sentinel/listen_y3.py": "9bd81c858c0327e0d4e180158d98088513fb0cb2434ec5f98f65870d29bc5022",
+    "src/ps/sentinel/app/monitor_x5.py": "9853462167ba18e93e9db8740e829791e6440316b6204d30a57ab9257ded29a0",
+    "src/ps/tests/test_listen_y3.py": "3f104d5b09e813e69674a0f816fbefc5af5da6c3e8d8e97c36ca44223746f566",
+    "tools/run_x5_board.py": "948b3d5e165b538237b14bee3cce4a57651dd63e2a041747937d919065b779fc",
+    "tools/check_y3_listener_board.py": "ad4ed347dda2e2672cc86df3d2fdea5bddbd915be9c153f0f558b303ea439f4b",
+    "docs/y3_v2_integrated_listener.md": "c96ba3f98edd1dcc6e84dfd0972bd7598d28545cfbca700201c1b6d165973e12",
+    "logs/Y3_v2_integrated_pc_r1.log": "a4754d4a1630547c45d80032b5b7669dde45adafd2c773ad41c88336ee5b00e0",
+    "logs/Y3_v2_integrated_pc_r2.log": "996c021c8c3fff9db1e0f7bb7dcd97756a370ff1dcfc7069aa0d33d8f511c789",
+    "logs/Y3_v2_integrated_pc_r3.log": "5817526ce18d3d773e114a5d0ae82390675e8f81b764628ea7a0a073bd76d584",
+    "logs/Y3_v2_listener_board_python_r1.log": "fbb375c3327b576dade854671e9a3d02e34bdac6530eee28dd12f67dd3a1be46",
+    "logs/Y3_v2_listener_board_python_r2.log": "a97822916b369d7a3d90ad630d5d5ee17f6f12d2d4ef468c4c53e30bbdeddc8a",
+    "board/measurements/y3_listener_python_r1.json": "ba63dbe3c592634b892eceddc34d7a7661fba4d90005d515063ce321f9ac87f5",
+    "board/measurements/y3_listener_python_r2.json": "c7edf60f86ae3f8a995ad714065708cece0ea3bcb664680e6fc5f5089c2ec97c"
+  },
+  "stage": "Y3 DOING; new optional integration, old functions reused",
+  "deployment_gate_unchanged": true
+}

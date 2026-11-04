@@ -1,0 +1,12 @@
+{
+  "status": "ARCHIVED",
+  "implementation_exit_code": 1,
+  "attempt": 1,
+  "note": "synth_1 exits immediately after source system_top.tcl; no HDL error text and no top DCP/bit. Preserve generated scripts and OOC outputs before diagnosing.",
+  "recorded_at_pc": "2026-11-03T03:54:17.757231+00:00",
+  "scope": "Preserved build inputs/outputs; not board acceptance",
+  "prebuild_sha256": "a13b2a98b95f31a2d2bd223919cf126c634d3b250f0ec166c3c036d1e7ebea76",
+  "file_count": 2200,
+  "archive": "report/results/z2_implementation_r1.zip",
+  "archive_sha256": "fe49a560d4d9ee2d412762668e03546f241efabe5bf6660667045a5775c64528"
+}

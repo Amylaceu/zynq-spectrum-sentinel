@@ -1,0 +1,66 @@
+# Preserve archived SHA256 evidence byte-for-byte across device checkouts.
+board/measurements/** -text
+board/overlay/** -text
+build/reports/** -text
+data/reference/** -text
+sim/results/** -text
+docs/x0_*audit.json* -text
+# Board-side executable source must remain LF on Windows and Linux.
+*.py text eol=lf
+*.sh text eol=lf
+# Freeze the measured isolated X2 candidates byte-for-byte (including EOL).
+src/rtl/x2_opt/** -text
+sim/tb/drop_counter_reference.v -text
+sim/tb/tb_x2_drop_counter.sv -text
+sim/tb/tb_x2_timing_candidates.sv -text
+tools/test_x2_timing_candidates.ps1 -text
+tools/audit_x2_timing_candidates.ps1 -text
+build/scripts/audit_x2_timing_candidates.tcl -text
+
+# Preserve byte-addressed X2 follow-up evidence across Windows/Linux checkout.
+src/ps/sentinel/amc/native/** -text
+sim/tb/cfar_*_regwrap.v -text
+sim/tb/tb_cfar_*_x2.sv -text
+tools/test_x2_maskpipe.ps1 -text
+tools/test_x2_cfgpipe.ps1 -text
+tools/test_x2_maskpipe_chain.ps1 -text
+tools/audit_x2_maskpipe.ps1 -text
+build/scripts/audit_x2_maskpipe.tcl -text
+
+# X5 sources are covered by immutable byte hashes, including existing CRLF.
+src/hw/sentinel_v1d/** -text
+src/rtl/pfb/** -text
+src/rtl/nco_capture/** -text
+src/rtl/x5/** -text
+src/rtl/lcd_x5/** -text
+src/rtl/cfar_x5/** -text
+sim/tb/tb_x5* -text
+sim/tb/tb_cfar_x5.sv -text
+sim/tb/tb_lcd_render_scheduler_x5.sv -text
+tools/*x5*.ps1 -text
+tools/*v1d*.ps1 -text
+tools/*x5*.tcl -text
+build/scripts/*x5*.tcl -text
+build/scripts/*v1d*.tcl -text
+docs/x5* -text
+
+# Y3 frozen inputs/runtime evidence must survive checkout byte-for-byte.
+# Preserve existing trailing newlines too; formatting changes require new hashes.
+src/hw/sentinel_y3/** -text
+src/rtl/audio_y3/** -text
+src/ps/sentinel/*y3.py -text
+src/ps/tests/test_*y3.py -text
+sim/tb/tb_*y3.sv -text
+board/scripts/*y3*.py -text
+build/scripts/*y3*.tcl -text
+tools/*y3*.py -text
+tools/*y3*.ps1 -text
+tools/tests/test_*y3*.py -text
+docs/y3_prebuild*.json* -text
+
+# F0: retain the measured 100 MHz files' original bytes during handoff.
+src/ps/tests/test_v2_clock.py -text
+tools/verify_cfar_v2.py -text
+
+# Preserve upstream license texts exactly, including original whitespace.
+LICENSES/** -text -whitespace

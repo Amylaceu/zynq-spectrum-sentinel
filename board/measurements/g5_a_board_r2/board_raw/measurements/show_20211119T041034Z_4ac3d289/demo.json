@@ -1,0 +1,139 @@
+{
+  "status": "FAIL",
+  "group": "A",
+  "image": "sentinel_v2_100m",
+  "runtime_mode": "persistent",
+  "wav_recording": {
+    "status": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "requested_path": "/home/xilinx/sentinel/release/v2/measurements/show_20211119T041034Z_4ac3d289/playback.wav",
+    "file_created": false
+  },
+  "cycles_timing": [],
+  "RF_TX_requested": false,
+  "tx1a": "disconnected",
+  "rx_port": "RX1A",
+  "station_hz": 95800000,
+  "lo_hz": 96050000,
+  "volume_db": -12.0,
+  "loop": false,
+  "segment_filter": null,
+  "segments": [
+    {
+      "number": 1,
+      "cycle": 1,
+      "title": "SELFTEST",
+      "duration_requested_s": 10,
+      "duration_wall_s": 25.42332957600047,
+      "exit_code": 0,
+      "evidence_dir": "segment_01_7fc321ae",
+      "log": "logs/segment_01_7fc321ae.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "dc42a1622fd470de3d98b18116a3b6758c3d45fcba2027d4569e3231c8c824e7"
+    },
+    {
+      "number": 2,
+      "cycle": 1,
+      "title": "FM MONITOR / AMC",
+      "duration_requested_s": 40,
+      "duration_wall_s": 44.45265687100073,
+      "exit_code": 0,
+      "evidence_dir": "segment_02_e738acc6",
+      "log": "logs/segment_02_e738acc6.log",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0,
+        "status": "PASS"
+      },
+      "result_sha256": "c8ab14cd3072b4be593218c9aafdb1c71624d331dc6ffcbefadbd76913b2efb7"
+    }
+  ],
+  "started_utc": "2021-11-19T04:10:36.675235+00:00",
+  "runtime": {
+    "overlay_loads": 1,
+    "rf_initializations": 3,
+    "model_loads": 1,
+    "model_warmups": 1,
+    "segments": [
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 15481.182623109,
+        "ready_monotonic_s": 15491.743397616,
+        "ready_frame": 2,
+        "content_started_monotonic_s": 15492.490643957,
+        "startup_seconds": 11.308030301999679,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 15505.721043376,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 15507.243044837,
+        "ready_monotonic_s": 15509.872317048,
+        "ready_frame": 583,
+        "content_started_monotonic_s": 15510.11825551,
+        "startup_seconds": 2.8752185739995184,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 15550.279750741,
+        "cleanup_errors": []
+      },
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 15550.673363167,
+        "ready_monotonic_s": 15554.371886045,
+        "ready_frame": 2229,
+        "content_started_monotonic_s": 15554.550779793,
+        "startup_seconds": 3.877426805000141,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 15555.76627765,
+        "cleanup_errors": []
+      }
+    ],
+    "rf_reinitialization_reason": "GPIO=0 asserts AD9361 reset at every stop",
+    "pcm_recording": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "warmup_source": "synthetic complex tone; excluded from measured results"
+  },
+  "error": "RuntimeError(\"Continuous sample/clock integrity failed: {'elapsed_s': 1.1616906700000982, 'audio': {'raw_status': 65577, 'enabled': True, 'iq_overflow': False, 'pcm_full': False, 'playing': True, 'fifo_level': 4098, 'frames': 59026, 'underflows': 0, 'pcm_samples': 63126}, 'display_frames': 2282, 'display_fps': 39.597460139708375, 'temperature_c': 65.088568115036, 'rx_rssi_dbm': -85.25, 'tx_attenuation_db': [89.75, 89.75], 'audio_frame_rate_hz': 44773.536831448946, 'pcm_sample_rate_hz': 44776.119274501536, 'channel_health': 0, 'pfb_capture_status': 268435458}\")",
+  "final_stop_readback": {
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "audio_control": 0,
+    "status": "PASS"
+  },
+  "finished_utc": "2021-11-19T04:11:52.224696+00:00"
+}

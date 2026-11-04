@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-02",
+  "source": "user_visual_confirmation",
+  "overlay": "bringup_z20_lcd",
+  "complete_colorbars": true,
+  "top_strip_changing": true,
+  "framebuffer_tested": false,
+  "touch_tested": false
+}

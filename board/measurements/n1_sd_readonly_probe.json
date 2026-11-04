@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "source": "Windows storage enumeration; read-only",
+  "disk_number": 1,
+  "bus_type": "USB",
+  "friendly_name": "Mass Storage Device",
+  "size_bytes": 0,
+  "operational_status": "No Media",
+  "is_offline": true,
+  "boot_files_read": false,
+  "card_modified": false,
+  "conclusion": "USB reader present, medium not readable; cause not established"
+}

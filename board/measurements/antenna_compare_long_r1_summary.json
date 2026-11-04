@@ -1,0 +1,74 @@
+{
+  "status": "LONG_COMPLETE_SHORT_PENDING",
+  "recorded_at_pc": "2026-11-03T03:33:08.674662+08:00",
+  "scope": "First of two user-authorized antenna comparisons; not a fourth X1 tuning round or full X1 acceptance.",
+  "antenna": "ANT-1: thick/long 20-512MHz, short feedline",
+  "user_confirmation": "\u7c97\u957f\u5929\u7ebf\u5df2\u63a5RX1A\uff0cTX\u7a7a\uff0c\u53ef\u4ee5\u5f00\u59cb",
+  "metrics": {
+    "telemetry_records": 104,
+    "coherent_snapshots": 104,
+    "snapshot_misses": 0,
+    "capacity_alarm_records": 0,
+    "capacity_alarm_rate_valid": 0.0,
+    "capacity_alarm_rate_upper_bound_all_attempts": 0.0,
+    "station_detected_records": 16,
+    "station_detection_rate_all_attempts": 0.15384615384615385,
+    "target_count_median": 8.0,
+    "display_fps_median": 49.4276139452227,
+    "temperature_range_c": [
+      59.797814941224004,
+      61.151263427548
+    ],
+    "sample_overflow_records": 0,
+    "configuration": {
+      "average_shift": 3,
+      "min_width_bins": 2,
+      "merge_gap_bins": 6,
+      "alpha": 1974,
+      "mask_table": [],
+      "dc_mask": 3
+    },
+    "receiver_rssi_dbm": {
+      "median": -116.5,
+      "minimum": -116.75,
+      "maximum": -110.25,
+      "caveat": "Receiver-reported RSSI; AGC and other received signals affect interpretation. Not calibrated antenna gain or target SNR."
+    }
+  },
+  "elapsed_total_s": 120.02642388899949,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "configuration": {
+    "average_shift": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "alpha": 1974,
+    "mask_table": [],
+    "dc_mask": 3
+  },
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "monitor_sha256": "7b483706758cb110fa3a0bb8aadcd19dec0611f87507307255b080af6aa2aea0",
+  "measurement": {
+    "path": "board/measurements/antenna_compare_long_r1.json",
+    "sha256": "29b071bf199a0d89a1068d5830aec832023645be9945dbb19ff239ca787bd6d4"
+  },
+  "execution_receipt": {
+    "path": "board/measurements/antenna_compare_long_r1_execution.json",
+    "sha256": "26c81560d3199d77beb9cabc5710252a260be9cdd66a6bb861660a73fd798e41"
+  },
+  "analysis_source": {
+    "path": "tools/analyze_x1_board.py",
+    "sha256": "8d84ab623d4c13ef4b2b13cbca31cdef730153bba1b1bf8425d4fb83b2b287e7"
+  },
+  "receiver_stopped": true,
+  "comparison_result": null,
+  "limitations": [
+    "Second antenna not yet measured. No winner established.",
+    "Sequential over-the-air measurements may vary with time, placement and multipath.",
+    "Result applies to the 95.8MHz station under current placement, not the full 20-512MHz band.",
+    "Detection denominator is all scheduled telemetry snapshots, not all PL frames."
+  ]
+}

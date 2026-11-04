@@ -1,0 +1,10 @@
+{
+  "status": "START_REQUESTED",
+  "pid": 1726,
+  "station_mhz": 95.8,
+  "lo_mhz": 96.05,
+  "volume_db": -12,
+  "max_duration_s": 300,
+  "antenna": "A",
+  "audio": "board J36 speaker"
+}

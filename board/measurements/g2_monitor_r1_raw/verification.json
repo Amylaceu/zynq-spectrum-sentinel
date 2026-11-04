@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "root": "/home/xilinx/sentinel/release/v2",
+  "tag": "20211119T014432Z_a3963a25",
+  "kind": "monitor",
+  "file_count": 7,
+  "files_sha256": {
+    "logs/20211119T014432Z_a3963a25.log": "26451dc0708dcc8a28164b130d3e663b001ca1df23c67a1cff222b8157e905e5",
+    "measurements/20211119T014432Z_a3963a25_execution.json": "e860d6df6bad4ebea8d61b6fd26ba45e04d74e05974f675578431c5b4670aa76",
+    "measurements/20211119T014432Z_a3963a25_execution.json.sha256": "deac6e7ad24c08e3fdc7a34d573ea05430a3ff928a051dcb46fdec88d6e2864f",
+    "measurements/monitor_20211119T014432Z_a3963a25/capture_00000.npz": "e1ea156cd5ce34e368cf5b0e11c62d90cd6990a3eb13990fbb196bbfa3475dae",
+    "measurements/monitor_20211119T014432Z_a3963a25/capture_00000.npz.sha256": "4e9dfcccbf7524738bb7cd0428c8693a4b3e75c98ada0b91c8759dbcce626759",
+    "measurements/monitor_20211119T014432Z_a3963a25/result.json": "669eac9f3c904cc83d53b8b47927edcc47817ec8a3b055d4d781a7f7aecbd289",
+    "measurements/monitor_20211119T014432Z_a3963a25/result.json.sha256": "9b99a8a4ca1c4d551a9ef065a9b6dea60713bcd90be4ca60e50fc958dd808fbe"
+  }
+}

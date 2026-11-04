@@ -1,0 +1,1844 @@
+{
+  "status": "PASS",
+  "RF_TX_requested": false,
+  "configuration": {
+    "mode": "CA",
+    "n": 16,
+    "guard": 8,
+    "average_shift": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "alpha": 1974,
+    "mask_table": [],
+    "dc_mask": 3
+  },
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "bands": [
+    {
+      "lo_hz": 2305000000,
+      "samples": [
+        {
+          "sequence": 147468,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 147509,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.75
+        },
+        {
+          "sequence": 147550,
+          "hit_count": 2,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 147591,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 147632,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 147673,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 147714,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 147754,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.5
+        },
+        {
+          "sequence": 147795,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.0
+        },
+        {
+          "sequence": 147836,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -76.75
+        },
+        {
+          "sequence": 147877,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.75
+        },
+        {
+          "sequence": 147918,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.75
+        },
+        {
+          "sequence": 147959,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148000,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148048,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148089,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148129,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148170,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.25
+        },
+        {
+          "sequence": 148227,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -77.5
+        },
+        {
+          "sequence": 148270,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -74.5
+        },
+        {
+          "sequence": 148311,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.0
+        },
+        {
+          "sequence": 148351,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -76.25
+        },
+        {
+          "sequence": 148392,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -78.25
+        },
+        {
+          "sequence": 148432,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -76.25
+        },
+        {
+          "sequence": 148473,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -73.75
+        },
+        {
+          "sequence": 148513,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -78.5
+        },
+        {
+          "sequence": 148553,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -78.75
+        },
+        {
+          "sequence": 148594,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.75
+        },
+        {
+          "sequence": 148634,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -77.25
+        },
+        {
+          "sequence": 148674,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -73.25
+        },
+        {
+          "sequence": 148715,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -77.75
+        },
+        {
+          "sequence": 148755,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -77.75
+        },
+        {
+          "sequence": 148796,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -73.0
+        },
+        {
+          "sequence": 148836,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 148877,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -76.0
+        },
+        {
+          "sequence": 148918,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.5
+        },
+        {
+          "sequence": 148958,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -74.5
+        },
+        {
+          "sequence": 148998,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.0
+        },
+        {
+          "sequence": 149039,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 149079,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 149119,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 149160,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 149200,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.0
+        },
+        {
+          "sequence": 149240,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.0
+        },
+        {
+          "sequence": 149281,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -78.75
+        },
+        {
+          "sequence": 149321,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -78.75
+        },
+        {
+          "sequence": 149361,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.5
+        },
+        {
+          "sequence": 149402,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 149442,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.0
+        },
+        {
+          "sequence": 149482,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 149523,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -93.5
+        },
+        {
+          "sequence": 149563,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.5
+        },
+        {
+          "sequence": 149603,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 149643,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.5
+        },
+        {
+          "sequence": 149684,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.5
+        },
+        {
+          "sequence": 149724,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.5
+        },
+        {
+          "sequence": 149764,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.25
+        },
+        {
+          "sequence": 149805,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 149845,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.5
+        },
+        {
+          "sequence": 149885,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.5
+        },
+        {
+          "sequence": 149926,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.75
+        },
+        {
+          "sequence": 149966,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 150006,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.25
+        },
+        {
+          "sequence": 150047,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.75
+        },
+        {
+          "sequence": 150087,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.75
+        },
+        {
+          "sequence": 150127,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.75
+        },
+        {
+          "sequence": 150168,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.25
+        },
+        {
+          "sequence": 150208,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.25
+        },
+        {
+          "sequence": 150249,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.25
+        },
+        {
+          "sequence": 150289,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.25
+        },
+        {
+          "sequence": 150330,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.25
+        },
+        {
+          "sequence": 150370,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.25
+        },
+        {
+          "sequence": 150410,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.25
+        },
+        {
+          "sequence": 150451,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -98.0
+        },
+        {
+          "sequence": 150491,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.0
+        },
+        {
+          "sequence": 150531,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.25
+        },
+        {
+          "sequence": 150572,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.5
+        },
+        {
+          "sequence": 150612,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.5
+        },
+        {
+          "sequence": 150652,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.75
+        },
+        {
+          "sequence": 150693,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.25
+        },
+        {
+          "sequence": 150733,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.0
+        },
+        {
+          "sequence": 150773,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.0
+        },
+        {
+          "sequence": 150814,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.0
+        },
+        {
+          "sequence": 150854,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.0
+        },
+        {
+          "sequence": 150895,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.0
+        },
+        {
+          "sequence": 150935,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.5
+        },
+        {
+          "sequence": 150975,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 151016,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 151056,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.5
+        },
+        {
+          "sequence": 151097,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 151137,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 151177,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.75
+        },
+        {
+          "sequence": 151218,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.25
+        },
+        {
+          "sequence": 151258,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -79.25
+        },
+        {
+          "sequence": 151298,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.25
+        },
+        {
+          "sequence": 151339,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -80.25
+        },
+        {
+          "sequence": 151379,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 151419,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 151460,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 151500,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        }
+      ],
+      "unmasked_bins_per_frame": 2041,
+      "measured_hit_fraction": 9.799118079372857e-06
+    },
+    {
+      "lo_hz": 2345000000,
+      "samples": [
+        {
+          "sequence": 151733,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 151773,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 151813,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 151853,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 151894,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 151934,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -92.5
+        },
+        {
+          "sequence": 151974,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -92.0
+        },
+        {
+          "sequence": 152014,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.75
+        },
+        {
+          "sequence": 152054,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.5
+        },
+        {
+          "sequence": 152094,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.5
+        },
+        {
+          "sequence": 152135,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 152175,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.0
+        },
+        {
+          "sequence": 152215,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 152255,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 152295,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.0
+        },
+        {
+          "sequence": 152335,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -96.0
+        },
+        {
+          "sequence": 152376,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -95.5
+        },
+        {
+          "sequence": 152416,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.0
+        },
+        {
+          "sequence": 152456,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.0
+        },
+        {
+          "sequence": 152496,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -93.5
+        },
+        {
+          "sequence": 152536,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.0
+        },
+        {
+          "sequence": 152576,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.0
+        },
+        {
+          "sequence": 152617,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -82.0
+        },
+        {
+          "sequence": 152657,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.5
+        },
+        {
+          "sequence": 152697,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 152737,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 152777,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -81.5
+        },
+        {
+          "sequence": 152817,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.5
+        },
+        {
+          "sequence": 152857,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.5
+        },
+        {
+          "sequence": 152898,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 152938,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 152978,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 153019,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 153059,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 153099,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 153139,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.75
+        },
+        {
+          "sequence": 153179,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.75
+        },
+        {
+          "sequence": 153220,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.75
+        },
+        {
+          "sequence": 153260,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.75
+        },
+        {
+          "sequence": 153300,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -88.75
+        },
+        {
+          "sequence": 153340,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.0
+        },
+        {
+          "sequence": 153380,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -95.5
+        },
+        {
+          "sequence": 153420,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.5
+        },
+        {
+          "sequence": 153461,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -96.25
+        },
+        {
+          "sequence": 153501,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.25
+        },
+        {
+          "sequence": 153541,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 153581,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.25
+        },
+        {
+          "sequence": 153621,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.5
+        },
+        {
+          "sequence": 153662,
+          "hit_count": 4,
+          "target_count": 1,
+          "rssi_dbm": -100.75
+        },
+        {
+          "sequence": 153702,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.5
+        },
+        {
+          "sequence": 153742,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.75
+        },
+        {
+          "sequence": 153782,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.25
+        },
+        {
+          "sequence": 153823,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.25
+        },
+        {
+          "sequence": 153863,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 153903,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -92.5
+        },
+        {
+          "sequence": 153943,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -92.25
+        },
+        {
+          "sequence": 153983,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -103.0
+        },
+        {
+          "sequence": 154024,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.75
+        },
+        {
+          "sequence": 154064,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -95.75
+        },
+        {
+          "sequence": 154105,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.5
+        },
+        {
+          "sequence": 154145,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.0
+        },
+        {
+          "sequence": 154185,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.25
+        },
+        {
+          "sequence": 154225,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.75
+        },
+        {
+          "sequence": 154265,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.75
+        },
+        {
+          "sequence": 154305,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 154346,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 154386,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 154426,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.75
+        },
+        {
+          "sequence": 154466,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -100.75
+        },
+        {
+          "sequence": 154506,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.0
+        },
+        {
+          "sequence": 154546,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -102.25
+        },
+        {
+          "sequence": 154587,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.5
+        },
+        {
+          "sequence": 154627,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -96.5
+        },
+        {
+          "sequence": 154667,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -96.0
+        },
+        {
+          "sequence": 154707,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -102.0
+        },
+        {
+          "sequence": 154748,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.25
+        },
+        {
+          "sequence": 154788,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -98.5
+        },
+        {
+          "sequence": 154829,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.75
+        },
+        {
+          "sequence": 154869,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.0
+        },
+        {
+          "sequence": 154909,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -83.5
+        },
+        {
+          "sequence": 154949,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.75
+        },
+        {
+          "sequence": 154990,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.25
+        },
+        {
+          "sequence": 155030,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -86.0
+        },
+        {
+          "sequence": 155070,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.25
+        },
+        {
+          "sequence": 155110,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -85.0
+        },
+        {
+          "sequence": 155150,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -84.75
+        },
+        {
+          "sequence": 155190,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.0
+        },
+        {
+          "sequence": 155231,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 155271,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 155311,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 155351,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -87.5
+        },
+        {
+          "sequence": 155391,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.0
+        },
+        {
+          "sequence": 155431,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -89.75
+        },
+        {
+          "sequence": 155471,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -90.5
+        },
+        {
+          "sequence": 155512,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -91.25
+        },
+        {
+          "sequence": 155552,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.5
+        },
+        {
+          "sequence": 155592,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -101.0
+        },
+        {
+          "sequence": 155632,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -96.25
+        },
+        {
+          "sequence": 155672,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.5
+        },
+        {
+          "sequence": 155712,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -100.75
+        }
+      ],
+      "unmasked_bins_per_frame": 2041,
+      "measured_hit_fraction": 1.9598236158745714e-05
+    },
+    {
+      "lo_hz": 2385000000,
+      "samples": [
+        {
+          "sequence": 155945,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.0
+        },
+        {
+          "sequence": 155985,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.0
+        },
+        {
+          "sequence": 156025,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -115.0
+        },
+        {
+          "sequence": 156065,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.25
+        },
+        {
+          "sequence": 156106,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.25
+        },
+        {
+          "sequence": 156146,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.0
+        },
+        {
+          "sequence": 156186,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 156226,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.75
+        },
+        {
+          "sequence": 156266,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.75
+        },
+        {
+          "sequence": 156306,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.0
+        },
+        {
+          "sequence": 156347,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 156387,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -102.5
+        },
+        {
+          "sequence": 156427,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.0
+        },
+        {
+          "sequence": 156468,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.5
+        },
+        {
+          "sequence": 156508,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.25
+        },
+        {
+          "sequence": 156548,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -113.25
+        },
+        {
+          "sequence": 156589,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 156629,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -115.25
+        },
+        {
+          "sequence": 156669,
+          "hit_count": 1,
+          "target_count": 0,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 156709,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 156750,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.75
+        },
+        {
+          "sequence": 156790,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -103.25
+        },
+        {
+          "sequence": 156830,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -99.25
+        },
+        {
+          "sequence": 156870,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.5
+        },
+        {
+          "sequence": 156910,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.25
+        },
+        {
+          "sequence": 156950,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.0
+        },
+        {
+          "sequence": 156991,
+          "hit_count": 7,
+          "target_count": 2,
+          "rssi_dbm": -114.25
+        },
+        {
+          "sequence": 157031,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.5
+        },
+        {
+          "sequence": 157071,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -114.25
+        },
+        {
+          "sequence": 157111,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.75
+        },
+        {
+          "sequence": 157151,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.5
+        },
+        {
+          "sequence": 157192,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.5
+        },
+        {
+          "sequence": 157232,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.75
+        },
+        {
+          "sequence": 157272,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 157312,
+          "hit_count": 2,
+          "target_count": 1,
+          "rssi_dbm": -105.5
+        },
+        {
+          "sequence": 157352,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.0
+        },
+        {
+          "sequence": 157392,
+          "hit_count": 1,
+          "target_count": 0,
+          "rssi_dbm": -113.25
+        },
+        {
+          "sequence": 157433,
+          "hit_count": 2,
+          "target_count": 1,
+          "rssi_dbm": -111.0
+        },
+        {
+          "sequence": 157473,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -103.0
+        },
+        {
+          "sequence": 157513,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.5
+        },
+        {
+          "sequence": 157553,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.75
+        },
+        {
+          "sequence": 157593,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -102.0
+        },
+        {
+          "sequence": 157633,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.75
+        },
+        {
+          "sequence": 157673,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -103.0
+        },
+        {
+          "sequence": 157714,
+          "hit_count": 1,
+          "target_count": 0,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 157754,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.75
+        },
+        {
+          "sequence": 157794,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 157834,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -113.25
+        },
+        {
+          "sequence": 157874,
+          "hit_count": 15,
+          "target_count": 2,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 157915,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.5
+        },
+        {
+          "sequence": 157955,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 157995,
+          "hit_count": 1,
+          "target_count": 0,
+          "rssi_dbm": -112.0
+        },
+        {
+          "sequence": 158035,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -113.5
+        },
+        {
+          "sequence": 158075,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.5
+        },
+        {
+          "sequence": 158115,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.25
+        },
+        {
+          "sequence": 158155,
+          "hit_count": 23,
+          "target_count": 3,
+          "rssi_dbm": -114.25
+        },
+        {
+          "sequence": 158196,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.25
+        },
+        {
+          "sequence": 158236,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.75
+        },
+        {
+          "sequence": 158276,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.75
+        },
+        {
+          "sequence": 158316,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.0
+        },
+        {
+          "sequence": 158357,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 158397,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.25
+        },
+        {
+          "sequence": 158437,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.75
+        },
+        {
+          "sequence": 158477,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.25
+        },
+        {
+          "sequence": 158517,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.75
+        },
+        {
+          "sequence": 158558,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 158598,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.75
+        },
+        {
+          "sequence": 158638,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.25
+        },
+        {
+          "sequence": 158678,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.0
+        },
+        {
+          "sequence": 158718,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -114.0
+        },
+        {
+          "sequence": 158758,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -113.0
+        },
+        {
+          "sequence": 158799,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.0
+        },
+        {
+          "sequence": 158839,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -106.75
+        },
+        {
+          "sequence": 158879,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -100.0
+        },
+        {
+          "sequence": 158919,
+          "hit_count": 2,
+          "target_count": 1,
+          "rssi_dbm": -112.75
+        },
+        {
+          "sequence": 158959,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.5
+        },
+        {
+          "sequence": 158999,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -105.0
+        },
+        {
+          "sequence": 159040,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -111.0
+        },
+        {
+          "sequence": 159080,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -115.75
+        },
+        {
+          "sequence": 159120,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.75
+        },
+        {
+          "sequence": 159160,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.75
+        },
+        {
+          "sequence": 159200,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.5
+        },
+        {
+          "sequence": 159240,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -113.5
+        },
+        {
+          "sequence": 159281,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.75
+        },
+        {
+          "sequence": 159321,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -112.0
+        },
+        {
+          "sequence": 159361,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 159401,
+          "hit_count": 3,
+          "target_count": 1,
+          "rssi_dbm": -105.75
+        },
+        {
+          "sequence": 159441,
+          "hit_count": 2,
+          "target_count": 1,
+          "rssi_dbm": -104.75
+        },
+        {
+          "sequence": 159482,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.0
+        },
+        {
+          "sequence": 159522,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.75
+        },
+        {
+          "sequence": 159562,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.75
+        },
+        {
+          "sequence": 159602,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 159642,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.5
+        },
+        {
+          "sequence": 159682,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -107.5
+        },
+        {
+          "sequence": 159722,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -104.25
+        },
+        {
+          "sequence": 159762,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -97.0
+        },
+        {
+          "sequence": 159803,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -109.0
+        },
+        {
+          "sequence": 159843,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -103.75
+        },
+        {
+          "sequence": 159883,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -108.25
+        },
+        {
+          "sequence": 159923,
+          "hit_count": 0,
+          "target_count": 0,
+          "rssi_dbm": -110.25
+        }
+      ],
+      "unmasked_bins_per_frame": 2041,
+      "measured_hit_fraction": 0.0002939735423811857
+    }
+  ],
+  "gpio_after_band": 0,
+  "source_after_band": 0,
+  "iid_exponential_nominal_pfa": 0.000999251535939322,
+  "scope": "Observed PL hit fraction in presumed-idle antenna-connected bands. External emitters not excluded. Fixed AVG_SHIFT=3 means the iid exponential nominal reference is not a calibrated operating Pfa.",
+  "calibrated_pfa_certified": false
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "x5-core-verification-v1",
+  "round": 3,
+  "collected_utc": "2026-11-02T23:42:11.678764+00:00",
+  "status": "PASS",
+  "rtl_matches_preverification_freeze": true,
+  "expected_rtl_sha256": {
+    "src/rtl/pfb/pfb_os2.v": "7eb2955a9bd9d6d3e3fc70a556888ec816253394f4e2ae9573eb2091d425575c",
+    "src/rtl/nco_capture/nco_capture.v": "b816645ba84d95261700007f5975b84e66c73ac4bfdc5266a4a6f42b432a8dbe",
+    "src/rtl/nco_capture/x5_channel_capture.v": "76ced9ed55b5831362f0ef6141ea8d1fb5f4949f891d32b5c30ca0882e560412"
+  },
+  "sources": [
+    {
+      "path": "src/rtl/pfb/pfb_os2.v",
+      "exists": true,
+      "bytes": 5892,
+      "sha256": "7eb2955a9bd9d6d3e3fc70a556888ec816253394f4e2ae9573eb2091d425575c"
+    },
+    {
+      "path": "src/rtl/pfb/x5_pfb_coeff.hex",
+      "exists": true,
+      "bytes": 896,
+      "sha256": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d"
+    },
+    {
+      "path": "src/rtl/nco_capture/nco_capture.v",
+      "exists": true,
+      "bytes": 5883,
+      "sha256": "b816645ba84d95261700007f5975b84e66c73ac4bfdc5266a4a6f42b432a8dbe"
+    },
+    {
+      "path": "src/rtl/nco_capture/x5_nco_sine.hex",
+      "exists": true,
+      "bytes": 28672,
+      "sha256": "72331877a5edf94abccf713bf65f732fb99d66a40d4b63bf311bda0dc8e4ae35"
+    },
+    {
+      "path": "src/rtl/nco_capture/x5_channel_capture.v",
+      "exists": true,
+      "bytes": 1830,
+      "sha256": "76ced9ed55b5831362f0ef6141ea8d1fb5f4949f891d32b5c30ca0882e560412"
+    },
+    {
+      "path": "sim/golden/nco_capture_fixed.py",
+      "exists": true,
+      "bytes": 1619,
+      "sha256": "d96e6979d6f9130ee4e2c0c92ac0573b63e206f14fdc5a8761f9198a0b4ac5f0"
+    },
+    {
+      "path": "sim/tb/tb_x5_pfb.sv",
+      "exists": true,
+      "bytes": 6288,
+      "sha256": "5dc172e41362bfd7716fabb6bf827301258e676e1c1d64e8d96e411346582d56"
+    },
+    {
+      "path": "sim/tb/tb_x5_nco_capture.sv",
+      "exists": true,
+      "bytes": 5713,
+      "sha256": "74f8ff1eaf6d0d2ad0ca45404662085288ffc3d2a968a70146d79db21be4beb2"
+    },
+    {
+      "path": "tools/x5_create_fft.tcl",
+      "exists": true,
+      "bytes": 1271,
+      "sha256": "61d9ecb2ef3f1a43935c40ccb6fd08969c8e9dc0786e59c5fa355f0009db96ef"
+    },
+    {
+      "path": "tools/x5_vectors.py",
+      "exists": true,
+      "bytes": 2872,
+      "sha256": "5bc8db31cbea7ae852d1ca845e2089b5584b9f7ab0c37d89f13f9d0a1596cf01"
+    },
+    {
+      "path": "tools/x5_run_sim.ps1",
+      "exists": true,
+      "bytes": 1371,
+      "sha256": "c7b61ac696d67151782d2db47fc2136e089b09b78745c3e23dc466ee06d2e422"
+    },
+    {
+      "path": "tools/x5_synth.tcl",
+      "exists": true,
+      "bytes": 2798,
+      "sha256": "41c18d74c5924fedaead4d36549f9d4e9a42d8cf7316cf82a37b0acdc1e29060"
+    },
+    {
+      "path": "tools/x5_freeze_evidence.py",
+      "exists": true,
+      "bytes": 4734,
+      "sha256": "968163b0f17c2b5da2a63b890e259518f87fbd7f8ff2bdf27be18e3c170f535e"
+    },
+    {
+      "path": "docs/x5_pl_interface.md",
+      "exists": true,
+      "bytes": 9916,
+      "sha256": "660218bff2825bc9621f23d690faae0b5dc1ae54a3612bde12cc6d44a7cb7511"
+    }
+  ],
+  "shared_fft_read_only_snapshot": {
+    "path": "build/work/x5_fft/x5_fft.srcs/sources_1/ip/pfb_fft16/pfb_fft16.xci",
+    "exists": true,
+    "bytes": 28225,
+    "sha256": "0657db751c8d1475a3372514baaa03315d66cedeb473d3ca665ee13602bb35ad"
+  },
+  "simulation": {
+    "nco": {
+      "path": "logs/X5_nco_round3.log",
+      "exists": true,
+      "bytes": 846,
+      "sha256": "98582ddb61315569164594752fc0906dd93841d762c9d81afd03a01cd9d6ec39",
+      "required_marker": "TB_RESULT: PASS X5 NCO 4513 exact words",
+      "status": "PASS"
+    },
+    "pfb_chain": {
+      "path": "logs/X5_pfb_round3.log",
+      "exists": true,
+      "bytes": 2280,
+      "sha256": "0173eeb66218c5da62b446adf415c7d1e915da20fd3d7740c9525b3d44991dfd",
+      "required_marker": "TB_RESULT: PASS X5 PFB+NCO exact",
+      "status": "PASS"
+    },
+    "suite": {
+      "path": "logs/X5_sim_round3.stdout.log",
+      "exists": true,
+      "bytes": 435,
+      "sha256": "7a3e48a2704edf1a930e15edb610e96f79120419b67709c4cc8d177775de83fe",
+      "required_marker": "X5_SIM_ROUND_3_PASS",
+      "status": "PASS"
+    },
+    "expected_counts": {
+      "nco_words": 4513,
+      "pfb_baseline_inputs": 32769,
+      "pfb_baseline_frames": 4097,
+      "pfb_baseline_iq_words": 65552,
+      "scap_words": 4104,
+      "reset_burst_pfb_iq_words": 2048
+    },
+    "reference": "pfb_os2_fixed using AMD bit-accurate C model; nco_capture_fixed"
+  },
+  "ooc": {
+    "run": {
+      "path": "logs/X5_synth_round3.stdout.log",
+      "exists": true,
+      "bytes": 115502,
+      "sha256": "f9182385b92907984f45ff25185e6571f2c5f28e5217b3fec1787eb9a8281124",
+      "required_marker": "X5_STANDALONE_150MHZ_PASS",
+      "status": "PASS"
+    },
+    "clock_mhz": 150,
+    "wns_ns": 0.296,
+    "whs_ns": 0.032,
+    "wpws_ns": 2.203,
+    "resources": {
+      "lut": 2024,
+      "ff": 2971,
+      "ramb36": 8,
+      "ramb18": 2,
+      "dsp": 12
+    },
+    "reports": [
+      {
+        "path": "build/reports/x5_core/round3/routed_timing.rpt",
+        "exists": true,
+        "bytes": 19068,
+        "sha256": "e1585c99f43bc77ed4a7feed2867a900f218d6c7860fa16a6332bcf16eced660"
+      },
+      {
+        "path": "build/reports/x5_core/round3/routed_utilization.rpt",
+        "exists": true,
+        "bytes": 10007,
+        "sha256": "3da9afa2735b71870532a5542d51267d4b32be026726f930ff0fbd3dff89ec84"
+      },
+      {
+        "path": "build/reports/x5_core/round3/routed_drc.rpt",
+        "exists": true,
+        "bytes": 5295,
+        "sha256": "955319dc01313ebb12d63436c493b27bf9bca25a8bcafefb0b91783415214239"
+      }
+    ]
+  },
+  "limits": [
+    "Standalone OOC only; 1 ns IO delays and 0.10 ns clock uncertainty; integrated BD timing not established",
+    "OOC clock HD.CLK_SRC unset; integrated clock skew requires full-system timing closure",
+    "PFB history maps to LUTRAM despite ram_style attribute",
+    "3.84 MSPS input / 480 kSPS selected channel baseline only; DEC=1",
+    "4096-entry DDS phase table truncates phase to upper 12 bits",
+    "Upstream drop-counter changes invalidate capture; bin sequence cannot detect lost ADC input",
+    "No board or RF validation performed"
+  ],
+  "final_timing_parsed": {
+    "WNS_ns": 0.296,
+    "TNS_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "WHS_ns": 0.032,
+    "THS_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "WPWS_ns": 2.203,
+    "pulse_failing_endpoints": 0
+  },
+  "resources_parsed": {
+    "lut": 2024,
+    "ff": 2971,
+    "ramb36": 8,
+    "ramb18": 2,
+    "bram_tiles": 9.0,
+    "dsp": 12
+  },
+  "source_sha256": {
+    "src/rtl/pfb/pfb_os2.v": "7eb2955a9bd9d6d3e3fc70a556888ec816253394f4e2ae9573eb2091d425575c",
+    "src/rtl/pfb/x5_pfb_coeff.hex": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d",
+    "src/rtl/nco_capture/nco_capture.v": "b816645ba84d95261700007f5975b84e66c73ac4bfdc5266a4a6f42b432a8dbe",
+    "src/rtl/nco_capture/x5_nco_sine.hex": "72331877a5edf94abccf713bf65f732fb99d66a40d4b63bf311bda0dc8e4ae35",
+    "src/rtl/nco_capture/x5_channel_capture.v": "76ced9ed55b5831362f0ef6141ea8d1fb5f4949f891d32b5c30ca0882e560412",
+    "sim/golden/nco_capture_fixed.py": "d96e6979d6f9130ee4e2c0c92ac0573b63e206f14fdc5a8761f9198a0b4ac5f0",
+    "sim/tb/tb_x5_pfb.sv": "5dc172e41362bfd7716fabb6bf827301258e676e1c1d64e8d96e411346582d56",
+    "sim/tb/tb_x5_nco_capture.sv": "74f8ff1eaf6d0d2ad0ca45404662085288ffc3d2a968a70146d79db21be4beb2",
+    "tools/x5_create_fft.tcl": "61d9ecb2ef3f1a43935c40ccb6fd08969c8e9dc0786e59c5fa355f0009db96ef",
+    "tools/x5_vectors.py": "5bc8db31cbea7ae852d1ca845e2089b5584b9f7ab0c37d89f13f9d0a1596cf01",
+    "tools/x5_run_sim.ps1": "c7b61ac696d67151782d2db47fc2136e089b09b78745c3e23dc466ee06d2e422",
+    "tools/x5_synth.tcl": "41c18d74c5924fedaead4d36549f9d4e9a42d8cf7316cf82a37b0acdc1e29060",
+    "tools/x5_freeze_evidence.py": "968163b0f17c2b5da2a63b890e259518f87fbd7f8ff2bdf27be18e3c170f535e",
+    "docs/x5_pl_interface.md": "660218bff2825bc9621f23d690faae0b5dc1ae54a3612bde12cc6d44a7cb7511",
+    "build/work/x5_fft/x5_fft.srcs/sources_1/ip/pfb_fft16/pfb_fft16.xci": "0657db751c8d1475a3372514baaa03315d66cedeb473d3ca665ee13602bb35ad",
+    "tools/accept_x5_core.py": "4fdfb74575e1b25b7d6f93e887ce1efcfbb55a782d2b890dbeca1f4216103a9d"
+  },
+  "log_sha256": {
+    "logs/X5_nco_round3.log": "98582ddb61315569164594752fc0906dd93841d762c9d81afd03a01cd9d6ec39",
+    "logs/X5_pfb_round3.log": "0173eeb66218c5da62b446adf415c7d1e915da20fd3d7740c9525b3d44991dfd",
+    "logs/X5_sim_round3.stdout.log": "7a3e48a2704edf1a930e15edb610e96f79120419b67709c4cc8d177775de83fe",
+    "logs/X5_synth_round3.stdout.log": "f9182385b92907984f45ff25185e6571f2c5f28e5217b3fec1787eb9a8281124",
+    "build/reports/x5_core/round3/routed_timing.rpt": "e1585c99f43bc77ed4a7feed2867a900f218d6c7860fa16a6332bcf16eced660",
+    "build/reports/x5_core/round3/routed_utilization.rpt": "3da9afa2735b71870532a5542d51267d4b32be026726f930ff0fbd3dff89ec84",
+    "build/reports/x5_core/round3/routed_drc.rpt": "955319dc01313ebb12d63436c493b27bf9bca25a8bcafefb0b91783415214239"
+  }
+}

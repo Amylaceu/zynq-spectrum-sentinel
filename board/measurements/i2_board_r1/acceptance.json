@@ -1,0 +1,56 @@
+{
+  "schema": "i2_integration/1",
+  "status": "FAIL_SERVICE",
+  "candidate": "/home/xilinx/sentinel/release/i2_r1",
+  "host_utc": "2026-11-04T00:31:07.542790+00:00",
+  "antenna": "S1",
+  "tx_requested": false,
+  "supported_scenes": [
+    "check",
+    "fm",
+    "listen",
+    "perf"
+  ],
+  "unsupported": [
+    "pano pending I5",
+    "wifi pending I4",
+    "ota fallback pending I6"
+  ],
+  "human": "PENDING",
+  "loops": [],
+  "errors": [],
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "error": "ModuleNotFoundError(\"No module named 'sim'\")",
+  "stop_error": "RuntimeError('SSH exit 1: Traceback (most recent call last):\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 299, in <module>\\n    raise SystemExit(main())\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 293, in main\\n    stop_release(ROOT, config)\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 174, in stop_release\\n    record = postflight(root, config)\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 144, in postflight\\n    raise RuntimeError(\\'Stop readback failed: \\'+result.stderr[-1500:])\\nRuntimeError: Stop readback failed: /usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_fmc is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_audio is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\nTraceback (most recent call last):\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 82, in <module>\\n    main()\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 45, in main\\n    raise RuntimeError(\\'Matching image not loaded; no MMIO attempted\\')\\nRuntimeError: Matching image not loaded; no MMIO attempted\\n\\n')",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "files_sha256": {
+    "measurements/20211119T061656Z_3dca95b5_execution.json": "20b70a105b3da7b52fd38b321266b70d821129b1dee80276e4a5515905e92238"
+  },
+  "service_errors": [
+    "RuntimeError('SSH exit 1: Traceback (most recent call last):\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 299, in <module>\\n    raise SystemExit(main())\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 295, in main\\n    return run_release(ROOT, config, args)\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 212, in run_release\\n    record[\\'stop_readback\\'] = postflight(root, config)\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/release_entry.py\", line 144, in postflight\\n    raise RuntimeError(\\'Stop readback failed: \\'+result.stderr[-1500:])\\nRuntimeError: Stop readback failed: /usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_fmc is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\n/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_audio is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.\\n  warnings.warn(message, UserWarning)\\nTraceback (most recent call last):\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 82, in <module>\\n    main()\\n  File \"/home/xilinx/sentinel/release/i2_r1/scripts/y3_postflight.py\", line 45, in main\\n    raise RuntimeError(\\'Matching image not loaded; no MMIO attempted\\')\\nRuntimeError: Matching image not loaded; no MMIO attempted\\n\\n')"
+  ]
+}

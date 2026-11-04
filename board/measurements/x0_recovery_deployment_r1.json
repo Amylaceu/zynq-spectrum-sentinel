@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "File-only deployment, no imports of PYNQ/RF, no hardware access",
+  "files": [
+    {
+      "local": "src/ps/sentinel/overlay.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/overlay.py",
+      "size": 3829,
+      "sha256": "3bf18a2c7f9e48c9613f9882972172280203e7aeac05ee76171c8eac4adfd395",
+      "old_sha256": "5206941bf2880b178faac44666da4c98f4ec8c8591b8f610432c05a966a4b27c"
+    },
+    {
+      "local": "src/ps/sentinel/app/monitor.py",
+      "remote": "/home/xilinx/sentinel/ps/sentinel/app/monitor.py",
+      "size": 4952,
+      "sha256": "6c4277ac2f300a321d15d15e34b7d46ca41e6f70bc380a457eae787248286387",
+      "old_sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41"
+    },
+    {
+      "local": "board/scripts/zss_n4_admin.py",
+      "remote": "/home/xilinx/sentinel/setup/zss_n4_admin.py",
+      "size": 4174,
+      "sha256": "1cf491af2f786f84a21715450b4503bbe7bdf912aee98937dbc1a0a030ba3fcb",
+      "old_sha256": null
+    },
+    {
+      "local": "board/scripts/update_x0_admin.sh",
+      "remote": "/home/xilinx/sentinel/setup/update_x0_admin.sh",
+      "size": 1576,
+      "sha256": "385a09e538218fdfd89d365e093e910fe601a82b83234e67ee31262a784b3824",
+      "old_sha256": null
+    }
+  ],
+  "backup_dir": "/home/xilinx/sentinel/setup/x0_recovery_backup"
+}

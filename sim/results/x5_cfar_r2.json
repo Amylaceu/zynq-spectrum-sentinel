@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "attempt": 2,
+  "cases": 18,
+  "recorded_at_pc": "2026-11-03T01:59:56.234719+00:00",
+  "scope": "CFAR numeric/MMIO equivalence, stalls, config, reset and saturation; no timing claim",
+  "comparisons": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+      "actual_sha256": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+      "actual_sha256": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+      "actual_sha256": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "expected_sha256": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+      "actual_sha256": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "expected_sha256": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+      "actual_sha256": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "expected_sha256": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+      "actual_sha256": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+    }
+  },
+  "source_sha256": {
+    "src/rtl/cfar_x5/cfar_core_x5.v": "55d64cca624d279de4faa2c3563fc1e0cfa6fcbbcccf73687fd054720880e440",
+    "src/rtl/cfar_x5/cfar_cluster_x5.v": "cb6e1b323dc423c540b774e4439edb216c5bf235b2e1a1351d0918c9fc71f3af",
+    "src/rtl/cfar_x1/cfar_detect_x1.v": "d1db9f0762333315c9370ceb25e63c809142d07c7d7f4ec97b67ad90a7334c50",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "sim/tb/tb_cfar_x5.sv": "ee49cb854bd2970962c965b0adcd7302f9023d28e7b3f09b2eb39439a39b3d90",
+    "tools/verify_cfar_x5.py": "52ad3289c70b3c71ee87e64a7bf7a544c47c9d4d8cc2488410df640b3bfbc3fc",
+    "tools/test_cfar_x5.ps1": "ebbe2555bd49a1ddf66023540d74307607fc73559898e504e7a3c5f69e545cf7"
+  },
+  "log_sha256": {
+    "sim/results/tb_cfar_x5.log": "1dcbe2420cfcc69cfcab5eefc8cb62a0b59ce49fcac158259830839f5f2dbcc8",
+    "data/reference/cfar/x1_guard8/manifest.json": "0b6b510b4b4eef94c8edf38764b37e376381a3239b574618251a755b5b222758",
+    "data/reference/cfar/x1_guard8/threshold.hex": "c4e8a45459b7b363ddc0cc1768f537e8beb0ceef22803b73be96071b91bff407",
+    "sim/results/x5_cfar_threshold_out.hex": "5fa99c653b7a7010d97bb4da2e526e176a2660780e3d6509703546dc7c89f6c6",
+    "data/reference/cfar/x1_guard8/hit.hex": "e1f9f06c0fbcca4a8b02ac0da572b84b9bfa1b6b9089bd44f59752f3a9d53818",
+    "sim/results/x5_cfar_hit_out.hex": "60632eb31e7ff2c38ec795e729c10909f34e8b4b103f8a0f1d728379f95c75db",
+    "data/reference/cfar/x1_guard8/db.hex": "74bf0f3fdc03ef12c4f0689e2c77fbfa03ae539afb027fb04cd8e0f48abb1b49",
+    "sim/results/x5_cfar_db_out.hex": "903e8cd17ab8285a431e4d7918672ebe2da80c7e0dceeb70b9f92b1fdde660b0",
+    "data/reference/cfar/x1_guard8/occupancy.hex": "f2945b760a423d3e14bebf22ee5e0533a3febf0caac16b59a6b20e4760089c41",
+    "sim/results/x5_cfar_occupancy_out.hex": "518304d8dfcb57e7415b2aaf1023bcb019f464c1684c936ac679c519322ec179",
+    "data/reference/cfar/x1_guard8/targets_words.hex": "4cc164bab979aa3c193ba7cb14e9cee683fda24360b37c9bfaafa1381a2b2ecf",
+    "sim/results/x5_cfar_targets_out.hex": "7c39f533c840809ad14c92bc10c6dd230e01361462860ee1b15373a0631e8b4b",
+    "data/reference/cfar/x1_guard8/stats.hex": "b480423dacf30b24681fc32c5ab407fd49a8c4c5d4c747432049f29fbd526b8d",
+    "sim/results/x5_cfar_stats_out.hex": "e2d54d51ca21e6e88b9e978baa209b7df38c2c39419a1462f38c5981bdbf271e"
+  }
+}

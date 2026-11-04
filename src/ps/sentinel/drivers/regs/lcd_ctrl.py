@@ -1,0 +1,13 @@
+"""Generated register offsets and masks."""
+BASE = 0x43c60000
+CTRL = 0x0
+CTRL_EN_SHIFT = 0x0
+CTRL_EN_MASK = 0x1
+BUS_PHASE = 0x4
+UI_EPOCH = 0x8
+FRAME_COUNT = 0xc
+UI_APPLIED = 0x10
+STATUS = 0x14
+DROPPED = 0x18
+FRAME_ID = 0x1c
+VERSION = 0xfc

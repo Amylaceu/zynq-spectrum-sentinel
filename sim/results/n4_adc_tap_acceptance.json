@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "step": "N4 ADC input substep",
+  "date": "2026-11-02",
+  "samples_compared": 4096,
+  "mismatch_words": 0,
+  "frames": 2,
+  "adc_clock_mhz": 61.44,
+  "dsp_clock_mhz": 150,
+  "checks": [
+    "right-aligned signed12 to left-aligned signed16",
+    "independent asynchronous clocks",
+    "random output backpressure",
+    "held data and TLAST",
+    "deliberate full-FIFO overflow sticky",
+    "I/Q-valid mismatch sticky",
+    "reset clears FIFO and flags"
+  ],
+  "scope": "xsim with installed AMD xpm_fifo_async model; not physical metastability, timing or board acceptance",
+  "log_sha256": "05df3e3589d068708f958929e3a2ce1a5d970cde8531601da9cd20dcf9dd6053",
+  "source_sha256": {
+    "src/rtl/adc_tap/adc_tap.v": "219a1b187a5394a068380bd0f60d17334a41e20a6f23776964844d6a9114eb76",
+    "sim/tb/tb_adc_tap.sv": "d7fb3d8575075d8cd5e4c68fc850c6d1f8c69143c4f1d421c23d2c8c37ce14a4",
+    "sim/scripts/run_xsim.ps1": "e71673cf1ba75d19019b8ef68e4856aac0b936fed14cf01fc6c08068bb1a2489",
+    "tools/test_adc_tap.ps1": "d59de72dcc3adbe3ad63dd9daa1d0ff4ca134aeb6f30398d8e951ccd79ac4545",
+    "third_party/hdl/library/common/ad_datafmt.v": "b66408f325dddc7662a80b5b852a9ac7abc53ce4e7cf4e0d4c2ae4bee75581e7",
+    "third_party/hdl/library/axi_ad9361/axi_ad9361_rx_channel.v": "ffda808c7e6231c172bd6547ddc63a6eb1553fdf03662365ac0372742cc03947",
+    "third_party/no-OS/drivers/axi_core/axi_adc_core/axi_adc_core.c": "c1aff31bb3fb3947abd19ca7a3c859ffb7bff5218a332f3f2a202622a94c3357"
+  }
+}

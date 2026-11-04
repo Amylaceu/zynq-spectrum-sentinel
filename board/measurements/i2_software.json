@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "tests_passed": 103,
+  "tests_skipped": 1,
+  "log": "logs\\I2_regression_complete.log",
+  "log_sha256": "48cdb788df9a7102e62e2942e8ac7680dd05cb274af1ed71d15cb2ea6d0a1ccd",
+  "scope": "Qt presenter/network/replay and resident/release tests; no new RF performance claim",
+  "files_sha256": {
+    "tools\\host\\sentinel_host\\presentation.py": "680908f32a842f58059d41f884fe7e5baa3f1e2ebf9c093eada76cc386ef79e9",
+    "tools\\host\\sentinel_host\\shell.py": "16e15f3086cfd06994d4b042b43a3037b46f633220f5ecfebbedb68f12f5cabd",
+    "tools\\host\\sentinel_host\\gui.py": "e31099aae97fce3bc96daf8d4e156bda5ed21ab92762263c38638acdf76e978d",
+    "tools\\host\\scenes.yaml": "643472ec7733882ca196eaedaee2c6b5e7a79d4499cdc1e588d0bd7fdb8657db"
+  }
+}

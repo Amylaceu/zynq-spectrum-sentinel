@@ -1,0 +1,20 @@
+name: src_ctrl
+base: 0x43C00000
+width: 32
+regs:
+  - {name: CTRL, off: 0x00, reset: 0, fields: [{name: EN, bits: '0'}, {name: MODE, bits: '2:1'}]}
+  - {name: RATE_DIV, off: 0x04, reset: 320000}
+  - {name: FCW0, off: 0x08, reset: 134217728}
+  - {name: FCW1, off: 0x0C, reset: 0}
+  - {name: FCW2, off: 0x10, reset: 0}
+  - {name: AMP0, off: 0x14, reset: 8192}
+  - {name: AMP1, off: 0x18, reset: 0}
+  - {name: AMP2, off: 0x1C, reset: 0}
+  - {name: NOISE_AMP, off: 0x20, reset: 0}
+  - {name: SEED_I, off: 0x24, reset: 305419896}
+  - {name: SEED_Q, off: 0x28, reset: 2271560481}
+  - {name: ARM_TOKEN, off: 0x2C, reset: 0}
+  - {name: FRAME_LIMIT, off: 0x30, reset: 0}
+  - {name: FRAME_CNT, off: 0x34, access: ro}
+  - {name: SAMPLE_CNT, off: 0x38, access: ro}
+  - {name: VERSION, off: 0xFC, access: ro, reset: 0x53520001}

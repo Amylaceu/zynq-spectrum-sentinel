@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "command": "monitor",
+  "worker_args": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/release/v2/scripts/run_x5_monitor.py",
+    "--bit",
+    "/home/xilinx/sentinel/release/v2/overlay/sentinel_v2_100m/sentinel_v2_100m.bit",
+    "--image",
+    "sentinel_v2_100m",
+    "--out",
+    "/home/xilinx/sentinel/release/v2/measurements/monitor_20211118T212224Z_66017e32",
+    "--seconds",
+    "300",
+    "--bus-phase",
+    "2",
+    "--model",
+    "/home/xilinx/sentinel/release/v2/ps/models/weights/amc_v2/round_3/model.npz",
+    "--lo",
+    "96050000",
+    "--quality-station-hz",
+    "95800000",
+    "--noise-events",
+    "/home/xilinx/sentinel/release/v2/measurements/noise_events"
+  ],
+  "output": "/home/xilinx/sentinel/release/v2/measurements/monitor_20211118T212224Z_66017e32",
+  "worker_exit_code": 0,
+  "stop_readback": {
+    "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

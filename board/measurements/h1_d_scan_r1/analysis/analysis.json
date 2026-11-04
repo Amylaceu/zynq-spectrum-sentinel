@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PSD_STITCH_RECOMPUTATION",
+  "group": "D",
+  "tiles": 243,
+  "full_group": true,
+  "missing_bins": 0,
+  "bins": 218800,
+  "iq_recomputed_tiles": 0,
+  "psd_max_abs_error": null,
+  "gui_source": "VERIFIED_REAL_STORED_SWEEP",
+  "gui_hardware_connected": false,
+  "source_result_sha256": "b8a4f0babc8b80995467c57c5d651bae02a3c78ac26434f7190a9bb7bbd0610f",
+  "continuous_dma_certified": false,
+  "one_hour_stability": "DEFERRED_BY_USER",
+  "images": [
+    "panorama.png",
+    "desktop_panorama.png"
+  ]
+}

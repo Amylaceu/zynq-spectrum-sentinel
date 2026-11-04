@@ -1,0 +1,21 @@
+{
+  "status": "FAIL_CHECKPOINT_LINK",
+  "recorded_at_pc": "2026-11-03T04:00:50.196547+00:00",
+  "process_exit_code": -2147483645,
+  "synthesis_invoked": false,
+  "diagnosis": "Vivado EXCEPTION_BREAKPOINT while opening top checkpoint after open_project; cause undetermined",
+  "evidence_marker": "TclStackFree: incorrect freePtr",
+  "board_loaded": false,
+  "archive": "report/results/z2_link_failure_1.zip",
+  "archive_sha256": "a3a899776c940aad23e19dee8d35ab5b281c4cdfeaf54207924ddf9c7aa2d307",
+  "files_sha256": {
+    "build/scripts/link_z2_recovery.tcl": "883f67d40051135dc26ec814d0efad1ce8d75a57af7144accf947d00297e525d",
+    "hs_err_pid37256.log": "ad647c9de5f44f599e0aad14ab18f0da2a0ab27041c90c347c512377aca281af",
+    "hs_err_pid37256.dmp": "1f0914524e4949a362b34efb5cd60d196a9993e3aba9a859236e0b1b91ef9703",
+    "tools/archive_z2_link.py": "52cbb99298b323ec61b9224ef6cf4336d1df0d3648a30a61bfac756ea05109d6",
+    "logs/Y2_z2_link_r2.jou": "f29bfc7aea524e7d4779a3489b360da836a1b5ed215a38f4e9a2248fa62608e1",
+    "logs/Y2_z2_link_r2.log": "baa6856ced009bc802e88c61d08bb422c35b56494244b284855a2b8157281795",
+    "logs/Y2_z2_link_r2_controller.log": "7933145e28c4903363c4b99811fffcc72c56a102cafebb4c2f304c0c6753d014",
+    "logs/Y2_z2_link_r2_exit.txt": "9ab4042733bb6eb4cd9d4369b7d639c8109847c4c26575dd0df5609895b76638"
+  }
+}

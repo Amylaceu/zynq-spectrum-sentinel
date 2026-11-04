@@ -1,0 +1,22 @@
+{
+  "status": "OFFLINE_PASS_STYLE_CONFIRMATION_PENDING",
+  "board_accessed": false,
+  "recorded_utc": "2026-11-03T18:52:35.319484+00:00",
+  "preview_manifest": "report/figures/ui_v3/preview_manifest.json",
+  "preview_manifest_sha256": "5c498446c8e65123a41ccc20cac493da5c34a060efaf558ecdcda31ffb6f485b",
+  "targeted_tests": {
+    "passed": 13,
+    "log": "logs/G2_ui_offline_tests.log",
+    "sha256": "aa7dee528ea17affb9affb4e1ae9a8abb00982e7a99b76f9fe6a320c0c1dd559"
+  },
+  "ps_regression": {
+    "passed": 416,
+    "skipped": 18,
+    "log": "logs/G2_ps_regression.log",
+    "sha256": "a218193dd690f5f2f5c58cb4dddaeee705e5c73e729349eda6c0d82317a1e0af"
+  },
+  "python38_payload_files": 117,
+  "board_metrics": "NOT_MEASURED",
+  "release_entry_modified": false,
+  "pack_ui_or_X5LCD_modified": false
+}

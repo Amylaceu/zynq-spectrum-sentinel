@@ -1,0 +1,163 @@
+{
+  "recorded_at_pc": "2026-11-03T03:14:02.108270+08:00",
+  "scope": "One startup power frame only; diagnostic, not RF acceptance or stationary statistics",
+  "source": "board/measurements/x1_station_r1.json",
+  "source_sha256": "c40600df2c6a838485cab23afcdd64b6512951b86992669a809532f2b269b92a",
+  "r1_station_result": "68/103 = 66.02%, FAIL below 80%",
+  "diagnosis": "35 missed snapshots contain no retained cluster near bin704; detected peaks stay within tolerance. Width filtering of intermittent weak/narrow hits is a hypothesis; missed-frame raw power was not captured, so root cause is unproven.",
+  "next_trial": {
+    "attempt": 2,
+    "average_shift": 4,
+    "other_parameters": "unchanged"
+  },
+  "golden_single_frame": [
+    {
+      "alpha_q88": 1974,
+      "candidate_count": 3,
+      "station_peak_within_25k": true,
+      "station_bins": [
+        {
+          "bin": 700,
+          "power": 36025,
+          "threshold": 174930,
+          "hit": 0
+        },
+        {
+          "bin": 701,
+          "power": 13405,
+          "threshold": 151990,
+          "hit": 0
+        },
+        {
+          "bin": 702,
+          "power": 176625,
+          "threshold": 162322,
+          "hit": 1
+        },
+        {
+          "bin": 703,
+          "power": 207282,
+          "threshold": 161968,
+          "hit": 1
+        },
+        {
+          "bin": 704,
+          "power": 54205,
+          "threshold": 143916,
+          "hit": 0
+        }
+      ]
+    },
+    {
+      "alpha_q88": 1792,
+      "candidate_count": 3,
+      "station_peak_within_25k": true,
+      "station_bins": [
+        {
+          "bin": 700,
+          "power": 36025,
+          "threshold": 158802,
+          "hit": 0
+        },
+        {
+          "bin": 701,
+          "power": 13405,
+          "threshold": 137977,
+          "hit": 0
+        },
+        {
+          "bin": 702,
+          "power": 176625,
+          "threshold": 147357,
+          "hit": 1
+        },
+        {
+          "bin": 703,
+          "power": 207282,
+          "threshold": 147035,
+          "hit": 1
+        },
+        {
+          "bin": 704,
+          "power": 54205,
+          "threshold": 130648,
+          "hit": 0
+        }
+      ]
+    },
+    {
+      "alpha_q88": 1536,
+      "candidate_count": 4,
+      "station_peak_within_25k": true,
+      "station_bins": [
+        {
+          "bin": 700,
+          "power": 36025,
+          "threshold": 136116,
+          "hit": 0
+        },
+        {
+          "bin": 701,
+          "power": 13405,
+          "threshold": 118266,
+          "hit": 0
+        },
+        {
+          "bin": 702,
+          "power": 176625,
+          "threshold": 126306,
+          "hit": 1
+        },
+        {
+          "bin": 703,
+          "power": 207282,
+          "threshold": 126030,
+          "hit": 1
+        },
+        {
+          "bin": 704,
+          "power": 54205,
+          "threshold": 111984,
+          "hit": 0
+        }
+      ]
+    },
+    {
+      "alpha_q88": 1280,
+      "candidate_count": 9,
+      "station_peak_within_25k": true,
+      "station_bins": [
+        {
+          "bin": 700,
+          "power": 36025,
+          "threshold": 113430,
+          "hit": 0
+        },
+        {
+          "bin": 701,
+          "power": 13405,
+          "threshold": 98555,
+          "hit": 0
+        },
+        {
+          "bin": 702,
+          "power": 176625,
+          "threshold": 105255,
+          "hit": 1
+        },
+        {
+          "bin": 703,
+          "power": 207282,
+          "threshold": 105025,
+          "hit": 1
+        },
+        {
+          "bin": 704,
+          "power": 54205,
+          "threshold": 93320,
+          "hit": 0
+        }
+      ]
+    }
+  ]
+}

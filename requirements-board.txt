@@ -1,0 +1,2 @@
+sigmf==1.1.1
+pyyaml

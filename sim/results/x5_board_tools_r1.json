@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Offline board evidence/transfer tools only; no RF or timing claim",
+  "pytest_exit_code": 0,
+  "source_sha256": {
+    "logs/X5_board_tool_checks_r1.log": "4305bf647bf8f60260c2aa46a75fb93474fcc92f8f342b164972bafc5710e459",
+    "tools/run_x5_board.py": "4b37a7800509c641e59f6c62539ce8f503809333a7f363a20315619212cb53d8",
+    "tools/analyze_x5_board.py": "7f472a0f418bd7df9b7f5bf15e8d4bd86240a35c63b263b74b719b9930dfc9f4",
+    "tools/x5_transfer.py": "8c475d2559ce2da04d21608f76c023c0493060dde3c1b65356e8083ab293e143",
+    "tools/tests/test_x5_board_analysis.py": "49107a4d535a4bcc17181e63a9b5066f9bff93c6e1b34109835b23652c617b3c",
+    "tools/tests/test_x5_transfer.py": "126e3094517d6a5f0a5bb13ad61304ed3b8666638fef0c144dd5b0cc3ab87806"
+  }
+}

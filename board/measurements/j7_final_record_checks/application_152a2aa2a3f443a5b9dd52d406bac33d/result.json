@@ -1,0 +1,28 @@
+{
+  "id": "F8",
+  "run_id": "152a2aa2a3f443a5b9dd52d406bac33d",
+  "status": "FAILED",
+  "tx_requested": false,
+  "error": "RuntimeError('ADC overflow; recording rejected')",
+  "elapsed_s": 3.5939263500000607,
+  "readback": {
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ],
+    "source_ctrl": 0,
+    "spec_ctrl": 1,
+    "average_shift": 3,
+    "noise_amplitude": 0,
+    "cfar_ctrl": 1,
+    "alpha": 1974,
+    "audio_control": 0,
+    "codec_muted": true,
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "lcd_enabled": false,
+    "full_cfar_defaults_checked": true,
+    "source_defaults_checked": true
+  },
+  "restored": true
+}

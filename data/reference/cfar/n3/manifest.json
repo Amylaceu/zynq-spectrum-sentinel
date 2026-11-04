@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "name": "CA_interior",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 2,
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "CA_wrap",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 2,
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "GO_interior",
+      "mode": "GO",
+      "n": 16,
+      "g": 2,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 2,
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "GO_wrap",
+      "mode": "GO",
+      "n": 16,
+      "g": 2,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 2,
+      "targets": 5,
+      "hits": 16
+    },
+    {
+      "name": "SO_interior",
+      "mode": "SO",
+      "n": 16,
+      "g": 2,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 2,
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "SO_wrap",
+      "mode": "SO",
+      "n": 16,
+      "g": 2,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 2,
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "mode": "CA",
+      "n": 4,
+      "g": 1,
+      "alpha": 65535,
+      "dc": -1,
+      "gap": 2,
+      "name": "threshold_saturation",
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "mode": "CA",
+      "n": 4,
+      "g": 1,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 0,
+      "name": "list_overflow_and_sum_saturation",
+      "targets": 32,
+      "hits": 259
+    },
+    {
+      "mode": "CA",
+      "n": 4,
+      "g": 1,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 2,
+      "name": "zero_and_empty",
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "mode": "CA",
+      "n": 4,
+      "g": 1,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 2,
+      "name": "strict_equal",
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "mode": "CA",
+      "n": 1,
+      "g": 0,
+      "alpha": 511,
+      "dc": -1,
+      "gap": 0,
+      "name": "minimum_window",
+      "targets": 32,
+      "hits": 350
+    },
+    {
+      "mode": "GO",
+      "n": 64,
+      "g": 31,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 5,
+      "name": "maximum_window",
+      "targets": 10,
+      "hits": 993
+    },
+    {
+      "mode": "SO",
+      "n": 2,
+      "g": 0,
+      "alpha": 512,
+      "dc": -1,
+      "gap": 3,
+      "name": "cluster_gap_peak",
+      "targets": 2,
+      "hits": 4
+    }
+  ],
+  "sha256": {
+    "input.hex": "eca815f799479f88531bcaa45560ff1b70e92a873e1e5538cab816e713a6e923",
+    "threshold.hex": "f1db1b6bfa3a83262971ed3b186e4527cd3fca16e09b52af6fa1cc341356e760",
+    "db.hex": "689d470fc5b536eb8ff2ca622c91db128bb6c979794c637156424d34f2e1d98a",
+    "hit.hex": "ab9c407ac6d8bc4aa9b8f92d96bec6fc245b2abe52d9a06885c9a02e7da7d31b",
+    "targets.hex": "2589f8150ac9a867fbe427b09ecf24360003c9f9152979980c63f3923e80afa7",
+    "count.hex": "303b3f6b22b9585245605057f922ab129a255098367979f46a9541db7c92aac3",
+    "config.hex": "88e4b66f2e27dd3f51a31583351b69e5461692938acf7ee262157b55c71ff57e",
+    "occupancy.hex": "60bcac2115cdd4196080dd81b843fb6b13a8d972ccc6b5b003b7452802c8fbd2",
+    "targets_words.hex": "1b7315ebc8778e3f457d7a1b22b85f9e9a0d0f229f5cf9a914a9161b6735aec5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "started",
+  "attempt": 1,
+  "sequences": [],
+  "rf_transmission_requested": false,
+  "tx_ports_empty_user_confirmed": true,
+  "format": "TX signed12 left-aligned16 -> RX signed12 sign-extended16; all12 bits compared"
+}

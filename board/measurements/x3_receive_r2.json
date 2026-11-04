@@ -1,0 +1,712 @@
+{
+  "status": "completed",
+  "section": "receive",
+  "configuration_a_confirmed": true,
+  "RF_TX_requested": false,
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "artifacts_sha256": {
+    "sentinel_v1b.bit": "6450a77fd491519e002533aaac415648c25751e2954769bc0e727a39081d7892",
+    "sentinel_v1b.hwh": "500cb145bb917c18a25cee8f9899712f1c07ab1b692593d1b63fd54e51214075",
+    "sentinel_v1b.xsa": "ae80f6ec3c36e3de9e4ee072d9926739816852e9a500994090789b03a5d2b2aa"
+  },
+  "measurement_source_sha256": "1107e4af2d3b2530abddc74388cae55f63e42d31d14ad871fab0f7f4d739dfb6",
+  "receive_initialization": {
+    "before_clear": {
+      "samples": 0,
+      "cycles": 547874025,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 1,
+      "fifo_level": 0
+    },
+    "after_clear_before_start": {
+      "samples": 0,
+      "cycles": 1526571,
+      "fft_frames": 0,
+      "hits": 0,
+      "lists": 0,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 0,
+      "fifo_level": 0
+    }
+  },
+  "receive": {
+    "actual_rate_hz": 3840000,
+    "actual_lo_hz": 96399998,
+    "rf_bandwidth_hz": 1500000,
+    "bus_phase": 3,
+    "samples": [
+      {
+        "elapsed_s": 1.0034718290007731,
+        "display_frames": 50,
+        "display_frame_delta": 50,
+        "interval_s": 1.0026912130015262,
+        "perf": {
+          "samples": 3855788,
+          "cycles": 158799312,
+          "fft_frames": 1880,
+          "hits": 70368,
+          "lists": 1880,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 61.028222656064,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 2.136452407001343,
+        "display_frames": 106,
+        "display_frame_delta": 56,
+        "interval_s": 1.13298057800057,
+        "perf": {
+          "samples": 8207069,
+          "cycles": 328763979,
+          "fft_frames": 4005,
+          "hits": 144366,
+          "lists": 4005,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.782141113096,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 3.2354540720007208,
+        "display_frames": 160,
+        "display_frame_delta": 54,
+        "interval_s": 1.0990016649993777,
+        "perf": {
+          "samples": 12427823,
+          "cycles": 493630141,
+          "fft_frames": 6066,
+          "hits": 213380,
+          "lists": 6066,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.782141113096,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 4.335684197001683,
+        "display_frames": 215,
+        "display_frame_delta": 55,
+        "interval_s": 1.1002301250009623,
+        "perf": {
+          "samples": 16653347,
+          "cycles": 658682642,
+          "fft_frames": 8129,
+          "hits": 281990,
+          "lists": 8129,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.536059570128,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 5.961138032998861,
+        "display_frames": 295,
+        "display_frame_delta": 80,
+        "interval_s": 1.6254538359971775,
+        "perf": {
+          "samples": 22895972,
+          "cycles": 902524809,
+          "fft_frames": 11177,
+          "hits": 376816,
+          "lists": 11177,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.659100341612,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 7.0656157650009845,
+        "display_frames": 350,
+        "display_frame_delta": 55,
+        "interval_s": 1.104477732002124,
+        "perf": {
+          "samples": 27137765,
+          "cycles": 1068212783,
+          "fft_frames": 13248,
+          "hits": 439947,
+          "lists": 13248,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.413018798643996,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 8.157881844999793,
+        "display_frames": 404,
+        "display_frame_delta": 54,
+        "interval_s": 1.092266079998808,
+        "perf": {
+          "samples": 31332685,
+          "cycles": 1232069864,
+          "fft_frames": 15297,
+          "hits": 506185,
+          "lists": 15297,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.289978027160004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 9.240353327000776,
+        "display_frames": 457,
+        "display_frame_delta": 53,
+        "interval_s": 1.082471482000983,
+        "perf": {
+          "samples": 35489946,
+          "cycles": 1394455945,
+          "fft_frames": 17326,
+          "hits": 573992,
+          "lists": 17326,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.413018798643996,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 10.321443616001488,
+        "display_frames": 511,
+        "display_frame_delta": 54,
+        "interval_s": 1.0810902890007128,
+        "perf": {
+          "samples": 39641950,
+          "cycles": 1556636726,
+          "fft_frames": 19354,
+          "hits": 641929,
+          "lists": 19354,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.289978027160004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 11.409604342999955,
+        "display_frames": 564,
+        "display_frame_delta": 53,
+        "interval_s": 1.088160726998467,
+        "perf": {
+          "samples": 43821071,
+          "cycles": 1719876707,
+          "fft_frames": 21394,
+          "hits": 709349,
+          "lists": 21394,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 1
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.289978027160004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 12.526949210001476,
+        "display_frames": 620,
+        "display_frame_delta": 56,
+        "interval_s": 1.1173448670015205,
+        "perf": {
+          "samples": 48112322,
+          "cycles": 1887496551,
+          "fft_frames": 23490,
+          "hits": 775561,
+          "lists": 23490,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.536059570128,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 13.668297938998876,
+        "display_frames": 676,
+        "display_frame_delta": 56,
+        "interval_s": 1.1413487289974,
+        "perf": {
+          "samples": 52495723,
+          "cycles": 2058715892,
+          "fft_frames": 25630,
+          "hits": 840957,
+          "lists": 25630,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.289978027160004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 14.793311088000337,
+        "display_frames": 731,
+        "display_frame_delta": 55,
+        "interval_s": 1.125013149001461,
+        "perf": {
+          "samples": 56816388,
+          "cycles": 2227484698,
+          "fft_frames": 27740,
+          "hits": 906868,
+          "lists": 27740,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.166937255676,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 15.905195144001482,
+        "display_frames": 786,
+        "display_frame_delta": 55,
+        "interval_s": 1.111884056001145,
+        "perf": {
+          "samples": 61086634,
+          "cycles": 2394284102,
+          "fft_frames": 29825,
+          "hits": 971196,
+          "lists": 29825,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 1
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.166937255676,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 17.0183604010017,
+        "display_frames": 841,
+        "display_frame_delta": 55,
+        "interval_s": 1.1131652570002188,
+        "perf": {
+          "samples": 65361779,
+          "cycles": 2561274838,
+          "fft_frames": 31912,
+          "hits": 1035602,
+          "lists": 31912,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 18.14354323600128,
+        "display_frames": 897,
+        "display_frame_delta": 56,
+        "interval_s": 1.1251828349995776,
+        "perf": {
+          "samples": 69683124,
+          "cycles": 2730070204,
+          "fft_frames": 34022,
+          "hits": 1100229,
+          "lists": 34022,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 19.263744492000114,
+        "display_frames": 952,
+        "display_frame_delta": 55,
+        "interval_s": 1.1202012559988361,
+        "perf": {
+          "samples": 73985294,
+          "cycles": 2898116595,
+          "fft_frames": 36123,
+          "hits": 1166481,
+          "lists": 36123,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.166937255676,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 20.3715743870016,
+        "display_frames": 1007,
+        "display_frame_delta": 55,
+        "interval_s": 1.1078298950014869,
+        "perf": {
+          "samples": 78239994,
+          "cycles": 3064308789,
+          "fft_frames": 38201,
+          "hits": 1232982,
+          "lists": 38200,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 1
+        },
+        "rssi_dbm": -76.0,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 21.47051918500074,
+        "display_frames": 1061,
+        "display_frame_delta": 54,
+        "interval_s": 1.0989447979991382,
+        "perf": {
+          "samples": 82460540,
+          "cycles": 3229166867,
+          "fft_frames": 40261,
+          "hits": 1299823,
+          "lists": 40261,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 59.920855712708,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 22.56834063900169,
+        "display_frames": 1115,
+        "display_frame_delta": 54,
+        "interval_s": 1.0978214540009503,
+        "perf": {
+          "samples": 86676771,
+          "cycles": 3393856413,
+          "fft_frames": 42320,
+          "hits": 1369299,
+          "lists": 42320,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 1
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 59.797814941224004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 23.677236669002014,
+        "display_frames": 1170,
+        "display_frame_delta": 55,
+        "interval_s": 1.1088960300003237,
+        "perf": {
+          "samples": 90935534,
+          "cycles": 3560207263,
+          "fft_frames": 44400,
+          "hits": 1434849,
+          "lists": 44399,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.25,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 24.7828902700021,
+        "display_frames": 1225,
+        "display_frame_delta": 55,
+        "interval_s": 1.1056536010000855,
+        "perf": {
+          "samples": 95181931,
+          "cycles": 3726075108,
+          "fft_frames": 46473,
+          "hits": 1501623,
+          "lists": 46473,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 25.9313518759991,
+        "display_frames": 1282,
+        "display_frame_delta": 57,
+        "interval_s": 1.1484616059969994,
+        "perf": {
+          "samples": 99592603,
+          "cycles": 3898359682,
+          "fft_frames": 48627,
+          "hits": 1569216,
+          "lists": 48627,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.5,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.413018798643996,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 27.062357841001358,
+        "display_frames": 1337,
+        "display_frame_delta": 55,
+        "interval_s": 1.1310059650022595,
+        "perf": {
+          "samples": 103936282,
+          "cycles": 4068027464,
+          "fft_frames": 50748,
+          "hits": 1634091,
+          "lists": 50748,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.043896484192004,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 28.169140459998744,
+        "display_frames": 1392,
+        "display_frame_delta": 55,
+        "interval_s": 1.1067826189973857,
+        "perf": {
+          "samples": 108186955,
+          "cycles": 4234062368,
+          "fft_frames": 52823,
+          "hits": 1703697,
+          "lists": 52823,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -75.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.166937255676,
+        "snapshot_missed": false,
+        "list_overflow": false
+      },
+      {
+        "elapsed_s": 29.271141675999388,
+        "display_frames": 1447,
+        "display_frame_delta": 55,
+        "interval_s": 1.1020012160006445,
+        "perf": {
+          "samples": 112419212,
+          "cycles": 4399377905,
+          "fft_frames": 54890,
+          "hits": 1771197,
+          "lists": 54890,
+          "latency_cycles": 0,
+          "markers_done": 0,
+          "status": 0,
+          "fifo_level": 0
+        },
+        "rssi_dbm": -76.75,
+        "tx_atten_mdb": [
+          89750,
+          89750
+        ],
+        "temperature_c": 60.166937255676,
+        "snapshot_missed": false,
+        "list_overflow": false
+      }
+    ],
+    "ui_period_s": 1,
+    "scope": "PL spectrum/waterfall; PS updates text/list once per second",
+    "cpu_window": {
+      "wall_s": 30.14483373799885,
+      "process_cpu_s": 2.178884287999999,
+      "system_busy_all_cores_percent": 6.652217405801934,
+      "process_one_core_percent": 7.228105034307761,
+      "cpu_ticks_before": {
+        "total": 3615404,
+        "idle": 3396931
+      },
+      "cpu_ticks_after": {
+        "total": 3621402,
+        "idle": 3402530
+      }
+    },
+    "elapsed_total_s": 30.144907898000383
+  }
+}

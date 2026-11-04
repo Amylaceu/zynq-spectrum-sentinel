@@ -1,0 +1,60 @@
+{
+  "targets": [
+    {
+      "start": 392,
+      "stop": 456,
+      "peak_bin": 437,
+      "flags": 0,
+      "peak_pwr": 101040,
+      "sum_pwr": 4064334,
+      "center_hz": -9000000.0
+    },
+    {
+      "start": 664,
+      "stop": 717,
+      "peak_bin": 707,
+      "flags": 0,
+      "peak_pwr": 595973,
+      "sum_pwr": 4242392,
+      "center_hz": -5002500.0
+    },
+    {
+      "start": 1195,
+      "stop": 1255,
+      "peak_bin": 1197,
+      "flags": 0,
+      "peak_pwr": 117141,
+      "sum_pwr": 3981403,
+      "center_hz": 3015000.0
+    },
+    {
+      "start": 1554,
+      "stop": 1561,
+      "peak_bin": 1558,
+      "flags": 0,
+      "peak_pwr": 866273,
+      "sum_pwr": 4284461,
+      "center_hz": 8002500.0
+    }
+  ],
+  "truth_centers_hz": [
+    -9000000.0,
+    -5000000.0,
+    3000000.0,
+    8000000.0
+  ],
+  "config": {
+    "fs": 30720000.0,
+    "cfar_n": 128,
+    "cfar_g": 48,
+    "pfa": 0.001
+  },
+  "classifier": "not_trained",
+  "labels": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "noise_reference": "15 dB within QPSK occupied bandwidth; not equal per-class bandwidth SNR"
+}

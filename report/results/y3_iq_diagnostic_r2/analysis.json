@@ -1,0 +1,426 @@
+{
+  "status": "OFFLINE_DIAGNOSTIC",
+  "audio_acceptance": "NOT_TESTED",
+  "limitation": "Pilot prominence is not SNR; snapshots are gapped, not concurrent pairs.",
+  "sources_sha256": {
+    "tools/analyze_y3_iq_diagnostic.py": "e073ba7ebd93efbe0233579a379da436b20b0e75725dd353fb02c5aad2158be0",
+    "src/rtl/pfb/x5_pfb_coeff.hex": "1d00f3ac23b9a15dc77b0568a0bcd1e1d8322bd8fd1dec565f790ded6dc1930d",
+    "src/rtl/audio_y3/rom/y3_audio_fir.hex": "e511fde02bb2e4ca152e1235ee33f5f7176133ac72bf50d26aa081cb549134c8",
+    "src/ps/sentinel/fm_receive.py": "605fa6cc03345e47e038ad4d3c3818a87cdb05ec0d2a6173854d3332fb9d7b73"
+  },
+  "historical": [
+    {
+      "label": "historical_00",
+      "float_pfb_shortcut_max_error": 3.914458286299219e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 29.305853207100732,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4187.4751015936445,
+        "demod_frequency_rms_hz": 26400.64330134798,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.19070097218514492,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -4053.0503149729357,
+        "discriminator_std_hz": 25573.755909705502,
+        "large_excursion_fraction": 0.0010110371556154689,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.154907586760235
+      },
+      "rtl_math_pcm_dc": -0.011085870111932562,
+      "rtl_math_pcm_ac_rms": 0.04753043969114172
+    },
+    {
+      "label": "historical_08",
+      "float_pfb_shortcut_max_error": 4.241215432710863e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 32.481434844630634,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4227.912602359459,
+        "demod_frequency_rms_hz": 23168.061989712554,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.1915978217562443,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -3954.4863236361116,
+        "discriminator_std_hz": 22850.129081561678,
+        "large_excursion_fraction": 0.000765937239102628,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 30.70658219515703
+      },
+      "rtl_math_pcm_dc": -0.011263569258757936,
+      "rtl_math_pcm_ac_rms": 0.03730212564676918
+    }
+  ],
+  "current": [
+    {
+      "label": "raw_00",
+      "float_pfb_shortcut_max_error": 3.052255297544012e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 3.906236724616401,
+        "stereo_pilot_evidence": false,
+        "discriminator_mean_offset_hz": -206.734702126157,
+        "demod_frequency_rms_hz": 75726.27634564141,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.1014807144437448,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": 4491.103575087369,
+        "discriminator_std_hz": 71343.9200832256,
+        "large_excursion_fraction": 0.06615399934129397,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 5.671745332449719
+      },
+      "rtl_math_pcm_dc": 0.012230792759940089,
+      "rtl_math_pcm_ac_rms": 0.027928326728086175,
+      "kind": "raw_adc",
+      "adc_min": -2048,
+      "adc_max": 2047,
+      "lcd_enabled": true,
+      "outside_signed12_fraction": 0.0
+    },
+    {
+      "label": "raw_01",
+      "float_pfb_shortcut_max_error": 4.129063316231878e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 5.942466141351048,
+        "stereo_pilot_evidence": false,
+        "discriminator_mean_offset_hz": -3905.6409838115205,
+        "demod_frequency_rms_hz": 65750.02789211685,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.1072341822784522,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -620.9924716199188,
+        "discriminator_std_hz": 62117.69111741206,
+        "large_excursion_fraction": 0.04509072526597171,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 8.63460163667583
+      },
+      "rtl_math_pcm_dc": -0.0018837775305568655,
+      "rtl_math_pcm_ac_rms": 0.03372195703369098,
+      "kind": "raw_adc",
+      "adc_min": -2048,
+      "adc_max": 2047,
+      "lcd_enabled": false,
+      "outside_signed12_fraction": 0.0
+    },
+    {
+      "label": "raw_02",
+      "float_pfb_shortcut_max_error": 3.635366976867747e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 36.77265839218113,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -4530.993155204038,
+        "demod_frequency_rms_hz": 21615.475849744886,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.193563548939268,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -4504.255332207706,
+        "discriminator_std_hz": 21600.342448364805,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 36.7853548879813
+      },
+      "rtl_math_pcm_dc": -0.012144516860515408,
+      "rtl_math_pcm_ac_rms": 0.04096247293785705,
+      "kind": "raw_adc",
+      "adc_min": -2048,
+      "adc_max": 2047,
+      "lcd_enabled": true,
+      "outside_signed12_fraction": 0.0
+    },
+    {
+      "label": "raw_03",
+      "float_pfb_shortcut_max_error": 4.418928280751668e-14,
+      "software": {
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 38.80665473093051,
+        "stereo_pilot_evidence": true,
+        "discriminator_mean_offset_hz": -3968.464329141464,
+        "demod_frequency_rms_hz": 12670.793081071899,
+        "audio_sample_rate_hz": 48000,
+        "audio_profile": "wide",
+        "short_phase_slip_corrected_fraction": 0.0
+      },
+      "pfb": {
+        "iq_rms": 0.22682166964947353,
+        "zero_fraction": 7.62939453125e-06,
+        "discriminator_dc_hz": -3962.540514202092,
+        "discriminator_std_hz": 12020.58755586236,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19013.671875,
+        "pilot_prominence_db": 39.76757067160469
+      },
+      "rtl_math_pcm_dc": -0.010560314086150066,
+      "rtl_math_pcm_ac_rms": 0.020631263459088375,
+      "kind": "raw_adc",
+      "adc_min": -1712,
+      "adc_max": 1645,
+      "lcd_enabled": false,
+      "outside_signed12_fraction": 0.0
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_00.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.18923719227313995,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -3789.936279296875,
+        "discriminator_std_hz": 11862.5673828125,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 32.93114471435547
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_01.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.20199334621429443,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -1319.91552734375,
+        "discriminator_std_hz": 26124.453125,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.118345260620117
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_02.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.2022046595811844,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -4143.34228515625,
+        "discriminator_std_hz": 15555.3076171875,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 34.182518005371094
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_03.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.21526773273944855,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -4360.701171875,
+        "discriminator_std_hz": 22270.02734375,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 29.637897491455078
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_04.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.2051006555557251,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -7000.8330078125,
+        "discriminator_std_hz": 20526.048828125,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 31.92111587524414
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_05.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.1928400844335556,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -3929.401123046875,
+        "discriminator_std_hz": 14810.4765625,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 36.52968978881836
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_06.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.2101273536682129,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -3713.5087890625,
+        "discriminator_std_hz": 22003.66015625,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 27.331775665283203
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_15_07.npz",
+      "channel": 15,
+      "metrics": {
+        "iq_rms": 0.20151060819625854,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": -3676.6904296875,
+        "discriminator_std_hz": 18983.443359375,
+        "large_excursion_fraction": 0.0,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 32.634498596191406
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_00.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.047833848744630814,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 490402.9375,
+        "discriminator_std_hz": 86826.359375,
+        "large_excursion_fraction": 0.11805749372034607,
+        "pilot_frequency_hz": 18621.26709461345,
+        "pilot_prominence_db": 2.977339744567871
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_01.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.05054120346903801,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 493860.625,
+        "discriminator_std_hz": 84868.9609375,
+        "large_excursion_fraction": 0.10549818587775607,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": -0.49893927574157715
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_02.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.04448194056749344,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 489153.40625,
+        "discriminator_std_hz": 84269.9453125,
+        "large_excursion_fraction": 0.10717276025676807,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 0.796298086643219
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_03.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.047060929238796234,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 493064.65625,
+        "discriminator_std_hz": 86265.84375,
+        "large_excursion_fraction": 0.11526653642199275,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 0.9604812860488892
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_04.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.04814271628856659,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 490082.78125,
+        "discriminator_std_hz": 84579.578125,
+        "large_excursion_fraction": 0.10689366452693273,
+        "pilot_frequency_hz": 19157.13089589729,
+        "pilot_prominence_db": 5.57038688659668
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_05.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.045379262417554855,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 489149.0625,
+        "discriminator_std_hz": 84851.125,
+        "large_excursion_fraction": 0.10270722857940273,
+        "pilot_frequency_hz": 19023.16494557633,
+        "pilot_prominence_db": 6.209578990936279
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_06.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.04374582692980766,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 487646.40625,
+        "discriminator_std_hz": 81937.1328125,
+        "large_excursion_fraction": 0.09656712252302539,
+        "pilot_frequency_hz": 19425.062796539212,
+        "pilot_prominence_db": 5.457704544067383
+      }
+    },
+    {
+      "kind": "pfb",
+      "file": "pfb_01_07.npz",
+      "channel": 1,
+      "metrics": {
+        "iq_rms": 0.05404976010322571,
+        "zero_fraction": 0.0,
+        "discriminator_dc_hz": 493012.28125,
+        "discriminator_std_hz": 87576.2890625,
+        "large_excursion_fraction": 0.11889478090985207,
+        "pilot_frequency_hz": 18889.19899525537,
+        "pilot_prominence_db": 5.997231483459473
+      }
+    }
+  ],
+  "historical_source_sha256": "6e05b161ff89bff0468a9547c0feb5da5e0abc60d440efc608e7c931e7106c22",
+  "historical_meta_sha256": "64a8066750f36f04d5edd857871c05856cdf18f15f7fb44091366199c98cf694",
+  "current_receipt_sha256": "8341a2aeafda1d3649259fbc02aa3369c6acf5eaf759717c9167ff8f44443299",
+  "wav_sha256": {
+    "historical_00_rtl_math.wav": "7df9ee3c966e9b1d2f43c3ae53d859f401aaf7c88876254d719804df7f47ca54",
+    "historical_00_software.wav": "04b7ea351916b92b556821ee800a416b09847d59afb697cc6969be4dfeecc2b1",
+    "historical_08_rtl_math.wav": "ec3a81e0899119d99b5c511e3573331ab15423ff9cdf1a018b8a469f5b62d17f",
+    "historical_08_software.wav": "d28ee5262adfbfe97d618183fdfe9222ffa83487d75e5fcb0370d5b7da8d45fc",
+    "raw_00_rtl_math.wav": "053d08027c163d7bc7ec7859c504b947d93a282831f2bc0d02ac99317fd1f875",
+    "raw_00_software.wav": "14fa976e28bcd72c6fb6add89bb322082cc0f434fc607603726d3ce323d43150",
+    "raw_01_rtl_math.wav": "19476645f39971c2f577368abd54f72cd380a2f347b2ade55202881055649061",
+    "raw_01_software.wav": "d3ac60748f136658f71e856680cfdfbea3c3c27883f335a9fc3aedd4b365486a",
+    "raw_02_rtl_math.wav": "5d12ab8f5b7fb822e7c944afda06f2a2af8fd11e53e0708fc66b4ff6818922a8",
+    "raw_02_software.wav": "18fda6314002e6ecc86fde07ad1fbd3f14dd8b0b22b29205868dc6787675764c",
+    "raw_03_rtl_math.wav": "ceaa4b6b72688053389d0016bc3a19c35536a4737b718def3b9bbae132ac00db",
+    "raw_03_software.wav": "ce0d40291c8d6fb7932cb14110f86676c2827701969db14ca8a931cef1656fa1"
+  }
+}

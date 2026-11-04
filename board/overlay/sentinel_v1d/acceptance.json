@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "image": "sentinel_v1d",
+  "recorded_at_pc": "2026-11-03T02:50:08.208688+00:00",
+  "scope": "PC routed implementation only; RF authorization and visual gates pending",
+  "final_timing": {
+    "WNS_ns": 0.092,
+    "TNS_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "WHS_ns": 0.037,
+    "THS_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "WPWS_ns": 0.264,
+    "pulse_failing_endpoints": 0
+  },
+  "resources": {
+    "Slice LUTs": 35568.0,
+    "Slice Registers": 50450.0,
+    "Block RAM Tile": 83.5,
+    "DSPs": 76.0
+  },
+  "bus_skew": {
+    "reported_paths": 48,
+    "minimum_slack_ns": 3.164
+  },
+  "addresses": {
+    "src_mux_0": "0x43c00000",
+    "spec_front_0": "0x43c10000",
+    "cfar_core_0": "0x43c20000",
+    "lcd_engine": "0x43c60000",
+    "perf_mon_0": "0x43c70000",
+    "axi_lcd_ui": "0x42100000",
+    "axi_power_capture": "0x42010000",
+    "axi_capture_ctrl": "0x41220000",
+    "axi_dma_replay": "0x40400000",
+    "axi_sentinel_intc": "0x41800000",
+    "axi_ad9361": "0x79020000",
+    "axi_ad9361_adc_dma": "0x7c400000",
+    "axi_ad9361_dac_dma": "0x7c420000",
+    "x5_ctrl": "0x41230000",
+    "x5_meta": "0x41240000",
+    "x5_status": "0x41250000"
+  },
+  "artifacts_sha256": {
+    "sentinel_v1d.bit": "de0973e68b41773929b12d045a7fbbcd76727c51b10c40e4f4607cdb7424ad75",
+    "sentinel_v1d.hwh": "e4751faf8960693d0d2e954084694bc6a4abf3089769345f78f303476698345b",
+    "sentinel_v1d.xsa": "6ddb3c22c060c421d0e3d8901bee46126c936a55489daac2f37a61a971c8eb1c"
+  },
+  "prebuild_manifest_sha256": "d2a66b99b1c35c2a2c03c4949144318a5eca3c699a6b915721ea5255ed6441fc",
+  "report_sha256": {
+    "final_bus_skew.rpt": "649084f2e0aab449a45dc5561d729482862cfaa258051747d52e312b971d65c4",
+    "final_cdc.rpt": "bedf862dd8160a6a996fa92166054913fe384ae6496297e0d83822649d95ca68",
+    "final_clocks.rpt": "57576e5d38504bdf7fd51bc90d76277b434d5efc0b330140d88d9ef024391c4d",
+    "final_io.rpt": "64fb42f1c6044d1711e272fea5bdd088082ad10d678d75735592dc002596c971",
+    "final_timing.rpt": "9278ba1806ec8631d4f740fb2efca3ff9339a353db60a736aa716dff5e9ce986",
+    "final_utilization.rpt": "9073b1a33503b6f38fdceaab1ea9e986b08f54b2124336ecdb98b1a1bd9670b6"
+  },
+  "cdc_review": "Explicit DSP/CPU AXI and AXIS converters; retained final CDC report"
+}

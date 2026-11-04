@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "Computer implementation/artifact acceptance only; board and visual gates still pending",
+  "final_timing": {
+    "WNS_ns": 0.086,
+    "TNS_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "WHS_ns": 0.046,
+    "THS_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "WPWS_ns": 0.264,
+    "pulse_failing_endpoints": 0
+  },
+  "resources": {
+    "Slice LUTs": 26625.0,
+    "Slice Registers": 35103.0,
+    "Block RAM Tile": 49.0,
+    "DSPs": 64.0
+  },
+  "addresses": {
+    "axi_dma_replay": "0x40400000",
+    "axi_ad9361_gpio": "0x41200000",
+    "axi_capture_ctrl": "0x41220000",
+    "axi_iic_fmc": "0x41620000",
+    "axi_sentinel_intc": "0x41800000",
+    "axi_ad9361_spi": "0x41e00000",
+    "axi_lcd_ui": "0x42000000",
+    "axi_power_capture": "0x42010000",
+    "src_mux_0": "0x43c00000",
+    "spec_front_0": "0x43c10000",
+    "cfar_core_0": "0x43c20000",
+    "lcd_engine": "0x43c60000",
+    "perf_mon_0": "0x43c70000",
+    "axi_sysid_0": "0x45000000",
+    "axi_ad9361": "0x79020000",
+    "axi_ad9361_adc_dma": "0x7c400000",
+    "axi_ad9361_dac_dma": "0x7c420000"
+  },
+  "artifacts_sha256": {
+    "sentinel_v1.bit": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+    "sentinel_v1.hwh": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f",
+    "sentinel_v1.xsa": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3"
+  },
+  "timing_source": "final_timing.rpt (fresh open_run after post-route ADI timing fix); pre-fix routed/placed reports are not used",
+  "timing_report_sha256": "c3ecb4a18d43df5f86449c6f40362d6d91152966a43e66b138bfaa5c3ae16610"
+}

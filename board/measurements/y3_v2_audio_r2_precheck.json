@@ -1,0 +1,11 @@
+{
+  "status": "PRECHECK_FAILED_BEFORE_RF",
+  "stage": "y3_v2_audio_r2_runtime",
+  "cause": "sudo -n required a password",
+  "rf_started": false,
+  "audio_started": false,
+  "remote_measurement_exists": false,
+  "attempt_number": 2,
+  "archive_sha256": "17d9764e9e48ba44b5f030739f6fe0aa5c90d5845d83bd1ea62bc938c00a7e9c",
+  "recorded_at_utc": "2026-11-03T11:31:39.0614229Z"
+}

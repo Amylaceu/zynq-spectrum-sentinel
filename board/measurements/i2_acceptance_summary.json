@@ -1,0 +1,61 @@
+{
+  "schema": "i2_summary/1",
+  "status": "FAIL",
+  "functional_scope": "Four receive-only scenes, three repetitions each; not J2 acceptance",
+  "scene_samples_s": {
+    "check": [
+      0.6089999999967404,
+      0.6089999999967404,
+      0.5940000000118744
+    ],
+    "fm": [
+      0.32800000000861473,
+      0.3120000000053551,
+      0.3590000000258442
+    ],
+    "listen": [
+      1.625,
+      1.547000000020489,
+      1.577999999979511
+    ],
+    "perf": [
+      0.5470000000204891,
+      0.5780000000086147,
+      0.5469999999913853
+    ]
+  },
+  "loops_ready": 12,
+  "gui_errors": [],
+  "received_spectra": 1204,
+  "duration_s": 141.54699999999139,
+  "twin_width_px": 923,
+  "width_target_px": 1100,
+  "failed_criteria": [
+    "twin width below target"
+  ],
+  "human": "PENDING",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "verified_returned_files": 119,
+  "source": {
+    "path": "board/measurements/i2_board_r2/acceptance.json",
+    "sha256": "3ae1b48d4d4097e00dea29e4d60ec1900ee8a50d9e0624f4f60a0eeacc1df1c7"
+  },
+  "limitations": [
+    "No ten-repeat P90 certification",
+    "No seven-scene or nine-page walkthrough",
+    "No new executable",
+    "J v2 supersedes presenter UI"
+  ]
+}

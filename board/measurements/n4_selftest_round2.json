@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "RF_TX_requested": false,
+  "tests": [
+    {
+      "name": "single_tone",
+      "peak_bin": 1088,
+      "expected_bin": 1088,
+      "error_bins": 0
+    },
+    {
+      "name": "three_tones",
+      "peaks": [
+        724,
+        1088,
+        1324
+      ],
+      "target_count": 3,
+      "expected_peaks": [
+        724,
+        1088,
+        1324
+      ]
+    },
+    {
+      "name": "golden_replay",
+      "frame": 0,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 1,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 2,
+      "words": 2048,
+      "mismatches": 0
+    },
+    {
+      "name": "golden_replay",
+      "frame": 3,
+      "words": 2048,
+      "mismatches": 0
+    }
+  ],
+  "format": "int16 IQ, FFTshift 2048 bins; AVG_SHIFT=0 for exact raw power reference",
+  "bit_sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+  "raw_archive_sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+  "perf": {
+    "samples": 12288,
+    "cycles": 87031956,
+    "fft_frames": 6,
+    "hits": 26,
+    "lists": 6,
+    "latency_cycles": 24515,
+    "markers_done": 1,
+    "status": 4,
+    "fifo_level": 0
+  }
+}

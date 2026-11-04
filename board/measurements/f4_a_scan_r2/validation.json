@@ -1,0 +1,706 @@
+{
+  "status": "PASS_SNAPSHOT_SCAN",
+  "group": "A",
+  "host_utc": "2026-11-03T22:44:13.583272+00:00",
+  "pl_rebuilt": false,
+  "antenna_confirmed": true,
+  "preflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "files_sha256": {
+    "panorama.npz": "eb94ad0f267d38baaaf8e08119e05c8990d09be1b14f59a695f778562c83d1d9",
+    "result.json": "e1a6a817748189ea6812b73d8a7751664f0014c0306bfb9608525c78b49f8d3c",
+    "tile_000.npz": "1cc87f4b447625f0cb4f5cd8351baa9afbfd9a7372c92a9e554f13b0a7632400",
+    "tile_001.npz": "f86984b66493f59db0006a0bbf67cdb681f5c6b3f8fa9718c222a06177942c0d",
+    "tile_002.npz": "6736322e532d04b00d4ef20cdab0966ed4ab3c3d99af2e9a41ed01eb4dcfd90f",
+    "tile_003.npz": "c9b2affe5391807d5c82ae9ca6808d82b95ae147bb416c0f40f6bb3b9c25905b",
+    "tile_004.npz": "105894b0c7e28198a5fb1a45b9b8777ae900dbb8dd5a2db43459ed03b387f424",
+    "tile_005.npz": "f7fef0058be69cf1f43e72cfac45a81a0883d6cf03da58fb004590f0a7209b94",
+    "tile_006.npz": "0a0d00570b34319844cfb81002416783097d64d7e04eee54087a22abfbe5393f",
+    "tile_007.npz": "d4b91a2991b0f45bb81838bb116b1b052e17e4cb2be40969b1ae81be49194a90",
+    "tile_008.npz": "612a91ac8cd5f3d09b967f74cd06981d30493992a4d11dc00a1d1dc08ea19ac4",
+    "tile_009.npz": "482e541434767bf1d44762c0d0893d1070e4daa299a0385037f67269671369f4"
+  },
+  "scan": {
+    "schema": 1,
+    "status": "PASS_SNAPSHOT_SCAN",
+    "group": "A",
+    "source": "RX1A_ANTENNA",
+    "scope": "FINITE_DISCONTINUOUS_RAW_DMA_SNAPSHOTS",
+    "rf_transmission_requested": false,
+    "sample_rate_hz": 30720000,
+    "bandwidth_requested_hz": 24000000,
+    "usable_tile_hz": 20000000,
+    "power_units": "FS^2/Hz",
+    "calibrated_dbm": false,
+    "tiles": [
+      {
+        "index": 0,
+        "requested_lo_hz": 75000000,
+        "before": {
+          "lo_hz": 75000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -80.0,
+          "rx1_gain_db": 59
+        },
+        "after": {
+          "lo_hz": 75000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -74.5,
+          "rx1_gain_db": 59
+        },
+        "file": "tile_000.npz",
+        "sha256": "1cc87f4b447625f0cb4f5cd8351baa9afbfd9a7372c92a9e554f13b0a7632400",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0914143990012235,
+          "minimum": -1842,
+          "maximum": 1727
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.10540509299971745,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.298946472001262,
+          "agc_wait_s": 0.15023709099841653,
+          "initial_state_readback_s": 0.001244405000761617,
+          "discard_dma_s": 0.11580168200089247,
+          "retained_dma_s": 0.10170654199828277,
+          "final_state_readback_s": 0.001187631998618599,
+          "welch_s": 0.27577263199782465,
+          "npz_compression_write_and_hash_s": 0.4007079050024913,
+          "unattributed_s": 0.0537177310034167,
+          "tile_total_before_progress_write_s": 1.3993513980021817
+        }
+      },
+      {
+        "index": 1,
+        "requested_lo_hz": 83000000,
+        "before": {
+          "lo_hz": 82999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -79.75,
+          "rx1_gain_db": 54
+        },
+        "after": {
+          "lo_hz": 82999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -79.75,
+          "rx1_gain_db": 53
+        },
+        "file": "tile_001.npz",
+        "sha256": "f86984b66493f59db0006a0bbf67cdb681f5c6b3f8fa9718c222a06177942c0d",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.29084711800169316,
+          "minimum": -2048,
+          "maximum": 1883
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09215218600002117,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.1444091796875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03421622899986687,
+          "agc_wait_s": 0.15020346200253698,
+          "initial_state_readback_s": 0.0013535139987652656,
+          "discard_dma_s": 0.10285841099903337,
+          "retained_dma_s": 0.30154797499926644,
+          "final_state_readback_s": 0.0012523639998107683,
+          "welch_s": 0.27154612699814606,
+          "npz_compression_write_and_hash_s": 0.44596278500102926,
+          "unattributed_s": 0.05322365699976217,
+          "tile_total_before_progress_write_s": 1.3621932200003357
+        }
+      },
+      {
+        "index": 2,
+        "requested_lo_hz": 91000000,
+        "before": {
+          "lo_hz": 91000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -78.5,
+          "rx1_gain_db": 58
+        },
+        "after": {
+          "lo_hz": 91000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -78.75,
+          "rx1_gain_db": 58
+        },
+        "file": "tile_002.npz",
+        "sha256": "6736322e532d04b00d4ef20cdab0966ed4ab3c3d99af2e9a41ed01eb4dcfd90f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.11425688700182945,
+          "minimum": -1672,
+          "maximum": 2024
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.11173152700212086,
+          "minimum": -1889,
+          "maximum": 1675
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.034330899001361104,
+          "agc_wait_s": 0.15022573199894396,
+          "initial_state_readback_s": 0.0012935659979120828,
+          "discard_dma_s": 0.12296844900265569,
+          "retained_dma_s": 0.1326123379985802,
+          "final_state_readback_s": 0.001216919998114463,
+          "welch_s": 0.2917106460008654,
+          "npz_compression_write_and_hash_s": 0.35853543000121135,
+          "unattributed_s": 0.05274391700004344,
+          "tile_total_before_progress_write_s": 1.1456641770018905
+        }
+      },
+      {
+        "index": 3,
+        "requested_lo_hz": 99000000,
+        "before": {
+          "lo_hz": 99000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -76.25,
+          "rx1_gain_db": 55
+        },
+        "after": {
+          "lo_hz": 99000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -76.5,
+          "rx1_gain_db": 55
+        },
+        "file": "tile_003.npz",
+        "sha256": "c9b2affe5391807d5c82ae9ca6808d82b95ae147bb416c0f40f6bb3b9c25905b",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.10312211099881097,
+          "minimum": -1993,
+          "maximum": 2008
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09179465899796924,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03464555999744334,
+          "agc_wait_s": 0.15020278900192352,
+          "initial_state_readback_s": 0.0013837440019415226,
+          "discard_dma_s": 0.10247559800336603,
+          "retained_dma_s": 0.11381428100139601,
+          "final_state_readback_s": 0.0012573520034493413,
+          "welch_s": 0.2742776830018556,
+          "npz_compression_write_and_hash_s": 0.3770395870014909,
+          "unattributed_s": 0.05304068898840342,
+          "tile_total_before_progress_write_s": 1.108164263998333
+        }
+      },
+      {
+        "index": 4,
+        "requested_lo_hz": 107000000,
+        "before": {
+          "lo_hz": 107000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -75.5,
+          "rx1_gain_db": 52
+        },
+        "after": {
+          "lo_hz": 107000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -77.0,
+          "rx1_gain_db": 50
+        },
+        "file": "tile_004.npz",
+        "sha256": "105894b0c7e28198a5fb1a45b9b8777ae900dbb8dd5a2db43459ed03b387f424",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09219015700000455,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09182877200146322,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.000202178955078125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.034326314002100844,
+          "agc_wait_s": 0.15020314800131018,
+          "initial_state_readback_s": 0.0012225259997649118,
+          "discard_dma_s": 0.10253532299975632,
+          "retained_dma_s": 0.10288186899924767,
+          "final_state_readback_s": 0.0012469280009099748,
+          "welch_s": 0.2736380390015256,
+          "npz_compression_write_and_hash_s": 0.372397679999267,
+          "unattributed_s": 0.05219343699354795,
+          "tile_total_before_progress_write_s": 1.0906728329973703
+        }
+      },
+      {
+        "index": 5,
+        "requested_lo_hz": 115000000,
+        "before": {
+          "lo_hz": 115000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -83.75,
+          "rx1_gain_db": 51
+        },
+        "after": {
+          "lo_hz": 115000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -76.5,
+          "rx1_gain_db": 52
+        },
+        "file": "tile_005.npz",
+        "sha256": "f7fef0058be69cf1f43e72cfac45a81a0883d6cf03da58fb004590f0a7209b94",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09199210000224411,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09306141799970646,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 1.1444091796875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03425494200200774,
+          "agc_wait_s": 0.1502042399988568,
+          "initial_state_readback_s": 0.0011834609977086075,
+          "discard_dma_s": 0.10382722800204647,
+          "retained_dma_s": 0.10268254499897012,
+          "final_state_readback_s": 0.0013330430010682903,
+          "welch_s": 0.2730495450014132,
+          "npz_compression_write_and_hash_s": 0.39845299499938847,
+          "unattributed_s": 0.05243752900059917,
+          "tile_total_before_progress_write_s": 1.1174519080013852
+        }
+      },
+      {
+        "index": 6,
+        "requested_lo_hz": 123000000,
+        "before": {
+          "lo_hz": 122999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 52
+        },
+        "after": {
+          "lo_hz": 122999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 52
+        },
+        "file": "tile_006.npz",
+        "sha256": "0a0d00570b34319844cfb81002416783097d64d7e04eee54087a22abfbe5393f",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.0920524889988883,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09123665799779701,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 3.4332275390625e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03419916100028786,
+          "agc_wait_s": 0.15021939099824522,
+          "initial_state_readback_s": 0.0013982919990667142,
+          "discard_dma_s": 0.10191992199906963,
+          "retained_dma_s": 0.10277182799836737,
+          "final_state_readback_s": 0.0013092159970256034,
+          "welch_s": 0.27479976899849134,
+          "npz_compression_write_and_hash_s": 0.5222138190001715,
+          "unattributed_s": 0.05179773300915258,
+          "tile_total_before_progress_write_s": 1.2406559410010232
+        }
+      },
+      {
+        "index": 7,
+        "requested_lo_hz": 131000000,
+        "before": {
+          "lo_hz": 130999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 54
+        },
+        "after": {
+          "lo_hz": 130999998,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.75,
+          "rx1_gain_db": 48
+        },
+        "file": "tile_007.npz",
+        "sha256": "d4b91a2991b0f45bb81838bb116b1b052e17e4cb2be40969b1ae81be49194a90",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09205175299939583,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09146721800061641,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 0.0001220703125,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03483435599991935,
+          "agc_wait_s": 0.15020095199724892,
+          "initial_state_readback_s": 0.001353564002783969,
+          "discard_dma_s": 0.10230344500087085,
+          "retained_dma_s": 0.10282392700173659,
+          "final_state_readback_s": 0.0012522709985205438,
+          "welch_s": 0.2729534850004711,
+          "npz_compression_write_and_hash_s": 0.4907557549995545,
+          "unattributed_s": 0.05147261499951128,
+          "tile_total_before_progress_write_s": 1.207977120000578
+        }
+      },
+      {
+        "index": 8,
+        "requested_lo_hz": 139000000,
+        "before": {
+          "lo_hz": 139000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 53
+        },
+        "after": {
+          "lo_hz": 139000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -84.5,
+          "rx1_gain_db": 55
+        },
+        "file": "tile_008.npz",
+        "sha256": "612a91ac8cd5f3d09b967f74cd06981d30493992a4d11dc00a1d1dc08ea19ac4",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09221578600045177,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09135332999721868,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "clipped_fraction": 4.57763671875e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.03410910299862735,
+          "agc_wait_s": 0.15020218399877194,
+          "initial_state_readback_s": 0.0012631800018425565,
+          "discard_dma_s": 0.10216921199753415,
+          "retained_dma_s": 0.1029362699991907,
+          "final_state_readback_s": 0.0012540210009319708,
+          "welch_s": 0.27626646899807383,
+          "npz_compression_write_and_hash_s": 0.40098758100066334,
+          "unattributed_s": 0.05200812800467247,
+          "tile_total_before_progress_write_s": 1.1212233879996347
+        }
+      },
+      {
+        "index": 9,
+        "requested_lo_hz": 147000000,
+        "before": {
+          "lo_hz": 147000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.25,
+          "rx1_gain_db": 55
+        },
+        "after": {
+          "lo_hz": 147000000,
+          "rate_hz": 30720000,
+          "attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "ensm_mode": 1,
+          "rssi_dbm": -87.25,
+          "rx1_gain_db": 56
+        },
+        "file": "tile_009.npz",
+        "sha256": "482e541434767bf1d44762c0d0893d1070e4daa299a0385037f67269671369f4",
+        "capture": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09130013100002543,
+          "minimum": -2048,
+          "maximum": 2047
+        },
+        "settling_discard": {
+          "samples": 131072,
+          "bytes": 1048576,
+          "guards_ok": true,
+          "elapsed_s": 0.09094938099951833,
+          "minimum": -1943,
+          "maximum": 2047
+        },
+        "clipped_fraction": 2.288818359375e-05,
+        "adc_status": 13,
+        "pl_perf_status_unqualified": 1,
+        "timing": {
+          "combined_rate_lo_bandwidth_configure_s": 0.028249205999600235,
+          "agc_wait_s": 0.1502027740025369,
+          "initial_state_readback_s": 0.0012677660015469883,
+          "discard_dma_s": 0.1017164650002087,
+          "retained_dma_s": 0.10198441700049443,
+          "final_state_readback_s": 0.0012566639998112805,
+          "welch_s": 0.2727793859994563,
+          "npz_compression_write_and_hash_s": 0.3863500229999772,
+          "unattributed_s": 0.051358497996261576,
+          "tile_total_before_progress_write_s": 1.0951914170000236
+        }
+      }
+    ],
+    "pl_source_enabled": false,
+    "continuous_integrity_certified": false,
+    "panorama": "panorama.npz",
+    "panorama_sha256": "eb94ad0f267d38baaaf8e08119e05c8990d09be1b14f59a695f778562c83d1d9",
+    "full_group": false,
+    "missing_bins": 35501,
+    "covered_bins": 8699,
+    "notes": "Uncalibrated AGC/antenna response. Gaps between finite captures; PL FIFO sticky flags are not a continuous-DMA acceptance metric.",
+    "buffers_quarantined": false,
+    "baseline_restore": {
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "ensm_mode": 1,
+      "rssi_dbm": -85.0,
+      "rx1_gain_db": 73
+    },
+    "receive_startup_restored": {
+      "scope": "Before acquisition only; no in-session fault masking",
+      "reset_register_before": 3,
+      "reset_register_after": 3,
+      "perf_before": {
+        "samples": 0,
+        "cycles": 1348281895,
+        "fft_frames": 0,
+        "hits": 0,
+        "lists": 0,
+        "latency_cycles": 0,
+        "markers_done": 0,
+        "status": 1,
+        "fifo_level": 0
+      },
+      "perf_after": {
+        "samples": 0,
+        "cycles": 1015818,
+        "fft_frames": 0,
+        "hits": 0,
+        "lists": 0,
+        "latency_cycles": 0,
+        "markers_done": 0,
+        "status": 0,
+        "fifo_level": 0
+      }
+    },
+    "stopped": {
+      "gpio": 0,
+      "source": 0,
+      "audio": 0
+    },
+    "elapsed_s": 23.614171011999133,
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6"
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

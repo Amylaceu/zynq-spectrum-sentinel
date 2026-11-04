@@ -1,0 +1,16 @@
+{
+  "status": "STARTED",
+  "pid": 9730,
+  "host_started_utc": "2026-11-03T20:04:58.636120+00:00",
+  "command": [
+    "sh",
+    "/home/xilinx/sentinel/release/v2/scripts/sentinel.sh",
+    "monitor",
+    "--ui",
+    "v3",
+    "--seconds",
+    "600"
+  ],
+  "configuration": "A unchanged",
+  "remote_log": "/home/xilinx/sentinel/release/v2/logs/G2_monitor_r3.log"
+}

@@ -1,0 +1,15 @@
+{
+  "pid": 19987,
+  "command": [
+    "sh",
+    "/home/xilinx/sentinel/release/v2/scripts/sentinel.sh",
+    "monitor",
+    "--ui",
+    "v3",
+    "--seconds",
+    "120",
+    "--hostlink"
+  ],
+  "log": "/home/xilinx/sentinel/release/v2/logs/g4d_fields_board_r1.log",
+  "host_started_utc": "2026-11-03T22:07:30.346573+00:00"
+}

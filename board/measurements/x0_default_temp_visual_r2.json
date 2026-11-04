@@ -1,0 +1,9 @@
+{
+  "recorded_at_pc": "2026-11-03T01:39:28.860733+08:00",
+  "measurement": "board/measurements/n4_monitor_x0_default_temp_r2.json",
+  "measurement_sha256": "bd738258d1ecc4cd7783d108b48c3b4a1f6eb3928986e025dc53a73e844da0d0",
+  "operator_response": "正常",
+  "question_scope": "Observe at least 10 seconds: FRAME increasing, SOC TEMP 30-85C, spectrum/waterfall/list normal with no visible corruption or flicker",
+  "accepted": true,
+  "source": "Explicit human reply in this conversation; not inferred from telemetry"
+}

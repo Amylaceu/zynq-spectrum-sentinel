@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "recorded_at_pc": "2026-11-02T23:26:52.120162+08:00",
+  "measurement": "board/measurements/n4_monitor_rf_phase3_r1.json",
+  "measurement_sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01",
+  "bus_phase": 3,
+  "user_feedback": "有动态频谱/瀑布，列表有条目，画面正常",
+  "scope": "Dynamic RF spectrum, waterfall, populated signal list, and normal LCD display. Does not identify individual targets as FM stations. Original measurement unchanged."
+}

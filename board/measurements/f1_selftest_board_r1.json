@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Board selftest evidence copied after completion; monitor visual and stop pending",
+  "files": {
+    "measurements/20211118T212037Z_35655fe9_execution.json": {
+      "text": "{\n  \"status\": \"PASS\",\n  \"command\": \"selftest\",\n  \"worker_args\": [\n    \"/usr/local/share/pynq-venv/bin/python3\",\n    \"-I\",\n    \"/home/xilinx/sentinel/release/v2/scripts/release_selftest.py\",\n    \"--out\",\n    \"/home/xilinx/sentinel/release/v2/measurements/selftest_20211118T212037Z_35655fe9\"\n  ],\n  \"output\": \"/home/xilinx/sentinel/release/v2/measurements/selftest_20211118T212037Z_35655fe9\",\n  \"worker_exit_code\": 0,\n  \"stop_readback\": {\n    \"boot_id\": \"30cc40d8-3cb0-49ab-85bd-4c7445a962a7\",\n    \"image\": \"sentinel_v2_100m\",\n    \"gpio_data\": 0,\n    \"source_ctrl\": 0,\n    \"lcd_version\": 1279459333,\n    \"scope\": \"Stopped readback only; no RF initialization or download\",\n    \"capture_status\": 268435458,\n    \"audio_control\": 0,\n    \"audio_status\": 0,\n    \"status\": \"PASS\"\n  }\n}\n",
+      "sha256": "467a2f8f05b772b50ef6a91e2da343d11e37826aa85e1b478f60c955353191a1"
+    },
+    "measurements/20211118T212037Z_35655fe9_execution.json.sha256": {
+      "text": "467a2f8f05b772b50ef6a91e2da343d11e37826aa85e1b478f60c955353191a1  20211118T212037Z_35655fe9_execution.json\n",
+      "sha256": "c9f7b2f5a65e06ec2e7cb8b8a15396c08617c1860304b9c5e24a658c45f59a96"
+    },
+    "measurements/selftest_20211118T212037Z_35655fe9/result.json.sha256": {
+      "text": "969530de0017ef485ca9ac6462e5551ccdc39b03f1dbe0f7c24030e02664de9c  result.json\n",
+      "sha256": "5769e77281d0b8b3e0d3a9c382df1500d1488e98448dcc6a72664246d2aca8db"
+    },
+    "measurements/selftest_20211118T212037Z_35655fe9/result.json": {
+      "text": "{\n  \"status\": \"PASS\",\n  \"RF_TX_requested\": false,\n  \"audio_playback\": false,\n  \"product_id\": 10,\n  \"startup_quality\": {\n    \"quality\": {\n      \"good\": true,\n      \"pilot_frequency_hz\": 19023.16494557633,\n      \"pilot_prominence_db\": 32.037774922798654,\n      \"large_excursion_fraction\": 0.0,\n      \"iq_rms\": 0.19175472364315935,\n      \"scope\": \"Stereo pilot/phase integrity; not SNR or station identity\"\n    },\n    \"noise_event\": null,\n    \"pilot_pass\": true,\n    \"quality_pass\": true\n  },\n  \"telemetry\": {\n    \"temperature_c\": 50.692797851408,\n    \"rx_rssi_dbm\": -91.75,\n    \"tx_atten_mdb\": [\n      89750,\n      89750\n    ]\n  }\n}\n",
+      "sha256": "969530de0017ef485ca9ac6462e5551ccdc39b03f1dbe0f7c24030e02664de9c"
+    }
+  },
+  "board_clock_note": "Board clock is 2021; host evidence date 2026-11-03; use boot ID and monotonic time, not board wall clock"
+}

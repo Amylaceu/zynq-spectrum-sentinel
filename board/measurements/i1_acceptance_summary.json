@@ -1,0 +1,112 @@
+{
+  "status": "PARTIAL_RECEIVE_SCENES_PASS",
+  "overall_i1_complete": false,
+  "board_test": "board/measurements/i1_board_r3/acceptance.json",
+  "board_test_sha256": "1e81e4756c4202ade64aab1ec923b431213c4a425add22aa0e6949656103b2d9",
+  "metrics": {
+    "check": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.5508438200013188,
+      "median_s": 0.5092021274995204,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "fm": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.23371189899989986,
+      "median_s": 0.21870850599952973,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "listen": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 2.199800164999033,
+      "median_s": 1.5156633825008612,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "perf": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.26375865999943926,
+      "median_s": 0.2159562194992759,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    },
+    "idle": {
+      "attempts": 10,
+      "ready": 10,
+      "p90_s": 0.2512089389965695,
+      "median_s": 0.2178114785001526,
+      "all_within_target": true,
+      "scope": "Board dispatch to verified readiness; SSH full roundtrip reported separately"
+    }
+  },
+  "switch_count": 50,
+  "verified_board_files": 174,
+  "lifecycle": {
+    "overlay_loads": 1,
+    "rf_initializations": 1,
+    "model_loads": 1,
+    "model_warmups": 1,
+    "segments": [
+      {
+        "source": "rf",
+        "lo_hz": 96050000,
+        "started_monotonic_s": 21274.776015056,
+        "tx_attenuation_before_reset_db": [
+          89.75,
+          89.75
+        ],
+        "stop_readback": {
+          "gpio_data": 0,
+          "source_ctrl": 0,
+          "audio_control": 0,
+          "status": "PASS"
+        },
+        "finished_monotonic_s": 21506.767582466,
+        "cleanup_errors": []
+      }
+    ],
+    "rf_reinitialization_reason": "Only final stop resets GPIO; scenes keep one RF session",
+    "pcm_recording": "UNSUPPORTED_NO_PLAYBACK_PCM_READBACK",
+    "warmup_source": "synthetic complex tone; excluded from measured results",
+    "codec_initializations": 1,
+    "lifecycle": "resident_receive_only"
+  },
+  "elapsed_s": 233.9746737530004,
+  "ssh_roundtrip_s": {
+    "median": 3.984500000005937,
+    "p90": 4.875
+  },
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435456,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "human_feedback": "Intermittent phrases during random switching; no full listening pass claimed",
+  "remaining": [
+    "I2 button end-to-end time",
+    "Network RTT in check",
+    "Full performance panel",
+    "pano/wifi",
+    "Labelled replay",
+    "continuous resident stability",
+    "human audio/display acceptance"
+  ],
+  "failed_attempts": [
+    "i1_board_r1: loaded-path identity mismatch before start",
+    "i1_board_r2: undeployed candidate before start"
+  ]
+}

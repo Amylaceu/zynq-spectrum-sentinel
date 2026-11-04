@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-02",
+  "boot_mode": "SD (0x5)",
+  "initial_bootrom_error": "0x200A",
+  "bootrom_reference": "https://docs.amd.com/r/en-US/ug585-zynq-7000-SoC-TRM/Lockdown-Types",
+  "initial_bootrom_meaning": "BootROM could not find the boot image on SD",
+  "factory_fsbl_ram_load": "Guard aborted before download because boot state had changed; no RAM image loaded",
+  "boot_recovered": true,
+  "boot_log": "logs/N1_boot_after_sd_reseat.log",
+  "ssh_ip": "192.168.2.99",
+  "round1": "precondition failed: verified live image not loaded; no RF/DMA sequence",
+  "round2": "init -11: Python programming lock duplicated existing C backend flock; fixed by releasing preflight lock before radio.open",
+  "round3_board_status": "passed",
+  "round3_reported_mismatch_words": [
+    0,
+    0
+  ],
+  "round3_reported_compared_words": [
+    131072,
+    131072
+  ],
+  "user_confirmed_reset_or_power_cycle": true,
+  "round3_captures": {
+    "tx_loopback_ramp.npz": 0,
+    "tx_loopback_pn.npz": 0
+  },
+  "archive_verification": "incomplete; not independently rechecked",
+  "post_restart": "Linux and SSH restored; no loopback process remains; RF result records GPIO=0 and no quarantined buffers",
+  "pc_tests": 34,
+  "n1_acceptance": "not complete",
+  "next_board_attempt": "not started; three-round limit reached"
+}

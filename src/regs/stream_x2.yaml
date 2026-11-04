@@ -1,0 +1,13 @@
+name: stream_x2
+base: 0x43C80000
+width: 32
+regs:
+  - {name: SNAP_TOKEN, off: 0x00, access: rw, reset: 0}
+  - {name: SNAP_ACK, off: 0x04, access: ro}
+  - {name: SAMPLE_DROP, off: 0x08, access: ro}
+  - {name: FRAME_DROP, off: 0x0C, access: ro}
+  - {name: FRAMES_IN, off: 0x10, access: ro}
+  - {name: FRAMES_OUT, off: 0x14, access: ro}
+  - {name: STATUS, off: 0x18, access: ro}
+  - {name: FIFO_LEVEL, off: 0x1C, access: ro}
+  - {name: VERSION, off: 0xFC, access: ro, reset: 0x58320001}

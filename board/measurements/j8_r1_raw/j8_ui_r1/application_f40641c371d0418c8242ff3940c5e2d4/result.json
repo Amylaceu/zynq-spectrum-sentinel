@@ -1,0 +1,147 @@
+{
+  "id": "F8",
+  "run_id": "f40641c371d0418c8242ff3940c5e2d4",
+  "status": "DONE",
+  "tx_requested": false,
+  "feature": {
+    "id": "F8",
+    "action": "start",
+    "status": "READY",
+    "tx_requested": false,
+    "metrics": {
+      "\u64ad\u653e\u6837\u672c": {
+        "before": 0,
+        "after": 63423,
+        "unit": "\u6837\u672c"
+      },
+      "\u4e0b\u6ea2": {
+        "before": 0,
+        "after": 0,
+        "unit": "\u6b21"
+      },
+      "\u8f93\u51fa": {
+        "before": "\u9759\u97f3",
+        "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+        "unit": ""
+      }
+    },
+    "restored_before": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false,
+      "full_cfar_defaults_checked": true,
+      "source_defaults_checked": true
+    },
+    "restored": false,
+    "readback": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 1,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 243,
+      "codec_muted": false,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": true
+    },
+    "targets": [
+      {
+        "start": 1375,
+        "stop": 1379,
+        "peak_bin": 1377
+      },
+      {
+        "start": 886,
+        "stop": 891,
+        "peak_bin": 888
+      },
+      {
+        "start": 1531,
+        "stop": 1538,
+        "peak_bin": 1533
+      }
+    ],
+    "elapsed_s": 2.3418949429997156,
+    "within_target": true
+  },
+  "selection": {
+    "candidates": [
+      {
+        "station": {
+          "frequency_hz": 95800000,
+          "lo_hz": 96050000,
+          "confirmed_stereo": true
+        },
+        "measurements": [
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 30.059539831979116,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.20419010208310256,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          },
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 33.82682826700784,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.20019173915829733,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          },
+          {
+            "quality": {
+              "good": true,
+              "pilot_frequency_hz": 19023.16494557633,
+              "pilot_prominence_db": 30.35268382312127,
+              "large_excursion_fraction": 0.0,
+              "iq_rms": 0.20116690745506666,
+              "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+            },
+            "noise_event": null,
+            "pilot_pass": true,
+            "quality_pass": true
+          }
+        ],
+        "trusted": true,
+        "median_iq_power": 0.040468124655035353
+      }
+    ],
+    "selected": {
+      "frequency_hz": 95800000,
+      "lo_hz": 96050000,
+      "confirmed_stereo": true
+    },
+    "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+    "skipped_other_lo": 0
+  },
+  "elapsed_s": 2.342698170999938
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "y2-visual-execution-v1",
+  "status": "STARTED",
+  "recorded_at_pc": "2026-11-03T03:19:44.219891+00:00",
+  "scope": "Human visual check only; does not replace previous failed quantitative trial",
+  "source_receipt_sha256": "cd4fea115beef5d56352ceff5baa438d0f318db9abfc50254db2d58fbcd91e4d",
+  "runner_sha256": "954c6c88234f6d87f71356382471a4630d6cb3a16f3a7079fd0c08f815884a3c",
+  "configuration": "A",
+  "RF_TX_requested": false,
+  "human_visual": "PENDING",
+  "remote_root": "/home/xilinx/sentinel/setup/x5_station_r3_runtime",
+  "command": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/setup/x5_station_r3_runtime/scripts/run_x5_monitor.py",
+    "--bit",
+    "/home/xilinx/sentinel/setup/x5_station_r3_runtime/overlay/sentinel_v1d/sentinel_v1d.bit",
+    "--model",
+    "/home/xilinx/sentinel/setup/x5_station_r3_runtime/ps/models/weights/amc_v2/round_3/model.npz",
+    "--out",
+    "/home/xilinx/sentinel/setup/x5_station_r3_runtime/measurements/y2_visual_1",
+    "--lo",
+    "96400000",
+    "--seconds",
+    "600",
+    "--fm-truth-hz",
+    "95800000"
+  ],
+  "preflight": {
+    "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+    "image": "sentinel_v1d",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 268435456,
+    "status": "PASS"
+  },
+  "dependencies": "{\"python\": \"3.8.2 (default, Mar 13 2020, 10:14:16) \\n[GCC 9.3.0]\", \"numpy\": \"1.20.3\", \"status\": \"PASS\"}"
+}

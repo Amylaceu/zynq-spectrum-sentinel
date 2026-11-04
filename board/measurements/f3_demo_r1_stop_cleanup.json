@@ -1,0 +1,30 @@
+{
+  "status": "PASS_STOP_CLEANUP",
+  "before": {
+    "gpio": 0,
+    "source": 4,
+    "audio": 0,
+    "noise": 0,
+    "cfar_status": 0,
+    "lcd_status": 0,
+    "capture_status": 268435458,
+    "perf": {
+      "samples": 119052288,
+      "cycles": 40005283323,
+      "fft_frames": 58131,
+      "hits": 2799467,
+      "lists": 58131,
+      "latency_cycles": 0,
+      "markers_done": 0,
+      "status": 1,
+      "fifo_level": 0
+    }
+  },
+  "after": {
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "audio_control": 0,
+    "noise": 0
+  },
+  "scope": "Stopped source mode zeroed only; sticky fault evidence preserved; no RF initialized"
+}

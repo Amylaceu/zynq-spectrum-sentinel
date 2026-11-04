@@ -1,0 +1,1605 @@
+{
+  "RF_TX_requested": false,
+  "actual_rate_hz": 3840000,
+  "audible_intervals_s": [
+    [
+      1.0493225089999214,
+      30.000485891999915
+    ]
+  ],
+  "audible_seconds": 28.951163382999994,
+  "audio_before_stop": {
+    "enabled": true,
+    "fifo_level": 4168,
+    "frames": 2889706,
+    "iq_overflow": false,
+    "pcm_full": false,
+    "pcm_samples": 1447582,
+    "playing": true,
+    "raw_status": 66697,
+    "underflows": 0
+  },
+  "bandwidth_hz": 1500000,
+  "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+  "bus_phase": 2,
+  "bus_phase_requested": 2,
+  "channel_health_before_stop": 0,
+  "channel_rate_hz": 480000,
+  "codec_address_7bit": 16,
+  "codec_muted_before_play": true,
+  "codec_out1_enabled": true,
+  "codec_out2_enabled": true,
+  "codec_registers_before_unmute": {
+    "0x17": 0,
+    "0x18": 2,
+    "0x19": 38,
+    "0x1a": 0,
+    "0x1b": 0,
+    "0x27": 184,
+    "0x2a": 184,
+    "0x2e": 22,
+    "0x2f": 22,
+    "0x30": 22,
+    "0x31": 22,
+    "0x4": 60,
+    "0x8": 0
+  },
+  "codec_slave": true,
+  "configuration_readback": {
+    "lo_hz": 96049998,
+    "rate_hz": 3840000,
+    "tx_attenuation_db": [
+      89.75,
+      89.75
+    ]
+  },
+  "configured_rate_hz": 3839999.2500001467,
+  "dsp_clock_hz": 100000000,
+  "dsp_configuration_readback": {
+    "0x0": 1,
+    "0x10": 3,
+    "0x14": 6,
+    "0x38": 2,
+    "0x3c": 0,
+    "0x4": 4,
+    "0x8": 8,
+    "0x80": 0,
+    "0x84": 0,
+    "0x88": 0,
+    "0x8c": 0,
+    "0x90": 0,
+    "0x94": 0,
+    "0x98": 0,
+    "0x9c": 0,
+    "0xa0": 0,
+    "0xa4": 0,
+    "0xa8": 0,
+    "0xac": 0,
+    "0xb0": 0,
+    "0xb4": 0,
+    "0xb8": 0,
+    "0xbc": 0,
+    "0xc": 1974
+  },
+  "duration_requested_s": 30.0,
+  "elapsed_total_s": 30.000485891999915,
+  "fcw": 4205488811,
+  "final_audio": {
+    "enabled": false,
+    "fifo_level": 0,
+    "frames": 2889847,
+    "iq_overflow": false,
+    "pcm_full": false,
+    "pcm_samples": 0,
+    "playing": false,
+    "raw_status": 0,
+    "underflows": 0
+  },
+  "final_codec_muted": true,
+  "final_elapsed_s": 30.07226700000001,
+  "image": "sentinel_v2_100m",
+  "initial_analog_volume_db": -12.0,
+  "initial_audio_output_enabled": false,
+  "initial_digital_volume_db": 0,
+  "last_codec_status": "unmuted",
+  "lo_hz": 96050000,
+  "output_route": "ROUT2->MD8002A->J36",
+  "pfb_capture_status_before_stop": 268435458,
+  "pfb_channel": 15,
+  "quality_samples": [
+    {
+      "elapsed_s": 0.34938330499994663,
+      "gate_open": false,
+      "good": true,
+      "iq_rms": 0.1987152222235298,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 42.43412469314517,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17364506551
+    },
+    {
+      "elapsed_s": 0.7029782730000989,
+      "gate_open": false,
+      "good": true,
+      "iq_rms": 0.1998967345238349,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 35.53873958148132,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17399679862
+    },
+    {
+      "elapsed_s": 1.0493225089999214,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21171080307520784,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.5406933532781,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17434536936
+    },
+    {
+      "elapsed_s": 1.5294079790000978,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21117083779495435,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.52519351644879,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17482455127
+    },
+    {
+      "elapsed_s": 1.876811842000052,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21003076970824264,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.86599374387188,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17517297827
+    },
+    {
+      "elapsed_s": 2.2237834459999704,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2148567072854581,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.72423632372395,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17552000324
+    },
+    {
+      "elapsed_s": 2.714484134000031,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.1962903756934508,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.19937743278061,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17601097008
+    },
+    {
+      "elapsed_s": 3.0607905320000555,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21500151438753548,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.17675876131824,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17635715551
+    },
+    {
+      "elapsed_s": 3.4085295080001288,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2270985030699379,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.12135673466843,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17670469713
+    },
+    {
+      "elapsed_s": 3.9005663650000315,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.210055597932119,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 42.16774491995551,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17719569730
+    },
+    {
+      "elapsed_s": 4.247979860999976,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21222816543079978,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.9905386143818,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17754408889
+    },
+    {
+      "elapsed_s": 4.5948431809999875,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2186298010497443,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.5384094971894,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17789124094
+    },
+    {
+      "elapsed_s": 5.085827016999929,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20377943799543435,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.67557801459641,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17838208070
+    },
+    {
+      "elapsed_s": 5.432765203999907,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20221691150135482,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.66890414499019,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17872886194
+    },
+    {
+      "elapsed_s": 5.784820995000018,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21814566562028437,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.89232718331313,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17907885763
+    },
+    {
+      "elapsed_s": 6.270675397000105,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20849934937093512,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.20673824860852,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 17956659960
+    },
+    {
+      "elapsed_s": 6.704254858000013,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.207842351540946,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.35478492916733,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18000096882
+    },
+    {
+      "elapsed_s": 7.069199564999963,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20333949224531506,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.00550007656636,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18036178489
+    },
+    {
+      "elapsed_s": 7.592653770999959,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.206617439039778,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.72933594069711,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18088715237
+    },
+    {
+      "elapsed_s": 7.939928671999951,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2060375215692212,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.266582753625926,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18123657933
+    },
+    {
+      "elapsed_s": 8.2869224640001,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20555432557164696,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.99623469065623,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18158374805
+    },
+    {
+      "elapsed_s": 8.78379278500006,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21268644108563625,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.09917483808627,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18208050006
+    },
+    {
+      "elapsed_s": 9.131698657000015,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20806326676815606,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.97323247797605,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18242891457
+    },
+    {
+      "elapsed_s": 9.47819603500011,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20356282507305018,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.98068859318022,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18277517708
+    },
+    {
+      "elapsed_s": 9.970013210999923,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.214754207773736,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.28076573982809,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18326632516
+    },
+    {
+      "elapsed_s": 10.31695964100004,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20808524750376536,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.20137151921829,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18361410219
+    },
+    {
+      "elapsed_s": 10.663781879999988,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20716203051501822,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.26224347830715,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18396082718
+    },
+    {
+      "elapsed_s": 11.156071803000032,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20482530684175335,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.34449513761352,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18445295856
+    },
+    {
+      "elapsed_s": 11.504145514000129,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20314011418182104,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.503837641087216,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18480138139
+    },
+    {
+      "elapsed_s": 11.850777845000039,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20549688071457278,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 35.907651632129884,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18514803972
+    },
+    {
+      "elapsed_s": 12.341165457999978,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20425593289946772,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 35.96254647307638,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18563820868
+    },
+    {
+      "elapsed_s": 12.687971945000072,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2055532363451205,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.982923437134545,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18598540032
+    },
+    {
+      "elapsed_s": 13.035217713000065,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20723548100693578,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 41.36643650264348,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18633256279
+    },
+    {
+      "elapsed_s": 13.525751442,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20272118952942372,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.57569458445549,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18682265675
+    },
+    {
+      "elapsed_s": 13.873970466999936,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20668784691423772,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.49984391029395,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18717111501
+    },
+    {
+      "elapsed_s": 14.220398527000043,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2071478864953752,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.24043384200458,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18751778792
+    },
+    {
+      "elapsed_s": 14.711541115000045,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2036672714221977,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.79087220703098,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18800864643
+    },
+    {
+      "elapsed_s": 15.058022929000117,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21119090926740522,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.24214419613254,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18835566516
+    },
+    {
+      "elapsed_s": 15.404594723999935,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20558555119818492,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.73478928115772,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18870223183
+    },
+    {
+      "elapsed_s": 15.89695662500003,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20995139509175484,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.33969570284829,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18919398822
+    },
+    {
+      "elapsed_s": 16.24518746700005,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20996178661647935,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.322155655937834,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18954276521
+    },
+    {
+      "elapsed_s": 16.59225732599998,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21655582907270463,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.010348822081504,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 18988977353
+    },
+    {
+      "elapsed_s": 17.083237376999932,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21350854306491002,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.10633327237705,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19037934252
+    },
+    {
+      "elapsed_s": 17.431054941999946,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21746847012056936,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.76287397291318,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19072853199
+    },
+    {
+      "elapsed_s": 17.77820994600006,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21489103860064998,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.4820544532212,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19107569863
+    },
+    {
+      "elapsed_s": 18.26647035499991,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21241130263320127,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.42020045262643,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19156417392
+    },
+    {
+      "elapsed_s": 18.614153787000078,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20870139210772035,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.318786251171815,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19191198637
+    },
+    {
+      "elapsed_s": 18.96095908999996,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2104554171360778,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.75839761646557,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19225864678
+    },
+    {
+      "elapsed_s": 19.453757559999985,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20567424357636757,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.27539970748183,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19275079274
+    },
+    {
+      "elapsed_s": 19.800658926000096,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2096271098150831,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.41259544406683,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19309852603
+    },
+    {
+      "elapsed_s": 20.18970070499995,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2062071255227538,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.32267876943252,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19348528059
+    },
+    {
+      "elapsed_s": 20.714708741000095,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20021247094642522,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.154033750684945,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19401102514
+    },
+    {
+      "elapsed_s": 21.062143676000005,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20476734241742292,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 35.259942692129385,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19436025628
+    },
+    {
+      "elapsed_s": 21.40894901799993,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2065768926093997,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 35.978176595233684,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19470707919
+    },
+    {
+      "elapsed_s": 21.91849977600009,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2036139155606456,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.37885358226048,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19521604945
+    },
+    {
+      "elapsed_s": 22.265423383000098,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21672849648449605,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.6870662600069,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19556358274
+    },
+    {
+      "elapsed_s": 22.6118134620001,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2043859969822071,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.7599052813073,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19591011400
+    },
+    {
+      "elapsed_s": 23.103931371000044,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21813372062792147,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.99312594695765,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19640168083
+    },
+    {
+      "elapsed_s": 23.451479783999957,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21830080118839804,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.14801665817028,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19674978077
+    },
+    {
+      "elapsed_s": 23.79809430499995,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.22095174683004884,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.878346757699504,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19709653702
+    },
+    {
+      "elapsed_s": 24.290065884000114,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.19565239155089206,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.23478123469915,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19758807260
+    },
+    {
+      "elapsed_s": 24.637078383000016,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20287533643031613,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.80722193418754,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19793555798
+    },
+    {
+      "elapsed_s": 24.983720320999964,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21796021510334657,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.42594932395677,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19828236423
+    },
+    {
+      "elapsed_s": 25.497910607999984,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.21314719340398236,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.94784490322414,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19879601137
+    },
+    {
+      "elapsed_s": 25.8508878130001,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20908454720473338,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.03709679494865,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19914706952
+    },
+    {
+      "elapsed_s": 26.198690527000053,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2095954558090462,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.87689348551929,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 19949741937
+    },
+    {
+      "elapsed_s": 26.707488222999928,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20996839341215326,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.35876077812773,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20000616255
+    },
+    {
+      "elapsed_s": 27.05428744200003,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2194797810483704,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 39.66148367081985,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20035305838
+    },
+    {
+      "elapsed_s": 27.400956592000057,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20473170514611275,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 40.43221205448623,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20069965422
+    },
+    {
+      "elapsed_s": 27.915980377000096,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20968042853325006,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.40406519071203,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20121456589
+    },
+    {
+      "elapsed_s": 28.263912676000018,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20613489317258998,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 37.24928787885968,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20156263250
+    },
+    {
+      "elapsed_s": 28.610406466000086,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20688172994699297,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.45354783686148,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20190927834
+    },
+    {
+      "elapsed_s": 29.12614670400012,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20583428322172864,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 36.672020869795034,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20242491082
+    },
+    {
+      "elapsed_s": 29.47301523400006,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.20530756394756974,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 34.8417907349244,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20277188373
+    },
+    {
+      "elapsed_s": 29.81943775800005,
+      "gate_open": true,
+      "good": true,
+      "iq_rms": 0.2032568577557832,
+      "large_excursion_fraction": 0.0,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 38.31915565364894,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity",
+      "timestamp_cycles": 20311845248
+    }
+  ],
+  "residual_hz": -10000.0,
+  "rx_port": "RX1A",
+  "safe_stop_errors": [],
+  "sample_rate_hz": 3840000,
+  "samples": [
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4098,
+        "frames": 1500287,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 58094,
+        "playing": true,
+        "raw_status": 65577,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48003.96922626075,
+      "channel_health": 0,
+      "display_fps": 42.57348472963606,
+      "display_frames": 6084,
+      "elapsed_s": 1.0569959280001058,
+      "pcm_sample_rate_hz": 48007.7535360145,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -86.25,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4101,
+        "frames": 1556300,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 114109,
+        "playing": true,
+        "raw_status": 65625,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48005.1107818061,
+      "channel_health": 0,
+      "display_fps": 41.137687992549814,
+      "display_frames": 6132,
+      "elapsed_s": 2.2238091920000898,
+      "pcm_sample_rate_hz": 48006.82485213912,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4104,
+        "frames": 1613173,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 170985,
+        "playing": true,
+        "raw_status": 65673,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.29631235464,
+      "channel_health": 0,
+      "display_fps": 41.35900197466948,
+      "display_frames": 6181,
+      "elapsed_s": 3.408557316000042,
+      "pcm_sample_rate_hz": 48006.82849614901,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -86.0,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4108,
+        "frames": 1670121,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 227936,
+        "playing": true,
+        "raw_status": 65737,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.239222434146,
+      "channel_health": 0,
+      "display_fps": 41.30448342170529,
+      "display_frames": 6230,
+      "elapsed_s": 4.594869211000059,
+      "pcm_sample_rate_hz": 48006.768068357924,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.0,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4110,
+        "frames": 1727245,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 285063,
+        "playing": true,
+        "raw_status": 65769,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.24708341079,
+      "channel_health": 0,
+      "display_fps": 41.177230360043566,
+      "display_frames": 6279,
+      "elapsed_s": 5.784847253999942,
+      "pcm_sample_rate_hz": 48006.76813833079,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -84.25,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4113,
+        "frames": 1788901,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 346722,
+        "playing": true,
+        "raw_status": 65817,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.53118675134,
+      "channel_health": 0,
+      "display_fps": 41.26508617000488,
+      "display_frames": 6332,
+      "elapsed_s": 7.069226008999976,
+      "pcm_sample_rate_hz": 48006.866946345865,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.75,
+      "temperature_c": 62.012548827936,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4116,
+        "frames": 1847357,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 405181,
+        "playing": true,
+        "raw_status": 65865,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.34074340329,
+      "channel_health": 0,
+      "display_fps": 41.881438653236074,
+      "display_frames": 6383,
+      "elapsed_s": 8.286949220999986,
+      "pcm_sample_rate_hz": 48006.80435744172,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 62.258630370904,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4119,
+        "frames": 1904544,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 462370,
+        "playing": true,
+        "raw_status": 65913,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.96782373204,
+      "channel_health": 0,
+      "display_fps": 41.13248506413818,
+      "display_frames": 6432,
+      "elapsed_s": 9.478221761999976,
+      "pcm_sample_rate_hz": 48006.64670067344,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.0,
+      "temperature_c": 62.012548827936,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4121,
+        "frames": 1961457,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 519287,
+        "playing": true,
+        "raw_status": 65945,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.084499560086,
+      "channel_health": 0,
+      "display_fps": 41.32975138331215,
+      "display_frames": 6481,
+      "elapsed_s": 10.663808375999906,
+      "pcm_sample_rate_hz": 48007.45835681586,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4124,
+        "frames": 2018438,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 576271,
+        "playing": true,
+        "raw_status": 65993,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.42801652235,
+      "channel_health": 0,
+      "display_fps": 41.28072467681499,
+      "display_frames": 6530,
+      "elapsed_s": 11.850803042000052,
+      "pcm_sample_rate_hz": 48006.9554078291,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4127,
+        "frames": 2075297,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 633132,
+        "playing": true,
+        "raw_status": 66041,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.906170808725,
+      "channel_health": 0,
+      "display_fps": 41.36971108126466,
+      "display_frames": 6579,
+      "elapsed_s": 13.035244478000095,
+      "pcm_sample_rate_hz": 48006.59473044469,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4130,
+        "frames": 2132191,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 690029,
+        "playing": true,
+        "raw_status": 66089,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.37164289054,
+      "channel_health": 0,
+      "display_fps": 41.343800936858656,
+      "display_frames": 6628,
+      "elapsed_s": 14.220428202999983,
+      "pcm_sample_rate_hz": 48006.902896009124,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -84.75,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4133,
+        "frames": 2189038,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 746878,
+        "playing": true,
+        "raw_status": 66137,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.79325415738,
+      "channel_health": 0,
+      "display_fps": 41.37834660498728,
+      "display_frames": 6677,
+      "elapsed_s": 15.404622450000033,
+      "pcm_sample_rate_hz": 48006.48216626371,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -84.75,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4136,
+        "frames": 2246051,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 803894,
+        "playing": true,
+        "raw_status": 66185,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.41044110027,
+      "channel_health": 0,
+      "display_fps": 42.099530318611784,
+      "display_frames": 6727,
+      "elapsed_s": 16.592284156000005,
+      "pcm_sample_rate_hz": 48006.936412919385,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.643426513484,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4139,
+        "frames": 2302982,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 860828,
+        "playing": true,
+        "raw_status": 66233,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.45685347209,
+      "channel_health": 0,
+      "display_fps": 41.31700454620738,
+      "display_frames": 6776,
+      "elapsed_s": 17.77823653900009,
+      "pcm_sample_rate_hz": 48006.986465995324,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4142,
+        "frames": 2359759,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 917608,
+        "playing": true,
+        "raw_status": 66281,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.28190382122,
+      "channel_health": 0,
+      "display_fps": 41.42892039535798,
+      "display_frames": 6825,
+      "elapsed_s": 18.960985197000127,
+      "pcm_sample_rate_hz": 48006.81836833522,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.75,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4145,
+        "frames": 2418744,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 976596,
+        "playing": true,
+        "raw_status": 66329,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.35382276598,
+      "channel_health": 0,
+      "display_fps": 40.6920012060405,
+      "display_frames": 6875,
+      "elapsed_s": 20.18972791100009,
+      "pcm_sample_rate_hz": 48006.79534283834,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.0,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4148,
+        "frames": 2477273,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1035128,
+        "playing": true,
+        "raw_status": 66377,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.19411436225,
+      "channel_health": 0,
+      "display_fps": 41.82907447303858,
+      "display_frames": 6926,
+      "elapsed_s": 21.408975542999997,
+      "pcm_sample_rate_hz": 48006.654648154785,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.889508056452,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4151,
+        "frames": 2535016,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1092874,
+        "playing": true,
+        "raw_status": 66425,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.622836117174,
+      "channel_health": 0,
+      "display_fps": 41.56748249668113,
+      "display_frames": 6976,
+      "elapsed_s": 22.611838863000003,
+      "pcm_sample_rate_hz": 48007.11688506697,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4153,
+        "frames": 2591963,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1149824,
+        "playing": true,
+        "raw_status": 66457,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.63030778314,
+      "channel_health": 0,
+      "display_fps": 41.30554524525215,
+      "display_frames": 7025,
+      "elapsed_s": 23.79812026200011,
+      "pcm_sample_rate_hz": 48007.15921871652,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -84.25,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4156,
+        "frames": 2648878,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1206742,
+        "playing": true,
+        "raw_status": 66505,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.1200937247,
+      "channel_health": 0,
+      "display_fps": 41.328329695027854,
+      "display_frames": 7074,
+      "elapsed_s": 24.983747660000063,
+      "pcm_sample_rate_hz": 48006.65039962439,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -84.5,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4158,
+        "frames": 2707202,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1265069,
+        "playing": true,
+        "raw_status": 66537,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.46724350707,
+      "channel_health": 0,
+      "display_fps": 41.15327073203747,
+      "display_frames": 7124,
+      "elapsed_s": 26.198717919000046,
+      "pcm_sample_rate_hz": 48006.93643975099,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 61.643426513484,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4161,
+        "frames": 2764916,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1322786,
+        "playing": true,
+        "raw_status": 66585,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.37965230858,
+      "channel_health": 0,
+      "display_fps": 41.58815855105224,
+      "display_frames": 7174,
+      "elapsed_s": 27.400983220999933,
+      "pcm_sample_rate_hz": 48006.87494182164,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.25,
+      "temperature_c": 61.766467284968,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4164,
+        "frames": 2822975,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1380848,
+        "playing": true,
+        "raw_status": 66633,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.471348740706,
+      "channel_health": 0,
+      "display_fps": 41.34111106696697,
+      "display_frames": 7224,
+      "elapsed_s": 28.61043305699991,
+      "pcm_sample_rate_hz": 48006.951815404725,
+      "pfb_capture_status": 268435456,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 62.012548827936,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    },
+    {
+      "audio": {
+        "enabled": true,
+        "fifo_level": 4168,
+        "frames": 2881014,
+        "iq_overflow": false,
+        "pcm_full": false,
+        "pcm_samples": 1438890,
+        "playing": true,
+        "raw_status": 66697,
+        "underflows": 0
+      },
+      "audio_frame_rate_hz": 48004.578557745284,
+      "channel_health": 0,
+      "display_fps": 41.355449402768215,
+      "display_frames": 7274,
+      "elapsed_s": 29.819463564999978,
+      "pcm_sample_rate_hz": 48007.05988470945,
+      "pfb_capture_status": 268435458,
+      "rx_rssi_dbm": -85.5,
+      "temperature_c": 61.397344970516,
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ]
+    }
+  ],
+  "source": "rf",
+  "source_rate_divider_readback": 1706667,
+  "started_utc": "2021-11-19T00:14:42.345803+00:00",
+  "station_hz": 95800000,
+  "status": "completed",
+  "stereo_quality_gate": true,
+  "stopped_utc": "2021-11-19T00:15:12.347026+00:00",
+  "tx1a": "disconnected",
+  "tx_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "wav_recording": "not_supported_playback_only_path"
+}

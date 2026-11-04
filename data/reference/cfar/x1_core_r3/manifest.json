@@ -1,0 +1,368 @@
+{
+  "scope": "Synthetic integrated X1 CFAR vectors; no board/RF claims",
+  "cases": [
+    {
+      "name": "CA_interior",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "CA_wrap",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "GO_interior",
+      "mode": "GO",
+      "n": 16,
+      "g": 2,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "GO_wrap",
+      "mode": "GO",
+      "n": 16,
+      "g": 2,
+      "alpha": 1773,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 4,
+      "hits": 16
+    },
+    {
+      "name": "SO_interior",
+      "mode": "SO",
+      "n": 16,
+      "g": 2,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 3,
+      "hits": 13
+    },
+    {
+      "name": "SO_wrap",
+      "mode": "SO",
+      "n": 16,
+      "g": 2,
+      "alpha": 2450,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 5,
+      "hits": 20
+    },
+    {
+      "name": "zero_empty",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 1974,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "strict_equal",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "threshold_saturation",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 65535,
+      "dc": 3,
+      "gap": 6,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 0
+    },
+    {
+      "name": "strongest_on_right",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 0,
+      "width": 1,
+      "masks": [],
+      "targets": 32,
+      "hits": 256
+    },
+    {
+      "name": "narrow_filter_before_capacity",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 0,
+      "width": 2,
+      "masks": [],
+      "targets": 0,
+      "hits": 256
+    },
+    {
+      "name": "sixteen_hard_boundaries",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [
+        [
+          31,
+          31
+        ],
+        [
+          159,
+          159
+        ],
+        [
+          287,
+          287
+        ],
+        [
+          415,
+          415
+        ],
+        [
+          543,
+          543
+        ],
+        [
+          671,
+          671
+        ],
+        [
+          799,
+          799
+        ],
+        [
+          927,
+          927
+        ],
+        [
+          1055,
+          1055
+        ],
+        [
+          1183,
+          1183
+        ],
+        [
+          1311,
+          1311
+        ],
+        [
+          1439,
+          1439
+        ],
+        [
+          1567,
+          1567
+        ],
+        [
+          1695,
+          1695
+        ],
+        [
+          1823,
+          1823
+        ],
+        [
+          1951,
+          1951
+        ]
+      ],
+      "targets": 17,
+      "hits": 2032
+    },
+    {
+      "name": "overlapping_masks",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 0,
+      "dc": -1,
+      "gap": 6,
+      "width": 2,
+      "masks": [
+        [
+          0,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          2040,
+          2047
+        ]
+      ],
+      "targets": 1,
+      "hits": 2029
+    },
+    {
+      "name": "dc_hard_boundary",
+      "mode": "CA",
+      "n": 16,
+      "g": 2,
+      "alpha": 0,
+      "dc": 0,
+      "gap": 255,
+      "width": 2,
+      "masks": [],
+      "targets": 2,
+      "hits": 2047
+    },
+    {
+      "name": "gap_nonhit_peak",
+      "mode": "SO",
+      "n": 2,
+      "g": 0,
+      "alpha": 512,
+      "dc": -1,
+      "gap": 3,
+      "width": 1,
+      "masks": [],
+      "targets": 2,
+      "hits": 4
+    },
+    {
+      "name": "random_CA",
+      "mode": "CA",
+      "n": 1,
+      "g": 0,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 0,
+      "width": 0,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 1010
+    },
+    {
+      "name": "random_GO",
+      "mode": "GO",
+      "n": 16,
+      "g": 2,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 1,
+      "width": 1,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 930
+    },
+    {
+      "name": "random_SO",
+      "mode": "SO",
+      "n": 64,
+      "g": 31,
+      "alpha": 256,
+      "dc": -1,
+      "gap": 2,
+      "width": 2,
+      "masks": [
+        [
+          80,
+          85
+        ],
+        [
+          700,
+          706
+        ],
+        [
+          1400,
+          1410
+        ]
+      ],
+      "targets": 32,
+      "hits": 1052
+    }
+  ],
+  "sha256": {
+    "input.hex": "8ea9d29962fe5081a194c1c8beeb89616540a36d4e7c1a3abec3d06b7005bd45",
+    "threshold.hex": "843320976011c7a782ba489fc1c83f97659c0a4324fe4b45f59a374f9a911b8c",
+    "db.hex": "505c5f83c923b8dc1f3f6834e26989dc0671c017b22621dc8b3c58de744821b5",
+    "hit.hex": "2957de0c6dea19d1a07cee219fe3599aaabf5a67abccba888ef08c4df49cad54",
+    "targets.hex": "cba560fc5e867c09f7e9289352d8c41134c0fc7b6429eb3ee9d276a58f71e6e7",
+    "targets_words.hex": "08d602802fb1b3cf05eb4f01598dc273eb639111150f1c6dd1c996c0a789df2f",
+    "count.hex": "3d2b5e52eb8060f1494e797d6488e061854e020837c10aa462c5a114c9e11911",
+    "config.hex": "163b2f513ac62c98f303d2a5910c28d647733a5a2e486e17ca064cda65a7f522",
+    "occupancy.hex": "b38f53bc3fc280af403444b3f4334fabe9b18594e00c57197c6dc6cda4ef4ead",
+    "stats.hex": "502a19e1adb6ea7a1b04b9290dbef800d52b40783cceb2b371c49735947224cd"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "step": "G1",
+  "stage": "deployment_preflight",
+  "status": "PASS",
+  "recorded_utc": "2026-11-03T18:25:38.177456+00:00",
+  "package_archive_sha256": "b62b321d3db6f7add33413ad0bb70727a84cf8822f4446db3521024e1de4f1bd",
+  "board_verify": "RELEASE_FILES_PASS (board RF library and hardware not checked)",
+  "stop_readback": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "board_boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+  "RF_TX_requested": false,
+  "audio_started": false
+}

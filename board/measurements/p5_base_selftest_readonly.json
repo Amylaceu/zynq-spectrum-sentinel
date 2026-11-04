@@ -1,0 +1,10 @@
+{
+  "stage": "base",
+  "rf_initialized": false,
+  "tx_enabled": false,
+  "gpio_write_test": "skipped_read_only",
+  "sysid": "0x10161",
+  "ad9361_interface_version": "0xa0300",
+  "spi_status": "0x25",
+  "gpio": 0
+}

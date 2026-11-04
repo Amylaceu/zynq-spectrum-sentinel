@@ -1,0 +1,9 @@
+name: spec_ctrl
+base: 0x43C10000
+width: 32
+regs:
+  - {name: CTRL, off: 0x00, reset: 0, fields: [{name: EN, bits: '0'}, {name: WIN_SEL, bits: '2:1'}]}
+  - {name: AVG_SHIFT, off: 0x04, reset: 3, fields: [{name: SHIFT, bits: '4:0'}]}
+  - {name: DISP_DECIM, off: 0x08, reset: 1, fields: [{name: FRAMES, bits: '15:0'}]}
+  - {name: FRAME_CNT, off: 0x0C, access: ro}
+  - {name: VERSION, off: 0xFC, access: ro, reset: 0x53500001}

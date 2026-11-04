@@ -1,0 +1,134 @@
+{
+  "status": "PASS",
+  "mode": "capture",
+  "antenna": "B-direct, user confirmed 2-3cm",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Control readback only; RF injection selftest pending",
+  "start_health": {
+    "rssi_dbm": -74.0,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "modulation_captures": [
+    {
+      "label": "BPSK",
+      "index": 0,
+      "count": 50,
+      "filename": "class_00.npz",
+      "sha256": "7f97e7ed2b143c0d7c0df0e7fde3dbb278a8fc0491b0ce0063b816517ae0fb2b",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "caca5b1386a3afb7fedb245ebc4b6298b0e1b49f7039c12cb350f41fadfd1fb8",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "QPSK",
+      "index": 1,
+      "count": 50,
+      "filename": "class_01.npz",
+      "sha256": "e0281902e049206ad267301cc364f3202a9804ce3d035b808cec4fdf8f2f22b4",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "f49e69a13e90a26795615dfd6cccaf7f243c0885cb14203f2414df805beb08b4",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "8PSK",
+      "index": 2,
+      "count": 50,
+      "filename": "class_02.npz",
+      "sha256": "378750668d9b6f6a44b155b0ee8d135b28cccabf65628bb0015b30ee4efbdf19",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "0c02624cbf95110c88d5a5a38ddf6b4585d1b02ed8cdfb2a5ff7d2cebf622c04",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "16QAM",
+      "index": 3,
+      "count": 50,
+      "filename": "class_03.npz",
+      "sha256": "9ea2230b2c78a3a0fb350e008b2853de5e87599fcd25e9e8ea4b69f4479ac81c",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "f9d348d3b65650d0dd9a1ab33a7183a7c791c0d76ede1c174508809955e8b007",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "64QAM",
+      "index": 4,
+      "count": 50,
+      "filename": "class_04.npz",
+      "sha256": "89837cbfd209b2162b8cbd986ede9b59ffa95ed7f1fb4b38c5903c17d54440b6",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "6c5654599457f9aa9a3e1b9bb560d5ef2e4603826b90473c6fa94c4a427400b0",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "2FSK",
+      "index": 5,
+      "count": 50,
+      "filename": "class_05.npz",
+      "sha256": "c0ab250949b3e1bec47e3efa0412ce9d1bf773f074a9c0c6a3b630d62a3a1b5f",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "245fe234904ff3d945420a1194becf6e20908c2aab335115579c97a3497503d8",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "GFSK",
+      "index": 6,
+      "count": 50,
+      "filename": "class_06.npz",
+      "sha256": "9bbed9909555d1f20540d1b48aa1dbedf16d9e46601c620976d08c1c55634c23",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "403744a6bbce2dc6bb76c57f20d2abf59b520b6cd430557da240101d3b50be47",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "OOK",
+      "index": 7,
+      "count": 50,
+      "filename": "class_07.npz",
+      "sha256": "5f2c57e696f53cf7c4472e1bb905978b14ff3dcd0bb925a6a2e1308c9cbc6be4",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "c91d46083f597df6e9ff5c24e149811d307972d328d64fa6e3d61a6dacd4f08b",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "AM-DSB",
+      "index": 8,
+      "count": 50,
+      "filename": "class_08.npz",
+      "sha256": "aa4409c964f32194e50afeefb18c16932297238f8f8337f77a3520382e69cfdb",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "d15847ad4e9966aa77e6ca9c53e702370dbc04eb235277e2f7d7eb0eabb86a63",
+      "tx_attenuation_db": 40
+    },
+    {
+      "label": "FM",
+      "index": 9,
+      "count": 50,
+      "filename": "class_09.npz",
+      "sha256": "5e53cc8c5e3c263cb3b98b6805db167ce9fd3f921d9f25cf932100344b8deeea",
+      "unique_raw_packets": 50,
+      "tx_waveform_sha256": "3133e22d4a3c84e0c4989cf1026cef52cc322b72eff9a2d9e886336bfd080738",
+      "tx_attenuation_db": 40
+    }
+  ],
+  "capture_scope": "50 successive SCAP windows/class on cyclic known waveforms; overlaps/repeats possible",
+  "capture_tx_quarantined": false,
+  "stop_ensm": 2,
+  "stop_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 65.02026975100034
+}

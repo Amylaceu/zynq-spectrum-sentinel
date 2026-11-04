@@ -1,0 +1,16 @@
+{
+  "original": {
+    "duration_s": 4.033333333333333,
+    "rms": 0.07348662676940636,
+    "low_0_120_db_relative_to_300_3000": -4.750126218182366,
+    "high_5000_15000_db_relative_to_300_3000": -10.393840063135036
+  },
+  "voice": {
+    "duration_s": 3.9583333333333335,
+    "rms": 0.07082505804319988,
+    "low_0_120_db_relative_to_300_3000": -20.327444226700095,
+    "high_5000_15000_db_relative_to_300_3000": -40.01296017366738
+  },
+  "max_short_phase_slip_fraction": 0.01679463761767404,
+  "notes": "Relative spectral-band energy, not an estimate of clean-reference audio SNR. Voice profile sacrifices bass/music bandwidth; subjective quality pending."
+}

@@ -1,0 +1,10 @@
+{
+  "width": 560,
+  "height": 160,
+  "sha256": {
+    "n4_pixel_spec.hex": "9f008102d6d1ff7f14f458b7a67f11e6fd059650e27eed24fb5efcee938c93f8",
+    "n4_pixel_thr.hex": "d14a422274b95812a19fa2b54b5437940550bc260155c07a37acfe897eb0f46a",
+    "n4_pixel_expected.hex": "54a7eb030ac95921d60de0c16a30ae5e491dc1fa35fd9b29b3f317ef535e2ba8",
+    "n4_waterfall_expected.hex": "0caaff07a0b2aa3a3c688a02ad66519f715eab014b4fe8c25cb98bc57f7d07e3"
+  }
+}

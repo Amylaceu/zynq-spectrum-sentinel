@@ -1,0 +1,10 @@
+{
+  "status": "HUMAN_CONFIRMED",
+  "host_utc": "2026-11-03T23:52:19.264705+00:00",
+  "configuration": "S1",
+  "tx1a": "2.4 GHz antenna; transmission not authorized",
+  "rx1a": "20-512 MHz magnetic antenna; base 20-30 cm from board",
+  "user_confirmation": "S1\u5df2\u6062\u590d\uff0c\u5141\u8bb8\u540e\u7eed\u4ec5\u63a5\u6536\u6d4b\u8bd5",
+  "scope": "Only receive operations; no new transmission authorization",
+  "previous_i0_snapshot_preserved": true
+}

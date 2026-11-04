@@ -1,0 +1,62 @@
+{
+  "step": "X4",
+  "attempt": 3,
+  "smoke_only": false,
+  "started_utc": "2026-11-02T23:07:06.331547+00:00",
+  "source_sha256": {
+    "sim/golden/__init__.py": "c5e22ba578b9552a3200953a68a0c708605f8fe16a81aee3667d72860d62210c",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/demod.py": "c25b2c682dc8ef1fd5f939803826331632c36dacfe20d9688978575afa9c041a",
+    "sim/golden/export_refs.py": "06da8dadf9a4cad5e9f8f41e6649fd03ece0ffa742fdfa2d4291ae464c091901",
+    "sim/golden/fft_cmodel.py": "adf96a4a87add143561e11b082435d145ce0d8a49055ab1c9a78cb1004446cb5",
+    "sim/golden/hoc.py": "bb824ab3dec3587d58216de44361688cae7df7851f817a8486069d2363c2873f",
+    "sim/golden/params.py": "31df4c4d9df1ad16f2564d50a6617cb24965bf869c361c2dfc7ac30f9e1366ea",
+    "sim/golden/pfb.py": "199ad6e9a21961f67093f6b7a53ae9f13b63e4ce9900097efcdc4b9154345349",
+    "sim/golden/pipeline.py": "50165d3f67feee2d5a674a76a5f77e7921fd0243c9261880253788a0adac02b0",
+    "sim/golden/render.py": "620b6500d490155840c50431848cc7b651e666f6a574db165f7ba408539991d3",
+    "sim/golden/siggen.py": "560aa7106332e20882a82c93759df41a7132650c6c23105fd119b843d95f6e90",
+    "sim/golden/spectrum.py": "bb388dd91147d0fe299e9df5e8f9e4f938a678be6ed2e56919ed8d0e84b09712",
+    "src/ps/models/__init__.py": "020e57285476f9d04b25972f4caf21eb16b26e08ab54f81f40a8d4fa3882fffa",
+    "src/ps/models/amc_l1.py": "edefcfe0d8a7bed2f6f9aaf1722c84ff1f287dccaee0f43193cdbac006191f15",
+    "src/ps/models/amc_net.py": "e5b338737e39d29f3f3ac1b79ba0f2cdea5c9875772597909baca7a68bbfda22",
+    "src/ps/models/amc_train.py": "82f26fcb842ade030e6d05497a6bff7ddcbf0d675b38d4aae5b09a534b596a7c",
+    "src/ps/models/amc_v2_eval.py": "fa9abebe1aee001ca1791aca710d3df781e1d7ca0a9f247948a1ae970a515eb4",
+    "src/ps/models/export_int8_v2.py": "1857b333b990d0d2a8d8a3ccc3453a2ff5e8663bd8e1bcf449790392adb77d8d",
+    "src/ps/models/make_dataset.py": "8496022d514bd42004b4e77afcf06a5bec23fc738a21f7e16b1b0ad5256b476e",
+    "src/ps/models/make_dataset_v2.py": "14de22aca03e9687bea1cf2f9975765a48ebc0abd479eef87964f561fd180fea",
+    "src/ps/sentinel/amc/__init__.py": "06c1ad18d007706f403f51c3d90ba09deb83c3549f92b29258d032530bc547ec",
+    "src/ps/sentinel/amc/contract.py": "f1a186b123603225d3df3d263f90cce25f580ea60abdbe7d8d886fa0fb1b92e1",
+    "src/ps/sentinel/amc/features.py": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+    "src/ps/sentinel/amc/fine.py": "d5f7b1eec3e7748b6ec0053c9ca31f05edada5d5a2dcba3b28a39d4e8ffaa78d",
+    "src/ps/sentinel/amc/infer_np.py": "5933db1be2179688f45444472e23a0eb892d2c86dd2c5b811d53875146bc64a8",
+    "tools/run_x4_pc.py": "c8b6b2e422c103b643abd5fbe4acf68a7a805a948799ca3f5c6e440f1ae2098f"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "status": "FAIL_OR_SMOKE",
+  "stages": [
+    {
+      "name": "train",
+      "exit_code": 0,
+      "log": "logs/X4_pc_r3_train.log",
+      "log_sha256": "460e97cd1dbe991f5be3700fad7892ff20454009a109f010397ea79a7994c760"
+    },
+    {
+      "name": "export",
+      "exit_code": 0,
+      "log": "logs/X4_pc_r3_export.log",
+      "log_sha256": "670c9891bb4e2c361c5da8d1945f16a107527d836894bd0949812b1f970c180a"
+    },
+    {
+      "name": "evaluation",
+      "exit_code": 0,
+      "log": "logs/X4_pc_r3_evaluation.log",
+      "log_sha256": "3450cc8ff5d4b19c06f64f82cc63289dfbaf5e01ee408d456e4f66ffcf2a4f73"
+    }
+  ],
+  "evaluation_sha256": "1067973645f589d2326dcce0c2d8fd595495ad641cb993ed9322117215514403",
+  "dataset_sha256": "00e88740c533b3dca062e39f5e7845085f63553e4b2919d817c10fd96313235e",
+  "export_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "frozen_sources_unchanged": true,
+  "finished_utc": "2026-11-02T23:13:28.474892+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "command": "demo",
+  "worker_args": [
+    "/usr/local/share/pynq-venv/bin/python3",
+    "-I",
+    "/home/xilinx/sentinel/release/v2/scripts/demo_b.py",
+    "--root",
+    "/home/xilinx/sentinel/release/v2",
+    "--output",
+    "/home/xilinx/sentinel/release/v2/measurements/demo_20211118T230557Z_6afbc313",
+    "--antenna-confirmed",
+    "yes",
+    "--cycles",
+    "3"
+  ],
+  "output": "/home/xilinx/sentinel/release/v2/measurements/demo_20211118T230557Z_6afbc313",
+  "worker_exit_code": 1,
+  "error": "RuntimeError('Stop readback did not pass')"
+}

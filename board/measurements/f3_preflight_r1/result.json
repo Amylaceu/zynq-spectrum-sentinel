@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "mode": "preflight",
+  "antenna": "B-direct, user confirmed 2-3cm",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 89.75,
+      "tx2_atten_db": 89.75
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 89.75,
+      "tx2_atten_db": 89.75
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 89.75,
+      "tx2_atten_db": 89.75
+    },
+    {
+      "rssi_dbm": -69.25,
+      "tx_atten_db": 89.75,
+      "tx2_atten_db": 89.75
+    },
+    {
+      "rssi_dbm": -83.75,
+      "tx_atten_db": 89.75,
+      "tx2_atten_db": 89.75
+    }
+  ],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Control readback only; RF injection selftest pending",
+  "start_health": {
+    "rssi_dbm": -78.5,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "stop_ensm": 2,
+  "stop_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 10.92418417799945
+}

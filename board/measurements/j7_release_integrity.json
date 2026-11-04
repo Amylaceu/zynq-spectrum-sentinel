@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "board_payload_files": 151,
+  "board_source_matches_deployed_package": true,
+  "frozen_artifacts": {
+    "board\\overlay\\sentinel_v2_100m\\sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "src\\ps\\models\\weights\\amc_v2\\round_3\\model.npz": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935"
+  },
+  "deployment": {
+    "status": "INSTALLED_HASH_VERIFIED",
+    "root": "/home/xilinx/sentinel/release/j7_final",
+    "archive_sha256": "d81ddbc92772472fcfc46a0d58126619c4e489f3423027cd48b1014d17c09d5d",
+    "files": 151,
+    "library_sha256": "b329018314e6ecc9c0b11440b0d5449d9670fda7b5d37deabdc55c4731616e83",
+    "previous": null,
+    "hardware_started": false
+  },
+  "package": {
+    "status": "LOCAL_PACKAGE_PASS_BOARD_PENDING",
+    "created_utc": "2026-11-04T04:44:30.497953+00:00",
+    "archive": "release_v2.tar.gz",
+    "archive_sha256": "d81ddbc92772472fcfc46a0d58126619c4e489f3423027cd48b1014d17c09d5d",
+    "files": 151,
+    "manifest_sha256": "aa82d2cbaaf0457e127d39ee08de5953408505e528a152ab7e1b024de84ae66c"
+  },
+  "neutral_ui_test_log": "logs/J7_neutral_ui_regression.log",
+  "regression_log": "logs/J7_final_ui_regression.log",
+  "regression_passed": 65,
+  "bitstream_rebuilt": false,
+  "model_trained": false
+}

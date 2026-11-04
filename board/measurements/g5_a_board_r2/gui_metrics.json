@@ -1,0 +1,51 @@
+{
+  "source": "live",
+  "group": "A",
+  "elapsed_s": 87.76500000001397,
+  "finish_reason": "BOARD_COMPLETED",
+  "counts": {
+    "hello": 1,
+    "spectrum": 102,
+    "pl_frame": 102,
+    "detections": 38,
+    "telemetry": 10,
+    "demo": 38
+  },
+  "page_transitions": [
+    {
+      "signature": [
+        "A",
+        1
+      ],
+      "active_page": 0,
+      "expected_page": 0,
+      "elapsed_s": 14.280999999988126,
+      "title": "SELFTEST",
+      "remaining_s": 9.999583951999739
+    }
+  ],
+  "page_mapping_pass": true,
+  "connection_states": [
+    {
+      "elapsed_s": 2.01500000001397,
+      "state": "\u8fde\u63a5\u5df2\u65ad\u5f00 / timed out"
+    },
+    {
+      "elapsed_s": 6.1710000000020955,
+      "state": "\u8fde\u63a5\u5df2\u65ad\u5f00 / timed out"
+    },
+    {
+      "elapsed_s": 10.312000000005355,
+      "state": "\u8fde\u63a5\u5df2\u65ad\u5f00 / timed out"
+    },
+    {
+      "elapsed_s": 13.96799999999348,
+      "state": "\u5df2\u8fde\u63a5 / 192.168.2.99"
+    }
+  ],
+  "errors": [],
+  "pl_frames": 376,
+  "ui_frames": 58,
+  "pc_audio": "DISABLED_DMA_LONG_TEST_FAILED",
+  "human_confirmation": "PENDING"
+}

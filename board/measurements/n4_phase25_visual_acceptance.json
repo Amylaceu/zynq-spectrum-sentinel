@@ -1,0 +1,9 @@
+{
+  "status": "photo_static_pass_motion_unverified",
+  "bus_phase": 25,
+  "measurement": "board/measurements/n4_bench_phase25_round1.json",
+  "visual_evidence": "board/measurements/n4_bench_phase25_visual.jpg",
+  "visual_sha256": "04dc6be97468b03b82fd2b4048fa1296300940ac4cc7a44fc09cd6bb3500ef3e",
+  "assessment": "After rotating the photograph to the screen's 800x480 landscape layout, three narrow spectral peaks and corresponding waterfall traces match the three-tone source. The empty list and status areas are expected because bench_lcd.py does not submit UI pixels. No obvious spatial corruption or pixel displacement is visible.",
+  "limitations": "A still photograph cannot establish absence of flicker or intermittent corruption. Complete dynamic visual acceptance remains pending."
+}

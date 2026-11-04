@@ -1,0 +1,9 @@
+{
+  "status": "PASS_HUMAN_VISUAL",
+  "recorded_at_pc": "2026-11-03T04:36:30.275635+08:00",
+  "question": "GUARD=8, LO96.4MHz: FRAME advances, spectrum/waterfall/list normal, look for 95.8MHz",
+  "user_reply": "是",
+  "scope": "Human visual confirmation only; numerical station detection still fails",
+  "measurement": "board/measurements/x1_guard8_station.json",
+  "measurement_sha256": "2db98cbc0b707d63739c5d9b03048460108a49ce650c77406d49b9d1ebc0bb56"
+}

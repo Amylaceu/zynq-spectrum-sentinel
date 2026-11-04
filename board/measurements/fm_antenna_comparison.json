@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-02",
+  "station_candidate_hz": 95800000,
+  "records": [
+    {
+      "attempt": 2,
+      "antenna": "2.4GHz panel",
+      "sample_rate_hz": 3840000,
+      "rx_lo_hz": 96049998,
+      "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+      "capture_count": 16,
+      "iq_samples": 16777216,
+      "rx1_gain_db": {
+        "minimum": 73.0,
+        "median": 73.0,
+        "maximum": 73.0
+      },
+      "chip_rx1_rssi_mdb_uncalibrated": {
+        "minimum": -102000.0,
+        "median": -101125.0,
+        "maximum": -98000.0
+      },
+      "raw_word_clipped_fraction": {
+        "minimum": 5.555152893066406e-05,
+        "median": 0.0002630949020385742,
+        "maximum": 0.0007841587066650391
+      },
+      "pilot_prominence_db": {
+        "minimum": 16.144198036083132,
+        "median": 17.581614206191556,
+        "maximum": 27.206148516708343
+      },
+      "stereo_pilot_in_all_chunks": true,
+      "discriminator_rms_hz": {
+        "minimum": 29288.794941425036,
+        "median": 42102.62778662075,
+        "maximum": 44707.65218758374
+      },
+      "voice_short_slip_corrected_fraction": {
+        "minimum": 0.0026282946665454453,
+        "median": 0.013608450215305271,
+        "maximum": 0.01679463761767404
+      }
+    },
+    {
+      "attempt": 3,
+      "antenna": "20-512MHz magnetic",
+      "sample_rate_hz": 3840000,
+      "rx_lo_hz": 96049998,
+      "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+      "capture_count": 16,
+      "iq_samples": 16777216,
+      "rx1_gain_db": {
+        "minimum": 57.0,
+        "median": 59.0,
+        "maximum": 59.0
+      },
+      "chip_rx1_rssi_mdb_uncalibrated": {
+        "minimum": -79250.0,
+        "median": -79250.0,
+        "maximum": -78250.0
+      },
+      "raw_word_clipped_fraction": {
+        "minimum": 5.1975250244140625e-05,
+        "median": 0.0001125335693359375,
+        "maximum": 0.00013875961303710938
+      },
+      "pilot_prominence_db": {
+        "minimum": 29.305853207100732,
+        "median": 30.796149375608696,
+        "maximum": 32.481434844630634
+      },
+      "stereo_pilot_in_all_chunks": true,
+      "discriminator_rms_hz": {
+        "minimum": 19095.642294195433,
+        "median": 23154.788687537908,
+        "maximum": 26400.64330134798
+      },
+      "voice_short_slip_corrected_fraction": {
+        "minimum": 0.0004545792662264135,
+        "median": 0.0007149292096106322,
+        "maximum": 0.0011323156267821573
+      }
+    }
+  ],
+  "matching_settings_verified": true,
+  "clean_reference_snr_measured": false,
+  "subjective_quality_after_replacement": "pending_user_listening",
+  "limitations": "Snapshots have gaps; broadcast program/time and antenna placement were not controlled. RSSI is an uncalibrated chip readback, not antenna power."
+}

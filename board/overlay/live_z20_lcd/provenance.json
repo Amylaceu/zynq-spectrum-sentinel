@@ -1,0 +1,21 @@
+{
+  "tag": "live_z20_lcd",
+  "bundled_utc": "2026-11-01T22:39:58.4292485Z",
+  "sources": [
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/fmcomms2_z20_lcd_live/fmcomms2_z20_lcd_live.runs/impl_1/system_top.bit",
+      "source_modified_utc": "2026-11-01T22:39:26.3547073Z",
+      "sha256": "773A378A6EE8F4B6B7E9A824E71A4EAA823087F33FAF57C2029348F2A92C8487"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/fmcomms2_z20_lcd_live/fmcomms2_z20_lcd_live.gen/sources_1/bd/system/hw_handoff/system.hwh",
+      "source_modified_utc": "2026-11-01T22:16:33.8804228Z",
+      "sha256": "C29C8728A73374AA1564E43B94F46138188709ABD2A171C49254CA4BB4F16081"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/fmcomms2_z20_lcd_live/fmcomms2_z20_lcd_live.sdk/system_top.xsa",
+      "source_modified_utc": "2026-11-01T22:39:55.5661463Z",
+      "sha256": "9BF995F7074315594A491914CAB568A8A1B070297C466BB2295FDCFE848FCD76"
+    }
+  ]
+}

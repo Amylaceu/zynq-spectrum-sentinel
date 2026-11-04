@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "backend": "installed_pynq27_xrt_cache_protocol",
+  "measurements": [
+    {
+      "before_kb": 4060,
+      "allocated_kb": 3160,
+      "released_kb": 4068,
+      "address": "0x38100000"
+    },
+    {
+      "before_kb": 4068,
+      "allocated_kb": 3200,
+      "released_kb": 4068,
+      "address": "0x38100000"
+    },
+    {
+      "before_kb": 4068,
+      "allocated_kb": 3200,
+      "released_kb": 4068,
+      "address": "0x38100000"
+    }
+  ]
+}

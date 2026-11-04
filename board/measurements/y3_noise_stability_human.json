@@ -1,0 +1,39 @@
+{
+  "status": "PASS_300S_LINK_AND_HUMAN_REPORT",
+  "scope": "300s digital-link test; initial quality mute means audible time is shorter than300s",
+  "duration_s": 300.0989200240001,
+  "audible_seconds": 299.04667893499936,
+  "audible_intervals_s": [
+    [
+      1.052241089000745,
+      300.0989200240001
+    ]
+  ],
+  "strict_300s_unmuted_met": false,
+  "quality_samples": 665,
+  "good_quality_samples": 665,
+  "minimum_pilot_prominence_db": 26.54516307747718,
+  "minimum_display_fps": 40.378433718116185,
+  "maximum_underflows": 0,
+  "postflight": {
+    "boot_id": "38b1a359-461d-4bc3-a9bd-9b7185742646",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  },
+  "result_sha256": "62a46cc879f512d6648fd76ab3b4a4c27d329b6785a7ae78363847c741952b02",
+  "execution_sha256": "3c6b6c7f9f5e475244538747d791e5e53d12d43a680a412af6658010d6098bf4",
+  "human_report": "\u5e7f\u64ad\u6e05\u695a\u3001\u53ea\u6709\u8f7b\u5fae\u5e95\u566a\u3001\u6ca1\u6709\u660e\u663e\u65ad\u97f3",
+  "human_scope": "User confirmed during the run; no assertion that every second was observed",
+  "next_playback_preference": "User requested higher volume NEXT time; current run stayed -15dB",
+  "source_cause": "Intermittent impairment already visible in raw ADC IQ; physical interference source remains unidentified",
+  "bitstream_changed": false,
+  "hdl_changed": false,
+  "RF_TX_requested": false
+}

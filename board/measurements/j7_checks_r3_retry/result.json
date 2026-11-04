@@ -1,0 +1,2546 @@
+{
+  "source": "CURRENT_BOARD",
+  "tests": [
+    {
+      "id": "F0",
+      "result": {
+        "id": "F0",
+        "run_id": "7bb39fbd6d014395a8c9096d04578c50",
+        "status": "DONE",
+        "tx_requested": false,
+        "bist": {
+          "channel_status": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "error_channels": 0,
+          "duration_ms": 500,
+          "nominal_samples_per_channel": 1920000,
+          "actual_compared_word_counter_available": false,
+          "scope": "RX-injected PN9 status flags; nominal sample count, not measured bit-error count"
+        },
+        "elapsed_s": 0.6040095309945173,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      },
+      "screenshot": {
+        "file": "F0.png",
+        "sha256": "ab254e28aab732a3ee978a5faace2ffdcb503e4744b954c714f0a468e76361f6"
+      },
+      "stop": {
+        "id": "F0",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.033818347998021636,
+        "within_target": true,
+        "host_round_trip_s": 0.09299999999348074
+      }
+    },
+    {
+      "id": "F1",
+      "result": {
+        "id": "F1",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u5c4f\u5e55\u5e27\u7387": {
+            "before": 0,
+            "after": 40.42,
+            "unit": "fps"
+          },
+          "\u76ee\u6807\u6570": {
+            "before": 0,
+            "after": 4,
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1376,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1528,
+            "stop": 1531,
+            "peak_bin": 1529
+          },
+          {
+            "start": 888,
+            "stop": 889,
+            "peak_bin": 888
+          },
+          {
+            "start": 795,
+            "stop": 796,
+            "peak_bin": 795
+          }
+        ],
+        "elapsed_s": 0.3423902989961789,
+        "within_target": true,
+        "host_round_trip_s": 0.485000000015134
+      },
+      "screenshot": {
+        "file": "F1.png",
+        "sha256": "b3d4f2f19e1877a597e8f24548da3a3c9c76cf41535f3a83d8cb95be6431d62f"
+      },
+      "stop": {
+        "id": "F1",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.032966699996904936,
+        "within_target": true,
+        "host_round_trip_s": 0.125
+      }
+    },
+    {
+      "id": "F2",
+      "result": {
+        "id": "F2",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u7406\u8bbabin": {
+            "before": "\u2014",
+            "after": "724,1088,1324",
+            "unit": ""
+          },
+          "\u68c0\u51fabin": {
+            "before": "\u2014",
+            "after": "724,1088,1324",
+            "unit": ""
+          },
+          "\u6700\u5927\u8bef\u5dee": {
+            "before": "\u2014",
+            "after": 0,
+            "unit": "bin"
+          },
+          "\u6bd4\u5bf9\u5b57\u6570": {
+            "before": 0,
+            "after": 8192,
+            "unit": "\u5b57"
+          },
+          "\u4e0d\u4e00\u81f4": {
+            "before": "\u2014",
+            "after": 0,
+            "unit": "\u5b57"
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 5,
+          "spec_ctrl": 1,
+          "average_shift": 0,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 721,
+            "stop": 727,
+            "peak_bin": 724
+          },
+          {
+            "start": 1085,
+            "stop": 1091,
+            "peak_bin": 1088
+          },
+          {
+            "start": 1321,
+            "stop": 1327,
+            "peak_bin": 1324
+          }
+        ],
+        "elapsed_s": 1.0663871569995536,
+        "within_target": true,
+        "comparison_source": "Four live PL golden frames, followed by continuous three-tone display",
+        "host_round_trip_s": 1.3599999999860302
+      },
+      "screenshot": {
+        "file": "F2.png",
+        "sha256": "a2014b3ab0131d7ddf79b173d4463998edd0c216e4c213fb9d3f7e1c380d73ab"
+      },
+      "fps_samples": [
+        41.17816053225551,
+        40.86275081976023
+      ],
+      "fps_pass": true,
+      "stop": {
+        "id": "F2",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.032719064998673275,
+        "within_target": true,
+        "host_round_trip_s": 0.11000000001513399
+      }
+    },
+    {
+      "id": "F4",
+      "result": {
+        "id": "F4",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u5e95\u566a\u7a7a\u95f4\u6807\u51c6\u5dee": {
+            "before": 7.583,
+            "after": 4.859,
+            "unit": "dB"
+          },
+          "AVG_SHIFT": {
+            "before": 0,
+            "after": 5,
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 7,
+          "spec_ctrl": 1,
+          "average_shift": 5,
+          "noise_amplitude": 2048,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 1376,
+            "stop": 1378,
+            "peak_bin": 1377
+          },
+          {
+            "start": 739,
+            "stop": 740,
+            "peak_bin": 740
+          },
+          {
+            "start": 1526,
+            "stop": 1530,
+            "peak_bin": 1529
+          }
+        ],
+        "elapsed_s": 0.49065676300233463,
+        "within_target": true,
+        "host_round_trip_s": 0.5780000000086147
+      },
+      "screenshot": {
+        "file": "F4.png",
+        "sha256": "290ae5bf48bbb763ee943aeb8ce15fadabb8fb9c226dae8279d1be33bea53739"
+      },
+      "stop": {
+        "id": "F4",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.032906445005210117,
+        "within_target": true,
+        "host_round_trip_s": 0.1879999999946449
+      }
+    },
+    {
+      "id": "F5",
+      "result": {
+        "id": "F5",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "CFAR\u7c7b\u578b": {
+            "before": "CA",
+            "after": "CA",
+            "unit": ""
+          },
+          "ALPHA Q8.8": {
+            "before": 1974,
+            "after": 1974,
+            "unit": ""
+          },
+          "PL\u76ee\u6807\u6570": {
+            "before": 3,
+            "after": 3,
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "threshold_source": "SOFTWARE_RECONSTRUCTION_FROM_CURRENT_PL_POWER_NOT_REGISTER_READBACK",
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 5,
+          "spec_ctrl": 1,
+          "average_shift": 0,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 721,
+            "stop": 727,
+            "peak_bin": 724
+          },
+          {
+            "start": 1085,
+            "stop": 1091,
+            "peak_bin": 1088
+          },
+          {
+            "start": 1321,
+            "stop": 1327,
+            "peak_bin": 1324
+          }
+        ],
+        "elapsed_s": 0.2773252759943716,
+        "within_target": true,
+        "host_round_trip_s": 0.45300000000861473
+      },
+      "screenshot": {
+        "file": "F5.png",
+        "sha256": "25ec420820a11e0415b456dccac73779ac778ce29153a6a88746b44683239d57"
+      },
+      "stop": {
+        "id": "F5",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.033001159004925285,
+        "within_target": true,
+        "host_round_trip_s": 0.09399999998277053
+      }
+    },
+    {
+      "id": "F6",
+      "result": {
+        "id": "F6",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u5cf0\u503c/\u4e2d\u4f4d\u5e95\u566a": {
+            "before": 21.77,
+            "after": 30.08,
+            "unit": "dB"
+          },
+          "\u76ee\u6807\u6570": {
+            "before": 13,
+            "after": 4,
+            "unit": ""
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 7,
+          "spec_ctrl": 1,
+          "average_shift": 0,
+          "noise_amplitude": 8192,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 885,
+            "stop": 889,
+            "peak_bin": 887
+          },
+          {
+            "start": 1375,
+            "stop": 1379,
+            "peak_bin": 1377
+          },
+          {
+            "start": 1536,
+            "stop": 1545,
+            "peak_bin": 1541
+          },
+          {
+            "start": 794,
+            "stop": 796,
+            "peak_bin": 795
+          },
+          {
+            "start": 961,
+            "stop": 963,
+            "peak_bin": 962
+          },
+          {
+            "start": 1253,
+            "stop": 1254,
+            "peak_bin": 1254
+          },
+          {
+            "start": 1045,
+            "stop": 1046,
+            "peak_bin": 1045
+          },
+          {
+            "start": 1503,
+            "stop": 1504,
+            "peak_bin": 1503
+          },
+          {
+            "start": 628,
+            "stop": 629,
+            "peak_bin": 629
+          },
+          {
+            "start": 1295,
+            "stop": 1296,
+            "peak_bin": 1295
+          },
+          {
+            "start": 461,
+            "stop": 462,
+            "peak_bin": 462
+          },
+          {
+            "start": 503,
+            "stop": 504,
+            "peak_bin": 503
+          },
+          {
+            "start": 1336,
+            "stop": 1337,
+            "peak_bin": 1336
+          },
+          {
+            "start": 1628,
+            "stop": 1629,
+            "peak_bin": 1628
+          },
+          {
+            "start": 186,
+            "stop": 187,
+            "peak_bin": 187
+          }
+        ],
+        "elapsed_s": 0.2806024809979135,
+        "within_target": true,
+        "host_round_trip_s": 0.4379999999946449
+      },
+      "screenshot": {
+        "file": "F6.png",
+        "sha256": "d61dbd5ea4815da8ac83e36e29f4466568e7f2f95ff52d70bb40b350291b796d"
+      },
+      "stop": {
+        "id": "F6",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03263917400181526,
+        "within_target": true,
+        "host_round_trip_s": 0.125
+      }
+    },
+    {
+      "id": "F7",
+      "result": {
+        "id": "F7",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u63d0\u53d6\u901a\u9053": {
+            "before": "\u5bbd\u5e26",
+            "after": 15,
+            "unit": ""
+          },
+          "\u7a84\u5e26\u91c7\u6837\u7387": {
+            "before": 3840000,
+            "after": 480000,
+            "unit": "SPS"
+          },
+          "NCO\u9891\u7387": {
+            "before": "\u2014",
+            "after": -10000.0,
+            "unit": "Hz"
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "channel": {
+          "channel": 15,
+          "fcw": 4205488811,
+          "residual_hz": -10000.0,
+          "sample_rate_hz": 480000,
+          "frequency_hz": 95800000,
+          "timestamp_cycles": 4796946039
+        },
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 1,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 888,
+            "stop": 889,
+            "peak_bin": 889
+          },
+          {
+            "start": 1527,
+            "stop": 1531,
+            "peak_bin": 1529
+          },
+          {
+            "start": 1376,
+            "stop": 1378,
+            "peak_bin": 1377
+          },
+          {
+            "start": 670,
+            "stop": 671,
+            "peak_bin": 670
+          },
+          {
+            "start": 767,
+            "stop": 768,
+            "peak_bin": 767
+          },
+          {
+            "start": 628,
+            "stop": 629,
+            "peak_bin": 629
+          },
+          {
+            "start": 461,
+            "stop": 462,
+            "peak_bin": 462
+          },
+          {
+            "start": 503,
+            "stop": 504,
+            "peak_bin": 504
+          }
+        ],
+        "elapsed_s": 0.2575820249985554,
+        "within_target": true,
+        "host_round_trip_s": 0.3120000000053551
+      },
+      "screenshot": {
+        "file": "F7.png",
+        "sha256": "3ee4ed93766c12c9f13d0e8b759e033d734c1830ac0c670bfaff438522c60fca"
+      },
+      "stop": {
+        "id": "F7",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03269109400571324,
+        "within_target": true,
+        "host_round_trip_s": 0.15599999998812564
+      }
+    },
+    {
+      "id": "F10",
+      "result": {
+        "id": "F10",
+        "action": "start",
+        "status": "READY",
+        "tx_requested": false,
+        "metrics": {
+          "\u5904\u7406\u65f6\u95f4": {
+            "before": 15.8231,
+            "after": 0.6783,
+            "unit": "ms (CPU\u2192PL)"
+          },
+          "CPU/PL\u6bd4\u503c": {
+            "before": "\u2014",
+            "after": 23.328,
+            "unit": "\u500d"
+          }
+        },
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "scope": "Same replay IQ; CPU floating window/FFT+integer thresholds (no clustering); PL first-IQ to list includes serial input, fixed FFT and clustering. Not equivalent arithmetic or pure compute speedup.",
+        "input_sha256": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+        "timings_cpu_s": [
+          0.015951049004797824,
+          0.015611330003594048,
+          0.015823082998394966,
+          0.015585913002723828,
+          0.015904202999081463
+        ],
+        "restored": false,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 5,
+          "spec_ctrl": 1,
+          "average_shift": 0,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": true
+        },
+        "targets": [
+          {
+            "start": 721,
+            "stop": 727,
+            "peak_bin": 724
+          },
+          {
+            "start": 1085,
+            "stop": 1091,
+            "peak_bin": 1088
+          },
+          {
+            "start": 1321,
+            "stop": 1327,
+            "peak_bin": 1324
+          }
+        ],
+        "elapsed_s": 0.609733403995051,
+        "within_target": true,
+        "host_round_trip_s": 0.7029999999795109
+      },
+      "screenshot": {
+        "file": "F10.png",
+        "sha256": "1b90e2db1d77c4a0433259bed3073c7a41b8eb8c5ce42baf3bc5a6ac65c6e875"
+      },
+      "stop": {
+        "id": "F10",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.032832345001224894,
+        "within_target": true,
+        "host_round_trip_s": 0.09399999998277053
+      }
+    },
+    {
+      "id": "F8",
+      "result": {
+        "id": "F8",
+        "run_id": "41f1dac87c5c45bdb2fd9e0244eadd9d",
+        "status": "DONE",
+        "tx_requested": false,
+        "feature": {
+          "id": "F8",
+          "action": "start",
+          "status": "READY",
+          "tx_requested": false,
+          "metrics": {
+            "\u64ad\u653e\u6837\u672c": {
+              "before": 0,
+              "after": 104551,
+              "unit": "\u6837\u672c"
+            },
+            "\u4e0b\u6ea2": {
+              "before": 0,
+              "after": 0,
+              "unit": "\u6b21"
+            },
+            "\u8f93\u51fa": {
+              "before": "\u9759\u97f3",
+              "after": "\u677f\u8f7d\u5587\u53ed 0 dB",
+              "unit": ""
+            }
+          },
+          "restored_before": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 0,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 0,
+            "codec_muted": true,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "lcd_enabled": false,
+            "full_cfar_defaults_checked": true,
+            "source_defaults_checked": true
+          },
+          "restored": false,
+          "readback": {
+            "tx_attenuation_db": [
+              89.75,
+              89.75
+            ],
+            "source_ctrl": 1,
+            "spec_ctrl": 1,
+            "average_shift": 3,
+            "noise_amplitude": 0,
+            "cfar_ctrl": 1,
+            "alpha": 1974,
+            "audio_control": 243,
+            "codec_muted": false,
+            "lo_hz": 96049998,
+            "rate_hz": 3840000,
+            "lcd_enabled": true
+          },
+          "targets": [
+            {
+              "start": 887,
+              "stop": 890,
+              "peak_bin": 889
+            },
+            {
+              "start": 1376,
+              "stop": 1378,
+              "peak_bin": 1377
+            },
+            {
+              "start": 1528,
+              "stop": 1532,
+              "peak_bin": 1529
+            }
+          ],
+          "elapsed_s": 3.130032872999436,
+          "within_target": false
+        },
+        "selection": {
+          "candidates": [
+            {
+              "station": {
+                "frequency_hz": 95800000,
+                "lo_hz": 96050000,
+                "confirmed_stereo": true
+              },
+              "measurements": [
+                {
+                  "quality": {
+                    "good": true,
+                    "pilot_frequency_hz": 19023.16494557633,
+                    "pilot_prominence_db": 27.31215142182215,
+                    "large_excursion_fraction": 0.0022327658386826683,
+                    "iq_rms": 0.14936650769474297,
+                    "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                  },
+                  "noise_event": null,
+                  "pilot_pass": true,
+                  "quality_pass": true
+                },
+                {
+                  "quality": {
+                    "good": true,
+                    "pilot_frequency_hz": 19023.16494557633,
+                    "pilot_prominence_db": 21.023002356424406,
+                    "large_excursion_fraction": 0.0016745743790120011,
+                    "iq_rms": 0.1765216666267939,
+                    "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                  },
+                  "noise_event": null,
+                  "pilot_pass": true,
+                  "quality_pass": true
+                },
+                {
+                  "quality": {
+                    "good": true,
+                    "pilot_frequency_hz": 19023.16494557633,
+                    "pilot_prominence_db": 25.318266251706927,
+                    "large_excursion_fraction": 0.0030700530281886685,
+                    "iq_rms": 0.14810797063805886,
+                    "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                  },
+                  "noise_event": null,
+                  "pilot_pass": true,
+                  "quality_pass": true
+                }
+              ],
+              "trusted": true,
+              "median_iq_power": 0.02231035362092371
+            }
+          ],
+          "selected": {
+            "frequency_hz": 95800000,
+            "lo_hz": 96050000,
+            "confirmed_stereo": true
+          },
+          "scope": "Confirmed stereo candidates at the configured LO; relative IQ power, not calibrated RF power",
+          "skipped_other_lo": 0
+        },
+        "elapsed_s": 3.1307956660020864
+      },
+      "screenshot": {
+        "file": "F8.png",
+        "sha256": "a49d4a60edaec389156db9bb055aaccba5f8ba8048d32b1b9ccfd2e27de51a1a"
+      },
+      "stop": {
+        "id": "F8",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03285867200611392,
+        "within_target": true,
+        "host_round_trip_s": 0.09399999998277053
+      }
+    },
+    {
+      "id": "F11",
+      "result": {
+        "id": "F11",
+        "run_id": "114781a07feb4990af7053159d2c0805",
+        "status": "DONE",
+        "tx_requested": false,
+        "first_tile_s": 0.9457131589952041,
+        "within_target": false,
+        "scan_status": "PASS_SNAPSHOT_SCAN",
+        "scan_file": "scan/result.json",
+        "scan_sha256": "1725202787441a398fb642e218e3a78327b2912385c2d82a83f84188d129c112",
+        "strongest": [
+          {
+            "frequency_hz": 331755000.0,
+            "power_db": -54.803430206210095
+          },
+          {
+            "frequency_hz": 307185000.0,
+            "power_db": -58.07344574284669
+          },
+          {
+            "frequency_hz": 319475000.0,
+            "power_db": -58.53129603503314
+          },
+          {
+            "frequency_hz": 417775000.0,
+            "power_db": -58.92852216756735
+          },
+          {
+            "frequency_hz": 344045000.0,
+            "power_db": -58.97972601181884
+          }
+        ],
+        "elapsed_s": 34.04546688899427,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      },
+      "screenshot": {
+        "file": "F11.png",
+        "sha256": "b457399d2ef17acb2648cc16e17b5fdea3f0519b9a319548b23195237fe7a29c"
+      },
+      "stop": {
+        "id": "F11",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03296800400130451,
+        "within_target": true,
+        "host_round_trip_s": 0.09400000001187436
+      }
+    },
+    {
+      "id": "F12",
+      "result": {
+        "id": "F12",
+        "run_id": "0167a33bc14b4396918b6b209fd8e903",
+        "status": "NOT_QUALIFIED",
+        "tx_requested": false,
+        "qualification": [
+          {
+            "station": {
+              "frequency_hz": 95800000,
+              "lo_hz": 96050000,
+              "confirmed_stereo": true
+            },
+            "trials": [
+              {
+                "label": "BPSK",
+                "confidence": 0.990938663482666,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 28.43416365204916,
+                  "large_excursion_fraction": 0.0005581914596706671,
+                  "iq_rms": 0.18468220877493366,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00000.npz",
+                "capture_sha256": "97de0ef55926d3528ecf15f6b60d1e50d049ddd36dd80500141534afdce3b8df"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.957685112953186,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 29.97253350659377,
+                  "large_excursion_fraction": 0.0,
+                  "iq_rms": 0.1857755437363591,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00001.npz",
+                "capture_sha256": "bfc5a314741456566db56332d51c6f85a9973cf002bb440f02755ea5734218b7"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.9998997449874878,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 26.3418691312446,
+                  "large_excursion_fraction": 0.00027909572983533354,
+                  "iq_rms": 0.19531206388559863,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00002.npz",
+                "capture_sha256": "6f90aead5676b1bc572f5d34ba3f4bff25a964e16ad14e08b34280da60ad31ed"
+              },
+              {
+                "label": "AM-DSB",
+                "confidence": 0.5917352437973022,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 29.500079567040455,
+                  "large_excursion_fraction": 0.0008372871895060006,
+                  "iq_rms": 0.18797926015963623,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00003.npz",
+                "capture_sha256": "4cc815688dd4b16deeca5474c4b21c79496377a4ac6b04a96f2be37788dfa59f"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.9456256031990051,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 29.03651095241642,
+                  "large_excursion_fraction": 0.0011163829193413341,
+                  "iq_rms": 0.18937949577261992,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00004.npz",
+                "capture_sha256": "e9e751f61a2bb7bac6edc542a9f62cc98251e2f669e9933530e2eef137dcb3f5"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.9998382329940796,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 26.5389438141932,
+                  "large_excursion_fraction": 0.0005581914596706671,
+                  "iq_rms": 0.18714137101071712,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00005.npz",
+                "capture_sha256": "302044a3215603e3c79c850f6896e23e28e1ad7d374a24746876bd93b7a1842f"
+              },
+              {
+                "label": "BPSK",
+                "confidence": 0.999290943145752,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 29.977402113899373,
+                  "large_excursion_fraction": 0.0011163829193413341,
+                  "iq_rms": 0.16143721368097708,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00006.npz",
+                "capture_sha256": "24d3a66ee55da6dcb1debf80f2862bea408c6e628d7a3ad7360999a1d1ee2898"
+              },
+              {
+                "label": "BPSK",
+                "confidence": 0.9995110034942627,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 28.957490499223525,
+                  "large_excursion_fraction": 0.0013954786491766676,
+                  "iq_rms": 0.18973865961252853,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00007.npz",
+                "capture_sha256": "727594238319e2edf89ac9215b2810c05e7aa716829f1a651c8fd3636c3931f2"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.999214768409729,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 24.339090902146665,
+                  "large_excursion_fraction": 0.0011163829193413341,
+                  "iq_rms": 0.18972842965284162,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00008.npz",
+                "capture_sha256": "b5ac717bd55e50ed85e59e27f97729772190a85278385e248894cf2cd1a1779c"
+              },
+              {
+                "label": "FM",
+                "confidence": 0.8201384544372559,
+                "quality_pass": true,
+                "quality": {
+                  "good": true,
+                  "pilot_frequency_hz": 19023.16494557633,
+                  "pilot_prominence_db": 32.852755793990184,
+                  "large_excursion_fraction": 0.00027909572983533354,
+                  "iq_rms": 0.1746387781890189,
+                  "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+                },
+                "capture_filename": "capture_00009.npz",
+                "capture_sha256": "a5e42aec908935bb61feca187a1d0fb12e4ca4edc644dfda9d254d78ab257fe7"
+              }
+            ],
+            "qualified": false
+          }
+        ],
+        "reason": "No selected candidate meets quality and FM >=9/10; no label displayed",
+        "elapsed_s": 3.5237155240029097,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      },
+      "screenshot": {
+        "file": "F12.png",
+        "sha256": "5833e467c6c8ed69e315bb2aa78e79415eb2efa0fd925b59870416960195a169"
+      },
+      "stop": {
+        "id": "F12",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03272737000224879,
+        "within_target": true,
+        "host_round_trip_s": 0.0779999999795109
+      }
+    },
+    {
+      "id": "F13",
+      "result": {
+        "id": "F13",
+        "run_id": "8e7cf41d31d44b04bd9e0f13f28c72ce",
+        "status": "DONE",
+        "tx_requested": false,
+        "scores": {
+          "accuracy_10": 0.834,
+          "accuracy_8": 0.86,
+          "confusion_10": [
+            [
+              48,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              48,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              44,
+              2,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              34,
+              13,
+              0,
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              47,
+              0,
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              48,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              48,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              49,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              48,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              50
+            ]
+          ],
+          "confusion_8": [
+            [
+              48,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              92,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              94,
+              0,
+              1,
+              0,
+              0,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              48,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0,
+              48,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              49,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              48,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              50
+            ]
+          ]
+        },
+        "predictions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          3,
+          0,
+          1,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          4,
+          2,
+          2,
+          2,
+          4,
+          2,
+          2,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          6,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          4,
+          3,
+          9,
+          3,
+          4,
+          9,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          9,
+          9,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          9,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          7,
+          5,
+          7,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          0,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          3,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          9,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          9,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "exact_predictions": true,
+        "exact_confusion": true,
+        "reference_capture_sha256": "9636cae1618a8f5dd2b272415da16a86bfababba319ea08f50d64d1669673ad4",
+        "model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+        "input_source": "F3 measured over-air IQ; board inference now; no transmission",
+        "added_noise_reference_db": 10,
+        "seed": 431014,
+        "elapsed_s": 44.547838017002505,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true
+      },
+      "screenshot": {
+        "file": "F13.png",
+        "sha256": "7d6c7b2cead3921f2c0809e39ec680fedf186a2f283b21d0715da6ceefc52507"
+      },
+      "stop": {
+        "id": "F13",
+        "action": "stop",
+        "status": "STOPPED",
+        "tx_requested": false,
+        "metrics": {},
+        "restored_before": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false,
+          "full_cfar_defaults_checked": true,
+          "source_defaults_checked": true
+        },
+        "restored": true,
+        "readback": {
+          "tx_attenuation_db": [
+            89.75,
+            89.75
+          ],
+          "source_ctrl": 0,
+          "spec_ctrl": 1,
+          "average_shift": 3,
+          "noise_amplitude": 0,
+          "cfar_ctrl": 1,
+          "alpha": 1974,
+          "audio_control": 0,
+          "codec_muted": true,
+          "lo_hz": 96049998,
+          "rate_hz": 3840000,
+          "lcd_enabled": false
+        },
+        "elapsed_s": 0.03278666600090219,
+        "within_target": true,
+        "host_round_trip_s": 0.09399999998277053
+      }
+    }
+  ],
+  "search": null,
+  "recordings": [],
+  "historical_failures_preserved": true,
+  "bit_sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+  "gui_errors": [],
+  "status": "FAIL",
+  "error": "KeyError('status')",
+  "final_stop": {
+    "id": "F8",
+    "action": "stop",
+    "status": "STOPPED",
+    "tx_requested": false,
+    "metrics": {},
+    "restored_before": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false,
+      "full_cfar_defaults_checked": true,
+      "source_defaults_checked": true
+    },
+    "restored": true,
+    "readback": {
+      "tx_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "source_ctrl": 0,
+      "spec_ctrl": 1,
+      "average_shift": 3,
+      "noise_amplitude": 0,
+      "cfar_ctrl": 1,
+      "alpha": 1974,
+      "audio_control": 0,
+      "codec_muted": true,
+      "lo_hz": 96049998,
+      "rate_hz": 3840000,
+      "lcd_enabled": false
+    },
+    "elapsed_s": 0.03291880000324454,
+    "within_target": true,
+    "host_round_trip_s": 0.10899999999674037
+  }
+}

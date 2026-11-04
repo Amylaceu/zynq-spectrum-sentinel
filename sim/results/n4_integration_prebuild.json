@@ -1,0 +1,66 @@
+{
+  "step": "N4 integration prebuild",
+  "date": "2026-11-02",
+  "status": "PASS",
+  "scope": "BD validation, generation, physical data-net driver checks and chain simulation; no full routed bit or download yet",
+  "BD_attempts": 6,
+  "extra_attempts_user_authorized": "我允许你继续尝试",
+  "clock": {
+    "CPU_MHz": 100,
+    "DSP_MHz": 150,
+    "LCD_MHz": 50,
+    "DSP_source": "Existing external LCD50MHz -> MMCM150MHz; original PS/DDR/GEM preset unchanged",
+    "FCLK2_direct_150_unusable": "PS preset quantized requested150MHz to142.857132MHz"
+  },
+  "irq": "CFAR and LCD toggles synchronized to100MHz then OR aggregated into one edge input of axi_intc; servicing polls both source counters",
+  "chain": {
+    "power_words_exact": 8192,
+    "threshold_pixels": 2240,
+    "paired_snapshot_columns": 560,
+    "first_snapshot_frame_id": 0
+  },
+  "control_tests": 11,
+  "address_map": [
+    "/sys_ps7/Data/SEG_data_axi_ad9361 0x79020000 0x00010000",
+    "/sys_ps7/Data/SEG_data_axi_ad9361_adc_dma 0x7C400000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_ad9361_dac_dma 0x7C420000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_ad9361_gpio 0x41200000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_ad9361_spi 0x41E00000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_iic_fmc 0x41620000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_sysid_0 0x45000000 0x00010000",
+    "/sys_ps7/Data/SEG_sentinel_src_mux_0 0x43C00000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_capture_ctrl 0x41220000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_sentinel_intc 0x41800000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_lcd_ui 0x42000000 0x00008000",
+    "/sys_ps7/Data/SEG_data_axi_power_capture 0x42010000 0x00002000",
+    "/sys_ps7/Data/SEG_sentinel_spec_front_0 0x43C10000 0x00001000",
+    "/sys_ps7/Data/SEG_sentinel_cfar_core_0 0x43C20000 0x00004000",
+    "/sys_ps7/Data/SEG_sentinel_lcd_engine 0x43C60000 0x00001000",
+    "/sys_ps7/Data/SEG_sentinel_perf_mon_0 0x43C70000 0x00001000",
+    "/sys_ps7/Data/SEG_data_axi_dma_replay 0x40400000 0x00001000"
+  ],
+  "preserved_constraints_sha256": {
+    "system_constr.xdc": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+    "z20_system_constr.xdc": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513",
+    "lcd_j22.xdc": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6"
+  },
+  "overlay_sources_sha256": {
+    "fmcomms2_z20_bd.tcl": "65af344c8d91ee64c7ce91ceba8e1549fbfa89950d601cf6ad96dab81097f129",
+    "lcd_j22.xdc": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6",
+    "Makefile": "9ebc5ecb49a015ed5211cfa6bf617cba636270949438ff1dfb3163f6afe9606f",
+    "sentinel_bd.tcl": "fe7a4f51206ded0ebdc9b8c5bd54efaa6672e261108fbe902fe07c39f5c2159a",
+    "system_bd.tcl": "689cccd58064210d531ea1930869ee6aa2e7e6d35958721341f7585561e732b5",
+    "system_constr.xdc": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+    "system_project.tcl": "1635a9a6d3921748c94182974ba842a64a0f837cbb7ec49d93417692fdf5ec08",
+    "system_top.v": "8ec1378a5f4c04fe8cc23be4a3d7ed28db50c3132cf3c65e9b0f1d62853a563f",
+    "z20_ps7_preset.tcl": "925e761dd2284d0adcd379492538d908b4497883d1d42ff955c85495b1f5866b",
+    "z20_system_bd.tcl": "e4c9a380597a850c7414d45063d66f078b70943233538cbe6af4683ff153b3d2",
+    "z20_system_constr.xdc": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513"
+  },
+  "timing_patch_after_prebuild": {
+    "scope": "Round-3 candidate only; original prebuild source hashes above are retained as historical evidence",
+    "system_project_tcl_sha256": "1d0837e22e5ae03ec10e6b45eb56434646183db9eb10dfa5599948de62318a56",
+    "adc_tap_cdc_xdc_sha256": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565",
+    "checkpoint_preflight": "2 first-stage status D pins and 3 async reset PRE pins; old routed checkpoint after exceptions WNS -0.746 ns, WHS +0.039 ns; FFT still fails setup"
+  }
+}

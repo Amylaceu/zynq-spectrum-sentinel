@@ -1,0 +1,13 @@
+{
+  "status": "CONFIRMED",
+  "recorded_at_pc": "2026-11-03T04:47:38.161667+00:00",
+  "configuration": "A",
+  "rx_port": "RX1A",
+  "tx1a": "empty",
+  "headphones": "P1 LINE_OUT",
+  "user_response": "配置A未变，P1已接耳机，允许Y3仅接收及低音量试听",
+  "authorization": "Y3 receive-only and low-volume audio",
+  "headphone_warning_delivered": true,
+  "subjective_audio_acceptance": "PENDING",
+  "RF_TX_requested": false
+}

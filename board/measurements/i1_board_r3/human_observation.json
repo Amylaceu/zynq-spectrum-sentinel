@@ -1,0 +1,7 @@
+{
+  "user_feedback": "\u5e7f\u64ad\u4f1a\u95f4\u9694\u5f88\u957f\u65f6\u95f4\u624d\u4f1a\u6709\u4e00\u53e5\u8bdd\uff0c\u6b64\u5916\u6211\u5e0c\u671b\u4f60\u628a\u5587\u53ed\u58f0\u97f3\u8c03\u5927",
+  "listening_verdict": "NOT_CONFIRMED_CONTINUOUS_CLEAR_AUDIO",
+  "visual_verdict": "NOT_EXPLICITLY_CONFIRMED",
+  "context": "50 random scene changes, only listen scenes unmute",
+  "followup": "User-requested 60 s existing audio-worker playback at -9 dB; separate evidence, not another 50-switch attempt"
+}

@@ -1,0 +1,11 @@
+{
+  "source": "CURRENT_BOARD",
+  "tests": [],
+  "search": null,
+  "recordings": [],
+  "historical_failures_preserved": true,
+  "status": "FAIL",
+  "error": "ConnectionError('No board hello')",
+  "gui_errors": [],
+  "stop_error": "TimeoutError('Stop not acknowledged')"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "stage": "X0",
+  "recorded_at_pc": "2026-11-03T01:39:29.029914+08:00",
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "monitor_exit_code": 0,
+  "bus_phase": 3,
+  "default_phase_argument_omitted": true,
+  "telemetry_records": 161,
+  "elapsed_last_s": 179.66768361500004,
+  "display_fps_median": 49.38209334728292,
+  "temperature_min_c": 43.310351562368,
+  "temperature_max_c": 52.661450195152,
+  "sample_overflow_records": 0,
+  "list_capacity_alarm_records": 61,
+  "list_capacity_alarm_denominator": "Periodic telemetry records; not every CFAR frame",
+  "rssi_max_dbm": -71.75,
+  "rf_gpio_after_close": 0,
+  "source_ctrl_after_close": 0,
+  "backup_image_sha256": "23d0c3b936df87745aab7b8700c691c020bcd0792b2d0b149c4b0018317b5e80",
+  "filesystem_health_verified": false,
+  "restore_tested": false,
+  "filesystem_warnings_retained": [
+    "FAT volume was not properly unmounted",
+    "systemd journal corrupted or uncleanly shut down; renamed by systemd"
+  ],
+  "pc_regression_count": 215,
+  "pc_regression_log_sha256": "50ec3b4e2c5ad29f72cbf43f94cbb6acc6c4c84ed9e483457604450a6a8cac3f",
+  "historical_n4_hash_checks": 40,
+  "source_sha256": {
+    "src/ps/sentinel/app/monitor.py": "6c4277ac2f300a321d15d15e34b7d46ca41e6f70bc380a457eae787248286387",
+    "src/ps/sentinel/overlay.py": "3bf18a2c7f9e48c9613f9882972172280203e7aeac05ee76171c8eac4adfd395",
+    "board/scripts/bench_lcd.py": "22a769f119d0d4ec79689a6a411a08cfa9b377686a7ab2e09e78feef9b7f465f",
+    "board/scripts/zss_n4_admin.py": "1cf491af2f786f84a21715450b4503bbe7bdf912aee98937dbc1a0a030ba3fcb",
+    "src/ps/sentinel/telemetry.py": "e2f46d9d50608437cac50723eb56ad6b8c8abb81f9d2a2f2e6b1dce6bb227a2a",
+    "board/scripts/x0_postflight.py": "68ae77f66a10138ec08ad5839c60d78cb58125d244bd3cc4b7d2521ba6adc8ef"
+  },
+  "evidence": {
+    "sd_backup": {
+      "path": "docs/sd_backup_verification.json",
+      "sha256": "3eda01cc7cba0b11a57660e154cda978d583a7188a48387dd76efa01694dfbb7"
+    },
+    "monitor": {
+      "path": "board/measurements/n4_monitor_x0_default_temp_r2.json",
+      "sha256": "bd738258d1ecc4cd7783d108b48c3b4a1f6eb3928986e025dc53a73e844da0d0"
+    },
+    "preflight": {
+      "path": "board/measurements/x0_backup_return_preflight_r1.json",
+      "sha256": "f178ad54e4c72f44e5aee8439ea7ba337892315c9c3873a8f428daab9e75532e"
+    },
+    "stop_state": {
+      "path": "board/measurements/x0_stop_state_r1.json",
+      "sha256": "eb72a2a9bab5fea10f2c9bfe1f33f055f161942c4b7d8a7f618ad37eeedf7d0b"
+    },
+    "visual": {
+      "path": "board/measurements/x0_default_temp_visual_r2.json",
+      "sha256": "b32186390723ea0f9af62d3c2b4a9ba6b1d8bd255ad84576ef2490e71b4a20d0"
+    },
+    "uart": {
+      "path": "board/measurements/x0_backup_return_uart_r1.json",
+      "sha256": "133af067095efdd69069f9398d9d0ccd4a94c8c63168eabdcb40a5878a68ea95"
+    }
+  },
+  "scope": "X0 backup/default-phase/temperature/recovery acceptance at 3.84MSPS; no X1 board or full-bandwidth acceptance"
+}

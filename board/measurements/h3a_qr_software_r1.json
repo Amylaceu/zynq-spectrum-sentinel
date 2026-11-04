@@ -1,0 +1,10 @@
+{
+  "status": "SOFTWARE_PASS_ROUTER_PENDING",
+  "tests": 22,
+  "log": "logs/H3a_host_tests_r2.log",
+  "log_sha256": "abe3f21d68758bc259558b2719acae650412e488478df6790d40f0ae5960a2d1",
+  "preceding_attempt": "logs/H3a_host_tests_r1.log: missing qapp test fixture; fixed locally",
+  "url": "http://192.168.2.99:8080/",
+  "router_hardware_validated": false,
+  "service_started_by_qr": false
+}

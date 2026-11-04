@@ -1,0 +1,67 @@
+{
+  "schema": "t5-implementation-result-v1",
+  "status": "FAIL_Z10_SETUP_MARGIN",
+  "recorded_utc": "2026-11-03T09:17:48.892425+00:00",
+  "image": "sentinel_v2_100m",
+  "stage": "T5",
+  "stage_attempt": 1,
+  "overall_complete_implementation_round": 4,
+  "power_optimization": "Off",
+  "synthesis_reused": true,
+  "timing": {
+    "wns_ns": 0.21,
+    "tns_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "whs_ns": 0.03,
+    "ths_ns": 0.0,
+    "hold_failing_endpoints": 0,
+    "wpws_ns": 0.264
+  },
+  "required_wns_ns": 1.0,
+  "required_whs_ns": 0.0,
+  "setup_margin_shortfall_ns": 0.79,
+  "previous_round_wns_ns": 0.026,
+  "wns_change_ns": 0.184,
+  "resources": {
+    "Slice LUTs": 37982.0,
+    "Slice Registers": 54244.0,
+    "Block RAM Tile": 92.0,
+    "DSPs": 79.0
+  },
+  "critical_setup": "clk_fpga_0 100MHz: sys_rstgen ACTIVE_LOW_PR_OUT_DFF[0] to axi_ad9361_adc_dma up_rdata_d_reg[21], 298-load reset net, 8.813ns route delay",
+  "audit_status": "FAIL_AUTOMATED_GATES",
+  "audit_checks": {
+    "basic_timing_and_internal_coverage": true,
+    "bus_skew": true,
+    "audio_pin_map": true,
+    "z10_setup_margin": false,
+    "z10_hold_margin": true,
+    "routed_report": true,
+    "adc_status_first_stage_count": true,
+    "audio_first_stage_count": true,
+    "unsafe_fifo_reset_d_count": true,
+    "blackbox_count": true,
+    "no_redefined_primary_clocks": true,
+    "drc_summary_present": true,
+    "drc_no_errors_or_critical": true,
+    "no_routing_errors": true
+  },
+  "cdc_critical_counts": {
+    "CDC-1": 110,
+    "CDC-10": 4,
+    "CDC-13": 26
+  },
+  "evidence_sha256": {
+    "board/measurements/z10_v2_audit_t5_r1.json": "efc803c8e055270cfe599e82cf4b7ee95af506df069151111f2e0e16a5124bc1",
+    "build/reports/sentinel_v2_100m/inputs_T5_v2_impl_only_r1.json": "60fc8511b315daa5bd75158136cf6a11b147a42ba14bdc5f42c3caf451fb632f",
+    "logs/T5_v2_impl_only_r1.log": "6678bd092401ca88abc26b1f389dff51775eb1ab971b65df7b1996f9e27c5aa8",
+    "logs/T5_full_pc_nocapture_r1.stdout.log": "efca0484291dde965a00d91f2f1b5fe7489d112532a52c17191d0920fea54967",
+    "build/reports/sentinel_v2_100m/audit_t5_r1/critical_setup.rpt": "435bbd31868b465119daedd63242c9000901f288d8c72b28f0e40a870cc402e3"
+  },
+  "pc_tests_passed": 434,
+  "pc_test_capture": "-s; Tcl policy test stdout fails under Windows pytest capture, 434 pass with redirected process output and no capture",
+  "deployment_authorized": false,
+  "hardware_tested": false,
+  "speaker_played": false,
+  "note": "Original Z10 three-round FAIL remains unchanged; no v2 acceptance receipt or board load."
+}

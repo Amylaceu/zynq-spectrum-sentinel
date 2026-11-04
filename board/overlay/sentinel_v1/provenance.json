@@ -1,0 +1,21 @@
+{
+  "tag": "sentinel_v1",
+  "bundled_utc": "2026-11-02T14:04:29.0122793Z",
+  "sources": [
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/sentinel_v1/sentinel_v1.runs/impl_1/system_top.bit",
+      "source_modified_utc": "2026-11-02T14:03:51.6545797Z",
+      "sha256": "73E69BCA4B2EB2AF0F47E6B6F6244948C742CD6CF03EB28F1DFD6D5380AFE469"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/sentinel_v1/sentinel_v1.gen/sources_1/bd/system/hw_handoff/system.hwh",
+      "source_modified_utc": "2026-11-02T13:40:25.9109761Z",
+      "sha256": "EDD0AF38219E0B4A59699AEE0A7E77154EC48F707FB733AFD10E1DB286DF2E7F"
+    },
+    {
+      "source": "build/work/adi_hdl/projects/fmcomms2/sentinel_v1/sentinel_v1.sdk/system_top.xsa",
+      "source_modified_utc": "2026-11-02T14:04:27.0299488Z",
+      "sha256": "8C5964881A4C74199AED42FD4A5DDB4D2CBC1FB8348CA3A6D98F185533C06EB3"
+    }
+  ]
+}

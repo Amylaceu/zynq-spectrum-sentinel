@@ -1,0 +1,30 @@
+{
+  "words_per_stage": 16384,
+  "stages": [
+    "window",
+    "power",
+    "welch",
+    "db"
+  ],
+  "window_selections": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1
+  ],
+  "avg_shifts": [
+    3,
+    3,
+    3,
+    3,
+    0,
+    31,
+    3,
+    3
+  ],
+  "seed": 20261102
+}

@@ -1,0 +1,129 @@
+{
+  "status": "PASS_PAIRING",
+  "recorded_at_pc": "2026-11-03T03:59:35.376751+08:00",
+  "scope": "Finite gated-frame hardware/model equivalence and decision traces only; X1 RF acceptance unchanged",
+  "model_origin": "Threshold/hit/mask reconstructed on PC, not measured hardware outputs",
+  "physical_limits": "No raw IQ or independent truth source; cannot infer actual station presence or RF cause",
+  "source": "test",
+  "paired_frames": 8,
+  "exact_power_words": 16384,
+  "exact_counter_fields": 48,
+  "target_records_exact": 26,
+  "station_detected_frames": 0,
+  "decision_label_counts": {
+    "no_post_mask_hit_in_tolerance": 8
+  },
+  "labels_may_overlap": true,
+  "frames": [
+    {
+      "index": 0,
+      "cfar_sequence": 65,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 1,
+      "cfar_sequence": 66,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 2,
+      "cfar_sequence": 67,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 3,
+      "cfar_sequence": 68,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 4,
+      "cfar_sequence": 69,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 5,
+      "cfar_sequence": 70,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 6,
+      "cfar_sequence": 71,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    },
+    {
+      "index": 7,
+      "cfar_sequence": 72,
+      "station_peak_detected": false,
+      "labels": [
+        "no_post_mask_hit_in_tolerance"
+      ],
+      "hit_bins_in_tolerance": 0,
+      "segments_overlapping_tolerance": [],
+      "published_interval_overlaps_tolerance": false
+    }
+  ],
+  "configuration": {
+    "average_shift": 3,
+    "mode": "CA",
+    "n": 16,
+    "guard": 2,
+    "alpha": 1974,
+    "dc_mask": 3,
+    "min_width_bins": 2,
+    "merge_gap_bins": 6,
+    "mask_table": []
+  },
+  "evidence_sha256": {
+    "board/measurements/x1_diagnostic_test_r1.json": "68ca33eb9a195a223cc3e3641922a0f6a8b206cdc608cd4e29a72a063dac636b",
+    "board/measurements/x1_diagnostic_test_r1.npz": "285c9d1b89cbc978a4876e539f4f0457d60369fd9f8bed3d3a13fe59ceed2057",
+    "board/measurements/x1_diagnostic_test_r1_execution.json": "e9dbb3ca44b63eac9e949edbc464731f23a15caf7d78a1bef18b9e86a2f3edbd",
+    "board/measurements/x1_diagnostic_test_r1_review_r2_model.npz": "e6b838a6f2882e08e9974ff3d57860a0be8531df3c9778da5ce6768ea11692d2"
+  },
+  "source_sha256": {
+    "tools/analyze_x1_diagnostic.py": "d585c3632ac98ec3e23d85808e955681ea3094fc7e9a8b5a4d9014b1e904f3c8",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "status": "PASS_DEVELOPMENT_REVIEW",
+  "image": "sentinel_v2_100m",
+  "recorded_utc": "2026-11-03T10:47:01.467751+00:00",
+  "checks": {
+    "basic_timing": true,
+    "cdc": true,
+    "external_io": true,
+    "pins_and_voltages": true,
+    "build_inputs": true,
+    "route_and_drc": true
+  },
+  "scope": "Development review only, with documented CDC/board-interface restrictions; no board acceptance",
+  "artifacts_sha256": {
+    "sentinel_v2_100m.bit": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+    "sentinel_v2_100m.hwh": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+    "sentinel_v2_100m.xsa": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc"
+  },
+  "audio_edge_review": {
+    "status": "PASS_DEVELOPMENT_EDGE_REVIEW",
+    "edges": {
+      "bclk": {
+        "early_ns": 5.101,
+        "late_ns": 11.51,
+        "paths": [
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.311,
+            "pin_arrival_ns": 11.51
+          },
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.311,
+            "pin_arrival_ns": 11.51
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.015,
+            "pin_arrival_ns": 5.101
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.015,
+            "pin_arrival_ns": 5.101
+          }
+        ]
+      },
+      "lrc": {
+        "early_ns": 5.472,
+        "late_ns": 12.128,
+        "paths": [
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.929,
+            "pin_arrival_ns": 12.128
+          },
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.929,
+            "pin_arrival_ns": 12.128
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.386,
+            "pin_arrival_ns": 5.472
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.386,
+            "pin_arrival_ns": 5.472
+          }
+        ]
+      },
+      "dacdat": {
+        "early_ns": 5.201,
+        "late_ns": 11.483,
+        "paths": [
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.284,
+            "pin_arrival_ns": 11.483
+          },
+          {
+            "kind": "Max",
+            "corner": "Slow",
+            "launch_clock_ns": 3.199,
+            "c_to_pad_ns": 8.284,
+            "pin_arrival_ns": 11.483
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.115,
+            "pin_arrival_ns": 5.201
+          },
+          {
+            "kind": "Min",
+            "corner": "Fast",
+            "launch_clock_ns": 1.086,
+            "c_to_pad_ns": 4.115,
+            "pin_arrival_ns": 5.201
+          }
+        ]
+      }
+    },
+    "lrck_max_abs_delta_ns": 9.027,
+    "lrck_limit_ns": 10,
+    "data_setup_lower_bound_ns": 153.206,
+    "data_hold_lower_bound_ns": 153.279,
+    "data_setup_hold_required_ns": 10,
+    "pcb_differential_budget_ns": 2.0,
+    "half_cycle_uncertainty_budget_ns": 1.174,
+    "limitations": [
+      "PCB differential <=2ns is a development assumption, not a scope measurement",
+      "No full PVT board signoff; RX PN/delay scan required before live reception",
+      "Disposable false-path report views were not saved to deployed checkpoint"
+    ]
+  },
+  "cdc_review": "docs/v2_development_review.md; warnings retained, static configuration and one session only",
+  "cdc_critical_counts": {
+    "CDC-1": 110,
+    "CDC-10": 4,
+    "CDC-13": 26
+  },
+  "xsa_bit_metadata": {
+    "a": "system_top;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=4486d504\u0000",
+    "b": "7z020clg484\u0000",
+    "c": "2026/11/03\u0000",
+    "d": "18:41:32\u0000"
+  },
+  "exported_bit_metadata": {
+    "a": "system_top;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=4486d504\u0000",
+    "b": "7z020clg484\u0000",
+    "c": "2026/11/03\u0000",
+    "d": "18:41:07\u0000"
+  },
+  "configuration_payload_sha256": "abfd4df3c1999dc9d5d29b156ca6ad80aa076170341c1704e294bdacd3077ad1",
+  "xsa_bit_payload_matches_export": true,
+  "bit_and_hwh_extracted_verbatim_from_xsa": true,
+  "evidence_sha256": {
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/bclk.rpt": "08caa62b38a4141362ffab2d4771ccff1564f318049d4b8c2bbe250ea917a297",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/bus_skew.rpt": "134487a8cae4d1b6ed94ce4615abd0e518224ecd206116a0b96143a51005a346",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/cdc.rpt": "e272a06b1309b44f0d19c1e9cf793dc04193f9d22d32f81b8aeff9fafff6d3a3",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/corrected_before_timing.rpt": "b202fbff36cc1610d3e95132d6b6c71f53957a8b3f47e7820cf4bf7a639b674d",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/dacdat.rpt": "6e54b95f10499db096bd5351f432c9d648e1b27ca4755b835f0e9c979c315b9f",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/drc.rpt": "41451b72192f31d0c2e98c6e81f6f58a9d148d83c26e914169ef7da26acfe1de",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/io.rpt": "f4cd73ce06d2916230c3fd179c5a5d48cc41e7407cb5208cce1cebdc54c76d80",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/lrc.rpt": "415a46c3782766e9028cc8c05d03af1a35dcad080a38569081e17a0343944ef8",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/route_status.rpt": "10ff106e2ce1f2c569b9f97dc2bb52fa9aeb57de906a5c6fda2915cf6f503cec",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/timing.rpt": "d22f7cb7aca33b52491078371d490096e343be9a207b910533cbd7326efe2cc5",
+    "build/reports/sentinel_v2_100m/audio_route_repair_r2/utilization.rpt": "c8f787b7fa8d783afeeef81a5858bb23e7298e3943280edaa6ea17963a7f060b",
+    "build/reports/sentinel_v2_100m/development_export_r2/bclk_physical.rpt": "f8291f92f5cc258ec86cf8f6ce3a15283724e849c7e39341478f0fd7295e7017",
+    "build/reports/sentinel_v2_100m/development_export_r2/dacdat_physical.rpt": "149665c2166ce117535a611962ccb7dcbe210f9bac1d582fb8235bab9f0f054c",
+    "build/reports/sentinel_v2_100m/development_export_r2/lrc_physical.rpt": "6d8f31da1b41818c14938bda2e7e0557312c0a903d8786988f571a26faf7bf23",
+    "build/reports/sentinel_v2_100m/development_export_r2/methodology.rpt": "c16c10d5fe0f475a17b629d5829635f4a1d7d2dada868104f726a2d5d941bd97",
+    "build/reports/sentinel_v2_100m/development_export_r2/timing.rpt": "76b274fa2b79cabf1c201175b432b11647f6a2febc30d9289e95e5faaad9a849"
+  },
+  "required_runtime_gates": [
+    "digital_selftest",
+    "3.84MSPS_RX_PN_delay_window",
+    "receive_display",
+    "human_visual",
+    "human_speaker"
+  ]
+}

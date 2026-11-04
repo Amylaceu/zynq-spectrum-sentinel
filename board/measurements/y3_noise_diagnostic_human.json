@@ -1,0 +1,7 @@
+{
+  "status": "IMPROVED_AS_REPORTED",
+  "user_report": "\u80fd\u770b\u6e05\u695a\u5c4f\u5e55\u5185\u5bb9\uff0c\u5e76\u4e14\u5e7f\u64ad\u6bd4\u4e4b\u524d\u6e05\u6670",
+  "scope": "30-second r2 quality-gated playback; not 5-minute acceptance",
+  "checkpoint_sha256": "149a2d74cadb1bbd6bd13068a925dd28cef60051d9c8c83cf4aedff7f20c43f6",
+  "correction": "This UTF-8 receipt corrects only the user_report field corrupted by the Windows shell encoding in checkpoint; all numerical evidence unchanged."
+}

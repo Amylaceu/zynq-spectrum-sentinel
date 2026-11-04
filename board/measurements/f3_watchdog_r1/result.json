@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "mode": "watchdog",
+  "antenna": "B-direct, user confirmed 2-3cm",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Control readback only; RF injection selftest pending",
+  "start_health": {
+    "rssi_dbm": -74.0,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "watchdog_status": -110,
+  "watchdog_gpio": 0,
+  "mute_cleanup_error": "RuntimeError('F3 mute: -110')",
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 12.307709306000106
+}

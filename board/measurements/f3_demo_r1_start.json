@@ -1,0 +1,13 @@
+{
+  "status": "STARTED",
+  "group": "B",
+  "cycles": 3,
+  "antenna": "B-direct user confirmed TX1A/RX1A, 2.4 GHz folded antennas, approx 2-3cm",
+  "tx_attenuation_floor_db": 40,
+  "frequency_hz": 2450000000,
+  "board_pid": 10361,
+  "board_boot_id": "30cc40d8-3cb0-49ab-85bd-4c7445a962a7",
+  "package_sha256": "548e54db77af6884e55fa0831f62b71fd8c5c8d9a476c2fe6afa9976e9074172",
+  "started_host_utc": "2026-11-03T16:20:12.604678+00:00",
+  "rf_authorized": "User confirmed B-direct and authorized F3 air test in current task history"
+}

@@ -1,0 +1,95 @@
+{
+  "status": "FAIL",
+  "host_utc": "2026-11-03T16:25:20.198215+00:00",
+  "board_status": "FAIL",
+  "error": "RuntimeError('Processing fault during demo')",
+  "cycles_completed": 0,
+  "three_cycles_complete": false,
+  "stops_pass": false,
+  "rf_stops_pass": true,
+  "safety_pass": true,
+  "captures_complete": true,
+  "files_verified": 36,
+  "wall_seconds": 147.6250784140002,
+  "cycle_seconds": [
+    144.66562094100027,
+    0,
+    0
+  ],
+  "min_tx_atten_db": 40.0,
+  "max_rssi_dbm": -58.75,
+  "min_fps": 36.86949783725942,
+  "max_temperature_c": 64.965527343552,
+  "segments": [
+    {
+      "number": 7,
+      "cycle": 1,
+      "title": "ENVIRONMENT",
+      "status": "PASS",
+      "stop_readback": {
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "audio_control": 0
+      },
+      "wall_seconds": 29.881792877999942
+    },
+    {
+      "number": 5,
+      "cycle": 1,
+      "title": "TEN MOD OTA",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 73.13042600399967
+    },
+    {
+      "number": 6,
+      "cycle": 1,
+      "title": "QPSK RF+NOISE",
+      "status": "PASS",
+      "stop_attenuation_db": [
+        89.75,
+        89.75
+      ],
+      "stop_ensm": 2,
+      "stop_readback": {
+        "ensm": 2,
+        "tx_attenuation_db": [
+          89.75,
+          89.75
+        ],
+        "gpio_data": 0,
+        "source_ctrl": 0,
+        "noise_amplitude": 0,
+        "audio_control": 0
+      },
+      "cleanup_errors": [],
+      "quarantined": false,
+      "wall_seconds": 38.06255208600032
+    },
+    {
+      "number": 8,
+      "cycle": 1,
+      "title": "PERFORMANCE",
+      "status": "FAIL",
+      "error": "RuntimeError('Processing fault during demo')",
+      "wall_seconds": 3.5908499730003314
+    }
+  ]
+}

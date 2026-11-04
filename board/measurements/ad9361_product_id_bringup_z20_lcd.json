@@ -1,0 +1,24 @@
+{
+  "overlay": "bringup_z20_lcd",
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "address": "0x037",
+  "command": "00 37 00",
+  "mode": 1,
+  "product_ids": [
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa",
+    "0xa"
+  ],
+  "gpio": 1,
+  "stable": true,
+  "valid": true,
+  "rf_initialized": false,
+  "tx_enabled": false
+}

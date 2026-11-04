@@ -1,0 +1,23 @@
+{
+  "source": "CURRENT_BOARD_ACCEPTED_LEGACY_ENTRY",
+  "seconds": 60,
+  "antenna": "S1",
+  "human_listening": "PENDING",
+  "pl_rebuilt": false,
+  "tx_requested": false,
+  "execution": "COMPLETED",
+  "result_sha256": "b0265ca69ccba7c13bb21a47a57f1aecee03ab0be1b75b4aa56218cda937d6d9",
+  "postflight": {
+    "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+    "image": "sentinel_v2_100m",
+    "gpio_data": 0,
+    "source_ctrl": 0,
+    "lcd_version": 1279459333,
+    "scope": "Stopped readback only; no RF initialization or download",
+    "source_enabled": false,
+    "capture_status": 268435458,
+    "audio_control": 0,
+    "audio_status": 0,
+    "status": "PASS"
+  }
+}

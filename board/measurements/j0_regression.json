@@ -1,0 +1,21 @@
+{
+  "schema": "j0_regression/1",
+  "scope": "src/ps/tests tools/host/tests tools/tests",
+  "logs": {
+    "logs/J0_regression_r1.log": {
+      "sha256": "c2d3599d62c4b217cba3c73edc49def98894abd3c1f258af8dadef7374da866c",
+      "tail": "=====\nFAILED tools/tests/test_z10_impl_policy.py::test_explicit_on_restores_both_steps_after_off\nERROR tools/tests/test_z10_impl_policy.py::test_both_power_steps_use_requested_mode[Off-0]\n1 failed, 819 passed, 19 skipped, 1 error in 84.95s (0:01:24)\n"
+    },
+    "logs/J0_regression_r2.log": {
+      "sha256": "09e973ea6280be96ca05d97746829d99d5c8761959a0b1bb1318431f8185ebd4",
+      "tail": "................................................................................................Z10_POWER_OPTIMIZATION On\n.Z10_POWER_OPTIMIZATION Off\n..Z10_POWER_OPTIMIZATION Off\nZ10_POWER_OPTIMIZATION On\n.\n823 passed, 19 skipped in 84.18s (0:01:24)\n"
+    },
+    "logs/J0_regression_commit2.log": {
+      "sha256": "2140c6864946c358bcc323d47138d1932b8d7612f48ac860ba7b25a09f8c5b83",
+      "tail": "................................................................................................Z10_POWER_OPTIMIZATION On\n.Z10_POWER_OPTIMIZATION Off\n..Z10_POWER_OPTIMIZATION Off\nZ10_POWER_OPTIMIZATION On\n.\n823 passed, 19 skipped in 73.82s (0:01:13)\n"
+    }
+  },
+  "compatibility": "Windows Tcl requires pytest -s; no hardware policy changes",
+  "snapshot_tool_tests": "5 passed in 0.37s",
+  "new_hardware_execution": false
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "source": "Read-only Windows file inspection after SD reseat and USB port change",
+  "disk_number": 1,
+  "size_bytes": 31266439168,
+  "boot_volume": "E:",
+  "boot_label": "PYNQ",
+  "boot_files": [
+    {
+      "Name": "BOOT.BIN",
+      "Size": 860392,
+      "ReferenceSHA256": "5B13A0E7FB9880C050CFC55D04AC62C110E0BDE7C7EFE42B46D34F5E6BEB5AB2",
+      "CardSHA256": "5B13A0E7FB9880C050CFC55D04AC62C110E0BDE7C7EFE42B46D34F5E6BEB5AB2",
+      "Match": true
+    },
+    {
+      "Name": "boot.py",
+      "Size": 516,
+      "ReferenceSHA256": "4610F107DB6BC253199988E95F423FB606B6C0D7E6C6DCF2C67F78A14381D5A8",
+      "CardSHA256": "4610F107DB6BC253199988E95F423FB606B6C0D7E6C6DCF2C67F78A14381D5A8",
+      "Match": true
+    },
+    {
+      "Name": "boot.scr",
+      "Size": 1636,
+      "ReferenceSHA256": "E0C828ECC5974D6CD38FADB8AFAB324C6AE9DFB8A7CE87EC8EBA8840825FA5DC",
+      "CardSHA256": "E0C828ECC5974D6CD38FADB8AFAB324C6AE9DFB8A7CE87EC8EBA8840825FA5DC",
+      "Match": true
+    },
+    {
+      "Name": "image.ub",
+      "Size": 5892560,
+      "ReferenceSHA256": "FAECC2B212183678BE3AE6CBB210BDF8878DC3CE64B0CFE106CE4A11049CFD55",
+      "CardSHA256": "FAECC2B212183678BE3AE6CBB210BDF8878DC3CE64B0CFE106CE4A11049CFD55",
+      "Match": true
+    },
+    {
+      "Name": "REVISION",
+      "Size": 87,
+      "ReferenceSHA256": "D9894028E491E0DF4FEC7CB025A78ED92DDBA235DC94F8A76C03C2F74E4D133F",
+      "CardSHA256": "D9894028E491E0DF4FEC7CB025A78ED92DDBA235DC94F8A76C03C2F74E4D133F",
+      "Match": true
+    }
+  ],
+  "all_five_boot_files_match_reference": true,
+  "boot_backup": "build/sd_boot_backup/",
+  "reference_partition": "build/sd_reference/atk_boot.fat",
+  "windows_volume_health": "Warning",
+  "readonly_chkdsk": "Without /F or /R: initial Access is denied line, then file/folder verification completed and reported no problems",
+  "raw_disk_read": "7-Zip PhysicalDrive1 access denied",
+  "linux_root_partition_checked": false,
+  "round1_log_retrieved": false,
+  "card_write_commands_issued": false,
+  "loopback_attempts": 1,
+  "conclusion": "Boot-file contents match factory image; Linux partition and boot failure cause remain unverified"
+}

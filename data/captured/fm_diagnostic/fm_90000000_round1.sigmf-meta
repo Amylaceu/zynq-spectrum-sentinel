@@ -1,0 +1,58 @@
+{
+  "global": {
+    "core:datatype": "ci16_le",
+    "core:num_channels": 1,
+    "core:version": "1.0.0",
+    "core:description": "Antenna RX1 candidate, native12-bit samples left-aligned to16 bits. Gapped multishot diagnostic; no station identity verified.",
+    "core:sample_rate": 3840000,
+    "core:sha512": "0765467eb56d2bf170778e5debabe720667204deb3266537289357ebbb3627efb39fc2f07ba8a65901bd2839f4a08dd7fedf45b4953c0306453c59bbdb5e4f0a"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 90249998,
+      "zss:monotonic_start_s": 5479.488205981,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 1048576,
+      "core:frequency": 90249998,
+      "zss:monotonic_start_s": 5481.486251333,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 2097152,
+      "core:frequency": 90249998,
+      "zss:monotonic_start_s": 5483.450183817,
+      "zss:sample_count": 1048576
+    },
+    {
+      "core:sample_start": 3145728,
+      "core:frequency": 90249998,
+      "zss:monotonic_start_s": 5485.482131132,
+      "zss:sample_count": 1048576
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_90000000Hz_antenna"
+    },
+    {
+      "core:sample_start": 1048576,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_90000000Hz_antenna"
+    },
+    {
+      "core:sample_start": 2097152,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_90000000Hz_antenna"
+    },
+    {
+      "core:sample_start": 3145728,
+      "core:sample_count": 1048576,
+      "core:label": "candidate_90000000Hz_antenna"
+    }
+  ]
+}

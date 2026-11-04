@@ -1,0 +1,11 @@
+"""Generated register offsets and masks."""
+BASE = 0x43c80000
+SNAP_TOKEN = 0x0
+SNAP_ACK = 0x4
+SAMPLE_DROP = 0x8
+FRAME_DROP = 0xc
+FRAMES_IN = 0x10
+FRAMES_OUT = 0x14
+STATUS = 0x18
+FIFO_LEVEL = 0x1c
+VERSION = 0xfc

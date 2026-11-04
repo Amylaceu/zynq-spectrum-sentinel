@@ -1,0 +1,24 @@
+{
+  "global": {
+    "core:datatype": "ci16_le",
+    "core:sample_rate": 30720000,
+    "core:num_channels": 2,
+    "core:version": "1.0.0",
+    "core:description": "AD9361 internal RX-injected BIST tone; not an antenna/RF capture. I1,Q1,I2,Q2; native12-bit values left-aligned to16bits.",
+    "core:sha512": "9917b413b6ea3ef1e0914acb4b1476ec6c8eee961602508418f5449e8ea054984dd60e8bf3b3fce15e7757183245181e2720a820226ca94166ab428ded49b758"
+  },
+  "captures": [
+    {
+      "core:sample_start": 0,
+      "core:frequency": 2450000000
+    }
+  ],
+  "annotations": [
+    {
+      "core:sample_start": 0,
+      "core:sample_count": 8192,
+      "core:label": "internal_rx_bist_960khz",
+      "core:comment": "Diagnostic dataset; not AMC training or RF reception evidence."
+    }
+  ]
+}

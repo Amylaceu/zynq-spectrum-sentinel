@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-04T02:08:14.499616+08:00",
+  "image_path": "E:\\zip\\zss_sd_backup_20261104_retry2",
+  "source_record_sha256": "9d3051667876ddb809d7528b0e48f00c707c8d43686329cd2c25217f19d7f59c",
+  "operator_reported_read_complete": true,
+  "source_disk_writes": false,
+  "restore_tested": false,
+  "filesystem_health_verified": false,
+  "scope": "Image size, partition signatures and SHA256; does not prove error-free filesystems or a successful restore.",
+  "partitions": [
+    {
+      "partition_number": 1,
+      "mbr_type": 12,
+      "offset": 4096,
+      "size": 136314880
+    },
+    {
+      "partition_number": 2,
+      "mbr_type": 131,
+      "offset": 137363456,
+      "size": 31129075712
+    }
+  ],
+  "image_size_bytes": 31266439168,
+  "image_sha256": "ca4bac9ce83f3373420e54ed7cdfa3f3130859211c22c007d725fd85c8476f94"
+}

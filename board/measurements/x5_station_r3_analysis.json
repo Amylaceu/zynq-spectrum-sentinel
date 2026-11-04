@@ -1,0 +1,48 @@
+{
+  "recorded_at_pc": "2026-11-03T03:07:26.808828+00:00",
+  "schema": "x5-y2-independent-board-analysis-v1",
+  "status": "FAIL",
+  "metrics": {
+    "tracks": 78,
+    "captures": 194,
+    "telemetry_points": 97,
+    "observed_to_applied_median_ms": 481.1813574960979,
+    "observed_to_applied_max_ms": 3124.7519309981726,
+    "latency_scope": "First PS CFAR observation to LCD APPLIED; earlier RF detection unmeasured",
+    "display_fps_median": 28.992242474437415,
+    "processing_status_counts": {
+      "4": 97
+    },
+    "processing_fault_mask": 3,
+    "fm_truth_hz": [
+      95800000.0
+    ],
+    "fm_truth_captures": 21,
+    "fm_displayed_fraction": 0.19047619047619047,
+    "fm_full_five_vote_captures": 9,
+    "fm_full_five_vote_displayed_fraction": 0.3333333333333333,
+    "vote_scope": "All rolling votes and full-five-vote results reported separately",
+    "elapsed_s": 120.2212742010015,
+    "original_x5_checks": {
+      "complete_120s": true,
+      "observed_latency_under_500ms": true,
+      "formal_98mhz_truth_fm_80pct": null
+    },
+    "final_y2_checks": {
+      "complete_120s": true,
+      "observed_latency_at_most_1s": true,
+      "known_fm_displayed_80pct": false,
+      "median_display_fps_at_least_30": false
+    },
+    "automated_y2_status": "FAIL"
+  },
+  "human_visual": "PENDING",
+  "packet_checks": 194,
+  "source_sha256": {
+    "tools/analyze_x5_board.py": "4077d998e3395f0c14037528ff729ea1fb0f22e8ca307721ba8f30c248762114"
+  },
+  "input_sha256": {
+    "board/measurements/x5_station_r3_execution.json": "cd4fea115beef5d56352ceff5baa438d0f318db9abfc50254db2d58fbcd91e4d",
+    "board/measurements/x5_station_r3/result.json": "ad6901cb3d82decf0854219732ff5c13d22c0bf4cca5fce57e28b1547eaab828"
+  }
+}

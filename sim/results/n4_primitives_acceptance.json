@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "step": "N4 substeps: sources and LCD bus/region primitives",
+  "date": "2026-11-02",
+  "source_simulation": {
+    "status": "passed",
+    "mode": "exact",
+    "compared_words": 16384,
+    "mismatch_words": 0,
+    "max_abs_error": 0.0,
+    "first_mismatch": null,
+    "sqnr_db": "inf",
+    "discarded_expected_words": 0,
+    "discarded_actual_words": 0
+  },
+  "source_clock_mhz": 150,
+  "source_setup_wns_ns": 0.198,
+  "source_internal_hold_ns": 0.157,
+  "source_resources": {
+    "lut": 3182,
+    "ff": 1564,
+    "bram": 0,
+    "dsp": 8
+  },
+  "lcd_init_bus_words": 68,
+  "lcd_region_bus_words": 83,
+  "limitations": [
+    "No integrated sentinel_v1 build or download",
+    "LCD bus/region tests are digital simulation, not physical display acceptance",
+    "Source frame pacing pauses during output backpressure",
+    "Complete system setup/hold and sustained throughput remain unverified"
+  ],
+  "sha256": {
+    "src/rtl/src_mux/src_mux.v": "a7adb973300f0d3156571567d8188ac4a7304dee6984d7d47926cb53a686dd10",
+    "src/rtl/lcd/lcd8080_bus.v": "6a6d1b3a5cc469de993c67367f1022ba0ae23c46eb199e9cf4ff19cf936e9ab9",
+    "src/rtl/lcd/lcd8080_region.v": "e5115e6be4272435fe0eb0fbcae0934e64596f50c1ce162b62bfeea2affab49d",
+    "src/rtl/common/lcd_init_rom.vh": "cf0559a787335dc5d4f1d41a0e412b64e8fb50b6d52a44559fa7c6f124b62e5d",
+    "src/rtl/regs/src_ctrl_regs.v": "4a779c643df9871900aa8e10839877bd0d3751d9d30e27716e845c855f8d9072",
+    "src/regs/src_ctrl.yaml": "02a7300d2f3011729215b04aefeebd347facf49d2df71a6bf6e918499692d117",
+    "build/reports/modules/src_mux_internal_hold.rpt": "f1bbed149fdad943c77991e3c4db2a4732d29d694958d2ee9d2565b735931bbe",
+    "build/reports/modules/src_mux_timing.rpt": "659ba0a6f5484420c258b4933c5e8fdb4845cc5c86cf3b78b021d171fadcc872",
+    "build/reports/modules/src_mux_util.rpt": "ca8b3baf6b6eedc865712a4ff57ff7bf2f2995b85f2a15e760997f8d4f27bf21"
+  }
+}

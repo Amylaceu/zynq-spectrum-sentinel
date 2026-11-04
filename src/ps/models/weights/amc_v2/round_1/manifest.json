@@ -1,0 +1,34 @@
+{
+  "attempt": 1,
+  "step": "X4",
+  "status": "FAIL",
+  "usage": "experimental_failed_candidate",
+  "fs": 480000,
+  "capture_len": 4096,
+  "precision": "mixed INT8 MAC/FP32 statistics and scale",
+  "model": "model.npz",
+  "model_sha256": "2390fc1a3062b30781cdec80541d0a49aee8108c36883cbbf719b9e724d70dcf",
+  "accuracy_snr10": 0.786,
+  "gates": {
+    "accuracy10": false,
+    "coarse10": true,
+    "qpsk_recall": false,
+    "psk8_recall": true,
+    "quantization_drop_all_snrs": true,
+    "quantization_drop_overall": true,
+    "board_latency": false
+  },
+  "runtime_sha256": {
+    "__init__.py": "06c1ad18d007706f403f51c3d90ba09deb83c3549f92b29258d032530bc547ec",
+    "contract.py": "f1a186b123603225d3df3d263f90cce25f580ea60abdbe7d8d886fa0fb1b92e1",
+    "features.py": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+    "fine.py": "764b2ae5e3b1dc032d10ed4562cf585a4a85e276a6a309fdd8d2847254af0904",
+    "infer_np.py": "5933db1be2179688f45444472e23a0eb892d2c86dd2c5b811d53875146bc64a8"
+  },
+  "evidence_sha256": {
+    "board/measurements/x4_pc_r1.json": "d1cac2d18bec55f11057f0748261d069cea4fcdaf7d204b8cfeb54f88d415f2d",
+    "board/measurements/x4_analysis_r1.json": "b00b542f37fc868d2c78e4ccf67fbcbd2e863977550f71406bfe10ad30366b21",
+    "report/results/x4_sources_r1.zip": "ea54fb1e0984ee5730ba04a19e84fef32ba3fe6b914513cd66711efcdcbd4ab1"
+  },
+  "limitation": "Synthetic data only; confidence is uncalibrated; no OTA acceptance"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "tests_passed": 24,
+  "recorded_at_pc": "2026-11-03T04:47:38.158331+00:00",
+  "scope": "PC software/acceptance-gate tests only; no full-system timing or hardware playback claim",
+  "sources_sha256": {
+    "logs/Y3_audio_pc_r3.log": "be08cb39c31578edd8f249b7f7a6837cad117865d35b477858c016139ef58198",
+    "src/ps/sentinel/audio_y3.py": "a55837d774291c260931c2c392cbca53b8f6f014d1587f1d2a2907edf224276f",
+    "src/ps/sentinel/v_y3.py": "5e63d667ffa65d984c53ab4dfe2360b9152a108e64d69314de4e344232f49ae2",
+    "src/ps/sentinel/fm_stream_y3.py": "32ba69f127c2f92b464d61690027220658b406d6b5ab98335a34a1cd076a65e2",
+    "src/ps/tests/test_audio_y3.py": "861d8798eb865da1381def9bab90c275f3bc07308c6274e01befe070cff1846a",
+    "src/ps/tests/test_fm_stream_y3.py": "0331d56c27ccad809fbd1513c9f9195044f43bbffae4b39b490684fa97fc1cff",
+    "tools/tests/test_run_y3_board.py": "efd3a16e8e5be5d79a8995ce933a64eb8401288dd9a6bac17e816fbaa37df46c",
+    "tools/run_y3_board.py": "cff9f865e80d0534ccd76f95ad3388e6cad962e5fd9249d0187ce007d46a320b",
+    "board/scripts/run_y3_audio.py": "3b23a11ee1f9ce11e76f31394823ec21af485f6044e745d9cf2b8b9e33a1c23b",
+    "board/scripts/y3_postflight.py": "f4636ba128a53ec833d8a4309a424b78c04efb0a48ae11286f7eba85f319a83b"
+  }
+}

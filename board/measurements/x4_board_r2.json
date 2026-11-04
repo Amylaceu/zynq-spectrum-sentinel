@@ -1,0 +1,377 @@
+{
+  "step": "X4",
+  "mode": "offline_synthetic_on_board_no_rf",
+  "system": "Linux-5.4.0-xilinx-v2020.2-armv7l-with-glibc2.29",
+  "python": "3.8.2 (default, Mar 13 2020, 10:14:16) \n[GCC 9.3.0]",
+  "numpy": "1.20.3",
+  "boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "capture_len": 4096,
+  "fs": 480000,
+  "precision": "mixed INT8 MAC/FP32 scale",
+  "smoke_only": false,
+  "bundle_sha256": "95be1a5dc5411e69a7fad8963bebb4503f0af5b6c025123a53a4c1d92a5ec332",
+  "rows": [
+    {
+      "sample_id": 20961274,
+      "label": 0,
+      "predicted": "BPSK",
+      "coarse": "BPSK",
+      "elapsed_ms": 49.43117999937385
+    },
+    {
+      "sample_id": 20962919,
+      "label": 0,
+      "predicted": "BPSK",
+      "coarse": "BPSK",
+      "elapsed_ms": 49.257156999374274
+    },
+    {
+      "sample_id": 20961122,
+      "label": 0,
+      "predicted": "BPSK",
+      "coarse": "BPSK",
+      "elapsed_ms": 49.51148399777594
+    },
+    {
+      "sample_id": 20962092,
+      "label": 0,
+      "predicted": "BPSK",
+      "coarse": "BPSK",
+      "elapsed_ms": 51.104398000461515
+    },
+    {
+      "sample_id": 20962864,
+      "label": 0,
+      "predicted": "BPSK",
+      "coarse": "BPSK",
+      "elapsed_ms": 49.27550399952452
+    },
+    {
+      "sample_id": 120961925,
+      "label": 1,
+      "predicted": "QPSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 155.25240499846404
+    },
+    {
+      "sample_id": 120962874,
+      "label": 1,
+      "predicted": "QPSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 174.3487269995967
+    },
+    {
+      "sample_id": 120962493,
+      "label": 1,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 134.0026059988304
+    },
+    {
+      "sample_id": 120961857,
+      "label": 1,
+      "predicted": "QPSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 144.2456389995641
+    },
+    {
+      "sample_id": 120962857,
+      "label": 1,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 143.96157900046092
+    },
+    {
+      "sample_id": 220962975,
+      "label": 2,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 136.7690129991388
+    },
+    {
+      "sample_id": 220962527,
+      "label": 2,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 174.1560810005467
+    },
+    {
+      "sample_id": 220962351,
+      "label": 2,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 137.3733930013259
+    },
+    {
+      "sample_id": 220961770,
+      "label": 2,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 139.5957830027328
+    },
+    {
+      "sample_id": 220961765,
+      "label": 2,
+      "predicted": "8PSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 138.11865599927842
+    },
+    {
+      "sample_id": 320962995,
+      "label": 3,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 175.08678199737915
+    },
+    {
+      "sample_id": 320962289,
+      "label": 3,
+      "predicted": "16QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 193.8796380018175
+    },
+    {
+      "sample_id": 320961996,
+      "label": 3,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 136.25364399922546
+    },
+    {
+      "sample_id": 320963094,
+      "label": 3,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 136.18955899801222
+    },
+    {
+      "sample_id": 320961341,
+      "label": 3,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 138.85737600139691
+    },
+    {
+      "sample_id": 420963002,
+      "label": 4,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 138.41445099751581
+    },
+    {
+      "sample_id": 420961687,
+      "label": 4,
+      "predicted": "16QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 147.92070200201124
+    },
+    {
+      "sample_id": 420961278,
+      "label": 4,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 137.3000290004711
+    },
+    {
+      "sample_id": 420962955,
+      "label": 4,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 137.20369299699087
+    },
+    {
+      "sample_id": 420961300,
+      "label": 4,
+      "predicted": "64QAM",
+      "coarse": "QAM",
+      "elapsed_ms": 200.9419380010513
+    },
+    {
+      "sample_id": 520963037,
+      "label": 5,
+      "predicted": "2FSK",
+      "coarse": "2FSK",
+      "elapsed_ms": 68.18315000055009
+    },
+    {
+      "sample_id": 520961991,
+      "label": 5,
+      "predicted": "2FSK",
+      "coarse": "2FSK",
+      "elapsed_ms": 53.73514500024612
+    },
+    {
+      "sample_id": 520962377,
+      "label": 5,
+      "predicted": "2FSK",
+      "coarse": "2FSK",
+      "elapsed_ms": 54.36336799903074
+    },
+    {
+      "sample_id": 520961706,
+      "label": 5,
+      "predicted": "2FSK",
+      "coarse": "2FSK",
+      "elapsed_ms": 54.20404799951939
+    },
+    {
+      "sample_id": 520962682,
+      "label": 5,
+      "predicted": "2FSK",
+      "coarse": "2FSK",
+      "elapsed_ms": 53.5560060015996
+    },
+    {
+      "sample_id": 620962326,
+      "label": 6,
+      "predicted": "GFSK",
+      "coarse": "GFSK",
+      "elapsed_ms": 51.395990998571506
+    },
+    {
+      "sample_id": 620961744,
+      "label": 6,
+      "predicted": "GFSK",
+      "coarse": "GFSK",
+      "elapsed_ms": 51.67405899919686
+    },
+    {
+      "sample_id": 620962075,
+      "label": 6,
+      "predicted": "GFSK",
+      "coarse": "GFSK",
+      "elapsed_ms": 52.03554599938798
+    },
+    {
+      "sample_id": 620961593,
+      "label": 6,
+      "predicted": "GFSK",
+      "coarse": "GFSK",
+      "elapsed_ms": 52.08489999859012
+    },
+    {
+      "sample_id": 620962796,
+      "label": 6,
+      "predicted": "QPSK",
+      "coarse": "PSK-high",
+      "elapsed_ms": 153.41267199983122
+    },
+    {
+      "sample_id": 720962815,
+      "label": 7,
+      "predicted": "OOK",
+      "coarse": "OOK",
+      "elapsed_ms": 57.05874900013441
+    },
+    {
+      "sample_id": 720961789,
+      "label": 7,
+      "predicted": "OOK",
+      "coarse": "OOK",
+      "elapsed_ms": 56.68317200252204
+    },
+    {
+      "sample_id": 720962817,
+      "label": 7,
+      "predicted": "OOK",
+      "coarse": "OOK",
+      "elapsed_ms": 49.88343700097175
+    },
+    {
+      "sample_id": 720962871,
+      "label": 7,
+      "predicted": "OOK",
+      "coarse": "OOK",
+      "elapsed_ms": 49.195917999895755
+    },
+    {
+      "sample_id": 720961654,
+      "label": 7,
+      "predicted": "OOK",
+      "coarse": "OOK",
+      "elapsed_ms": 49.11197799810907
+    },
+    {
+      "sample_id": 820961316,
+      "label": 8,
+      "predicted": "AM-DSB",
+      "coarse": "AM",
+      "elapsed_ms": 51.03945500013651
+    },
+    {
+      "sample_id": 820961724,
+      "label": 8,
+      "predicted": "AM-DSB",
+      "coarse": "AM",
+      "elapsed_ms": 49.814525998954196
+    },
+    {
+      "sample_id": 820962225,
+      "label": 8,
+      "predicted": "AM-DSB",
+      "coarse": "AM",
+      "elapsed_ms": 49.22833599994192
+    },
+    {
+      "sample_id": 820961838,
+      "label": 8,
+      "predicted": "AM-DSB",
+      "coarse": "AM",
+      "elapsed_ms": 49.348904998623766
+    },
+    {
+      "sample_id": 820962842,
+      "label": 8,
+      "predicted": "AM-DSB",
+      "coarse": "AM",
+      "elapsed_ms": 49.11957500007702
+    },
+    {
+      "sample_id": 920963076,
+      "label": 9,
+      "predicted": "FM",
+      "coarse": "FM",
+      "elapsed_ms": 49.13959400073509
+    },
+    {
+      "sample_id": 920963066,
+      "label": 9,
+      "predicted": "FM",
+      "coarse": "FM",
+      "elapsed_ms": 49.12212799899862
+    },
+    {
+      "sample_id": 920961604,
+      "label": 9,
+      "predicted": "FM",
+      "coarse": "FM",
+      "elapsed_ms": 49.07739700138336
+    },
+    {
+      "sample_id": 920962738,
+      "label": 9,
+      "predicted": "FM",
+      "coarse": "FM",
+      "elapsed_ms": 48.96172000007937
+    },
+    {
+      "sample_id": 920962411,
+      "label": 9,
+      "predicted": "FM",
+      "coarse": "FM",
+      "elapsed_ms": 48.95424400092452
+    }
+  ],
+  "median_ms": 54.283707999275066,
+  "p95_ms": 174.75465724837704,
+  "max_ms": 200.9419380010513,
+  "all_under_100ms": false,
+  "standalone_refine_ms": {
+    "PSK-high": 104.82508300265181,
+    "QAM": 125.81851399954758
+  },
+  "pc_bundle_archive_sha256": "60c2a47c29455b554bf08f763a6c3c5feadb4504f0bfecc64369462beb82a4a3",
+  "benchmark_script_sha256": "3fa9e5a5fb1d846dfd857420187d981c2f4c3fabc053a447a251391816b8913c",
+  "round_evidence_sha256": "7a4959faaacd61891f491c4014b7e5b8a84482d2f5c0b1b8b3762a67d515fe45",
+  "log_sha256": "6919b6a5e9feea5f1ac71668ef1d24d300a41800fd76de132061eb24903f495c"
+}

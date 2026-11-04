@@ -1,0 +1,7 @@
+[submodule "third_party/hdl"]
+	path = third_party/hdl
+	url = https://github.com/analogdevicesinc/hdl.git
+	branch = hdl_2026_r1
+[submodule "third_party/no-OS"]
+	path = third_party/no-OS
+	url = https://github.com/analogdevicesinc/no-OS.git

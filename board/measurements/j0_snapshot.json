@@ -1,0 +1,12 @@
+{
+  "schema": "incremental_snapshot_receipt/1",
+  "archive": "zss_snapshot_J0_20261104.zip",
+  "sha256": "7150a7e8845bdb36737cfa0b9a6497558fa1c4d0ffacafb85c4262a6f64b9b20",
+  "bytes": 1149485552,
+  "file_count": 14115,
+  "uncompressed_bytes": 1530877247,
+  "base_archive": "zss_snapshot_20261103.zip",
+  "base_sha256": "058786e1eb619efc1565c9440582e1cc38684f88ffa931a07f45dc2ad639c4c7",
+  "all_payload_hashes_verified": true,
+  "git_head": "361ca6dbdd7a4ea67ab87b2a1386d0350a0f6813"
+}

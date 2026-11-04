@@ -1,0 +1,58 @@
+{
+  "status": "OFFLINE_PREVIEW_ONLY",
+  "synthetic": true,
+  "board_accessed": false,
+  "ui_regions": [
+    [
+      560,
+      0,
+      240,
+      400
+    ],
+    [
+      0,
+      400,
+      800,
+      80
+    ]
+  ],
+  "palette_rgb": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      0
+    ],
+    [
+      0,
+      255,
+      255
+    ]
+  ],
+  "font_sizes": [
+    20,
+    14,
+    12
+  ],
+  "target_label_size": 24,
+  "files_sha256": {
+    "SIG.png": "81b3690999627e043156625c9b55d7c6c30ffed0b123d752ff6d2fdbdaa204ea",
+    "TGT.png": "d8c805665347d45adf0c6df9d5024e9f95460fadca5dcaeae1499ee087412cb6",
+    "STAT.png": "c56f64d1846f91a29c9e6a931e177699bc5f6591f1acb4824fb3e54790e4fb33",
+    "OTA_TX_ON.png": "fac79b396263e105de834cdf979c8b0891d1d15c9d2420d3d30f15cda506a93a",
+    "OTA_TX_DIM.png": "84f402eab602f03e92551f96b35511630ada381422fdfc68f3af4717137b7865",
+    "SELFTEST.png": "c952205f0ba8d238006df5dd1765f5f7b35db493f78c57544e3d8977a4fae521",
+    "overview.png": "714e2e6cc31946ccf93b16e0e41e04ab5b7b7cd4fcd9e200c0e381fc96ed9db1"
+  },
+  "style_confirmation": "PENDING",
+  "board_metrics": "NOT_MEASURED"
+}

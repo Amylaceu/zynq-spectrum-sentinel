@@ -1,0 +1,65 @@
+{
+  "status": "PASS_EQUIVALENCE_PC_ONLY",
+  "recorded_at": "2026-11-02T23:50:04.799252+00:00",
+  "experiment": "Opt-in arithmetic/cache optimization, not training or another X4 acceptance round",
+  "board_tested": false,
+  "x4_acceptance_status": "FAIL",
+  "limitations": [
+    "PC timings are not Cortex-A9 timings",
+    "The original three accuracy and latency failures remain",
+    "No deployment runtime or model selection changed"
+  ],
+  "model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "logit_exact_captures": 2000,
+  "complete_prediction_exact_captures": 50,
+  "timing": {
+    "reference_int32": {
+      "count": 150,
+      "median_ms": 3.66805,
+      "p95_ms": 7.860669999999999,
+      "max_ms": 9.3228
+    },
+    "cached_int32": {
+      "count": 150,
+      "median_ms": 3.8415,
+      "p95_ms": 7.522699999999999,
+      "max_ms": 8.0085
+    },
+    "cached_exact_fp32": {
+      "count": 150,
+      "median_ms": 3.6525,
+      "p95_ms": 7.653184999999999,
+      "max_ms": 14.3674
+    }
+  },
+  "extra_cache_bytes": 13568,
+  "median_speedup": {
+    "cached_int32": 0.9548483665234935,
+    "cached_exact_fp32": 1.0042573579739904
+  },
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.1.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "thread_env": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "source_sha256": {
+    "tools/benchmark_x4_cached.py": "c58cbcc185a099cbdc0cc2bda02d0320ad1142fe7f62702384ff61ab3bac59ef",
+    "src/ps/sentinel/amc/fine.py": "d5f7b1eec3e7748b6ec0053c9ca31f05edada5d5a2dcba3b28a39d4e8ffaa78d",
+    "src/ps/sentinel/amc/__init__.py": "06c1ad18d007706f403f51c3d90ba09deb83c3549f92b29258d032530bc547ec",
+    "src/ps/sentinel/amc/features.py": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+    "src/ps/sentinel/amc/infer_cached.py": "cf9240fca78a453196cc87cac1643bae3c0cf80a037e154b07e52a0319bae3a4",
+    "src/ps/sentinel/amc/contract.py": "f1a186b123603225d3df3d263f90cce25f580ea60abdbe7d8d886fa0fb1b92e1",
+    "src/ps/sentinel/amc/infer_np.py": "5933db1be2179688f45444472e23a0eb892d2c86dd2c5b811d53875146bc64a8"
+  },
+  "subset_metadata_sha256": {
+    "data/synthetic/amc_v2/test/label.npy": "c8223dc64f73257ef781fa00ae8c8d679f168430f1f36cf53f0b15c2180d2f36",
+    "data/synthetic/amc_v2/test/snr.npy": "5be2bf07d4d5eaf24f3007229edc9561745b3bd75ed3e6f9cf4a48856b3838f7",
+    "data/synthetic/amc_v2/test/sample_id.npy": "a37d23b7cae8e10cb6c1dda5772770718b4788599171a442ee0dae6ebee598cf"
+  },
+  "raw_sha256": "60de8ec325819a3a5f063fa11559fc6e6478a0af659c2ff570af9d76adafb781"
+}

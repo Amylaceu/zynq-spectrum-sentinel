@@ -1,0 +1,10 @@
+{
+  "frames": 8,
+  "bins": 2048,
+  "average_shift": 3,
+  "files_sha256": {
+    "diag_input.hex": "c8b52bb9caf5fce550825470d7f6ee7eabf4d6e4f60812cde3a42aab15e9eaeb",
+    "diag_power.hex": "4c42a71fd3281a13c3de0f333b902987fb3734786b6e8ae2200881bdc45dd65f",
+    "diag_stats.hex": "c1caa2ff373c9ba38d2798560d21b0e1394f4176a0da33f527e3f48729b5c5ca"
+  }
+}

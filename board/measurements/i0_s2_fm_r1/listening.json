@@ -1,0 +1,7 @@
+{
+  "status": "FAIL_HUMAN_NO_BROADCAST",
+  "antenna": "S2",
+  "user_observation": "\u6ca1\u6709\u5e7f\u64ad\u58f0\u97f3",
+  "automatic_evidence": "validation.json",
+  "scope": "Completed 30 second FM check only; quality gate remained muted"
+}

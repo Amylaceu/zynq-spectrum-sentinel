@@ -1,0 +1,154 @@
+{
+  "RF_TX_requested": false,
+  "bins": [
+    -300,
+    64,
+    300
+  ],
+  "duration_actual_s": 15.000339597999982,
+  "duration_requested_s": 15.0,
+  "final_frame_count": 3962,
+  "final_rf_gpio": 0,
+  "finished_monotonic": 2018.223422849,
+  "samples": [
+    {
+      "channel_health": 0,
+      "elapsed_s": 5.952699984845822e-05,
+      "fps": 0.0,
+      "frame_count": 3346,
+      "rf_gpio": 0,
+      "temperature_c": 62.87383422832401
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 0.9196838249999928,
+      "fps": 40.2338216600647,
+      "frame_count": 3383,
+      "rf_gpio": 0,
+      "temperature_c": 62.62775268535601
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 1.8440275769999062,
+      "fps": 41.1102470458453,
+      "frame_count": 3421,
+      "rf_gpio": 0,
+      "temperature_c": 62.381671142388
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 2.7684938019999663,
+      "fps": 41.10480077300556,
+      "frame_count": 3459,
+      "rf_gpio": 0,
+      "temperature_c": 62.381671142388
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 3.692283736000036,
+      "fps": 41.134892903040814,
+      "frame_count": 3497,
+      "rf_gpio": 0,
+      "temperature_c": 62.258630370904
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 4.616724964000014,
+      "fps": 41.10591225167741,
+      "frame_count": 3535,
+      "rf_gpio": 0,
+      "temperature_c": 62.258630370904
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 5.540245871000025,
+      "fps": 41.14687573607854,
+      "frame_count": 3573,
+      "rf_gpio": 0,
+      "temperature_c": 62.504711913872
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 6.465136219999977,
+      "fps": 41.08595147639709,
+      "frame_count": 3611,
+      "rf_gpio": 0,
+      "temperature_c": 62.258630370904
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 7.389450313999987,
+      "fps": 41.111566129597044,
+      "frame_count": 3649,
+      "rf_gpio": 0,
+      "temperature_c": 62.504711913872
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 8.31315643799985,
+      "fps": 41.13862516733255,
+      "frame_count": 3687,
+      "rf_gpio": 0,
+      "temperature_c": 62.381671142388
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 9.237399700999958,
+      "fps": 41.11471678641338,
+      "frame_count": 3725,
+      "rf_gpio": 0,
+      "temperature_c": 62.381671142388
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 10.162033578999853,
+      "fps": 41.097347722321196,
+      "frame_count": 3763,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 11.085650800999929,
+      "fps": 41.142584931138174,
+      "frame_count": 3801,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 12.010066124999867,
+      "fps": 41.10706412305488,
+      "frame_count": 3839,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 12.933777574000032,
+      "fps": 41.13838801189653,
+      "frame_count": 3877,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 13.857955462000064,
+      "fps": 41.117625181699566,
+      "frame_count": 3915,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    },
+    {
+      "channel_health": 0,
+      "elapsed_s": 14.782176197999888,
+      "fps": 41.11571891848054,
+      "frame_count": 3953,
+      "rf_gpio": 0,
+      "temperature_c": 62.13558959942
+    }
+  ],
+  "source": "PL three-tone",
+  "started_monotonic": 2002.801503993,
+  "status": "PASS"
+}

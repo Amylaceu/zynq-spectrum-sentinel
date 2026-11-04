@@ -1,0 +1,119 @@
+{
+  "recorded_at_pc": "2026-11-04T02:04:16.810052+08:00",
+  "status": "BLOCKED-HUMAN",
+  "step": "showcase/G0",
+  "scope": "Plan adoption, frozen artifacts and metadata only; no SD contents or image data read, no RF or board access",
+  "head_before": "c2019e822932dd3d8a4ec8fbb4dee0b28dcdea15",
+  "git_status_before": [
+    "M runbook/CONTEXT.md",
+    " M runbook/README.md",
+    "?? runbook/G_showcase.md",
+    "?? runbook/KICKOFF_G.md"
+  ],
+  "update_package_sha256": "6a6f95800ebde0290554a963c9a724d23e777b5029e5c97738fc54afa5f83cad",
+  "plan_files": {
+    "runbook/G_showcase.md": {
+      "sha256": "966db5bb218f3853dd801bbee41a27e9f7d5558dcd944136f41aa3a4ac13ae43",
+      "matches_update": true,
+      "existed_in_head": false
+    },
+    "runbook/KICKOFF_G.md": {
+      "sha256": "adf2728fc20c4e6a5c2a3d314883406e47a1dca07612766d0ef5703ab2c13ba4",
+      "matches_update": true,
+      "existed_in_head": false
+    },
+    "runbook/CONTEXT.md": {
+      "sha256": "96ee35c84981efc98c843db2e2d058b139e10e08ed39fd7828a0cc84173ea8f9",
+      "matches_update": true,
+      "existed_in_head": true
+    },
+    "runbook/README.md": {
+      "sha256": "b4d51bb6f686d2298083bfb91da82355ab930993e9ebb18981bc0d91773b322b",
+      "matches_update": true,
+      "existed_in_head": true
+    }
+  },
+  "frozen_artifacts": {
+    "sentinel_v2_100m.bit": {
+      "sha256": "7a5fd71cc54c64e98697aec98d7cf73fa9afac5fe20867690443896bbd72795c",
+      "matches_acceptance": true
+    },
+    "sentinel_v2_100m.hwh": {
+      "sha256": "2084e2a427616e1531073fbb9a6ed9d10a7fc7a6602c56ae8a623bd05f768c5e",
+      "matches_acceptance": true
+    },
+    "sentinel_v2_100m.xsa": {
+      "sha256": "68319fef4b7ad0cba916803e562db98d0bbec223aa34214a3a3efd2d2bffd4bc",
+      "matches_acceptance": true
+    }
+  },
+  "backup_complete": false,
+  "board_selftest": "NOT_RUN",
+  "required_manual_action": "Close stopped imager and reconnect reader to a different direct USB port; keep SD out of board until power-off confirmed",
+  "plan_backup": "dist/g0_plan_backup_20261104_020416/plans_before_adoption.zip",
+  "plan_backup_sha256": "b570812d006053ab0331e3f1b0ab7242339ae2aea6257bc4408e39a60b69689d",
+  "disk_metadata": [
+    {
+      "Number": 1,
+      "FriendlyName": "KIOXIA-EXCERIA PLUS G3 SSD",
+      "SerialNumber": "0000_0000_0000_0000_8CE3_8E03_009D_6C67.",
+      "BusType": "NVMe",
+      "PartitionStyle": "GPT",
+      "Size": 1000204886016,
+      "OperationalStatus": "Online"
+    },
+    {
+      "Number": 0,
+      "FriendlyName": "UMIS RPJYJ512MLR1QWY",
+      "SerialNumber": "5CDF_B804_31A0_2741.",
+      "BusType": "NVMe",
+      "PartitionStyle": "GPT",
+      "Size": 512110190592,
+      "OperationalStatus": "Online"
+    }
+  ],
+  "source_identity_at_observation": {
+    "disk_number": 2,
+    "serial_number": "121220160204",
+    "size_bytes": 31266439168,
+    "partitions": [
+      {
+        "number": 1,
+        "drive_letter": "H",
+        "offset": 4096,
+        "size": 136314880
+      },
+      {
+        "number": 2,
+        "offset": 137363456,
+        "size": 31129075712
+      }
+    ],
+    "warning": "Disk number and drive letter can change on reconnect; re-enumerate before use. Get-Disk capacity is canonical, not rounded WMI geometry."
+  },
+  "image_file_metadata": [
+    {
+      "path": "E:\\zss_sd_backup_20261104.img",
+      "size_bytes": 9132572672,
+      "modified_epoch": 1793726816.9097786,
+      "status": "INCOMPLETE_F3",
+      "content_read": false,
+      "sha256_recomputed_now": false
+    },
+    {
+      "path": "E:\\zip\\zss_sd_F0_retry1.img",
+      "size_bytes": 31266439168,
+      "modified_epoch": 1793716019.335336,
+      "status": "HISTORIC_F0_PREVIOUSLY_VERIFIED",
+      "content_read": false,
+      "sha256_recomputed_now": false
+    }
+  ],
+  "limits": [
+    "1117 screenshot reports I/O failure, not a proven root cause",
+    "No current physical power or antenna confirmation",
+    "No SD repair, format, raw read, image overwrite or restore attempted",
+    "Existing F0 verified backup is not an F3 backup",
+    "Get-Partition reports H but Get-Volume did not enumerate it; cause not established"
+  ]
+}

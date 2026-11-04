@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "recorded_at_pc": "2026-11-03T01:21:41.899210+08:00",
+  "scope": "Integrated X1 CFAR simulation only; no full-system timing or hardware/RF acceptance",
+  "cases": 18,
+  "input_bins": 36864,
+  "comparisons": {
+    "threshold": {
+      "words": 36864,
+      "mismatches": 0,
+      "actual_sha256": "a8df43b763c0b46d5e95bd423760956b840529807db4f76e72a7271db3b06549",
+      "expected_sha256": "843320976011c7a782ba489fc1c83f97659c0a4324fe4b45f59a374f9a911b8c"
+    },
+    "hit": {
+      "words": 36864,
+      "mismatches": 0,
+      "actual_sha256": "67c0d8c4f62ed3529cf7e1b87c55ebcbbccb3f81fb0d516acdaaaf0d9694557c",
+      "expected_sha256": "2957de0c6dea19d1a07cee219fe3599aaabf5a67abccba888ef08c4df49cad54"
+    },
+    "db": {
+      "words": 36864,
+      "mismatches": 0,
+      "actual_sha256": "23366cf4dcd59cfcc8dd02e82b1f4456e15599ab0586b1a079e962f07f49b302",
+      "expected_sha256": "505c5f83c923b8dc1f3f6834e26989dc0671c017b22621dc8b3c58de744821b5"
+    },
+    "occupancy": {
+      "words": 36864,
+      "mismatches": 0,
+      "actual_sha256": "ef8bf005dfbf0056d004f618b39cdd071b97147514c0af649ff268a0fc703f84",
+      "expected_sha256": "b38f53bc3fc280af403444b3f4334fabe9b18594e00c57197c6dc6cda4ef4ead"
+    },
+    "targets": {
+      "words": 2304,
+      "mismatches": 0,
+      "actual_sha256": "9d1813bea875c772f3a8071410b5e444e2e2bd60c08494443773b39bf4dfff5b",
+      "expected_sha256": "08d602802fb1b3cf05eb4f01598dc273eb639111150f1c6dd1c996c0a789df2f"
+    },
+    "stats": {
+      "words": 126,
+      "mismatches": 0,
+      "actual_sha256": "5d4f8dc01e29784d193d07400676efb154eca94c963e43c12d8d693c62d3439e",
+      "expected_sha256": "502a19e1adb6ea7a1b04b9290dbef800d52b40783cceb2b371c49735947224cd"
+    }
+  },
+  "log_sha256": "4a714de41e4e7572a7b798f6ebbf53c7e6685654cf671c91a1c35fb6d57f0519",
+  "manifest_sha256": "29e7f079746c55ad2eb5e9b02e65a2732aca5725276be2c4ced5c0887bf82c44",
+  "source_sha256": {
+    "src/rtl/cfar_x1/cfar_core_x1.v": "73e522870efd7faba1fd46bf8468397cecd52a67c289194602a593166e9b38b6",
+    "src/rtl/cfar_x1/cfar_x1_regs.v": "7c5a837c9efd9b4527b39fcf5856046104deb87c5a0c263a4851474a5bc2e357",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "525ee3c90fd489fbfefbf0621e971cbdaed609ac176b41e41713eecfaf0be8d5",
+    "src/rtl/cfar/cfar_detect.v": "971bdece8e2c2e9d969de7df9ab76e395ac1d8f7a43bf8d0b2d6a46478786386",
+    "src/rtl/cfar/cfar_occupancy.v": "aeb4fb899670005153769cab6c73ad1012b8ec0bdfc9f1c8ce8af8efd1013f6d",
+    "src/rtl/common/axis_broadcast2.v": "7aad8bf3b9354ce2cbae61647866309f1cff61dc8318fe5dd3b7e16e67bdf6a3",
+    "sim/tb/tb_cfar_core_x1.sv": "c6109305f97d5c01b3bb1dc29874e62a0d1014446eb52dc9fc7f458d2faa8432",
+    "sim/golden/cfar_x1.py": "4ea6fd8277ac4adeb7ec45a2835d3d43974abf887dca486479380bc442c5b8de",
+    "sim/golden/cfar.py": "ab8354f41a9bd096776b48d9a4038682445c7f8e0fa9e163e93b96e44012e446",
+    "tools/export_cfar_x1_core_vectors.py": "9fd5adc1c73ec1eb692c84984f9d3fa3812f6a5b05557d555ba9fbb9bf7fc705"
+  },
+  "extra_checks": [
+    "AXI AW/W independent arrivals, WSTRB, stable stalled responses",
+    "Invalid mask count/order/range and width refuse new input",
+    "Mask/DC/gap/width changes during input apply only to next frame",
+    "IRQ publication exposes matching sequence/counts/alarm/status/list",
+    "Threshold/hit/target AXIS backpressure stability",
+    "Occupancy accumulation and explicit clear",
+    "Framing error visible live and in snapshot, reset clears metadata"
+  ],
+  "hardware_accessed": false
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "Pillow": "7.0.0",
+  "RF_started": false,
+  "pages": [
+    "SIG",
+    "TGT",
+    "STAT",
+    "SELFTEST"
+  ]
+}

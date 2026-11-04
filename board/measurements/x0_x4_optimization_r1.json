@@ -1,0 +1,192 @@
+{
+  "status": "VERIFIED_ISOLATED_EXPERIMENTS",
+  "recorded_at_pc_utc": "2026-11-03T00:03:36.889827+00:00",
+  "formal_status": {
+    "X0": "DONE",
+    "X1": "FAIL",
+    "X2": "FAIL",
+    "X3": "FAIL",
+    "X4": "FAIL"
+  },
+  "no_rf_access": true,
+  "deployment_changed": false,
+  "new_full_system_implementation": false,
+  "x2_ooc": {
+    "drop_counter_reference": {
+      "wns_ns": -0.13,
+      "whs_ns": -0.105,
+      "resources": {
+        "Slice LUTs": 25.0,
+        "Slice Registers": 64.0,
+        "Block RAM Tile": 0.0,
+        "DSPs": 0.0
+      },
+      "setup_and_hold_met": false,
+      "period_ns": 4.069
+    },
+    "drop_counter_segmented": {
+      "wns_ns": 1.234,
+      "whs_ns": -0.275,
+      "resources": {
+        "Slice LUTs": 81.0,
+        "Slice Registers": 67.0,
+        "Block RAM Tile": 0.0,
+        "DSPs": 0.0
+      },
+      "setup_and_hold_met": false,
+      "period_ns": 4.069
+    },
+    "cfar_cluster_x1": {
+      "wns_ns": 0.074,
+      "whs_ns": -0.419,
+      "resources": {
+        "Slice LUTs": 3850.0,
+        "Slice Registers": 6762.0,
+        "Block RAM Tile": 0.0,
+        "DSPs": 0.0
+      },
+      "setup_and_hold_met": false,
+      "period_ns": 6.667
+    },
+    "cfar_cluster_timing_x2": {
+      "wns_ns": -0.174,
+      "whs_ns": -0.419,
+      "resources": {
+        "Slice LUTs": 3841.0,
+        "Slice Registers": 6762.0,
+        "Block RAM Tile": 0.0,
+        "DSPs": 0.0
+      },
+      "setup_and_hold_met": false,
+      "period_ns": 6.667
+    }
+  },
+  "x2_simulation": "PASS cycle equivalence, stalls, carry boundaries, saturation and reset",
+  "x4_board_timing": {
+    "reference_int32": {
+      "count": 150,
+      "median_ms": 52.10658699979831,
+      "p95_ms": 125.93960094891372,
+      "max_ms": 131.53577400225913,
+      "all_under_100ms": false
+    },
+    "cached_int32": {
+      "count": 150,
+      "median_ms": 52.04420699919865,
+      "p95_ms": 125.6163480991745,
+      "max_ms": 131.47014700007276,
+      "all_under_100ms": false
+    },
+    "cached_exact_fp32": {
+      "count": 150,
+      "median_ms": 51.35590499958198,
+      "p95_ms": 125.27753314861911,
+      "max_ms": 131.13166599941906,
+      "all_under_100ms": false
+    }
+  },
+  "x4_board_median_speedup": {
+    "cached_int32": 1.0011985964278527,
+    "cached_exact_fp32": 1.0146172480111575
+  },
+  "x4_pc_exact_logits": 2000,
+  "x4_board_exact_captures": 50,
+  "x4_board_measurements": 450,
+  "x4_model_sha256": "5e752f90523ea92d95bbd0ac3fe40ff70c12d9f0023373c36c22acd495508935",
+  "board_boot_id": "c562cb48-bc51-431d-af31-54146bb89f56",
+  "python_tests": {
+    "scope": "src/ps/tests",
+    "passed": 172
+  },
+  "original_evidence_status": {
+    "x0_acceptance_r2": "PASS",
+    "x1_final_checkpoint": "FAIL",
+    "x2_deferred_summary": "FAIL_TIMING_DEFERRED",
+    "x3_analysis": "FAIL_ORIGINAL_X3_TARGETS",
+    "x4_archive_integrity": "PASS",
+    "x4_analysis_r3": "FAIL"
+  },
+  "x3_latency_planning": {
+    "measured_total_median_us": 629.9,
+    "frame_iq_samples": 2048,
+    "sample_intervals": 2047,
+    "frame_interval_convention": "First to last accepted IQ spans N-1 sample intervals",
+    "measured_fs_hz": 3840000,
+    "estimated_remaining_us": 96.82708333333323,
+    "collection_only_min_fs_hz_exclusive": 10235000.0,
+    "constant_remaining_estimates_us": {
+      "7680000": 363.3635416666666,
+      "15360000": 230.09531249999986,
+      "24576000": 180.11972656249986,
+      "30720000": 163.4611979166666
+    },
+    "qualification": "Arithmetic planning only; no new latency measurement, no acceptance change"
+  },
+  "source_and_report_sha256": {
+    "board/measurements/x0_acceptance_r2.json": "ca018e61245a373fd998e6e4069371c58b438aa59cbca9c9b2aefd305fcdff02",
+    "board/measurements/x1_final_checkpoint.json": "b2216485a18a84dfeeb4b063ddd08ec5b181c50220fb5242c9e04977ffd1b5b0",
+    "board/measurements/x2_deferred_summary.json": "d5668292a3ad2503ac7c467994155b926d92ab6cd08e9650e3e32db49bbd1fe5",
+    "board/measurements/x3_analysis.json": "9850cb6421c902dfe959b027ab85e8358a77d826ba213a08f40e9a1fe2c8bde0",
+    "board/measurements/x4_analysis_r3.json": "57ec8909c0873f4e2cfe0bd6b84e0895535a1ab93eb261c98d8824b25f15c418",
+    "board/measurements/x4_archive_integrity.json": "5b70985d2f352cb97108c381d078dad2a3902b74df41f8f92de895b5d98d936b",
+    "board/measurements/x4_cached_board_r3.json": "4938d9b461b84d87d1c371ec5996854bea6212dee7de155f501e1afbd8ccbcc7",
+    "board/scripts/bench_x4_cached.py": "16b17d432c0ee2bb92cde0740a9070210a8c37b0077f21a965e572040bbe39e1",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_timing_x2_paths.rpt": "dcfbc836b3f166fc543cce721b5daf56987e17de54cf5cb6138cbf0e3e1bf58f",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_timing_x2_timing.rpt": "805fa9102798806f01e8e8ff160b8a1339f98a11f87b26059ff07a23cd7a34bd",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_timing_x2_utilization.rpt": "988f21b0c874373f018c89627a1e5256ea07bccf82f427eb3f327b64e9de6e40",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_x1_paths.rpt": "0b568e03e803f7fab5bd19fdc63e2a1fa7f99a900c882ce29589a692630edd5f",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_x1_timing.rpt": "304c1b1d01621caee1bbe19758e2ec72b2c307dd0ab12d456457edb6fbef44ee",
+    "build/reports/x2_timing_candidates_r3/cfar_cluster_x1_utilization.rpt": "215bec5164793b2ac5c4deedba09c11568bcf47c636e855581968fbd69e233c7",
+    "build/reports/x2_timing_candidates_r3/drop_counter_reference_paths.rpt": "3f40a668f8f2e17f3548ebc965fc641917aa4f604d106e359ff74ea30efbb36f",
+    "build/reports/x2_timing_candidates_r3/drop_counter_reference_timing.rpt": "368b1862a8389f2cca14030f07ff4bbee409169c6d941a4de8d390b4b6ca6b3c",
+    "build/reports/x2_timing_candidates_r3/drop_counter_reference_utilization.rpt": "28d4656b30dbe3d806b4bbe8a058a0a9ec0015d90114e3c7e3b09539fd2f1209",
+    "build/reports/x2_timing_candidates_r3/drop_counter_segmented_paths.rpt": "65837229ab08089e7de1366777354ad3a4c275e257b6305ed2fd208e8fa6744c",
+    "build/reports/x2_timing_candidates_r3/drop_counter_segmented_timing.rpt": "97ad2005836e103294c5ef68943baec1577ed491ab605990233e267ee1b8dee9",
+    "build/reports/x2_timing_candidates_r3/drop_counter_segmented_utilization.rpt": "1e2e1b764d3dc20d9edd2cac7f28822f93e10994e878452584e85a95b590c014",
+    "build/scripts/audit_x2_timing_candidates.tcl": "a416690bd43c09c43a85d13f7c5216af4dd1b8e9f64c8600b3c9810cd1b4ee60",
+    "build/work/x4_cached_board_r3/bundle/manifest.json": "94b40aa0db2b9cd648e318951fa746bb58a99a9964b40f1fb41ba0243a36e0b6",
+    "logs/X0_X4_optimization_tests_r1.log": "0efb77bbe56bafd2190f8c21b7add108e2f0e6125f286c5a1cc7633a9fe36edc",
+    "logs/X2_timing_ooc_r1_console.log": "2d975892f517c5995d73509b3d67ba4246996b3d065e4fdcf570faac43e82233",
+    "logs/X2_timing_ooc_r2_console.log": "01b7b970d47601ccd870bb6932fb01b637cce45d2075246b0923ed0e1be96bfc",
+    "logs/X2_timing_ooc_r3.log": "d08de7f9f48b12e6d6d395af30f70c2ba0dad9f0bc2a5b4d04360be503905efc",
+    "logs/X4_cached_board_r1_stderr.log": "c667d3c6ae4345ed2765764ea9aade9ceb8bb94529e2f08f3d8e7e47f3a25cf1",
+    "logs/X4_cached_board_r2_stderr.log": "58e8ac940724b9b79ea640bd716f03aae01946be51d54d404efa7a2e798e8562",
+    "logs/X4_cached_board_r3.log": "ee749fe84a5bdd23730e507fb9e865d6192ebcdc2fc814d85b56f88e1664bb7c",
+    "sim/results/tb_x2_drop_counter.log": "fc4ed57c5bcfdf5c9526aa456bdf2571151fbd5cbe2430270de1154e4a7d212b",
+    "sim/results/tb_x2_timing_candidates.log": "a433ea10c03fdb47f37b7c746541c7ec23d2b9e3a4789f6bde04f6eb8efda551",
+    "sim/results/x4_cached_pc_r1.json": "e768f5a48ad9e70961ec945ae5e651eaa73596aa1b4781a69561995e6ab35958",
+    "sim/results/x4_cached_pc_r1.npz": "60de8ec325819a3a5f063fa11559fc6e6478a0af659c2ff570af9d76adafb781",
+    "sim/tb/drop_counter_reference.v": "34391f21d1589558515d300918d4e743684f2418fcc9f48cece0c853055474eb",
+    "sim/tb/tb_x2_drop_counter.sv": "8cf1e3ef69250a1ff2458053bc685781578c1267f4b465e031a2bbf4c1690343",
+    "sim/tb/tb_x2_timing_candidates.sv": "c87e6735077cf3112ac2daca73f4e88c044213148b728e320df8720d0c3e1d19",
+    "src/ps/sentinel/amc/__init__.py": "06c1ad18d007706f403f51c3d90ba09deb83c3549f92b29258d032530bc547ec",
+    "src/ps/sentinel/amc/contract.py": "f1a186b123603225d3df3d263f90cce25f580ea60abdbe7d8d886fa0fb1b92e1",
+    "src/ps/sentinel/amc/features.py": "49e5063cd622c1321e58db184a1e2d8a7ce60b21d0307ce5ae8991a6476cd61c",
+    "src/ps/sentinel/amc/fine.py": "d5f7b1eec3e7748b6ec0053c9ca31f05edada5d5a2dcba3b28a39d4e8ffaa78d",
+    "src/ps/sentinel/amc/infer_cached.py": "cf9240fca78a453196cc87cac1643bae3c0cf80a037e154b07e52a0319bae3a4",
+    "src/ps/sentinel/amc/infer_np.py": "5933db1be2179688f45444472e23a0eb892d2c86dd2c5b811d53875146bc64a8",
+    "src/ps/tests/test_amc_cached.py": "c6ef817b5c65e19892ba1902b0d308693d4203e75d70ae66c43857b81b9ef364",
+    "src/rtl/cfar_x1/cfar_cluster_x1.v": "525ee3c90fd489fbfefbf0621e971cbdaed609ac176b41e41713eecfaf0be8d5",
+    "src/rtl/x2_opt/cfar_cluster_timing_x2.v": "dbe868e6fd8f53a84b72371685d90a83b4e34e87963a97c88e51ad6027a683f4",
+    "src/rtl/x2_opt/drop_counter_segmented.v": "35c66bf2d1ba2bed314ebec66c6b5923ff6824c3f0a599e4e3a22c81a2dcff21",
+    "tools/audit_x2_timing_candidates.ps1": "a6c8e58a416191900551fdb94d62b059065ece06b44566ef51ccc8977268eaf0",
+    "tools/bench_x4_cached_board.py": "8df09923b98bb5d61368ac4e09e58ee29c1059ba2e5186c0d9a7fed5e8860c45",
+    "tools/benchmark_x4_cached.py": "c58cbcc185a099cbdc0cc2bda02d0320ad1142fe7f62702384ff61ab3bac59ef",
+    "tools/finalize_x0_x4_optimization.py": "cbf11af0a17c2828fe6068618376e5e26d6a65950d5d9a01471fbf71b5c9852e",
+    "tools/test_x2_timing_candidates.ps1": "7061b5fce8d81ee3d254bfe3fbc332fa549df27df8e4a654f97cbabc547890af"
+  },
+  "archive": "report/results/x0_x4_optimization_r1.zip",
+  "archive_sha256": "3c988889c89f52e2f7b542125eec5069b22d9420449d667f02eafefd05d96bb4",
+  "limitations": [
+    "OOC virtual zero-delay ports do not represent board or whole-system timing",
+    "No new whole-system implementation, RF test, UI or bandwidth acceptance",
+    "X4 timings are synthetic 50-capture paired tests, not original acceptance set",
+    "Exact FP32 dot products use floating-point arithmetic; no INT32 MAC speed claim",
+    "PC and board wall clocks differ; PC UTC and board boot_id identify this record"
+  ],
+  "decisions": [
+    "Keep deployed RTL and Predictor unchanged",
+    "Preserve X1-X4 failures and original thresholds",
+    "Do not repeat exhausted experiment rounds automatically"
+  ]
+}

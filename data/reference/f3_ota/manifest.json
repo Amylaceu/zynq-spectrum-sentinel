@@ -1,0 +1,140 @@
+{
+  "schema": "F3-TX1-native12-left16-v1",
+  "fs_base_hz": 480000,
+  "fs_tx_hz": 3840000,
+  "carrier_offset_hz": 240000,
+  "periodic_base_samples": 32768,
+  "scope": "Cyclic waveform, captures may overlap/repeat; not independent waveform trials",
+  "waveforms": [
+    {
+      "label": "BPSK",
+      "index": 0,
+      "seed": 73000,
+      "filename": "tx_00.npz",
+      "sha256": "caca5b1386a3afb7fedb245ebc4b6298b0e1b49f7039c12cb350f41fadfd1fb8",
+      "words_sha256": "82778cd86bc8c1fe363ab7c512cf57a784b0fb3d40220d73128a859e03658745",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "QPSK",
+      "index": 1,
+      "seed": 73001,
+      "filename": "tx_01.npz",
+      "sha256": "f49e69a13e90a26795615dfd6cccaf7f243c0885cb14203f2414df805beb08b4",
+      "words_sha256": "473ad5a4064ccb28709eac80eb917ae23c10ec8723a4d09dbcd133a7abf6b49a",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "8PSK",
+      "index": 2,
+      "seed": 73002,
+      "filename": "tx_02.npz",
+      "sha256": "0c02624cbf95110c88d5a5a38ddf6b4585d1b02ed8cdfb2a5ff7d2cebf622c04",
+      "words_sha256": "d99128efbe275704c4352e59caef00aad92e8702bc68fabdfa115f9e6b95be74",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "16QAM",
+      "index": 3,
+      "seed": 73003,
+      "filename": "tx_03.npz",
+      "sha256": "f9d348d3b65650d0dd9a1ab33a7183a7c791c0d76ede1c174508809955e8b007",
+      "words_sha256": "a7c84bff7256e91d7e57658f48367d75a6f96d573dd94901ccc13042df20f9a8",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "64QAM",
+      "index": 4,
+      "seed": 73004,
+      "filename": "tx_04.npz",
+      "sha256": "6c5654599457f9aa9a3e1b9bb560d5ef2e4603826b90473c6fa94c4a427400b0",
+      "words_sha256": "8cd2d5c907e1206a7ff01366e02b684df61668d01d0259bb338b8801d8b32967",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "2FSK",
+      "index": 5,
+      "seed": 73005,
+      "filename": "tx_05.npz",
+      "sha256": "245fe234904ff3d945420a1194becf6e20908c2aab335115579c97a3497503d8",
+      "words_sha256": "4051371e632768c913fc9c79c753733c3bbf29a6f5a49723c0688bf94be8f1ee",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "GFSK",
+      "index": 6,
+      "seed": 73006,
+      "filename": "tx_06.npz",
+      "sha256": "403744a6bbce2dc6bb76c57f20d2abf59b520b6cd430557da240101d3b50be47",
+      "words_sha256": "403e560b04489532c4f7a7364eace7cebe9eb8e8dbc0bc1a8c6a1dc98c235919",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "OOK",
+      "index": 7,
+      "seed": 73007,
+      "filename": "tx_07.npz",
+      "sha256": "c91d46083f597df6e9ff5c24e149811d307972d328d64fa6e3d61a6dacd4f08b",
+      "words_sha256": "9ba35fbfbe848ccb2b1b23e15205318a9698e954a071b8a76bd2a5b671b772bb",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "AM-DSB",
+      "index": 8,
+      "seed": 73008,
+      "filename": "tx_08.npz",
+      "sha256": "d15847ad4e9966aa77e6ca9c53e702370dbc04eb235277e2f7d7eb0eabb86a63",
+      "words_sha256": "3c16287e1380a177453cce13902ac8589ce7618f3c3a0fde70d6fb826803fd04",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    },
+    {
+      "label": "FM",
+      "index": 9,
+      "seed": 73009,
+      "filename": "tx_09.npz",
+      "sha256": "3133e22d4a3c84e0c4989cf1026cef52cc322b72eff9a2d9e886336bfd080738",
+      "words_sha256": "97de6a17af4e9fdb5b028e5ab2fee9d9f3b5fd9c4e578d20eb41c297778ee0c1",
+      "words_shape": [
+        262144,
+        4
+      ],
+      "peak_native": 1023
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "FAIL_CONTINUOUS_SEQUENCE",
+  "supersedes": "acceptance.json status PASS only",
+  "reason": "Initial validator did not reject failed continuous transitions; original evidence retained unchanged.",
+  "board_error": "RuntimeError('Resident processing/DMA continuity fault')",
+  "original_acceptance_sha256": "fe7a49dda104a72560f9235ff0761f00953e7975906b1b9e2d932c83973adc74",
+  "board_result_sha256": "f97056d851759da25b3667c9aa7f898fa7aa7e3fb727b60786a9993b0bd02d27",
+  "replacement": "../j6_dma_r1/acceptance.json"
+}

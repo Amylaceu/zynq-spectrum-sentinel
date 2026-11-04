@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-02",
+  "source": "user_visual_confirmation",
+  "green_spectrum_curve": true,
+  "color_waterfall": true,
+  "frame_counter_increasing": true,
+  "visual_acceptance_passed": true,
+  "touch_tested": false,
+  "processing": "Board CPU FFT of gapped antenna RX snapshots",
+  "bit_sha256": "773a378a6ee8f4b6b7e9a824e71a4eaa823087f33faf57c2029348f2a92c8487"
+}

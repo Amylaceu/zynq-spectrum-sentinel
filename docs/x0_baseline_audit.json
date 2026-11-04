@@ -1,0 +1,770 @@
+{
+  "recorded_at": "2026-11-03T00:12:50.858822+08:00",
+  "baseline_head": "49a4ed844b5813e84747d5b46a94aa694ef8219d",
+  "tracked_modified_count": 14,
+  "untracked_count": 65,
+  "untracked_n4_measurement_count": 27,
+  "checks": [
+    {
+      "path": "build/reports/sentinel_v1/acceptance.json",
+      "sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9",
+      "expected_sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9",
+      "match": true,
+      "label": "implementation_evidence"
+    },
+    {
+      "path": "board/measurements/n4_selftest_round2_acceptance.json",
+      "sha256": "c4e33b266dab88983889e8375f0789525efabf2323e8d6d78d96ac3d7f087db1",
+      "expected_sha256": "c4e33b266dab88983889e8375f0789525efabf2323e8d6d78d96ac3d7f087db1",
+      "match": true,
+      "label": "selftest_evidence"
+    },
+    {
+      "path": "board/measurements/n4_rf_phase3_visual_acceptance.json",
+      "sha256": "43c61436c764f435117b015a9784dfc7a166d9f743db16f85d9c8639947ecf26",
+      "expected_sha256": "43c61436c764f435117b015a9784dfc7a166d9f743db16f85d9c8639947ecf26",
+      "match": true,
+      "label": "rf_visual_acceptance"
+    },
+    {
+      "path": "board/measurements/n4_final_rf_gpio.json",
+      "sha256": "8d796ae46167cdbc3630477a2bb6fc93565cd48dab99991156de3d921fe66754",
+      "expected_sha256": "8d796ae46167cdbc3630477a2bb6fc93565cd48dab99991156de3d921fe66754",
+      "match": true,
+      "label": "final_gpio_evidence"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase25_ui_r2.json",
+      "sha256": "92b27d9336de11adca6a38db8219d24ee39428c5f3d0e4b1995403571506953e",
+      "expected_sha256": "92b27d9336de11adca6a38db8219d24ee39428c5f3d0e4b1995403571506953e",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase25_ui_acceptance.json",
+      "sha256": "3a3310a933e60b74f6c74fc09462e6e6b79f3c8827f9839d9ef8a5f59253a32f",
+      "expected_sha256": "3a3310a933e60b74f6c74fc09462e6e6b79f3c8827f9839d9ef8a5f59253a32f",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase12_ui_r1.json",
+      "sha256": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339",
+      "expected_sha256": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase12_ui_acceptance.json",
+      "sha256": "6a156edc3d0af2d8d33148751e244b7b61bbec10555cd3978ebc63ef0c858810",
+      "expected_sha256": "6a156edc3d0af2d8d33148751e244b7b61bbec10555cd3978ebc63ef0c858810",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase8_ui_r1.json",
+      "sha256": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf",
+      "expected_sha256": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase8_ui_acceptance.json",
+      "sha256": "808dec29bb00ae012ea0d751c2039f1bd8d91b69844ab886c51d3e3b2e9a1439",
+      "expected_sha256": "808dec29bb00ae012ea0d751c2039f1bd8d91b69844ab886c51d3e3b2e9a1439",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase6_ui_r1.json",
+      "sha256": "0ecab54be6804589a77f8245841d7d41ce54b4a72f0f55e1fbc1c244aaf73933",
+      "expected_sha256": "0ecab54be6804589a77f8245841d7d41ce54b4a72f0f55e1fbc1c244aaf73933",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase6_ui_acceptance.json",
+      "sha256": "a760b15ba65fe9ec90c92e4ed81e9622b37492da6577327845da023dca958e9a",
+      "expected_sha256": "a760b15ba65fe9ec90c92e4ed81e9622b37492da6577327845da023dca958e9a",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase4_ui_r1.json",
+      "sha256": "f8564c10a95bb46355c029dbcdb8bf451b8d340a56bb59d85a3cbac1b1056921",
+      "expected_sha256": "f8564c10a95bb46355c029dbcdb8bf451b8d340a56bb59d85a3cbac1b1056921",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase4_ui_acceptance.json",
+      "sha256": "f9e7e3f05fffa0f8268f7f714f6e6213dd24c2ef31b63f975eaf932aa0a0f030",
+      "expected_sha256": "f9e7e3f05fffa0f8268f7f714f6e6213dd24c2ef31b63f975eaf932aa0a0f030",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase3_ui_r1.json",
+      "sha256": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7",
+      "expected_sha256": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase3_ui_acceptance.json",
+      "sha256": "d5c7839d309b55981667b84eb20d2ed4abdb209d686545bc7708674721fa905a",
+      "expected_sha256": "d5c7839d309b55981667b84eb20d2ed4abdb209d686545bc7708674721fa905a",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_bench_phase2_ui_r1.json",
+      "sha256": "ab6628b009071aaebb73ff341365402c9c29570aebf6130e48bf121b6708f4ea",
+      "expected_sha256": "ab6628b009071aaebb73ff341365402c9c29570aebf6130e48bf121b6708f4ea",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_phase2_ui_acceptance.json",
+      "sha256": "d951f7f6b755fd2332180b68ef6d97441f902e1e329e8e39a7b8f993a9a21bfd",
+      "expected_sha256": "d951f7f6b755fd2332180b68ef6d97441f902e1e329e8e39a7b8f993a9a21bfd",
+      "match": true,
+      "label": "LCD human record"
+    },
+    {
+      "path": "board/measurements/n4_monitor_rf_phase3_r1.json",
+      "sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01",
+      "expected_sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/measurements/n4_monitor_rf_958_phase3_r1.json",
+      "sha256": "05715d6adec5c25b22c9b335899aa2493e145a4ab2ae7de65cc1a2eec75dc002",
+      "expected_sha256": "05715d6adec5c25b22c9b335899aa2493e145a4ab2ae7de65cc1a2eec75dc002",
+      "match": true,
+      "label": "N4 measurement"
+    },
+    {
+      "path": "board/overlay/sentinel_v1/sentinel_v1.bit",
+      "sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+      "expected_sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469",
+      "match": true,
+      "label": "Accepted implementation artifact"
+    },
+    {
+      "path": "board/overlay/sentinel_v1/sentinel_v1.hwh",
+      "sha256": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f",
+      "expected_sha256": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f",
+      "match": true,
+      "label": "Accepted implementation artifact"
+    },
+    {
+      "path": "board/overlay/sentinel_v1/sentinel_v1.xsa",
+      "sha256": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3",
+      "expected_sha256": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3",
+      "match": true,
+      "label": "Accepted implementation artifact"
+    },
+    {
+      "path": "board/measurements/n4_selftest_round2.json",
+      "sha256": "3ae1b7bc1ad369a5a666e7a18a9ed4c994257962c2ba98858a3c637b5120715c",
+      "expected_sha256": "3ae1b7bc1ad369a5a666e7a18a9ed4c994257962c2ba98858a3c637b5120715c",
+      "match": true,
+      "label": "Selftest result"
+    },
+    {
+      "path": "board/measurements/n4_selftest_round2.npz",
+      "sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+      "expected_sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2",
+      "match": true,
+      "label": "Selftest raw archive"
+    },
+    {
+      "path": "data/reference/spectrum/in_axis32.hex",
+      "sha256": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+      "expected_sha256": "3dedd7ab42bd109075106b0ea5ee09da79e7a909420bac67aa8700f919c42942",
+      "match": true,
+      "label": "Selftest reference"
+    },
+    {
+      "path": "data/reference/spectrum/exp_power_shifted.hex",
+      "sha256": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4",
+      "expected_sha256": "c6276a6f9a2e84275792849ceeada935b9877c696ee3ce83fa8b8602a2f10ee4",
+      "match": true,
+      "label": "Selftest reference"
+    },
+    {
+      "path": "logs/N4_final_ps_tests.log",
+      "sha256": "964d4e0748b5c925b0c6f5a515e5ee19021137fbf1f28aef58bd4121704f0c89",
+      "expected_sha256": "964d4e0748b5c925b0c6f5a515e5ee19021137fbf1f28aef58bd4121704f0c89",
+      "match": true,
+      "label": "Historical PS test log"
+    },
+    {
+      "path": "src/hw/sentinel_v1/fmcomms2_z20_bd.tcl",
+      "sha256": "65af344c8d91ee64c7ce91ceba8e1549fbfa89950d601cf6ad96dab81097f129",
+      "expected_sha256": "65af344c8d91ee64c7ce91ceba8e1549fbfa89950d601cf6ad96dab81097f129",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/lcd_j22.xdc",
+      "sha256": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6",
+      "expected_sha256": "d4d5f9839787dee8086b44a092960b78ebbd2383a23ff5dbce3fe763a03c18d6",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/Makefile",
+      "sha256": "9ebc5ecb49a015ed5211cfa6bf617cba636270949438ff1dfb3163f6afe9606f",
+      "expected_sha256": "9ebc5ecb49a015ed5211cfa6bf617cba636270949438ff1dfb3163f6afe9606f",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/sentinel_bd.tcl",
+      "sha256": "fe7a4f51206ded0ebdc9b8c5bd54efaa6672e261108fbe902fe07c39f5c2159a",
+      "expected_sha256": "fe7a4f51206ded0ebdc9b8c5bd54efaa6672e261108fbe902fe07c39f5c2159a",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/system_bd.tcl",
+      "sha256": "689cccd58064210d531ea1930869ee6aa2e7e6d35958721341f7585561e732b5",
+      "expected_sha256": "689cccd58064210d531ea1930869ee6aa2e7e6d35958721341f7585561e732b5",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/system_constr.xdc",
+      "sha256": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+      "expected_sha256": "02dcad5a7cc634ddb16aacc1d3ac663002a794dc8fac5d39c20055a5fe944d28",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/system_project.tcl",
+      "sha256": "1d0837e22e5ae03ec10e6b45eb56434646183db9eb10dfa5599948de62318a56",
+      "expected_sha256": "1d0837e22e5ae03ec10e6b45eb56434646183db9eb10dfa5599948de62318a56",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/system_top.v",
+      "sha256": "8ec1378a5f4c04fe8cc23be4a3d7ed28db50c3132cf3c65e9b0f1d62853a563f",
+      "expected_sha256": "8ec1378a5f4c04fe8cc23be4a3d7ed28db50c3132cf3c65e9b0f1d62853a563f",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/z20_ps7_preset.tcl",
+      "sha256": "925e761dd2284d0adcd379492538d908b4497883d1d42ff955c85495b1f5866b",
+      "expected_sha256": "925e761dd2284d0adcd379492538d908b4497883d1d42ff955c85495b1f5866b",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/z20_system_bd.tcl",
+      "sha256": "e4c9a380597a850c7414d45063d66f078b70943233538cbe6af4683ff153b3d2",
+      "expected_sha256": "e4c9a380597a850c7414d45063d66f078b70943233538cbe6af4683ff153b3d2",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/z20_system_constr.xdc",
+      "sha256": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513",
+      "expected_sha256": "2385889ea91b1d8ef043b259e3b6a7c09eaba036c971f38354de7190451fa513",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    },
+    {
+      "path": "src/hw/sentinel_v1/adc_tap_cdc.xdc",
+      "sha256": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565",
+      "expected_sha256": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565",
+      "match": true,
+      "label": "Prebuild overlay source plus accepted timing patch"
+    }
+  ],
+  "status": "PASS",
+  "files": [
+    {
+      "git_status": " M",
+      "path": "board/scripts/bench_lcd.py",
+      "size": 3386,
+      "sha256": "29c71dcd5bbcd94f286c3740104b38f93f336f0989e1587c57bd2f740bccb796"
+    },
+    {
+      "git_status": " M",
+      "path": "build/scripts/audit_sentinel_v1.tcl",
+      "size": 1653,
+      "sha256": "7704eae260af1ed128fda234ffa3bdb6d6f35435b8dcc2f603c51356144d700b"
+    },
+    {
+      "git_status": " M",
+      "path": "docs/n4_board_software.md",
+      "size": 9096,
+      "sha256": "a1c47e7d7c1aa3346f0c6548b7df8098c330973d7812a9fc9f853855c2bd4826"
+    },
+    {
+      "git_status": " M",
+      "path": "runbook/README.md",
+      "size": 9019,
+      "sha256": "a72004ba7e43e33626b758d85085ee12b7dcfb3421a00d6cdd2e6d6769f1c393"
+    },
+    {
+      "git_status": " M",
+      "path": "runbook/STATUS.md",
+      "size": 31451,
+      "sha256": "bc5dec8eb1ec686483b92b2502c2f7e8d75e9f645070ea60648d02f408c06648"
+    },
+    {
+      "git_status": " M",
+      "path": "sim/results/n4_integration_prebuild.json",
+      "size": 3930,
+      "sha256": "774ff282590cb2849f300f233783f3daa49d4010f08dc5d187ccd3dd3241eee8"
+    },
+    {
+      "git_status": " M",
+      "path": "src/hw/sentinel_v1/system_project.tcl",
+      "size": 1424,
+      "sha256": "1d0837e22e5ae03ec10e6b45eb56434646183db9eb10dfa5599948de62318a56"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/sentinel/app/monitor.py",
+      "size": 4764,
+      "sha256": "9638b5706fb67ae44073b620e85ab5901ea51bbb78b8dadf8d518af66122db41"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/sentinel/app/runtime_v1.py",
+      "size": 2968,
+      "sha256": "edcb3dad107f375bc83a164c1538fbf9c1aa1e3e1418ed0b070fb997e178d3a3"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/sentinel/lcd_direct.py",
+      "size": 4119,
+      "sha256": "67e3a4fa5b8f8bac9419526626e70bb02ecd7fcf3174c3ad156abd441ec7ae38"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/sentinel/v1.py",
+      "size": 4580,
+      "sha256": "b2d9fea64aa705dd757621b2e40dd5ffde4137dfbb081a6fbccbb0eaa7b55af5"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/tests/test_lcd_direct.py",
+      "size": 2340,
+      "sha256": "076804a59f2f6f473de7d0d696e34e327622f9525d12a88c8e4f8ebf2db9834c"
+    },
+    {
+      "git_status": " M",
+      "path": "src/ps/tests/test_v1_runtime.py",
+      "size": 6525,
+      "sha256": "727878b7a7aa6d498afc43790ba7fe2cb2de38e638e1b38d93a8e939a637cedf"
+    },
+    {
+      "git_status": " M",
+      "path": "tools/accept_sentinel_v1.py",
+      "size": 5697,
+      "sha256": "2897be974476040a69651b4f67ca35ee0bdfaf55f5d924352fc2fe954264e421"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_acceptance_summary.json",
+      "size": 9342,
+      "sha256": "79ef946fcb82733412a73a734e8f962abfc93ae01484013169da9b0923789178"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase12_ui_r1.json",
+      "size": 447,
+      "sha256": "50f7f3373124c3dc8417f147ccd02c9992b5b173b3bed91231363ad1d2b6a339"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase25_dynamic_r1.json",
+      "size": 298,
+      "sha256": "38f427c3394f9ff4af9346dc198833865ffe7e904fb4aafcbebab99931ac6bf5"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase25_round1.json",
+      "size": 297,
+      "sha256": "fdd302b2522015cdda2475999f4890a728ef7cfdc4adc968a0aa6ebd4de8da8e"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase25_ui_r1.json",
+      "size": 355,
+      "sha256": "df39c4e0593f021f4b4a07acdd13e568c175b93d61de32ef60b55a5d61ade416"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase25_ui_r2.json",
+      "size": 445,
+      "sha256": "92b27d9336de11adca6a38db8219d24ee39428c5f3d0e4b1995403571506953e"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase25_visual.jpg",
+      "size": 1497922,
+      "sha256": "04dc6be97468b03b82fd2b4048fa1296300940ac4cc7a44fc09cd6bb3500ef3e"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase2_ui_r1.json",
+      "size": 446,
+      "sha256": "ab6628b009071aaebb73ff341365402c9c29570aebf6130e48bf121b6708f4ea"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase3_ui_r1.json",
+      "size": 446,
+      "sha256": "71407735564dc068a70af6c3aa1c05fe71026dd749208833e052d88180e359b7"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase4_ui_r1.json",
+      "size": 446,
+      "sha256": "f8564c10a95bb46355c029dbcdb8bf451b8d340a56bb59d85a3cbac1b1056921"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase6_ui_r1.json",
+      "size": 446,
+      "sha256": "0ecab54be6804589a77f8245841d7d41ce54b4a72f0f55e1fbc1c244aaf73933"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_bench_phase8_ui_r1.json",
+      "size": 447,
+      "sha256": "a866dd9769724e86be93c74d09203789d9c63877b2bb9a73da5d0c1b2e88f9bf"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_final_rf_gpio.json",
+      "size": 832,
+      "sha256": "8d796ae46167cdbc3630477a2bb6fc93565cd48dab99991156de3d921fe66754"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_monitor_rf_958_phase3_r1.json",
+      "size": 417862,
+      "sha256": "05715d6adec5c25b22c9b335899aa2493e145a4ab2ae7de65cc1a2eec75dc002"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_monitor_rf_phase3_r1.json",
+      "size": 441057,
+      "sha256": "ebf50f7aa9e823560e426cb47ca0a273ebb213785566696808e86728428aea01"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase12_ui_acceptance.json",
+      "size": 463,
+      "sha256": "6a156edc3d0af2d8d33148751e244b7b61bbec10555cd3978ebc63ef0c858810"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase25_ui_acceptance.json",
+      "size": 471,
+      "sha256": "3a3310a933e60b74f6c74fc09462e6e6b79f3c8827f9839d9ef8a5f59253a32f"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase25_visual_acceptance.json",
+      "size": 794,
+      "sha256": "c08a10437ad0b64fccb4f7b9384ffbdb97fc110da4112476d5a7651cc7d2d4fc"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase2_ui_acceptance.json",
+      "size": 446,
+      "sha256": "d951f7f6b755fd2332180b68ef6d97441f902e1e329e8e39a7b8f993a9a21bfd"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase3_ui_acceptance.json",
+      "size": 447,
+      "sha256": "d5c7839d309b55981667b84eb20d2ed4abdb209d686545bc7708674721fa905a"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase4_ui_acceptance.json",
+      "size": 446,
+      "sha256": "f9e7e3f05fffa0f8268f7f714f6e6213dd24c2ef31b63f975eaf932aa0a0f030"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase6_ui_acceptance.json",
+      "size": 446,
+      "sha256": "a760b15ba65fe9ec90c92e4ed81e9622b37492da6577327845da023dca958e9a"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_phase8_ui_acceptance.json",
+      "size": 494,
+      "sha256": "808dec29bb00ae012ea0d751c2039f1bd8d91b69844ab886c51d3e3b2e9a1439"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_rf_phase3_visual_acceptance.json",
+      "size": 524,
+      "sha256": "43c61436c764f435117b015a9784dfc7a166d9f743db16f85d9c8639947ecf26"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_selftest_round2.json",
+      "size": 1281,
+      "sha256": "3ae1b7bc1ad369a5a666e7a18a9ed4c994257962c2ba98858a3c637b5120715c"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_selftest_round2.npz",
+      "size": 58735,
+      "sha256": "0da9a7bc090d4dcae36cc4e08d870d3d73a4d8c4d77550819b6a6bff850a15c2"
+    },
+    {
+      "git_status": "??",
+      "path": "board/measurements/n4_selftest_round2_acceptance.json",
+      "size": 839,
+      "sha256": "c4e33b266dab88983889e8375f0789525efabf2323e8d6d78d96ac3d7f087db1"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/acceptance.json",
+      "size": 1622,
+      "sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/provenance.json",
+      "size": 919,
+      "sha256": "021dee556eae0d6d68f7e917823f240f4c9326a16aff24b695006acbc92f61e6"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/sentinel_v1.bit",
+      "size": 2701780,
+      "sha256": "73e69bca4b2eb2af0f47e6b6f6244948c742cd6cf03eb28f1dfd6d5380afe469"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/sentinel_v1.hwh",
+      "size": 1259756,
+      "sha256": "edd0af38219e0b4a59699aee0a7e77154ec48f707fb733afd10e1db286df2e7f"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/sentinel_v1.xsa",
+      "size": 1376027,
+      "sha256": "8c5964881a4c74199aed42fd4a5ddb4d2cbc1fb8348ca3a6d98f185533c06eb3"
+    },
+    {
+      "git_status": "??",
+      "path": "board/overlay/sentinel_v1/sha256.txt",
+      "size": 249,
+      "sha256": "cc32552319912be4141422ebbb4c7ffdc4b829fe7621164603cf15ea5a731d06"
+    },
+    {
+      "git_status": "??",
+      "path": "board/scripts/check_n4_rf_gpio.py",
+      "size": 934,
+      "sha256": "5c41109e96518bfebeb2b6d6dab5ca8349b430cfd2a3cd473b16c489b1f98067"
+    },
+    {
+      "git_status": "??",
+      "path": "board/scripts/install_n4_admin.sh",
+      "size": 1301,
+      "sha256": "7d6e45867d3ea119f75fd3ddc1b371c2372bff3b6266f2ffe6e77ba2d6e2a0cc"
+    },
+    {
+      "git_status": "??",
+      "path": "board/scripts/zss_n4_admin.py",
+      "size": 3785,
+      "sha256": "cb666eab0b83204f42dc786d4ce9192bc7a7b62e9ac3919571dc3f2ecc6429c4"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/SUMMARY.md",
+      "size": 1445,
+      "sha256": "d00297755348a3a93e40ab67d359577401d5dac0af234055fa735a88293db06c"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/acceptance.json",
+      "size": 1622,
+      "sha256": "74679d2058ad752355f92445d10e4c2b39c2c19617ee869b8776d6e5d3d291f9"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_bus_skew.rpt",
+      "size": 588061,
+      "sha256": "f7a61290049fb012f194484e00110b6998217ff7fe81b13486a27e47ebdd1ed7"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_cdc.rpt",
+      "size": 4562,
+      "sha256": "48e5eb20f530bc09aa9b48d90931254272929e437a19097a860e9dd312a30222"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_cdc_details.rpt",
+      "size": 535812,
+      "sha256": "fb5acc5e9b8be18709dfb9fb201392ef7f76c44e3c6550f9fe5b5f3f8598d7d5"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_clocks.rpt",
+      "size": 3717,
+      "sha256": "b845b703abac4c20701a9b07c5464cdafdc47ee52ce03dc7ab37fa0b463ec22e"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_exceptions_coverage.rpt",
+      "size": 39539,
+      "sha256": "2afd60940dc2fbfcd8400214a9840b94aad3f20b77aa939aafd27fb91da57283"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_methodology.rpt",
+      "size": 34112,
+      "sha256": "5fe3b50089b08d2ccceba93ac6d4547c7fff8ff8189fc26c133671fe6d3a5cb9"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_timing.rpt",
+      "size": 244462,
+      "sha256": "c3ecb4a18d43df5f86449c6f40362d6d91152966a43e66b138bfaa5c3ae16610"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/final_utilization.rpt",
+      "size": 16126,
+      "sha256": "a9ed4791dea4e202c56c4310b70f363ca5ed56ed23d5d6f24edd33e3c105525d"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/system_top_clock_utilization_routed.rpt",
+      "size": 47509,
+      "sha256": "a129fa4770df71f8a3ef52b871300a161bd27868187965d303f3b6be4ae02153"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/system_top_timing_summary_postroute_physopted.rpt",
+      "size": 3597512,
+      "sha256": "202eed573e72f6b68df5e201c79bd73a7132a1975d598be89c2213dc87a166bd"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/system_top_timing_summary_routed.rpt",
+      "size": 3588434,
+      "sha256": "44148ace57f303615d360204e6889a19aa326fb40b387fdc48b227c8bdc955f8"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/system_top_utilization_placed.rpt",
+      "size": 16132,
+      "sha256": "d7ac60dd633291d2a465a32ed775ad756195b6255e12948d957485ac6c2f9f88"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/timing_impl.log",
+      "size": 244422,
+      "sha256": "c3e02e94e5d92d5ad401f23c69a0260502cead4330cf96ee9901912ee83a58c8"
+    },
+    {
+      "git_status": "??",
+      "path": "build/reports/sentinel_v1/timing_synth.log",
+      "size": 246368,
+      "sha256": "e7a28b2617f6522f69446d30e6ffebd01eb5a6def2c355bfaa850aaca3d951c3"
+    },
+    {
+      "git_status": "??",
+      "path": "docs/antenna_sd_guide.md",
+      "size": 7478,
+      "sha256": "a477f2f2a38be5affe8d5b8358d6bb2ebebfa65dbb8f2f1fd818bd15cae33313"
+    },
+    {
+      "git_status": "??",
+      "path": "docs/n4_acceptance_summary.md",
+      "size": 5151,
+      "sha256": "f32bbb12aea6f27d86fae70a0f3334f2d30208c9768f0a0585a5d88d28ae77ca"
+    },
+    {
+      "git_status": "??",
+      "path": "report/llm_logs/N4_local_resume_checkpoint.md",
+      "size": 4763,
+      "sha256": "05c23a8df1c1e468ef25f4dde8312d74223e5cd2bf6f41aa35ae291e59526dff"
+    },
+    {
+      "git_status": "??",
+      "path": "runbook/90_plan.md",
+      "size": 15088,
+      "sha256": "893895f9c88b91b4fb2adb59dcad48b1260b18929e4131477c31326f9710f9a0"
+    },
+    {
+      "git_status": "??",
+      "path": "runbook/KICKOFF_X.md",
+      "size": 3517,
+      "sha256": "6e8b8363932bd246eda099872ab11566bed0375735f70609e91e77067e2ed22c"
+    },
+    {
+      "git_status": "??",
+      "path": "runbook/review_20261103.md",
+      "size": 5434,
+      "sha256": "df2f60f75b316db7ead357f651c6739e967fda45cc714a42b96b5cc778b140f3"
+    },
+    {
+      "git_status": "??",
+      "path": "src/hw/sentinel_v1/adc_tap_cdc.xdc",
+      "size": 707,
+      "sha256": "245e13d424ccf1cfb980b4ffbd74c0e01b64e84f7c07c0f948cea55b57f52565"
+    },
+    {
+      "git_status": "??",
+      "path": "src/ps/sentinel/telemetry.py",
+      "size": 964,
+      "sha256": "e2f46d9d50608437cac50723eb56ad6b8c8abb81f9d2a2f2e6b1dce6bb227a2a"
+    },
+    {
+      "git_status": "??",
+      "path": "src/ps/tests/test_telemetry.py",
+      "size": 1183,
+      "sha256": "3c5e0d5a87650c2a1fb3d4a387a5526f854298fd9b72dd32be5a194c8d220f39"
+    },
+    {
+      "git_status": "??",
+      "path": "tools/analyze_v1_selftest.py",
+      "size": 5049,
+      "sha256": "bdb6554ab83990f363e476d8978fa36aa62a91ba48dda278fb6da5082eacfd31"
+    },
+    {
+      "git_status": "??",
+      "path": "tools/audit_n4_cdc_details.tcl",
+      "size": 674,
+      "sha256": "13e57f6a28ff99ccd15aa455a89d226b599accee5934437c493d023d9feaf901"
+    },
+    {
+      "git_status": "??",
+      "path": "tools/deploy_n4.ps1",
+      "size": 2756,
+      "sha256": "d2d488e97fe766e77c57a011ff85a1c6b8b6fe7c254ac4f8aad16a3d15a3d9e2"
+    },
+    {
+      "git_status": "??",
+      "path": "tools/preflight_n4_cdc.tcl",
+      "size": 964,
+      "sha256": "ad05c0811c7c5f242592552a45d09a5da1c10ab2ad5ec75ff191529523b2e710"
+    }
+  ],
+  "snapshot": "logs/X0_before_changes.zip",
+  "snapshot_sha256": "e8af507d7258c606360e70128c7ff481df8397c515e03f6078f3ea7b11a39f77",
+  "source_provenance_limit": "N4 summary hashes cover implementation artifacts, overlay source checks and measurement files, but not a complete PS-source manifest. Current source snapshot is recorded now; it is not retroactive proof of every deployed N4 PS byte.",
+  "scope": "PC evidence/hash audit only; no RF, FPGA, GPIO or SD operation"
+}

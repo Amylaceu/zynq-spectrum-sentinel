@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tx_enabled": false,
+  "bit_sha256": "dabcf3000b8cf7cd16fffee56db7bea43ad7b132b6353c2409d0229582d75658",
+  "product_id": "0xa",
+  "sample_rate_hz": 30720000,
+  "ensm_mode": 2,
+  "tx_attenuation_mdb": [
+    89750,
+    89750
+  ],
+  "gpio_after_close": 0,
+  "rf_held_in_reset_after_test": true
+}

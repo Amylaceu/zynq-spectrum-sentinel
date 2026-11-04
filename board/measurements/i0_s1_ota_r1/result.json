@@ -1,0 +1,259 @@
+{
+  "status": "PASS",
+  "mode": "calibrate",
+  "antenna": "Presentation S1, user confirmed",
+  "library_sha256": "e89a131aebe30f35575a7de2ba21b66da0c55eb78d7ed06abb0c2837b858d271",
+  "samples": [
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 89.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -30.948188944437206,
+      "peak_hz": 241406.25,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.112032231427757,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 86.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -26.581267785711894,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.186411548083487,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 83.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -23.14989145439188,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.081831579955327,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 80.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -21.827422213433273,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.0936811009527405,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 77.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -18.504938484141846,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.190396522853829,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 74.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -16.578045909653937,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.06197853699365,
+      "max_component": 20.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 71.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -12.878381448913352,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.1068329159705845,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 68.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -10.22517871844639,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.162629221483528,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 65.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -7.0341661870439145,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.1075021653583885,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 62.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -4.058360090089986,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.123195423527806,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 59.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": -1.304863724625525,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.09793910853169,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 56.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 1.7260161725022996,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.167205454308087,
+      "max_component": 19.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 53.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 4.952604486823363,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.261270686657478,
+      "max_component": 18.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 50.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 7.865431183540521,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.517154643593754,
+      "max_component": 21.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 47.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 10.861665170364233,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 5.953783694693915,
+      "max_component": 20.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.75,
+      "tx_atten_db": 44.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 13.813829167599911,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 6.486179624636283,
+      "max_component": 22.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.0,
+      "tx_atten_db": 41.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 16.821753679978265,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 7.655297294041313,
+      "max_component": 23.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    },
+    {
+      "rssi_dbm": -86.0,
+      "tx_atten_db": 40.0,
+      "tx2_atten_db": 89.75,
+      "cw_ratio_db": 17.7209862058996,
+      "peak_hz": 240000.0,
+      "residual_band_hz": 1500000,
+      "rms_native": 8.214164818294638,
+      "max_component": 25.0,
+      "metric": "CW power +/-2 bins / residual in +/-750kHz, excluding DC +/-2bins"
+    }
+  ],
+  "rf_lo_hz": 2450000000,
+  "boot_id": "cf69eed5-2394-48e0-bd7c-ee1d41ec26e6",
+  "prepared_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "rejected_unsafe_attenuation": -22,
+  "mode3_ctrl_readback": 6,
+  "mode3_scope": "Actual RF+noise through PL PFB capture; not replay+noise",
+  "start_health": {
+    "rssi_dbm": -76.75,
+    "tx_atten_db": 89.75,
+    "tx2_atten_db": 89.75
+  },
+  "broadband_25db_pass": false,
+  "pfb_noise_probe": [
+    {
+      "noise_amp": 0,
+      "signal_power": 9.524136280747442e-06,
+      "residual_power": 2.0688653235012566e-08,
+      "coherent_cw_ratio_db": 26.63093380683967,
+      "channel_rate_hz": 480000,
+      "metric": "DC coherent CW / all residual PL PFB output power; not occupied-band AMC SNR"
+    },
+    {
+      "noise_amp": 0,
+      "signal_power": 9.561772317534523e-06,
+      "residual_power": 2.0158863411889882e-08,
+      "coherent_cw_ratio_db": 26.76072355909699,
+      "channel_rate_hz": 480000,
+      "metric": "DC coherent CW / all residual PL PFB output power; not occupied-band AMC SNR"
+    },
+    {
+      "noise_amp": 8192,
+      "signal_power": 1.0528957390509852e-05,
+      "residual_power": 0.00010909798758873546,
+      "coherent_cw_ratio_db": -10.15431371557134,
+      "channel_rate_hz": 480000,
+      "metric": "DC coherent CW / all residual PL PFB output power; not occupied-band AMC SNR"
+    }
+  ],
+  "mode3_injection_observed": true,
+  "guards_ok": true,
+  "stop_ensm": 2,
+  "stop_attenuation_db": [
+    89.75,
+    89.75
+  ],
+  "gpio_after_close": 0,
+  "source_after_close": 0,
+  "quarantined": false,
+  "elapsed_s": 14.644231258000218,
+  "capture_sha256": "6150c6a064036565657a37ef7532cf3aff2db669a3a96d5c9abb5e16beefab2c"
+}

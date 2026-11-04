@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "version": "9.11.0.1769968 (R2021b)",
+  "wlan": {
+    "Name": "WLAN Toolbox",
+    "Version": "3.3",
+    "Release": "(R2021b)",
+    "Date": "25-May-2021"
+  },
+  "packet_detect_callable": true,
+  "process_note": "Public wlanNonHTConfig and wlanPacketDetect calls passed. Existing MATLAB exit hook emits Settings error; not treated as clean process shutdown."
+}

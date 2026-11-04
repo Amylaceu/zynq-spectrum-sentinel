@@ -1,0 +1,10 @@
+{
+  "status": "STARTED",
+  "pid": "3574",
+  "configuration": "A",
+  "group": "A",
+  "cycles": 3,
+  "host_authorization": "User confirmed unchanged A and allowed F2 receive/test-source/speaker at -12dB",
+  "deployment_sha256": "ebcb5b50a9390d9d25d8cc467a49e7a249d34eb77e0ae6065bbb4e6632e5fc7d",
+  "log": "/home/xilinx/sentinel/release/v2/logs/F2_demo_r1.log"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "PC runtime compatibility and deployment guards only; no routed, RF, playback or human acceptance",
+  "recorded_utc": "2026-11-03T08:09:20.851876+00:00",
+  "tests_passed": 55,
+  "python38_ast_checked": [
+    "src/ps/sentinel/v_y3.py",
+    "src/ps/sentinel/params.py",
+    "src/ps/sentinel/v2.py",
+    "src/ps/sentinel/drivers/perf.py",
+    "board/scripts/run_y3_audio.py",
+    "board/scripts/run_y3_tone.py",
+    "board/scripts/y3_postflight.py"
+  ],
+  "source_sha256": {
+    "src/ps/sentinel/v_y3.py": "157bc504eee682f04599e1625f1736f05df476917853d9e9555c2e417ccdef9a",
+    "src/ps/sentinel/params.py": "3d0e7a9212efc5d0188ebd2cadcb63960fb26928853b3ae14817249ff64bc9f6",
+    "src/ps/sentinel/v2.py": "5c8c744452c01964312843329d35a5bba0cb7e3479a97f13d92eda4e686b0046",
+    "src/ps/sentinel/drivers/perf.py": "423e58869b16a016c07c8c7e030e6fa4fc0e3d0b5b593d381a931c20595245fa",
+    "board/scripts/run_y3_audio.py": "d5734d6daf867243ed489ab96346cc8a849ba1583b7a97e7ef62942392ee3838",
+    "board/scripts/run_y3_tone.py": "1c6e525babf3245b854974128122ddae3d4f4bc35782e8cbe9019738de24d20b",
+    "board/scripts/y3_postflight.py": "fc5cdd8c0dd07cafbf2d92bb9543d020506d1c924f73885697666c255488598f",
+    "tools/run_y3_board.py": "4503b8185d8f106217cf62e0414aef095ebe2349acef0bf94a0190b3a24caf7a",
+    "tools/run_y3_tone.py": "5cdd293f70664d47a6d56fde3e12667ebc512e599a72954f3c365a58745b903a",
+    "src/ps/tests/test_v2_clock.py": "1629d4836b2f580391d8422080a493043fd40148fe33c41274820cfa3ca878d5",
+    "src/ps/tests/test_audio_y3.py": "59ac684fedf67509f65eee65aac9c8e223be2916a5ffc9f3a6f5f3b4eee5c4cd",
+    "tools/tests/test_run_y3_board.py": "1ac837fbb8d2f573bedef74ca94a9fc15c4784be810c4c334be7792f38f8fec7"
+  },
+  "log": "logs/Z10_runtime_bridge_r3.log",
+  "log_sha256": "bd5587e0bfac699ddc998c842300305cd21ebe2187fdcda06ed9a91b3c747724",
+  "image_selection": [
+    "sentinel_y3:150MHz",
+    "sentinel_v2_100m:100MHz"
+  ],
+  "v2_deployment": "BLOCKED until independently reviewed implementation acceptance and input manifest exist"
+}

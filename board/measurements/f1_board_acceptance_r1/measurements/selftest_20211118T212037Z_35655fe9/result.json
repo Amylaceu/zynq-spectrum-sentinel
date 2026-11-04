@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "RF_TX_requested": false,
+  "audio_playback": false,
+  "product_id": 10,
+  "startup_quality": {
+    "quality": {
+      "good": true,
+      "pilot_frequency_hz": 19023.16494557633,
+      "pilot_prominence_db": 32.037774922798654,
+      "large_excursion_fraction": 0.0,
+      "iq_rms": 0.19175472364315935,
+      "scope": "Stereo pilot/phase integrity; not SNR or station identity"
+    },
+    "noise_event": null,
+    "pilot_pass": true,
+    "quality_pass": true
+  },
+  "telemetry": {
+    "temperature_c": 50.692797851408,
+    "rx_rssi_dbm": -91.75,
+    "tx_atten_mdb": [
+      89750,
+      89750
+    ]
+  }
+}

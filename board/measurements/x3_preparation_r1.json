@@ -1,0 +1,8 @@
+{
+  "status": "FAIL_PREPARATION",
+  "hardware_test_started": false,
+  "reason": "Namespace package __file__ is None in dependency inventory; corrected by skipping namespaces and hashing all imported file modules",
+  "log": "logs/X3_host_r1.log",
+  "log_sha256": "6d764cac0dbe771fc2d7aee9bcdb7f8d725adfcf0dad9e7d3312ac00034157d8",
+  "staging_directory": "/home/xilinx/sentinel/setup/x3_perf_r1"
+}

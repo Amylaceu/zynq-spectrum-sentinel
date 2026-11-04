@@ -1,0 +1,10 @@
+src/rtl/common/axis_fork2.v
+src/rtl/regs/spec_ctrl_regs.v
+src/rtl/spectrum/spec_window.v
+src/rtl/spectrum/spec_power.v
+src/rtl/spectrum/spec_fftshift.v
+src/rtl/spectrum/spec_welch.v
+src/rtl/spectrum/spec_db.v
+src/rtl/spectrum/spec_display_reduce.v
+src/rtl/spectrum/spec_front.v
+sim/tb/tb_spec_front.sv

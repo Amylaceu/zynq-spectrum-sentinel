@@ -1,0 +1,17 @@
+{
+  "status": "READ_ONLY_LOG_OBSERVATION_NOT_OFFLINE_FSCK",
+  "lines": [
+    "[    3.655367] mmcblk1: mmc1:0001 eMMC   7.29 GiB ",
+    "[    3.658932] mmcblk1boot0: mmc1:0001 eMMC   partition 1 4.00 MiB",
+    "[    3.663861] mmcblk1boot1: mmc1:0001 eMMC   partition 2 4.00 MiB",
+    "[    3.668831] mmcblk1rpmb: mmc1:0001 eMMC   partition 3 4.00 MiB, chardev (244:0)",
+    "[    3.678762]  mmcblk1: p1",
+    "[    3.706577] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)",
+    "[    3.713444] VFS: Mounted root (ext4 filesystem) on device 179:2.",
+    "[   41.428035] FAT-fs (mmcblk0p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck."
+  ],
+  "raw_log": "logs\\J8_dmesg_raw.log",
+  "raw_sha256": "5ab48b24df39f9be1749d7b29aa21e4d277020500bfdea88a5395219d9131ed3",
+  "offline_check": "PENDING_CONTROLLED_SHUTDOWN_AND_CARD_ACCESS",
+  "repair_attempted": false
+}
